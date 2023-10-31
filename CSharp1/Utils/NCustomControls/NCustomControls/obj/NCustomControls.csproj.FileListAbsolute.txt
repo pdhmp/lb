@@ -1,0 +1,14 @@
+T:\Resources\NCustomControls.dll
+T:\Resources\NCustomControls.pdb
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NCustomControls.MyGridControl.resources
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NCustomControls.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NCustomControls.dll.licenses
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NCustomControls.dll
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NCustomControls.pdb
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.MyGridControl.resources
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.dll.licenses
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.dll
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.pdb

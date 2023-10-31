@@ -1,0 +1,4 @@
+#Mon Jul 23 11:15:45 BRT 2012
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=subtract hour timestamp

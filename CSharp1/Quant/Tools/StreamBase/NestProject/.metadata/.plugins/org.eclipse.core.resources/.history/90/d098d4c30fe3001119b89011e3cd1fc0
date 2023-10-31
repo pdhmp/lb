@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="DividedOrders">
+        <param name="gui:x" value="-1757.0"/>
+        <param name="gui:y" value="827.0"/>
+        <param name="gui:width" value="142.0"/>
+        <param name="gui:height" value="59.0"/>
+    </component>
+    <component name="NESTSRV06">
+        <param name="gui:x" value="-1749.0"/>
+        <param name="gui:y" value="90.0"/>
+        <param name="gui:width" value="126.0"/>
+        <param name="gui:height" value="59.0"/>
+    </component>
+    <component name="OrdersTable">
+        <param name="gui:x" value="-1752.0"/>
+        <param name="gui:y" value="618.0"/>
+        <param name="gui:width" value="132.0"/>
+        <param name="gui:height" value="59.0"/>
+    </component>
+    <component name="Total">
+        <param name="gui:x" value="-1728.0"/>
+        <param name="gui:y" value="929.0"/>
+        <param name="gui:width" value="84.0"/>
+        <param name="gui:height" value="68.0"/>
+    </component>
+    <component name="Boleta">
+        <param name="gui:x" value="-2291.0"/>
+        <param name="gui:y" value="570.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Command">
+        <param name="gui:x" value="-2184.0"/>
+        <param name="gui:y" value="-74.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InputStream">
+        <param name="gui:x" value="-2291.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MDREQBMF">
+        <param name="gui:x" value="-2291.0"/>
+        <param name="gui:y" value="932.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MDReqInput">
+        <param name="gui:x" value="-2064.0"/>
+        <param name="gui:y" value="476.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Metronome">
+        <param name="gui:x" value="-2064.0"/>
+        <param name="gui:y" value="174.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="OnceInput">
+        <param name="gui:x" value="-2291.0"/>
+        <param name="gui:y" value="20.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="StreamBasetoStreamBaseInput">
+        <param name="gui:x" value="-1717.0"/>
+        <param name="gui:y" value="274.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetCopy">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2184.0"/>
+        <param name="gui:y" value="570.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="184,122,735;133,71,154,264,154,265;128,85"/>
+    </component>
+    <component name="Map">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2184.0"/>
+        <param name="gui:y" value="932.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Map2">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1897.0"/>
+        <param name="gui:y" value="476.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Map4">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2184.0"/>
+        <param name="gui:y" value="20.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="QAMDFIXBOVESPA">
+        <param name="gui:x" value="-1897.0"/>
+        <param name="gui:y" value="353.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="91.0"/>
+        <param name="gui:bends:1" value="-1960.0,507.0;-1934.0,398.0"/>
+    </component>
+    <component name="ReadAllSecurities">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2184.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="184,122,735;133,71,154,264,154,265;128,85"/>
+    </component>
+    <component name="SendOrderPreview">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1897.0"/>
+        <param name="gui:y" value="174.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="TradeBMF">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-1537.0"/>
+        <param name="gui:y" value="274.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetAll">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2064.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="184,122,735;133,71,154,264,154,265;128,85"/>
+    </component>
+    <component name="OutputStream">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-1717.0"/>
+        <param name="gui:y" value="476.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Split">
+        <param name="gui:bends:1" value="-1768.0,398.0;-1768.0,399.0"/>
+        <param name="gui:x" value="-1717.0"/>
+        <param name="gui:y" value="368.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="StreamBasetoStreamBaseOutput">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2064.0"/>
+        <param name="gui:y" value="932.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Union2">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:bends:2" value="-2108.0,51.0;-2090.0,-23.0"/>
+        <param name="gui:x" value="-2064.0"/>
+        <param name="gui:y" value="-64.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="WriteCopy">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-2064.0"/>
+        <param name="gui:y" value="570.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="211,140,842;153,82,176,302,176,304;128,85"/>
+    </component>
+    <component name="Filter">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1897.0"/>
+        <param name="gui:y" value="-64.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetSumBroker">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1897.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Log">
+        <param name="gui:bends:1" value="-1589.0,409.0;-1565.0,509.0"/>
+        <param name="gui:x" value="-1537.0"/>
+        <param name="gui:y" value="478.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MKTDT">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-1537.0"/>
+        <param name="gui:y" value="368.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetIndexComposition">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1717.0"/>
+        <param name="gui:y" value="-54.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Map3">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1717.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Union">
+        <param name="gui:bends:1" value="-1796.0,-43.0;-1740.0,185.0"/>
+        <param name="gui:bends:2" value=""/>
+        <param name="gui:x" value="-1717.0"/>
+        <param name="gui:y" value="164.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetSymbol">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1537.0"/>
+        <param name="gui:y" value="-54.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetTotal">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1537.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="TrendFollow">
+        <param name="gui:x" value="-1537.0"/>
+        <param name="gui:y" value="180.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:bends:1" value="-1603.0,195.0;-1603.0,201.0"/>
+        <param name="gui:bends:2" value="-1612.0,389.0;-1568.0,211.0"/>
+        <param name="gui:bends:3" value="-1613.0,305.0;-1593.0,221.0"/>
+    </component>
+    <component name="CalculateResto">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1343.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertOrder">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value="-1404.0,201.0;-1353.0,527.0"/>
+        <param name="gui:x" value="-1343.0"/>
+        <param name="gui:y" value="496.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Order">
+        <param name="gui:bends" value="-1384.0,201.0;-1370.0,139.0"/>
+        <param name="gui:x" value="-1343.0"/>
+        <param name="gui:y" value="108.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="QSEGS">
+        <param name="gui:bends" value="-1391.0,221.0;-1389.0,233.0"/>
+        <param name="gui:x" value="-1343.0"/>
+        <param name="gui:y" value="202.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SetOutputRequest">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1343.0"/>
+        <param name="gui:y" value="-54.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="CalculateQtyBroker">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1251.0"/>
+        <param name="gui:y" value="692.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetSum">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1251.0"/>
+        <param name="gui:y" value="496.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MDReqMonitor">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-1251.0"/>
+        <param name="gui:y" value="-54.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="CalculateQtyVirtual">
+        <param name="gui:bends:1" value="-1179.0,723.0;-1130.0,433.0"/>
+        <param name="gui:x" value="-1055.0"/>
+        <param name="gui:y" value="402.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="WriteSum">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1055.0"/>
+        <param name="gui:y" value="496.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="UpdateOrdersTable">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-952.0"/>
+        <param name="gui:y" value="402.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="184,122,735;134,72,154,264,154,263;626,415"/>
+    </component>
+    <component name="TFDividedOrders">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-855.0"/>
+        <param name="gui:y" value="402.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

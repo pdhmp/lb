@@ -1,0 +1,4 @@
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Quant\CVMDownload\CVMDownload\bin\Debug\CVMDownload.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Quant\CVMDownload\CVMDownload\bin\Debug\CVMDownload.pdb
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Quant\CVMDownload\CVMDownload\obj\Debug\CVMDownload.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Quant\CVMDownload\CVMDownload\obj\Debug\CVMDownload.pdb

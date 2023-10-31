@@ -1,0 +1,261 @@
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Nest LiveBook.exe.config
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\Nest LiveBook.exe
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\Nest LiveBook.pdb
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Nest LiveBook.exe.manifest
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Nest LiveBook.application
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Nest LiveBook.exe
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Nest LiveBook.pdb
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Basic_Functions.dll
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\NestDLL.dll
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\bin\Debug\Basic_Functions.pdb
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGC.csproj.ResolveComReference.cache
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.Form2.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmEdit.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmCommodities.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmIssuer.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmOpcoes.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmSwap.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.ExListView.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmFuturos.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmCurrency.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmAcoes.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmAdr.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmAtivos.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmIndices.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmConsistency.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmTrades.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmCaixa.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmVol.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmcoluns.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmPass.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmLogin.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmpl.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmPosicoes.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmInsertOrdem.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmInsertTrade.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmMenu.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.Properties.Resources.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.Resource.Form1.resources
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\Nest LiveBook.TrustInfo.xml
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\Nest LiveBook.exe.manifest
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\Nest LiveBook.application
+C:\Documents and Settings\Raphael.NESTINVESTIMENT\Desktop\SGC\obj\Debug\SGN.frmTeste.resources
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Nest LiveBook.exe.config
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\Nest LiveBook.exe
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\Nest LiveBook.pdb
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Nest LiveBook.exe.manifest
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Nest LiveBook.application
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Nest LiveBook.exe
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Nest LiveBook.pdb
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Basic_Functions.dll
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\NestDLL.dll
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\raphael\Desktop\SGC\bin\Debug\Basic_Functions.pdb
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGC.csproj.ResolveComReference.cache
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.Form2.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmEdit.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmCommodities.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmIssuer.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmOpcoes.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmSwap.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.ExListView.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmFuturos.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmCurrency.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmAcoes.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmAdr.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmAtivos.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmIndices.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmConsistency.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmTeste.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmTrades.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmCaixa.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmVol.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmcoluns.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmPass.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmLogin.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmpl.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmPosicoes.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmInsertOrdem.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmInsertTrade.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.frmMenu.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.Properties.Resources.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGN.Resource.Form1.resources
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\Nest LiveBook.TrustInfo.xml
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\Nest LiveBook.exe.manifest
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\Nest LiveBook.application
+C:\Documents and Settings\raphael\Desktop\SGC\obj\Debug\Nest LiveBook.exe.licenses
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Nest LiveBook.exe.config
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\Nest LiveBook.exe
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\Nest LiveBook.pdb
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Nest LiveBook.exe.manifest
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Nest LiveBook.application
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Nest LiveBook.exe
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Nest LiveBook.pdb
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Basic_Functions.dll
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\NestDLL.dll
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\bin\Debug\Basic_Functions.pdb
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmEdit.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmCommodities.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmIssuer.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmOpcoes.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmSwap.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.ExListView.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmFuturos.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmCurrency.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmAcoes.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmAdr.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmAtivos.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmIndices.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmConsistency.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmTeste.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmTrades.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmCaixa.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmVol.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmcoluns.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmPass.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmLogin.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmpl.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmPosicoes.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmInsertOrdem.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmInsertTrade.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmMenu.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.Properties.Resources.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.Resource.Form1.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\Nest LiveBook.exe.licenses
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\Nest LiveBook.TrustInfo.xml
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\Nest LiveBook.exe.manifest
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\Nest LiveBook.application
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmInsertPrice.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmEditPriceTrade.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmStrategy.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmAdmPos.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmEdit_Trades.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmPositions.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmOrders.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.Tela_Divididas.frmExposure_PL.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.Tela_Divididas.frmInsertOrder.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.Tela_Divididas.frmTrades.resources
+C:\Documents and Settings\raphael.NESTINVEST\Desktop\SGC\obj\Debug\SGN.frmCalculateDelta.resources
+N:\TI\Projetos .NET\SGC\bin\Debug\Nest LiveBook.exe.config
+N:\TI\Projetos .NET\SGC\obj\Debug\Nest LiveBook.exe
+N:\TI\Projetos .NET\SGC\obj\Debug\Nest LiveBook.pdb
+N:\TI\Projetos .NET\SGC\bin\Debug\Nest LiveBook.exe.manifest
+N:\TI\Projetos .NET\SGC\bin\Debug\Nest LiveBook.application
+N:\TI\Projetos .NET\SGC\bin\Debug\Nest LiveBook.exe
+N:\TI\Projetos .NET\SGC\bin\Debug\Nest LiveBook.pdb
+N:\TI\Projetos .NET\SGC\bin\Debug\Basic_Functions.dll
+N:\TI\Projetos .NET\SGC\bin\Debug\NestDLL.dll
+N:\TI\Projetos .NET\SGC\bin\Debug\NestDLL.pdb
+N:\TI\Projetos .NET\SGC\bin\Debug\Basic_Functions.pdb
+N:\TI\Projetos .NET\SGC\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmEdit.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmCommodities.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmIssuer.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmOpcoes.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmSwap.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.ExListView.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmFuturos.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmCurrency.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmAcoes.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmAdr.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmAtivos.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmIndices.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmAdmPos.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmConsistency.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmEditPriceTrade.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmEdit_Trades.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmInsertPrice.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.Tela_Divididas.frmExposure_PL.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.Tela_Divididas.frmInsertOrder.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmOrders.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmPositions.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmStrategy.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.Tela_Divididas.frmTrades.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmCalculateDelta.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmTeste.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmTrades.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmCaixa.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmVol.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmcoluns.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmPass.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmLogin.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmpl.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmPosicoes.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmInsertOrdem.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmInsertTrade.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.frmMenu.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.Properties.Resources.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGN.Resource.Form1.resources
+N:\TI\Projetos .NET\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+N:\TI\Projetos .NET\SGC\obj\Debug\Nest LiveBook.exe.licenses
+N:\TI\Projetos .NET\SGC\obj\Debug\Nest LiveBook.TrustInfo.xml
+N:\TI\Projetos .NET\SGC\obj\Debug\Nest LiveBook.exe.manifest
+N:\TI\Projetos .NET\SGC\obj\Debug\Nest LiveBook.application
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.exe.config
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.exe
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.pdb
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.exe.manifest
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.application
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.exe
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.pdb
+N:\TI\Projects\CSharp\SGC\bin\Debug\Basic_Functions.dll
+N:\TI\Projects\CSharp\SGC\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\SGC\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\SGC\bin\Debug\Basic_Functions.pdb
+N:\TI\Projects\CSharp\SGC\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmEdit.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCommodities.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmIssuer.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmOpcoes.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmSwap.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.ExListView.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmFuturos.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCurrency.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAcoes.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAdr.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAtivos.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmIndices.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAdmPos.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmConsistency.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmEditPriceTrade.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmEdit_Trades.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmInsertPrice.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Tela_Divididas.frmExposure_PL.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Tela_Divididas.frmInsertOrder.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmOrders.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmPositions.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmStrategy.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Tela_Divididas.frmTrades.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCalculateDelta.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmTeste.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmTrades.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCaixa.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmVol.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmcoluns.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmPass.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmLogin.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmpl.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmPosicoes.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmInsertOrdem.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmInsertTrade.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmMenu.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Properties.Resources.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Resource.Form1.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.exe.licenses
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.TrustInfo.xml
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.exe.manifest
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.application
+C:\temp\livebook\Nest LiveBook.exe.config
+C:\temp\livebook\Nest LiveBook.exe.manifest
+C:\temp\livebook\Nest LiveBook.application
+C:\temp\livebook\Nest LiveBook.exe
+C:\temp\livebook\Nest LiveBook.pdb

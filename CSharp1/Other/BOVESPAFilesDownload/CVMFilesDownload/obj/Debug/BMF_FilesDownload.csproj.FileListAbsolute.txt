@@ -1,0 +1,2 @@
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.pdb

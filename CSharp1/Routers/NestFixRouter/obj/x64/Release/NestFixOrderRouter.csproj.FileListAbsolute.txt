@@ -1,0 +1,16 @@
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\config\FIX42.xml
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\config\FIX44_XP_0.9.xml
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\config\acceptor.cfg
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\config\initiator.cfg
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\NestFixRouter.exe.config
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\NestFixRouter.exe
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\NestFixRouter.pdb
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\quickfix_net.dll
+T:\Projects\CSharp\Routers\NestFixRouter\bin\x64\Release\quickfix_net_messages.dll
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\ResolveAssemblyReference.cache
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\NestFixRouter.frmRouter.resources
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\NestFixRouter.Properties.Resources.resources
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\ResGen.read.1.tlog
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\ResGen.write.1.tlog
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\NestFixRouter.exe
+T:\Projects\CSharp\Routers\NestFixRouter\obj\x64\Release\NestFixRouter.pdb

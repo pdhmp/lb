@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Feed_Bloomberg">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg.suo">
+</Property><Property Name="Date" Value="segunda-feira, 21 de janeiro de 2013">
+</Property><Property Name="Time" Value="15:29">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Feed_Bloomberg.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Feed_Bloomberg.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg.suo">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Feed_Bloomberg.csproj">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg.csproj.user" Description="Project user file successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Feed_Bloomberg.csproj.user">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Engine\BLP.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Engine\BLP.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Engine\Backup_Reuters.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Engine\Backup_Reuters.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Engine\Feed_Fundamentals.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Engine\Feed_Fundamentals.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Engine\Feeder.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Engine\Feeder.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Engine\Feed_BBG.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Engine\Feed_BBG.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\GUI\Form1.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\GUI\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\GUI\Form1.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\GUI\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Log\Log.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Log\Log.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Program.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\app.config" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\app.config">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\FeederNest_TemporaryKey.pfx" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\FeederNest_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg_TemporaryKey.pfx" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Feed_Bloomberg_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\GUI\Form1.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\GUI\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Properties\app.manifest" Description="File successfully backed up as N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Backup\Feed_Bloomberg\Properties\app.manifest">
+</Event><Event ErrorLevel="1" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Feed_Bloomberg.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Feed_Bloomberg.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Feed_Bloomberg" Source="Feed_Bloomberg\Feed_Bloomberg.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

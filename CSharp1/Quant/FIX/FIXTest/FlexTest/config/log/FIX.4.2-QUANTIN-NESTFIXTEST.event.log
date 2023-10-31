@@ -1,0 +1,2969 @@
+20100420-20:44:05 : Created session
+20100420-20:44:05 : Connecting to 192.168.0.99 on port 13999
+20100420-20:44:06 : Initiated logon request
+20100420-20:44:06 : Received logon response
+20100420-20:45:15 : Received logout request
+20100420-20:45:15 : Sending logout response
+20100420-20:45:15 : Disconnecting
+20100420-20:45:36 : Connecting to 192.168.0.99 on port 13999
+20100420-20:45:36 : Initiated logon request
+20100420-20:45:36 : Received logon response
+20100420-20:47:48 : Sent test request TEST
+20100420-20:48:11 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100420-20:48:11 : Disconnecting
+20100420-20:48:37 : Connecting to 192.168.0.99 on port 13999
+20100420-20:48:38 : Disconnecting
+20100420-20:49:07 : Connecting to 192.168.0.99 on port 13999
+20100420-20:49:07 : Disconnecting
+20100420-20:49:37 : Connecting to 192.168.0.99 on port 13999
+20100420-20:49:38 : Disconnecting
+20100420-20:50:07 : Connecting to 192.168.0.99 on port 13999
+20100420-20:50:08 : Disconnecting
+20100420-20:50:37 : Connecting to 192.168.0.99 on port 13999
+20100420-20:50:38 : Disconnecting
+20100420-20:51:07 : Connecting to 192.168.0.99 on port 13999
+20100420-20:51:07 : Disconnecting
+20100420-20:51:37 : Connecting to 192.168.0.99 on port 13999
+20100420-20:51:38 : Disconnecting
+20100420-20:52:07 : Connecting to 192.168.0.99 on port 13999
+20100420-20:52:07 : Initiated logon request
+20100420-20:52:22 : Timed out waiting for logon response
+20100420-20:52:22 : Disconnecting
+20100420-20:52:37 : Connecting to 192.168.0.99 on port 13999
+20100420-20:52:37 : Initiated logon request
+20100420-20:52:38 : Received logon response
+20100420-20:52:38 : MsgSeqNum too high, expecting 6 but received 8
+20100420-20:52:38 : Sent ResendRequest FROM: 6 TO: 0
+20100420-20:52:39 : Received ResendRequest FROM: 6 TO: 0
+20100420-20:52:39 : Sent SequenceReset TO: 11
+20100420-20:52:41 : Received SequenceReset FROM: 6 TO: 10
+20100420-20:53:42 : ResendRequest for messages FROM: 6 TO: 7 has been satisfied.
+20100420-20:56:54 : Sent test request TEST
+20100420-20:58:04 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100420-20:58:04 : Disconnecting
+20100420-20:58:07 : Connecting to 192.168.0.99 on port 13999
+20100420-20:58:08 : Disconnecting
+20100420-20:59:30 : Created session
+20100420-20:59:30 : Connecting to 192.168.0.99 on port 13999
+20100420-20:59:30 : Initiated logon request
+20100420-20:59:30 : Received logon response
+20100420-21:00:19 : Received logout request
+20100420-21:00:19 : Sending logout response
+20100420-21:00:19 : Disconnecting
+20100420-21:00:31 : Connecting to 192.168.0.99 on port 13999
+20100420-21:00:32 : Disconnecting
+20100420-21:01:01 : Connecting to 192.168.0.99 on port 13999
+20100420-21:01:02 : Disconnecting
+20100420-21:01:31 : Connecting to 192.168.0.99 on port 13999
+20100420-21:01:32 : Disconnecting
+20100420-21:02:01 : Connecting to 192.168.0.99 on port 13999
+20100420-21:02:02 : Disconnecting
+20100420-21:02:31 : Connecting to 192.168.0.99 on port 13999
+20100420-21:02:32 : Disconnecting
+20100420-21:03:01 : Connecting to 192.168.0.99 on port 13999
+20100420-21:03:02 : Disconnecting
+20100420-21:03:31 : Connecting to 192.168.0.99 on port 13999
+20100420-21:03:31 : Initiated logon request
+20100420-21:03:31 : Received logon response
+20100420-21:06:46 : Sent test request TEST
+20100420-21:39:37 : Received logout request
+20100420-21:39:37 : Sending logout response
+20100420-21:39:37 : Disconnecting
+20100420-22:17:33 : Created session
+20100420-22:17:33 : Connecting to 192.168.0.99 on port 13999
+20100420-22:17:33 : Initiated logon request
+20100420-22:17:33 : Received logon response
+20100420-22:18:48 : Initiated logout request
+20100420-22:18:48 : Received logout response
+20100420-22:18:48 : Disconnecting
+20100420-22:19:01 : Created session
+20100420-22:19:01 : Connecting to 192.168.0.99 on port 13999
+20100420-22:19:01 : Initiated logon request
+20100420-22:19:01 : Received logon response
+20100420-22:24:17 : Sent test request TEST
+20100420-22:28:04 : Received logout request
+20100420-22:28:04 : Sending logout response
+20100420-22:28:04 : Disconnecting
+20100420-22:28:32 : Connecting to 192.168.0.99 on port 13999
+20100420-22:28:33 : Disconnecting
+20100420-22:29:02 : Connecting to 192.168.0.99 on port 13999
+20100420-22:29:03 : Disconnecting
+20100420-23:09:19 : Created session
+20100420-23:09:19 : Connecting to 192.168.0.99 on port 13999
+20100420-23:09:19 : Initiated logon request
+20100420-23:09:19 : Received logon response
+20100420-23:13:32 : Sent test request TEST
+20100420-23:17:10 : Sent test request TEST
+20100420-23:19:11 : Sent test request TEST
+20100420-23:20:33 : Sent test request TEST
+20100422-12:51:11 : Created session
+20100422-12:51:11 : Connecting to 192.168.0.99 on port 13999
+20100422-12:51:11 : Initiated logon request
+20100422-12:51:11 : Received logon response
+20100423-20:56:30 : Created session
+20100423-20:56:30 : Connecting to 192.168.0.99 on port 13999
+20100423-20:56:30 : Initiated logon request
+20100423-20:56:30 : Received logon response
+20100423-20:57:41 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100423-20:57:41 : Disconnecting
+20100423-21:00:12 : Created session
+20100423-21:00:12 : Connecting to 192.168.0.99 on port 13999
+20100423-21:00:13 : Initiated logon request
+20100423-21:00:13 : Received logon response
+20100423-21:01:25 : Sent test request TEST
+20100423-21:02:37 : Timed out waiting for heartbeat
+20100423-21:02:37 : Disconnecting
+20100423-21:02:43 : Connecting to 192.168.0.99 on port 13999
+20100423-21:02:43 : Initiated logon request
+20100423-21:02:58 : Timed out waiting for logon response
+20100423-21:02:58 : Disconnecting
+20100423-21:03:13 : Connecting to 192.168.0.99 on port 13999
+20100423-21:03:13 : Initiated logon request
+20100423-21:03:28 : Timed out waiting for logon response
+20100423-21:03:28 : Disconnecting
+20100423-21:03:43 : Connecting to 192.168.0.99 on port 13999
+20100423-21:03:43 : Initiated logon request
+20100423-21:03:58 : Timed out waiting for logon response
+20100423-21:03:58 : Disconnecting
+20100423-21:04:13 : Connecting to 192.168.0.99 on port 13999
+20100423-21:04:13 : Initiated logon request
+20100423-21:04:28 : Timed out waiting for logon response
+20100423-21:04:28 : Disconnecting
+20100423-21:04:43 : Connecting to 192.168.0.99 on port 13999
+20100423-21:04:43 : Initiated logon request
+20100423-21:04:58 : Timed out waiting for logon response
+20100423-21:04:58 : Disconnecting
+20100423-21:05:13 : Connecting to 192.168.0.99 on port 13999
+20100423-21:05:13 : Initiated logon request
+20100423-21:05:28 : Timed out waiting for logon response
+20100423-21:05:28 : Disconnecting
+20100423-21:05:43 : Connecting to 192.168.0.99 on port 13999
+20100423-21:05:43 : Initiated logon request
+20100423-21:05:58 : Timed out waiting for logon response
+20100423-21:05:58 : Disconnecting
+20100423-21:06:13 : Connecting to 192.168.0.99 on port 13999
+20100423-21:06:13 : Initiated logon request
+20100423-21:06:28 : Timed out waiting for logon response
+20100423-21:06:28 : Disconnecting
+20100423-21:06:43 : Connecting to 192.168.0.99 on port 13999
+20100423-21:06:43 : Initiated logon request
+20100423-21:06:58 : Timed out waiting for logon response
+20100423-21:06:58 : Disconnecting
+20100423-21:07:13 : Connecting to 192.168.0.99 on port 13999
+20100423-21:07:13 : Initiated logon request
+20100423-21:07:28 : Timed out waiting for logon response
+20100423-21:07:28 : Disconnecting
+20100423-21:07:43 : Connecting to 192.168.0.99 on port 13999
+20100423-21:07:43 : Initiated logon request
+20100423-21:07:55 : Received logon response
+20100423-21:07:55 : MsgSeqNum too high, expecting 3 but received 13
+20100423-21:07:55 : Sent ResendRequest FROM: 3 TO: 0
+20100423-21:07:55 : Received ResendRequest FROM: 5 TO: 0
+20100423-21:07:55 : Sent SequenceReset TO: 19
+20100423-21:07:55 : Received SequenceReset FROM: 3 TO: 15
+20100423-21:08:55 : ResendRequest for messages FROM: 3 TO: 12 has been satisfied.
+20100423-21:14:03 : Received logout request
+20100423-21:14:03 : Sending logout response
+20100423-21:14:03 : Disconnecting
+20100423-21:14:13 : Connecting to 192.168.0.99 on port 13999
+20100423-21:14:14 : Disconnecting
+20100426-18:33:39 : Created session
+20100426-18:33:39 : Connecting to 192.168.0.99 on port 13999
+20100426-18:33:39 : Initiated logon request
+20100426-18:33:39 : Received logon response
+20100426-18:35:56 : Sent test request TEST
+20100426-18:36:08 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:36:08 : Disconnecting
+20100426-18:36:10 : Connecting to 192.168.0.99 on port 13999
+20100426-18:36:11 : Disconnecting
+20100426-18:36:40 : Connecting to 192.168.0.99 on port 13999
+20100426-18:36:40 : Initiated logon request
+20100426-18:36:40 : Received logon response
+20100426-18:36:40 : Received ResendRequest FROM: 4 TO: 0
+20100426-18:36:40 : Sent SequenceReset TO: 7
+20100426-18:37:35 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:37:35 : Disconnecting
+20100426-18:37:40 : Connecting to 192.168.0.99 on port 13999
+20100426-18:37:41 : Disconnecting
+20100426-18:38:10 : Connecting to 192.168.0.99 on port 13999
+20100426-18:38:10 : Initiated logon request
+20100426-18:38:18 : Received logon response
+20100426-18:38:18 : Received ResendRequest FROM: 8 TO: 0
+20100426-18:38:18 : Resending Message: 8
+20100426-18:38:18 : Sent SequenceReset TO: 10
+20100426-18:38:18 : Received logout request
+20100426-18:38:18 : Sending logout response
+20100426-18:38:18 : Disconnecting
+20100426-18:38:40 : Connecting to 192.168.0.99 on port 13999
+20100426-18:38:40 : Initiated logon request
+20100426-18:38:40 : Received logon response
+20100426-18:39:23 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:39:23 : Disconnecting
+20100426-18:39:40 : Connecting to 192.168.0.99 on port 13999
+20100426-18:39:41 : Disconnecting
+20100426-18:40:10 : Connecting to 192.168.0.99 on port 13999
+20100426-18:40:11 : Disconnecting
+20100426-18:44:09 : Created session
+20100426-18:44:09 : Connecting to 192.168.0.99 on port 13999
+20100426-18:44:10 : Initiated logon request
+20100426-18:44:10 : Received logon response
+20100426-18:45:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:45:10 : Disconnecting
+20100426-18:45:11 : Connecting to 192.168.0.99 on port 13999
+20100426-18:45:12 : Disconnecting
+20100426-18:45:41 : Connecting to 192.168.0.99 on port 13999
+20100426-18:45:42 : Disconnecting
+20100426-18:46:11 : Connecting to 192.168.0.99 on port 13999
+20100426-18:46:12 : Disconnecting
+20100426-18:46:41 : Connecting to 192.168.0.99 on port 13999
+20100426-18:46:41 : Initiated logon request
+20100426-18:46:41 : Received logon response
+20100426-18:46:41 : Received ResendRequest FROM: 15 TO: 0
+20100426-18:46:41 : Resending Message: 15
+20100426-18:46:41 : Sent SequenceReset TO: 17
+20100426-18:47:03 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:47:03 : Disconnecting
+20100426-18:47:11 : Connecting to 192.168.0.99 on port 13999
+20100426-18:47:11 : Initiated logon request
+20100426-18:47:11 : Received logon response
+20100426-18:47:11 : Received ResendRequest FROM: 17 TO: 0
+20100426-18:47:11 : Resending Message: 17
+20100426-18:47:11 : Sent SequenceReset TO: 19
+20100426-18:48:23 : Sent test request TEST
+20100426-18:50:54 : Sent test request TEST
+20100426-18:53:18 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:53:18 : Disconnecting
+20100426-18:53:41 : Connecting to 192.168.0.99 on port 13999
+20100426-18:53:42 : Disconnecting
+20100426-18:54:11 : Connecting to 192.168.0.99 on port 13999
+20100426-18:54:11 : Initiated logon request
+20100426-18:54:11 : Received logon response
+20100426-18:55:23 : Sent test request TEST
+20100426-18:56:46 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:56:46 : Disconnecting
+20100426-18:57:11 : Connecting to 192.168.0.99 on port 13999
+20100426-18:57:12 : Disconnecting
+20100426-18:57:41 : Connecting to 192.168.0.99 on port 13999
+20100426-18:57:41 : Initiated logon request
+20100426-18:57:41 : Received logon response
+20100426-18:58:52 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-18:58:52 : Disconnecting
+20100426-18:59:11 : Connecting to 192.168.0.99 on port 13999
+20100426-18:59:11 : Initiated logon request
+20100426-18:59:11 : Received logon response
+20100426-18:59:11 : Received ResendRequest FROM: 34 TO: 0
+20100426-18:59:11 : Sent SequenceReset TO: 36
+20100426-19:03:33 : Sent test request TEST
+20100426-19:07:50 : Sent test request TEST
+20100426-19:09:58 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-19:09:58 : Disconnecting
+20100426-19:10:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:10:12 : Disconnecting
+20100426-19:10:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:10:43 : Disconnecting
+20100426-19:11:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:11:12 : Disconnecting
+20100426-19:11:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:11:43 : Disconnecting
+20100426-19:12:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:12:12 : Disconnecting
+20100426-19:12:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:12:42 : Disconnecting
+20100426-19:13:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:13:12 : Disconnecting
+20100426-19:13:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:13:42 : Disconnecting
+20100426-19:14:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:14:12 : Disconnecting
+20100426-19:14:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:14:42 : Disconnecting
+20100426-19:15:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:15:12 : Disconnecting
+20100426-19:15:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:15:42 : Disconnecting
+20100426-19:16:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:16:12 : Disconnecting
+20100426-19:16:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:16:42 : Disconnecting
+20100426-19:17:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:17:12 : Disconnecting
+20100426-19:17:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:17:42 : Disconnecting
+20100426-19:18:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:18:12 : Disconnecting
+20100426-19:18:41 : Connecting to 192.168.0.99 on port 13999
+20100426-19:18:42 : Disconnecting
+20100426-19:19:11 : Connecting to 192.168.0.99 on port 13999
+20100426-19:19:12 : Disconnecting
+20100426-19:26:26 : Created session
+20100426-19:26:26 : Connecting to 192.168.0.99 on port 13999
+20100426-19:26:26 : Initiated logon request
+20100426-19:26:26 : Received logon response
+20100426-19:26:26 : Received ResendRequest FROM: 49 TO: 0
+20100426-19:26:26 : Sent SequenceReset TO: 51
+20100426-19:27:20 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-19:27:20 : Disconnecting
+20100426-19:27:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:27:27 : Initiated logon request
+20100426-19:27:27 : Received logon response
+20100426-19:28:39 : Sent test request TEST
+20100426-19:31:53 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100426-19:31:53 : Disconnecting
+20100426-19:31:57 : Connecting to 192.168.0.99 on port 13999
+20100426-19:31:58 : Disconnecting
+20100426-19:32:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:32:28 : Disconnecting
+20100426-19:32:57 : Connecting to 192.168.0.99 on port 13999
+20100426-19:32:58 : Disconnecting
+20100426-19:33:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:33:28 : Disconnecting
+20100426-19:33:57 : Connecting to 192.168.0.99 on port 13999
+20100426-19:33:58 : Disconnecting
+20100426-19:34:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:34:28 : Disconnecting
+20100426-19:34:57 : Connecting to 192.168.0.99 on port 13999
+20100426-19:34:58 : Disconnecting
+20100426-19:35:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:35:28 : Disconnecting
+20100426-19:35:57 : Connecting to 192.168.0.99 on port 13999
+20100426-19:35:58 : Disconnecting
+20100426-19:36:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:36:28 : Disconnecting
+20100426-19:36:57 : Connecting to 192.168.0.99 on port 13999
+20100426-19:36:58 : Disconnecting
+20100426-19:37:27 : Connecting to 192.168.0.99 on port 13999
+20100426-19:37:28 : Disconnecting
+20100427-15:37:24 : Created session
+20100427-15:37:24 : Connecting to 192.168.0.99 on port 13999
+20100427-15:37:24 : Initiated logon request
+20100427-15:37:24 : Received logon response
+20100427-15:39:36 : Sent test request TEST
+20100427-15:40:51 : Sent test request TEST
+20100427-15:42:27 : Sent test request TEST
+20100427-15:44:39 : Sent test request TEST
+20100427-15:45:51 : Timed out waiting for heartbeat
+20100427-15:45:51 : Disconnecting
+20100427-15:45:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:45:55 : Initiated logon request
+20100427-15:46:10 : Timed out waiting for logon response
+20100427-15:46:10 : Disconnecting
+20100427-15:46:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:46:25 : Initiated logon request
+20100427-15:46:40 : Timed out waiting for logon response
+20100427-15:46:40 : Disconnecting
+20100427-15:46:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:46:55 : Initiated logon request
+20100427-15:47:10 : Timed out waiting for logon response
+20100427-15:47:10 : Disconnecting
+20100427-15:47:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:47:25 : Initiated logon request
+20100427-15:47:40 : Timed out waiting for logon response
+20100427-15:47:40 : Disconnecting
+20100427-15:47:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:47:55 : Initiated logon request
+20100427-15:48:10 : Timed out waiting for logon response
+20100427-15:48:10 : Disconnecting
+20100427-15:48:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:48:25 : Initiated logon request
+20100427-15:48:40 : Timed out waiting for logon response
+20100427-15:48:40 : Disconnecting
+20100427-15:48:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:48:55 : Initiated logon request
+20100427-15:49:10 : Timed out waiting for logon response
+20100427-15:49:10 : Disconnecting
+20100427-15:49:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:49:25 : Initiated logon request
+20100427-15:49:40 : Timed out waiting for logon response
+20100427-15:49:40 : Disconnecting
+20100427-15:49:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:49:55 : Initiated logon request
+20100427-15:50:10 : Timed out waiting for logon response
+20100427-15:50:10 : Disconnecting
+20100427-15:50:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:50:25 : Initiated logon request
+20100427-15:50:40 : Timed out waiting for logon response
+20100427-15:50:40 : Disconnecting
+20100427-15:50:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:50:55 : Initiated logon request
+20100427-15:51:10 : Timed out waiting for logon response
+20100427-15:51:10 : Disconnecting
+20100427-15:51:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:51:25 : Initiated logon request
+20100427-15:51:40 : Timed out waiting for logon response
+20100427-15:51:40 : Disconnecting
+20100427-15:51:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:51:55 : Initiated logon request
+20100427-15:52:10 : Timed out waiting for logon response
+20100427-15:52:10 : Disconnecting
+20100427-15:52:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:52:25 : Initiated logon request
+20100427-15:52:40 : Timed out waiting for logon response
+20100427-15:52:40 : Disconnecting
+20100427-15:52:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:52:55 : Initiated logon request
+20100427-15:53:10 : Timed out waiting for logon response
+20100427-15:53:10 : Disconnecting
+20100427-15:53:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:53:25 : Initiated logon request
+20100427-15:53:40 : Timed out waiting for logon response
+20100427-15:53:40 : Disconnecting
+20100427-15:53:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:53:55 : Initiated logon request
+20100427-15:54:10 : Timed out waiting for logon response
+20100427-15:54:10 : Disconnecting
+20100427-15:54:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:54:25 : Initiated logon request
+20100427-15:54:40 : Timed out waiting for logon response
+20100427-15:54:40 : Disconnecting
+20100427-15:54:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:54:55 : Initiated logon request
+20100427-15:55:10 : Timed out waiting for logon response
+20100427-15:55:10 : Disconnecting
+20100427-15:55:25 : Connecting to 192.168.0.99 on port 13999
+20100427-15:55:25 : Initiated logon request
+20100427-15:55:40 : Timed out waiting for logon response
+20100427-15:55:40 : Disconnecting
+20100427-15:55:55 : Connecting to 192.168.0.99 on port 13999
+20100427-15:55:55 : Initiated logon request
+20100427-15:55:55 : Received logon response
+20100427-15:55:55 : MsgSeqNum too high, expecting 10 but received 30
+20100427-15:55:55 : Sent ResendRequest FROM: 10 TO: 0
+20100427-15:55:55 : Received ResendRequest FROM: 10 TO: 0
+20100427-15:55:56 : Sent SequenceReset TO: 34
+20100427-15:55:56 : Received SequenceReset FROM: 10 TO: 32
+20100427-15:57:08 : Sent test request TEST
+20100427-15:57:40 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100427-15:57:40 : Disconnecting
+20100427-16:16:27 : Created session
+20100427-16:16:27 : Connecting to 192.168.0.99 on port 13999
+20100427-16:16:27 : Initiated logon request
+20100427-16:16:27 : Received logon response
+20100427-16:16:27 : Received ResendRequest FROM: 35 TO: 0
+20100427-16:16:27 : Sent SequenceReset TO: 37
+20100427-16:19:48 : Sent test request TEST
+20100427-16:20:14 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100427-16:20:14 : Disconnecting
+20100505-18:29:52 : Created session
+20100505-18:29:53 : Connecting to 192.168.0.99 on port 13999
+20100505-18:29:53 : Initiated logon request
+20100505-18:29:53 : Received logon response
+20100505-18:36:13 : Sent test request TEST
+20100505-18:37:34 : Sent test request TEST
+20100505-18:38:48 : Sent test request TEST
+20100505-18:40:07 : Sent test request TEST
+20100505-18:41:19 : Timed out waiting for heartbeat
+20100505-18:41:19 : Disconnecting
+20100505-18:41:24 : Connecting to 192.168.0.99 on port 13999
+20100505-18:41:24 : Initiated logon request
+20100505-18:41:36 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100505-18:41:36 : Disconnecting
+20100505-18:41:54 : Connecting to 192.168.0.99 on port 13999
+20100505-18:41:55 : Disconnecting
+20100505-18:42:24 : Connecting to 192.168.0.99 on port 13999
+20100505-18:42:25 : Disconnecting
+20100505-18:42:54 : Connecting to 192.168.0.99 on port 13999
+20100505-18:42:55 : Disconnecting
+20100505-18:43:24 : Connecting to 192.168.0.99 on port 13999
+20100505-18:43:25 : Disconnecting
+20100505-18:43:54 : Connecting to 192.168.0.99 on port 13999
+20100505-18:43:55 : Disconnecting
+20100505-18:44:24 : Connecting to 192.168.0.99 on port 13999
+20100505-18:44:25 : Disconnecting
+20100505-18:44:54 : Connecting to 192.168.0.99 on port 13999
+20100505-18:44:55 : Disconnecting
+20100505-18:45:24 : Connecting to 192.168.0.99 on port 13999
+20100505-18:45:25 : Disconnecting
+20100505-18:45:54 : Connecting to 192.168.0.99 on port 13999
+20100505-18:45:55 : Disconnecting
+20100505-18:46:24 : Connecting to 192.168.0.99 on port 13999
+20100505-18:46:25 : Disconnecting
+20100505-18:46:54 : Connecting to 192.168.0.99 on port 13999
+20100505-18:46:55 : Disconnecting
+20100505-18:50:16 : Created session
+20100505-18:50:16 : Connecting to 192.168.0.99 on port 13999
+20100505-18:50:16 : Initiated logon request
+20100505-18:50:16 : Received logon response
+20100505-18:50:16 : Received ResendRequest FROM: 12 TO: 0
+20100505-18:50:16 : Sent SequenceReset TO: 18
+20100505-18:51:28 : Sent test request TEST
+20100505-18:52:26 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100505-18:52:26 : Disconnecting
+20100505-21:35:49 : Created session
+20100505-21:35:49 : Connecting to 192.168.0.99 on port 13999
+20100505-21:35:49 : Initiated logon request
+20100505-21:35:49 : Received logon response
+20100505-21:36:43 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100505-21:36:43 : Disconnecting
+20100505-21:37:55 : Created session
+20100505-21:37:55 : Connecting to 192.168.0.99 on port 13999
+20100505-21:37:55 : Initiated logon request
+20100505-21:37:55 : Received logon response
+20100505-21:39:07 : Sent test request TEST
+20100505-21:40:31 : Sent test request TEST
+20100505-21:47:16 : Received logout request
+20100505-21:47:16 : Sending logout response
+20100505-21:47:16 : Disconnecting
+20100505-21:47:26 : Connecting to 192.168.0.99 on port 13999
+20100505-21:47:27 : Disconnecting
+20100506-13:54:29 : Created session
+20100506-13:54:29 : Connecting to 192.168.0.99 on port 13999
+20100506-13:54:29 : Initiated logon request
+20100506-13:54:29 : Received logon response
+20100506-13:56:30 : Created session
+20100506-13:56:31 : Connecting to 192.168.0.99 on port 13999
+20100506-13:56:31 : Initiated logon request
+20100506-13:56:31 : Received logon response
+20100506-13:56:31 : MsgSeqNum too high, expecting 2 but received 4
+20100506-13:56:31 : Sent ResendRequest FROM: 2 TO: 0
+20100506-13:56:31 : Received SequenceReset FROM: 2 TO: 5
+20100506-14:00:58 : Created session
+20100506-14:00:58 : Connecting to 192.168.0.99 on port 13999
+20100506-14:00:58 : Initiated logon request
+20100506-14:00:58 : Received logon response
+20100506-14:05:07 : Sent test request TEST
+20100506-14:10:23 : Received logout request
+20100506-14:10:23 : Sending logout response
+20100506-14:10:23 : Disconnecting
+20100506-14:10:38 : Connecting to 192.168.0.99 on port 13999
+20100506-14:10:39 : Disconnecting
+20100506-14:11:08 : Connecting to 192.168.0.99 on port 13999
+20100506-14:11:09 : Disconnecting
+20100506-14:11:38 : Connecting to 192.168.0.99 on port 13999
+20100506-14:11:39 : Disconnecting
+20100506-14:12:08 : Connecting to 192.168.0.99 on port 13999
+20100506-14:12:09 : Disconnecting
+20100506-14:12:38 : Connecting to 192.168.0.99 on port 13999
+20100506-14:12:39 : Disconnecting
+20100506-14:13:08 : Connecting to 192.168.0.99 on port 13999
+20100506-14:13:09 : Disconnecting
+20100506-14:13:38 : Connecting to 192.168.0.99 on port 13999
+20100506-14:13:39 : Disconnecting
+20100506-14:14:08 : Connecting to 192.168.0.99 on port 13999
+20100506-14:14:08 : Initiated logon request
+20100506-14:14:08 : Received logon response
+20100506-14:16:18 : Sent test request TEST
+20100506-14:20:10 : Sent test request TEST
+20100506-14:23:45 : Created session
+20100506-14:23:45 : Connecting to 192.168.0.99 on port 13999
+20100506-14:23:45 : Initiated logon request
+20100506-14:23:45 : Received logon response
+20100506-14:36:23 : Created session
+20100506-14:36:23 : Connecting to 192.168.0.99 on port 13999
+20100506-14:36:23 : Initiated logon request
+20100506-14:36:23 : Received logon response
+20100506-14:37:12 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100506-14:37:12 : Disconnecting
+20100506-14:37:24 : Connecting to 192.168.0.99 on port 13999
+20100506-14:37:25 : Disconnecting
+20100506-14:37:54 : Connecting to 192.168.0.99 on port 13999
+20100506-14:37:56 : Disconnecting
+20100506-14:38:24 : Connecting to 192.168.0.99 on port 13999
+20100506-14:38:24 : Initiated logon request
+20100506-14:38:24 : Received logon response
+20100506-14:38:24 : Received ResendRequest FROM: 30 TO: 0
+20100506-14:38:24 : Resending Message: 30
+20100506-14:38:24 : Sent SequenceReset TO: 32
+20100506-14:42:41 : Sent test request TEST
+20100506-14:45:32 : Sent test request TEST
+20100506-14:46:44 : Timed out waiting for heartbeat
+20100506-14:46:44 : Disconnecting
+20100506-14:46:54 : Connecting to 192.168.0.99 on port 13999
+20100506-14:46:54 : Initiated logon request
+20100506-14:47:09 : Timed out waiting for logon response
+20100506-14:47:09 : Disconnecting
+20100506-14:47:24 : Connecting to 192.168.0.99 on port 13999
+20100506-14:47:24 : Initiated logon request
+20100506-14:47:39 : Timed out waiting for logon response
+20100506-14:47:39 : Disconnecting
+20100506-14:48:06 : Created session
+20100506-14:48:06 : Connecting to 192.168.0.99 on port 13999
+20100506-14:48:06 : Initiated logon request
+20100506-14:48:06 : Received logon response
+20100506-14:48:06 : MsgSeqNum too high, expecting 42 but received 44
+20100506-14:48:06 : Sent ResendRequest FROM: 42 TO: 0
+20100506-14:48:06 : Received ResendRequest FROM: 39 TO: 0
+20100506-14:48:06 : Sent SequenceReset TO: 45
+20100506-14:48:06 : Received SequenceReset FROM: 42 TO: 46
+20100506-14:49:18 : Sent test request TEST
+20100506-14:49:21 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100506-14:49:21 : Disconnecting
+20100506-17:13:31 : Created session
+20100506-17:13:31 : Connecting to 192.168.0.99 on port 13999
+20100506-17:13:31 : Initiated logon request
+20100506-17:13:31 : Received logon response
+20100506-17:13:31 : Received ResendRequest FROM: 46 TO: 0
+20100506-17:13:31 : Sent SequenceReset TO: 49
+20100506-17:16:33 : Sent test request TEST
+20100506-17:18:28 : Sent test request TEST
+20100506-17:20:50 : Sent test request TEST
+20100506-17:23:17 : Sent test request TEST
+20100506-17:24:29 : Timed out waiting for heartbeat
+20100506-17:24:29 : Disconnecting
+20100506-17:24:32 : Connecting to 192.168.0.99 on port 13999
+20100506-17:24:32 : Initiated logon request
+20100506-17:24:47 : Timed out waiting for logon response
+20100506-17:24:47 : Disconnecting
+20100506-17:25:02 : Connecting to 192.168.0.99 on port 13999
+20100506-17:25:02 : Initiated logon request
+20100506-17:25:17 : Timed out waiting for logon response
+20100506-17:25:17 : Disconnecting
+20100506-17:25:32 : Connecting to 192.168.0.99 on port 13999
+20100506-17:25:32 : Initiated logon request
+20100506-17:25:45 : Received logon response
+20100506-17:25:45 : MsgSeqNum too high, expecting 57 but received 59
+20100506-17:25:45 : Sent ResendRequest FROM: 57 TO: 0
+20100506-17:26:57 : Sent test request TEST
+20100506-17:28:02 : Received ResendRequest FROM: 61 TO: 0
+20100506-17:28:02 : Sent SequenceReset TO: 69
+20100506-17:28:03 : MsgSeqNum too high, expecting 57 but received 61
+20100506-17:28:03 : Already sent ResendRequest FROM: 57 TO: 58.  Not sending another.
+20100506-17:28:10 : Received SequenceReset FROM: 57 TO: 62
+20100506-17:29:05 : ResendRequest for messages FROM: 57 TO: 58 has been satisfied.
+20100506-21:30:00 : Created session
+20100506-21:30:00 : Connecting to 192.168.0.99 on port 13999
+20100506-21:30:00 : Initiated logon request
+20100506-21:30:00 : Received logon response
+20100506-21:33:30 : Created session
+20100506-21:33:30 : Connecting to 192.168.0.99 on port 13999
+20100506-21:33:30 : Initiated logon request
+20100506-21:33:30 : Received logon response
+20100506-21:47:18 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100506-21:47:18 : Disconnecting
+20100506-21:49:13 : Created session
+20100506-21:49:13 : Connecting to 192.168.0.99 on port 13999
+20100506-21:49:13 : Initiated logon request
+20100506-21:49:13 : Received logon response
+20100506-21:59:29 : Created session
+20100506-21:59:29 : Connecting to 192.168.0.99 on port 13999
+20100506-21:59:29 : Initiated logon request
+20100506-21:59:29 : Received logon response
+20100506-22:01:13 : Created session
+20100506-22:01:13 : Connecting to 192.168.0.99 on port 13999
+20100506-22:01:13 : Initiated logon request
+20100506-22:01:14 : Received logon response
+20100506-22:02:23 : Created session
+20100506-22:02:23 : Connecting to 192.168.0.99 on port 13999
+20100506-22:02:24 : Initiated logon request
+20100506-22:02:24 : Received logon response
+20100506-22:05:53 : Sent test request TEST
+20100506-22:06:16 : Received logout request
+20100506-22:06:16 : Sending logout response
+20100506-22:06:16 : Disconnecting
+20100506-22:06:41 : Created session
+20100506-22:06:41 : Connecting to 192.168.0.99 on port 13999
+20100506-22:06:41 : Initiated logon request
+20100506-22:06:41 : Received logon response
+20100506-22:10:18 : Sent test request TEST
+20100506-22:11:37 : Sent test request TEST
+20100506-22:13:39 : Sent test request TEST
+20100506-22:15:24 : Sent test request TEST
+20100506-22:25:01 : Created session
+20100506-22:25:01 : Connecting to 192.168.0.99 on port 13999
+20100506-22:25:01 : Initiated logon request
+20100506-22:25:01 : Received logon response
+20100506-22:36:25 : Created session
+20100506-22:36:25 : Connecting to 192.168.0.99 on port 13999
+20100506-22:36:25 : Initiated logon request
+20100506-22:36:25 : Received logon response
+20100506-22:38:25 : Sent test request TEST
+20100506-22:39:08 : Created session
+20100506-22:39:08 : Connecting to 192.168.0.99 on port 13999
+20100506-22:39:08 : Initiated logon request
+20100506-22:39:08 : Received logon response
+20100506-22:40:30 : Sent test request TEST
+20100506-22:44:56 : Sent test request TEST
+20100506-22:47:42 : Created session
+20100506-22:47:42 : Connecting to 192.168.0.99 on port 13999
+20100506-22:47:42 : Initiated logon request
+20100506-22:47:42 : Received logon response
+20100506-22:49:23 : Sent test request TEST
+20100506-22:57:52 : Created session
+20100506-22:57:52 : Connecting to 192.168.0.99 on port 13999
+20100506-22:57:52 : Initiated logon request
+20100506-22:57:52 : Received logon response
+20100506-23:12:11 : Created session
+20100506-23:12:11 : Connecting to 192.168.0.99 on port 13999
+20100506-23:12:11 : Initiated logon request
+20100506-23:12:11 : Received logon response
+20100506-23:17:19 : Sent test request TEST
+20100506-23:18:46 : Received logout request
+20100506-23:18:46 : Sending logout response
+20100506-23:18:46 : Disconnecting
+20100506-23:19:12 : Connecting to 192.168.0.99 on port 13999
+20100506-23:19:13 : Disconnecting
+20100506-23:19:42 : Connecting to 192.168.0.99 on port 13999
+20100506-23:19:43 : Disconnecting
+20100506-23:20:12 : Connecting to 192.168.0.99 on port 13999
+20100506-23:20:13 : Disconnecting
+20100506-23:20:42 : Connecting to 192.168.0.99 on port 13999
+20100506-23:20:43 : Disconnecting
+20100506-23:21:12 : Connecting to 192.168.0.99 on port 13999
+20100506-23:21:13 : Disconnecting
+20100506-23:21:42 : Connecting to 192.168.0.99 on port 13999
+20100506-23:21:43 : Disconnecting
+20100506-23:22:12 : Connecting to 192.168.0.99 on port 13999
+20100506-23:22:13 : Disconnecting
+20100506-23:22:42 : Connecting to 192.168.0.99 on port 13999
+20100506-23:22:43 : Disconnecting
+20100506-23:23:12 : Connecting to 192.168.0.99 on port 13999
+20100506-23:23:13 : Disconnecting
+20100506-23:23:42 : Connecting to 192.168.0.99 on port 13999
+20100506-23:23:43 : Disconnecting
+20100506-23:24:12 : Connecting to 192.168.0.99 on port 13999
+20100506-23:24:13 : Disconnecting
+20100506-23:36:29 : Created session
+20100506-23:36:29 : Connecting to 192.168.0.99 on port 13999
+20100506-23:36:29 : Initiated logon request
+20100506-23:36:29 : Received logon response
+20100506-23:38:56 : Received logout request
+20100506-23:38:56 : Sending logout response
+20100506-23:38:56 : Disconnecting
+20100506-23:39:14 : Created session
+20100506-23:39:14 : Connecting to 192.168.0.99 on port 13999
+20100506-23:39:14 : Initiated logon request
+20100506-23:39:14 : Received logon response
+20100506-23:41:29 : Created session
+20100506-23:41:29 : Connecting to 192.168.0.99 on port 13999
+20100506-23:41:29 : Initiated logon request
+20100506-23:41:29 : Received logon response
+20100506-23:41:29 : MsgSeqNum too high, expecting 240 but received 241
+20100506-23:41:29 : Sent ResendRequest FROM: 240 TO: 0
+20100506-23:41:29 : ResendRequest for messages FROM: 240 TO: 240 has been satisfied.
+20100506-23:41:29 : Received SequenceReset FROM: 240 TO: 242
+20100506-23:42:59 : Sent test request TEST
+20100506-23:44:37 : Sent test request TEST
+20100506-23:44:37 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100506-23:44:37 : Disconnecting
+20100506-23:45:00 : Connecting to 192.168.0.99 on port 13999
+20100506-23:45:01 : Disconnecting
+20100506-23:45:30 : Connecting to 192.168.0.99 on port 13999
+20100506-23:45:31 : Disconnecting
+20100506-23:45:56 : Created session
+20100506-23:45:56 : Connecting to 192.168.0.99 on port 13999
+20100506-23:45:56 : Initiated logon request
+20100506-23:45:56 : Received logon response
+20100506-23:45:56 : Received ResendRequest FROM: 215 TO: 0
+20100506-23:45:56 : Sent SequenceReset TO: 218
+20100506-23:48:41 : Sent test request TEST
+20100506-23:50:09 : Sent test request TEST
+20100506-23:51:21 : Timed out waiting for heartbeat
+20100506-23:51:21 : Disconnecting
+20100506-23:51:27 : Connecting to 192.168.0.99 on port 13999
+20100506-23:51:27 : Initiated logon request
+20100506-23:51:42 : Timed out waiting for logon response
+20100506-23:51:42 : Disconnecting
+20100506-23:51:57 : Connecting to 192.168.0.99 on port 13999
+20100506-23:51:57 : Initiated logon request
+20100506-23:52:12 : Timed out waiting for logon response
+20100506-23:52:12 : Disconnecting
+20100506-23:52:27 : Connecting to 192.168.0.99 on port 13999
+20100506-23:52:27 : Initiated logon request
+20100506-23:52:42 : Timed out waiting for logon response
+20100506-23:52:42 : Disconnecting
+20100506-23:52:57 : Connecting to 192.168.0.99 on port 13999
+20100506-23:52:57 : Initiated logon request
+20100506-23:53:12 : Timed out waiting for logon response
+20100506-23:53:12 : Disconnecting
+20100506-23:53:27 : Connecting to 192.168.0.99 on port 13999
+20100506-23:53:27 : Initiated logon request
+20100506-23:53:42 : Timed out waiting for logon response
+20100506-23:53:42 : Disconnecting
+20100507-00:09:56 : Created session
+20100507-00:09:56 : Connecting to 192.168.0.99 on port 13999
+20100507-00:09:56 : Initiated logon request
+20100507-00:09:56 : Received logon response
+20100507-00:09:56 : MsgSeqNum too high, expecting 252 but received 258
+20100507-00:09:56 : Sent ResendRequest FROM: 252 TO: 0
+20100507-00:09:56 : Received ResendRequest FROM: 224 TO: 0
+20100507-00:09:56 : Sent SequenceReset TO: 233
+20100507-00:09:56 : Received SequenceReset FROM: 252 TO: 260
+20100507-00:10:09 : ResendRequest for messages FROM: 252 TO: 257 has been satisfied.
+20100507-00:11:21 : Sent test request TEST
+20100507-00:12:33 : Timed out waiting for heartbeat
+20100507-00:12:33 : Disconnecting
+20100507-00:12:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:12:57 : Initiated logon request
+20100507-00:13:12 : Timed out waiting for logon response
+20100507-00:13:12 : Disconnecting
+20100507-00:13:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:13:27 : Initiated logon request
+20100507-00:13:42 : Timed out waiting for logon response
+20100507-00:13:42 : Disconnecting
+20100507-00:13:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:13:57 : Initiated logon request
+20100507-00:14:12 : Timed out waiting for logon response
+20100507-00:14:12 : Disconnecting
+20100507-00:14:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:14:27 : Initiated logon request
+20100507-00:14:42 : Timed out waiting for logon response
+20100507-00:14:42 : Disconnecting
+20100507-00:14:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:14:57 : Initiated logon request
+20100507-00:15:12 : Timed out waiting for logon response
+20100507-00:15:12 : Disconnecting
+20100507-00:15:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:15:27 : Initiated logon request
+20100507-00:15:42 : Timed out waiting for logon response
+20100507-00:15:42 : Disconnecting
+20100507-00:15:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:15:57 : Initiated logon request
+20100507-00:16:12 : Timed out waiting for logon response
+20100507-00:16:12 : Disconnecting
+20100507-00:16:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:16:27 : Initiated logon request
+20100507-00:16:42 : Timed out waiting for logon response
+20100507-00:16:42 : Disconnecting
+20100507-00:16:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:16:57 : Initiated logon request
+20100507-00:17:12 : Timed out waiting for logon response
+20100507-00:17:12 : Disconnecting
+20100507-00:17:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:17:27 : Initiated logon request
+20100507-00:17:42 : Timed out waiting for logon response
+20100507-00:17:42 : Disconnecting
+20100507-00:17:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:17:57 : Initiated logon request
+20100507-00:18:12 : Timed out waiting for logon response
+20100507-00:18:12 : Disconnecting
+20100507-00:18:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:18:27 : Initiated logon request
+20100507-00:18:42 : Timed out waiting for logon response
+20100507-00:18:42 : Disconnecting
+20100507-00:18:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:18:57 : Initiated logon request
+20100507-00:19:12 : Timed out waiting for logon response
+20100507-00:19:12 : Disconnecting
+20100507-00:19:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:19:27 : Initiated logon request
+20100507-00:19:42 : Timed out waiting for logon response
+20100507-00:19:42 : Disconnecting
+20100507-00:19:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:19:57 : Initiated logon request
+20100507-00:20:12 : Timed out waiting for logon response
+20100507-00:20:12 : Disconnecting
+20100507-00:20:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:20:27 : Initiated logon request
+20100507-00:20:42 : Timed out waiting for logon response
+20100507-00:20:42 : Disconnecting
+20100507-00:20:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:20:57 : Initiated logon request
+20100507-00:21:12 : Timed out waiting for logon response
+20100507-00:21:12 : Disconnecting
+20100507-00:21:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:21:27 : Initiated logon request
+20100507-00:21:42 : Timed out waiting for logon response
+20100507-00:21:42 : Disconnecting
+20100507-00:21:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:21:57 : Initiated logon request
+20100507-00:22:12 : Timed out waiting for logon response
+20100507-00:22:12 : Disconnecting
+20100507-00:22:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:22:27 : Initiated logon request
+20100507-00:22:42 : Timed out waiting for logon response
+20100507-00:22:42 : Disconnecting
+20100507-00:22:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:22:57 : Initiated logon request
+20100507-00:23:12 : Timed out waiting for logon response
+20100507-00:23:12 : Disconnecting
+20100507-00:23:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:23:27 : Initiated logon request
+20100507-00:23:42 : Timed out waiting for logon response
+20100507-00:23:42 : Disconnecting
+20100507-00:23:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:23:57 : Initiated logon request
+20100507-00:24:12 : Timed out waiting for logon response
+20100507-00:24:12 : Disconnecting
+20100507-00:24:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:24:27 : Initiated logon request
+20100507-00:24:42 : Timed out waiting for logon response
+20100507-00:24:42 : Disconnecting
+20100507-00:24:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:24:57 : Initiated logon request
+20100507-00:25:12 : Timed out waiting for logon response
+20100507-00:25:12 : Disconnecting
+20100507-00:25:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:25:27 : Initiated logon request
+20100507-00:25:42 : Timed out waiting for logon response
+20100507-00:25:42 : Disconnecting
+20100507-00:25:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:25:57 : Initiated logon request
+20100507-00:26:12 : Timed out waiting for logon response
+20100507-00:26:12 : Disconnecting
+20100507-00:26:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:26:27 : Initiated logon request
+20100507-00:26:42 : Timed out waiting for logon response
+20100507-00:26:42 : Disconnecting
+20100507-00:26:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:26:57 : Initiated logon request
+20100507-00:27:12 : Timed out waiting for logon response
+20100507-00:27:12 : Disconnecting
+20100507-00:27:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:27:27 : Initiated logon request
+20100507-00:27:42 : Timed out waiting for logon response
+20100507-00:27:42 : Disconnecting
+20100507-00:27:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:27:57 : Initiated logon request
+20100507-00:28:12 : Timed out waiting for logon response
+20100507-00:28:12 : Disconnecting
+20100507-00:28:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:28:27 : Initiated logon request
+20100507-00:28:42 : Timed out waiting for logon response
+20100507-00:28:42 : Disconnecting
+20100507-00:28:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:28:57 : Initiated logon request
+20100507-00:29:12 : Timed out waiting for logon response
+20100507-00:29:12 : Disconnecting
+20100507-00:29:27 : Connecting to 192.168.0.99 on port 13999
+20100507-00:29:27 : Initiated logon request
+20100507-00:29:42 : Timed out waiting for logon response
+20100507-00:29:42 : Disconnecting
+20100507-00:29:57 : Connecting to 192.168.0.99 on port 13999
+20100507-00:29:57 : Initiated logon request
+20100507-00:29:57 : Received logon response
+20100507-00:29:57 : MsgSeqNum too high, expecting 261 but received 302
+20100507-00:29:57 : Sent ResendRequest FROM: 261 TO: 0
+20100507-00:29:57 : Received ResendRequest FROM: 235 TO: 0
+20100507-00:29:57 : Sent SequenceReset TO: 273
+20100507-00:29:57 : Received SequenceReset FROM: 261 TO: 293
+20100507-00:29:57 : Received SequenceReset FROM: 295 TO: 304
+20100507-00:30:57 : ResendRequest for messages FROM: 261 TO: 301 has been satisfied.
+20100507-00:32:20 : Received logout request
+20100507-00:32:20 : Sending logout response
+20100507-00:32:20 : Disconnecting
+20100507-13:40:17 : Created session
+20100507-13:40:17 : Connecting to 192.168.0.99 on port 13999
+20100507-13:40:17 : Initiated logon request
+20100507-13:40:17 : Received logon response
+20100507-13:42:55 : Sent test request TEST
+20100507-13:46:28 : Sent test request TEST
+20100507-13:57:03 : Created session
+20100507-13:57:03 : Connecting to 192.168.0.99 on port 13999
+20100507-13:57:03 : Initiated logon request
+20100507-13:57:03 : Received logon response
+20100507-14:18:40 : Sent test request TEST
+20100507-14:19:52 : Timed out waiting for heartbeat
+20100507-14:19:52 : Disconnecting
+20100507-14:20:04 : Connecting to 192.168.0.99 on port 13999
+20100507-14:20:04 : Initiated logon request
+20100507-14:20:19 : Timed out waiting for logon response
+20100507-14:20:19 : Disconnecting
+20100507-14:20:34 : Connecting to 192.168.0.99 on port 13999
+20100507-14:20:34 : Initiated logon request
+20100507-14:20:41 : Received logon response
+20100507-14:20:41 : MsgSeqNum too high, expecting 59 but received 61
+20100507-14:20:41 : Sent ResendRequest FROM: 59 TO: 0
+20100507-14:20:41 : Received ResendRequest FROM: 52 TO: 0
+20100507-14:20:42 : Sent SequenceReset TO: 56
+20100507-14:20:42 : Received SequenceReset FROM: 59 TO: 63
+20100507-14:20:46 : ResendRequest for messages FROM: 59 TO: 60 has been satisfied.
+20100507-14:22:34 : Created session
+20100507-14:22:34 : Connecting to 192.168.0.99 on port 13999
+20100507-14:22:34 : Initiated logon request
+20100507-14:22:34 : Received logon response
+20100507-14:22:34 : MsgSeqNum too high, expecting 66 but received 67
+20100507-14:22:34 : Sent ResendRequest FROM: 66 TO: 0
+20100507-14:22:34 : ResendRequest for messages FROM: 66 TO: 66 has been satisfied.
+20100507-14:22:34 : Received SequenceReset FROM: 66 TO: 68
+20100507-14:25:03 : Sent test request TEST
+20100507-14:26:26 : Sent test request TEST
+20100507-14:29:05 : Sent test request TEST
+20100507-14:30:09 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100507-14:30:09 : Disconnecting
+20100507-14:30:58 : Created session
+20100507-14:30:58 : Connecting to 192.168.0.99 on port 13999
+20100507-14:30:58 : Initiated logon request
+20100507-14:30:58 : Received logon response
+20100507-14:30:58 : Received ResendRequest FROM: 68 TO: 0
+20100507-14:30:58 : Sent SequenceReset TO: 70
+20100507-14:37:17 : Sent test request TEST
+20100507-14:47:45 : Created session
+20100507-14:47:45 : Connecting to 192.168.0.99 on port 13999
+20100507-14:47:45 : Initiated logon request
+20100507-14:47:45 : Received logon response
+20100507-14:47:45 : MsgSeqNum too high, expecting 99 but received 100
+20100507-14:47:45 : Sent ResendRequest FROM: 99 TO: 0
+20100507-14:47:45 : ResendRequest for messages FROM: 99 TO: 99 has been satisfied.
+20100507-14:47:45 : Received SequenceReset FROM: 99 TO: 101
+20100507-15:34:30 : Created session
+20100507-15:34:30 : Connecting to 192.168.0.99 on port 13999
+20100507-15:34:30 : Initiated logon request
+20100507-15:34:30 : Received logon response
+20100507-15:35:42 : Sent test request TEST
+20100507-15:36:54 : Timed out waiting for heartbeat
+20100507-15:36:54 : Disconnecting
+20100507-15:37:01 : Connecting to 192.168.0.99 on port 13999
+20100507-15:37:01 : Initiated logon request
+20100507-15:37:16 : Timed out waiting for logon response
+20100507-15:37:16 : Disconnecting
+20100507-15:37:31 : Connecting to 192.168.0.99 on port 13999
+20100507-15:37:31 : Initiated logon request
+20100507-15:37:46 : Timed out waiting for logon response
+20100507-15:37:46 : Disconnecting
+20100507-15:38:01 : Connecting to 192.168.0.99 on port 13999
+20100507-15:38:01 : Initiated logon request
+20100507-15:38:16 : Timed out waiting for logon response
+20100507-15:38:16 : Disconnecting
+20100507-15:38:31 : Connecting to 192.168.0.99 on port 13999
+20100507-15:38:31 : Initiated logon request
+20100507-15:38:46 : Timed out waiting for logon response
+20100507-15:38:46 : Disconnecting
+20100507-15:39:01 : Connecting to 192.168.0.99 on port 13999
+20100507-15:39:01 : Initiated logon request
+20100507-15:39:16 : Timed out waiting for logon response
+20100507-15:39:16 : Disconnecting
+20100507-15:39:31 : Connecting to 192.168.0.99 on port 13999
+20100507-15:39:31 : Initiated logon request
+20100507-15:39:46 : Timed out waiting for logon response
+20100507-15:39:46 : Disconnecting
+20100507-15:40:01 : Connecting to 192.168.0.99 on port 13999
+20100507-15:40:01 : Initiated logon request
+20100507-15:40:16 : Timed out waiting for logon response
+20100507-15:40:16 : Disconnecting
+20100507-15:40:31 : Connecting to 192.168.0.99 on port 13999
+20100507-15:40:31 : Initiated logon request
+20100507-15:40:46 : Timed out waiting for logon response
+20100507-15:40:46 : Disconnecting
+20100507-15:41:01 : Connecting to 192.168.0.99 on port 13999
+20100507-15:41:01 : Initiated logon request
+20100507-15:41:16 : Timed out waiting for logon response
+20100507-15:41:16 : Disconnecting
+20100507-15:41:31 : Connecting to 192.168.0.99 on port 13999
+20100507-15:41:31 : Initiated logon request
+20100507-15:41:46 : Timed out waiting for logon response
+20100507-15:41:46 : Disconnecting
+20100507-15:42:01 : Connecting to 192.168.0.99 on port 13999
+20100507-15:42:01 : Initiated logon request
+20100507-15:42:16 : Timed out waiting for logon response
+20100507-15:42:16 : Disconnecting
+20100507-15:42:31 : Connecting to 192.168.0.99 on port 13999
+20100507-15:42:31 : Initiated logon request
+20100507-15:42:31 : Received logon response
+20100507-15:42:31 : MsgSeqNum too high, expecting 111 but received 122
+20100507-15:42:31 : Sent ResendRequest FROM: 111 TO: 0
+20100507-15:42:31 : Received ResendRequest FROM: 99 TO: 0
+20100507-15:42:31 : Sent SequenceReset TO: 113
+20100507-15:42:31 : Received SequenceReset FROM: 112 TO: 124
+20100507-15:43:16 : ResendRequest for messages FROM: 111 TO: 121 has been satisfied.
+20100507-15:44:28 : Sent test request TEST
+20100507-15:53:51 : Sent test request TEST
+20100507-17:07:45 : Received logout request
+20100507-17:07:45 : Sending logout response
+20100507-17:07:45 : Disconnecting
+20100507-20:32:17 : Created session
+20100507-20:32:17 : Connecting to 192.168.0.99 on port 13999
+20100507-20:32:17 : Initiated logon request
+20100507-20:32:17 : Received logon response
+20100507-20:40:21 : Created session
+20100507-20:40:21 : Connecting to 192.168.0.99 on port 13999
+20100507-20:40:21 : Initiated logon request
+20100507-20:40:21 : Received logon response
+20100507-20:47:55 : Created session
+20100507-20:47:55 : Connecting to 192.168.0.99 on port 13999
+20100507-20:47:56 : Initiated logon request
+20100507-20:47:56 : Received logon response
+20100507-20:49:01 : Received logout request
+20100507-20:49:01 : Sending logout response
+20100507-20:49:01 : Disconnecting
+20100507-20:49:24 : Created session
+20100507-20:49:24 : Connecting to 192.168.0.99 on port 13999
+20100507-20:49:24 : Initiated logon request
+20100507-20:49:24 : Received logon response
+20100507-20:52:34 : Sent test request TEST
+20100507-20:56:13 : Sent test request TEST
+20100507-21:00:03 : Sent test request TEST
+20100507-21:01:44 : Sent test request TEST
+20100507-21:02:56 : Timed out waiting for heartbeat
+20100507-21:02:56 : Disconnecting
+20100507-21:03:25 : Connecting to 192.168.0.99 on port 13999
+20100507-21:03:26 : Disconnecting
+20100507-21:04:20 : Created session
+20100507-21:04:20 : Connecting to 192.168.0.99 on port 13999
+20100507-21:04:20 : Initiated logon request
+20100507-21:04:20 : Received logon response
+20100507-21:04:20 : Received ResendRequest FROM: 251 TO: 0
+20100507-21:04:20 : Sent SequenceReset TO: 257
+20100507-21:06:53 : Sent test request TEST
+20100507-21:08:05 : Timed out waiting for heartbeat
+20100507-21:08:05 : Disconnecting
+20100507-21:08:21 : Connecting to 192.168.0.99 on port 13999
+20100507-21:08:21 : Initiated logon request
+20100507-21:08:36 : Timed out waiting for logon response
+20100507-21:08:36 : Disconnecting
+20100507-21:08:51 : Connecting to 192.168.0.99 on port 13999
+20100507-21:08:51 : Initiated logon request
+20100507-21:09:06 : Timed out waiting for logon response
+20100507-21:09:06 : Disconnecting
+20100507-21:09:21 : Connecting to 192.168.0.99 on port 13999
+20100507-21:09:21 : Initiated logon request
+20100507-21:09:36 : Timed out waiting for logon response
+20100507-21:09:36 : Disconnecting
+20100507-21:09:51 : Connecting to 192.168.0.99 on port 13999
+20100507-21:09:51 : Initiated logon request
+20100507-21:10:06 : Timed out waiting for logon response
+20100507-21:10:06 : Disconnecting
+20100507-21:10:21 : Connecting to 192.168.0.99 on port 13999
+20100507-21:10:21 : Initiated logon request
+20100507-21:10:36 : Timed out waiting for logon response
+20100507-21:10:36 : Disconnecting
+20100507-21:10:51 : Connecting to 192.168.0.99 on port 13999
+20100507-21:10:51 : Initiated logon request
+20100507-21:11:06 : Timed out waiting for logon response
+20100507-21:11:06 : Disconnecting
+20100507-21:11:21 : Connecting to 192.168.0.99 on port 13999
+20100507-21:11:21 : Initiated logon request
+20100507-21:11:36 : Timed out waiting for logon response
+20100507-21:11:36 : Disconnecting
+20100507-21:11:51 : Connecting to 192.168.0.99 on port 13999
+20100507-21:11:51 : Initiated logon request
+20100507-21:12:06 : Timed out waiting for logon response
+20100507-21:12:06 : Disconnecting
+20100507-21:12:21 : Connecting to 192.168.0.99 on port 13999
+20100507-21:12:21 : Initiated logon request
+20100507-21:12:36 : Timed out waiting for logon response
+20100507-21:12:36 : Disconnecting
+20100507-21:12:51 : Connecting to 192.168.0.99 on port 13999
+20100507-21:12:51 : Initiated logon request
+20100507-21:13:06 : Timed out waiting for logon response
+20100507-21:13:06 : Disconnecting
+20100507-21:13:21 : Connecting to 192.168.0.99 on port 13999
+20100507-21:13:21 : Initiated logon request
+20100507-21:13:24 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100507-21:13:24 : Disconnecting
+20100507-21:14:11 : Created session
+20100507-21:14:11 : Connecting to 192.168.0.99 on port 13999
+20100507-21:14:11 : Initiated logon request
+20100507-21:14:11 : Received logon response
+20100507-21:14:11 : Received ResendRequest FROM: 260 TO: 0
+20100507-21:14:11 : Sent SequenceReset TO: 274
+20100507-21:15:56 : Sent test request TEST
+20100507-21:17:08 : Timed out waiting for heartbeat
+20100507-21:17:08 : Disconnecting
+20100507-21:17:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:17:12 : Initiated logon request
+20100507-21:17:27 : Timed out waiting for logon response
+20100507-21:17:27 : Disconnecting
+20100507-21:17:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:17:42 : Initiated logon request
+20100507-21:17:57 : Timed out waiting for logon response
+20100507-21:17:57 : Disconnecting
+20100507-21:18:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:18:12 : Initiated logon request
+20100507-21:18:27 : Timed out waiting for logon response
+20100507-21:18:27 : Disconnecting
+20100507-21:18:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:18:42 : Initiated logon request
+20100507-21:18:57 : Timed out waiting for logon response
+20100507-21:18:57 : Disconnecting
+20100507-21:19:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:19:12 : Initiated logon request
+20100507-21:19:27 : Timed out waiting for logon response
+20100507-21:19:27 : Disconnecting
+20100507-21:19:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:19:42 : Initiated logon request
+20100507-21:19:57 : Timed out waiting for logon response
+20100507-21:19:57 : Disconnecting
+20100507-21:20:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:20:12 : Initiated logon request
+20100507-21:20:27 : Timed out waiting for logon response
+20100507-21:20:27 : Disconnecting
+20100507-21:20:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:20:42 : Initiated logon request
+20100507-21:20:57 : Timed out waiting for logon response
+20100507-21:20:57 : Disconnecting
+20100507-21:21:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:21:12 : Initiated logon request
+20100507-21:21:27 : Timed out waiting for logon response
+20100507-21:21:27 : Disconnecting
+20100507-21:21:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:21:42 : Initiated logon request
+20100507-21:21:57 : Timed out waiting for logon response
+20100507-21:21:57 : Disconnecting
+20100507-21:22:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:22:12 : Initiated logon request
+20100507-21:22:27 : Timed out waiting for logon response
+20100507-21:22:27 : Disconnecting
+20100507-21:22:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:22:42 : Initiated logon request
+20100507-21:22:57 : Timed out waiting for logon response
+20100507-21:22:57 : Disconnecting
+20100507-21:23:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:23:12 : Initiated logon request
+20100507-21:23:27 : Timed out waiting for logon response
+20100507-21:23:27 : Disconnecting
+20100507-21:23:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:23:42 : Initiated logon request
+20100507-21:23:57 : Timed out waiting for logon response
+20100507-21:23:57 : Disconnecting
+20100507-21:24:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:24:12 : Initiated logon request
+20100507-21:24:27 : Timed out waiting for logon response
+20100507-21:24:27 : Disconnecting
+20100507-21:24:42 : Connecting to 192.168.0.99 on port 13999
+20100507-21:24:42 : Initiated logon request
+20100507-21:24:57 : Timed out waiting for logon response
+20100507-21:24:57 : Disconnecting
+20100507-21:25:12 : Connecting to 192.168.0.99 on port 13999
+20100507-21:25:12 : Initiated logon request
+20100507-21:25:12 : Received logon response
+20100507-21:25:12 : MsgSeqNum too high, expecting 302 but received 332
+20100507-21:25:12 : Sent ResendRequest FROM: 302 TO: 0
+20100507-21:25:12 : Received ResendRequest FROM: 277 TO: 0
+20100507-21:25:12 : Sent SequenceReset TO: 296
+20100507-21:25:12 : Received SequenceReset FROM: 302 TO: 306
+20100507-21:25:12 : Received SequenceReset FROM: 307 TO: 311
+20100507-21:25:12 : Received SequenceReset FROM: 312 TO: 314
+20100507-21:25:12 : Received SequenceReset FROM: 315 TO: 318
+20100507-21:25:12 : Received SequenceReset FROM: 319 TO: 321
+20100507-21:25:12 : Received SequenceReset FROM: 322 TO: 325
+20100507-21:25:12 : Received SequenceReset FROM: 326 TO: 328
+20100507-21:25:12 : ResendRequest for messages FROM: 302 TO: 331 has been satisfied.
+20100507-21:25:12 : Processing QUEUED message: 332
+20100507-21:25:47 : Received logout request
+20100507-21:25:47 : Sending logout response
+20100507-21:25:47 : Disconnecting
+20100507-21:26:04 : Created session
+20100507-21:26:04 : Connecting to 192.168.0.99 on port 13999
+20100507-21:26:04 : Initiated logon request
+20100507-21:26:04 : Received logon response
+20100507-21:26:04 : MsgSeqNum too high, expecting 334 but received 335
+20100507-21:26:04 : Sent ResendRequest FROM: 334 TO: 0
+20100507-21:26:05 : ResendRequest for messages FROM: 334 TO: 334 has been satisfied.
+20100507-21:26:05 : Received SequenceReset FROM: 334 TO: 336
+20100507-21:27:39 : Sent test request TEST
+20100507-21:29:08 : Sent test request TEST
+20100507-21:30:38 : Received logout request
+20100507-21:30:38 : Sending logout response
+20100507-21:30:38 : Disconnecting
+20100507-21:31:33 : Created session
+20100507-21:31:33 : Connecting to 192.168.0.99 on port 13999
+20100507-21:31:33 : Initiated logon request
+20100507-21:31:33 : Received logon response
+20100507-21:31:54 : Received logout request
+20100507-21:31:54 : Sending logout response
+20100507-21:31:54 : Disconnecting
+20100507-21:32:04 : Connecting to 192.168.0.99 on port 13999
+20100507-21:32:06 : Disconnecting
+20100507-21:32:46 : Created session
+20100507-21:32:46 : Connecting to 192.168.0.99 on port 13999
+20100507-21:32:46 : Initiated logon request
+20100507-21:32:46 : Received logon response
+20100507-22:26:40 : Created session
+20100507-22:26:40 : Connecting to 192.168.0.99 on port 13999
+20100507-22:26:40 : Initiated logon request
+20100507-22:26:40 : Received logon response
+20100507-22:30:40 : Received logout request
+20100507-22:30:40 : Sending logout response
+20100507-22:30:40 : Disconnecting
+20100507-22:30:41 : Connecting to 192.168.0.99 on port 13999
+20100507-22:30:41 : Initiated logon request
+20100507-22:30:42 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100507-22:30:42 : Disconnecting
+20100507-22:31:48 : Created session
+20100507-22:31:48 : Connecting to 192.168.0.99 on port 13999
+20100507-22:31:48 : Initiated logon request
+20100507-22:31:48 : Received logon response
+20100507-22:31:48 : Received ResendRequest FROM: 391 TO: 0
+20100507-22:31:48 : Sent SequenceReset TO: 393
+20100507-22:35:38 : Created session
+20100507-22:35:38 : Connecting to 192.168.0.99 on port 13999
+20100507-22:35:38 : Initiated logon request
+20100507-22:35:38 : Received logon response
+20100507-22:35:38 : MsgSeqNum too high, expecting 482 but received 483
+20100507-22:35:38 : Sent ResendRequest FROM: 482 TO: 0
+20100507-22:35:38 : ResendRequest for messages FROM: 482 TO: 482 has been satisfied.
+20100507-22:35:38 : Received SequenceReset FROM: 482 TO: 484
+20100507-22:39:21 : Created session
+20100507-22:39:21 : Connecting to 192.168.0.99 on port 13999
+20100507-22:39:21 : Initiated logon request
+20100507-22:39:21 : Received logon response
+20100510-14:53:49 : Created session
+20100510-14:53:49 : Connecting to 192.168.0.99 on port 13999
+20100510-14:53:49 : Initiated logon request
+20100510-14:53:49 : Received logon response
+20100510-15:08:39 : Created session
+20100510-15:08:39 : Connecting to 192.168.0.99 on port 13999
+20100510-15:08:39 : Initiated logon request
+20100510-15:08:39 : Received logon response
+20100510-15:10:29 : Created session
+20100510-15:10:29 : Connecting to 192.168.0.99 on port 13999
+20100510-15:10:29 : Initiated logon request
+20100510-15:10:29 : Received logon response
+20100510-15:35:08 : Initiated logout request
+20100510-15:35:08 : Received logout response
+20100510-15:35:08 : Disconnecting
+20100510-16:53:24 : Created session
+20100510-16:53:24 : Connecting to 192.168.0.99 on port 13999
+20100510-16:53:24 : Initiated logon request
+20100510-16:53:24 : Received logon response
+20100510-16:54:54 : Sent test request TEST
+20100510-16:56:01 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100510-16:56:01 : Disconnecting
+20100510-18:04:50 : Created session
+20100510-18:04:50 : Connecting to 192.168.0.99 on port 13999
+20100510-18:04:50 : Initiated logon request
+20100510-18:04:50 : Received logon response
+20100510-18:04:50 : Received ResendRequest FROM: 86 TO: 0
+20100510-18:04:50 : Sent SequenceReset TO: 89
+20100510-18:05:57 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100510-18:05:57 : Disconnecting
+20100510-18:06:21 : Connecting to 192.168.0.99 on port 13999
+20100510-18:06:22 : Disconnecting
+20100510-18:06:51 : Connecting to 192.168.0.99 on port 13999
+20100510-18:06:52 : Disconnecting
+20100510-18:07:21 : Connecting to 192.168.0.99 on port 13999
+20100510-18:07:22 : Disconnecting
+20100511-13:59:25 : Created session
+20100511-13:59:25 : Connecting to 192.168.0.99 on port 13999
+20100511-13:59:25 : Initiated logon request
+20100511-13:59:25 : Received logon response
+20100511-14:02:10 : Sent test request TEST
+20100511-14:02:49 : Created session
+20100511-14:02:49 : Connecting to 192.168.0.99 on port 13999
+20100511-14:02:49 : Initiated logon request
+20100511-14:02:49 : Received logon response
+20100511-14:04:11 : Sent test request TEST
+20100511-14:06:01 : Sent test request TEST
+20100511-14:06:42 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100511-14:06:42 : Disconnecting
+20100511-14:08:55 : Created session
+20100511-14:08:55 : Connecting to 192.168.0.99 on port 13999
+20100511-14:08:55 : Initiated logon request
+20100511-14:08:55 : Received logon response
+20100511-14:10:15 : Sent test request TEST
+20100511-14:10:23 : Received logout request
+20100511-14:10:23 : Sending logout response
+20100511-14:10:23 : Disconnecting
+20100511-14:10:26 : Connecting to 192.168.0.99 on port 13999
+20100511-14:10:27 : Disconnecting
+20100511-14:11:05 : Created session
+20100511-14:11:05 : Connecting to 192.168.0.99 on port 13999
+20100511-14:11:05 : Initiated logon request
+20100511-14:11:06 : Received logon response
+20100511-14:12:21 : Sent test request TEST
+20100511-14:13:33 : Timed out waiting for heartbeat
+20100511-14:13:33 : Disconnecting
+20100511-14:13:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:13:36 : Initiated logon request
+20100511-14:13:51 : Timed out waiting for logon response
+20100511-14:13:51 : Disconnecting
+20100511-14:14:06 : Connecting to 192.168.0.99 on port 13999
+20100511-14:14:06 : Initiated logon request
+20100511-14:14:21 : Timed out waiting for logon response
+20100511-14:14:21 : Disconnecting
+20100511-14:14:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:14:36 : Initiated logon request
+20100511-14:14:51 : Timed out waiting for logon response
+20100511-14:14:51 : Disconnecting
+20100511-14:15:06 : Connecting to 192.168.0.99 on port 13999
+20100511-14:15:06 : Initiated logon request
+20100511-14:15:15 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100511-14:15:15 : Disconnecting
+20100511-14:15:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:15:36 : Initiated logon request
+20100511-14:15:36 : Received logon response
+20100511-14:15:36 : MsgSeqNum too high, expecting 19 but received 24
+20100511-14:15:37 : Sent ResendRequest FROM: 19 TO: 0
+20100511-14:15:38 : Received ResendRequest FROM: 26 TO: 0
+20100511-14:15:38 : Sent SequenceReset TO: 34
+20100511-14:15:38 : Received SequenceReset FROM: 19 TO: 26
+20100511-14:16:24 : Received logout request
+20100511-14:16:24 : Sending logout response
+20100511-14:16:24 : Disconnecting
+20100511-14:16:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:16:37 : Disconnecting
+20100511-14:17:06 : Connecting to 192.168.0.99 on port 13999
+20100511-14:17:07 : Disconnecting
+20100511-14:17:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:17:37 : Disconnecting
+20100511-14:18:06 : Connecting to 192.168.0.99 on port 13999
+20100511-14:18:07 : Disconnecting
+20100511-14:18:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:18:37 : Disconnecting
+20100511-14:19:06 : Connecting to 192.168.0.99 on port 13999
+20100511-14:19:07 : Disconnecting
+20100511-14:19:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:19:37 : Disconnecting
+20100511-14:20:06 : Connecting to 192.168.0.99 on port 13999
+20100511-14:20:07 : Disconnecting
+20100511-14:20:36 : Connecting to 192.168.0.99 on port 13999
+20100511-14:20:38 : Disconnecting
+20100511-14:53:09 : Created session
+20100511-14:53:09 : Connecting to 192.168.0.99 on port 13999
+20100511-14:53:10 : Disconnecting
+20100511-14:53:10 : Connecting to 192.168.0.99 on port 13999
+20100511-14:53:11 : Disconnecting
+20100511-14:53:40 : Connecting to 192.168.0.99 on port 13999
+20100511-14:53:41 : Disconnecting
+20100511-14:54:10 : Connecting to 192.168.0.99 on port 13999
+20100511-14:54:10 : Initiated logon request
+20100511-14:54:10 : Received logon response
+20100511-14:54:10 : Received ResendRequest FROM: 35 TO: 0
+20100511-14:54:10 : Resending Message: 35
+20100511-14:54:10 : Sent SequenceReset TO: 37
+20100511-17:27:51 : Created session
+20100511-17:27:51 : Connecting to 192.168.0.99 on port 13999
+20100511-17:27:51 : Initiated logon request
+20100511-17:27:52 : Received logon response
+20100511-17:28:37 : Received logout request
+20100511-17:28:37 : Sending logout response
+20100511-17:28:37 : Disconnecting
+20100511-17:29:00 : Created session
+20100511-17:29:00 : Connecting to 192.168.0.99 on port 13999
+20100511-17:29:00 : Initiated logon request
+20100511-17:29:00 : Received logon response
+20100511-18:24:31 : Created session
+20100511-18:24:31 : Connecting to 192.168.0.99 on port 13999
+20100511-18:24:31 : Initiated logon request
+20100511-18:24:31 : Received logon response
+20100511-18:25:55 : Received logout request
+20100511-18:25:55 : Sending logout response
+20100511-18:25:55 : Disconnecting
+20100511-18:28:05 : Created session
+20100511-18:28:05 : Connecting to 192.168.0.99 on port 13999
+20100511-18:28:05 : Initiated logon request
+20100511-18:28:20 : Timed out waiting for logon response
+20100511-18:28:20 : Disconnecting
+20100511-18:28:36 : Connecting to 192.168.0.99 on port 13999
+20100511-18:28:36 : Initiated logon request
+20100511-18:28:38 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100511-18:28:38 : Disconnecting
+20100511-18:30:27 : Created session
+20100511-18:30:27 : Connecting to 192.168.0.99 on port 13999
+20100511-18:30:27 : Initiated logon request
+20100511-18:30:27 : Received logon response
+20100511-18:30:27 : Received ResendRequest FROM: 49 TO: 0
+20100511-18:30:27 : Sent SequenceReset TO: 50
+20100511-18:30:27 : Resending Message: 50
+20100511-18:30:27 : Sent SequenceReset TO: 53
+20100511-18:33:48 : Received logout request
+20100511-18:33:48 : Sending logout response
+20100511-18:33:48 : Disconnecting
+20100511-18:35:35 : Created session
+20100511-18:35:35 : Connecting to 192.168.0.99 on port 13999
+20100511-18:35:35 : Initiated logon request
+20100511-18:35:35 : Received logon response
+20100511-18:39:32 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100511-18:39:32 : Disconnecting
+20100511-18:41:00 : Created session
+20100511-18:41:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:41:00 : Initiated logon request
+20100511-18:41:00 : Received logon response
+20100511-18:41:00 : Received ResendRequest FROM: 64 TO: 0
+20100511-18:41:00 : Sent SequenceReset TO: 67
+20100511-18:43:29 : Created session
+20100511-18:43:29 : Connecting to 192.168.0.99 on port 13999
+20100511-18:43:29 : Initiated logon request
+20100511-18:43:29 : Received logon response
+20100511-18:43:29 : MsgSeqNum too high, expecting 57 but received 58
+20100511-18:43:29 : Sent ResendRequest FROM: 57 TO: 0
+20100511-18:43:29 : ResendRequest for messages FROM: 57 TO: 57 has been satisfied.
+20100511-18:43:29 : Received SequenceReset FROM: 57 TO: 59
+20100511-18:45:07 : Sent test request TEST
+20100511-18:45:16 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100511-18:45:16 : Disconnecting
+20100511-18:45:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:45:31 : Disconnecting
+20100511-18:46:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:46:02 : Disconnecting
+20100511-18:46:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:46:31 : Disconnecting
+20100511-18:47:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:47:01 : Disconnecting
+20100511-18:47:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:47:31 : Disconnecting
+20100511-18:48:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:48:01 : Disconnecting
+20100511-18:48:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:48:31 : Disconnecting
+20100511-18:49:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:49:01 : Disconnecting
+20100511-18:49:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:49:31 : Disconnecting
+20100511-18:50:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:50:01 : Disconnecting
+20100511-18:50:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:50:32 : Disconnecting
+20100511-18:51:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:51:02 : Disconnecting
+20100511-18:51:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:51:32 : Disconnecting
+20100511-18:52:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:52:01 : Disconnecting
+20100511-18:52:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:52:31 : Disconnecting
+20100511-18:53:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:53:01 : Disconnecting
+20100511-18:53:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:53:31 : Disconnecting
+20100511-18:54:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:54:01 : Disconnecting
+20100511-18:54:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:54:31 : Disconnecting
+20100511-18:55:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:55:01 : Disconnecting
+20100511-18:55:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:55:31 : Disconnecting
+20100511-18:56:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:56:01 : Disconnecting
+20100511-18:56:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:56:31 : Disconnecting
+20100511-18:57:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:57:01 : Disconnecting
+20100511-18:57:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:57:31 : Disconnecting
+20100511-18:58:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:58:01 : Disconnecting
+20100511-18:58:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:58:31 : Disconnecting
+20100511-18:59:00 : Connecting to 192.168.0.99 on port 13999
+20100511-18:59:01 : Disconnecting
+20100511-18:59:30 : Connecting to 192.168.0.99 on port 13999
+20100511-18:59:31 : Disconnecting
+20100511-19:00:00 : Connecting to 192.168.0.99 on port 13999
+20100511-19:00:01 : Disconnecting
+20100511-19:00:30 : Connecting to 192.168.0.99 on port 13999
+20100511-19:00:31 : Disconnecting
+20100511-19:01:00 : Connecting to 192.168.0.99 on port 13999
+20100511-19:01:01 : Disconnecting
+20100511-19:02:44 : Created session
+20100511-19:02:44 : Connecting to 192.168.0.99 on port 13999
+20100511-19:02:44 : Initiated logon request
+20100511-19:02:44 : Received logon response
+20100511-19:02:44 : Received ResendRequest FROM: 74 TO: 0
+20100511-19:02:44 : Sent SequenceReset TO: 77
+20100511-19:04:26 : Created session
+20100511-19:04:26 : Connecting to 192.168.0.99 on port 13999
+20100511-19:04:26 : Initiated logon request
+20100511-19:04:26 : Received logon response
+20100511-19:05:23 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100511-19:05:23 : Disconnecting
+20100511-19:05:27 : Connecting to 192.168.0.99 on port 13999
+20100511-19:05:28 : Disconnecting
+20100511-19:06:05 : Created session
+20100511-19:06:05 : Connecting to 192.168.0.99 on port 13999
+20100511-19:06:05 : Initiated logon request
+20100511-19:06:05 : Received logon response
+20100511-19:10:31 : Received logout request
+20100511-19:10:31 : Sending logout response
+20100511-19:10:31 : Disconnecting
+20100511-19:10:36 : Connecting to 192.168.0.99 on port 13999
+20100511-19:10:38 : Disconnecting
+20100511-21:50:08 : Created session
+20100511-21:50:08 : Connecting to 192.168.0.99 on port 13999
+20100511-21:50:08 : Initiated logon request
+20100511-21:50:08 : Received logon response
+20100511-21:52:55 : Sent test request TEST
+20100511-21:54:04 : Received logout request
+20100511-21:54:04 : Sending logout response
+20100511-21:54:04 : Disconnecting
+20100511-21:54:09 : Connecting to 192.168.0.99 on port 13999
+20100511-21:54:10 : Disconnecting
+20100511-21:54:39 : Connecting to 192.168.0.99 on port 13999
+20100511-21:54:40 : Disconnecting
+20100511-21:55:18 : Created session
+20100511-21:55:18 : Connecting to 192.168.0.99 on port 13999
+20100511-21:55:18 : Initiated logon request
+20100511-21:55:18 : Received logon response
+20100511-22:24:28 : Received logout request
+20100511-22:24:28 : Sending logout response
+20100511-22:24:28 : Disconnecting
+20100512-00:06:58 : Created session
+20100512-00:06:58 : Connecting to 192.168.0.99 on port 13999
+20100512-00:06:58 : Initiated logon request
+20100512-00:06:58 : Received logon response
+20100512-00:08:10 : Sent test request TEST
+20100512-00:09:11 : Received logout request
+20100512-00:09:11 : Sending logout response
+20100512-00:09:11 : Disconnecting
+20100512-00:09:54 : Created session
+20100512-00:09:54 : Connecting to 192.168.0.99 on port 13999
+20100512-00:09:54 : Initiated logon request
+20100512-00:09:54 : Received logon response
+20100512-00:11:40 : Received logout request
+20100512-00:11:40 : Sending logout response
+20100512-00:11:40 : Disconnecting
+20100512-22:09:36 : Created session
+20100512-22:09:36 : Connecting to 192.168.0.99 on port 13999
+20100512-22:09:36 : Initiated logon request
+20100512-22:09:36 : Received logon response
+20100512-22:12:06 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100512-22:12:06 : Disconnecting
+20100512-22:12:07 : Connecting to 192.168.0.99 on port 13999
+20100512-22:12:08 : Disconnecting
+20100513-13:46:05 : Created session
+20100513-13:46:05 : Connecting to 192.168.0.99 on port 13999
+20100513-13:46:05 : Initiated logon request
+20100513-13:46:05 : Received logon response
+20100513-13:49:06 : Sent test request TEST
+20100513-13:50:18 : Timed out waiting for heartbeat
+20100513-13:50:18 : Disconnecting
+20100513-13:50:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:50:36 : Initiated logon request
+20100513-13:50:51 : Timed out waiting for logon response
+20100513-13:50:51 : Disconnecting
+20100513-13:51:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:51:06 : Initiated logon request
+20100513-13:51:21 : Timed out waiting for logon response
+20100513-13:51:21 : Disconnecting
+20100513-13:51:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:51:36 : Initiated logon request
+20100513-13:51:51 : Timed out waiting for logon response
+20100513-13:51:51 : Disconnecting
+20100513-13:52:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:52:06 : Initiated logon request
+20100513-13:52:21 : Timed out waiting for logon response
+20100513-13:52:21 : Disconnecting
+20100513-13:52:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:52:36 : Initiated logon request
+20100513-13:52:51 : Timed out waiting for logon response
+20100513-13:52:51 : Disconnecting
+20100513-13:53:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:53:06 : Initiated logon request
+20100513-13:53:21 : Timed out waiting for logon response
+20100513-13:53:21 : Disconnecting
+20100513-13:53:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:53:36 : Initiated logon request
+20100513-13:53:51 : Timed out waiting for logon response
+20100513-13:53:51 : Disconnecting
+20100513-13:54:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:54:06 : Initiated logon request
+20100513-13:54:21 : Timed out waiting for logon response
+20100513-13:54:21 : Disconnecting
+20100513-13:54:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:54:36 : Initiated logon request
+20100513-13:54:51 : Timed out waiting for logon response
+20100513-13:54:51 : Disconnecting
+20100513-13:55:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:55:06 : Initiated logon request
+20100513-13:55:21 : Timed out waiting for logon response
+20100513-13:55:21 : Disconnecting
+20100513-13:55:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:55:36 : Initiated logon request
+20100513-13:55:51 : Timed out waiting for logon response
+20100513-13:55:51 : Disconnecting
+20100513-13:56:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:56:06 : Initiated logon request
+20100513-13:56:21 : Timed out waiting for logon response
+20100513-13:56:21 : Disconnecting
+20100513-13:56:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:56:36 : Initiated logon request
+20100513-13:56:51 : Timed out waiting for logon response
+20100513-13:56:51 : Disconnecting
+20100513-13:57:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:57:06 : Initiated logon request
+20100513-13:57:21 : Timed out waiting for logon response
+20100513-13:57:21 : Disconnecting
+20100513-13:57:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:57:36 : Initiated logon request
+20100513-13:57:51 : Timed out waiting for logon response
+20100513-13:57:51 : Disconnecting
+20100513-13:58:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:58:06 : Initiated logon request
+20100513-13:58:21 : Timed out waiting for logon response
+20100513-13:58:21 : Disconnecting
+20100513-13:58:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:58:36 : Initiated logon request
+20100513-13:58:51 : Timed out waiting for logon response
+20100513-13:58:51 : Disconnecting
+20100513-13:59:06 : Connecting to 192.168.0.99 on port 13999
+20100513-13:59:06 : Initiated logon request
+20100513-13:59:21 : Timed out waiting for logon response
+20100513-13:59:21 : Disconnecting
+20100513-13:59:36 : Connecting to 192.168.0.99 on port 13999
+20100513-13:59:36 : Initiated logon request
+20100513-13:59:51 : Timed out waiting for logon response
+20100513-13:59:51 : Disconnecting
+20100513-14:00:06 : Connecting to 192.168.0.99 on port 13999
+20100513-14:00:07 : Disconnecting
+20100513-14:00:36 : Connecting to 192.168.0.99 on port 13999
+20100513-14:00:37 : Disconnecting
+20100513-14:01:06 : Connecting to 192.168.0.99 on port 13999
+20100513-14:01:07 : Disconnecting
+20100513-14:01:36 : Connecting to 192.168.0.99 on port 13999
+20100513-14:01:37 : Disconnecting
+20100513-14:02:06 : Connecting to 192.168.0.99 on port 13999
+20100513-14:02:07 : Disconnecting
+20100513-14:02:36 : Connecting to 192.168.0.99 on port 13999
+20100513-14:02:38 : Disconnecting
+20100513-14:03:06 : Connecting to 192.168.0.99 on port 13999
+20100513-14:03:08 : Disconnecting
+20100513-14:03:36 : Connecting to 192.168.0.99 on port 13999
+20100513-14:03:37 : Disconnecting
+20100513-14:04:06 : Connecting to 192.168.0.99 on port 13999
+20100513-14:04:07 : Disconnecting
+20100513-14:04:36 : Connecting to 192.168.0.99 on port 13999
+20100513-14:04:37 : Disconnecting
+20100513-14:05:06 : Connecting to 192.168.0.99 on port 13999
+20100513-14:05:07 : Disconnecting
+20100513-14:05:36 : Connecting to 192.168.0.99 on port 13999
+20100513-14:05:38 : Disconnecting
+20100513-14:06:08 : Created session
+20100513-14:06:08 : Connecting to 192.168.0.99 on port 13999
+20100513-14:06:08 : Initiated logon request
+20100513-14:06:08 : Received logon response
+20100513-14:06:08 : Received ResendRequest FROM: 8 TO: 0
+20100513-14:06:08 : Sent SequenceReset TO: 30
+20100513-14:13:36 : Sent test request TEST
+20100513-14:13:53 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100513-14:13:53 : Disconnecting
+20100513-14:14:09 : Connecting to 192.168.0.99 on port 13999
+20100513-14:14:10 : Disconnecting
+20100513-14:17:28 : Created session
+20100513-14:17:28 : Connecting to 192.168.0.99 on port 13999
+20100513-14:17:28 : Initiated logon request
+20100513-14:17:28 : Received logon response
+20100513-14:17:28 : Received ResendRequest FROM: 41 TO: 0
+20100513-14:17:28 : Sent SequenceReset TO: 44
+20100513-14:22:20 : Sent test request TEST
+20100513-14:23:12 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100513-14:23:12 : Disconnecting
+20100513-14:23:29 : Connecting to 192.168.0.99 on port 13999
+20100513-14:23:30 : Disconnecting
+20100513-14:24:11 : Created session
+20100513-14:24:11 : Connecting to 192.168.0.99 on port 13999
+20100513-14:24:11 : Initiated logon request
+20100513-14:24:12 : Received logon response
+20100513-14:27:38 : Sent test request TEST
+20100513-14:28:50 : Timed out waiting for heartbeat
+20100513-14:28:50 : Disconnecting
+20100513-14:29:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:29:12 : Initiated logon request
+20100513-14:29:27 : Timed out waiting for logon response
+20100513-14:29:27 : Disconnecting
+20100513-14:29:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:29:42 : Initiated logon request
+20100513-14:29:57 : Timed out waiting for logon response
+20100513-14:29:57 : Disconnecting
+20100513-14:30:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:30:12 : Initiated logon request
+20100513-14:30:27 : Timed out waiting for logon response
+20100513-14:30:27 : Disconnecting
+20100513-14:30:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:30:42 : Initiated logon request
+20100513-14:30:57 : Timed out waiting for logon response
+20100513-14:30:57 : Disconnecting
+20100513-14:31:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:31:12 : Initiated logon request
+20100513-14:31:27 : Timed out waiting for logon response
+20100513-14:31:27 : Disconnecting
+20100513-14:31:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:31:42 : Initiated logon request
+20100513-14:31:57 : Timed out waiting for logon response
+20100513-14:31:57 : Disconnecting
+20100513-14:32:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:32:12 : Initiated logon request
+20100513-14:32:27 : Timed out waiting for logon response
+20100513-14:32:27 : Disconnecting
+20100513-14:32:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:32:42 : Initiated logon request
+20100513-14:32:57 : Timed out waiting for logon response
+20100513-14:32:57 : Disconnecting
+20100513-14:33:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:33:12 : Initiated logon request
+20100513-14:33:27 : Timed out waiting for logon response
+20100513-14:33:27 : Disconnecting
+20100513-14:33:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:33:42 : Initiated logon request
+20100513-14:33:57 : Timed out waiting for logon response
+20100513-14:33:57 : Disconnecting
+20100513-14:34:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:34:12 : Initiated logon request
+20100513-14:34:27 : Timed out waiting for logon response
+20100513-14:34:27 : Disconnecting
+20100513-14:34:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:34:42 : Initiated logon request
+20100513-14:34:57 : Timed out waiting for logon response
+20100513-14:34:57 : Disconnecting
+20100513-14:35:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:35:12 : Initiated logon request
+20100513-14:35:27 : Timed out waiting for logon response
+20100513-14:35:27 : Disconnecting
+20100513-14:35:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:35:42 : Initiated logon request
+20100513-14:35:57 : Timed out waiting for logon response
+20100513-14:35:57 : Disconnecting
+20100513-14:36:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:36:12 : Initiated logon request
+20100513-14:36:27 : Timed out waiting for logon response
+20100513-14:36:27 : Disconnecting
+20100513-14:36:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:36:42 : Initiated logon request
+20100513-14:36:57 : Timed out waiting for logon response
+20100513-14:36:57 : Disconnecting
+20100513-14:37:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:37:12 : Initiated logon request
+20100513-14:37:27 : Timed out waiting for logon response
+20100513-14:37:27 : Disconnecting
+20100513-14:37:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:37:42 : Initiated logon request
+20100513-14:37:57 : Timed out waiting for logon response
+20100513-14:37:57 : Disconnecting
+20100513-14:38:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:38:12 : Initiated logon request
+20100513-14:38:27 : Timed out waiting for logon response
+20100513-14:38:27 : Disconnecting
+20100513-14:38:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:38:42 : Initiated logon request
+20100513-14:38:57 : Timed out waiting for logon response
+20100513-14:38:57 : Disconnecting
+20100513-14:39:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:39:12 : Initiated logon request
+20100513-14:39:27 : Timed out waiting for logon response
+20100513-14:39:27 : Disconnecting
+20100513-14:39:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:39:42 : Initiated logon request
+20100513-14:39:42 : Received logon response
+20100513-14:39:42 : MsgSeqNum too high, expecting 60 but received 78
+20100513-14:39:42 : Sent ResendRequest FROM: 60 TO: 0
+20100513-14:39:42 : Received ResendRequest FROM: 59 TO: 0
+20100513-14:39:42 : Sent SequenceReset TO: 83
+20100513-14:39:42 : Received SequenceReset FROM: 60 TO: 80
+20100513-14:39:48 : ResendRequest for messages FROM: 60 TO: 77 has been satisfied.
+20100513-14:42:49 : Sent test request TEST
+20100513-14:44:01 : Timed out waiting for heartbeat
+20100513-14:44:01 : Disconnecting
+20100513-14:44:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:44:12 : Initiated logon request
+20100513-14:44:27 : Timed out waiting for logon response
+20100513-14:44:27 : Disconnecting
+20100513-14:44:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:44:42 : Initiated logon request
+20100513-14:44:57 : Timed out waiting for logon response
+20100513-14:44:57 : Disconnecting
+20100513-14:45:12 : Connecting to 192.168.0.99 on port 13999
+20100513-14:45:12 : Initiated logon request
+20100513-14:45:27 : Timed out waiting for logon response
+20100513-14:45:27 : Disconnecting
+20100513-14:45:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:45:42 : Initiated logon request
+20100513-14:45:54 : Received logon response
+20100513-14:45:54 : MsgSeqNum too high, expecting 87 but received 92
+20100513-14:45:54 : Sent ResendRequest FROM: 87 TO: 0
+20100513-14:45:56 : Received ResendRequest FROM: 88 TO: 0
+20100513-14:45:56 : Sent SequenceReset TO: 94
+20100513-14:46:07 : Received SequenceReset FROM: 87 TO: 94
+20100513-14:47:07 : ResendRequest for messages FROM: 87 TO: 91 has been satisfied.
+20100513-14:50:16 : Received logout request
+20100513-14:50:16 : Sending logout response
+20100513-14:50:16 : Disconnecting
+20100513-14:50:42 : Connecting to 192.168.0.99 on port 13999
+20100513-14:50:42 : Disconnecting
+20100514-21:03:34 : Created session
+20100514-21:03:34 : Connecting to 192.168.0.99 on port 13999
+20100514-21:03:34 : Initiated logon request
+20100514-21:03:34 : Received logon response
+20100514-21:08:56 : Created session
+20100514-21:08:56 : Connecting to 192.168.0.99 on port 13999
+20100514-21:08:56 : Initiated logon request
+20100514-21:08:56 : Received logon response
+20100514-21:10:29 : Received logout request
+20100514-21:10:29 : Sending logout response
+20100514-21:10:29 : Disconnecting
+20100514-21:10:57 : Connecting to 192.168.0.99 on port 13999
+20100514-21:10:58 : Disconnecting
+20100514-21:11:27 : Connecting to 192.168.0.99 on port 13999
+20100514-21:11:28 : Disconnecting
+20100514-21:11:57 : Connecting to 192.168.0.99 on port 13999
+20100514-21:11:57 : Initiated logon request
+20100514-21:11:57 : Received logon response
+20100514-21:12:10 : Received logout request
+20100514-21:12:10 : Sending logout response
+20100514-21:12:10 : Disconnecting
+20100514-21:12:27 : Connecting to 192.168.0.99 on port 13999
+20100514-21:12:28 : Initiated logon request
+20100514-21:12:28 : Received logon response
+20100514-21:12:45 : Received logout request
+20100514-21:12:45 : Sending logout response
+20100514-21:12:45 : Disconnecting
+20100514-21:12:57 : Connecting to 192.168.0.99 on port 13999
+20100514-21:12:57 : Initiated logon request
+20100514-21:12:57 : Received logon response
+20100514-21:12:57 : Received ResendRequest FROM: 18 TO: 0
+20100514-21:12:57 : Resending Message: 18
+20100514-21:12:57 : Sent SequenceReset TO: 20
+20100528-15:34:55 : Created session
+20100528-15:34:55 : Connecting to 192.168.0.99 on port 13999
+20100528-15:34:55 : Initiated logon request
+20100528-15:34:55 : Received logon response
+20100528-15:41:58 : Created session
+20100528-15:41:58 : Connecting to 192.168.0.99 on port 13999
+20100528-15:41:58 : Initiated logon request
+20100528-15:41:58 : Received logon response
+20100528-15:41:58 : MsgSeqNum too high, expecting 8 but received 9
+20100528-15:41:58 : Sent ResendRequest FROM: 8 TO: 0
+20100528-15:41:58 : ResendRequest for messages FROM: 8 TO: 8 has been satisfied.
+20100528-15:41:58 : Received SequenceReset FROM: 8 TO: 10
+20100528-15:44:14 : Sent test request TEST
+20100528-15:45:26 : Timed out waiting for heartbeat
+20100528-15:45:26 : Disconnecting
+20100528-15:45:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:45:29 : Initiated logon request
+20100528-15:45:44 : Timed out waiting for logon response
+20100528-15:45:44 : Disconnecting
+20100528-15:45:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:45:59 : Initiated logon request
+20100528-15:46:14 : Timed out waiting for logon response
+20100528-15:46:14 : Disconnecting
+20100528-15:46:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:46:29 : Initiated logon request
+20100528-15:46:44 : Timed out waiting for logon response
+20100528-15:46:44 : Disconnecting
+20100528-15:46:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:46:59 : Initiated logon request
+20100528-15:47:14 : Timed out waiting for logon response
+20100528-15:47:14 : Disconnecting
+20100528-15:47:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:47:29 : Initiated logon request
+20100528-15:47:44 : Timed out waiting for logon response
+20100528-15:47:44 : Disconnecting
+20100528-15:47:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:47:59 : Initiated logon request
+20100528-15:48:14 : Timed out waiting for logon response
+20100528-15:48:14 : Disconnecting
+20100528-15:48:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:48:29 : Initiated logon request
+20100528-15:48:44 : Timed out waiting for logon response
+20100528-15:48:44 : Disconnecting
+20100528-15:48:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:48:59 : Initiated logon request
+20100528-15:49:14 : Timed out waiting for logon response
+20100528-15:49:14 : Disconnecting
+20100528-15:49:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:49:29 : Initiated logon request
+20100528-15:49:44 : Timed out waiting for logon response
+20100528-15:49:44 : Disconnecting
+20100528-15:49:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:49:59 : Initiated logon request
+20100528-15:50:14 : Timed out waiting for logon response
+20100528-15:50:14 : Disconnecting
+20100528-15:50:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:50:29 : Initiated logon request
+20100528-15:50:44 : Timed out waiting for logon response
+20100528-15:50:44 : Disconnecting
+20100528-15:50:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:50:59 : Initiated logon request
+20100528-15:51:14 : Timed out waiting for logon response
+20100528-15:51:14 : Disconnecting
+20100528-15:51:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:51:29 : Initiated logon request
+20100528-15:51:44 : Timed out waiting for logon response
+20100528-15:51:44 : Disconnecting
+20100528-15:51:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:51:59 : Initiated logon request
+20100528-15:52:14 : Timed out waiting for logon response
+20100528-15:52:14 : Disconnecting
+20100528-15:52:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:52:29 : Initiated logon request
+20100528-15:52:44 : Timed out waiting for logon response
+20100528-15:52:44 : Disconnecting
+20100528-15:52:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:52:59 : Initiated logon request
+20100528-15:53:14 : Timed out waiting for logon response
+20100528-15:53:14 : Disconnecting
+20100528-15:53:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:53:29 : Initiated logon request
+20100528-15:53:44 : Timed out waiting for logon response
+20100528-15:53:44 : Disconnecting
+20100528-15:53:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:53:59 : Initiated logon request
+20100528-15:54:14 : Timed out waiting for logon response
+20100528-15:54:14 : Disconnecting
+20100528-15:54:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:54:29 : Initiated logon request
+20100528-15:54:44 : Timed out waiting for logon response
+20100528-15:54:44 : Disconnecting
+20100528-15:54:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:54:59 : Initiated logon request
+20100528-15:55:14 : Timed out waiting for logon response
+20100528-15:55:14 : Disconnecting
+20100528-15:55:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:55:29 : Initiated logon request
+20100528-15:55:44 : Timed out waiting for logon response
+20100528-15:55:44 : Disconnecting
+20100528-15:55:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:55:59 : Initiated logon request
+20100528-15:56:14 : Timed out waiting for logon response
+20100528-15:56:14 : Disconnecting
+20100528-15:56:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:56:29 : Initiated logon request
+20100528-15:56:44 : Timed out waiting for logon response
+20100528-15:56:44 : Disconnecting
+20100528-15:56:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:56:59 : Initiated logon request
+20100528-15:57:14 : Timed out waiting for logon response
+20100528-15:57:14 : Disconnecting
+20100528-15:57:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:57:29 : Initiated logon request
+20100528-15:57:44 : Timed out waiting for logon response
+20100528-15:57:44 : Disconnecting
+20100528-15:57:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:57:59 : Initiated logon request
+20100528-15:58:14 : Timed out waiting for logon response
+20100528-15:58:14 : Disconnecting
+20100528-15:58:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:58:29 : Initiated logon request
+20100528-15:58:44 : Timed out waiting for logon response
+20100528-15:58:44 : Disconnecting
+20100528-15:58:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:58:59 : Initiated logon request
+20100528-15:59:14 : Timed out waiting for logon response
+20100528-15:59:14 : Disconnecting
+20100528-15:59:29 : Connecting to 192.168.0.99 on port 13999
+20100528-15:59:29 : Initiated logon request
+20100528-15:59:44 : Timed out waiting for logon response
+20100528-15:59:44 : Disconnecting
+20100528-15:59:59 : Connecting to 192.168.0.99 on port 13999
+20100528-15:59:59 : Initiated logon request
+20100528-16:00:14 : Timed out waiting for logon response
+20100528-16:00:14 : Disconnecting
+20100528-16:00:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:00:29 : Initiated logon request
+20100528-16:00:44 : Timed out waiting for logon response
+20100528-16:00:44 : Disconnecting
+20100528-16:00:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:00:59 : Initiated logon request
+20100528-16:01:14 : Timed out waiting for logon response
+20100528-16:01:14 : Disconnecting
+20100528-16:01:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:01:29 : Initiated logon request
+20100528-16:01:44 : Timed out waiting for logon response
+20100528-16:01:44 : Disconnecting
+20100528-16:01:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:01:59 : Initiated logon request
+20100528-16:02:14 : Timed out waiting for logon response
+20100528-16:02:14 : Disconnecting
+20100528-16:02:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:02:29 : Initiated logon request
+20100528-16:02:44 : Timed out waiting for logon response
+20100528-16:02:44 : Disconnecting
+20100528-16:02:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:02:59 : Initiated logon request
+20100528-16:03:14 : Timed out waiting for logon response
+20100528-16:03:14 : Disconnecting
+20100528-16:03:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:03:29 : Initiated logon request
+20100528-16:03:44 : Timed out waiting for logon response
+20100528-16:03:44 : Disconnecting
+20100528-16:03:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:03:59 : Initiated logon request
+20100528-16:04:14 : Timed out waiting for logon response
+20100528-16:04:14 : Disconnecting
+20100528-16:04:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:04:29 : Initiated logon request
+20100528-16:04:44 : Timed out waiting for logon response
+20100528-16:04:44 : Disconnecting
+20100528-16:04:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:04:59 : Initiated logon request
+20100528-16:05:14 : Timed out waiting for logon response
+20100528-16:05:14 : Disconnecting
+20100528-16:05:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:05:29 : Initiated logon request
+20100528-16:05:44 : Timed out waiting for logon response
+20100528-16:05:44 : Disconnecting
+20100528-16:05:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:05:59 : Initiated logon request
+20100528-16:06:14 : Timed out waiting for logon response
+20100528-16:06:14 : Disconnecting
+20100528-16:06:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:06:29 : Initiated logon request
+20100528-16:06:44 : Timed out waiting for logon response
+20100528-16:06:44 : Disconnecting
+20100528-16:06:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:06:59 : Initiated logon request
+20100528-16:07:14 : Timed out waiting for logon response
+20100528-16:07:14 : Disconnecting
+20100528-16:07:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:07:29 : Initiated logon request
+20100528-16:07:44 : Timed out waiting for logon response
+20100528-16:07:44 : Disconnecting
+20100528-16:07:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:07:59 : Initiated logon request
+20100528-16:08:14 : Timed out waiting for logon response
+20100528-16:08:14 : Disconnecting
+20100528-16:08:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:08:29 : Initiated logon request
+20100528-16:08:44 : Timed out waiting for logon response
+20100528-16:08:44 : Disconnecting
+20100528-16:08:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:08:59 : Initiated logon request
+20100528-16:09:14 : Timed out waiting for logon response
+20100528-16:09:14 : Disconnecting
+20100528-16:09:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:09:29 : Initiated logon request
+20100528-16:09:44 : Timed out waiting for logon response
+20100528-16:09:44 : Disconnecting
+20100528-16:09:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:09:59 : Initiated logon request
+20100528-16:10:14 : Timed out waiting for logon response
+20100528-16:10:14 : Disconnecting
+20100528-16:10:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:10:29 : Initiated logon request
+20100528-16:10:44 : Timed out waiting for logon response
+20100528-16:10:44 : Disconnecting
+20100528-16:10:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:10:59 : Initiated logon request
+20100528-16:11:14 : Timed out waiting for logon response
+20100528-16:11:14 : Disconnecting
+20100528-16:11:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:11:29 : Initiated logon request
+20100528-16:11:44 : Timed out waiting for logon response
+20100528-16:11:44 : Disconnecting
+20100528-16:11:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:11:59 : Initiated logon request
+20100528-16:12:14 : Timed out waiting for logon response
+20100528-16:12:14 : Disconnecting
+20100528-16:12:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:12:29 : Initiated logon request
+20100528-16:12:44 : Timed out waiting for logon response
+20100528-16:12:44 : Disconnecting
+20100528-16:12:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:12:59 : Initiated logon request
+20100528-16:13:14 : Timed out waiting for logon response
+20100528-16:13:14 : Disconnecting
+20100528-16:13:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:13:29 : Initiated logon request
+20100528-16:13:44 : Timed out waiting for logon response
+20100528-16:13:44 : Disconnecting
+20100528-16:13:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:13:59 : Initiated logon request
+20100528-16:14:14 : Timed out waiting for logon response
+20100528-16:14:14 : Disconnecting
+20100528-16:14:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:14:29 : Initiated logon request
+20100528-16:14:44 : Timed out waiting for logon response
+20100528-16:14:44 : Disconnecting
+20100528-16:14:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:14:59 : Initiated logon request
+20100528-16:15:14 : Timed out waiting for logon response
+20100528-16:15:14 : Disconnecting
+20100528-16:15:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:15:29 : Initiated logon request
+20100528-16:15:44 : Timed out waiting for logon response
+20100528-16:15:44 : Disconnecting
+20100528-16:15:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:15:59 : Initiated logon request
+20100528-16:16:14 : Timed out waiting for logon response
+20100528-16:16:14 : Disconnecting
+20100528-16:16:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:16:29 : Initiated logon request
+20100528-16:16:44 : Timed out waiting for logon response
+20100528-16:16:44 : Disconnecting
+20100528-16:16:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:16:59 : Initiated logon request
+20100528-16:17:14 : Timed out waiting for logon response
+20100528-16:17:14 : Disconnecting
+20100528-16:17:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:17:29 : Initiated logon request
+20100528-16:17:44 : Timed out waiting for logon response
+20100528-16:17:44 : Disconnecting
+20100528-16:17:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:17:59 : Initiated logon request
+20100528-16:18:14 : Timed out waiting for logon response
+20100528-16:18:14 : Disconnecting
+20100528-16:18:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:18:29 : Initiated logon request
+20100528-16:18:44 : Timed out waiting for logon response
+20100528-16:18:44 : Disconnecting
+20100528-16:18:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:18:59 : Initiated logon request
+20100528-16:19:14 : Timed out waiting for logon response
+20100528-16:19:14 : Disconnecting
+20100528-16:19:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:19:29 : Initiated logon request
+20100528-16:19:44 : Timed out waiting for logon response
+20100528-16:19:44 : Disconnecting
+20100528-16:19:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:19:59 : Initiated logon request
+20100528-16:20:14 : Timed out waiting for logon response
+20100528-16:20:14 : Disconnecting
+20100528-16:20:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:20:29 : Initiated logon request
+20100528-16:20:44 : Timed out waiting for logon response
+20100528-16:20:44 : Disconnecting
+20100528-16:20:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:20:59 : Initiated logon request
+20100528-16:21:14 : Timed out waiting for logon response
+20100528-16:21:14 : Disconnecting
+20100528-16:21:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:21:29 : Initiated logon request
+20100528-16:21:44 : Timed out waiting for logon response
+20100528-16:21:44 : Disconnecting
+20100528-16:21:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:21:59 : Initiated logon request
+20100528-16:22:14 : Timed out waiting for logon response
+20100528-16:22:14 : Disconnecting
+20100528-16:22:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:22:29 : Initiated logon request
+20100528-16:22:44 : Timed out waiting for logon response
+20100528-16:22:44 : Disconnecting
+20100528-16:22:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:22:59 : Initiated logon request
+20100528-16:23:14 : Timed out waiting for logon response
+20100528-16:23:14 : Disconnecting
+20100528-16:23:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:23:29 : Initiated logon request
+20100528-16:23:44 : Timed out waiting for logon response
+20100528-16:23:44 : Disconnecting
+20100528-16:23:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:23:59 : Initiated logon request
+20100528-16:24:14 : Timed out waiting for logon response
+20100528-16:24:14 : Disconnecting
+20100528-16:24:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:24:29 : Initiated logon request
+20100528-16:24:44 : Timed out waiting for logon response
+20100528-16:24:44 : Disconnecting
+20100528-16:24:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:24:59 : Initiated logon request
+20100528-16:25:14 : Timed out waiting for logon response
+20100528-16:25:14 : Disconnecting
+20100528-16:25:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:25:29 : Initiated logon request
+20100528-16:25:44 : Timed out waiting for logon response
+20100528-16:25:44 : Disconnecting
+20100528-16:25:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:25:59 : Initiated logon request
+20100528-16:26:14 : Timed out waiting for logon response
+20100528-16:26:14 : Disconnecting
+20100528-16:26:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:26:29 : Initiated logon request
+20100528-16:26:44 : Timed out waiting for logon response
+20100528-16:26:44 : Disconnecting
+20100528-16:26:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:26:59 : Initiated logon request
+20100528-16:27:14 : Timed out waiting for logon response
+20100528-16:27:14 : Disconnecting
+20100528-16:27:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:27:29 : Initiated logon request
+20100528-16:27:44 : Timed out waiting for logon response
+20100528-16:27:44 : Disconnecting
+20100528-16:27:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:27:59 : Initiated logon request
+20100528-16:28:14 : Timed out waiting for logon response
+20100528-16:28:14 : Disconnecting
+20100528-16:28:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:28:29 : Initiated logon request
+20100528-16:28:44 : Timed out waiting for logon response
+20100528-16:28:44 : Disconnecting
+20100528-16:28:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:28:59 : Initiated logon request
+20100528-16:29:14 : Timed out waiting for logon response
+20100528-16:29:14 : Disconnecting
+20100528-16:29:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:29:29 : Initiated logon request
+20100528-16:29:44 : Timed out waiting for logon response
+20100528-16:29:44 : Disconnecting
+20100528-16:29:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:29:59 : Initiated logon request
+20100528-16:30:14 : Timed out waiting for logon response
+20100528-16:30:14 : Disconnecting
+20100528-16:30:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:30:29 : Initiated logon request
+20100528-16:30:44 : Timed out waiting for logon response
+20100528-16:30:44 : Disconnecting
+20100528-16:30:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:30:59 : Initiated logon request
+20100528-16:31:14 : Timed out waiting for logon response
+20100528-16:31:14 : Disconnecting
+20100528-16:31:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:31:29 : Initiated logon request
+20100528-16:31:44 : Timed out waiting for logon response
+20100528-16:31:44 : Disconnecting
+20100528-16:31:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:31:59 : Initiated logon request
+20100528-16:32:14 : Timed out waiting for logon response
+20100528-16:32:14 : Disconnecting
+20100528-16:32:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:32:29 : Initiated logon request
+20100528-16:32:44 : Timed out waiting for logon response
+20100528-16:32:44 : Disconnecting
+20100528-16:32:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:32:59 : Initiated logon request
+20100528-16:33:14 : Timed out waiting for logon response
+20100528-16:33:14 : Disconnecting
+20100528-16:33:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:33:29 : Initiated logon request
+20100528-16:33:44 : Timed out waiting for logon response
+20100528-16:33:44 : Disconnecting
+20100528-16:33:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:33:59 : Initiated logon request
+20100528-16:34:14 : Timed out waiting for logon response
+20100528-16:34:14 : Disconnecting
+20100528-16:34:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:34:29 : Initiated logon request
+20100528-16:34:44 : Timed out waiting for logon response
+20100528-16:34:44 : Disconnecting
+20100528-16:34:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:34:59 : Initiated logon request
+20100528-16:35:14 : Timed out waiting for logon response
+20100528-16:35:14 : Disconnecting
+20100528-16:35:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:35:29 : Initiated logon request
+20100528-16:35:44 : Timed out waiting for logon response
+20100528-16:35:44 : Disconnecting
+20100528-16:35:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:35:59 : Initiated logon request
+20100528-16:36:14 : Timed out waiting for logon response
+20100528-16:36:14 : Disconnecting
+20100528-16:36:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:36:29 : Initiated logon request
+20100528-16:36:44 : Timed out waiting for logon response
+20100528-16:36:44 : Disconnecting
+20100528-16:36:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:36:59 : Initiated logon request
+20100528-16:37:14 : Timed out waiting for logon response
+20100528-16:37:14 : Disconnecting
+20100528-16:37:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:37:29 : Initiated logon request
+20100528-16:37:44 : Timed out waiting for logon response
+20100528-16:37:44 : Disconnecting
+20100528-16:37:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:37:59 : Initiated logon request
+20100528-16:38:14 : Timed out waiting for logon response
+20100528-16:38:14 : Disconnecting
+20100528-16:38:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:38:29 : Initiated logon request
+20100528-16:38:44 : Timed out waiting for logon response
+20100528-16:38:44 : Disconnecting
+20100528-16:38:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:38:59 : Initiated logon request
+20100528-16:39:14 : Timed out waiting for logon response
+20100528-16:39:14 : Disconnecting
+20100528-16:39:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:39:29 : Initiated logon request
+20100528-16:39:44 : Timed out waiting for logon response
+20100528-16:39:44 : Disconnecting
+20100528-16:39:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:39:59 : Initiated logon request
+20100528-16:40:14 : Timed out waiting for logon response
+20100528-16:40:14 : Disconnecting
+20100528-16:40:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:40:29 : Initiated logon request
+20100528-16:40:44 : Timed out waiting for logon response
+20100528-16:40:44 : Disconnecting
+20100528-16:40:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:40:59 : Initiated logon request
+20100528-16:41:14 : Timed out waiting for logon response
+20100528-16:41:14 : Disconnecting
+20100528-16:41:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:41:29 : Initiated logon request
+20100528-16:41:44 : Timed out waiting for logon response
+20100528-16:41:44 : Disconnecting
+20100528-16:41:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:41:59 : Initiated logon request
+20100528-16:42:14 : Timed out waiting for logon response
+20100528-16:42:14 : Disconnecting
+20100528-16:42:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:42:29 : Initiated logon request
+20100528-16:42:44 : Timed out waiting for logon response
+20100528-16:42:44 : Disconnecting
+20100528-16:42:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:42:59 : Initiated logon request
+20100528-16:43:14 : Timed out waiting for logon response
+20100528-16:43:14 : Disconnecting
+20100528-16:43:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:43:29 : Initiated logon request
+20100528-16:43:44 : Timed out waiting for logon response
+20100528-16:43:44 : Disconnecting
+20100528-16:43:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:43:59 : Initiated logon request
+20100528-16:44:14 : Timed out waiting for logon response
+20100528-16:44:14 : Disconnecting
+20100528-16:44:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:44:29 : Initiated logon request
+20100528-16:44:44 : Timed out waiting for logon response
+20100528-16:44:44 : Disconnecting
+20100528-16:44:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:44:59 : Initiated logon request
+20100528-16:45:14 : Timed out waiting for logon response
+20100528-16:45:14 : Disconnecting
+20100528-16:45:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:45:29 : Initiated logon request
+20100528-16:45:44 : Timed out waiting for logon response
+20100528-16:45:44 : Disconnecting
+20100528-16:45:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:45:59 : Initiated logon request
+20100528-16:46:14 : Timed out waiting for logon response
+20100528-16:46:14 : Disconnecting
+20100528-16:46:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:46:29 : Initiated logon request
+20100528-16:46:44 : Timed out waiting for logon response
+20100528-16:46:44 : Disconnecting
+20100528-16:46:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:46:59 : Initiated logon request
+20100528-16:47:14 : Timed out waiting for logon response
+20100528-16:47:14 : Disconnecting
+20100528-16:47:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:47:29 : Initiated logon request
+20100528-16:47:44 : Timed out waiting for logon response
+20100528-16:47:44 : Disconnecting
+20100528-16:47:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:47:59 : Initiated logon request
+20100528-16:48:14 : Timed out waiting for logon response
+20100528-16:48:14 : Disconnecting
+20100528-16:48:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:48:29 : Initiated logon request
+20100528-16:48:44 : Timed out waiting for logon response
+20100528-16:48:44 : Disconnecting
+20100528-16:48:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:48:59 : Initiated logon request
+20100528-16:49:14 : Timed out waiting for logon response
+20100528-16:49:14 : Disconnecting
+20100528-16:49:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:49:29 : Initiated logon request
+20100528-16:49:44 : Timed out waiting for logon response
+20100528-16:49:44 : Disconnecting
+20100528-16:49:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:49:59 : Initiated logon request
+20100528-16:50:14 : Timed out waiting for logon response
+20100528-16:50:14 : Disconnecting
+20100528-16:50:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:50:29 : Initiated logon request
+20100528-16:50:44 : Timed out waiting for logon response
+20100528-16:50:44 : Disconnecting
+20100528-16:50:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:50:59 : Initiated logon request
+20100528-16:51:14 : Timed out waiting for logon response
+20100528-16:51:14 : Disconnecting
+20100528-16:51:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:51:29 : Initiated logon request
+20100528-16:51:44 : Timed out waiting for logon response
+20100528-16:51:44 : Disconnecting
+20100528-16:51:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:51:59 : Initiated logon request
+20100528-16:52:14 : Timed out waiting for logon response
+20100528-16:52:14 : Disconnecting
+20100528-16:52:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:52:29 : Initiated logon request
+20100528-16:52:44 : Timed out waiting for logon response
+20100528-16:52:44 : Disconnecting
+20100528-16:52:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:52:59 : Initiated logon request
+20100528-16:53:14 : Timed out waiting for logon response
+20100528-16:53:14 : Disconnecting
+20100528-16:53:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:53:29 : Initiated logon request
+20100528-16:53:44 : Timed out waiting for logon response
+20100528-16:53:44 : Disconnecting
+20100528-16:53:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:53:59 : Initiated logon request
+20100528-16:54:14 : Timed out waiting for logon response
+20100528-16:54:14 : Disconnecting
+20100528-16:54:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:54:29 : Initiated logon request
+20100528-16:54:44 : Timed out waiting for logon response
+20100528-16:54:44 : Disconnecting
+20100528-16:54:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:54:59 : Initiated logon request
+20100528-16:55:14 : Timed out waiting for logon response
+20100528-16:55:14 : Disconnecting
+20100528-16:55:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:55:29 : Initiated logon request
+20100528-16:55:44 : Timed out waiting for logon response
+20100528-16:55:44 : Disconnecting
+20100528-16:55:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:55:59 : Initiated logon request
+20100528-16:56:14 : Timed out waiting for logon response
+20100528-16:56:14 : Disconnecting
+20100528-16:56:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:56:29 : Initiated logon request
+20100528-16:56:44 : Timed out waiting for logon response
+20100528-16:56:44 : Disconnecting
+20100528-16:56:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:56:59 : Initiated logon request
+20100528-16:57:14 : Timed out waiting for logon response
+20100528-16:57:14 : Disconnecting
+20100528-16:57:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:57:29 : Initiated logon request
+20100528-16:57:44 : Timed out waiting for logon response
+20100528-16:57:44 : Disconnecting
+20100528-16:57:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:57:59 : Initiated logon request
+20100528-16:58:14 : Timed out waiting for logon response
+20100528-16:58:14 : Disconnecting
+20100528-16:58:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:58:29 : Initiated logon request
+20100528-16:58:44 : Timed out waiting for logon response
+20100528-16:58:44 : Disconnecting
+20100528-16:58:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:58:59 : Initiated logon request
+20100528-16:59:14 : Timed out waiting for logon response
+20100528-16:59:14 : Disconnecting
+20100528-16:59:29 : Connecting to 192.168.0.99 on port 13999
+20100528-16:59:29 : Initiated logon request
+20100528-16:59:44 : Timed out waiting for logon response
+20100528-16:59:44 : Disconnecting
+20100528-16:59:59 : Connecting to 192.168.0.99 on port 13999
+20100528-16:59:59 : Initiated logon request
+20100528-17:00:14 : Timed out waiting for logon response
+20100528-17:00:14 : Disconnecting
+20100528-17:00:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:00:29 : Initiated logon request
+20100528-17:00:44 : Timed out waiting for logon response
+20100528-17:00:44 : Disconnecting
+20100528-17:00:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:00:59 : Initiated logon request
+20100528-17:01:14 : Timed out waiting for logon response
+20100528-17:01:14 : Disconnecting
+20100528-17:01:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:01:29 : Initiated logon request
+20100528-17:01:44 : Timed out waiting for logon response
+20100528-17:01:44 : Disconnecting
+20100528-17:01:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:01:59 : Initiated logon request
+20100528-17:02:14 : Timed out waiting for logon response
+20100528-17:02:14 : Disconnecting
+20100528-17:02:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:02:29 : Initiated logon request
+20100528-17:02:44 : Timed out waiting for logon response
+20100528-17:02:44 : Disconnecting
+20100528-17:02:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:02:59 : Initiated logon request
+20100528-17:03:14 : Timed out waiting for logon response
+20100528-17:03:14 : Disconnecting
+20100528-17:03:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:03:29 : Initiated logon request
+20100528-17:03:44 : Timed out waiting for logon response
+20100528-17:03:44 : Disconnecting
+20100528-17:03:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:03:59 : Initiated logon request
+20100528-17:04:14 : Timed out waiting for logon response
+20100528-17:04:14 : Disconnecting
+20100528-17:04:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:04:29 : Initiated logon request
+20100528-17:04:44 : Timed out waiting for logon response
+20100528-17:04:44 : Disconnecting
+20100528-17:04:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:04:59 : Initiated logon request
+20100528-17:05:14 : Timed out waiting for logon response
+20100528-17:05:14 : Disconnecting
+20100528-17:05:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:05:29 : Initiated logon request
+20100528-17:05:44 : Timed out waiting for logon response
+20100528-17:05:44 : Disconnecting
+20100528-17:05:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:05:59 : Initiated logon request
+20100528-17:06:14 : Timed out waiting for logon response
+20100528-17:06:14 : Disconnecting
+20100528-17:06:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:06:29 : Initiated logon request
+20100528-17:06:44 : Timed out waiting for logon response
+20100528-17:06:44 : Disconnecting
+20100528-17:06:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:06:59 : Initiated logon request
+20100528-17:07:14 : Timed out waiting for logon response
+20100528-17:07:14 : Disconnecting
+20100528-17:07:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:07:29 : Initiated logon request
+20100528-17:07:44 : Timed out waiting for logon response
+20100528-17:07:44 : Disconnecting
+20100528-17:07:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:07:59 : Initiated logon request
+20100528-17:08:14 : Timed out waiting for logon response
+20100528-17:08:14 : Disconnecting
+20100528-17:08:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:08:29 : Initiated logon request
+20100528-17:08:44 : Timed out waiting for logon response
+20100528-17:08:44 : Disconnecting
+20100528-17:08:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:08:59 : Initiated logon request
+20100528-17:09:14 : Timed out waiting for logon response
+20100528-17:09:14 : Disconnecting
+20100528-17:09:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:09:29 : Initiated logon request
+20100528-17:09:44 : Timed out waiting for logon response
+20100528-17:09:44 : Disconnecting
+20100528-17:09:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:09:59 : Initiated logon request
+20100528-17:10:14 : Timed out waiting for logon response
+20100528-17:10:14 : Disconnecting
+20100528-17:10:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:10:29 : Initiated logon request
+20100528-17:10:44 : Timed out waiting for logon response
+20100528-17:10:44 : Disconnecting
+20100528-17:10:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:10:59 : Initiated logon request
+20100528-17:11:14 : Timed out waiting for logon response
+20100528-17:11:14 : Disconnecting
+20100528-17:11:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:11:29 : Initiated logon request
+20100528-17:11:44 : Timed out waiting for logon response
+20100528-17:11:44 : Disconnecting
+20100528-17:11:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:11:59 : Initiated logon request
+20100528-17:12:14 : Timed out waiting for logon response
+20100528-17:12:14 : Disconnecting
+20100528-17:12:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:12:29 : Initiated logon request
+20100528-17:12:44 : Timed out waiting for logon response
+20100528-17:12:44 : Disconnecting
+20100528-17:12:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:12:59 : Initiated logon request
+20100528-17:13:14 : Timed out waiting for logon response
+20100528-17:13:14 : Disconnecting
+20100528-17:13:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:13:29 : Initiated logon request
+20100528-17:13:44 : Timed out waiting for logon response
+20100528-17:13:44 : Disconnecting
+20100528-17:13:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:13:59 : Initiated logon request
+20100528-17:14:14 : Timed out waiting for logon response
+20100528-17:14:14 : Disconnecting
+20100528-17:14:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:14:29 : Initiated logon request
+20100528-17:14:44 : Timed out waiting for logon response
+20100528-17:14:44 : Disconnecting
+20100528-17:14:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:14:59 : Initiated logon request
+20100528-17:15:14 : Timed out waiting for logon response
+20100528-17:15:14 : Disconnecting
+20100528-17:15:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:15:29 : Initiated logon request
+20100528-17:15:44 : Timed out waiting for logon response
+20100528-17:15:44 : Disconnecting
+20100528-17:15:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:15:59 : Initiated logon request
+20100528-17:16:14 : Timed out waiting for logon response
+20100528-17:16:14 : Disconnecting
+20100528-17:16:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:16:29 : Initiated logon request
+20100528-17:16:44 : Timed out waiting for logon response
+20100528-17:16:44 : Disconnecting
+20100528-17:16:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:16:59 : Initiated logon request
+20100528-17:17:14 : Timed out waiting for logon response
+20100528-17:17:14 : Disconnecting
+20100528-17:17:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:17:29 : Initiated logon request
+20100528-17:17:44 : Timed out waiting for logon response
+20100528-17:17:44 : Disconnecting
+20100528-17:17:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:17:59 : Initiated logon request
+20100528-17:18:14 : Timed out waiting for logon response
+20100528-17:18:14 : Disconnecting
+20100528-17:18:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:18:29 : Initiated logon request
+20100528-17:18:44 : Timed out waiting for logon response
+20100528-17:18:44 : Disconnecting
+20100528-17:18:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:18:59 : Initiated logon request
+20100528-17:19:14 : Timed out waiting for logon response
+20100528-17:19:14 : Disconnecting
+20100528-17:19:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:19:29 : Initiated logon request
+20100528-17:19:44 : Timed out waiting for logon response
+20100528-17:19:44 : Disconnecting
+20100528-17:19:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:19:59 : Initiated logon request
+20100528-17:20:14 : Timed out waiting for logon response
+20100528-17:20:14 : Disconnecting
+20100528-17:20:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:20:29 : Initiated logon request
+20100528-17:20:44 : Timed out waiting for logon response
+20100528-17:20:44 : Disconnecting
+20100528-17:20:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:20:59 : Initiated logon request
+20100528-17:21:14 : Timed out waiting for logon response
+20100528-17:21:14 : Disconnecting
+20100528-17:21:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:21:29 : Initiated logon request
+20100528-17:21:44 : Timed out waiting for logon response
+20100528-17:21:44 : Disconnecting
+20100528-17:21:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:21:59 : Initiated logon request
+20100528-17:22:14 : Timed out waiting for logon response
+20100528-17:22:14 : Disconnecting
+20100528-17:22:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:22:29 : Initiated logon request
+20100528-17:22:44 : Timed out waiting for logon response
+20100528-17:22:44 : Disconnecting
+20100528-17:22:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:22:59 : Initiated logon request
+20100528-17:23:14 : Timed out waiting for logon response
+20100528-17:23:14 : Disconnecting
+20100528-17:23:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:23:29 : Initiated logon request
+20100528-17:23:44 : Timed out waiting for logon response
+20100528-17:23:44 : Disconnecting
+20100528-17:23:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:23:59 : Initiated logon request
+20100528-17:24:14 : Timed out waiting for logon response
+20100528-17:24:14 : Disconnecting
+20100528-17:24:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:24:29 : Initiated logon request
+20100528-17:24:44 : Timed out waiting for logon response
+20100528-17:24:44 : Disconnecting
+20100528-17:24:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:24:59 : Initiated logon request
+20100528-17:25:14 : Timed out waiting for logon response
+20100528-17:25:14 : Disconnecting
+20100528-17:25:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:25:29 : Initiated logon request
+20100528-17:25:44 : Timed out waiting for logon response
+20100528-17:25:44 : Disconnecting
+20100528-17:25:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:25:59 : Initiated logon request
+20100528-17:26:14 : Timed out waiting for logon response
+20100528-17:26:14 : Disconnecting
+20100528-17:26:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:26:29 : Initiated logon request
+20100528-17:26:44 : Timed out waiting for logon response
+20100528-17:26:44 : Disconnecting
+20100528-17:26:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:26:59 : Initiated logon request
+20100528-17:27:14 : Timed out waiting for logon response
+20100528-17:27:14 : Disconnecting
+20100528-17:27:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:27:29 : Initiated logon request
+20100528-17:27:44 : Timed out waiting for logon response
+20100528-17:27:44 : Disconnecting
+20100528-17:27:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:27:59 : Initiated logon request
+20100528-17:28:14 : Timed out waiting for logon response
+20100528-17:28:14 : Disconnecting
+20100528-17:28:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:28:29 : Initiated logon request
+20100528-17:28:44 : Timed out waiting for logon response
+20100528-17:28:44 : Disconnecting
+20100528-17:28:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:28:59 : Initiated logon request
+20100528-17:29:14 : Timed out waiting for logon response
+20100528-17:29:14 : Disconnecting
+20100528-17:29:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:29:30 : Disconnecting
+20100528-17:29:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:30:00 : Disconnecting
+20100528-17:30:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:30:30 : Disconnecting
+20100528-17:30:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:31:00 : Disconnecting
+20100528-17:31:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:31:30 : Disconnecting
+20100528-17:31:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:32:00 : Disconnecting
+20100528-17:32:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:32:30 : Disconnecting
+20100528-17:32:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:33:00 : Disconnecting
+20100528-17:33:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:33:30 : Disconnecting
+20100528-17:33:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:34:00 : Disconnecting
+20100528-17:34:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:34:30 : Disconnecting
+20100528-17:34:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:35:00 : Disconnecting
+20100528-17:35:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:35:30 : Disconnecting
+20100528-17:35:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:36:00 : Disconnecting
+20100528-17:36:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:36:30 : Disconnecting
+20100528-17:36:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:37:00 : Disconnecting
+20100528-17:37:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:37:30 : Disconnecting
+20100528-17:37:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:38:00 : Disconnecting
+20100528-17:38:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:38:30 : Disconnecting
+20100528-17:38:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:39:00 : Disconnecting
+20100528-17:39:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:39:30 : Disconnecting
+20100528-17:39:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:40:00 : Disconnecting
+20100528-17:40:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:40:30 : Disconnecting
+20100528-17:40:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:41:00 : Disconnecting
+20100528-17:41:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:41:30 : Disconnecting
+20100528-17:41:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:42:00 : Disconnecting
+20100528-17:42:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:42:30 : Disconnecting
+20100528-17:42:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:43:00 : Disconnecting
+20100528-17:43:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:43:30 : Disconnecting
+20100528-17:43:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:44:00 : Disconnecting
+20100528-17:44:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:44:30 : Disconnecting
+20100528-17:44:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:45:00 : Disconnecting
+20100528-17:45:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:45:30 : Disconnecting
+20100528-17:45:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:45:59 : Initiated logon request
+20100528-17:46:14 : Timed out waiting for logon response
+20100528-17:46:14 : Disconnecting
+20100528-17:46:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:46:29 : Initiated logon request
+20100528-17:46:44 : Timed out waiting for logon response
+20100528-17:46:44 : Disconnecting
+20100528-17:46:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:46:59 : Initiated logon request
+20100528-17:47:14 : Timed out waiting for logon response
+20100528-17:47:14 : Disconnecting
+20100528-17:47:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:47:29 : Initiated logon request
+20100528-17:47:44 : Timed out waiting for logon response
+20100528-17:47:44 : Disconnecting
+20100528-17:47:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:47:59 : Initiated logon request
+20100528-17:48:14 : Timed out waiting for logon response
+20100528-17:48:14 : Disconnecting
+20100528-17:48:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:48:29 : Initiated logon request
+20100528-17:48:44 : Timed out waiting for logon response
+20100528-17:48:44 : Disconnecting
+20100528-17:48:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:48:59 : Initiated logon request
+20100528-17:49:14 : Timed out waiting for logon response
+20100528-17:49:14 : Disconnecting
+20100528-17:49:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:49:29 : Initiated logon request
+20100528-17:49:44 : Timed out waiting for logon response
+20100528-17:49:44 : Disconnecting
+20100528-17:49:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:49:59 : Initiated logon request
+20100528-17:50:14 : Timed out waiting for logon response
+20100528-17:50:14 : Disconnecting
+20100528-17:50:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:50:29 : Initiated logon request
+20100528-17:50:44 : Timed out waiting for logon response
+20100528-17:50:44 : Disconnecting
+20100528-17:50:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:50:59 : Initiated logon request
+20100528-17:51:14 : Timed out waiting for logon response
+20100528-17:51:14 : Disconnecting
+20100528-17:51:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:51:29 : Initiated logon request
+20100528-17:51:44 : Timed out waiting for logon response
+20100528-17:51:44 : Disconnecting
+20100528-17:51:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:51:59 : Initiated logon request
+20100528-17:52:14 : Timed out waiting for logon response
+20100528-17:52:14 : Disconnecting
+20100528-17:52:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:52:29 : Initiated logon request
+20100528-17:52:44 : Timed out waiting for logon response
+20100528-17:52:44 : Disconnecting
+20100528-17:52:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:52:59 : Initiated logon request
+20100528-17:53:14 : Timed out waiting for logon response
+20100528-17:53:14 : Disconnecting
+20100528-17:53:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:53:29 : Initiated logon request
+20100528-17:53:44 : Timed out waiting for logon response
+20100528-17:53:44 : Disconnecting
+20100528-17:53:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:53:59 : Initiated logon request
+20100528-17:54:14 : Timed out waiting for logon response
+20100528-17:54:14 : Disconnecting
+20100528-17:54:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:54:29 : Initiated logon request
+20100528-17:54:44 : Timed out waiting for logon response
+20100528-17:54:44 : Disconnecting
+20100528-17:54:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:54:59 : Initiated logon request
+20100528-17:55:14 : Timed out waiting for logon response
+20100528-17:55:14 : Disconnecting
+20100528-17:55:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:55:30 : Disconnecting
+20100528-17:55:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:56:00 : Disconnecting
+20100528-17:56:29 : Connecting to 192.168.0.99 on port 13999
+20100528-17:56:30 : Disconnecting
+20100528-17:56:59 : Connecting to 192.168.0.99 on port 13999
+20100528-17:56:59 : Initiated logon request
+20100528-17:56:59 : Received logon response
+20100528-17:56:59 : MsgSeqNum too high, expecting 11 but received 244
+20100528-17:56:59 : Sent ResendRequest FROM: 11 TO: 0
+20100528-17:56:59 : Received ResendRequest FROM: 11 TO: 0
+20100528-17:57:00 : Sent SequenceReset TO: 240
+20100528-17:57:00 : Resending Message: 240
+20100528-17:57:00 : Sent SequenceReset TO: 243
+20100528-17:57:00 : Received SequenceReset FROM: 11 TO: 243
+20100528-17:57:00 : ResendRequest for messages FROM: 11 TO: 243 has been satisfied.
+20100528-17:57:00 : Processing QUEUED message: 244
+20100528-17:57:03 : MsgSeqNum too high, expecting 245 but received 246
+20100528-17:57:03 : Sent ResendRequest FROM: 245 TO: 0
+20100528-17:57:03 : ResendRequest for messages FROM: 245 TO: 245 has been satisfied.
+20100528-17:57:03 : Received SequenceReset FROM: 245 TO: 246
+20100528-17:57:03 : Processing QUEUED message: 246
+20100528-17:58:03 : Received ResendRequest FROM: 242 TO: 0
+20100528-17:58:03 : Sent SequenceReset TO: 245
+20100531-18:28:37 : Created session
+20100531-18:28:37 : Connecting to 192.168.0.99 on port 13999
+20100531-18:28:37 : Initiated logon request
+20100531-18:28:37 : Received logon response
+20100531-19:03:06 : Created session
+20100531-19:03:06 : Connecting to 192.168.0.99 on port 13999
+20100531-19:03:06 : Initiated logon request
+20100531-19:03:06 : Received logon response
+20100531-19:16:07 : Received logout request
+20100531-19:16:07 : Sending logout response
+20100531-19:16:07 : Disconnecting
+20100531-19:16:07 : Connecting to 192.168.0.99 on port 13999
+20100531-19:16:07 : Initiated logon request
+20100531-19:16:07 : Received logon response
+20100531-19:16:07 : Received logout request
+20100531-19:16:07 : Sending logout response
+20100531-19:16:07 : Disconnecting
+20100821-22:29:43 : Created session
+20100821-22:29:43 : Connecting to 127.0.0.1 on port 13222
+20100821-22:29:43 : Initiated logon request
+20100821-22:29:43 : Socket Error: Connection reset by peer.
+20100821-22:29:43 : Disconnecting
+20100821-22:29:44 : Connecting to 127.0.0.1 on port 13222
+20100821-22:29:44 : Initiated logon request
+20100821-22:29:44 : Socket Error: Connection reset by peer.
+20100821-22:29:44 : Disconnecting
+20100821-22:32:27 : Created session
+20100821-22:32:29 : Connecting to 127.0.0.1 on port 13222
+20100821-22:32:44 : Initiated logon request
+20100821-22:32:46 : Socket Error: Connection reset by peer.
+20100821-22:32:46 : Disconnecting
+20100821-22:32:47 : Connecting to 127.0.0.1 on port 13222
+20100821-22:32:47 : Initiated logon request
+20100821-22:32:47 : Socket Error: Connection reset by peer.
+20100821-22:32:47 : Disconnecting

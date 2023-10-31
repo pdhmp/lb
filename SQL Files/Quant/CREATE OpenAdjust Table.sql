@@ -1,0 +1,12 @@
+INSERT INTO NESTTICK.dbo.Tb000_OpenAdjust
+SELECT SrDate
+	, CASE 
+		WHEN SrDate>='2007-10-15' AND SrDate<'2008-03-10' THEN CAST('01:00:00' AS datetime) 
+		WHEN SrDate>='2008-10-20' AND SrDate<'2009-03-09' THEN CAST('01:00:00' AS datetime) 
+		WHEN SrDate>='2009-10-19' AND SrDate<'2010-03-15' THEN CAST('01:00:00' AS datetime) 
+		ELSE 0 
+	END 
+FROM NESTDB.dbo.Tb053_Precos_Indices
+WHERE IdSecurity=1073 AND SrDate>='2007-10-15'
+GROUP BY SrDate
+

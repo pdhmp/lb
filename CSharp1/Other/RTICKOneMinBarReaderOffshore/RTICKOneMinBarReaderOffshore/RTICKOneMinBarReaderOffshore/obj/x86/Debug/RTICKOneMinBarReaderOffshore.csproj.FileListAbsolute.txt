@@ -1,0 +1,11 @@
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\bin\Debug\RTICKOneMinBarReaderOffshore.exe
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\bin\Debug\RTICKOneMinBarReaderOffshore.pdb
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\RTICKOneMinBarReaderOffshore.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\RTICKOneMinBarReaderOffshore.exe
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\RTICKOneMinBarReaderOffshore.pdb
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\obj\x86\Debug\RTICKOneMinBarReaderOffshore.Form1.resources
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\RTICKOneMinBarReaderOffshore\bin\Debug\NestDLL.pdb

@@ -1,0 +1,18 @@
+C:\temp\CBLC\CBLCRates.exe.manifest
+C:\temp\CBLC\CBLCRates.application
+C:\temp\CBLC\CBLCRates.exe
+C:\temp\CBLC\CBLCRates.pdb
+C:\temp\Andima\FeedAndima.exe.manifest
+C:\temp\Andima\FeedAndima.application
+C:\temp\Andima\FeedAndima.exe
+C:\temp\Andima\FeedAndima.pdb
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.frmImport.resources
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.TrustInfo.xml
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.exe.manifest
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.application
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.exe
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\FeedAndima.pdb

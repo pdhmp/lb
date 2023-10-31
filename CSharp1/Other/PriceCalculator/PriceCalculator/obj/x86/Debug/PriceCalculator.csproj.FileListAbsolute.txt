@@ -1,0 +1,15 @@
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\bin\Debug\PriceCalculator.exe
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\bin\Debug\PriceCalculator.pdb
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\bin\Debug\NFastData.dll
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\bin\Debug\NFastData.pdb
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\PriceCalculator.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\PriceCalculator.exe
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\PriceCalculator.pdb
+N:\TI\Projects\CSharp\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\PriceCalculator.Form1.resources
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\PriceCalculator.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\PriceCalculator\PriceCalculator\obj\x86\Debug\PriceCalculator.pdb

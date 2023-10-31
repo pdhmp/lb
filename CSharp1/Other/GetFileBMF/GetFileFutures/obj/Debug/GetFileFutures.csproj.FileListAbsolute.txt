@@ -1,0 +1,3 @@
+C:\temp\bmffile\GetFileFutures.exe.config
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.pdb

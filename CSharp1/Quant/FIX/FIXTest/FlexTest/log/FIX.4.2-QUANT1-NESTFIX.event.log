@@ -1,0 +1,117 @@
+20100315-13:42:01 : Created session
+20100315-13:42:01 : Connecting to 127.0.0.1 on port 13222
+20100315-13:42:01 : Initiated logon request
+20100315-13:42:01 : Received logon response
+20100315-13:43:32 : Initiated logout request
+20100315-13:43:32 : Received logout response
+20100315-13:43:32 : Disconnecting
+20100315-13:46:31 : Created session
+20100315-13:46:31 : Connecting to 127.0.0.1 on port 13222
+20100315-13:46:31 : Initiated logon request
+20100315-13:46:31 : Received logon response
+20100315-13:47:00 : Initiated logout request
+20100315-13:47:00 : Received logout response
+20100315-13:47:00 : Disconnecting
+20100315-13:47:26 : Created session
+20100315-13:47:26 : Connecting to 127.0.0.1 on port 13222
+20100315-13:47:26 : Initiated logon request
+20100315-13:47:26 : Received logon response
+20100315-13:48:14 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100315-13:48:14 : Disconnecting
+20100315-13:48:27 : Connecting to 127.0.0.1 on port 13222
+20100315-13:48:28 : Disconnecting
+20100315-13:48:57 : Connecting to 127.0.0.1 on port 13222
+20100315-13:48:58 : Disconnecting
+20100315-13:49:27 : Connecting to 127.0.0.1 on port 13222
+20100315-13:49:28 : Disconnecting
+20100315-13:50:17 : Created session
+20100315-13:50:17 : Connecting to 127.0.0.1 on port 13222
+20100315-13:50:17 : Initiated logon request
+20100315-13:50:17 : Received logon response
+20100315-13:51:15 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100315-13:51:15 : Disconnecting
+20100315-13:51:18 : Connecting to 127.0.0.1 on port 13222
+20100315-13:51:19 : Disconnecting
+20100315-14:18:45 : Created session
+20100315-14:18:45 : Connecting to 127.0.0.1 on port 13222
+20100315-14:18:45 : Initiated logon request
+20100315-14:18:45 : Received logon response
+20100315-14:19:57 : Sent test request TEST
+20100315-14:21:31 : Sent test request TEST
+20100315-14:22:43 : Timed out waiting for heartbeat
+20100315-14:22:43 : Disconnecting
+20100315-14:22:46 : Connecting to 127.0.0.1 on port 13222
+20100315-14:22:46 : Initiated logon request
+20100315-14:23:01 : Timed out waiting for logon response
+20100315-14:23:01 : Disconnecting
+20100315-14:23:16 : Connecting to 127.0.0.1 on port 13222
+20100315-14:23:16 : Initiated logon request
+20100315-14:23:31 : Timed out waiting for logon response
+20100315-14:23:31 : Disconnecting
+20100315-14:23:46 : Connecting to 127.0.0.1 on port 13222
+20100315-14:23:46 : Initiated logon request
+20100315-14:24:01 : Timed out waiting for logon response
+20100315-14:24:01 : Disconnecting
+20100315-14:24:16 : Connecting to 127.0.0.1 on port 13222
+20100315-14:24:16 : Initiated logon request
+20100315-14:24:31 : Timed out waiting for logon response
+20100315-14:24:31 : Disconnecting
+20100315-14:24:46 : Connecting to 127.0.0.1 on port 13222
+20100315-14:24:46 : Initiated logon request
+20100315-14:25:01 : Timed out waiting for logon response
+20100315-14:25:01 : Disconnecting
+20100315-14:25:16 : Connecting to 127.0.0.1 on port 13222
+20100315-14:25:16 : Initiated logon request
+20100315-14:25:17 : Received logon response
+20100315-14:25:17 : MsgSeqNum too high, expecting 13 but received 20
+20100315-14:25:17 : Sent ResendRequest FROM: 13 TO: 0
+20100315-14:25:19 : Received ResendRequest FROM: 15 TO: 0
+20100315-14:25:19 : Sent SequenceReset TO: 24
+20100315-14:25:20 : Received SequenceReset FROM: 13 TO: 18
+20100315-14:25:20 : ResendRequest for messages FROM: 13 TO: 19 has been satisfied.
+20100315-14:25:20 : Received SequenceReset FROM: 19 TO: 22
+20100315-14:28:06 : Created session
+20100315-14:28:06 : Connecting to 127.0.0.1 on port 13222
+20100315-14:28:06 : Initiated logon request
+20100315-14:28:06 : Received logon response
+20100315-14:28:06 : MsgSeqNum too high, expecting 22 but received 24
+20100315-14:28:06 : Sent ResendRequest FROM: 22 TO: 0
+20100315-14:28:06 : Received SequenceReset FROM: 22 TO: 25
+20100315-14:28:48 : ResendRequest for messages FROM: 22 TO: 23 has been satisfied.
+20100315-14:30:00 : Sent test request TEST
+20100315-14:35:08 : Initiated logout request
+20100315-14:35:08 : Received logout response
+20100315-14:35:08 : Disconnecting
+20100315-16:12:27 : Created session
+20100315-16:12:27 : Connecting to 127.0.0.1 on port 13222
+20100315-16:12:28 : Initiated logon request
+20100315-16:12:28 : Received logon response
+20100315-16:13:40 : Sent test request TEST
+20100315-16:14:46 : Initiated logout request
+20100315-16:14:46 : Received logout response
+20100315-16:14:46 : Disconnecting
+20100315-16:16:02 : Created session
+20100315-16:16:02 : Connecting to 127.0.0.1 on port 13222
+20100315-16:16:02 : Initiated logon request
+20100315-16:16:02 : Received logon response
+20100315-16:26:28 : Created session
+20100315-16:26:28 : Connecting to 127.0.0.1 on port 13222
+20100315-16:26:28 : Initiated logon request
+20100315-16:26:28 : Received logon response
+20100315-16:26:28 : MsgSeqNum too high, expecting 49 but received 50
+20100315-16:26:28 : Sent ResendRequest FROM: 49 TO: 0
+20100315-16:26:28 : ResendRequest for messages FROM: 49 TO: 49 has been satisfied.
+20100315-16:26:28 : Received SequenceReset FROM: 49 TO: 51
+20100315-16:28:51 : Initiated logout request
+20100315-16:28:51 : Received logout response
+20100315-16:28:51 : Disconnecting
+20100315-16:29:58 : Created session
+20100315-16:29:58 : Connecting to 127.0.0.1 on port 13222
+20100315-16:29:58 : Initiated logon request
+20100315-16:29:58 : Received logon response
+20100315-16:31:10 : Sent test request TEST
+20100315-16:32:51 : Initiated logout request
+20100315-16:32:51 : Received logout response
+20100315-16:32:51 : Disconnecting

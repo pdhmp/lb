@@ -1,0 +1,38 @@
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\ProxyDiffConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\ProxyDiffConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ProxyDiffConverter.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ProxyDiffConverter.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ProxyDiffConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ProxyDiffConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\ProxyDiffConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\ProxyDiffConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ProxyDiffConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ProxyDiffConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\ProxyDiffConverter.exe.config
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\Bloomberglp.Blpapi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\ProxyDiffConverter\ProxyDiffConverter\bin\Debug\NSYMConn.dll
+c:\Temp\ProxyDiffConverter.exe.config
+c:\Temp\ProxyDiffConverter.exe.manifest
+c:\Temp\ProxyDiffConverter.application
+c:\Temp\ProxyDiffConverter.exe
+c:\Temp\ProxyDiffConverter.pdb

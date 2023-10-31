@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx?wsdl" filename="ctServicoExterno.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx?disco" filename="ctServicoExterno.disco" />
+  </Results>
+</DiscoveryClientResultsFile>

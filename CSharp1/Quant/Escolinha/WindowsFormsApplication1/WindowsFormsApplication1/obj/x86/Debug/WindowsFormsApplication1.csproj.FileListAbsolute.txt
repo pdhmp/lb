@@ -1,0 +1,9 @@
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+N:\TI\Projects\CSharp\Quant\Escolinha\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

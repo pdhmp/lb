@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimpleDequeuerForm">
+</Property><Property Name="Solution File" Value="C:\Users\Hamilton\Documents\StreamBase\Nest\SimpleDequeuerForm\SimpleDequeuerForm.sln">
+</Property><Property Name="Date" Value="Wednesday, April 11, 2012">
+</Property><Property Name="Time" Value="18:08:39 PM">
+</Property></Properties><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="SimpleDequeuerForm.csproj" Description="Project file successfully backed up as C:\Users\Hamilton\Documents\StreamBase\Nest\SimpleDequeuerForm\Backup\SimpleDequeuerForm.csproj">
+</Event><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Hamilton\Documents\StreamBase\Nest\SimpleDequeuerForm\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="SimpleDequeuerForm.cs" Description="File successfully backed up as C:\Users\Hamilton\Documents\StreamBase\Nest\SimpleDequeuerForm\Backup\SimpleDequeuerForm.cs">
+</Event><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="App.ico" Description="File successfully backed up as C:\Users\Hamilton\Documents\StreamBase\Nest\SimpleDequeuerForm\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="SimpleDequeuerForm.resx" Description="File successfully backed up as C:\Users\Hamilton\Documents\StreamBase\Nest\SimpleDequeuerForm\Backup\SimpleDequeuerForm.resx">
+</Event><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="SimpleDequeuerForm.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SimpleDequeuerForm" Source="SimpleDequeuerForm.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SimpleDequeuerForm" Source="SimpleDequeuerForm.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

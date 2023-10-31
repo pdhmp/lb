@@ -1,0 +1,9 @@
+T:\Resources\NSocClient.dll
+T:\Resources\NSocClient.pdb
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\obj\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\obj\Debug\NSocClient.pdb
+C:\BKP PPAY\Livebook\Livebook2\Resources\NSocClient.dll
+C:\BKP PPAY\Livebook\Livebook2\Resources\NSocClient.pdb
+C:\BKP PPAY\CSharp\Livebook\NSocClient\NSocClient\obj\Debug\NSocClient.dll
+C:\BKP PPAY\CSharp\Livebook\NSocClient\NSocClient\obj\Debug\NSocClient.pdb

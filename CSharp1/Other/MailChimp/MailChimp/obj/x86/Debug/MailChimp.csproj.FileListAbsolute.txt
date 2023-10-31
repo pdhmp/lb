@@ -1,0 +1,30 @@
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\MailChimp.exe
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\MailChimp.pdb
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\MailChimp.MainForm.resources
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\MailChimp.Properties.Resources.resources
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\MailChimp.exe
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\obj\x86\Debug\MailChimp.pdb
+c:\users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\MailChimp.exe.config
+C:\Users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\PerceptiveMCAPI.dll
+C:\Users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\PerceptiveMCAPI.Export.dll
+C:\Users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\NestDLL.dll
+C:\Users\gabriel.oliveira\documents\visual studio 2010\Projects\MailChimp\MailChimp\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\MailChimp.exe.config
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\MailChimp.exe
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\MailChimp.pdb
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\MailChimp.exe
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\MailChimp.pdb
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\CookComputing.XmlRpcV2.dll
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\PerceptiveMCAPI.dll
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\PerceptiveMCAPI.Export.dll
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\MailChimp.MainForm.resources
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\MailChimp.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\MailChimp\MailChimp\obj\x86\Debug\GenerateResource.write.1.tlog

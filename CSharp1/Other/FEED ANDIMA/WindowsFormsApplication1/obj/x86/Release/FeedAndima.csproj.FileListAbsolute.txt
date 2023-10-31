@@ -1,0 +1,35 @@
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.exe.manifest
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.application
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.exe
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.pdb
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\NestDLL.dll
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.frmImport.resources
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.TrustInfo.xml
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.exe.manifest
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.application
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.exe
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.pdb
+C:\BKP PPAY\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.exe
+C:\BKP PPAY\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.pdb
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.exe
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.pdb
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.exe.manifest
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.application
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.exe
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\FeedAndima.pdb
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\NestDLL.dll
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\bin\Release\NestDLL.pdb
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.frmImport.resources
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.Properties.Resources.resources
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.TrustInfo.xml
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.exe.manifest
+C:\BKP PPAY\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.application
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Release\FeedAndima.pdb

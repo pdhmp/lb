@@ -1,0 +1,8 @@
+20120813-14:54:48: Session FIX.4.4:nest_umdf_bmf->XPBMF schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120813-14:54:48: Created session: FIX.4.4:nest_umdf_bmf->XPBMF
+20120813-14:54:49: Initiated logon request
+20120813-14:54:49: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20120813-14:54:49: Received logon request
+20120813-14:55:18: Initiated logout request
+20120813-14:55:18: Received logout response
+20120813-14:55:18: Disconnecting

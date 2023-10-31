@@ -1,0 +1,14 @@
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\MarketClusters.exe
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\MarketClusters.pdb
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\MarketClusters.exe
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\MarketClusters.pdb
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\NestSimDLL.dll
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\NestSimDLL.pdb
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\bin\Debug\NestSimDLL.xml
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\MarketClusters.Form1.resources
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\MarketClusters.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters\obj\Debug\ResGen.write.1.tlog

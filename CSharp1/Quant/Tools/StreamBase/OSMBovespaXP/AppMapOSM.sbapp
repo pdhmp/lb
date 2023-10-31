@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <named-schemas>
+            <schema name="AppInputReqMsg">
+                <field description="New, Cancel, Replace" name="Command" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="Buy, Sell" name="BuySell" type="string"/>
+                <field description="" name="Size" type="double"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Account" type="string"/>
+                <field description="Market, Limit, StopLimit, OnClose, MarketLeftOver - Default = Limit" name="OrderType" type="string"/>
+                <field description="Day, GTC, IOC, GTD - Default = Day" name="TimeInForce" type="string"/>
+                <field description="&quot;DD/MM/YYYY&quot;" name="DateExpiration" type="string"/>
+                <field description="" name="ExecBroker" type="string"/>
+                <field description="" name="StopPrice" type="double"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="free text max 50 bytes" name="Memo" type="string"/>
+                <field description="" name="ErrorInfo" type="string"/>
+                <field description="" name="AppOrderID" type="string"/>
+                <field description="" name="AppCxlRplID" type="string"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReportMsg">
+                <property name="description" value="This the consolidated Body FIX schema for Execution Report (8) + Order Cancel Reject (9) and Header FIX MsgType tag for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="AvgPx" type="double"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="CumQty" type="double"/>
+                <field description="" name="ExecID" type="string"/>
+                <field description="" name="ExecRefID" type="string"/>
+                <field description="" name="ExecTransType" type="string"/>
+                <field description="" name="LastPx" type="double"/>
+                <field description="" name="LastShares" type="double"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdStatus" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="TradeDate" type="timestamp"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="CxlRejReason" type="int"/>
+                <field description="" name="OrdRejReason" type="int"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExecType" type="string"/>
+                <field description="" name="LeavesQty" type="double"/>
+                <field description="" name="CxlRejResponseTo" type="string"/>
+                <field description="" name="Memo" type="string"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReportMsgFull">
+                <property name="description" value="This the COMPLETE/FULL FIX consolidated schema for New(D)+Cancel(F)+Replace(G) Orders for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="AvgPx" type="double"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="CumQty" type="double"/>
+                <field description="" name="ExecID" type="string"/>
+                <field description="" name="ExecRefID" type="string"/>
+                <field description="" name="ExecTransType" type="string"/>
+                <field description="" name="LastPx" type="double"/>
+                <field description="" name="LastShares" type="double"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdStatus" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="TradeDate" type="timestamp"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="CxlRejReason" type="int"/>
+                <field description="" name="OrdRejReason" type="int"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExecType" type="string"/>
+                <field description="" name="LeavesQty" type="double"/>
+                <field description="" name="CxlRejResponseTo" type="string"/>
+                <field description="" name="Memo" type="string"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+                <field description="" name="BeginString" type="string"/>
+                <field description="" name="BodyLength" type="int"/>
+                <field description="" name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="" name="SenderCompID" type="string"/>
+                <field description="" name="SenderSubID" type="string"/>
+                <field description="" name="TargetCompID" type="string"/>
+                <field description="" name="TargetSubID" type="string"/>
+                <field description="" name="SendingTime" type="timestamp"/>
+                <field description="" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReqMsg">
+                <property name="description" value="This the consolidated Body FIX schema for New(D)+Cancel(F)+Replace(G) Orders and Header FIX MsgType tag for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="HandlInst" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdType" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="ExecBroker" type="string"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExpireDate" type="timestamp"/>
+                <field description="" name="Memo" type="string"/>
+            </schema>
+            <schema name="MegaDirectFIX_RequestMsg">
+                <property name="description" value="This the consolidated Body FIX schema for New(D)+Cancel(F)+Replace(G) Orders and Header FIX MsgType tag for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="HandlInst" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdType" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="ExecBroker" type="string"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExpireDate" type="timestamp"/>
+                <field description="" name="Memo" type="string"/>
+            </schema>
+            <schema name="OSMReportMsg">
+                <field description="" name="ReqID" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="ExecID" type="string"/>
+                <field description="" name="UpdateNumber" type="int"/>
+                <field description="" name="UpdateTime" type="timestamp"/>
+                <field description="" name="OrderStatusBov" type="string"/>
+                <field description="" name="OrderStatusApp" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Venue" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="ReplacedbyReqID" type="string"/>
+                <field description="" name="CumQty" type="double"/>
+                <field description="" name="LeavesQty" type="double"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="InMarketQty" type="double"/>
+                <field description="" name="AvgPx" type="double"/>
+                <field description="" name="ExtraInfo" type="string"/>
+                <field description="" name="ExecTransType" type="string"/>
+                <field description="" name="ExecType" type="string"/>
+                <field description="" name="OrdRejReason" type="int"/>
+                <field description="" name="TradeDate" type="string"/>
+                <field description="" name="Request" type="tuple" value="MegaDirectFIX_RequestMsg"/>
+                <field description="" name="LastReport" type="tuple" value="MegaDirectFIX_ReportMsg"/>
+            </schema>
+        </named-schemas>
+        <constant expr="&quot;Missing Application Cancel/Replace OrderID&quot;" name="CHK_ERROR_APPCXLRPLID"/>
+        <constant expr="&quot;Missing Application OrderID&quot;" name="CHK_ERROR_APPORDERID"/>
+        <constant expr="&quot;Missing or Invalid Side (BUY or SELL)&quot;" name="CHK_ERROR_BUYSELL"/>
+        <constant expr="&quot;Missing or Invalid Command (NEW, CANCEL or REPLACE)&quot;" name="CHK_ERROR_COMMAND"/>
+        <constant expr="&quot;Missing Symbol&quot;" name="CHK_ERROR_SYMBOL"/>
+        <constant expr="tuple(&quot;D&quot; AS NEW, &quot;F&quot; AS CANCEL, &quot;G&quot; AS REPLACE)" name="EXEC_CMD"/>
+        <constant expr="&quot;CANCEL&quot;" name="EXEC_CMD_CANCEL"/>
+        <constant expr="&quot;NEW&quot;" name="EXEC_CMD_NEW"/>
+        <constant expr="&quot;REPLACE&quot;" name="EXEC_CMD_REPLACE"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS PARTIALLY_FILLED, &quot;2&quot; AS FILLED, &quot;3&quot; AS DONE_FOR_DAY, &quot;4&quot; AS CANCELLED, &quot;6&quot; AS PENDING_CANCEL, &quot;7&quot; AS STOPPED, &quot;8&quot; AS REJECTED, &quot;9&quot; AS SUSPENDED, &quot;A&quot; AS PENDING_NEW, &quot;B&quot; AS CALCULATED, &quot;C&quot; AS EXPIRED, &quot;D&quot; AS ACCEPTED_FOR_BIDDING, &quot;E&quot; AS PENDING_REPLACE, &quot;X&quot; AS ERROR, &quot;Y&quot; AS BUSTED, &quot;Z&quot; AS COMPLETED)" name="ORD_STATUS_APP"/>
+        <constant expr="&quot;BUSTED&quot;" name="ORD_STATUS_APP_BUSTED"/>
+        <constant expr="&quot;CALCULATED&quot;" name="ORD_STATUS_APP_CALCULATED"/>
+        <constant expr="&quot;CANCELLED&quot;" name="ORD_STATUS_APP_CANCELLED"/>
+        <constant expr="&quot;COMPLETED&quot;" name="ORD_STATUS_APP_COMPLETED"/>
+        <constant expr="&quot;DONE FOR DAY&quot;" name="ORD_STATUS_APP_DONE_FOR_DAY"/>
+        <constant expr="&quot;ERROR&quot;" name="ORD_STATUS_APP_ERROR"/>
+        <constant expr="&quot;EXPIRED&quot;" name="ORD_STATUS_APP_EXPIRED"/>
+        <constant expr="&quot;FILLED&quot;" name="ORD_STATUS_APP_FILLED"/>
+        <constant expr="&quot;NEW&quot;" name="ORD_STATUS_APP_NEW"/>
+        <constant expr="&quot;PARTIALLY FILLED&quot;" name="ORD_STATUS_APP_PARTIALLY_FILLED"/>
+        <constant expr="&quot;PENDING CANCEL&quot;" name="ORD_STATUS_APP_PENDING_CANCEL"/>
+        <constant expr="&quot;PENDING NEW&quot;" name="ORD_STATUS_APP_PENDING_NEW"/>
+        <constant expr="&quot;PENDING REPLACE&quot;" name="ORD_STATUS_APP_PENDING_REPLACE"/>
+        <constant expr="&quot;REJECTED&quot;" name="ORD_STATUS_APP_REJECTED"/>
+        <constant expr="&quot;STOPPED&quot;" name="ORD_STATUS_APP_STOPPED"/>
+        <constant expr="&quot;SUSPENDED&quot;" name="ORD_STATUS_APP_SUSPENDED"/>
+        <constant expr="tuple(&quot;1&quot; AS MARKET, &quot;2&quot; AS LIMIT, &quot;4&quot; AS STOPLIMIT, &quot;A&quot; AS ONCLOSE, &quot;K&quot; AS MARKETLEFTOVER)" name="ORD_TYPE"/>
+        <constant expr="&quot;LIMIT&quot;" name="ORD_TYPE_LIMIT"/>
+        <constant expr="&quot;MARKET&quot;" name="ORD_TYPE_MARKET"/>
+        <constant expr="&quot;MARKETLEFTOVER&quot;" name="ORD_TYPE_MARKET_LEFTOVER"/>
+        <constant expr="&quot;ONCLOSE&quot;" name="ORD_TYPE_ON_CLOSE"/>
+        <constant expr="&quot;STOPLIMIT&quot;" name="ORD_TYPE_STOP_LIMIT"/>
+        <constant expr="tuple(&quot;1&quot; AS BUY, &quot;2&quot; AS SELL)" name="SIDE"/>
+        <constant expr="&quot;BUY&quot;" name="SIDE_BUY"/>
+        <constant expr="&quot;SELL&quot;" name="SIDE_SELL"/>
+        <constant expr="tuple(&quot;0&quot; AS DAY, &quot;1&quot; AS GTC, &quot;2&quot; AS IOC, &quot;6&quot; AS GTD)" name="TIF"/>
+        <constant expr="&quot;DAY&quot;" name="TIF_DAY"/>
+        <constant expr="&quot;GTC&quot;" name="TIF_GTC"/>
+        <constant expr="&quot;GTD&quot;" name="TIF_GTD"/>
+        <constant expr="&quot;IOC&quot;" name="TIF_IOC"/>
+        <parameter-definitions>
+            <parameter default="&quot;00123&quot;" name="Account"/>
+            <parameter default="&quot;1&quot;" name="HandlInst"/>
+            <parameter default="&quot;BROKER&quot;" name="ExecBroker"/>
+        </parameter-definitions>
+        <schema name="schema:UserAppOutput">
+            <field description="" name="AppOrdID" type="string"/>
+            <field description="" name="AppCxlRplID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="OrderStatus" type="string"/>
+            <field description="" name="OrderStatusBov" type="string"/>
+            <field description="" name="OrderStatusApp" type="string"/>
+            <field description="" name="Side" type="string"/>
+            <field description="" name="ExecTransType" type="string"/>
+            <field description="" name="ExecType" type="string"/>
+            <field description="" name="BuySell" type="string"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="CumQty" type="double"/>
+            <field description="" name="OrderQty" type="double"/>
+            <field description="" name="AvgPx" type="double"/>
+            <field description="" name="ClOrdID" type="string"/>
+            <field description="" name="OrigClOrdID" type="string"/>
+            <field description="" name="ExecID" type="string"/>
+            <field description="" name="UpdateNumber" type="int"/>
+            <field description="" name="UpdateTime" type="timestamp"/>
+            <field description="" name="ReplacedbyReqID" type="string"/>
+            <field description="" name="LeavesQty" type="double"/>
+            <field description="" name="InMarketQty" type="double"/>
+            <field description="" name="ExtraInfo" type="string"/>
+            <field description="" name="MinQty" type="double"/>
+            <field description="" name="Account" type="string"/>
+            <field description="" name="MaxFloor" type="double"/>
+            <field description="" name="TimeInForce" type="string"/>
+            <field description="" name="TradeDate" type="string"/>
+            <field description="" name="OrdRejReason" type="int"/>
+            <field description="" name="LastPx" type="double"/>
+            <field description="" name="LastShares" type="double"/>
+        </schema>
+        <stream name="OSMReport" schema="OSMReportMsg">
+            <param name="gui:x" value="7.0"/>
+            <param name="gui:y" value="963.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="UserAppInput" schema="AppInputReqMsg">
+            <param name="gui:x" value="12.0"/>
+            <param name="gui:y" value="3099.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <box name="CleanseOut" type="map">
+            <input port="1" stream="OSMReport"/>
+            <output port="1" stream="out:CleanseOut_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="Venue"/>
+                    <remove field="OrderID"/>
+                    <remove field="Request"/>
+                    <remove field="LastReport"/>
+                    <remove field="ReqID"/>
+                </item>
+                <expressions>
+                    <include field="LastPx">LastReport.LastPx</include>
+                    <include field="LastShares">LastReport.LastShares</include>
+                    <include field="MinQty">LastReport.MinQty</include>
+                    <include field="MaxFloor">LastReport.MaxFloor</include>
+                    <include field="TimeInForce">LastReport.TimeInForce</include>
+                    <include field="Account">LastReport.Account</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="123.0"/>
+            <param name="gui:y" value="959.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union9" type="union">
+            <input port="1" stream="UserAppInput"/>
+            <output port="1" stream="out:Union9_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="134.0,3129.0;134.0,3062.0"/>
+            <param name="gui:x" value="167.0"/>
+            <param name="gui:y" value="3028.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="WriterAppMapRepIn" type="outputadapter">
+            <input port="1" stream="UserAppInput"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/AppMapRepIn.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/AppMapRepIn.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="gui:bends:1" value="102.0,3129.0;102.0,3194.0"/>
+            <param name="gui:x" value="167.0"/>
+            <param name="gui:y" value="3160.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetStatus" type="filter">
+            <input port="1" stream="out:CleanseOut_1"/>
+            <output port="1" stream="out:SetStatus_1"/>
+            <output port="2" stream="out:SetStatus_2"/>
+            <output port="3" stream="out:SetStatus_3"/>
+            <output port="4" stream="out:SetStatus_4"/>
+            <output port="5" stream="out:SetStatus_5"/>
+            <output port="6" stream="out:SetStatus_6"/>
+            <output port="7" stream="out:SetStatus_7"/>
+            <output port="8" stream="out:SetStatus_8"/>
+            <output port="9" stream="out:SetStatus_9"/>
+            <output port="10" stream="out:SetStatus_10"/>
+            <output port="11" stream="out:SetStatus_11"/>
+            <output port="12" stream="out:SetStatus_12"/>
+            <output port="13" stream="out:SetStatus_13"/>
+            <output port="14" stream="out:SetStatus_14"/>
+            <output port="15" stream="out:SetStatus_15"/>
+            <output port="16" stream="out:SetStatus_16"/>
+            <output port="17" stream="out:SetStatus_17"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="OrderStatusApp == ORD_STATUS_APP.PENDING_NEW"/>
+            <param name="expression.1" value="OrderStatusApp == ORD_STATUS_APP.PENDING_CANCEL"/>
+            <param name="expression.2" value="OrderStatusApp == ORD_STATUS_APP.PENDING_REPLACE"/>
+            <param name="expression.3" value="OrderStatusApp == ORD_STATUS_APP.NEW"/>
+            <param name="expression.4" value="OrderStatusApp == ORD_STATUS_APP.PARTIALLY_FILLED"/>
+            <param name="expression.5" value="OrderStatusApp == ORD_STATUS_APP.FILLED"/>
+            <param name="expression.6" value="OrderStatusApp == ORD_STATUS_APP.CANCELLED"/>
+            <param name="expression.7" value="OrderStatusApp == ORD_STATUS_APP.STOPPED"/>
+            <param name="expression.8" value="OrderStatusApp == ORD_STATUS_APP.REJECTED"/>
+            <param name="expression.9" value="OrderStatusApp == ORD_STATUS_APP.SUSPENDED"/>
+            <param name="expression.10" value="OrderStatusApp == ORD_STATUS_APP.EXPIRED"/>
+            <param name="expression.11" value="OrderStatusApp == ORD_STATUS_APP.ERROR"/>
+            <param name="expression.12" value="OrderStatusApp == ORD_STATUS_APP.COMPLETED"/>
+            <param name="expression.13" value="OrderStatusApp == ORD_STATUS_APP.DONE_FOR_DAY"/>
+            <param name="expression.14" value="OrderStatusApp == ORD_STATUS_APP.CALCULATED"/>
+            <param name="expression.15" value="OrderStatusApp == ORD_STATUS_APP.BUSTED"/>
+            <param name="expression.16" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="239.0"/>
+            <param name="gui:y" value="877.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="234.0"/>
+        </box>
+        <box name="WrapReq" type="map">
+            <input port="1" stream="out:Union9_1"/>
+            <output port="1" stream="out:WrapReq_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="Request">AppInputReqMsg(Command, Symbol, BuySell, Size, Price, Account, OrderType, TimeInForce, DateExpiration, ExecBroker, StopPrice, MinQty, MaxFloor, Memo, ErrorInfo, AppOrderID, AppCxlRplID)</include>
+                    <include field="OrderMsg">MegaDirectFIX_ReqMsg()</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="306.0"/>
+            <param name="gui:y" value="3028.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Busted" type="map">
+            <input port="1" stream="out:SetStatus_16"/>
+            <output port="1" stream="out:Busted_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_BUSTED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="323.0,1077.0;323.0,1826.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1792.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Calculated" type="map">
+            <input port="1" stream="out:SetStatus_15"/>
+            <output port="1" stream="out:Calculated_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_CALCULATED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="327.0,1065.0;327.0,1708.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1673.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Cancelled" type="map">
+            <input port="1" stream="out:SetStatus_7"/>
+            <output port="1" stream="out:Cancelled_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_CANCELLED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="410.0,969.0;410.0,756.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="721.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="CheckError" type="filter">
+            <input port="1" stream="out:WrapReq_1"/>
+            <output port="1" stream="out:CheckError_1"/>
+            <output port="2" stream="out:CheckError_2"/>
+            <output port="3" stream="out:CheckError_3"/>
+            <output port="4" stream="out:CheckError_4"/>
+            <output port="5" stream="out:CheckError_5"/>
+            <output port="6" stream="out:CheckError_6"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="isnull(Request.Command) OR !(Request.Command==EXEC_CMD_NEW OR Request.Command==EXEC_CMD_CANCEL OR Request.Command==EXEC_CMD_REPLACE)"/>
+            <param name="expression.1" value="isnull(Request.BuySell) OR !(Request.BuySell==SIDE_BUY OR Request.BuySell==SIDE_SELL)"/>
+            <param name="expression.2" value="isnull(Request.Symbol)"/>
+            <param name="expression.3" value="isnull(Request.AppOrderID)"/>
+            <param name="expression.4" value="isnull(Request.AppCxlRplID) AND (Request.Command==EXEC_CMD_CANCEL OR Request.Command==EXEC_CMD_REPLACE)"/>
+            <param name="expression.5" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="422.0"/>
+            <param name="gui:y" value="3018.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="91.0"/>
+        </box>
+        <box name="Completed" type="map">
+            <input port="1" stream="out:SetStatus_13"/>
+            <output port="1" stream="out:Completed_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_COMPLETED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="343.0,1041.0;343.0,1469.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1435.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="DoneForDay" type="map">
+            <input port="1" stream="out:SetStatus_14"/>
+            <output port="1" stream="out:DoneForDay_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_DONE_FOR_DAY</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="339.0,1053.0;339.0,1588.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1554.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Error" type="map">
+            <input port="1" stream="out:SetStatus_12"/>
+            <output port="1" stream="out:Error_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_ERROR</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="351.0,1029.0;351.0,1350.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1316.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Expired" type="map">
+            <input port="1" stream="out:SetStatus_11"/>
+            <output port="1" stream="out:Expired_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_EXPIRED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="359.0,1017.0;359.0,1232.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1197.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Filled" type="map">
+            <input port="1" stream="out:SetStatus_6"/>
+            <output port="1" stream="out:Filled_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_FILLED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="402.0,957.0;402.0,636.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="602.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="New" type="map">
+            <input port="1" stream="out:SetStatus_4"/>
+            <output port="1" stream="out:New_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_NEW</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="378.0,933.0;378.0,398.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="364.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="NonMatch" type="map">
+            <input port="1" stream="out:SetStatus_17"/>
+            <output port="1" stream="out:NonMatch_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="ExtraInfo">"Non-matching Order Status"</replace>
+                </item>
+                <expressions>
+                    <include field="OrderStatus">string(null)</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="311.0,1089.0;311.0,1945.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1911.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="PartiallyFilled" type="map">
+            <input port="1" stream="out:SetStatus_5"/>
+            <output port="1" stream="out:PartiallyFilled_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_PARTIALLY_FILLED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="386.0,945.0;386.0,517.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="483.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="PendingCancel" type="map">
+            <input port="1" stream="out:SetStatus_2"/>
+            <output port="1" stream="out:PendingCancel_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_PENDING_CANCEL</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="331.0,909.0;331.0,160.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="126.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="PendingNew" type="map">
+            <input port="1" stream="out:SetStatus_1"/>
+            <output port="1" stream="out:PendingNew_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_PENDING_NEW</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="319.0,897.0;319.0,41.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="7.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="PendingReplace" type="map">
+            <input port="1" stream="out:SetStatus_3"/>
+            <output port="1" stream="out:PendingReplace_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_PENDING_REPLACE</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="335.0,921.0;335.0,280.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="245.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Rejected" type="map">
+            <input port="1" stream="out:SetStatus_9"/>
+            <output port="1" stream="out:Rejected_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_REJECTED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="959.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Stopped" type="map">
+            <input port="1" stream="out:SetStatus_8"/>
+            <output port="1" stream="out:Stopped_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_STOPPED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="418.0,981.0;418.0,874.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="840.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Suspended" type="map">
+            <input port="1" stream="out:SetStatus_10"/>
+            <output port="1" stream="out:Suspended_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="OrderStatus">ORD_STATUS_APP_SUSPENDED</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="394.0,1005.0;394.0,1112.0"/>
+            <param name="gui:x" value="436.0"/>
+            <param name="gui:y" value="1078.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetAppCxlRplIDError" type="map">
+            <input port="1" stream="out:CheckError_5"/>
+            <output port="1" stream="out:SetAppCxlRplIDError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"Missing Cancel/Replace OrderID"</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="513.0,3077.0;513.0,3361.0"/>
+            <param name="gui:x" value="590.0"/>
+            <param name="gui:y" value="3327.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetAppOrderIDError" type="map">
+            <input port="1" stream="out:CheckError_4"/>
+            <output port="1" stream="out:SetAppOrderIDError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"Missing Application OrderID"</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="517.0,3068.0;517.0,3242.0"/>
+            <param name="gui:x" value="590.0"/>
+            <param name="gui:y" value="3208.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetBuySellError" type="map">
+            <input port="1" stream="out:CheckError_2"/>
+            <output port="1" stream="out:SetBuySellError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"Invalid or Missing Side: "+Request.BuySell</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="557.0,3048.0;557.0,2844.0"/>
+            <param name="gui:x" value="590.0"/>
+            <param name="gui:y" value="2809.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetCommandError" type="map">
+            <input port="1" stream="out:CheckError_1"/>
+            <output port="1" stream="out:SetCommandError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"Invalid or Missing Command: "+Request.Command</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="541.0,3038.0;541.0,2724.0"/>
+            <param name="gui:x" value="590.0"/>
+            <param name="gui:y" value="2690.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrderMsg" type="map">
+            <input port="1" stream="out:CheckError_6"/>
+            <output port="1" stream="out:SetOrderMsg_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.Price">Request.Price</replace>
+                    <replace field="OrderMsg.Symbol">Request.Symbol</replace>
+                    <replace field="OrderMsg.Memo">Request.Memo</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="490.0,3088.0;490.0,3265.0;-18.0,3265.0;-18.0,2424.0"/>
+            <param name="gui:x" value="590.0"/>
+            <param name="gui:y" value="2389.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetSymbolError" type="map">
+            <input port="1" stream="out:CheckError_3"/>
+            <output port="1" stream="out:SetSymbolError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"Missing Symbol"</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="525.0,3057.0;525.0,3124.0"/>
+            <param name="gui:x" value="590.0"/>
+            <param name="gui:y" value="3089.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union6Copy" type="union">
+            <input port="1" stream="out:PendingNew_1"/>
+            <input port="2" stream="out:PendingCancel_1"/>
+            <input port="3" stream="out:PendingReplace_1"/>
+            <input port="4" stream="out:New_1"/>
+            <input port="5" stream="out:PartiallyFilled_1"/>
+            <input port="6" stream="out:Filled_1"/>
+            <input port="7" stream="out:Cancelled_1"/>
+            <input port="8" stream="out:Stopped_1"/>
+            <input port="9" stream="out:Rejected_1"/>
+            <input port="10" stream="out:Suspended_1"/>
+            <input port="11" stream="out:Expired_1"/>
+            <input port="12" stream="out:Error_1"/>
+            <input port="13" stream="out:Completed_1"/>
+            <input port="14" stream="out:DoneForDay_1"/>
+            <input port="15" stream="out:Calculated_1"/>
+            <input port="16" stream="out:Busted_1"/>
+            <input port="17" stream="out:NonMatch_1"/>
+            <output port="1" stream="out:Union6Copy_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="623.0,41.0;623.0,897.0"/>
+            <param name="gui:bends:2" value="615.0,160.0;615.0,909.0"/>
+            <param name="gui:bends:3" value="611.0,280.0;611.0,921.0"/>
+            <param name="gui:bends:4" value="565.0,398.0;565.0,933.0"/>
+            <param name="gui:bends:5" value="561.0,517.0;561.0,945.0"/>
+            <param name="gui:bends:6" value="557.0,636.0;557.0,957.0"/>
+            <param name="gui:bends:7" value="549.0,756.0;549.0,969.0"/>
+            <param name="gui:bends:8" value="533.0,874.0;533.0,981.0"/>
+            <param name="gui:bends:9" value=""/>
+            <param name="gui:bends:10" value="576.0,1112.0;576.0,1005.0"/>
+            <param name="gui:bends:11" value="591.0,1232.0;591.0,1017.0"/>
+            <param name="gui:bends:12" value="603.0,1350.0;603.0,1029.0"/>
+            <param name="gui:bends:13" value="615.0,1469.0;615.0,1041.0"/>
+            <param name="gui:bends:14" value="619.0,1588.0;619.0,1053.0"/>
+            <param name="gui:bends:15" value="627.0,1708.0;627.0,1065.0"/>
+            <param name="gui:bends:16" value="623.0,1826.0;623.0,1077.0"/>
+            <param name="gui:bends:17" value="631.0,1945.0;631.0,1089.0"/>
+            <param name="gui:x" value="636.0"/>
+            <param name="gui:y" value="877.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="234.0"/>
+        </box>
+        <box name="SetCommand" type="filter">
+            <input port="1" stream="out:SetOrderMsg_1"/>
+            <output port="1" stream="out:SetCommand_1"/>
+            <output port="2" stream="out:SetCommand_2"/>
+            <output port="3" stream="out:SetCommand_3"/>
+            <output port="4" stream="out:SetCommand_4"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Request.Command == EXEC_CMD_NEW"/>
+            <param name="expression.1" value="Request.Command == EXEC_CMD_CANCEL"/>
+            <param name="expression.2" value="Request.Command == EXEC_CMD_REPLACE"/>
+            <param name="expression.3" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="744.0"/>
+            <param name="gui:y" value="2389.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetSide" type="filter">
+            <input port="1" stream="out:Union6Copy_1"/>
+            <output port="1" stream="out:SetSide_1"/>
+            <output port="2" stream="out:SetSide_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Side == SIDE.BUY"/>
+            <param name="expression.1" value="Side == SIDE.SELL"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="754.0"/>
+            <param name="gui:y" value="959.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union10" type="union">
+            <input port="1" stream="out:SetCommandError_1"/>
+            <input port="2" stream="out:SetBuySellError_1"/>
+            <input port="3" stream="out:SetSymbolError_1"/>
+            <input port="4" stream="out:SetAppOrderIDError_1"/>
+            <input port="5" stream="out:SetAppCxlRplIDError_1"/>
+            <output port="1" stream="out:Union10_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="718.0,2724.0;718.0,3101.0"/>
+            <param name="gui:bends:2" value="686.0,2844.0;686.0,3110.0"/>
+            <param name="gui:bends:3" value="700.0,3124.0;700.0,3120.0"/>
+            <param name="gui:bends:4" value="730.0,3242.0;730.0,3128.0"/>
+            <param name="gui:bends:5" value="734.0,3361.0;734.0,3137.0"/>
+            <param name="gui:x" value="744.0"/>
+            <param name="gui:y" value="3081.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="78.0"/>
+        </box>
+        <box name="Buy" type="map">
+            <input port="1" stream="out:SetSide_1"/>
+            <output port="1" stream="out:Buy_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="BuySell">SIDE_BUY</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="858.0,980.0;858.0,933.0"/>
+            <param name="gui:x" value="870.0"/>
+            <param name="gui:y" value="899.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Sell" type="map">
+            <input port="1" stream="out:SetSide_2"/>
+            <output port="1" stream="out:Sell_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="BuySell">SIDE_SELL</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="826.0,1008.0;826.0,1052.0"/>
+            <param name="gui:x" value="870.0"/>
+            <param name="gui:y" value="1018.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetCancel" type="map">
+            <input port="1" stream="out:SetCommand_2"/>
+            <output port="1" stream="out:SetCancel_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.MsgType">EXEC_CMD.CANCEL</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="850.0,2418.0;850.0,2364.0"/>
+            <param name="gui:x" value="876.0"/>
+            <param name="gui:y" value="2329.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetErrorCommand" type="map">
+            <input port="1" stream="out:SetCommand_4"/>
+            <output port="1" stream="out:SetErrorCommand_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"ERROR: Command not valid: "+Request.Command</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="850.0,2437.0;850.0,3092.0;2309.0,3092.0;2309.0,2685.0"/>
+            <param name="gui:x" value="3465.0"/>
+            <param name="gui:y" value="2651.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetNew" type="map">
+            <input port="1" stream="out:SetCommand_1"/>
+            <output port="1" stream="out:SetNew_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.MsgType">EXEC_CMD.NEW</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="842.0,2409.0;842.0,2244.0"/>
+            <param name="gui:x" value="876.0"/>
+            <param name="gui:y" value="2210.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetReplace" type="map">
+            <input port="1" stream="out:SetCommand_3"/>
+            <output port="1" stream="out:SetReplace_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.MsgType">EXEC_CMD.REPLACE</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="871.0,2428.0;871.0,2482.0"/>
+            <param name="gui:x" value="876.0"/>
+            <param name="gui:y" value="2448.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union14" type="union">
+            <input port="1" stream="out:Buy_1"/>
+            <input port="2" stream="out:Sell_1"/>
+            <output port="1" stream="out:Union14_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="961.0,933.0;961.0,980.0"/>
+            <param name="gui:bends:2" value="973.0,1052.0;973.0,1008.0"/>
+            <param name="gui:x" value="986.0"/>
+            <param name="gui:y" value="959.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union2" type="union">
+            <input port="1" stream="out:SetNew_1"/>
+            <input port="2" stream="out:SetCancel_1"/>
+            <input port="3" stream="out:SetReplace_1"/>
+            <output port="1" stream="out:Union2_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="949.0,2244.0;949.0,2348.0"/>
+            <param name="gui:bends:2" value="965.0,2364.0;965.0,2362.0"/>
+            <param name="gui:bends:3" value="981.0,2482.0;981.0,2376.0"/>
+            <param name="gui:x" value="992.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="AddMinMaxFloorTIF" type="map">
+            <input port="1" stream="out:Union14_1"/>
+            <output port="1" stream="out:AddMinMaxFloorTIF_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1125.0"/>
+            <param name="gui:y" value="959.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Sequence" type="seqnum">
+            <input port="1" stream="out:Union2_1"/>
+            <output port="1" stream="out:Sequence_1"/>
+            <param name="output-field" value="seqid"/>
+            <param name="sequence-id" value="sequenceid"/>
+            <param name="update-expression" value="sequenceid + 1"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1108.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetAppOrdID" type="map">
+            <input port="1" stream="out:AddMinMaxFloorTIF_1"/>
+            <output port="1" stream="UserAppOutput"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="AppOrdID">ClOrdID</include>
+                    <include field="AppCxlRplID">OrigClOrdID</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1267.0"/>
+            <param name="gui:y" value="963.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetClOrdID" type="map">
+            <input port="1" stream="out:Sequence_1"/>
+            <output port="1" stream="out:SetClOrdID_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="seqid"/>
+                    <replace field="OrderMsg.ClOrdID">Request.AppOrderID</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1224.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetAccount" type="map">
+            <input port="1" stream="out:SetClOrdID_1"/>
+            <output port="1" stream="out:SetAccount_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.Account">IF isnull(Request.Account) THEN ${Account} ELSE Request.Account</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1340.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <output-stream name="UserAppOutput" schema="schema:UserAppOutput">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="1397.0"/>
+            <param name="gui:y" value="963.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="SetHandlInst" type="map">
+            <input port="1" stream="out:SetAccount_1"/>
+            <output port="1" stream="out:SetHandlInst_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.HandlInst">${HandlInst}</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1458.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrderID" type="map">
+            <input port="1" stream="out:SetHandlInst_1"/>
+            <output port="1" stream="out:SetOrderID_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrderID">string(null)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1577.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrderQty" type="map">
+            <input port="1" stream="out:SetOrderID_1"/>
+            <output port="1" stream="out:SetOrderQty_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrderQty">Request.Size</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1694.0"/>
+            <param name="gui:y" value="2328.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrdType" type="filter">
+            <input port="1" stream="out:SetOrderQty_1"/>
+            <output port="1" stream="out:SetOrdType_1"/>
+            <output port="2" stream="out:SetOrdType_2"/>
+            <output port="3" stream="out:SetOrdType_3"/>
+            <output port="4" stream="out:SetOrdType_4"/>
+            <output port="5" stream="out:SetOrdType_5"/>
+            <output port="6" stream="out:SetOrdType_6"/>
+            <output port="7" stream="out:SetOrdType_7"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Request.OrderType == ORD_TYPE_MARKET"/>
+            <param name="expression.1" value="Request.OrderType == ORD_TYPE_LIMIT"/>
+            <param name="expression.2" value="isnull(Request.OrderType)"/>
+            <param name="expression.3" value="Request.OrderType == ORD_TYPE_STOP_LIMIT"/>
+            <param name="expression.4" value="Request.OrderType == ORD_TYPE_ON_CLOSE"/>
+            <param name="expression.5" value="Request.OrderType == ORD_TYPE_MARKET_LEFTOVER"/>
+            <param name="expression.6" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1812.0"/>
+            <param name="gui:y" value="2311.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="104.0"/>
+        </box>
+        <box name="LimitAndLimitAsDefault" type="union">
+            <input port="1" stream="out:SetOrdType_2"/>
+            <input port="2" stream="out:SetOrdType_3"/>
+            <output port="1" stream="out:LimitAndLimitAsDefault_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1953.0,2341.0;1953.0,2277.0"/>
+            <param name="gui:bends:2" value="1965.0,2352.0;1965.0,2305.0"/>
+            <param name="gui:x" value="2010.0"/>
+            <param name="gui:y" value="2257.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetMarket" type="map">
+            <input port="1" stream="out:SetOrdType_1"/>
+            <output port="1" stream="out:SetMarket_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrdType">ORD_TYPE.MARKET</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="1929.0,2332.0;1929.0,2172.0"/>
+            <param name="gui:x" value="2159.0"/>
+            <param name="gui:y" value="2138.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetMarketLeftOver" type="map">
+            <input port="1" stream="out:SetOrdType_6"/>
+            <output port="1" stream="out:SetMarketLeftOver_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrdType">ORD_TYPE.MARKETLEFTOVER</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="1889.0,2382.0;1889.0,2668.0"/>
+            <param name="gui:x" value="2010.0"/>
+            <param name="gui:y" value="2633.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOnClose" type="map">
+            <input port="1" stream="out:SetOrdType_5"/>
+            <output port="1" stream="out:SetOnClose_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrdType">ORD_TYPE.ONCLOSE</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="1901.0,2372.0;1901.0,2548.0"/>
+            <param name="gui:x" value="2010.0"/>
+            <param name="gui:y" value="2514.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrdTypeError" type="map">
+            <input port="1" stream="out:SetOrdType_7"/>
+            <output port="1" stream="out:SetOrdTypeError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"ERROR: OrderType not valid: "+Request.OrderType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="1881.0,2393.0;1881.0,2804.0"/>
+            <param name="gui:x" value="3465.0"/>
+            <param name="gui:y" value="2770.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetStopLimit" type="map">
+            <input port="1" stream="out:SetOrdType_4"/>
+            <output port="1" stream="out:SetStopLimit_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrdType">ORD_TYPE.STOPLIMIT</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2042.0,2362.0;2042.0,2410.0"/>
+            <param name="gui:x" value="2277.0"/>
+            <param name="gui:y" value="2376.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetLimit" type="map">
+            <input port="1" stream="out:LimitAndLimitAsDefault_1"/>
+            <output port="1" stream="out:SetLimit_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrdType">ORD_TYPE.LIMIT</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2277.0"/>
+            <param name="gui:y" value="2257.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetPriceNull" type="map">
+            <input port="1" stream="out:SetMarket_1"/>
+            <output port="1" stream="out:SetPriceNull_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.Price">double(null)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2277.0"/>
+            <param name="gui:y" value="2138.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union11" type="union">
+            <input port="1" stream="out:SetOnClose_1"/>
+            <input port="2" stream="out:SetMarketLeftOver_1"/>
+            <output port="1" stream="out:Union11_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="2116.0,2548.0;2116.0,2549.0"/>
+            <param name="gui:bends:2" value="2078.0,2668.0;2078.0,2577.0"/>
+            <param name="gui:x" value="2159.0"/>
+            <param name="gui:y" value="2529.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetPriceZero" type="map">
+            <input port="1" stream="out:Union11_1"/>
+            <output port="1" stream="out:SetPriceZero_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.Price">double(0.0)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2248.0,2564.0;2248.0,2534.0"/>
+            <param name="gui:x" value="2277.0"/>
+            <param name="gui:y" value="2500.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union3" type="union">
+            <input port="1" stream="out:SetPriceNull_1"/>
+            <input port="2" stream="out:SetLimit_1"/>
+            <input port="3" stream="out:SetStopLimit_1"/>
+            <input port="4" stream="out:SetPriceZero_1"/>
+            <output port="1" stream="out:Union3_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="2373.0,2172.0;2373.0,2377.0"/>
+            <param name="gui:bends:2" value="2357.0,2292.0;2357.0,2386.0"/>
+            <param name="gui:bends:3" value="2373.0,2410.0;2373.0,2396.0"/>
+            <param name="gui:bends:4" value="2389.0,2534.0;2389.0,2405.0"/>
+            <param name="gui:x" value="2406.0"/>
+            <param name="gui:y" value="2357.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrigClOrdID" type="filter">
+            <input port="1" stream="out:Union3_1"/>
+            <output port="1" stream="out:SetOrigClOrdID_1"/>
+            <output port="2" stream="out:SetOrigClOrdID_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Request.Command == EXEC_CMD_NEW"/>
+            <param name="expression.1" value="Request.Command == EXEC_CMD_CANCEL OR Request.Command == EXEC_CMD_REPLACE"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2531.0"/>
+            <param name="gui:y" value="2357.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrigCxlOrRpl" type="map">
+            <input port="1" stream="out:SetOrigClOrdID_2"/>
+            <output port="1" stream="out:SetOrigCxlOrRpl_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrigClOrdID">Request.AppCxlRplID</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2642.0,2405.0;2642.0,2450.0"/>
+            <param name="gui:x" value="2668.0"/>
+            <param name="gui:y" value="2416.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetOrigNew" type="map">
+            <input port="1" stream="out:SetOrigClOrdID_1"/>
+            <output port="1" stream="out:SetOrigNew_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.OrigClOrdID">string(null)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2630.0,2377.0;2630.0,2332.0"/>
+            <param name="gui:x" value="2668.0"/>
+            <param name="gui:y" value="2297.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union4" type="union">
+            <input port="1" stream="out:SetOrigNew_1"/>
+            <input port="2" stream="out:SetOrigCxlOrRpl_1"/>
+            <output port="1" stream="out:Union4_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="2769.0,2332.0;2769.0,2377.0"/>
+            <param name="gui:bends:2" value="2785.0,2450.0;2785.0,2405.0"/>
+            <param name="gui:x" value="2796.0"/>
+            <param name="gui:y" value="2357.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetSideCopy" type="filter">
+            <input port="1" stream="out:Union4_1"/>
+            <output port="1" stream="out:SetSideCopy_1"/>
+            <output port="2" stream="out:SetSideCopy_2"/>
+            <output port="3" stream="out:SetSideCopy_3"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Request.BuySell == SIDE_BUY"/>
+            <param name="expression.1" value="Request.BuySell == SIDE_SELL"/>
+            <param name="expression.2" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2914.0"/>
+            <param name="gui:y" value="2357.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetBuy" type="map">
+            <input port="1" stream="out:SetSideCopy_1"/>
+            <output port="1" stream="out:SetBuy_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.Side">SIDE.BUY</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3009.0,2377.0;3009.0,2324.0"/>
+            <param name="gui:x" value="3042.0"/>
+            <param name="gui:y" value="2290.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetSell" type="map">
+            <input port="1" stream="out:SetSideCopy_2"/>
+            <output port="1" stream="out:SetSell_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.Side">SIDE.SELL</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3025.0,2392.0;3025.0,2444.0"/>
+            <param name="gui:x" value="3042.0"/>
+            <param name="gui:y" value="2409.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetSideError" type="map">
+            <input port="1" stream="out:SetSideCopy_3"/>
+            <output port="1" stream="out:SetSideError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"ERROR: BuySell not valid: "+Request.BuySell</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3009.0,2405.0;3009.0,2924.0"/>
+            <param name="gui:x" value="3465.0"/>
+            <param name="gui:y" value="2889.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union5" type="union">
+            <input port="1" stream="out:SetBuy_1"/>
+            <input port="2" stream="out:SetSell_1"/>
+            <output port="1" stream="out:Union5_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3130.0,2324.0;3130.0,2370.0"/>
+            <param name="gui:bends:2" value="3146.0,2444.0;3146.0,2398.0"/>
+            <param name="gui:x" value="3158.0"/>
+            <param name="gui:y" value="2350.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetTimeInForce" type="filter">
+            <input port="1" stream="out:Union5_1"/>
+            <output port="1" stream="out:SetTimeInForce_1"/>
+            <output port="2" stream="out:SetTimeInForce_2"/>
+            <output port="3" stream="out:SetTimeInForce_3"/>
+            <output port="4" stream="out:SetTimeInForce_4"/>
+            <output port="5" stream="out:SetTimeInForce_5"/>
+            <output port="6" stream="out:SetTimeInForce_6"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Request.TimeInForce == TIF_DAY"/>
+            <param name="expression.1" value="isnull(Request.TimeInForce)"/>
+            <param name="expression.2" value="Request.TimeInForce == TIF_GTC"/>
+            <param name="expression.3" value="Request.TimeInForce == TIF_IOC"/>
+            <param name="expression.4" value="Request.TimeInForce == TIF_GTD"/>
+            <param name="expression.5" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3284.0"/>
+            <param name="gui:y" value="2340.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="91.0"/>
+        </box>
+        <box name="DayAndDayAsDefault" type="union">
+            <input port="1" stream="out:SetTimeInForce_1"/>
+            <input port="2" stream="out:SetTimeInForce_2"/>
+            <output port="1" stream="out:DayAndDayAsDefault_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3418.0,2360.0;3418.0,2076.0"/>
+            <param name="gui:bends:2" value="3430.0,2369.0;3430.0,2104.0"/>
+            <param name="gui:x" value="3465.0"/>
+            <param name="gui:y" value="2055.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetGTC" type="map">
+            <input port="1" stream="out:SetTimeInForce_3"/>
+            <output port="1" stream="out:SetGTC_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.TimeInForce">TIF.GTC</replace>
+                    <replace field="OrderMsg.ExpireDate">OrderMsg.ExpireDate</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3481.0,2380.0;3481.0,2208.0"/>
+            <param name="gui:x" value="3627.0"/>
+            <param name="gui:y" value="2174.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetGTD" type="map">
+            <input port="1" stream="out:SetTimeInForce_5"/>
+            <output port="1" stream="out:SetGTD_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.TimeInForce">TIF.IOC</replace>
+                    <replace field="OrderMsg.ExpireDate">parse_time(Request.DateExpiration, 'yyyyMMdd')</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3497.0,2400.0;3497.0,2446.0"/>
+            <param name="gui:x" value="3627.0"/>
+            <param name="gui:y" value="2412.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetIOC" type="map">
+            <input port="1" stream="out:SetTimeInForce_4"/>
+            <output port="1" stream="out:SetIOC_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.TimeInForce">TIF.IOC</replace>
+                    <replace field="OrderMsg.ExpireDate">timestamp(null)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3513.0,2389.0;3513.0,2328.0"/>
+            <param name="gui:x" value="3627.0"/>
+            <param name="gui:y" value="2293.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetTimeInForceError" type="map">
+            <input port="1" stream="out:SetTimeInForce_6"/>
+            <output port="1" stream="out:SetTimeInForceError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="Request.ErrorInfo">"ERROR: TimeInForce not valid: "+Request.TimeInForce</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="3418.0,2409.0;3418.0,3042.0"/>
+            <param name="gui:x" value="3465.0"/>
+            <param name="gui:y" value="3008.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetDay" type="map">
+            <input port="1" stream="out:DayAndDayAsDefault_1"/>
+            <output port="1" stream="out:SetDay_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.TimeInForce">TIF.DAY</replace>
+                    <replace field="OrderMsg.ExpireDate">timestamp(null)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3627.0"/>
+            <param name="gui:y" value="2055.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union8" type="union">
+            <input port="1" stream="out:SetErrorCommand_1"/>
+            <input port="2" stream="out:SetOrdTypeError_1"/>
+            <input port="3" stream="out:SetSideError_1"/>
+            <input port="4" stream="out:SetTimeInForceError_1"/>
+            <input port="5" stream="out:Union10_1"/>
+            <output port="1" stream="out:Union8_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3588.0,2685.0;3588.0,2846.0"/>
+            <param name="gui:bends:2" value="3568.0,2804.0;3568.0,2856.0"/>
+            <param name="gui:bends:3" value="3608.0,2924.0;3608.0,2864.0"/>
+            <param name="gui:bends:4" value="3616.0,3042.0;3616.0,2873.0"/>
+            <param name="gui:bends:5" value="3620.0,3120.0;3620.0,2882.0"/>
+            <param name="gui:x" value="3627.0"/>
+            <param name="gui:y" value="2826.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="78.0"/>
+        </box>
+        <box name="Cleanser2" type="map">
+            <input port="1" stream="out:Union8_1"/>
+            <output port="1" stream="ErrorOut"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="OrderMsg"/>
+                </item>
+                <expressions>
+                    <include field="Error">Request.ErrorInfo</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3763.0"/>
+            <param name="gui:y" value="2830.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union6" type="union">
+            <input port="1" stream="out:SetDay_1"/>
+            <input port="2" stream="out:SetGTC_1"/>
+            <input port="3" stream="out:SetIOC_1"/>
+            <input port="4" stream="out:SetGTD_1"/>
+            <output port="1" stream="out:Union6_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3744.0,2089.0;3744.0,2177.0"/>
+            <param name="gui:bends:2" value="3696.0,2208.0;3696.0,2186.0"/>
+            <param name="gui:bends:3" value="3704.0,2328.0;3704.0,2196.0"/>
+            <param name="gui:bends:4" value="3724.0,2446.0;3724.0,2205.0"/>
+            <param name="gui:x" value="3763.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <output-stream name="ErrorOut">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="3884.0"/>
+            <param name="gui:y" value="2834.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="SetExecBroker" type="map">
+            <input port="1" stream="out:Union6_1"/>
+            <output port="1" stream="out:SetExecBroker_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.ExecBroker">IF isnull(Request.ExecBroker) THEN string(null) ELSE Request.ExecBroker</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3884.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetStopPx" type="filter">
+            <input port="1" stream="out:SetExecBroker_1"/>
+            <output port="1" stream="out:SetStopPx_1"/>
+            <output port="2" stream="out:SetStopPx_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Request.OrderType == ORD_TYPE_STOP_LIMIT"/>
+            <param name="expression.1" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4006.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetNoStopLimitPrice" type="map">
+            <input port="1" stream="out:SetStopPx_2"/>
+            <output port="1" stream="out:SetNoStopLimitPrice_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.StopPx">double(null)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="4110.0,2205.0;4110.0,2294.0"/>
+            <param name="gui:x" value="4145.0"/>
+            <param name="gui:y" value="2260.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetStopLimitPrice" type="map">
+            <input port="1" stream="out:SetStopPx_1"/>
+            <output port="1" stream="out:SetStopLimitPrice_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.StopPx">Request.StopPrice</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="4094.0,2177.0;4094.0,2176.0"/>
+            <param name="gui:x" value="4145.0"/>
+            <param name="gui:y" value="2141.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union7" type="union">
+            <input port="1" stream="out:SetStopLimitPrice_1"/>
+            <input port="2" stream="out:SetNoStopLimitPrice_1"/>
+            <output port="1" stream="out:Union7_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="4258.0,2176.0;4258.0,2177.0"/>
+            <param name="gui:bends:2" value="4242.0,2294.0;4242.0,2205.0"/>
+            <param name="gui:x" value="4285.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetMinQty" type="map">
+            <input port="1" stream="out:Union7_1"/>
+            <output port="1" stream="out:SetMinQty_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.MinQty">IF isnull(Request.MinQty) THEN double(null) ELSE Request.MinQty</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4401.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetMaxFloor" type="map">
+            <input port="1" stream="out:SetMinQty_1"/>
+            <output port="1" stream="out:SetMaxFloor_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.MaxFloor">IF isnull(Request.MaxFloor) THEN double(null) ELSE Request.MaxFloor</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4518.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="SetTransactTime" type="map">
+            <input port="1" stream="out:SetMaxFloor_1"/>
+            <output port="1" stream="out:SetTransactTime_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderMsg.TransactTime">now()-timezoneoffset()</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4649.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Cleanser" type="map">
+            <input port="1" stream="out:SetTransactTime_1"/>
+            <output port="1" stream="out:Cleanser_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="Request"/>
+                    <remove field="OrderMsg"/>
+                </item>
+                <expressions>
+                    <include field="*">OrderMsg.*</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4778.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <box name="Union" type="union">
+            <input port="1" stream="out:Cleanser_1"/>
+            <output port="1" stream="OutToOSM"/>
+            <param name="strict" value="true"/>
+            <param name="schema" value="MegaDirectFIX_ReqMsg"/>
+            <param name="strict" value="true"/>
+            <param name="schema" value="MegaDirectFIX_ReqMsg"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4894.0"/>
+            <param name="gui:y" value="2157.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <output-stream name="OutToOSM">
+            <param name="gui:bends" value="4986.0,2192.0;4986.0,2305.0"/>
+            <param name="gui:x" value="5056.0"/>
+            <param name="gui:y" value="2275.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="WriteAppMapOutToOSM" type="outputadapter">
+            <input port="1" stream="OutToOSM"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/AppMapOut.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/AppMapOut.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="gui:bends:1" value="5022.0,2192.0;5022.0,2190.0"/>
+            <param name="gui:x" value="5056.0"/>
+            <param name="gui:y" value="2156.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="70.0"/>
+        </box>
+        <gui.note name="Note2">
+            <property name="description" value="On Close Orders &amp; Market w/ leftover as Limit Orders: Tag 44 (Price) must be filled w/ Zero (0) otherwise order will be rejected by megadirect bovespa"/>
+            <param name="gui:x" value="1808.0"/>
+            <param name="gui:y" value="2500.0"/>
+            <param name="gui:width" value="70.0"/>
+            <param name="gui:height" value="74.0"/>
+            <note-target name="SetPriceZero"/>
+            <note-target name="SetMarketLeftOver"/>
+        </gui.note>
+    </add>
+</modify>

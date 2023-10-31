@@ -1,0 +1,16 @@
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.exe
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.pdb
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.frmImagineSync.resources
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\GenerateResource-ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\temp\imagine2\ImagineSync.exe.manifest
+C:\temp\imagine2\ImagineSync.application
+C:\temp\imagine2\ImagineSync.exe
+C:\temp\imagine2\ImagineSync.pdb
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.TrustInfo.xml
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.exe.manifest
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ImagineSync.application
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Other\ImagineSync\ImagineSync\obj\Debug\ResGen.write.1.tlog

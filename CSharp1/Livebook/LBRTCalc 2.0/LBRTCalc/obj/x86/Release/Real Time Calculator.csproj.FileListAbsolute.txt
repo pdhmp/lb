@@ -1,0 +1,56 @@
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\LBRTCalc.exe.config
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\LBRTCalc.exe.manifest
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\LBRTCalc.application
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\LBRTCalc.exe
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\LBRTCalc.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NCommonTypes.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NestDLL.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NSYMConn.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\quickfix_net.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\Bloomberglp.Blpapi.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\FlexApi.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NSocClient.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\DiffieHellman.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NCommonTypes.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NestDLL.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NSYMConn.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NSocClient.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NCalculatorDLL.dll
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\NCalculatorDLL.pdb
+c:\temp\LBRTCalc.exe.config
+c:\temp\LBRTCalc.exe.manifest
+c:\temp\LBRTCalc.application
+c:\temp\LBRTCalc.exe
+c:\temp\LBRTCalc.pdb
+c:\temp\RTCalc\LBRTCalc.exe.config
+c:\temp\RTCalc\LBRTCalc.exe.manifest
+c:\temp\RTCalc\LBRTCalc.application
+c:\temp\RTCalc\LBRTCalc.exe
+c:\temp\RTCalc\LBRTCalc.pdb
+c:\temp\LBRTCalc\LBRTCalc.exe.config
+c:\temp\LBRTCalc\LBRTCalc.exe.manifest
+c:\temp\LBRTCalc\LBRTCalc.application
+c:\temp\LBRTCalc\LBRTCalc.exe
+c:\temp\LBRTCalc\LBRTCalc.pdb
+c:\temp\LBRTCalc2\LBRTCalc.exe.config
+c:\temp\LBRTCalc2\LBRTCalc.exe.manifest
+c:\temp\LBRTCalc2\LBRTCalc.application
+c:\temp\LBRTCalc2\LBRTCalc.exe
+c:\temp\LBRTCalc2\LBRTCalc.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.frmRealTime.resources
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.Properties.Resources.resources
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.exe.manifest
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.application
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.exe
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.pdb
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\Real Time Calculator.csprojResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\Real Time Calculator.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.exe
+C:\BKP PPAY\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.pdb
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Livebook\LBRTCalc 2.0\LBRTCalc\obj\x86\Release\LBRTCalc.pdb

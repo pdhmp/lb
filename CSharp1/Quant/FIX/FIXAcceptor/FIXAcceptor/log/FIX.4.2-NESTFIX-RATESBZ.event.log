@@ -1,0 +1,166 @@
+20100312-19:19:16 : Created session
+20100312-19:19:22 : Received logon request
+20100312-19:19:22 : Responding to logon request
+20100312-19:19:22 : MsgSeqNum too high, expecting 1 but received 13
+20100312-19:19:22 : Sent ResendRequest FROM: 1 TO: 0
+20100312-19:19:22 : Received logout request
+20100312-19:19:22 : Sending logout response
+20100312-19:19:22 : Disconnecting
+20100312-19:19:22 : Received logon request
+20100312-19:19:22 : Responding to logon request
+20100312-19:19:22 : MsgSeqNum too high, expecting 2 but received 15
+20100312-19:19:22 : Sent ResendRequest FROM: 2 TO: 0
+20100312-19:19:22 : Received logout request
+20100312-19:19:22 : Sending logout response
+20100312-19:19:22 : Disconnecting
+20100312-19:20:12 : Received logon request
+20100312-19:20:12 : Responding to logon request
+20100312-19:20:12 : MsgSeqNum too high, expecting 3 but received 17
+20100312-19:20:12 : Sent ResendRequest FROM: 3 TO: 0
+20100312-19:20:12 : Socket Error: An established connection was aborted by the software in your host machine.
+
+20100312-19:20:12 : Disconnecting
+20100312-19:20:13 : Received logon request
+20100312-19:20:13 : Responding to logon request
+20100312-19:20:13 : MsgSeqNum too high, expecting 3 but received 19
+20100312-19:20:13 : Sent ResendRequest FROM: 3 TO: 0
+20100312-19:20:13 : Received ResendRequest FROM: 8 TO: 0
+20100312-19:20:13 : Sent SequenceReset TO: 11
+20100312-19:20:13 : Received SequenceReset FROM: 3 TO: 9
+20100312-19:20:13 : Received SequenceReset FROM: 11 TO: 12
+20100312-19:20:13 : Received SequenceReset FROM: 13 TO: 21
+20100312-19:20:30 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100312-19:20:31 : Disconnecting
+20100312-19:21:48 : Received logon request
+20100312-19:21:48 : Responding to logon request
+20100312-19:22:40 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100312-19:22:40 : Disconnecting
+20100312-19:22:58 : Received logon request
+20100312-19:22:58 : Responding to logon request
+20100312-19:22:58 : Received ResendRequest FROM: 15 TO: 0
+20100312-19:22:58 : Resending Message: 15
+20100312-19:22:58 : Sent SequenceReset TO: 17
+20100312-19:23:06 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100312-19:23:06 : Disconnecting
+20100317-13:46:31 : Created session
+20100317-13:48:54 : Created session
+20100317-13:49:13 : Received logon request
+20100317-13:49:13 : Responding to logon request
+20100317-13:49:22 : Created session
+20100317-13:49:36 : Received logon request
+20100317-13:49:37 : Responding to logon request
+20100317-13:49:42 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:49:42 : Disconnecting
+20100317-13:52:11 : Received logon request
+20100317-13:52:11 : Responding to logon request
+20100317-13:52:33 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:52:33 : Disconnecting
+20100317-13:53:05 : Received logon request
+20100317-13:53:05 : Responding to logon request
+20100317-13:53:13 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:53:13 : Disconnecting
+20100317-13:53:26 : Received logon request
+20100317-13:53:26 : Responding to logon request
+20100317-13:53:32 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:53:32 : Disconnecting
+20100317-13:55:37 : Received logon request
+20100317-13:55:37 : Responding to logon request
+20100317-13:55:43 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:55:43 : Disconnecting
+20100317-13:56:21 : Received logon request
+20100317-13:56:21 : Responding to logon request
+20100317-13:56:26 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:56:26 : Disconnecting
+20100317-13:56:34 : Received logon request
+20100317-13:56:34 : Responding to logon request
+20100317-13:57:23 : Created session
+20100317-13:58:07 : Received logon request
+20100317-13:58:07 : Responding to logon request
+20100317-13:58:32 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-13:58:32 : Disconnecting
+20100317-14:00:45 : Received logon request
+20100317-14:00:45 : Responding to logon request
+20100317-14:01:01 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:01:01 : Disconnecting
+20100317-14:01:55 : Received logon request
+20100317-14:01:55 : Responding to logon request
+20100317-14:02:37 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:02:37 : Disconnecting
+20100317-14:04:10 : Received logon request
+20100317-14:04:10 : Responding to logon request
+20100317-14:04:15 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:04:15 : Disconnecting
+20100317-14:04:32 : Received logon request
+20100317-14:04:32 : Responding to logon request
+20100317-14:04:38 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:04:38 : Disconnecting
+20100317-14:06:41 : Received logon request
+20100317-14:06:41 : Responding to logon request
+20100317-14:15:38 : Created session
+20100317-14:15:42 : Received logon request
+20100317-14:15:42 : Responding to logon request
+20100317-14:15:56 : Created session
+20100317-14:16:13 : Received logon request
+20100317-14:16:13 : Responding to logon request
+20100317-14:16:37 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:16:37 : Disconnecting
+20100317-14:19:46 : Created session
+20100317-14:19:51 : Received logon request
+20100317-14:19:51 : Responding to logon request
+20100317-14:19:58 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:19:58 : Disconnecting
+20100317-14:20:04 : Received logon request
+20100317-14:20:04 : Responding to logon request
+20100317-14:20:07 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-14:20:07 : Disconnecting
+20100317-14:26:36 : Created session
+20100317-14:26:40 : Received logon request
+20100317-14:26:40 : Responding to logon request
+20100317-14:26:47 : Created session
+20100317-14:27:11 : Received logon request
+20100317-14:27:11 : Responding to logon request
+20100317-16:51:38 : Created session
+20100317-16:51:46 : Received logon request
+20100317-16:51:46 : Responding to logon request
+20100317-17:33:40 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-17:33:40 : Disconnecting
+20100317-17:35:37 : Received logon request
+20100317-17:35:37 : Responding to logon request
+20100317-17:35:47 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-17:35:47 : Disconnecting
+20100317-17:36:05 : Received logon request
+20100317-17:36:05 : Responding to logon request
+20100317-17:36:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-17:36:10 : Disconnecting
+20100317-17:36:14 : Received logon request
+20100317-17:36:14 : Responding to logon request
+20100317-17:37:26 : Sent test request TEST
+20100317-17:38:38 : Timed out waiting for heartbeat
+20100317-17:38:38 : Disconnecting
+20100317-20:46:39 : Received logon request
+20100317-20:46:39 : Responding to logon request
+20100317-20:46:39 : Received ResendRequest FROM: 190 TO: 0
+20100317-20:46:40 : Sent SequenceReset TO: 193
+20100317-21:32:29 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100317-21:32:29 : Disconnecting

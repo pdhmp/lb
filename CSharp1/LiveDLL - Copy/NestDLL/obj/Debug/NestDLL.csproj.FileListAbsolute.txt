@@ -1,0 +1,6 @@
+T:\Resources\NestDLL.dll
+T:\Resources\NestDLL.pdb
+N:\TI\Projects\CSharp\NestDLL\NestDLL\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.pdb
+T:\Resources\NestDLL.dll.config

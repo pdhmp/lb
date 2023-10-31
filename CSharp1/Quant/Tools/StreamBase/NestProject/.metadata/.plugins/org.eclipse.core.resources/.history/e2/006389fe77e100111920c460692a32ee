@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="AggregatedBookTable">
+        <param name="gui:x" value="310.0"/>
+        <param name="gui:y" value="522.0"/>
+        <param name="gui:width" value="190.0"/>
+        <param name="gui:height" value="61.0"/>
+    </component>
+    <component name="OrderBookTable">
+        <param name="gui:x" value="324.0"/>
+        <param name="gui:y" value="613.0"/>
+        <param name="gui:width" value="162.0"/>
+        <param name="gui:height" value="59.0"/>
+    </component>
+    <component name="TopOfBookTable">
+        <param name="gui:x" value="326.0"/>
+        <param name="gui:y" value="702.0"/>
+        <param name="gui:width" value="158.0"/>
+        <param name="gui:height" value="60.0"/>
+    </component>
+    <component name="GetBook">
+        <param name="gui:x" value="238.0"/>
+        <param name="gui:y" value="450.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InputFileNameMD">
+        <param name="gui:x" value="17.0"/>
+        <param name="gui:y" value="240.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MDRequest">
+        <param name="gui:x" value="131.0"/>
+        <param name="gui:y" value="334.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SecurityRequest">
+        <param name="gui:x" value="238.0"/>
+        <param name="gui:y" value="356.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="CSVFileReader">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="131.0"/>
+        <param name="gui:y" value="239.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="63.0"/>
+    </component>
+    <component name="Union">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:bends:2" value=""/>
+        <param name="gui:x" value="238.0"/>
+        <param name="gui:y" value="261.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="63.0"/>
+    </component>
+    <component name="MDFIXRef1">
+        <param name="gui:x" value="374.0"/>
+        <param name="gui:y" value="323.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="104.0"/>
+        <param name="gui:columnwidths" value="670,670,671;130,909;506,505;128,85"/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:bends:2" value=""/>
+        <param name="gui:bends:3" value=""/>
+    </component>
+    <component name="AdminMessages">
+        <param name="gui:bends" value="475.0,406.0;539.0,669.0"/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="638.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="BookOut">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="74.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="ErrorOut">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="262.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SecSubscriptionOut">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="544.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SecSubscriptionStatus">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="356.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="TopOfBook">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="168.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Trade">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="627.0"/>
+        <param name="gui:y" value="450.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

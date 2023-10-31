@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="XPSyncNegociosConsultar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="opcao" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datainicial" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="datafinal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nrbroker" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nrcliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="papel" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XPSyncNegociosConsultarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XPSyncNegociosConsultarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XPSyncBrokerSOAPHeader" type="tns:XPSyncBrokerSOAPHeader" />
+      <s:complexType name="XPSyncBrokerSOAPHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="brokerToken" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="brokerLogin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="brokerPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="avaliableBrokers" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="avaliableClients" type="tns:ArrayOfString" />
+        </s:sequence>
+        <s:anyAttribute />
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AutenticarBroker">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="login" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutenticarBrokerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutenticarBrokerResult" type="tns:XPSyncBrokerSOAPHeader" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="XPSyncNegociosConsultarSoapIn">
+    <wsdl:part name="parameters" element="tns:XPSyncNegociosConsultar" />
+  </wsdl:message>
+  <wsdl:message name="XPSyncNegociosConsultarSoapOut">
+    <wsdl:part name="parameters" element="tns:XPSyncNegociosConsultarResponse" />
+  </wsdl:message>
+  <wsdl:message name="XPSyncNegociosConsultarXPSyncBrokerSOAPHeader">
+    <wsdl:part name="XPSyncBrokerSOAPHeader" element="tns:XPSyncBrokerSOAPHeader" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarBrokerSoapIn">
+    <wsdl:part name="parameters" element="tns:AutenticarBroker" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarBrokerSoapOut">
+    <wsdl:part name="parameters" element="tns:AutenticarBrokerResponse" />
+  </wsdl:message>
+  <wsdl:message name="XPSyncNegociosConsultarHttpGetIn">
+    <wsdl:part name="opcao" type="s:string" />
+    <wsdl:part name="datainicial" type="s:string" />
+    <wsdl:part name="datafinal" type="s:string" />
+    <wsdl:part name="nrbroker" type="s:string" />
+    <wsdl:part name="nrcliente" type="s:string" />
+    <wsdl:part name="papel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="XPSyncNegociosConsultarHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarBrokerHttpGetIn">
+    <wsdl:part name="login" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarBrokerHttpGetOut">
+    <wsdl:part name="Body" element="tns:XPSyncBrokerSOAPHeader" />
+  </wsdl:message>
+  <wsdl:message name="XPSyncNegociosConsultarHttpPostIn">
+    <wsdl:part name="opcao" type="s:string" />
+    <wsdl:part name="datainicial" type="s:string" />
+    <wsdl:part name="datafinal" type="s:string" />
+    <wsdl:part name="nrbroker" type="s:string" />
+    <wsdl:part name="nrcliente" type="s:string" />
+    <wsdl:part name="papel" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="XPSyncNegociosConsultarHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarBrokerHttpPostIn">
+    <wsdl:part name="login" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AutenticarBrokerHttpPostOut">
+    <wsdl:part name="Body" element="tns:XPSyncBrokerSOAPHeader" />
+  </wsdl:message>
+  <wsdl:portType name="ctServicoExternoSoap">
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna a tabela dos negócios do broker para um cliente</wsdl:documentation>
+      <wsdl:input message="tns:XPSyncNegociosConsultarSoapIn" />
+      <wsdl:output message="tns:XPSyncNegociosConsultarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna a credencial para o cabeçalho SOAP com os dados do broker logado</wsdl:documentation>
+      <wsdl:input message="tns:AutenticarBrokerSoapIn" />
+      <wsdl:output message="tns:AutenticarBrokerSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ctServicoExternoHttpGet">
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna a tabela dos negócios do broker para um cliente</wsdl:documentation>
+      <wsdl:input message="tns:XPSyncNegociosConsultarHttpGetIn" />
+      <wsdl:output message="tns:XPSyncNegociosConsultarHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna a credencial para o cabeçalho SOAP com os dados do broker logado</wsdl:documentation>
+      <wsdl:input message="tns:AutenticarBrokerHttpGetIn" />
+      <wsdl:output message="tns:AutenticarBrokerHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ctServicoExternoHttpPost">
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna a tabela dos negócios do broker para um cliente</wsdl:documentation>
+      <wsdl:input message="tns:XPSyncNegociosConsultarHttpPostIn" />
+      <wsdl:output message="tns:XPSyncNegociosConsultarHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Retorna a credencial para o cabeçalho SOAP com os dados do broker logado</wsdl:documentation>
+      <wsdl:input message="tns:AutenticarBrokerHttpPostIn" />
+      <wsdl:output message="tns:AutenticarBrokerHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ctServicoExternoSoap" type="tns:ctServicoExternoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <soap:operation soapAction="http://tempuri.org/XPSyncNegociosConsultar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:XPSyncNegociosConsultarXPSyncBrokerSOAPHeader" part="XPSyncBrokerSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <soap:operation soapAction="http://tempuri.org/AutenticarBroker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ctServicoExternoSoap12" type="tns:ctServicoExternoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <soap12:operation soapAction="http://tempuri.org/XPSyncNegociosConsultar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+        <soap12:header message="tns:XPSyncNegociosConsultarXPSyncBrokerSOAPHeader" part="XPSyncBrokerSOAPHeader" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <soap12:operation soapAction="http://tempuri.org/AutenticarBroker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ctServicoExternoHttpGet" type="tns:ctServicoExternoHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <http:operation location="/XPSyncNegociosConsultar" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <http:operation location="/AutenticarBroker" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ctServicoExternoHttpPost" type="tns:ctServicoExternoHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="XPSyncNegociosConsultar">
+      <http:operation location="/XPSyncNegociosConsultar" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarBroker">
+      <http:operation location="/AutenticarBroker" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ctServicoExterno">
+    <wsdl:port name="ctServicoExternoSoap" binding="tns:ctServicoExternoSoap">
+      <soap:address location="http://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ctServicoExternoSoap12" binding="tns:ctServicoExternoSoap12">
+      <soap12:address location="http://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ctServicoExternoHttpGet" binding="tns:ctServicoExternoHttpGet">
+      <http:address location="http://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ctServicoExternoHttpPost" binding="tns:ctServicoExternoHttpPost">
+      <http:address location="http://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

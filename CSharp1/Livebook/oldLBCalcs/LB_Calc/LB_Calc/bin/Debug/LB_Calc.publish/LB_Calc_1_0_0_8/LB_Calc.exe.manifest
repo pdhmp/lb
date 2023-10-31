@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="LB_Calc.exe" version="1.0.0.8" publicKeyToken="2b2f64da8d532764" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LB_Calc" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LB_Calc.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LB_Calc.exe" size="45056">
+      <assemblyIdentity name="LB_Calc" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KIPXW16RDElZyG4elLxZmC/L8XM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NestDLL.dll" size="24576">
+      <assemblyIdentity name="NestDLL" version="1.0.0.1" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rcdN1Ml3z6nfLSZ5A74o3AJKtMI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=NESTINVEST\luis" issuerKeyHash="a0224c6afb8ce178562522d394aac05bf8246ca8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gpbLfSRj50Y3tDHpjoghIWD+MMw=</DigestValue></Reference></SignedInfo><SignatureValue>n8bt14AdCl7Cj6ItTuuZ9LWdkGn0mT+EWZlLn1Hrfzif4U178ZoAY/icfqqy7jdifOTisWfmmV3jJ/UwsoKdiFglCUTokR19kFu4E7NDbS9sHaOBWdeacw4ZSSz+7m6EdJ/NIIs+aY9x9CgVVU+YWd57vChFfUHEdLrCzSKfxJQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xZ7SzoeLEv63IPZ+IQs/WlNUmjdG6GD4YkbWjyxvegV0qs8Zqjd6bsOPJBWuVQT9tQ+QLiaroDcx0hExkXvFjb+EyGya1Xi5kwWdg1oJ6ZM6YMgFfkTtkJ+zFFfm6sTSAbhF/M8p9WZIQLArHgC6duCWqzKmNZHBRPYFYpCmx/8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cc30fe602121888ee931b43746e763247dcb9682" Description="" Url=""><as:assemblyIdentity name="LB_Calc.exe" version="1.0.0.8" publicKeyToken="2b2f64da8d532764" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NESTINVEST\luis</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>G2Yf5CxyByy7X7p4SzTvPmRyN4M=</DigestValue></Reference></SignedInfo><SignatureValue>kuG0yPKokb48H4yxWn6SDT/uZtzX1Vyq0fdOhefCTAxMRyzpmAMZIS3Sn7mgV3QO9dXuiM1hiJGg2TINnDAF0rU+efDjLxCOG/jam+xQ420SQqFW5J7hynTGJxBOp7C8/8lXuElnZFPcoBw/FeJRK6IRE2XGUU82ML+6L6vicaQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xZ7SzoeLEv63IPZ+IQs/WlNUmjdG6GD4YkbWjyxvegV0qs8Zqjd6bsOPJBWuVQT9tQ+QLiaroDcx0hExkXvFjb+EyGya1Xi5kwWdg1oJ6ZM6YMgFfkTtkJ+zFFfm6sTSAbhF/M8p9WZIQLArHgC6duCWqzKmNZHBRPYFYpCmx/8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQe5d45r9wbqhCYYw+WXVaCDANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4ATgBFAFMAVABJAE4AVgBFAFMAVABcAGwAdQBpAHMwHhcNMTAwNjExMTQzNjUwWhcNMTEwNjExMjAzNjUwWjApMScwJQYDVQQDHh4ATgBFAFMAVABJAE4AVgBFAFMAVABcAGwAdQBpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMWe0s6HixL+tyD2fiELP1pTVJo3Ruhg+GJG1o8sb3oFdKrPGao3em7DjyQVrlUE/bUPkC4mq6A3MdIRMZF7xY2/hMhsmtV4uZMFnYNaCemTOmDIBX5E7ZCfsxRX5urE0gG4RfzPKfVmSECwKx4AunbglqsypjWRwUT2BWKQpsf/AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAqUprgLCPkEVKfCPTzv4dZJ0JDmUGni2CxEJ4vXDjk5Jb4zxlbdak5DS09PMAUK/nwKi8zS/CsXVJbtpQTbv04zA+h8OWD4iG2I1mWXuSoKRp1jyBRsWjgM1D4tTSODM5LUBirIsjmxs4aBNSf9kj9BfBU+TuL/4phGR4OUtQZOs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,42 @@
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.Form1.resources
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.Properties.Resources.resources
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.exe
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.pdb
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\bin\Debug\NestDLL.dll
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\bin\Debug\NestDLL.pdb
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.exe
+c:\users\edson.costa\documents\visual studio 2010\Projects\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.pdb
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.exe
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.pdb
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.frmUpdateBDI.resources
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.Properties.Resources.resources
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\GenerateResource.read.1.tlog
+P:\Transfer\UpdateBDI\UpdateBDI\obj\x86\Debug\GenerateResource.write.1.tlog
+P:\Transfer\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.exe
+P:\Transfer\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.pdb
+P:\Transfer\UpdateBDI\UpdateBDI\bin\Debug\NestDLL.dll
+P:\Transfer\UpdateBDI\UpdateBDI\bin\Debug\NestDLL.pdb
+P:\Transfer\UpdateBDI\UpdateBDI\bin\Debug\Ionic.Zip.dll
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.exe
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.pdb
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.exe
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.pdb
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\Ionic.Zip.dll
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.frmUpdateBDI.resources
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.exe.manifest
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\bin\Debug\UpdateBDI.application
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.exe.manifest
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.application
+\\Nestsrv03\nest\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.exe
+\\Nestsrv03\nest\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.pdb
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.csprojResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.csproj.GenerateResource.Cache
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\UpdateBDI\UpdateBDI\obj\x86\Debug\UpdateBDI.pdb

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HeadAndShoulders</name>
+    </assembly>
+    <members>
+        <member name="T:NestSim.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:NestSim.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:NestSim.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:NestSim.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:NestSim.Main">
+            <summary>
+            Initial Form
+            </summary>
+        </member>
+        <member name="F:NestSim.Main.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NestSim.Main.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NestSim.Main.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:NestSim.Main.#ctor">
+            <summary>
+            Initial Form
+            </summary>
+        </member>
+        <member name="M:NestSim.HS.Asset.insertBarPrice(System.DateTime,System.Double)">
+            <summary>
+            Inserts the asset´s price on the last bar
+            </summary>
+            <param name="date">Price´s date</param>
+            <param name="value">Price´s value</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="NESTSRV06">
+        <param name="gui:x" value="-3495.0"/>
+        <param name="gui:y" value="-781.0"/>
+        <param name="gui:width" value="126.0"/>
+        <param name="gui:height" value="59.0"/>
+    </component>
+    <component name="Calculate">
+        <param name="gui:x" value="-3557.0"/>
+        <param name="gui:y" value="-910.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetLastQSEGS">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3463.0"/>
+        <param name="gui:y" value="-910.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Map">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3369.0"/>
+        <param name="gui:y" value="-910.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Aggregate">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3287.0"/>
+        <param name="gui:y" value="-910.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="CalculateSTDEV">
+        <param name="gui:x" value="-3188.0"/>
+        <param name="gui:y" value="-910.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:bends:1" value=""/>
+    </component>
+    <component name="VarQSEG">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-3062.0"/>
+        <param name="gui:y" value="-910.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

@@ -1,0 +1,11 @@
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\bin\Debug\FeedXMLIcap.exe
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\bin\Debug\FeedXMLIcap.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\FeedXMLIcap.FeedXMLIcap.resources
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\FeedXMLIcap.Properties.Resources.resources
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\FeedXMLIcap.exe
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\obj\x86\Debug\FeedXMLIcap.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\FIX_EXECS\FeedXMLIcap\FeedXMLIcap\bin\Debug\NestDLL.pdb

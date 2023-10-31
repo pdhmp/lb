@@ -1,0 +1,5 @@
+#Thu Jun 28 20:36:52 BRT 2012
+com.streambase.sb.ide.core.editors.SSQLEditor.internal.delegateSaveAs=true
+com.streambase.sb.ide.core.editors.SBConfEditor.internal.delegateSaveAs=true
+eclipse.preferences.version=1
+overviewRuler_migration=migrated_3.1

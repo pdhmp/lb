@@ -1,0 +1,17 @@
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.Form1.resources
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\bin\Debug\GetFileFutures.exe
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\bin\Debug\GetFileFutures.pdb
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.exe
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.pdb
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\bin\Debug\GetFileFutures.exe.config
+C:\temp\bmffile\GetFileFutures.exe.config
+C:\temp\bmffile\GetFileFutures.exe
+C:\temp\bmffile\GetFileFutures.pdb
+C:\temp\bmffile\GetFileFutures.exe.manifest
+C:\temp\bmffile\GetFileFutures.application
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.TrustInfo.xml
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.exe.manifest
+N:\TI\Projects\CSharp\Other\GetFileBMF\GetFileFutures\obj\Debug\GetFileFutures.application

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MarketDataFIXBOV/mdconfig/FIX44_XP_0.9.xml&apos; to &apos;FIX44_XP_0.9.xmlold&apos;" description="Rename resource &apos;FIX44_XP_0.9.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mdconfig/FIX44_XP_0.9.xml" name="FIX44_XP_0.9.xmlold" stamp="1344442004459" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MarketDataFIXBOV/mdconfig/FIX44_XP.XML&apos; to &apos;FIX44_XP.xml&apos;" description="Rename resource &apos;FIX44_XP.XML&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mdconfig/FIX44_XP.XML" name="FIX44_XP.xml" stamp="1344442010474" updateReferences="true"/>
+</session>

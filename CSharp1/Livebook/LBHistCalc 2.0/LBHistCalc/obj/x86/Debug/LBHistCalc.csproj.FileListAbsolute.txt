@@ -1,0 +1,26 @@
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.frmFromDate.resources
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.frmHistCalc.resources
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.Properties.Resources.resources
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.exe.manifest
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.application
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.exe
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.pdb
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\temp\LBHistCalc2.exe.config
+c:\temp\LBHistCalc2.exe.manifest
+c:\temp\LBHistCalc2.application
+c:\temp\LBHistCalc2.exe
+c:\temp\LBHistCalc2.pdb
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.frmFromDate.resources
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.frmHistCalc.resources
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.Properties.Resources.resources
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.exe.manifest
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.application
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.exe
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.pdb
+C:\BKP PPAY\CSharp\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc.csprojResolveAssemblyReference.cache
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Livebook\LBHistCalc 2.0\LBHistCalc\obj\x86\Debug\LBHistCalc2.pdb

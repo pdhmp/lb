@@ -1,0 +1,16 @@
+bin\Debug\SGN.exe
+bin\Debug\SGN.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SGN.frmLogin.resources
+obj\Debug\SGN.Properties.Resources.resources
+obj\Debug\SGN.csproj.GenerateResource.Cache
+obj\Debug\SGN.exe
+obj\Debug\SGN.pdb
+obj\Debug\SGN.frmMenu.resources
+obj\Debug\SGN.frmInsertOrdem.resources
+bin\Debug\Basic_Functions.dll
+bin\Debug\NestDLL.dll
+bin\Debug\NestDLL.pdb
+bin\Debug\Basic_Functions.pdb
+bin\Debug\SGN.exe.config
+obj\Debug\SGN.frmOrdem.resources

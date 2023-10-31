@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://futuraonline.com.br/webservices/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://futuraonline.com.br/webservices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://futuraonline.com.br/webservices/">
+      <s:element name="QueryTradeStr">
+        <s:complexType />
+      </s:element>
+      <s:element name="QueryTradeStrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryTradeStrResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="QueryTradeStrSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryTradeStr" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeStrSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryTradeStrResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeStrHttpGetIn" />
+  <wsdl:message name="QueryTradeStrHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeStrHttpPostIn" />
+  <wsdl:message name="QueryTradeStrHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSIntegradorSoap">
+    <wsdl:operation name="QueryTradeStr">
+      <wsdl:input message="tns:QueryTradeStrSoapIn" />
+      <wsdl:output message="tns:QueryTradeStrSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSIntegradorHttpGet">
+    <wsdl:operation name="QueryTradeStr">
+      <wsdl:input message="tns:QueryTradeStrHttpGetIn" />
+      <wsdl:output message="tns:QueryTradeStrHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSIntegradorHttpPost">
+    <wsdl:operation name="QueryTradeStr">
+      <wsdl:input message="tns:QueryTradeStrHttpPostIn" />
+      <wsdl:output message="tns:QueryTradeStrHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSIntegradorSoap" type="tns:WSIntegradorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryTradeStr">
+      <soap:operation soapAction="http://futuraonline.com.br/webservices/QueryTradeStr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSIntegradorSoap12" type="tns:WSIntegradorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="QueryTradeStr">
+      <soap12:operation soapAction="http://futuraonline.com.br/webservices/QueryTradeStr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSIntegradorHttpGet" type="tns:WSIntegradorHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="QueryTradeStr">
+      <http:operation location="/QueryTradeStr" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSIntegradorHttpPost" type="tns:WSIntegradorHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="QueryTradeStr">
+      <http:operation location="/QueryTradeStr" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSIntegrador">
+    <wsdl:port name="WSIntegradorSoap" binding="tns:WSIntegradorSoap">
+      <soap:address location="http://186.215.154.166:8080/WSintegrador.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSIntegradorSoap12" binding="tns:WSIntegradorSoap12">
+      <soap12:address location="http://186.215.154.166:8080/WSintegrador.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSIntegradorHttpGet" binding="tns:WSIntegradorHttpGet">
+      <http:address location="http://186.215.154.166:8080/WSintegrador.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSIntegradorHttpPost" binding="tns:WSIntegradorHttpPost">
+      <http:address location="http://186.215.154.166:8080/WSintegrador.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

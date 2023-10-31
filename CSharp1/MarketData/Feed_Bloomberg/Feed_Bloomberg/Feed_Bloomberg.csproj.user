@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\nestsrv03\NESTSoft\Installation\\Feed_Bloomberg\|\\nestsrv03\NESTSoft\Installation\|T:\Installation\Feed_Bloomberg\|T:\Installation\|T:\Programs\</PublishUrlHistory>
+    <InstallUrlHistory>\\nestsrv03\NESTSoft\Installation\\Feed_Bloomberg\|\\nestsrv03\nest\Ti\NestSoft\Installation\Feed_Bloomberg\|\\nestsrv03\nest\Ti\Installation\NestSoft\Feed_Bloomberg\|\\nestsrv03\nest\Ti\Installation\NestSoft\|\\nestsrv03\nest\Ti\Installation\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+</Project>

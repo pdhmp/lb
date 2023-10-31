@@ -1,0 +1,5 @@
+N:\TI\Projects\CSharp\Other\TestRTD\TestRTD\bin\Debug\TestRTD.exe
+N:\TI\Projects\CSharp\Other\TestRTD\TestRTD\bin\Debug\TestRTD.pdb
+N:\TI\Projects\CSharp\Other\TestRTD\TestRTD\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\TestRTD\TestRTD\obj\x86\Debug\TestRTD.exe
+N:\TI\Projects\CSharp\Other\TestRTD\TestRTD\obj\x86\Debug\TestRTD.pdb

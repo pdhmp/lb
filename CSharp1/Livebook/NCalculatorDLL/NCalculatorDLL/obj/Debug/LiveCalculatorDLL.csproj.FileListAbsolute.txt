@@ -1,0 +1,7 @@
+C:\BKP PPAY\CSharp\Livebook\NCalculatorDLL\NCalculatorDLL\obj\Debug\LiveCalculatorDLL.dll
+C:\BKP PPAY\CSharp\Livebook\NCalculatorDLL\NCalculatorDLL\obj\Debug\LiveCalculatorDLL.pdb
+C:\BKP PPAY\CSharp\Livebook\Livebook2\Resources\LiveCalculatorDLL.dll
+C:\BKP PPAY\CSharp\Livebook\Livebook2\Resources\LiveCalculatorDLL.pdb
+C:\BKP PPAY\Livebook\Livebook2\Resources\LiveCalculatorDLL.dll
+C:\BKP PPAY\Livebook\Livebook2\Resources\LiveCalculatorDLL.pdb
+C:\BKP PPAY\CSharp\Livebook\NCalculatorDLL\NCalculatorDLL\obj\Debug\LiveCalculatorDLL.csprojResolveAssemblyReference.cache

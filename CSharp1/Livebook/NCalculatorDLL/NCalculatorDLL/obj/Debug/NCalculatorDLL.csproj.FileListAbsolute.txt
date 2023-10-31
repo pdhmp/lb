@@ -1,0 +1,5 @@
+T:\Resources\NCalculatorDLL.dll
+T:\Resources\NCalculatorDLL.pdb
+N:\TI\Projects\CSharp\Utils\NCalculatorDLL\NCalculatorDLL\obj\Debug\NCalculatorDLL.dll
+N:\TI\Projects\CSharp\Utils\NCalculatorDLL\NCalculatorDLL\obj\Debug\NCalculatorDLL.pdb
+N:\TI\Projects\CSharp\Utils\NCalculatorDLL\NCalculatorDLL\obj\Debug\ResolveAssemblyReference.cache

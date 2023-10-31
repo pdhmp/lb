@@ -1,0 +1,7 @@
+C:\GIT\CVMDownload\CVMDownload\bin\Debug\CVMDownload.exe
+C:\GIT\CVMDownload\CVMDownload\bin\Debug\CVMDownload.pdb
+C:\GIT\CVMDownload\CVMDownload\obj\Debug\ResolveAssemblyReference.cache
+C:\GIT\CVMDownload\CVMDownload\obj\Debug\CVMDownload.exe
+C:\GIT\CVMDownload\CVMDownload\obj\Debug\CVMDownload.pdb
+N:\TI\Projects\CSharp\CVMDownload\CVMDownload\obj\Debug\CVMDownload.exe
+N:\TI\Projects\CSharp\CVMDownload\CVMDownload\obj\Debug\CVMDownload.pdb

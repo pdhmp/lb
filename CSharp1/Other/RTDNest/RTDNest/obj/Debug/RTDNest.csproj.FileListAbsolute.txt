@@ -1,0 +1,6 @@
+T:\Resources\RTDNest.dll
+T:\Resources\RTDNest.pdb
+N:\TI\Projects\CSharp\Other\RTDNest\RTDNest\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\RTDNest\RTDNest\obj\Debug\RTDNest.dll
+N:\TI\Projects\CSharp\Other\RTDNest\RTDNest\obj\Debug\RTDNest.pdb
+T:\Resources\RTDNest.tlb

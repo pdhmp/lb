@@ -1,0 +1,12 @@
+T:\Resources\NestDLL.dll
+T:\Resources\NestDLL.pdb
+N:\TI\Projects\CSharp\NestDLL\NestDLL\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.pdb
+T:\Resources\NestDLL.dll.config
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.dll
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\NestDLL.pdb
+T:\Resources\TickerDLL.dll.config
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\TickerDLL.dll
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\TickerDLL.pdb

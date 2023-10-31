@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <gui.metadata>
+            <property name="icon-canvas-24x24-or-48x48" value="icons/Order State Manager 48.png"/>
+            <property name="icon-palette-16x16" value="icons/Order State Manager 16.png"/>
+            <property name="icon-palette-32x32" value="icons/Order State Manager 32.png"/>
+        </gui.metadata>
+        <schema name="schema:AppIn">
+            <field description="" name="AppOrderID" type="string"/>
+            <field description="" name="AppCxlRplID" type="string"/>
+            <field description="New, Cancel, Replace" name="Command" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="Buy, Sell" name="BuySell" type="string"/>
+            <field description="" name="Size" type="double"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="Account" type="string"/>
+            <field description="Market, Limit, StopLimit, OnClose, MarketLeftOver - Default = Limit" name="OrderType" type="string"/>
+            <field description="Day, GTC, IOC, GTD - Default = Day" name="TimeInForce" type="string"/>
+            <field description="YYYYMMDD format" name="DateExpiration" type="string"/>
+            <field description="" name="ExecBroker" type="string"/>
+            <field description="" name="StopPrice" type="double"/>
+            <field description="" name="MinQty" type="double"/>
+            <field description="" name="MaxFloor" type="double"/>
+            <field description="free text max 50 bytes" name="Memo" type="string"/>
+            <field description="" name="ErrorInfo" type="string"/>
+        </schema>
+        <schema name="schema:CancelAll">
+            <field description="" name="Go" type="bool"/>
+        </schema>
+        <schema name="schema:FIXCommandIn">
+            <field description="" name="Command" type="string"/>
+            <field description="" name="BeginString" type="string"/>
+            <field description="" name="SenderCompID" type="string"/>
+            <field description="" name="TargetCompID" type="string"/>
+            <field description="" name="BeginSeqNo" type="int"/>
+            <field description="" name="EndSeqNo" type="int"/>
+        </schema>
+        <schema name="schema:GetFilled"/>
+        <schema name="schema:GetNewOrPartFilled"/>
+        <schema name="schema:GetOrderState">
+            <field description="" name="ReqID" type="string"/>
+        </schema>
+        <schema name="schema:OrderStateTable">
+            <property name="description" value="This the consolidated Body FIX schema for New(D)+Cancel(F)+Replace(G) Orders and Header FIX MsgType tag for Bovespa"/>
+            <field description="" name="ReqID" type="string"/>
+            <field description="" name="ClOrdID" type="string"/>
+            <field description="" name="OrigClOrdID" type="string"/>
+            <field description="" name="UpdateNumber" type="int"/>
+            <field description="" name="UpdateTime" type="timestamp"/>
+            <field description="defined by BVMF" name="OrderStatusBov" type="string"/>
+            <field description="defined by application" name="OrderStatusApp" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Venue" type="string"/>
+            <field description="" name="Side" type="string"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="OrderID" type="string"/>
+            <field description="" name="ReplacedbyReqID" type="string"/>
+            <field description="" name="CumQty" type="double"/>
+            <field description="" name="LeavesQty" type="double"/>
+            <field description="" name="OrderQty" type="double"/>
+            <field description="" name="InMarketQty" type="double"/>
+            <field description="" name="AvgPx" type="double"/>
+            <field description="" name="ExtraInfo" type="string"/>
+            <field description="" name="ExecTransType" type="string"/>
+            <field description="" name="ExecType" type="string"/>
+            <field description="" name="OrdRejReason" type="int"/>
+            <field description="" name="Request" type="tuple">
+                <schema name="MegaDirectFIX_RequestMsg">
+                    <property name="description" value="This the consolidated Body FIX schema for New(D)+Cancel(F)+Replace(G) Orders and Header FIX MsgType tag for Bovespa"/>
+                    <field description="" name="MsgType" type="string"/>
+                    <field description="" name="Account" type="string"/>
+                    <field description="" name="ClOrdID" type="string"/>
+                    <field description="" name="HandlInst" type="string"/>
+                    <field description="" name="OrderID" type="string"/>
+                    <field description="" name="OrderQty" type="double"/>
+                    <field description="" name="OrdType" type="string"/>
+                    <field description="" name="OrigClOrdID" type="string"/>
+                    <field description="" name="Price" type="double"/>
+                    <field description="" name="Side" type="string"/>
+                    <field description="" name="Symbol" type="string"/>
+                    <field description="" name="TimeInForce" type="string"/>
+                    <field description="" name="TransactTime" type="timestamp"/>
+                    <field description="" name="ExecBroker" type="string"/>
+                    <field description="" name="StopPx" type="double"/>
+                    <field description="" name="MinQty" type="double"/>
+                    <field description="" name="MaxFloor" type="double"/>
+                    <field description="" name="ExpireDate" type="timestamp"/>
+                    <field description="" name="Memo" type="string"/>
+                </schema>
+            </field>
+            <field description="" name="LastReport" type="tuple">
+                <schema name="MegaDirectFIX_ReportMsg">
+                    <property name="description" value="This the consolidated Body FIX schema for Execution Report (8) + Order Cancel Reject (9) and Header FIX MsgType tag for Bovespa"/>
+                    <field description="" name="MsgType" type="string"/>
+                    <field description="" name="Account" type="string"/>
+                    <field description="" name="AvgPx" type="double"/>
+                    <field description="" name="ClOrdID" type="string"/>
+                    <field description="" name="CumQty" type="double"/>
+                    <field description="" name="ExecID" type="string"/>
+                    <field description="" name="ExecRefID" type="string"/>
+                    <field description="" name="ExecTransType" type="string"/>
+                    <field description="" name="LastPx" type="double"/>
+                    <field description="" name="LastShares" type="double"/>
+                    <field description="" name="OrderID" type="string"/>
+                    <field description="" name="OrderQty" type="double"/>
+                    <field description="" name="OrdStatus" type="string"/>
+                    <field description="" name="OrigClOrdID" type="string"/>
+                    <field description="" name="Price" type="double"/>
+                    <field description="" name="Side" type="string"/>
+                    <field description="" name="Symbol" type="string"/>
+                    <field description="" name="Text" type="string"/>
+                    <field description="" name="TimeInForce" type="string"/>
+                    <field description="" name="TransactTime" type="timestamp"/>
+                    <field description="" name="TradeDate" type="string"/>
+                    <field description="" name="StopPx" type="double"/>
+                    <field description="" name="CxlRejReason" type="int"/>
+                    <field description="" name="OrdRejReason" type="int"/>
+                    <field description="" name="MinQty" type="double"/>
+                    <field description="" name="MaxFloor" type="double"/>
+                    <field description="" name="ExecType" type="string"/>
+                    <field description="" name="LeavesQty" type="double"/>
+                    <field description="" name="CxlRejResponseTo" type="string"/>
+                    <field description="" name="Memo" type="string"/>
+                    <field description="" name="UniqueTradeID" type="string"/>
+                </schema>
+            </field>
+        </schema>
+        <schema name="schema:fwd_18532004">
+            <field description="" name="MsgType" type="string"/>
+            <field description="" name="Account" type="string"/>
+            <field description="" name="ClOrdID" type="string"/>
+            <field description="" name="HandlInst" type="string"/>
+            <field description="" name="OrderID" type="string"/>
+            <field description="" name="OrderQty" type="double"/>
+            <field description="" name="OrdType" type="string"/>
+            <field description="" name="OrigClOrdID" type="string"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="Side" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="TimeInForce" type="string"/>
+            <field description="" name="TransactTime" type="timestamp"/>
+            <field description="" name="ExecBroker" type="string"/>
+            <field description="" name="StopPx" type="double"/>
+            <field description="" name="MinQty" type="double"/>
+            <field description="" name="MaxFloor" type="double"/>
+            <field description="" name="ExpireDate" type="timestamp"/>
+            <field description="" name="Memo" type="string"/>
+        </schema>
+        <data name="OrderStateTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="ReqID"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="ClOrdID,OrigClOrdID"/>
+            <param name="storage-method" value="DISK"/>
+            <param name="schema" value="schema:OrderStateTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="true"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="out:AppMapOSMRef1_2" schema="schema:fwd_18532004"/>
+        <stream name="AppIn" schema="schema:AppIn">
+        </stream>
+        <stream name="CancelAll" schema="schema:CancelAll">
+        </stream>
+        <stream name="FIXCommandIn" schema="schema:FIXCommandIn">
+        </stream>
+        <stream name="GetFilled" schema="schema:GetFilled">
+        </stream>
+        <stream name="GetNewOrPartFilled" schema="schema:GetNewOrPartFilled">
+        </stream>
+        <stream name="GetOrderState" schema="schema:GetOrderState">
+        </stream>
+        <box name="GetFilledOrders" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="GetFilled"/>
+            <output port="1" stream="FilledOut"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="current.OrderStatusApp == &quot;2&quot;"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+            </target-list>
+        </box>
+        <box name="GetOpenOrders" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="CancelAll"/>
+            <output port="1" stream="out:GetOpenOrders_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="current.OrderStatusApp == &quot;0&quot; OR current.OrderStatusApp == &quot;1&quot;"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:OrderStateTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="GetOpenOrdersCopy" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="GetNewOrPartFilled"/>
+            <output port="1" stream="NewOrPartFilledOut"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="current.OrderStatusApp == &quot;0&quot; OR current.OrderStatusApp == &quot;1&quot;"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+            </target-list>
+            <target-list goal-schema="schema:OrderStateTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <module-reference name="VenueMapOSMUniversalRef1">
+            <param name="file" value="VenueMapOSMUniversal.sbapp"/>
+            <input name="ExecReqIn" port="1" stream="out:AppMapOSMRef1_2"/>
+            <input name="FIXCommandIn" port="2" stream="FIXCommandIn"/>
+            <input name="GetOrderState" port="3" stream="GetOrderState"/>
+            <output name="CheckErrorOut" port="1" stream="out:VenueMapOSMUniversalRef1_1"/>
+            <output name="ExecReportOut" port="2" stream="out:VenueMapOSMUniversalRef1_2"/>
+            <output name="OrderStateOut" port="3" stream="OrderStateOut"/>
+            <output name="FIXAdminOut" port="4" stream="FIXAdminOut"/>
+            <input-dataref name="OrderStateTable" table="OrderStateTable"/>
+        </module-reference>
+        <output-stream name="FIXAdminOut">
+        </output-stream>
+        <output-stream name="FilledOut">
+        </output-stream>
+        <output-stream name="NewOrPartFilledOut">
+        </output-stream>
+        <output-stream name="OrderStateOut">
+        </output-stream>
+        <box name="SetCancel" type="map">
+            <input port="1" stream="out:GetOpenOrders_1"/>
+            <output port="1" stream="out:SetCancel_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="AppOrderID">"CXL-"+ClOrdID</include>
+                    <include field="AppCxlRplID">ClOrdID</include>
+                    <include field="Command">"CANCEL"</include>
+                    <include field="Symbol">input1.Symbol</include>
+                    <include field="BuySell">if Side=="1" then "BUY" else "SELL"</include>
+                    <include field="Size">OrderQty</include>
+                    <include field="Price">double(null)</include>
+                    <include field="Account">input1.Request.Account</include>
+                    <include field="OrderType">string(null)</include>
+                    <include field="TimeInForce">string(null)</include>
+                    <include field="DateExpiration">string(null)</include>
+                    <include field="ExecBroker">string(null)</include>
+                    <include field="StopPrice">double(null)</include>
+                    <include field="MinQty">double(null)</include>
+                    <include field="MaxFloor">double(null)</include>
+                    <include field="Memo">string(null)</include>
+                    <include field="ErrorInfo">string(null)</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="Union2" type="union">
+            <input port="1" stream="AppIn"/>
+            <input port="2" stream="out:SetCancel_1"/>
+            <output port="1" stream="out:Union2_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <module-reference name="AppMapOSMRef1">
+            <param name="file" value="AppMapOSM.sbapp"/>
+            <input name="OSMReport" port="1" stream="out:VenueMapOSMUniversalRef1_2"/>
+            <input name="UserAppInput" port="2" stream="out:Union2_1"/>
+            <output name="ErrorOut" port="1" stream="out:AppMapOSMRef1_1"/>
+            <output name="OutToOSM" port="2" stream="out:AppMapOSMRef1_2"/>
+            <output name="UserAppOutput" port="3" stream="AppOut"/>
+        </module-reference>
+        <output-stream name="AppOut">
+        </output-stream>
+        <box name="Union" type="union">
+            <input port="1" stream="out:AppMapOSMRef1_1"/>
+            <input port="2" stream="out:VenueMapOSMUniversalRef1_1"/>
+            <output port="1" stream="ErrorOut"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <output-stream name="ErrorOut">
+        </output-stream>
+    </add>
+</modify>

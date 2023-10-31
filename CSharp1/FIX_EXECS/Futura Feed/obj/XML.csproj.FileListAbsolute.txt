@@ -1,0 +1,25 @@
+N:\TI\Projects\CSharp\XML\obj\Debug\XML.exe
+N:\TI\Projects\CSharp\XML\obj\Debug\XML.pdb
+N:\TI\Projects\CSharp\XML\bin\Debug\XML.exe.manifest
+N:\TI\Projects\CSharp\XML\bin\Debug\XML.application
+N:\TI\Projects\CSharp\XML\bin\Debug\XML.exe
+N:\TI\Projects\CSharp\XML\bin\Debug\XML.pdb
+N:\TI\Projects\CSharp\XML\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\XML\obj\Debug\WindowsApplication1.Form1.resources
+N:\TI\Projects\CSharp\XML\obj\Debug\Nest_XML.Properties.Resources.resources
+N:\TI\Projects\CSharp\XML\obj\Debug\XML.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\XML\obj\Debug\XML.exe.manifest
+N:\TI\Projects\CSharp\XML\obj\Debug\XML.application
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\XML.exe
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\XML.pdb
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\WindowsApplication1.Form1.resources
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\Nest_XML.Properties.Resources.resources
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\XML.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Read XML Fator\bin\Debug\XML.exe.manifest
+N:\TI\Projects\CSharp\Read XML Fator\bin\Debug\XML.application
+N:\TI\Projects\CSharp\Read XML Fator\bin\Debug\XML.exe
+N:\TI\Projects\CSharp\Read XML Fator\bin\Debug\XML.pdb
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\XML.exe.manifest
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\XML.application
+N:\TI\Projects\CSharp\Read XML Fator\obj\Debug\XML.TrustInfo.xml

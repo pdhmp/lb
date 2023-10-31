@@ -1,0 +1,15 @@
+obj\Debug\Update Livebook.exe
+obj\Debug\Update Livebook.pdb
+bin\Debug\Update Livebook.exe.manifest
+bin\Debug\Update Livebook.application
+bin\Debug\Update Livebook.exe
+bin\Debug\Update Livebook.pdb
+bin\Debug\NestDLL.dll
+bin\Debug\NestDLL.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Update_Livebook.Form1.resources
+obj\Debug\Update_Livebook.Properties.Resources.resources
+obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+obj\Debug\Update Livebook.TrustInfo.xml
+obj\Debug\Update Livebook.exe.manifest
+obj\Debug\Update Livebook.application

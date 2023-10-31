@@ -1,0 +1,10 @@
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\obj\Debug\RatesBZ.exe
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\obj\Debug\RatesBZ.pdb
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\bin\Debug\RatesBZ.exe
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\bin\Debug\RatesBZ.pdb
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\obj\Debug\LB_Hist_Update.frmUpdate.resources
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\obj\Debug\RatesBZ.Properties.Resources.resources
+N:\TI\Projects\CSharp\Livebook\LB_Hist_Update\LB_Hist_Update\obj\Debug\LB_Hist_Update.csproj.GenerateResource.Cache

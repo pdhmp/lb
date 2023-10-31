@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <gui.metadata>
+            <property name="icon-canvas-24x24-or-48x48" value="icons/Market Data Venue Handler 48.png"/>
+            <property name="icon-palette-16x16" value="icons/Market Data Venue Handler 16.png"/>
+            <property name="icon-palette-32x32" value="icons/Market Data Venue Handler 32.png"/>
+        </gui.metadata>
+        <named-schemas>
+            <schema name="Message_3">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="RefSeqNum" type="int"/>
+                <field description="" name="RefTagID" type="int"/>
+                <field description="" name="RefMsgType" type="string"/>
+                <field description="" name="SessionRejectReason" type="int"/>
+                <field description="" name="Text" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_X_RepeatingGroup_NoMDEntries">
+                <field description="" name="MDEntrySeller" type="string"/>
+                <field description="" name="SecurityTradingStatus" type="int"/>
+                <field description="" name="MDEntryPx" type="double"/>
+                <field description="" name="SellerDays" type="int"/>
+                <field description="" name="MDUpdateAction" type="string"/>
+                <field description="" name="PercThresholdNormalTrade" type="double"/>
+                <field description="" name="PriceBandType" type="int"/>
+                <field description="" name="NetChgPrevDay" type="double"/>
+                <field description="" name="MaxNormalSharesPerDailyAvgShares30DRatio" type="double"/>
+                <field description="" name="PercentageVar" type="double"/>
+                <field description="" name="MaxCrossSharesPerDailyAvgShares30DRatio" type="double"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="TradSesOpenTime" type="timestamp"/>
+                <field description="" name="TradingSessionSubID" type="string"/>
+                <field description="" name="CrossSharesPerOutstandingSharesRatio" type="double"/>
+                <field description="" name="TradingReferencePrice" type="double"/>
+                <field description="" name="SettlPriceType" type="int"/>
+                <field description="" name="TickDirection" type="string"/>
+                <field description="" name="TradeCondition" type="string"/>
+                <field description="" name="MDEntryBuyer" type="string"/>
+                <field description="" name="MDEntryTime" type="timestamp"/>
+                <field description="" name="NoUnchangedSecurities" type="int"/>
+                <field description="" name="TradeID" type="string"/>
+                <field description="" name="MDEntryDate" type="timestamp"/>
+                <field description="" name="AgressorSide" type="string"/>
+                <field description="" name="MDEntrySize" type="double"/>
+                <field description="" name="MDEntryType" type="string"/>
+                <field description="" name="NormalSharesPerOutstandingSharesRatio" type="double"/>
+                <field description="" name="OpenCloseSettlFlag" type="string"/>
+                <field description="" name="NoRisingSecurities" type="int"/>
+                <field description="" name="TradeVolume" type="double"/>
+                <field description="" name="NoNotTradedSecurities" type="int"/>
+                <field description="" name="RptSeq" type="int"/>
+                <field description="" name="PercThresholdCrossTrade" type="double"/>
+                <field description="" name="MDInsertTime" type="timestamp"/>
+                <field description="" name="MDEntryPositionNo" type="int"/>
+                <field description="" name="LowLimitPrice" type="double"/>
+                <field description="" name="MDInsertDate" type="timestamp"/>
+                <field description="" name="MDStreamID" type="string"/>
+                <field description="" name="HighLimitPrice" type="double"/>
+                <field description="" name="DailyAvgShares30D" type="double"/>
+                <field description="" name="NumberOfOrders" type="int"/>
+                <field description="" name="PriceLimitType" type="int"/>
+                <field description="" name="PrevYearVariation" type="double"/>
+                <field description="" name="QuoteCondition" type="string"/>
+                <field description="" name="CapitalPct" type="double"/>
+                <field description="" name="Currency" type="string"/>
+                <field description="" name="TotTradedSecurities" type="int"/>
+                <field description="" name="NoFallingSecurities" type="int"/>
+                <field description="" name="MarketDepth" type="int"/>
+                <field description="" name="PriceType" type="int"/>
+            </schema>
+            <schema name="Message_Y">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="MDReqRejReason" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_e">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="SecurityStatusReqID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="SubscriptionRequestType" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_f">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="SecurityStatusReqID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="SecurityTradingStatus" type="int"/>
+                <field description="" name="TradSesOpenTime" type="string"/>
+                <field description="" name="OrigTime" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_g">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="TradSesReqID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="SubscriptionRequestType" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_h">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="TradSesStatus" type="string"/>
+                <field description="" name="OrigTime" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_x">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="SecurityReqID" type="string"/>
+                <field description="" name="SubscriptionRequestType" type="string"/>
+                <field description="" name="SecurityUpdatesSince" type="timestamp"/>
+                <field description="" name="SecurityListRequestType" type="int"/>
+                <field description="" name="SecurityType" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="Asset" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="_MDRequest">
+                <field description="" name="Command" type="string"/>
+                <field description="" name="EntryType" type="list">
+                    <element-type type="string"/>
+                </field>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Exchange" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+            </schema>
+            <schema name="_NoAllocs_D">
+                <field description="" name="AllocAccount" type="string"/>
+                <field description="" name="AllocAcctIDSource" type="int"/>
+            </schema>
+            <schema name="_NoLegs_y">
+                <field description="" name="LegSymbol" type="string"/>
+                <field description="" name="LegSecurityID" type="string"/>
+                <field description="" name="LegSecurityIDSource" type="string"/>
+                <field description="" name="LegSecurityExchange" type="string"/>
+            </schema>
+            <schema name="_NoLinesOfText_B">
+                <field description="" name="Text" type="string"/>
+            </schema>
+            <schema name="_NoMDEntryTypes_V">
+                <field description="" name="MDEntryType" type="string"/>
+            </schema>
+            <schema name="_NoPartyID_F">
+                <field description="" name="PartyID" type="string"/>
+                <field description="" name="PartyIDSource" type="string"/>
+                <field description="" name="PartyRole" type="int"/>
+            </schema>
+            <schema name="_NoReferentialPrices_W">
+                <field description="" name="ReferentialPx" type="double"/>
+                <field description="" name="ReferentialPriceType" type="int"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+            </schema>
+            <schema name="_NoReferentialPrices_X">
+                <field description="" name="ReferentialPx" type="double"/>
+                <field description="" name="ReferentialPriceType" type="int"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+            </schema>
+            <schema name="_NoRelatedSym_B">
+                <field description="" name="Symbol" type="int"/>
+                <field description="" name="SecurityID" type="int"/>
+                <field description="" name="SecurityIDSource" type="int"/>
+                <field description="" name="SecurityExchange" type="int"/>
+            </schema>
+            <schema name="_NoRelatedSym_V">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="SecurityType" type="string"/>
+            </schema>
+            <schema name="_NoRelatedSym_V_Cedro">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="SecurityType" type="string"/>
+            </schema>
+            <schema name="_NoRoutingIDs_B">
+                <field description="" name="RoutingType" type="int"/>
+                <field description="" name="RoutingID" type="string"/>
+            </schema>
+            <schema name="_NoSecurityAltID_y">
+                <field description="" name="SecurityAltID" type="string"/>
+                <field description="" name="SecurityAltIDSource" type="string"/>
+            </schema>
+            <schema name="_NoUnderlyings_y">
+                <field description="" name="UnderlyingSymbol" type="string"/>
+                <field description="" name="UnderlyingSecurityID" type="string"/>
+                <field description="" name="UnderlyingSecurityIDSource" type="string"/>
+                <field description="" name="UnderlyingSecurityExchange" type="string"/>
+            </schema>
+            <schema name="_SecRequest">
+                <field description="" name="Command" type="string"/>
+                <field description="" name="RequestType" type="string"/>
+                <field description="" name="Type" type="string"/>
+                <field description="" name="Exchange" type="string"/>
+            </schema>
+            <schema name="Message_B">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="OrigTime" type="timestamp"/>
+                <field description="" name="NewsSource" type="string"/>
+                <field description="" name="Language" type="string"/>
+                <field description="" name="Headline" type="string"/>
+                <field description="" name="NoRelatedSym" type="list">
+                    <element-type type="tuple" value="_NoRelatedSym_B"/>
+                </field>
+                <field description="" name="NoLinesOfText" type="list">
+                    <element-type type="tuple" value="_NoLinesOfText_B"/>
+                </field>
+                <field description="" name="URLLink" type="string"/>
+                <field description="" name="NoRoutingIDs" type="list">
+                    <element-type type="tuple" value="_NoRoutingIDs_B"/>
+                </field>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_D">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="PossResend" type="bool"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="OrdType" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="NoAllocs" type="list">
+                    <element-type type="tuple" value="_NoAllocs_D"/>
+                </field>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="OrderRestrictions" type="string"/>
+                <field description="" name="PositionEffect" type="string"/>
+                <field description="" name="TradeAllocIndicator" type="int"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_F">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="SecondaryOrderID" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="NoPartyID" type="list">
+                    <element-type type="tuple" value="_NoPartyID_F"/>
+                </field>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="OrderRestrictions" type="string"/>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_V">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="SubscriptionRequestType" type="string"/>
+                <field description="" name="MarketDepth" type="int"/>
+                <field description="" name="MDUpdateType" type="int"/>
+                <field description="" name="NoMDEntryTypes" type="list">
+                    <element-type type="tuple" value="_NoMDEntryTypes_V"/>
+                </field>
+                <field description="" name="NoRelatedSym" type="list">
+                    <element-type type="tuple" value="_NoRelatedSym_V"/>
+                </field>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_X">
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="" name="TradeDate" type="timestamp"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="NoMDEntries" type="list">
+                    <element-type type="tuple" value="Message_X_RepeatingGroup_NoMDEntries"/>
+                </field>
+            </schema>
+            <schema name="_NoMDEntries_W">
+                <field description="" name="MDEntryType" type="string"/>
+                <field description="" name="MDEntryPx" type="double"/>
+                <field description="" name="MDEntrySize" type="double"/>
+                <field description="" name="NumberOfOrders" type="int"/>
+                <field description="" name="MDEntryDate" type="timestamp"/>
+                <field description="" name="MDEntryTime" type="timestamp"/>
+                <field description="" name="OpenCloseSettlFlag" type="string"/>
+                <field description="" name="TradingSessionID" type="string"/>
+                <field description="" name="TradingSessionSubID" type="string"/>
+                <field description="" name="TradSesOpenTime" type="timestamp"/>
+                <field description="" name="SecurityTradingStatus" type="int"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="TickDirection" type="string"/>
+                <field description="" name="MDEntrySeller" type="string"/>
+                <field description="" name="MDEntryBuyer" type="string"/>
+                <field description="" name="MDEntryPositionNo" type="int"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+                <field description="" name="NoReferentialPrices" type="list">
+                    <element-type type="tuple" value="_NoReferentialPrices_W"/>
+                </field>
+            </schema>
+            <schema name="_NoRelatedSym_y">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="NoSecurityAltID" type="list">
+                    <element-type type="tuple" value="_NoSecurityAltID_y"/>
+                </field>
+                <field description="" name="NoUnderlyings" type="list">
+                    <element-type type="tuple" value="_NoUnderlyings_y"/>
+                </field>
+                <field description="" name="NoLegs" type="list">
+                    <element-type type="tuple" value="_NoLegs_y"/>
+                </field>
+                <field description="" name="RoundLot" type="double"/>
+                <field description="" name="MinTradeVol" type="double"/>
+                <field description="" name="MinPriceIncrement" type="double"/>
+                <field description="" name="TickSizeDenominator" type="int"/>
+                <field description="" name="MinOrderQty" type="double"/>
+                <field description="" name="MaxOrderQty" type="double"/>
+                <field description="" name="InstrumentID" type="int"/>
+                <field description="" name="Currency" type="string"/>
+                <field description="" name="SecurityType" type="string"/>
+                <field description="" name="SecuritySubType" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="Asset" type="string"/>
+                <field description="" name="SecurityDesc" type="string"/>
+                <field description="" name="MaturityDate" type="timestamp"/>
+                <field description="" name="MaturityMonthYear" type="string"/>
+                <field description="" name="StrikePrice" type="double"/>
+                <field description="" name="StrikeCurrency" type="string"/>
+                <field description="" name="ContractMultiplier" type="double"/>
+                <field description="" name="ContractSettlMonth" type="string"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="CountryOfIssue" type="string"/>
+                <field description="" name="IssueDate" type="timestamp"/>
+                <field description="" name="DatedDate" type="timestamp"/>
+                <field description="" name="StartDate" type="timestamp"/>
+                <field description="" name="EndDate" type="timestamp"/>
+                <field description="" name="SettlDate" type="timestamp"/>
+                <field description="" name="SettlType" type="string"/>
+                <field description="" name="PriceType" type="int"/>
+                <field description="" name="SecurityValidityTimestamp" type="timestamp"/>
+                <field description="" name="SecurityGroup" type="string"/>
+            </schema>
+            <schema name="Message_W">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="TradeDate" type="timestamp"/>
+                <field description="" name="NetChgPrevDay" type="double"/>
+                <field description="" name="MarketDepth" type="int"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="NoMDEntries" type="list">
+                    <element-type type="tuple" value="_NoMDEntries_W"/>
+                </field>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_y">
+                <field description="Identifica o in�cio de nova mensagem&#13;&#10;e a vers�o do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. N�ocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="N�mero de seq��ncia da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica poss�vel retransmiss�o da&#13;&#10;mensagem com o mesmo n�mero de&#13;&#10;seq��ncia" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribui��o apropriada de compID&#13;&#10;(se��o 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negocia��o do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), tamb�m conhecido&#13;&#10;como GMT (Tempo M�dio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="SecurityReqID" type="string"/>
+                <field description="" name="SecurityResponseID" type="string"/>
+                <field description="" name="SecurityRequestResult" type="int"/>
+                <field description="" name="TotNoRelatedSym" type="int"/>
+                <field description="" name="LastFragment" type="bool"/>
+                <field description="" name="NoRelatedSym" type="list">
+                    <element-type type="tuple" value="_NoRelatedSym_y"/>
+                </field>
+                <field description="Soma de verifica��o. N�ocriptografada,&#13;&#10;� o �ltimo campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+        </named-schemas>
+        <constant expr="tuple(&quot;ORDER BOOK&quot; AS ORDER_BOOK, &quot;AGGREGATE BOOK&quot; AS AGGREGATE_BOOK, &quot;TOP OF BOOK&quot; AS TOP_OF_BOOK)" name="BOOK_TYPE"/>
+        <constant expr="&quot;AGGREGATE BOOK&quot;" name="BOOK_TYPE_AGGREGATE"/>
+        <constant expr="&quot;ORDER BOOK&quot;" name="BOOK_TYPE_ORDER"/>
+        <constant expr="&quot;TOP OF BOOK&quot;" name="BOOK_TYPE_TOP"/>
+        <constant expr="tuple(&quot;BVMF&quot; AS BSP, &quot;BVMF&quot; AS BMF)" name="EXCH"/>
+        <constant expr="&quot;BMF&quot;" name="EXCH_BMF"/>
+        <constant expr="&quot;BOVESPA&quot;" name="EXCH_BSP"/>
+        <constant expr="tuple(&quot;1&quot; AS SUBSCRIBE, &quot;2&quot; AS UNSUBSCRIBE, &quot;3&quot; AS UNSUBSCRIBE_ALL)" name="MD_CMD_SUBS"/>
+        <constant expr="&quot;SUBSCRIBE&quot;" name="MD_CMD_SUBS_SUBSCRIBE"/>
+        <constant expr="&quot;UNSUBSCRIBE&quot;" name="MD_CMD_SUBS_UNSUBSCRIBE"/>
+        <constant expr="&quot;UNSUBSCRIBE ALL&quot;" name="MD_CMD_SUBS_UNSUBSCRIBE_ALL"/>
+        <constant expr="tuple(&quot;0&quot; AS BID, &quot;1&quot; AS OFFER, &quot;e&quot; AS AGGREGATE_BID, &quot;f&quot; AS AGGREGATE_OFFER, &quot;2&quot; AS TRADE, &quot;4&quot; AS OPENING_PRICE, &quot;5&quot; AS CLOSING_PRICE, &quot;7&quot; AS TRADING_SESSION_HIGH_PRICE, &quot;8&quot; AS TRADING_SESSION_LOW_PRICE, &quot;9&quot; AS TRADING_SESSION_VWAP_PRICE, &quot;B&quot; AS TRADE_VOLUME, &quot;X&quot; AS TOP_OF_BOOK_OFFER, &quot;Z&quot; AS TOP_OF_BOOK_BID, &quot;a&quot; AS REFERENTIAL_PRICES, &quot;b&quot; AS INSTRUMENT_TRADING_PHASE, &quot;c&quot; AS INSTRUMENT_STATE)" name="MD_ENTRY_TYPE"/>
+        <constant expr="&quot;AGGREGATE BID&quot;" name="MD_ENTRY_TYPE_AGGREGATE_BID"/>
+        <constant expr="&quot;AGGREGATE OFFER&quot;" name="MD_ENTRY_TYPE_AGGREGATE_OFFER"/>
+        <constant expr="&quot;BID&quot;" name="MD_ENTRY_TYPE_BID"/>
+        <constant expr="&quot;OFFER&quot;" name="MD_ENTRY_TYPE_OFFER"/>
+        <constant expr="&quot;TOP OF BOOK BID&quot;" name="MD_ENTRY_TYPE_TOP_OF_BOOK_BID"/>
+        <constant expr="&quot;TOP OF BOOK OFFER&quot;" name="MD_ENTRY_TYPE_TOP_OF_BOOK_OFFER"/>
+        <constant expr="&quot;TRADE&quot;" name="MD_ENTRY_TYPE_TRADE"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS CHANGE, &quot;2&quot; AS DELETE)" name="MD_UPDATE_ACTION"/>
+        <constant expr="tuple(&quot;V&quot; AS MARKET_DATA_REQUEST, &quot;x&quot; AS SECURITY_LIST_REQUEST)" name="MSG_TYPE"/>
+        <constant expr="&quot;MARKET DATA REQUEST&quot;" name="MSG_TYPE_MARKET_DATA_REQUEST"/>
+        <constant expr="&quot;SECURITY LIST REQUEST&quot;" name="MSG_TYPE_SECURITY_LIST_REQUEST"/>
+        <constant expr="tuple(int(2) AS COMMODITY, int(4) AS CURRENCY, int(7) AS INDEX, int(12) AS OTHER, int(13) AS FINANCING)" name="PROD"/>
+        <constant expr="&quot;COMMODITY&quot;" name="PROD_COMMODITY"/>
+        <constant expr="&quot;CURRENCY&quot;" name="PROD_CURRENCY"/>
+        <constant expr="&quot;FINANCING&quot;" name="PROD_FINANCING"/>
+        <constant expr="&quot;INDEX&quot;" name="PROD_INDEX"/>
+        <constant expr="&quot;OTHER&quot;" name="PROD_OTHER"/>
+        <constant expr="tuple(int(4) AS ALL, int(1) AS SECTYPE, int(2) AS PRODUCT, int(5) AS ASSET)" name="SEC_REQ_TYPE"/>
+        <constant expr="&quot;ALL&quot;" name="SEC_REQ_TYPE_ALL"/>
+        <constant expr="&quot;ASSET&quot;" name="SEC_REQ_TYPE_ASSET"/>
+        <constant expr="&quot;PRODUCT&quot;" name="SEC_REQ_TYPE_PRODUCT"/>
+        <constant expr="&quot;SECTYPE&quot;" name="SEC_REQ_TYPE_SECTYPE"/>
+        <constant expr="tuple(&quot;FUT&quot; AS FUTURES, &quot;SPOT&quot; AS SPOT_MARKET, &quot;SOPT&quot; AS SPOT_OPTIONS, &quot;FOPT&quot; AS FUTURES_OPTIONS, &quot;DTERM&quot; AS FORWARD)" name="SEC_TYPE"/>
+        <constant expr="&quot;FORWARD&quot;" name="SEC_TYPE_FORWARD"/>
+        <constant expr="&quot;FUTURES&quot;" name="SEC_TYPE_FUTURES"/>
+        <constant expr="&quot;FUTURES OPTIONS&quot;" name="SEC_TYPE_FUTURES_OPTIONS"/>
+        <constant expr="&quot;SPOT MARKET&quot;" name="SEC_TYPE_SPOT_MARKET"/>
+        <constant expr="&quot;SPOT OPTIONS&quot;" name="SEC_TYPE_SPOT_OPTIONS"/>
+        <constant expr="tuple(TRUE AS ACTIVE, FALSE AS INACTIVE)" name="SUB_STATUS"/>
+        <constant expr="&quot;ACTIVE&quot;" name="SUB_STATUS_ACTIVE"/>
+        <constant expr="&quot;INACTIVE&quot;" name="SUB_STATUS_INACTIVE"/>
+        <parameter-definitions>
+            <parameter default="'Placeholder'" name="Sender"/>
+            <parameter default="'Placeholder'" name="Target"/>
+            <parameter default="&quot;8&quot;" name="SecurityIDSource"/>
+            <parameter default="'Placeholder'" name="FIXVersion"/>
+        </parameter-definitions>
+        <schema name="schema:AggregatedBookTable">
+            <field description="" name="ID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <schema name="schema:GetBook">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="BookType" type="string"/>
+            <field description="" name="BookDepth" type="int"/>
+        </schema>
+        <schema name="schema:InputFileNameMD">
+            <field description="" name="FileName" type="string"/>
+        </schema>
+        <schema name="schema:InputStream">
+            <field description="" name="filename" type="string"/>
+        </schema>
+        <schema name="schema:MDReqTable">
+            <field description="" name="MDReqID" type="string"/>
+            <field description="" name="SubscriptionRequestType" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Exchange" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="SubStatus" type="string"/>
+            <field description="" name="Timestamp" type="timestamp"/>
+            <field description="" name="LastRequest" type="tuple" value="_MDRequest"/>
+        </schema>
+        <schema name="schema:OrderBookTable">
+            <field description="" name="ID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <schema name="schema:SecReqTable">
+            <field description="" name="SecurityReqID" type="string"/>
+            <field description="" name="RequestType" type="string"/>
+            <field description="" name="Type" type="string"/>
+            <field description="" name="Exchange" type="string"/>
+            <field description="" name="Timestamp" type="timestamp"/>
+            <field description="" name="Request" type="tuple" value="_SecRequest"/>
+        </schema>
+        <schema name="schema:TopOfBookTable">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="NumberOfOrders" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <data name="AggregatedBookTable" type="querytable">
+            <param name="gui:x" value="398.0"/>
+            <param name="gui:y" value="993.0"/>
+            <param name="gui:width" value="208.0"/>
+            <param name="gui:height" value="64.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDEntryType"/>
+            <param name="key.1" value="ID"/>
+            <param name="key.2" value="Symbol"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="Symbol,MDEntryType,MDEntryPositionNo"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:AggregatedBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="MDReqTable" type="querytable">
+            <param name="gui:x" value="889.0"/>
+            <param name="gui:y" value="486.0"/>
+            <param name="gui:width" value="142.0"/>
+            <param name="gui:height" value="63.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDReqID"/>
+            <param name="key.1" value="Symbol"/>
+            <param name="key.2" value="Exchange"/>
+            <param name="key.3" value="MDEntryType"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="MDReqID,Symbol,Exchange,MDEntryType,SubscriptionRequestType,SubStatus"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:MDReqTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="OrderBookTable" type="querytable">
+            <param name="gui:x" value="418.0"/>
+            <param name="gui:y" value="1207.0"/>
+            <param name="gui:width" value="168.0"/>
+            <param name="gui:height" value="63.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDEntryType"/>
+            <param name="key.1" value="ID"/>
+            <param name="key.2" value="Symbol"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="Symbol,MDEntryType,MDEntryPositionNo"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:OrderBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="SecReqTable" type="querytable">
+            <param name="gui:x" value="890.0"/>
+            <param name="gui:y" value="260.0"/>
+            <param name="gui:width" value="140.0"/>
+            <param name="gui:height" value="63.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="SecurityReqID"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:SecReqTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="TopOfBookTable" type="querytable">
+            <param name="gui:x" value="418.0"/>
+            <param name="gui:y" value="1100.0"/>
+            <param name="gui:width" value="168.0"/>
+            <param name="gui:height" value="64.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="Symbol"/>
+            <param name="key.1" value="MDEntryType"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:TopOfBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="GetBook" schema="schema:GetBook">
+            <param name="gui:x" value="120.0"/>
+            <param name="gui:y" value="882.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="InputFileNameMD" schema="schema:InputFileNameMD">
+            <param name="gui:x" value="336.0"/>
+            <param name="gui:y" value="376.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="InputStream" schema="schema:InputStream">
+            <param name="gui:x" value="120.0"/>
+            <param name="gui:y" value="650.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="MDRequestIn" schema="_MDRequest">
+            <param name="gui:x" value="471.0"/>
+            <param name="gui:y" value="262.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <box name="MarketDataMessages" type="inputadapter">
+            <output port="1" stream="Error_3"/>
+            <output port="2" stream="EventCommunication_B"/>
+            <output port="3" stream="W"/>
+            <output port="4" stream="X"/>
+            <output port="5" stream="Reject_Y"/>
+            <output port="6" stream="out:MarketDataMessages_6"/>
+            <output port="7" stream="AllOtherMessages"/>
+            <output port="8" stream="SecurityStatus"/>
+            <output port="9" stream="TradingSessionStatus"/>
+            <output port="10" stream="AdminMessages"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.fix.input.FIXInput"/>
+            <param name="appMessageSchema0" value="Message_3"/>
+            <param name="appMessageSchema1" value="Message_B"/>
+            <param name="appMessageSchema2" value="Message_W"/>
+            <param name="appMessageSchema3" value="Message_X"/>
+            <param name="appMessageSchema4" value="Message_Y"/>
+            <param name="appMessageSchema5" value="Message_y"/>
+            <param name="appMessageSchema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MarketDataMessages&quot;&gt;&#13;&#10;    &lt;field description=&quot;Identifica o in�cio de nova mensagem&amp;#13;&amp;#10;e a vers�o do protocolo: FIX.4.4&quot; name=&quot;BeginString&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Tamanho da mensagem. N�ocriptografado,&amp;#13;&amp;#10;deve ser sempre o&amp;#13;&amp;#10;segundo campo da mensagem&quot; name=&quot;BodyLength&quot; type=&quot;int&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Tipo de mensagem. N�ocriptografado,&amp;#13;&amp;#10;deve ser sempre o&amp;#13;&amp;#10;terceiro campo da mensagem&quot; name=&quot;MsgType&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;N�mero de seq��ncia da mensagem&quot; name=&quot;MsgSeqNum&quot; type=&quot;int&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Indica poss�vel retransmiss�o da&amp;#13;&amp;#10;mensagem com o mesmo n�mero de&amp;#13;&amp;#10;seq��ncia&quot; name=&quot;PossDupFlag&quot; type=&quot;bool&quot;/&gt;&#13;&#10;    &lt;field description=&quot;CompID da origem: entre em contato&amp;#13;&amp;#10;com a BM&amp;amp;FBOVESPA para&amp;#13;&amp;#10;atribui��o apropriada de compID&amp;#13;&amp;#10;(se��o 3.2)&quot; name=&quot;SenderCompID&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;CompID do destino: entre em contato&amp;#13;&amp;#10;com a BM&amp;amp;FBOVESPA para&amp;#13;&amp;#10;atribui��o apropriada de compID&amp;#13;&amp;#10;(se��o 3.2)&quot; name=&quot;TargetCompID&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Por conta e ordem do CompID: para&amp;#13;&amp;#10;mensagens enviadas pela&amp;#13;&amp;#10;BM&amp;amp;FBOVESPA = identificador da&amp;#13;&amp;#10;corretora do cliente (se houver); para&amp;#13;&amp;#10;mensagens recebidas pela&amp;#13;&amp;#10;BM&amp;amp;FBOVESPA = identificador do&amp;#13;&amp;#10;parceiro de negocia��o do cliente (se&amp;#13;&amp;#10;houver)&quot; name=&quot;OnBehalfOfCompID&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Enviar para CompID: para&amp;#13;&amp;#10;mensagens enviadas pela&amp;#13;&amp;#10;BM&amp;amp;FBOVESPA = identificador do&amp;#13;&amp;#10;parceiro de negocia��o do cliente (se&amp;#13;&amp;#10;houver);&amp;#13;&amp;#10;para mensagens recebidas pela&amp;#13;&amp;#10;BM&amp;amp;FBOVESPA = identificador da&amp;#13;&amp;#10;corretora do cliente (se houver)&quot; name=&quot;DeliverToCompID&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Expresso em UTC (Tempo Universal&amp;#13;&amp;#10;Coordenado), tamb�m conhecido&amp;#13;&amp;#10;como GMT (Tempo M�dio de&amp;#13;&amp;#10;Greenwich)&quot; name=&quot;SendingTime&quot; type=&quot;timestamp&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;__FIXMessageBody&quot; type=&quot;blob&quot;/&gt;&#13;&#10;    &lt;field description=&quot;Soma de verifica��o. N�ocriptografada,&amp;#13;&amp;#10;� o �ltimo campo da&amp;#13;&amp;#10;mensagem&quot; name=&quot;CheckSum&quot; type=&quot;int&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="appMessageSchema7" value="Message_f"/>
+            <param name="appMessageSchema8" value="Message_h"/>
+            <param name="appMessageSchema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MarketDataMessages&quot;/&gt;&#13;&#10;"/>
+            <param name="fieldNameMapFile"/>
+            <param name="fixAdminMessageInterceptor"/>
+            <param name="fixConfigFile" value="fix_adapter_configuration_market_data.cfg"/>
+            <param name="fixEngine" value="QuickFIX/J"/>
+            <param name="incomingFilter"/>
+            <param name="incomingFilterType" value="Include"/>
+            <param name="isLinkedToAdapter" value="true"/>
+            <param name="isLoggingIncomingMessages" value="false"/>
+            <param name="isLoggingOutgoingMessages" value="false"/>
+            <param name="isReportingProfilingData" value="false"/>
+            <param name="linkedAdapter" value="SendMessages"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="logonAtStartup" value="true"/>
+            <param name="messagePortRoutings.0" value="3"/>
+            <param name="messagePortRoutings.1" value="B"/>
+            <param name="messagePortRoutings.2" value="W"/>
+            <param name="messagePortRoutings.3" value="X"/>
+            <param name="messagePortRoutings.4" value="Y"/>
+            <param name="messagePortRoutings.5" value="y"/>
+            <param name="messagePortRoutings.6" value="*"/>
+            <param name="messagePortRoutings.7" value="f"/>
+            <param name="messagePortRoutings.8" value="h"/>
+            <param name="outgoingFilter"/>
+            <param name="outgoingFilterType" value="Include"/>
+            <param name="profilingDataReportingInterval" value="10000"/>
+            <param name="useAdminPort" value="true"/>
+            <param name="useCommandInputPort" value="false"/>
+            <param name="useSenderLocationIDToNameSession" value="false"/>
+            <param name="useSenderSubIDToNameSession" value="false"/>
+            <param name="useTargetLocationIDToNameSession" value="false"/>
+            <param name="useTargetSubIDToNameSession" value="false"/>
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="1459.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="143.0"/>
+            <param name="gui:columnwidths" value="157"/>
+        </box>
+        <stream name="MarketDataRequest_V" schema="Message_V">
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="368.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="SecurityListRequest_x" schema="Message_x">
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="176.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="SecurityRequest" schema="_SecRequest">
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="80.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="SecurityStatusRequest_e" schema="Message_e">
+            <param name="gui:x" value="336.0"/>
+            <param name="gui:y" value="554.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="TradingSessionStatusRequest_g" schema="Message_g">
+            <param name="gui:x" value="336.0"/>
+            <param name="gui:y" value="746.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <output-stream name="AdminMessages">
+            <param name="gui:bends" value="759.0,1581.0;893.0,2119.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="2088.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="AllOtherMessages">
+            <param name="gui:bends" value="778.0,1547.0;848.0,1831.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1800.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="CSVFileReader" type="inputadapter">
+            <input port="1" stream="InputStream"/>
+            <output port="1" stream="out:CSVFileReader_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvreader.CSVReader"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Ignore header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar" value="&quot;"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:CSVFileReader&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Symbol&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyy-MM-dd hh:mm:ss.SSSZ"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Ignore header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar" value="&quot;"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:CSVFileReader&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Symbol&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyy-MM-dd hh:mm:ss.SSSZ"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="223.0"/>
+            <param name="gui:y" value="650.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="CSVFileReaderCopy" type="inputadapter">
+            <input port="1" stream="InputFileNameMD"/>
+            <output port="1" stream="out:CSVFileReaderCopy_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvreader.CSVReader"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Ignore header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar" value="&quot;"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:CSVFileReader&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Command&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;EntryType&quot; type=&quot;list&quot;&gt;&#13;&#10;        &lt;element-type type=&quot;string&quot;/&gt;&#13;&#10;    &lt;/field&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Symbol&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Exchange&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;SecurityID&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyy-MM-dd hh:mm:ss.SSSZ"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Ignore header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar" value="&quot;"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:CSVFileReader&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Command&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;EntryType&quot; type=&quot;list&quot;&gt;&#13;&#10;        &lt;element-type type=&quot;string&quot;/&gt;&#13;&#10;    &lt;/field&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Symbol&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Exchange&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;SecurityID&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyy-MM-dd hh:mm:ss.SSSZ"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="471.0"/>
+            <param name="gui:y" value="375.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="65.0"/>
+        </box>
+        <output-stream name="Error_3">
+            <param name="gui:bends" value="692.0,1480.0;752.0,1238.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1207.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="EventCommunication_B">
+            <param name="gui:bends" value="768.0,1491.0;806.0,1334.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1303.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <module-reference name="GetBookRef1">
+            <param name="file" value="GetBook.sbapp"/>
+            <input name="GetBook" port="1" stream="GetBook"/>
+            <output name="SendBook" port="1" stream="SendBook"/>
+            <input-dataref name="AggregatedBookTable" table="AggregatedBookTable"/>
+            <input-dataref name="OrderBookTable" table="OrderBookTable"/>
+            <input-dataref name="TopOfBookTable" table="TopOfBookTable"/>
+            <param name="gui:x" value="223.0"/>
+            <param name="gui:y" value="882.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+            <param name="gui:columnwidths" value="671,671,670;152,1060;286,285;128,86"/>
+            <param name="gui:bends:1" value=""/>
+        </module-reference>
+        <module-reference name="IncrementalSubscriptionRef1">
+            <param name="file" value="IncrementalSubscription.sbapp"/>
+            <input name="IncrementalSubscriptionIn" port="1" stream="X"/>
+            <output name="TopOfBook" port="1" stream="out:IncrementalSubscriptionRef1_1"/>
+            <output name="Trade" port="2" stream="out:IncrementalSubscriptionRef1_2"/>
+            <input-dataref name="AggregatedBookTable" table="AggregatedBookTable"/>
+            <input-dataref name="OrderBookTable" table="OrderBookTable"/>
+            <input-dataref name="TopOfBookTable" table="TopOfBookTable"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1023.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+            <param name="gui:columnwidths" value="671,671,670;152,1060;379,378;128,86"/>
+            <param name="gui:bends:1" value="821.0,1513.0;919.0,1054.0"/>
+        </module-reference>
+        <output-stream name="Reject_Y">
+            <param name="gui:bends" value="853.0,1524.0;877.0,1622.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1591.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <module-reference name="SecListSubscriptionRef1">
+            <param name="file" value="SecListSubscription.sbapp"/>
+            <input name="SecSubscriptionIn" port="1" stream="out:MarketDataMessages_6"/>
+            <output name="SecSubscriptionOut" port="1" stream="SecSubscriptionOut"/>
+            <output name="SecSubscriptionStatus" port="2" stream="SecSubscriptionStatus"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1704.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+            <param name="gui:columnwidths" value="671,671,670;152,1060;506,506;128,86"/>
+            <param name="gui:bends:1" value="711.0,1536.0;759.0,1735.0"/>
+        </module-reference>
+        <module-reference name="SecRequestRef1">
+            <param name="file" value="SecRequest.sbapp"/>
+            <input name="SecurityRequestIn" port="1" stream="SecurityRequest"/>
+            <input name="SecurityListRequest_x" port="2" stream="SecurityListRequest_x"/>
+            <output name="SecurityRequestOut" port="1" stream="SecurityRequestOut"/>
+            <output name="ErrorOut" port="2" stream="out:SecRequestRef1_2"/>
+            <input-dataref name="SecReqTable" table="SecReqTable"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="129.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+            <param name="gui:columnwidths" value="190,190,191;152,1060;506,506;128,86"/>
+            <param name="gui:bends:1" value="848.0,111.0;856.0,150.0"/>
+            <param name="gui:bends:2" value="757.0,207.0;765.0,170.0"/>
+        </module-reference>
+        <output-stream name="SecurityStatus">
+            <param name="gui:bends" value="793.0,1558.0;885.0,1927.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <module-reference name="SnapshotSubscriptionRef1">
+            <param name="file" value="SnapshotSubscription.sbapp"/>
+            <input name="SnapshotSubscriptionIn" port="1" stream="W"/>
+            <output name="TopOfBook" port="1" stream="out:SnapshotSubscriptionRef1_1"/>
+            <output name="Trade" port="2" stream="out:SnapshotSubscriptionRef1_2"/>
+            <input-dataref name="AggregatedBookTable" table="AggregatedBookTable"/>
+            <input-dataref name="OrderBookTable" table="OrderBookTable"/>
+            <input-dataref name="TopOfBookTable" table="TopOfBookTable"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="869.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+            <param name="gui:columnwidths" value="671,671,670;152,1060;379,378;128,86"/>
+            <param name="gui:bends:1" value="725.0,1502.0;875.0,900.0"/>
+        </module-reference>
+        <output-stream name="TradingSessionStatus">
+            <param name="gui:bends" value="692.0,1569.0;804.0,2023.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1992.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="W">
+            <param name="gui:bends" value="898.0,1502.0;916.0,1430.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1399.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="X">
+            <param name="gui:bends" value="902.0,1513.0;904.0,1526.0"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="1495.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="SecSubscriptionOut">
+            <param name="gui:bends" value="1040.0,1725.0;1046.0,1700.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="1669.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="SecSubscriptionStatus">
+            <param name="gui:bends" value="1076.0,1745.0;1088.0,1796.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="1765.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="SecurityRequestOut">
+            <param name="gui:bends" value="1081.0,150.0;1083.0,163.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="132.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="SendBook">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="336.0"/>
+            <param name="gui:y" value="882.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="Split" type="split">
+            <input port="1" stream="out:CSVFileReader_1"/>
+            <output port="1" stream="out:Split_1"/>
+            <output port="2" stream="out:Split_2"/>
+            <param name="output-count" value="2"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="336.0"/>
+            <param name="gui:y" value="650.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union3" type="union">
+            <input port="1" stream="out:SnapshotSubscriptionRef1_1"/>
+            <input port="2" stream="out:IncrementalSubscriptionRef1_1"/>
+            <output port="1" stream="TopOfBook"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1015.0,890.0;1025.0,932.0"/>
+            <param name="gui:bends:2" value="1045.0,1044.0;1067.0,952.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="911.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union4" type="union">
+            <input port="1" stream="out:SnapshotSubscriptionRef1_2"/>
+            <input port="2" stream="out:IncrementalSubscriptionRef1_2"/>
+            <output port="1" stream="Trade"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1120.0,910.0;1148.0,1028.0"/>
+            <param name="gui:bends:2" value="1067.0,1064.0;1071.0,1048.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="1007.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union6" type="union">
+            <input port="1" stream="MDRequestIn"/>
+            <input port="2" stream="out:CSVFileReaderCopy_1"/>
+            <output port="1" stream="out:Union6_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:bends:2" value="566.0,407.0;588.0,313.0"/>
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="272.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <module-reference name="MDRequestRef1">
+            <param name="file" value="MDRequest.sbapp"/>
+            <input name="MDRequestIn" port="1" stream="out:Union6_1"/>
+            <input name="MarketDataRequest_V" port="2" stream="MarketDataRequest_V"/>
+            <input name="UpdateSubscribed" port="3" stream="W"/>
+            <output name="MDRequestOut" port="1" stream="MDRequestOut"/>
+            <output name="ErrorOut" port="2" stream="out:MDRequestRef1_2"/>
+            <input-dataref name="MDReqTable" table="MDReqTable"/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="355.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+            <param name="gui:columnwidths" value="240,240,240;152,1060;506,506;128,86"/>
+            <param name="gui:bends:1" value="765.0,303.0;783.0,376.0"/>
+            <param name="gui:bends:2" value="799.0,399.0;801.0,386.0"/>
+            <param name="gui:bends:3" value="682.0,1502.0;919.0,396.0"/>
+        </module-reference>
+        <output-stream name="TopOfBook">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="1277.0"/>
+            <param name="gui:y" value="911.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <output-stream name="Trade">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="1277.0"/>
+            <param name="gui:y" value="1007.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="Union" type="union">
+            <input port="1" stream="SecurityStatusRequest_e"/>
+            <input port="2" stream="out:Split_1"/>
+            <output port="1" stream="out:Union_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:bends:2" value="449.0,671.0;461.0,605.0"/>
+            <param name="gui:x" value="471.0"/>
+            <param name="gui:y" value="564.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union5" type="union">
+            <input port="1" stream="TradingSessionStatusRequest_g"/>
+            <input port="2" stream="out:Split_2"/>
+            <output port="1" stream="out:Union5_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:bends:2" value="412.0,691.0;438.0,797.0"/>
+            <param name="gui:x" value="471.0"/>
+            <param name="gui:y" value="756.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="MDRequestOut">
+            <param name="gui:bends" value="1068.0,376.0;1070.0,389.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="358.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="Sequence" type="seqnum">
+            <input port="1" stream="out:Union_1"/>
+            <output port="1" stream="out:Sequence_1"/>
+            <param name="output-field" value="id"/>
+            <param name="sequence-id" value="sequenceid"/>
+            <param name="update-expression" value="sequenceid + 1"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="564.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Sequence2" type="seqnum">
+            <input port="1" stream="out:Union5_1"/>
+            <output port="1" stream="out:Sequence2_1"/>
+            <param name="output-field" value="id2"/>
+            <param name="sequence-id" value="sequence2id"/>
+            <param name="update-expression" value="sequence2id + 1"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="610.0"/>
+            <param name="gui:y" value="756.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union11" type="union">
+            <input port="1" stream="out:SecRequestRef1_2"/>
+            <input port="2" stream="out:MDRequestRef1_2"/>
+            <output port="1" stream="ErrorOut"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1015.0,170.0;1033.0,249.0"/>
+            <param name="gui:bends:2" value="1067.0,396.0;1097.0,269.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="228.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="ErrorOut">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="1277.0"/>
+            <param name="gui:y" value="228.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="Map" type="map">
+            <input port="1" stream="out:Sequence_1"/>
+            <output port="1" stream="out:Map_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="BeginString">'Placeholder'</replace>
+                    <replace field="MsgType">"e"</replace>
+                    <replace field="SenderCompID">'Placeholder'</replace>
+                    <replace field="TargetCompID">'Placeholder'</replace>
+                    <replace field="SendingTime">now()-timezoneoffset()</replace>
+                    <replace field="SecurityStatusReqID">"Sec-Status-"+string(id)+string(now())</replace>
+                    <replace field="SecurityExchange">"XBSP"</replace>
+                    <replace field="SubscriptionRequestType">"1"</replace>
+                    <remove field="id"/>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="564.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MapCopy" type="map">
+            <input port="1" stream="out:Sequence2_1"/>
+            <output port="1" stream="out:MapCopy_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="BeginString">'Placeholder'</replace>
+                    <replace field="MsgType">"g"</replace>
+                    <replace field="SenderCompID">'Placeholder'</replace>
+                    <replace field="TargetCompID">'Placeholder'</replace>
+                    <replace field="SendingTime">now()-timezoneoffset()</replace>
+                    <replace field="TradSesReqID">"TradSes-Status-"+string(id2)+string(now())</replace>
+                    <remove field="id2"/>
+                    <replace field="SecurityExchange">"XBSP"</replace>
+                    <replace field="SubscriptionRequestType">"1"</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="929.0"/>
+            <param name="gui:y" value="756.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union2" type="union">
+            <input port="1" stream="SecurityRequestOut"/>
+            <input port="2" stream="MDRequestOut"/>
+            <input port="3" stream="out:Map_1"/>
+            <input port="4" stream="out:MapCopy_1"/>
+            <output port="1" stream="out:Union2_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1042.0,150.0;1148.0,580.0"/>
+            <param name="gui:bends:2" value="1082.0,376.0;1134.0,587.0"/>
+            <param name="gui:bends:3" value=""/>
+            <param name="gui:bends:4" value="1098.0,787.0;1144.0,603.0"/>
+            <param name="gui:x" value="1177.0"/>
+            <param name="gui:y" value="559.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="65.0"/>
+        </box>
+        <box name="SendMessages" type="outputadapter">
+            <input port="1" stream="out:Union2_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.fix.output.FIXOutput"/>
+            <param name="fieldNameMapFile"/>
+            <param name="fixAdminMessageInterceptor"/>
+            <param name="fixConfigFile" value="mdconfig/fix_market_data_xp.cfg"/>
+            <param name="fixEngine" value="QuickFIX/J"/>
+            <param name="incomingFilter"/>
+            <param name="incomingFilterType" value="Include"/>
+            <param name="isLoggingIncomingMessages" value="false"/>
+            <param name="isLoggingOutgoingMessages" value="false"/>
+            <param name="isReportingProfilingData" value="false"/>
+            <param name="logLevel" value="ERROR"/>
+            <param name="logonAtStartup" value="true"/>
+            <param name="outgoingFilter"/>
+            <param name="outgoingFilterType" value="Include"/>
+            <param name="profilingDataReportingInterval" value="10000"/>
+            <param name="useSenderLocationIDToNameSession" value="false"/>
+            <param name="useSenderSubIDToNameSession" value="false"/>
+            <param name="useTargetLocationIDToNameSession" value="false"/>
+            <param name="useTargetSubIDToNameSession" value="false"/>
+            <param name="fieldNameMapFile"/>
+            <param name="fixAdminMessageInterceptor"/>
+            <param name="fixConfigFile" value="mdconfig/fix_market_data_xp.cfg"/>
+            <param name="fixEngine" value="QuickFIX/J"/>
+            <param name="incomingFilter"/>
+            <param name="incomingFilterType" value="Include"/>
+            <param name="isLoggingIncomingMessages" value="false"/>
+            <param name="isLoggingOutgoingMessages" value="false"/>
+            <param name="isReportingProfilingData" value="false"/>
+            <param name="logLevel" value="ERROR"/>
+            <param name="logonAtStartup" value="true"/>
+            <param name="outgoingFilter"/>
+            <param name="outgoingFilterType" value="Include"/>
+            <param name="profilingDataReportingInterval" value="10000"/>
+            <param name="useSenderLocationIDToNameSession" value="false"/>
+            <param name="useSenderSubIDToNameSession" value="false"/>
+            <param name="useTargetLocationIDToNameSession" value="false"/>
+            <param name="useTargetSubIDToNameSession" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1277.0"/>
+            <param name="gui:y" value="559.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+    </add>
+</modify>

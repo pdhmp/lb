@@ -1,0 +1,4 @@
+#Wed Jul 25 12:36:30 BRT 2012
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=stream qualifiers

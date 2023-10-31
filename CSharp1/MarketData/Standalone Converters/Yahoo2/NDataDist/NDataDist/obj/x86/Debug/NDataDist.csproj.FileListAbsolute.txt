@@ -1,0 +1,107 @@
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\bin\Debug\NDataDist.exe
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\bin\Debug\NDataDist.pdb
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\bin\Debug\NSocServer.dll
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\bin\Debug\NSocServer.pdb
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\NDataDist.frmMain.resources
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\NDataDist.Properties.Resources.resources
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe
+N:\TI\Projects\CSharp\Utils\NDataDist\NDataDist\obj\x86\Debug\NDataDist.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.exe
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSocServer.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.exe.config
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.exe.manifest
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.application
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe.manifest
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.application
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Bloomberglp.Blpapi.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.exe.config
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.exe.manifest
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.application
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.exe
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NDataDist.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Bloomberglp.Blpapi.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\FlexApi.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Interop.SINALCom.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NestDLL.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Org.Mentalis.Security.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\DiffieHellman.dll
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NCommonTypes.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSocClient.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSocServer.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSYMConn.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Tamir.SharpSSH.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NestDLL.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.frmMain.resources
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.Properties.Resources.resources
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\ResGen.read.1.tlog
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\ResGen.write.1.tlog
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe.manifest
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\obj\x86\Debug\NDataDist.application
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSocServer.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\NDataDist\NDataDist\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NDataDist.exe.config
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\NDataDist.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NDataDist.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NDataDist.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NDataDist.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NDataDist.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NSocServer.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\Bloomberglp.Blpapi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NSocServer.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\NDataDist.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\NDataDist.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\NDataDist.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\NDataDist\NDataDist\obj\x86\Debug\NDataDist.application

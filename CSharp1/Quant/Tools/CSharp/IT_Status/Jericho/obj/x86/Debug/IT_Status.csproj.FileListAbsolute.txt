@@ -1,0 +1,45 @@
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\Jericho.IT_Status.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\Jericho.Properties.Resources.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\Jericho.exe.licenses
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\Jericho.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\obj\x86\Debug\Jericho.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\Jericho.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NCommonTypes.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NCustomControls.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NCommonTypes.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NCustomControls.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NestDLL.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NFastData.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Jericho\Jericho\bin\Debug\NFastData.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NCommonTypes.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NCustomControls.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NestDLL.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NFastData.dll
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NCommonTypes.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NCustomControls.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\NFastData.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.IT_Status.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.Properties.Resources.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\IT_Status.exe.config
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\IT_Status.exe.manifest
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\IT_Status.application
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\IT_Status.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\bin\Debug\IT_Status.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.exe.licenses
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.exe.manifest
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.application
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\IT_Status\Jericho\obj\x86\Debug\IT_Status.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\IT_Status\Jericho\bin\Debug\IT_Status.exe.config
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\IT_Status\Jericho\obj\x86\Debug\IT_Status.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\IT_Status\Jericho\obj\x86\Debug\IT_Status.pdb

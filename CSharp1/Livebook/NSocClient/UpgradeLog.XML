@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NSocClient">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient.suo">
+</Property><Property Name="Date" Value="terça-feira, 24 de agosto de 2010">
+</Property><Property Name="Time" Value="15:14">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NSocClient.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Utils\NSocClient\Backup\NSocClient.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NSocClient.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Utils\NSocClient\Backup\NSocClient.suo">
+</Event><Event ErrorLevel="0" Project="NSocClient" Source="NSocClient\NSocClient.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Utils\NSocClient\Backup\NSocClient\NSocClient.csproj">
+</Event><Event ErrorLevel="0" Project="NSocClient" Source="NSocClient\NestSocketClient.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Utils\NSocClient\Backup\NSocClient\NestSocketClient.cs">
+</Event><Event ErrorLevel="0" Project="NSocClient" Source="NSocClient\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Utils\NSocClient\Backup\NSocClient\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="1" Project="NSocClient" Source="NSocClient\NSocClient.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="NSocClient" Source="NSocClient\NSocClient.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NSocClient" Source="NSocClient\NSocClient.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NSocClient.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NSocClient.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NSocClient" Source="NSocClient\NSocClient.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

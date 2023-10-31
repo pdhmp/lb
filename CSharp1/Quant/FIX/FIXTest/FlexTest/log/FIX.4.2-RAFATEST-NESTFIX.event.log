@@ -1,0 +1,60 @@
+20100325-14:42:59 : Created session
+20100325-14:42:59 : Connecting to 192.168.0.23 on port 13224
+20100325-14:42:59 : Initiated logon request
+20100325-14:42:59 : Received logout request
+20100325-14:42:59 : Sending logout response
+20100325-14:42:59 : Disconnecting
+20100325-14:43:00 : Connecting to 192.168.0.23 on port 13224
+20100325-14:43:00 : Initiated logon request
+20100325-14:43:00 : Received logout request
+20100325-14:43:00 : Sending logout response
+20100325-14:43:00 : Disconnecting
+20100325-14:45:37 : Created session
+20100325-14:45:37 : Connecting to 192.168.0.23 on port 13224
+20100325-14:45:37 : Initiated logon request
+20100325-14:45:37 : Received logout request
+20100325-14:45:37 : Sending logout response
+20100325-14:45:37 : Disconnecting
+20100325-14:45:38 : Connecting to 192.168.0.23 on port 13224
+20100325-14:45:38 : Initiated logon request
+20100325-14:45:38 : Received logout request
+20100325-14:45:38 : Sending logout response
+20100325-14:45:38 : Disconnecting
+20100325-14:46:26 : Created session
+20100325-14:46:26 : Connecting to 192.168.0.23 on port 13224
+20100325-14:46:26 : Initiated logon request
+20100325-14:46:26 : Received logon response
+20100325-14:46:26 : MsgSeqNum too high, expecting 43 but received 47
+20100325-14:46:26 : Sent ResendRequest FROM: 43 TO: 0
+20100325-14:46:26 : Received SequenceReset FROM: 43 TO: 48
+20100325-14:47:26 : ResendRequest for messages FROM: 43 TO: 46 has been satisfied.
+20100325-16:35:27 : Created session
+20100325-16:35:27 : Connecting to 192.168.0.23 on port 13224
+20100325-16:35:27 : Initiated logon request
+20100325-16:35:27 : Received logon response
+20100325-19:55:04 : Created session
+20100325-19:55:04 : Connecting to 192.168.0.23 on port 13224
+20100325-19:55:04 : Initiated logon request
+20100325-19:55:04 : Received logon response
+20100325-19:55:04 : MsgSeqNum too high, expecting 168 but received 171
+20100325-19:55:04 : Sent ResendRequest FROM: 168 TO: 0
+20100325-19:55:05 : ResendRequest for messages FROM: 168 TO: 170 has been satisfied.
+20100325-19:55:05 : Processing QUEUED message: 171
+20100325-21:33:11 : Created session
+20100325-21:33:11 : Connecting to 192.168.0.23 on port 13224
+20100325-21:33:11 : Initiated logon request
+20100325-21:33:11 : Received logon response
+20100326-17:16:44 : Created session
+20100326-17:16:44 : Connecting to 192.168.0.23 on port 13224
+20100326-17:16:44 : Initiated logon request
+20100326-17:16:44 : Received logon response
+20100326-17:32:36 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100326-17:32:36 : Disconnecting
+20100326-17:32:45 : Connecting to 192.168.0.23 on port 13224
+20100326-17:32:45 : Initiated logon request
+20100326-17:32:45 : Received logon response
+20100326-17:35:53 : Created session
+20100326-17:35:53 : Connecting to 192.168.0.23 on port 13224
+20100326-17:35:53 : Initiated logon request
+20100326-17:35:53 : Received logon response

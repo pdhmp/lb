@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FIX_BMF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SecListDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2010-08-31</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

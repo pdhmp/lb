@@ -1,0 +1,15 @@
+C:\temp\FeedFutura\FeedFutura.exe.config
+C:\temp\FeedFutura\FeedFutura.exe.manifest
+C:\temp\FeedFutura\FeedFutura.application
+C:\temp\FeedFutura\FeedFutura.exe
+C:\temp\FeedFutura\FeedFutura.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.Form1.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.Properties.Resources.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.TrustInfo.xml
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.exe.manifest
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.application
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.pdb

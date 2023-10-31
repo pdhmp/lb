@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <named-schemas>
+            <schema name="PriceList">
+                <field description="" name="PriceDate" type="timestamp"/>
+                <field description="" name="Value" type="double"/>
+            </schema>
+        </named-schemas>
+        <schema name="schema:List">
+            <field description="" name="SecurityIdentifier" type="string"/>
+            <field description="" name="PriceList" type="list">
+                <element-type type="tuple" value="PriceList"/>
+            </field>
+        </schema>
+        <stream name="List" schema="schema:List">
+        </stream>
+        <box name="Iterate" type="iterate">
+            <input port="1" stream="List"/>
+            <output port="1" stream="out:Iterate_1"/>
+            <param name="iterate-expr" value="PriceList"/>
+            <param name="iterate-name" value="element"/>
+        </box>
+        <box name="Aggregate" type="aggregate">
+            <input port="1" stream="out:Iterate_1"/>
+            <output port="1" stream="out:Aggregate_1"/>
+            <param name="dimension-name.0" value="Dimension1"/>
+            <param name="dimension-type.0" value="tuple"/>
+            <param name="dimension-advance.0" value="1"/>
+            <param name="dimension-partial.0" value="no"/>
+            <param name="dimension-size.0" value="2"/>
+            <param name="output-group-by" value="true"/>
+            <target-list>
+                <expressions>
+                    <include field="VarList">aggregatelist(element)</include>
+                </expressions>
+            </target-list>
+            <param name="group-by-name.0" value="SecurityIdentifier"/>
+            <param name="group-by.0" value="SecurityIdentifier"/>
+        </box>
+        <box name="Map" type="map">
+            <input port="1" stream="out:Aggregate_1"/>
+            <output port="1" stream="out:Map_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Date">VarList[0].PriceDate</include>
+                    <include field="Var">ln(VarList[0].Value/VarList[1].Value)</include>
+                    <remove field="VarList"/>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="Aggregate2" type="aggregate">
+            <input port="1" stream="out:Map_1"/>
+            <output port="1" stream="OutputStream"/>
+            <param name="dimension-name.0" value="Dimension1"/>
+            <param name="dimension-type.0" value="tuple"/>
+            <param name="dimension-advance.0" value="21"/>
+            <param name="dimension-partial.0" value="no"/>
+            <param name="dimension-size.0" value="21"/>
+            <param name="output-group-by" value="true"/>
+            <target-list>
+                <expressions>
+                    <include field="VarLast">stdev(Var)</include>
+                </expressions>
+            </target-list>
+            <param name="group-by-name.0" value="SecurityIdentifier"/>
+            <param name="group-by.0" value="SecurityIdentifier"/>
+        </box>
+        <output-stream name="OutputStream">
+        </output-stream>
+    </add>
+</modify>

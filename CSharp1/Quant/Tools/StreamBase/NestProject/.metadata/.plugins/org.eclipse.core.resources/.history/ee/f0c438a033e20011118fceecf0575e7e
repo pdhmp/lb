@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <implements module-reference="Strategy.sbint"/>
+        <import from="Strategy.sbint" postfix="" prefix=""/>
+        <schema name="schema:Patrimonio">
+            <field description="" name="Patr" type="double"/>
+        </schema>
+        <stream name="Command" schema="CommandInputSchema">
+        </stream>
+        <stream name="MarketData" schema="MarketDataInputSchema">
+        </stream>
+        <stream name="Patrimonio" schema="schema:Patrimonio">
+        </stream>
+        <stream name="QSEGS" schema="QSEGUpdate">
+        </stream>
+        <stream name="VarLastQSEGS" schema="VarLastQSEGSInputSchema">
+        </stream>
+        <box name="SplitCommand" type="split">
+            <input port="1" stream="Command"/>
+            <output port="1" stream="out:SplitCommand_1"/>
+            <output port="2" stream="out:SplitCommand_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="SplitMD" type="split">
+            <input port="1" stream="MarketData"/>
+            <output port="1" stream="out:SplitMD_1"/>
+            <output port="2" stream="out:SplitMD_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="SplitPatrimonio" type="split">
+            <input port="1" stream="Patrimonio"/>
+            <output port="1" stream="out:SplitPatrimonio_1"/>
+            <output port="2" stream="out:SplitPatrimonio_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="SplitQSEGS" type="split">
+            <input port="1" stream="QSEGS"/>
+            <output port="1" stream="out:SplitQSEGS_1"/>
+            <output port="2" stream="out:SplitQSEGS_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="SplitVarLast" type="split">
+            <input port="1" stream="VarLastQSEGS"/>
+            <output port="1" stream="out:SplitVarLast_1"/>
+            <output port="2" stream="out:SplitVarLast_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <module-reference name="CBO11">
+            <parameter-bindings>
+                <binding name="Portfolio" value="18"/>
+                <binding name="Book" value="19"/>
+                <binding name="Section" value="328"/>
+                <binding name="SizeMinMax" value="3"/>
+                <binding name="TriggerUp" value="0.75"/>
+                <binding name="TriggerDown" value="0.25"/>
+                <binding name="PercMultipl" value="0.005"/>
+                <binding name="MultiplPatrimonio" value="0.15"/>
+                <binding name="Days" value="0.75"/>
+                <binding name="ErrorFileName" value="ErrorCBO11.log"/>
+                <binding name="LogFileName" value="LogCBO11.log"/>
+            </parameter-bindings>
+            <param name="file" value="CBOStrategy.sbapp"/>
+            <input name="Command" port="1" stream="out:SplitCommand_2"/>
+            <input name="MD" port="2" stream="out:SplitMD_2"/>
+            <input name="Patrimonio" port="3" stream="out:SplitPatrimonio_2"/>
+            <input name="QSEGS" port="4" stream="out:SplitQSEGS_2"/>
+            <input name="VarLastQSEGS" port="5" stream="out:SplitVarLast_2"/>
+            <output name="Order" port="1" stream="out:CBO11_1"/>
+        </module-reference>
+        <module-reference name="CBO5">
+            <parameter-bindings>
+                <binding name="Portfolio" value="18"/>
+                <binding name="Book" value="19"/>
+                <binding name="Section" value="327"/>
+                <binding name="SizeMinMax" value="2"/>
+                <binding name="TriggerUp" value="0.75"/>
+                <binding name="TriggerDown" value="0.25"/>
+                <binding name="PercMultipl" value="0.005"/>
+                <binding name="MultiplPatrimonio" value="0.15"/>
+                <binding name="Days" value="0.25"/>
+                <binding name="ErrorFileName" value="ErrorCBO5.log"/>
+                <binding name="LogFileName" value="LogCBO5.log"/>
+            </parameter-bindings>
+            <param name="file" value="CBOStrategy.sbapp"/>
+            <input name="Command" port="1" stream="out:SplitCommand_1"/>
+            <input name="MD" port="2" stream="out:SplitMD_1"/>
+            <input name="Patrimonio" port="3" stream="out:SplitPatrimonio_1"/>
+            <input name="QSEGS" port="4" stream="out:SplitQSEGS_1"/>
+            <input name="VarLastQSEGS" port="5" stream="out:SplitVarLast_1"/>
+            <output name="Order" port="1" stream="out:CBO5_1"/>
+        </module-reference>
+        <box name="Union" type="union">
+            <input port="1" stream="out:CBO5_1"/>
+            <input port="2" stream="out:CBO11_1"/>
+            <output port="1" stream="Orders"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <output-stream name="Orders">
+        </output-stream>
+    </add>
+</modify>

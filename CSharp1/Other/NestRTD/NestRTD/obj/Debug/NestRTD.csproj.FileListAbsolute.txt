@@ -1,0 +1,39 @@
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NestRTD.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NestRTD.pdb
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\obj\Debug\NestRTD.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\obj\Debug\NestRTD.pdb
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NestRTD.tlb
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\Other\NestRTD\NestRTD\bin\Debug\NestDLL.pdb
+T:\Resources\NestRTD.dll
+T:\Resources\NestRTD.pdb
+\\NESTSRV03\NESTSoft\Resources\NestRTD.dll
+\\NESTSRV03\NESTSoft\Resources\NestRTD.pdb
+C:\temp\NestRTD.dll
+C:\temp\NestRTD.pdb
+C:\temp\NestRTD.tlb
+\\NESTSRV03\NESTSoft\Resources\NestRTD.tlb
+\\Nestsrv03\Nest\TI\Projects\CSharp\Other\NestRTD\NestRTD\obj\Debug\ResolveAssemblyReference.cache
+\\Nestsrv03\Nest\TI\Projects\CSharp\Other\NestRTD\NestRTD\obj\Debug\NestRTD.dll
+\\Nestsrv03\Nest\TI\Projects\CSharp\Other\NestRTD\NestRTD\obj\Debug\NestRTD.pdb
+T:\Resources\NestRTD.tlb
+T:\Resources\NestRTD\NestRTD.dll
+T:\Resources\NestRTD\NestRTD.pdb
+T:\Resources\NestRTD\NestRTD.tlb
+C:\Temp\NestRTD\NestRTD.dll
+C:\Temp\NestRTD\NestRTD.pdb
+C:\Temp\NestRTD\NestRTD.tlb
+C:\Program Files (x86)\Microsoft Office\Office12\NestRTD.dll
+C:\Program Files (x86)\Microsoft Office\Office12\NestRTD.pdb
+C:\Program Files (x86)\Microsoft Office\Office12\NestRTD.tlb

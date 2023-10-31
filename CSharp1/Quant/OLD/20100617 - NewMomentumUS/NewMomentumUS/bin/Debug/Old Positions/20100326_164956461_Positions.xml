@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Positions>
+  <Strategy>
+    <Name>MomentumBZ</Name>
+    <Tickers>
+      <Ticker IDTicker="1" Quantity="1030" />
+      <Ticker IDTicker="3" Quantity="1000" />
+      <Ticker IDTicker="28" Quantity="1900" />
+      <Ticker IDTicker="36" Quantity="-100" />
+      <Ticker IDTicker="86" Quantity="200" />
+      <Ticker IDTicker="89" Quantity="400" />
+      <Ticker IDTicker="145" Quantity="1700" />
+      <Ticker IDTicker="185" Quantity="400" />
+      <Ticker IDTicker="210" Quantity="300" />
+      <Ticker IDTicker="228" Quantity="300" />
+      <Ticker IDTicker="234" Quantity="1000" />
+      <Ticker IDTicker="240" Quantity="100" />
+      <Ticker IDTicker="243" Quantity="100" />
+      <Ticker IDTicker="253" Quantity="-100" />
+      <Ticker IDTicker="260" Quantity="500" />
+      <Ticker IDTicker="279" Quantity="-600" />
+      <Ticker IDTicker="280" Quantity="-2200" />
+      <Ticker IDTicker="313" Quantity="300" />
+      <Ticker IDTicker="315" Quantity="200" />
+      <Ticker IDTicker="318" Quantity="100" />
+      <Ticker IDTicker="323" Quantity="2200" />
+      <Ticker IDTicker="347" Quantity="900" />
+      <Ticker IDTicker="382" Quantity="-700" />
+      <Ticker IDTicker="384" Quantity="800" />
+      <Ticker IDTicker="390" Quantity="100" />
+      <Ticker IDTicker="393" Quantity="-1700" />
+      <Ticker IDTicker="422" Quantity="-1500" />
+      <Ticker IDTicker="444" Quantity="400" />
+      <Ticker IDTicker="448" Quantity="600" />
+      <Ticker IDTicker="456" Quantity="2000" />
+      <Ticker IDTicker="458" Quantity="-500" />
+      <Ticker IDTicker="476" Quantity="200" />
+      <Ticker IDTicker="483" Quantity="-200" />
+      <Ticker IDTicker="485" Quantity="300" />
+      <Ticker IDTicker="511" Quantity="300" />
+      <Ticker IDTicker="536" Quantity="-200" />
+      <Ticker IDTicker="542" Quantity="400" />
+      <Ticker IDTicker="556" Quantity="-100" />
+      <Ticker IDTicker="561" Quantity="200" />
+      <Ticker IDTicker="570" Quantity="1600" />
+      <Ticker IDTicker="579" Quantity="800" />
+      <Ticker IDTicker="595" Quantity="-800" />
+      <Ticker IDTicker="599" Quantity="-900" />
+      <Ticker IDTicker="612" Quantity="300" />
+      <Ticker IDTicker="632" Quantity="-200" />
+      <Ticker IDTicker="654" Quantity="-500" />
+      <Ticker IDTicker="710" Quantity="800" />
+      <Ticker IDTicker="715" Quantity="-1000" />
+      <Ticker IDTicker="722" Quantity="1200" />
+      <Ticker IDTicker="767" Quantity="300" />
+      <Ticker IDTicker="768" Quantity="-100" />
+      <Ticker IDTicker="794" Quantity="300" />
+      <Ticker IDTicker="800" Quantity="100" />
+      <Ticker IDTicker="801" Quantity="300" />
+      <Ticker IDTicker="806" Quantity="200" />
+      <Ticker IDTicker="809" Quantity="1000" />
+      <Ticker IDTicker="818" Quantity="200" />
+      <Ticker IDTicker="831" Quantity="300" />
+      <Ticker IDTicker="1061" Quantity="-100" />
+      <Ticker IDTicker="1072" Quantity="400" />
+      <Ticker IDTicker="1075" Quantity="-400" />
+      <Ticker IDTicker="1219" Quantity="-1400" />
+      <Ticker IDTicker="1236" Quantity="-1200" />
+      <Ticker IDTicker="1238" Quantity="-800" />
+      <Ticker IDTicker="1407" Quantity="200" />
+      <Ticker IDTicker="1409" Quantity="-1400" />
+      <Ticker IDTicker="1411" Quantity="-500" />
+      <Ticker IDTicker="1582" Quantity="-200" />
+      <Ticker IDTicker="1677" Quantity="-700" />
+      <Ticker IDTicker="1694" Quantity="-400" />
+      <Ticker IDTicker="1701" Quantity="-400" />
+      <Ticker IDTicker="1816" Quantity="700" />
+      <Ticker IDTicker="4660" Quantity="1000" />
+      <Ticker IDTicker="5469" Quantity="1900" />
+      <Ticker IDTicker="5790" Quantity="500" />
+      <Ticker IDTicker="14576" Quantity="-400" />
+    </Tickers>
+  </Strategy>
+</Positions>

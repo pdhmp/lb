@@ -1,0 +1,19 @@
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.Form1.resources
+C:\temp\XMLFator\FeedFutura.exe.config
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.Properties.Resources.resources
+C:\temp\XMLFator\FeedFutura.exe.manifest
+C:\temp\XMLFator\FeedFutura.application
+C:\temp\XMLFator\FeedFutura.exe
+C:\temp\XMLFator\FeedFutura.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.pdb
+C:\temp\FeedFutura\FeedFutura.exe.config
+C:\temp\FeedFutura\FeedFutura.exe
+C:\temp\FeedFutura\FeedFutura.pdb
+C:\temp\FeedFutura\FeedFutura.exe.manifest
+C:\temp\FeedFutura\FeedFutura.application
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.TrustInfo.xml
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.exe.manifest
+N:\TI\Projects\CSharp\FIX_EXECS\Futura Feed\obj\Debug\FeedFutura.application

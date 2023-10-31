@@ -1,0 +1,17 @@
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Interop.STATCONNECTORCLNTLib.dll
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Interop.StatConnectorCommonLib.dll
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Interop.STATCONNECTORSRVLib.dll
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\newPatriot.csproj.ResolveComReference.cache
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Patriot.exe
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Patriot.pdb
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\bin\Debug\Patriot.exe
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\bin\Debug\Patriot.pdb
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\bin\Debug\NFastData.dll
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\bin\Debug\NFastData.pdb
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Patriot.frmPatriot.resources
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\Patriot.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\newPatriot\Patriot\obj\x86\Debug\GenerateResource.write.1.tlog

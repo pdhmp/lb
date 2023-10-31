@@ -1,0 +1,81 @@
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\YahooConverter.exe.config
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\YahooConverter.exe.manifest
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\YahooConverter.application
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\YahooConverter.exe
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\YahooConverter.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NCommonTypes.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NSYMConn.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\quickfix_net.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\quickfix_net_messages.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\Tamir.SharpSSH.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\FlexApi.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NSocClient.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\Interop.SINALCom.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NestDLL.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\Org.Mentalis.Security.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\DiffieHellman.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NCommonTypes.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NSYMConn.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\Tamir.SharpSSH.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NSocClient.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.frmMain.resources
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.Properties.Resources.resources
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe.manifest
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.application
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe
+C:\Documents and Settings\gabriel.oliveira\Desktop\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\YahooConverter.exe.config
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\YahooConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\YahooConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\YahooConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\YahooConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\bin\Debug\Bloomberglp.Blpapi.dll
+c:\temp\YahooConverter.exe.config
+c:\temp\YahooConverter.exe.manifest
+c:\temp\YahooConverter.application
+c:\temp\YahooConverter.exe
+c:\temp\YahooConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.pdb
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.pdb
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.csprojResolveAssemblyReference.cache
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.frmMain.resources
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.Properties.Resources.resources
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Standalone Converters\Yahoo2\YahooConverter\YahooConverter\obj\x86\Debug\YahooConverter.csproj.GenerateResource.Cache

@@ -1,0 +1,1 @@
+MsgType,Account,ClOrdID,HandlInst,OrderID,OrderQty,OrdType,OrigClOrdID,Price,Side,Symbol,TimeInForce,TransactTime,ExecBroker,StopPx,MinQty,MaxFloor,ExpireDate,Memo,Error

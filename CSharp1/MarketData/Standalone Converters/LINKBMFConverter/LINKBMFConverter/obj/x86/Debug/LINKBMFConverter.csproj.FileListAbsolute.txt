@@ -1,0 +1,38 @@
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\LINKBMFConverter.exe.config
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\LINKBMFConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\LINKBMFConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\LINKBMFConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\LINKBMFConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\LINKBMFConverter.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\LINKBMFConverter.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\LINKBMFConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\LINKBMFConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\LINKBMFConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\obj\x86\Debug\LINKBMFConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\LINKBMFConverter\LINKBMFConverter\bin\Debug\Bloomberglp.Blpapi.dll
+c:\Temp\LINKBMFConverter.exe.config
+c:\Temp\LINKBMFConverter.exe.manifest
+c:\Temp\LINKBMFConverter.application
+c:\Temp\LINKBMFConverter.exe
+c:\Temp\LINKBMFConverter.pdb

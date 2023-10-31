@@ -1,0 +1,15 @@
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\bin\Debug\RTICK_GenerateVWAPBars.exe.manifest
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\bin\Debug\RTICK_GenerateVWAPBars.application
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\bin\Debug\RTICK_GenerateVWAPBars.exe
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\bin\Debug\RTICK_GenerateVWAPBars.pdb
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\RTICK_GenerateVWAPBars.Form1.resources
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\RTICK_GenerateVWAPBars.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\RTICK_GenerateVWAPBars.exe.manifest
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\RTICK_GenerateVWAPBars.application
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\RTICK_GenerateVWAPBars.exe
+N:\TI\Projects\CSharp\Other\RTICK_GenerateVWAPBars\RTICK_GenerateVWAPBars\obj\x86\Debug\RTICK_GenerateVWAPBars.pdb

@@ -1,0 +1,8 @@
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\ResolveAssemblyReference.cache
+T:\Resources\NFormUtils.dll
+T:\Resources\NFormUtils.pdb
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NFormUtils.dll
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NFormUtils.pdb
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NFormUtils.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NFormUtils.MyGridControl.resources
+N:\TI\Projects\CSharp\Utils\NFormUtils\NFormUtils\obj\Debug\NFormUtils.dll.licenses

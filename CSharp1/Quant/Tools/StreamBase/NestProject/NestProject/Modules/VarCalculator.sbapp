@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <named-schemas>
+            <schema name="HistPrice">
+                <field description="" name="PriceDate" type="timestamp"/>
+                <field description="" name="Value" type="double"/>
+            </schema>
+        </named-schemas>
+        <constant expr="21" name="NumOfDays"/>
+        <schema name="schema:Calculate">
+            <field description="" name="SrType" type="int"/>
+        </schema>
+        <data name="NESTSRV06" type="jdbctable">
+            <param name="connection" value="NESTDB"/>
+        </data>
+        <stream name="Calculate" schema="schema:Calculate">
+        </stream>
+        <box name="GetQSEGS" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="Calculate"/>
+            <output port="1" stream="out:GetQSEGS_1"/>
+            <param name="sql" value="SELECT distinct(SC.Id_Ticker_Component) as QSEGid, TickerComponent as SecurityIdentifier&#13;&#10;FROM NESTSRV06.NESTDB.dbo.Tb023_Securities_CompositiON SC (nolock) JOIN&#13;&#10;NESTSRV06.NESTDB.dbo.Tb001_Securities S  &#13;&#10;ON Id_Ticker_Component = idsecurity  &#13;&#10;WHERE  Id_Ticker_Composite = 281020"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="GetLastQSEGS" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetQSEGS_1"/>
+            <output port="1" stream="out:GetLastQSEGS_1"/>
+            <param name="sql" value="SELECT TOP 22 srdate as Date,SrValue, IdSecurity&#13;&#10;FROM [NESTDB].[dbo].[Tb053_Precos_Indices]&#13;&#10;WHERE SRTYPE = {SrType} AND IDSECURITY = {QSEGid}&#13;&#10;ORDER BY SRDATE DESC"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <remove field="QSEGid"/>
+                    <include field="PriceList">list(HistPrice())</include>
+                    <remove field="SrType"/>
+                </expressions>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="Aggregate" type="aggregate">
+            <input port="1" stream="out:GetLastQSEGS_1"/>
+            <output port="1" stream="out:Aggregate_1"/>
+            <param name="dimension-name.0" value="Dimension1"/>
+            <param name="dimension-type.0" value="tuple"/>
+            <param name="dimension-advance.0" value="22"/>
+            <param name="dimension-partial.0" value="no"/>
+            <param name="dimension-size.0" value="22"/>
+            <param name="output-group-by" value="true"/>
+            <target-list>
+                <expressions>
+                    <include field="PriceList">aggregatelist(HistPrice(Date, SrValue))</include>
+                </expressions>
+            </target-list>
+            <param name="group-by-name.0" value="SecurityIdentifier"/>
+            <param name="group-by.0" value="SecurityIdentifier"/>
+        </box>
+        <module-reference name="CalculateSTDEV">
+            <param name="file" value="CalculateSTDEV.sbapp"/>
+            <input name="List" port="1" stream="out:Aggregate_1"/>
+            <output name="OutputStream" port="1" stream="VarQSEG"/>
+        </module-reference>
+        <output-stream name="VarQSEG">
+        </output-stream>
+        <gui.note name="Note">
+            <property name="description" value="conferir o var e implementar um var que calcule para o trday e para o trindex."/>
+        </gui.note>
+    </add>
+</modify>

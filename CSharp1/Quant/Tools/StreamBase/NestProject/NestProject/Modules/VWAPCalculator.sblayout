@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="MD">
+        <param name="gui:x" value="-486.0"/>
+        <param name="gui:y" value="65.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Map">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-346.0"/>
+        <param name="gui:y" value="71.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="VWAP">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-203.0"/>
+        <param name="gui:y" value="57.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

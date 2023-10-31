@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <import from="MarketData.sbint" postfix="" prefix=""/>
+        <schema name="schema:InputStream">
+            <field description="" name="FileName" type="string"/>
+        </schema>
+        <stream name="InputStream" schema="schema:InputStream">
+        </stream>
+        <box name="ReadFile" type="inputadapter">
+            <input port="1" stream="InputStream"/>
+            <output port="1" stream="out:ReadFile_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvreader.CSVReader"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Read header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:ReadFile&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;RIC&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Type&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Price&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Volume&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Date&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Time&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyyMMdd"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Read header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:ReadFile&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;RIC&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Type&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Price&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Volume&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Date&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Time&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyyMMdd"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+        </box>
+        <box name="ValidFilter" type="filter">
+            <input port="1" stream="out:ReadFile_1"/>
+            <output port="1" stream="out:ValidFilter_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="RIC!='' &amp;&amp; Type!= '' &amp;&amp; Price!='' &amp;&amp; Volume != '' &amp;&amp; Date != '' &amp;&amp; Time != ''"/>
+        </box>
+        <box name="Parse" type="map">
+            <input port="1" stream="out:ValidFilter_1"/>
+            <output port="1" stream="out:Parse_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <replace field="Price">double(Price)</replace>
+                    <replace field="Volume">double(Volume)</replace>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="TradeFilter" type="filter">
+            <input port="1" stream="out:Parse_1"/>
+            <output port="1" stream="out:TradeFilter_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Type='Trade'"/>
+        </box>
+        <box name="MapDateTime" type="map">
+            <input port="1" stream="out:TradeFilter_1"/>
+            <output port="1" stream="out:MapDateTime_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="MDEntryDate">parse_time(substr(Date, 0,4)+'-'+substr(Date, 4,2)+'-'+substr(Date, 6,2),'yyyy-MM-dd')</include>
+                    <include field="MDEntryTime">parse_time(substr(Date, 0,4)+'-'+substr(Date, 4,2)+'-'+substr(Date, 6,2)+' '+substr(Time,0,8), 'yyyy-MM-dd HH:mm:ss')-hours(3)</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="TimeFilter" type="filter">
+            <input port="1" stream="out:MapDateTime_1"/>
+            <output port="1" stream="out:TimeFilter_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="MDEntryTime &lt; parse_time(substr(Date, 0,4)+'-'+substr(Date, 4,2)+'-'+substr(Date, 6,2)+' 16:55:00','yyyy-MM-dd HH:mm:ss') and MDEntryTime &gt; parse_time(substr(Date, 0,4)+'-'+substr(Date, 4,2)+'-'+substr(Date, 6,2)+' 16:45:00','yyyy-MM-dd HH:mm:ss')"/>
+        </box>
+        <box name="MapSchema" type="map">
+            <input port="1" stream="out:TimeFilter_1"/>
+            <output port="1" stream="MD"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Symbol">substr(RIC, 0,indexof(RIC, '.',0))</include>
+                    <include field="MDEntryType">Type</include>
+                    <include field="MDEntryPx">Price</include>
+                    <include field="MDEntrySize">Volume</include>
+                    <remove field="RIC"/>
+                    <remove field="Type"/>
+                    <remove field="Price"/>
+                    <remove field="Volume"/>
+                    <include field="MDEntryPositionNo">1</include>
+                    <include field="MDUpdateAction">'CSV'</include>
+                    <remove field="Date"/>
+                    <remove field="Time"/>
+                </expressions>
+            </target-list>
+        </box>
+        <output-stream name="MD" schema="TradeSchema">
+        </output-stream>
+    </add>
+</modify>

@@ -1,0 +1,760 @@
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Interop.ACTIVEXLib.dll
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.ResolveComReference.cache
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBook.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesUsEquity.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAccounts.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesFut.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddContact.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditMailingContacts.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailing.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailingHTMLViewer.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAppraiser.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEvaluation.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmNota.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDecisoesColegiado.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFatosRelevantes.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.LB_BackOffice.frmInsertSubscr.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseBroker.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseCnfirm.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExercise.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRegistroOpas.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSection.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscription.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscrReceipt.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTxMellon.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebateClients.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContPayouts.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditDistribRebate.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts_Report.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditContDistrib.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\MyXtraGrid.MyGridControl.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmClientTransactions.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebates.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokerage.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportDividends.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDeleteFileBrokerage.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPrepareXML.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIlliquidStocks.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionsGraph.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSectorContrib.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureGraph.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskReportArb.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatisticsPortfolio.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditLimitsArb.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditFoward.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokers.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckPortfolioAdministrator.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Change_Maturity.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDiferences.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEarlyFowards.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFowards.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMellonFwdNames.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCashTransfer.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExpenses.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubsRedemp.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSplitPercent.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDividends.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmConfirmPL.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.LBForm.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBookPerfSummary.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmResearchNews.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureBook.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskCharts.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuickChart.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContribution.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAttribution.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPortSummary.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositionSummary.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskArb.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonteCarlo.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRisk_Scenarios.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDDChart.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskWeeklyReport.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskFactors.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLiquidity.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskOptions.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskSectors.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddSecurityDate.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditSecurity.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportFiles.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDataTable.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusOps.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusTi.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmViewCalcHist.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSpam.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusFlags.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubPortfolio.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPerfChart.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskLimits.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCopySecurity.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmForwardReconciliation.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrderReview.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.TempfrmStockLoan.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategyTransfer.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckImportedFile.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades_group.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertSecurity.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIssuer.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrade_Aloc_Override.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdate_Trades.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.ExListView.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmApagaPL.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMargin.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan_Close.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonSectorIndex.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskMarginalVARs.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditBookSection.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.zfrmTradeSet.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSplit.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionStrikes.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFundPerfSummary.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuote.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSummary.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertLoan.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositions.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmstatus.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCompIndex.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Changes.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Changes.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Short.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Contributions.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditPriceTrade.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCancel_Trades.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertPrice.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposure_PL.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertMargin.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertOrder.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrders.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategy.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Contributions.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradesPosition.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdateStrategy.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVARChart.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVol.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPass.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLogin.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTrade.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMenu.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.Properties.Resources.resources
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.licenses
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.TrustInfo.xml
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.manifest
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.application
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.pdb
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\Interop.Office.dll
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Livebook\Livebook2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.ResolveComReference.cache
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBook.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesUsEquity.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAccounts.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesFut.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddContact.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditMailingContacts.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailing.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailingHTMLViewer.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAppraiser.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEvaluation.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmNota.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDecisoesColegiado.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFatosRelevantes.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.LB_BackOffice.frmInsertSubscr.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseBroker.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseCnfirm.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExercise.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRegistroOpas.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSection.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscription.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscrReceipt.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTxMellon.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebateClients.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContPayouts.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditDistribRebate.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts_Report.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditContDistrib.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\MyXtraGrid.MyGridControl.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmClientTransactions.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebates.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokerage.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportDividends.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDeleteFileBrokerage.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPrepareXML.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIlliquidStocks.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionsGraph.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSectorContrib.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureGraph.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskReportArb.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatisticsPortfolio.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditLimitsArb.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditFoward.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokers.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckPortfolioAdministrator.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Change_Maturity.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDiferences.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEarlyFowards.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFowards.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMellonFwdNames.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCashTransfer.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExpenses.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubsRedemp.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSplitPercent.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDividends.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmConfirmPL.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.LBForm.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBookPerfSummary.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmResearchNews.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureBook.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskCharts.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuickChart.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContribution.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAttribution.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPortSummary.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositionSummary.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskArb.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonteCarlo.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRisk_Scenarios.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDDChart.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskWeeklyReport.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskFactors.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLiquidity.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskOptions.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskSectors.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddSecurityDate.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditSecurity.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportFiles.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDataTable.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusOps.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusTi.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmViewCalcHist.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSpam.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusFlags.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubPortfolio.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPerfChart.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskLimits.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCopySecurity.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmForwardReconciliation.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrderReview.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.TempfrmStockLoan.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategyTransfer.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckImportedFile.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades_group.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertSecurity.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIssuer.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrade_Aloc_Override.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdate_Trades.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.ExListView.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmApagaPL.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMargin.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan_Close.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonSectorIndex.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskMarginalVARs.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditBookSection.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.zfrmTradeSet.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSplit.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionStrikes.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFundPerfSummary.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuote.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSummary.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertLoan.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositions.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmstatus.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCompIndex.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Changes.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Changes.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Short.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Contributions.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditPriceTrade.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCancel_Trades.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertPrice.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposure_PL.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertMargin.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertOrder.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrders.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategy.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Contributions.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradesPosition.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdateStrategy.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVARChart.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVol.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPass.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLogin.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTrade.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMenu.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\LiveBook.Properties.Resources.resources
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.licenses
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.TrustInfo.xml
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.manifest
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.pdb
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.application
+C:\Temp\Debug\Livebook 2.0.exe.config
+C:\BKP PPAY\CSharp\Livebook\Livebook2\obj\x86\Debug\Livebook.csprojResolveAssemblyReference.cache
+C:\Temp\Debug\Livebook 2.0.exe.manifest
+C:\Temp\Debug\Livebook 2.0.application
+C:\Temp\Debug\Livebook 2.0.exe
+C:\Temp\Debug\Livebook 2.0.pdb
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.ResolveComReference.cache
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.pdb
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBook.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesUsEquity.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAccounts.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesFut.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddContact.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditMailingContacts.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailing.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailingHTMLViewer.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAppraiser.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEvaluation.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmNota.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDecisoesColegiado.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFatosRelevantes.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.LB_BackOffice.frmInsertSubscr.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseBroker.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseCnfirm.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExercise.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRegistroOpas.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSection.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscription.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscrReceipt.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTxMellon.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebateClients.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContPayouts.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditDistribRebate.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts_Report.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditContDistrib.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\MyXtraGrid.MyGridControl.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmClientTransactions.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebates.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokerage.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportDividends.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDeleteFileBrokerage.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPrepareXML.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIlliquidStocks.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionsGraph.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSectorContrib.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureGraph.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskReportArb.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatisticsPortfolio.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditLimitsArb.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditFoward.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokers.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckPortfolioAdministrator.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Change_Maturity.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDiferences.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEarlyFowards.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFowards.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMellonFwdNames.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCashTransfer.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExpenses.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubsRedemp.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSplitPercent.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDividends.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmConfirmPL.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.LBForm.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBookPerfSummary.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmResearchNews.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureBook.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskCharts.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuickChart.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContribution.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAttribution.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPortSummary.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositionSummary.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskArb.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonteCarlo.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRisk_Scenarios.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDDChart.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskWeeklyReport.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskFactors.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLiquidity.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskOptions.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskSectors.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddSecurityDate.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditSecurity.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportFiles.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDataTable.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusOps.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusTi.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmViewCalcHist.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSpam.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusFlags.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubPortfolio.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPerfChart.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskLimits.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCopySecurity.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmForwardReconciliation.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrderReview.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.TempfrmStockLoan.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategyTransfer.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckImportedFile.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades_group.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertSecurity.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIssuer.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrade_Aloc_Override.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdate_Trades.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.ExListView.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmApagaPL.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMargin.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan_Close.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonSectorIndex.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskMarginalVARs.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditBookSection.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.zfrmTradeSet.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSplit.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionStrikes.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFundPerfSummary.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuote.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSummary.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertLoan.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositions.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmstatus.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCompIndex.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Changes.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Changes.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Short.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Contributions.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditPriceTrade.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCancel_Trades.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertPrice.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposure_PL.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertMargin.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertOrder.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrders.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategy.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Contributions.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradesPosition.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdateStrategy.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVARChart.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVol.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPass.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLogin.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTrade.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMenu.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\LiveBook.Properties.Resources.resources
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.licenses
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.TrustInfo.xml
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.manifest
+C:\BKP PPAY\CSharp1\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.application
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.ResolveComReference.cache
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.pdb
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook.csprojResolveAssemblyReference.cache
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBook.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesUsEquity.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAccounts.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesFut.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddContact.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditMailingContacts.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailing.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMailingHTMLViewer.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAppraiser.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEvaluation.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmNota.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDecisoesColegiado.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFatosRelevantes.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.LB_BackOffice.frmInsertSubscr.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseBroker.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseCnfirm.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionExercise.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRegistroOpas.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSection.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscription.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubscrReceipt.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTxMellon.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebateClients.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContPayouts.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditDistribRebate.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts_Report.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditContDistrib.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\MyXtraGrid.MyGridControl.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContacts.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmClientTransactions.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRebates.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokerage.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportDividends.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDeleteFileBrokerage.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPrepareXML.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIlliquidStocks.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionsGraph.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSectorContrib.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureGraph.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskReportArb.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatisticsPortfolio.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditLimitsArb.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditFoward.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBrokers.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckPortfolioAdministrator.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Change_Maturity.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDiferences.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEarlyFowards.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFowards.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMellonFwdNames.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCashTransfer.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExpenses.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubsRedemp.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSplitPercent.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDividends.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmConfirmPL.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.LBForm.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBookPerfSummary.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmResearchNews.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposureBook.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskCharts.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuickChart.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmContribution.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAttribution.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPortSummary.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositionSummary.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskArb.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonteCarlo.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRisk_Scenarios.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDDChart.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskWeeklyReport.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskFactors.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLiquidity.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskOptions.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskSectors.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmAddSecurityDate.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditSecurity.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmImportFiles.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmDataTable.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusOps.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusTi.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmViewCalcHist.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSpam.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStatusFlags.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmSubPortfolio.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPerfChart.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskLimits.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCopySecurity.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmForwardReconciliation.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrderReview.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.TempfrmStockLoan.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategyTransfer.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCheckImportedFile.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades_group.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertSecurity.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmIssuer.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrade_Aloc_Override.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdate_Trades.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.ExListView.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmApagaPL.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMargin.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan_Close.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMonSectorIndex.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmRiskMarginalVARs.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditBookSection.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.zfrmTradeSet.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSplit.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOptionStrikes.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmFundPerfSummary.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmQuote.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradeSummary.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertLoan.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPositions.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmstatus.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCompIndex.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Changes.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Changes.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Short.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Contributions.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmEditPriceTrade.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmCancel_Trades.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertPrice.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmExposure_PL.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertMargin.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertOrder.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmOrders.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmStrategy.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTop10Contributions.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTradesPosition.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmUpdateStrategy.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVARChart.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmTrades.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmVol.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmPass.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmLogin.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmInsertTrade.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.frmMenu.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\LiveBook.Properties.Resources.resources
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook.csproj.GenerateResource.Cache
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.licenses
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.TrustInfo.xml
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.exe.manifest
+C:\Users\13\Dropbox\Sistemas\Livebook\Livebook2\obj\x86\Debug\Livebook 2.0.application
+T:\Installation\LiveBook 2.0\Livebook 2.0.exe.config
+\\bezerradasilva\ti\Installation\LiveBook 2.0\Livebook 2.0.exe.config
+C:\Installation\LiveBook 2.0\Livebook 2.0.exe.config
+C:\Installation\LiveBook 2.0\Livebook 2.0.exe.manifest
+C:\Installation\LiveBook 2.0\Livebook 2.0.application
+C:\Installation\LiveBook 2.0\Livebook 2.0.exe
+C:\Installation\LiveBook 2.0\Livebook 2.0.pdb
+C:\Livebook2\obj\x86\Debug\Livebook.csproj.ResolveComReference.cache
+C:\Livebook2\obj\x86\Debug\Livebook 2.0.exe
+C:\Livebook2\obj\x86\Debug\Livebook 2.0.pdb
+C:\Livebook2\obj\x86\Debug\Livebook.csprojResolveAssemblyReference.cache
+C:\Livebook2\obj\x86\Debug\LiveBook.frmBook.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesUsEquity.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmAccounts.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCheckBrokersTradesFut.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmAddContact.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditMailingContacts.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMailing.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMailingHTMLViewer.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmAppraiser.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEvaluation.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmNota.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmDecisoesColegiado.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmFatosRelevantes.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.LB_BackOffice.frmInsertSubscr.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseBroker.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOptionExerciseCnfirm.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOptionExercise.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRegistroOpas.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSection.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSubscription.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSubscrReceipt.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertTxMellon.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRebateClients.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmContPayouts.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditDistribRebate.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmContacts_Report.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditContDistrib.resources
+C:\Livebook2\obj\x86\Debug\MyXtraGrid.MyGridControl.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmContacts.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmClientTransactions.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRebates.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmBrokerage.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmImportDividends.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmDeleteFileBrokerage.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmPrepareXML.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmIlliquidStocks.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOptionsGraph.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSectorContrib.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmExposureGraph.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskReportArb.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStatisticsPortfolio.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditLimitsArb.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditFoward.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmBrokers.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCheckPortfolioAdministrator.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStock_Change_Maturity.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmDiferences.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEarlyFowards.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmFowards.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMellonFwdNames.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCashTransfer.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmExpenses.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSubsRedemp.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSplitPercent.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmDividends.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmConfirmPL.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.LBForm.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmBookPerfSummary.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmResearchNews.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmExposureBook.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskCharts.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmQuickChart.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmContribution.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmAttribution.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmPortSummary.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmPositionSummary.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskArb.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMonteCarlo.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRisk_Scenarios.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmDDChart.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskWeeklyReport.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskFactors.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmLiquidity.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskOptions.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskSectors.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmAddSecurityDate.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditSecurity.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmImportFiles.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmDataTable.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStatusOps.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStatusTi.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmViewCalcHist.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSpam.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStatusFlags.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmSubPortfolio.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmPerfChart.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskLimits.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCopySecurity.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmForwardReconciliation.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOrderReview.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.TempfrmStockLoan.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStrategyTransfer.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCheckImportedFile.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTrades_group.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertSecurity.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmIssuer.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTrade_Aloc_Override.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmUpdate_Trades.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.ExListView.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmApagaPL.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMargin.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan_Close.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMonSectorIndex.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmRiskMarginalVARs.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditBookSection.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.zfrmTradeSet.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTradeSplit.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOptionStrikes.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmFundPerfSummary.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmQuote.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTradeSummary.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStock_Loan.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertLoan.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmPositions.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmstatus.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCompIndex.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Changes.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTop10Changes.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTop10Short.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmBottom10Contributions.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmEditPriceTrade.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmCancel_Trades.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertPrice.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmExposure_PL.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertMargin.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertOrder.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmOrders.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmStrategy.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTop10Contributions.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTradesPosition.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmUpdateStrategy.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmVARChart.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmTrades.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmVol.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmPass.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmLogin.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmInsertTrade.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.frmMenu.resources
+C:\Livebook2\obj\x86\Debug\LiveBook.Properties.Resources.resources
+C:\Livebook2\obj\x86\Debug\Livebook.csproj.GenerateResource.Cache
+C:\Livebook2\obj\x86\Debug\Livebook 2.0.exe.licenses
+C:\Livebook2\obj\x86\Debug\Livebook 2.0.TrustInfo.xml
+C:\Livebook2\obj\x86\Debug\Livebook 2.0.exe.manifest
+C:\Livebook2\obj\x86\Debug\Livebook 2.0.application
+C:\Users\raphael.souza\Google Drive\Ninho\Livebook2\obj\x86\Debug\Livebook.csproj.ResolveComReference.cache
+C:\Users\raphael.souza\Google Drive\Ninho\Livebook2\obj\x86\Debug\Livebook 2.0.exe
+C:\Users\raphael.souza\Google Drive\Ninho\Livebook2\obj\x86\Debug\Livebook 2.0.pdb

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="NestQuant.Common.Strategy">
+    <Position X="9.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>Strategy\Strategy.cs</FileName>
+      <HashCode>ECKKAISggILA8AIABmGAaAWJMIBAAwCIAgccgAAeAIk=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Base_Table">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Tables\Base_Table.cs</FileName>
+      <HashCode>oCQIBRAAIABIA7IAFmAAZKW5AAQAA2DGEAUwAARZBcA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Contributions_Table">
+    <Position X="3.5" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Tables\Contributions_Table.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAYAAAAACAIAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.PercPositions_Table">
+    <Position X="6.75" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Tables\PercPositions_Table.cs</FileName>
+      <HashCode>AAAAAACAAAAgIAAAAACAAAQABAAEiAAAAAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Performances_Table">
+    <Position X="6.75" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Tables\Performances_Table.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACQABAAACAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.perfSummary_Table">
+    <Position X="3.5" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Tables\perfSummary_Table.cs</FileName>
+      <HashCode>AAAAAEAAQCEAAAgEAAAAIAYAAgAACACAAEAABAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Price_Table">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Tables\Price_Table.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAUAAAEAAAAAQBAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Signal_Table">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Tables\Signal_Table.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Weight_Table">
+    <Position X="3.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Tables\Weight_Table.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAASAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Log">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Utils\Log.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.NestConn" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Utils\NestConn.cs</FileName>
+      <HashCode>AAAAAAAAACAAACCAAAEABEQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NestQuant.Common.RTPrice">
+    <Position X="6.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>Utils\RTPrice.cs</FileName>
+      <HashCode>BAAAABAAAAAAIAgAAAAICACIAAACAAAAAAAAAYAAAgI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NestQuant.Common.Utils">
+    <Position X="13.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Utils\Utils.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAABAACAACAEAgAAAAAEAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="NestQuant.Common.Utils.TableFillTypes">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="NestQuant.Common.Utils.TableTypes">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="NestQuant.Common.Utils.PositionSchemes">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="NestQuant.Common.Utils.WeighingSchemes">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="NestQuant.Common.Utils.StrategyTypes">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="NestQuant.Common.Utils.Trees">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="NestQuant.Common.Utils.Tables">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="NestQuant.Common.Utils.BenchmarkTypes">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="NestQuant.Common.Utils.TimeIntervals">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Utils.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="NestQuant.Common.FIXConn">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Utils\FIX.cs</FileName>
+      <HashCode>AAEAgBgAECAAAwAAgAAQBAAAAAocAABgEAAAAIIQgEA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="NestQuant.Common.ExecutionFillArgs">
+    <Position X="18.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Utils\QuantEventArgs.cs</FileName>
+      <HashCode>AAEAAAAAAAAAACAAgAAAAAAQACAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="NestQuant.Common.Trade">
+    <Position X="16.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Strategy\Trade.cs</FileName>
+      <HashCode>AAEAAAgAAAIAAAAAAEgAAACAASAAAkAAAgAAAgAAAAI=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Struct Name="NestQuant.Common.Trade.TradeInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Strategy\Trade.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="NestQuant.Common.Order">
+    <Position X="17" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Utils\FIX.cs</FileName>
+      <HashCode>AgAIAAAAAAAAABQACgAAAAAQAAQAAAAAAgYAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

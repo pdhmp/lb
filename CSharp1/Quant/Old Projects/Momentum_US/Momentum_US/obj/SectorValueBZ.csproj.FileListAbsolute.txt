@@ -1,0 +1,12 @@
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\bin\Debug\SectorValueBZ.dll
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\bin\Debug\SectorValueBZ.pdb
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\bin\Debug\NestSimDLL.dll
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\bin\Debug\NestSimDLL.pdb
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Debug\SectorValueBZ.dll
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Debug\SectorValueBZ.pdb
+T:\Quant\Strategy\SectorValueBZ.pdb
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Release\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Release\SectorValueBZ.pdb
+T:\Quant\Strategy\SectorValueBZ.dll
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Release\SectorValueBZ.dll

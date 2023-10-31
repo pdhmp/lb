@@ -1,0 +1,16 @@
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.exe
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.pdb
+C:\temp\import\ImportMellonSubRed.exe.manifest
+C:\temp\import\ImportMellonSubRed.application
+C:\temp\import\ImportMellonSubRed.exe
+C:\temp\import\ImportMellonSubRed.pdb
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.frmFindClient.resources
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.ImportMClient.resources
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.exe.manifest
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\ImportMellonSubRed.application
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\GenerateResource-ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed\obj\Debug\GenerateResource-ResGen.write.1.tlog

@@ -1,0 +1,11 @@
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\GenerateBovespaBars.Form1.resources
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\GenerateBovespaBars.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\bin\Debug\GenerateBovespaBars.exe
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\bin\Debug\GenerateBovespaBars.pdb
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\GenerateBovespaBars.exe
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\obj\x86\Debug\GenerateBovespaBars.pdb
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\GenerateBovespaBars\GenerateBovespaBars\bin\Debug\NestDLL.pdb

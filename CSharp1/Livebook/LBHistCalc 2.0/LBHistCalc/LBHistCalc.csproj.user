@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>T:\Installation\LBHistCalc2\|\\nestsrv03\nest\ti\NESTSoft\Installation\LBHistCalc2\|\\nestsrv03\nest\ti\NESTSoft\Installation\LBHistCalc 2.0\|T:\Installation\LBHistCalc 2.0\</PublishUrlHistory>
+    <InstallUrlHistory>\\NESTSRV03\NESTSOFT\Installation\LBHistCalc2\|\\NESTSRV03\NESTSOFT\Installation\LBHistCalc 2.0\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

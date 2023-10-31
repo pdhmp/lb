@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk" version="1.6.0_31">
+<bootpath>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\jce.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\modules\jdk.boot.jar"/>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\StreamBase Systems\StreamBase.7.2\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

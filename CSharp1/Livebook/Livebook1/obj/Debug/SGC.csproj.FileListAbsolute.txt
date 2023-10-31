@@ -1,0 +1,5 @@
+C:\temp\livebook\Nest LiveBook.exe.config
+N:\TI\Projects\CSharp\Livebook\SGC\obj\Debug\Nest LiveBook.exe
+N:\TI\Projects\CSharp\Livebook\SGC\obj\Debug\Nest LiveBook.pdb
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Livebook\Livebook1\obj\Debug\Nest LiveBook.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Livebook\Livebook1\obj\Debug\Nest LiveBook.pdb

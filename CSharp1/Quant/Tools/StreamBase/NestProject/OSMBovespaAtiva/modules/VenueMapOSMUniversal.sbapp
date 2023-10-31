@@ -1,0 +1,2768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <named-schemas>
+            <schema name="MegaDirectFIX_CancelRequestMessage">
+                <field description="“FIX.4.2”" name="BeginString" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="BodyLength" type="int"/>
+                <field description="(Always unencrypted, must be third field in message).&#13;&#10;Indicates the type of message being sent:&#13;&#10;A = Logon&#13;&#10;5 = Logout&#13;&#10;0 = Heartbeat&#13;&#10;1 = Test Request&#13;&#10;2 = Resend Request&#13;&#10;3 = Session Reject&#13;&#10;4 = Sequence Reset&#13;&#10;D = New Order Single&#13;&#10;F = Order Cancel Request&#13;&#10;G = Order Cancel Replace Request&#13;&#10;8 = Execution Report&#13;&#10;9 = Order Cancel Reject" name="MsgType" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="For messages sent by BVMF, always “BVMF”. For&#13;&#10;messages sent to BVMF, CompID assigned by the&#13;&#10;exchange." name="SenderCompID" type="string"/>
+                <field description="For port 800, must contain a valid trader identification&#13;&#10;code." name="SenderSubID" type="string"/>
+                <field description="For messages sent by BVMF, CompID assigned by the&#13;&#10;exchange. For messages sent to BVMF, always “BVMF”." name="TargetCompID" type="string"/>
+                <field description="For port 800, will contain the trader identification code&#13;&#10;sent in the SenderSubID tag." name="TargetSubID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="SendingTime" type="timestamp"/>
+                <field description="Account, agreed upon between broker and institution." name="Account" type="string"/>
+                <field description="ClOrdID of the order that the client is trying to cancel." name="OrigClOrdID" type="string"/>
+                <field description="BVMF-assigned OrderID of the order the client is trying to cancel." name="OrderID" type="string"/>
+                <field description="Unique ID of cancel request as assigned by the institution." name="ClOrdID" type="string"/>
+                <field description="Stock symbol." name="Symbol" type="string"/>
+                <field description="Side of order to be cancelled. Valid values:&#13;&#10;1 = Buy&#13;&#10;2 = Sell" name="Side" type="string"/>
+                <field description="Number of shares or contracts ordered." name="OrderQty" type="double"/>
+                <field description="Conditionally required if routing orders through port 600. Contains the code of the&#13;&#10;brokerage firm this order belongs to." name="ExecBroker" type="string"/>
+                <field description="Time this order request was initiated/released by the trader or trading system, in UTC&#13;&#10;format." name="TransactTime" type="timestamp"/>
+                <field description="Free format text string sent by the market participant. Limited to 50 bytes." name="Memo" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_ExecutionReportMessage">
+                <field description="“FIX.4.2”" name="BeginString" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="BodyLength" type="int"/>
+                <field description="(Always unencrypted, must be third field in message).&#13;&#10;Indicates the type of message being sent:&#13;&#10;A = Logon&#13;&#10;5 = Logout&#13;&#10;0 = Heartbeat&#13;&#10;1 = Test Request&#13;&#10;2 = Resend Request&#13;&#10;3 = Session Reject&#13;&#10;4 = Sequence Reset&#13;&#10;D = New Order Single&#13;&#10;F = Order Cancel Request&#13;&#10;G = Order Cancel Replace Request&#13;&#10;8 = Execution Report&#13;&#10;9 = Order Cancel Reject" name="MsgType" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="For messages sent by BVMF, always “BVMF”. For&#13;&#10;messages sent to BVMF, CompID assigned by the&#13;&#10;exchange." name="SenderCompID" type="string"/>
+                <field description="For port 800, must contain a valid trader identification&#13;&#10;code." name="SenderSubID" type="string"/>
+                <field description="For messages sent by BVMF, CompID assigned by the&#13;&#10;exchange. For messages sent to BVMF, always “BVMF”." name="TargetCompID" type="string"/>
+                <field description="For port 800, will contain the trader identification code&#13;&#10;sent in the SenderSubID tag." name="TargetSubID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="SendingTime" type="timestamp"/>
+                <field description="Unique identifier for Order as assigned by the exchange. Uniqueness is guaranteed within&#13;&#10;a single trading day/instrument." name="OrderID" type="string"/>
+                <field description="ID of electronically submitted order by the institution." name="ClOrdID" type="string"/>
+                <field description="Contains the ClOrdID of the replacement order. Conditionally required when ExecType = 4&#13;&#10;(Cancel) or 5 (Replace)." name="OrigClOrdID" type="string"/>
+                <field description="Unique identifier of execution message as assigned by the exchange – unique per&#13;&#10;instrument." name="ExecID" type="string"/>
+                <field description="In Trade Bust notices, contains the ExecID originally sent in the trade now busted." name="ExecRefID" type="string"/>
+                <field description="Stock symbol." name="Symbol" type="string"/>
+                <field description="Identifies the transaction type.&#13;&#10;Valid values:&#13;&#10;0 = New&#13;&#10;1 = Cancel" name="ExecTransType" type="string"/>
+                <field description="Describes the action that triggered this specific Execution Report - see the OrdStatus (39)&#13;&#10;tag for the current order status (e.g, Partially Filled). Values issued by BVMF:&#13;&#10;0 = New&#13;&#10;1 = Partial fill&#13;&#10;2 = Fill&#13;&#10;4 = Cancelled&#13;&#10;5 = Replace&#13;&#10;8 = Rejected&#13;&#10;9 = Suspended&#13;&#10;L = Triggered" name="ExecType" type="string"/>
+                <field description="Valid values:&#13;&#10;0 = New&#13;&#10;1 = Partially filled&#13;&#10;2 = Filled&#13;&#10;4 = Cancelled&#13;&#10;5 = Replaced&#13;&#10;8 = Rejected&#13;&#10;9 = Suspended" name="OrdStatus" type="string"/>
+                <field description="Code to identify reason for order rejection. For optional use with ExecType = 8 (Rejected).&#13;&#10;Valid values:&#13;&#10;0 = Broker option&#13;&#10;1 = Unknown symbol&#13;&#10;2 = Exchange closed&#13;&#10;3 = Order exceeds limit&#13;&#10;4 = Too late to enter&#13;&#10;5 = Unknown Order&#13;&#10;6 = Duplicate Order (e.g. dupe ClOrdID)" name="OrdRejReason" type="int"/>
+                <field description="Side of order. Valid values:&#13;&#10;1 = Buy&#13;&#10;2 = Sell" name="Side" type="string"/>
+                <field description="Number of shares or contracts ordered." name="OrderQty" type="double"/>
+                <field description="Price per share or contract. Required if specified on the order." name="Price" type="double"/>
+                <field description="The stop price of a stop limit order (Conditionally required if OrdType = 4)." name="StopPx" type="double"/>
+                <field description="Always 0 (zero)." name="AvgPx" type="double"/>
+                <field description="Quantity of shares bought/sold on this (last) fill. Conditionally required when ExecType =1&#13;&#10;or 2. In a trade bust situation, contains the quantity of the busted trade." name="LastShares" type="double"/>
+                <field description="Price of this (last) fill. Conditionally required when ExecType =1 or 2. In a trade bust&#13;&#10;situation, contains the price of the busted trade." name="LastPx" type="double"/>
+                <field description="Minimum quantity of an order to be executed. Echo from original order’s MinQty." name="MinQty" type="double"/>
+                <field description="Maximum number of shares or contracts within an order to be shown on the match engine&#13;&#10;at any given time. Echo from original order’s MaxFloor." name="MaxFloor" type="double"/>
+                <field description="Amount of shares open for further execution, or unexecuted. LeavesQty = OrderQty -&#13;&#10;CumQty." name="LeavesQty" type="double"/>
+                <field description="Total number of shares or contracts filled." name="CumQty" type="double"/>
+                <field description="Specifies how long the order remains in effect. Absence of this field is interpreted as DAY.&#13;&#10;Values accepted by BVMF:&#13;&#10;0 = Day&#13;&#10;1 = Good Till Cancel (GTC)&#13;&#10;3 = Immediate or Cancel (IOC)&#13;&#10;6 = Good Till Date (GTD)" name="TimeInForce" type="string"/>
+                <field description="Indicates date of trade referenced in this message in YYYYMMDD format (expressed in&#13;&#10;local time at place of trade). Absence of this field indicates current day (expressed in local&#13;&#10;time at place of trade)." name="TradeDate" type="timestamp"/>
+                <field description="Account mnemonic." name="Account" type="string"/>
+                <field description="Time of execution/order creation; expressed in UTC (Universal Time Coordinated, also&#13;&#10;known as &quot;GMT&quot;)" name="TransactTime" type="timestamp"/>
+                <field description="Free format text string." name="Text" type="string"/>
+                <field description="Free format text string sent by the market participant. Limited to 50 bytes." name="Memo" type="string"/>
+                <field description="In trade and bust replies, contains the exchange assigned trade number, which is unique&#13;&#10;in a given trading day and security." name="UniqueTradeID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_HeaderOnly">
+                <field description="“FIX.4.2”" name="BeginString" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="BodyLength" type="int"/>
+                <field description="(Always unencrypted, must be third field in message).&#13;&#10;Indicates the type of message being sent:&#13;&#10;A = Logon&#13;&#10;5 = Logout&#13;&#10;0 = Heartbeat&#13;&#10;1 = Test Request&#13;&#10;2 = Resend Request&#13;&#10;3 = Session Reject&#13;&#10;4 = Sequence Reset&#13;&#10;D = New Order Single&#13;&#10;F = Order Cancel Request&#13;&#10;G = Order Cancel Replace Request&#13;&#10;8 = Execution Report&#13;&#10;9 = Order Cancel Reject" name="MsgType" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="For messages sent by BVMF, always “BVMF”. For&#13;&#10;messages sent to BVMF, CompID assigned by the&#13;&#10;exchange." name="SenderCompID" type="string"/>
+                <field description="For port 800, must contain a valid trader identification&#13;&#10;code." name="SenderSubID" type="string"/>
+                <field description="For messages sent by BVMF, CompID assigned by the&#13;&#10;exchange. For messages sent to BVMF, always “BVMF”." name="TargetCompID" type="string"/>
+                <field description="For port 800, will contain the trader identification code&#13;&#10;sent in the SenderSubID tag." name="TargetSubID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="SendingTime" type="timestamp"/>
+            </schema>
+            <schema name="MegaDirectFIX_NewOrderSingleMessage">
+                <field description="“FIX.4.2”" name="BeginString" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="BodyLength" type="int"/>
+                <field description="(Always unencrypted, must be third field in message).&#13;&#10;Indicates the type of message being sent:&#13;&#10;A = Logon&#13;&#10;5 = Logout&#13;&#10;0 = Heartbeat&#13;&#10;1 = Test Request&#13;&#10;2 = Resend Request&#13;&#10;3 = Session Reject&#13;&#10;4 = Sequence Reset&#13;&#10;D = New Order Single&#13;&#10;F = Order Cancel Request&#13;&#10;G = Order Cancel Replace Request&#13;&#10;8 = Execution Report&#13;&#10;9 = Order Cancel Reject" name="MsgType" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="For messages sent by BVMF, always “BVMF”. For&#13;&#10;messages sent to BVMF, CompID assigned by the&#13;&#10;exchange." name="SenderCompID" type="string"/>
+                <field description="For port 800, must contain a valid trader identification&#13;&#10;code." name="SenderSubID" type="string"/>
+                <field description="For messages sent by BVMF, CompID assigned by the&#13;&#10;exchange. For messages sent to BVMF, always “BVMF”." name="TargetCompID" type="string"/>
+                <field description="For port 800, will contain the trader identification code&#13;&#10;sent in the SenderSubID tag." name="TargetSubID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="SendingTime" type="timestamp"/>
+                <field description="Account, agreed upon between broker and institution. Note: The user code field should not&#13;&#10;exceed 8 digits, including the check digit, without a hyphen." name="Account" type="string"/>
+                <field description="1 = Automated execution order, private, no Broker intervention" name="HandlInst" type="string"/>
+                <field description="Conditionally required if routing orders through port 600. Contains the code of the brokerage&#13;&#10;firm this order belongs to." name="ExecBroker" type="string"/>
+                <field description="Stock symbol." name="Symbol" type="string"/>
+                <field description="Order side. Valid values:&#13;&#10;1 = Buy&#13;&#10;2 = Sell" name="Side" type="string"/>
+                <field description="Unique identifier of the order as assigned by institution." name="ClOrdID" type="string"/>
+                <field description="Number of shares or contracts ordered." name="OrderQty" type="double"/>
+                <field description="Minimum quantity of an order to be executed." name="MinQty" type="double"/>
+                <field description="Maximum number of shares or contracts within an order to be shown on the match engine at&#13;&#10;any given time." name="MaxFloor" type="double"/>
+                <field description="Order type. Values accepted by BVMF:&#13;&#10;1 = Market&#13;&#10;2 = Limit&#13;&#10;4 = Stop Limit&#13;&#10;A = On Close&#13;&#10;K = Market with leftover as Limit" name="OrdType" type="string"/>
+                <field description="Price per share. Conditionally required if the order type requires a price (not market)." name="Price" type="double"/>
+                <field description="The stop price of a stop limit order (Conditionally required if OrdType = 4)." name="StopPx" type="double"/>
+                <field description="Specifies how long the order remains in effect. Absence of this field is interpreted as DAY.&#13;&#10;Values accepted by BVMF:&#13;&#10;0 = Day&#13;&#10;1 = Good Till Cancel (GTC)&#13;&#10;3 = Immediate or Cancel (IOC)&#13;&#10;6 = Good Till Date (GTD)" name="TimeInForce" type="string"/>
+                <field description="Time of execution/order creation; expressed in UTC format." name="TransactTime" type="timestamp"/>
+                <field description="Order expiration date. Conditionally required when 59 = GTD." name="ExpireDate" type="timestamp"/>
+                <field description="Free format text string sent by the market participant. Limited to 50 bytes." name="Memo" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_OrderCancelRejectMsg">
+                <field description="“FIX.4.2”" name="BeginString" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="BodyLength" type="int"/>
+                <field description="(Always unencrypted, must be third field in message).&#13;&#10;Indicates the type of message being sent:&#13;&#10;A = Logon&#13;&#10;5 = Logout&#13;&#10;0 = Heartbeat&#13;&#10;1 = Test Request&#13;&#10;2 = Resend Request&#13;&#10;3 = Session Reject&#13;&#10;4 = Sequence Reset&#13;&#10;D = New Order Single&#13;&#10;F = Order Cancel Request&#13;&#10;G = Order Cancel Replace Request&#13;&#10;8 = Execution Report&#13;&#10;9 = Order Cancel Reject" name="MsgType" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="For messages sent by BVMF, always “BVMF”. For&#13;&#10;messages sent to BVMF, CompID assigned by the&#13;&#10;exchange." name="SenderCompID" type="string"/>
+                <field description="For port 800, must contain a valid trader identification&#13;&#10;code." name="SenderSubID" type="string"/>
+                <field description="For messages sent by BVMF, CompID assigned by the&#13;&#10;exchange. For messages sent to BVMF, always “BVMF”." name="TargetCompID" type="string"/>
+                <field description="For port 800, will contain the trader identification code&#13;&#10;sent in the SenderSubID tag." name="TargetSubID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="SendingTime" type="timestamp"/>
+                <field description="Unique identifier for Order as assigned by the exchange. Uniqueness is guaranteed within&#13;&#10;a single trading day/instrument." name="OrderID" type="string"/>
+                <field description="ID of electronically submitted order by the institution." name="ClOrdID" type="string"/>
+                <field description="Contains the ClOrdID of the replacement order. Conditionally required when ExecType = 4&#13;&#10;(Cancel) or 5 (Replace)." name="OrigClOrdID" type="string"/>
+                <field description="Valid values:&#13;&#10;0 = New&#13;&#10;1 = Partially filled&#13;&#10;2 = Filled&#13;&#10;4 = Cancelled&#13;&#10;5 = Replaced&#13;&#10;8 = Rejected&#13;&#10;9 = Suspended" name="OrdStatus" type="string"/>
+                <field description="Side of order. Valid values:&#13;&#10;1 = Buy&#13;&#10;2 = Sell" name="Side" type="string"/>
+                <field description="1=cancel;2=replace" name="CxlRejResponseTo" type="string"/>
+                <field description="0=too late to cancel;1=unknown broker;2=broker option;99=other" name="CxlRejReason" type="int"/>
+                <field description="Free format text string." name="Text" type="string"/>
+                <field description="Free format text string sent by the market participant. Limited to 50 bytes." name="Memo" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReplaceRequestMessage">
+                <field description="“FIX.4.2”" name="BeginString" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="BodyLength" type="int"/>
+                <field description="(Always unencrypted, must be third field in message).&#13;&#10;Indicates the type of message being sent:&#13;&#10;A = Logon&#13;&#10;5 = Logout&#13;&#10;0 = Heartbeat&#13;&#10;1 = Test Request&#13;&#10;2 = Resend Request&#13;&#10;3 = Session Reject&#13;&#10;4 = Sequence Reset&#13;&#10;D = New Order Single&#13;&#10;F = Order Cancel Request&#13;&#10;G = Order Cancel Replace Request&#13;&#10;8 = Execution Report&#13;&#10;9 = Order Cancel Reject" name="MsgType" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="For messages sent by BVMF, always “BVMF”. For&#13;&#10;messages sent to BVMF, CompID assigned by the&#13;&#10;exchange." name="SenderCompID" type="string"/>
+                <field description="For port 800, must contain a valid trader identification&#13;&#10;code." name="SenderSubID" type="string"/>
+                <field description="For messages sent by BVMF, CompID assigned by the&#13;&#10;exchange. For messages sent to BVMF, always “BVMF”." name="TargetCompID" type="string"/>
+                <field description="For port 800, will contain the trader identification code&#13;&#10;sent in the SenderSubID tag." name="TargetSubID" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="SendingTime" type="timestamp"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="ExecBroker" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="OrdType" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="Memo" type="string"/>
+                <field description="FIX engine used by adapters will automatically fill this field." name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReportMsg">
+                <property name="description" value="This the consolidated Body FIX schema for Execution Report (8) + Order Cancel Reject (9) and Header FIX MsgType tag for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="AvgPx" type="double"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="CumQty" type="double"/>
+                <field description="" name="ExecID" type="string"/>
+                <field description="" name="ExecRefID" type="string"/>
+                <field description="" name="ExecTransType" type="string"/>
+                <field description="" name="LastPx" type="double"/>
+                <field description="" name="LastShares" type="double"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdStatus" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="TradeDate" type="string"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="CxlRejReason" type="int"/>
+                <field description="" name="OrdRejReason" type="int"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExecType" type="string"/>
+                <field description="" name="LeavesQty" type="double"/>
+                <field description="" name="CxlRejResponseTo" type="string"/>
+                <field description="" name="Memo" type="string"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReportMsgFull">
+                <property name="description" value="This the COMPLETE/FULL FIX consolidated schema for New(D)+Cancel(F)+Replace(G) Orders for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="AvgPx" type="double"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="CumQty" type="double"/>
+                <field description="" name="ExecID" type="string"/>
+                <field description="" name="ExecRefID" type="string"/>
+                <field description="" name="ExecTransType" type="string"/>
+                <field description="" name="LastPx" type="double"/>
+                <field description="" name="LastShares" type="double"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdStatus" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="TradeDate" type="string"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="CxlRejReason" type="int"/>
+                <field description="" name="OrdRejReason" type="int"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExecType" type="string"/>
+                <field description="" name="LeavesQty" type="double"/>
+                <field description="" name="CxlRejResponseTo" type="string"/>
+                <field description="" name="Memo" type="string"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+                <field description="" name="BeginString" type="string"/>
+                <field description="" name="BodyLength" type="int"/>
+                <field description="" name="MsgSeqNum" type="int"/>
+                <field description="" name="PossDupFlag" type="bool"/>
+                <field description="" name="SenderCompID" type="string"/>
+                <field description="" name="SenderSubID" type="string"/>
+                <field description="" name="TargetCompID" type="string"/>
+                <field description="" name="TargetSubID" type="string"/>
+                <field description="" name="SendingTime" type="timestamp"/>
+                <field description="" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_RequestMsg">
+                <property name="description" value="This the consolidated Body FIX schema for New(D)+Cancel(F)+Replace(G) Orders and Header FIX MsgType tag for Bovespa"/>
+                <field description="" name="MsgType" type="string"/>
+                <field description="" name="Account" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="HandlInst" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="OrdType" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="ExecBroker" type="string"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="ExpireDate" type="timestamp"/>
+                <field description="" name="Memo" type="string"/>
+            </schema>
+            <schema name="MegaDirectFIX_TrailerOnly">
+                <field description="FIX engine used by adapters will automatically fill this field." name="CheckSum" type="int"/>
+            </schema>
+            <schema name="MegaDirectFIX_ReportOutMsg">
+                <field description="" name="ReqID" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="UpdateNumber" type="int"/>
+                <field description="" name="UpdateTime" type="timestamp"/>
+                <field description="" name="OrderStatusBov" type="string"/>
+                <field description="" name="OrderStatusApp" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Venue" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="ReplacedbyReqID" type="string"/>
+                <field description="" name="CumQty" type="double"/>
+                <field description="" name="LeavesQty" type="double"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="InMarketQty" type="double"/>
+                <field description="" name="AvgPx" type="double"/>
+                <field description="" name="ExtraInfo" type="string"/>
+                <field description="" name="ExecTransType" type="string"/>
+                <field description="" name="ExecType" type="string"/>
+                <field description="" name="OrdRejReason" type="int"/>
+                <field description="" name="Request" type="tuple" value="MegaDirectFIX_RequestMsg"/>
+                <field description="" name="LastReport" type="tuple" value="MegaDirectFIX_ReportMsg"/>
+            </schema>
+        </named-schemas>
+        <constant expr="tuple(&quot;8&quot; AS EXECUTION_REPORT, &quot;9&quot; AS ORDER_CANCEL_REJECT)" name="BOV_REPORT_MSG"/>
+        <constant expr="&quot;Missing Account for Msg New or Cancel&quot;" name="CHK_ERROR_ACCOUNT"/>
+        <constant expr="&quot;Missing ClOrdID&quot;" name="CHK_ERROR_CLORDID"/>
+        <constant expr="&quot;Missing ExpireDate for Msg New and TimeInForce GTD&quot;" name="CHK_ERROR_EXPIREDATE"/>
+        <constant expr="&quot;Invalid or Missing MsgType&quot;" name="CHK_ERROR_MSGTYPE"/>
+        <constant expr="&quot;Missing OrderQty&quot;" name="CHK_ERROR_ORDQTY"/>
+        <constant expr="&quot;Missing OrdType for Msg New&quot;" name="CHK_ERROR_ORDTYPE"/>
+        <constant expr="&quot;Missing OrigClOrdID for Msg Cancel or Replace&quot;" name="CHK_ERROR_ORIGCLORDID"/>
+        <constant expr="&quot;Missing Price for Msg New and OrdType not Market&quot;" name="CHK_ERROR_PRICE"/>
+        <constant expr="&quot;Missing Side for Msg New&quot;" name="CHK_ERROR_SIDE"/>
+        <constant expr="&quot;Missing StopPx for Msg New and OrdType Stop Limit&quot;" name="CHK_ERROR_STOPPX"/>
+        <constant expr="&quot;Missing Symbol&quot;" name="CHK_ERROR_SYMBOL"/>
+        <constant expr="tuple(int(0) AS TOO_LATE, int(1) AS UNKNOWN_ORD, int(2) AS BROKER_OPTION, int(99) AS OTHER)" name="CXL_REJ_REASON_BOV"/>
+        <constant expr="&quot;BROKER OPTION&quot;" name="CXL_REJ_REASON_BOV_BROKER_OPTION"/>
+        <constant expr="&quot;OTHER&quot;" name="CXL_REJ_REASON_BOV_OTHER"/>
+        <constant expr="&quot;TOO LATE TO ENTER&quot;" name="CXL_REJ_REASON_BOV_TOO_LATE"/>
+        <constant expr="&quot;UNKNOWN ORDER&quot;" name="CXL_REJ_REASON_BOV_UNKNOWN_ORD"/>
+        <constant expr="tuple(&quot;1&quot; AS CXL, &quot;2&quot; AS RPL)" name="CXL_REJ_RESP_TO_BOV"/>
+        <constant expr="&quot;ORDER CANCEL REQUEST&quot;" name="CXL_REJ_RESP_TO_BOV_CXL"/>
+        <constant expr="&quot;ORDER CANCEL/REPLACE REQUEST&quot;" name="CXL_REJ_RESP_TO_BOV_RPL"/>
+        <constant expr="tuple(&quot;XBSP&quot; AS BOVESPA, &quot;XBMF&quot; AS BMF)" name="EXCH"/>
+        <constant expr="&quot;BMF&quot;" name="EXCH_BMF"/>
+        <constant expr="&quot;BOVESPA&quot;" name="EXCH_BOVESPA"/>
+        <constant expr="tuple(&quot;D&quot; AS NEW, &quot;F&quot; AS CANCEL, &quot;G&quot; AS REPLACE)" name="EXEC_CMD"/>
+        <constant expr="&quot;CANCEL&quot;" name="EXEC_CMD_CANCEL"/>
+        <constant expr="&quot;NEW&quot;" name="EXEC_CMD_NEW"/>
+        <constant expr="&quot;REPLACE&quot;" name="EXEC_CMD_REPLACE"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS CANCEL)" name="EXEC_TRANS_TYPE_BOV"/>
+        <constant expr="&quot;CANCEL&quot;" name="EXEC_TRANS_TYPE_BOV_CANCEL"/>
+        <constant expr="&quot;NEW&quot;" name="EXEC_TRANS_TYPE_BOV_NEW"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS PARTIAL_FILL, &quot;2&quot; AS FILL, &quot;4&quot; AS CANCELLED, &quot;5&quot; AS REPLACE, &quot;8&quot; AS REJECTED, &quot;9&quot; AS SUSPENDED, &quot;L&quot; AS TRIGGERED)" name="EXEC_TYPE_BOV"/>
+        <constant expr="&quot;CANCELLED&quot;" name="EXEC_TYPE_BOV_CANCELLED"/>
+        <constant expr="&quot;FILL&quot;" name="EXEC_TYPE_BOV_FILL"/>
+        <constant expr="&quot;NEW&quot;" name="EXEC_TYPE_BOV_NEW"/>
+        <constant expr="&quot;PARTIAL FILL&quot;" name="EXEC_TYPE_BOV_PARTIAL_FILL"/>
+        <constant expr="&quot;REJECTED&quot;" name="EXEC_TYPE_BOV_REJECTED"/>
+        <constant expr="&quot;REPLACE&quot;" name="EXEC_TYPE_BOV_REPLACE"/>
+        <constant expr="&quot;SUSPENDED&quot;" name="EXEC_TYPE_BOV_SUSPENDED"/>
+        <constant expr="&quot;TRIGGERED&quot;" name="EXEC_TYPE_BOV_TRIGGERED"/>
+        <constant expr="tuple(&quot;0&quot; AS New, &quot;1&quot; AS PartialFill, &quot;2&quot; AS Fill, &quot;4&quot; AS Cancelled, &quot;5&quot; AS Replace, &quot;8&quot; AS Rejected, &quot;9&quot; AS Suspended, &quot;L&quot; AS Triggered)" name="ExecutionType"/>
+        <constant expr="tuple(int(0) AS BROKER_OPTION, int(1) AS UNKNOWN_SYMBOL, int(2) AS EXCH_CLOSED, int(3) AS LIMIT, int(4) AS TOO_LATE, int(5) AS UNKNOWN_ORD, int(6) AS DUP_ORD)" name="ORD_REJ_REASON_BOV"/>
+        <constant expr="&quot;BROKER OPTION&quot;" name="ORD_REJ_REASON_BOV_BROKER_OPTION"/>
+        <constant expr="&quot;DUPLICATE ORDER&quot;" name="ORD_REJ_REASON_BOV_DUP_ORD"/>
+        <constant expr="&quot;EXCHANGE CLOSED&quot;" name="ORD_REJ_REASON_BOV_EXCH_CLOSED"/>
+        <constant expr="&quot;ORDER EXCEEDS LIMIT&quot;" name="ORD_REJ_REASON_BOV_LIMIT"/>
+        <constant expr="&quot;TOO LATE TO ENTER&quot;" name="ORD_REJ_REASON_BOV_TOO_LATE"/>
+        <constant expr="&quot;UNKNOWN ORDER&quot;" name="ORD_REJ_REASON_BOV_UNKNOWN_ORD"/>
+        <constant expr="&quot;UNKNOWN SYMBOL&quot;" name="ORD_REJ_REASON_BOV_UNKNOWN_SYMBOL"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS PARTIALLY_FILLED, &quot;2&quot; AS FILLED, &quot;3&quot; AS DONE_FOR_DAY, &quot;4&quot; AS CANCELLED, &quot;6&quot; AS PENDING_CANCEL, &quot;7&quot; AS STOPPED, &quot;8&quot; AS REJECTED, &quot;9&quot; AS SUSPENDED, &quot;A&quot; AS PENDING_NEW, &quot;B&quot; AS CALCULATED, &quot;C&quot; AS EXPIRED, &quot;D&quot; AS ACCEPTED_FOR_BIDDING, &quot;E&quot; AS PENDING_REPLACE, &quot;X&quot; AS ERROR, &quot;Y&quot; AS BUSTED, &quot;Z&quot; AS COMPLETED)" name="ORD_STATUS_APP"/>
+        <constant expr="&quot;BUSTED&quot;" name="ORD_STATUS_APP_BUSTED"/>
+        <constant expr="&quot;CALCULATED&quot;" name="ORD_STATUS_APP_CALCULATED"/>
+        <constant expr="&quot;CANCELLED&quot;" name="ORD_STATUS_APP_CANCELLED"/>
+        <constant expr="&quot;COMPLETED&quot;" name="ORD_STATUS_APP_COMPLETED"/>
+        <constant expr="&quot;DONE FOR DAY&quot;" name="ORD_STATUS_APP_DONE_FOR_DAY"/>
+        <constant expr="&quot;ERROR&quot;" name="ORD_STATUS_APP_ERROR"/>
+        <constant expr="&quot;EXPIRED&quot;" name="ORD_STATUS_APP_EXPIRED"/>
+        <constant expr="&quot;FILLED&quot;" name="ORD_STATUS_APP_FILLED"/>
+        <constant expr="&quot;NEW&quot;" name="ORD_STATUS_APP_NEW"/>
+        <constant expr="&quot;PARTIALLY FILLED&quot;" name="ORD_STATUS_APP_PARTIALLY_FILLED"/>
+        <constant expr="&quot;PENDING CANCEL&quot;" name="ORD_STATUS_APP_PENDING_CANCEL"/>
+        <constant expr="&quot;PENDING NEW&quot;" name="ORD_STATUS_APP_PENDING_NEW"/>
+        <constant expr="&quot;PENDING REPLACE&quot;" name="ORD_STATUS_APP_PENDING_REPLACE"/>
+        <constant expr="&quot;REJECTED&quot;" name="ORD_STATUS_APP_REJECTED"/>
+        <constant expr="&quot;STOPPED&quot;" name="ORD_STATUS_APP_STOPPED"/>
+        <constant expr="&quot;SUSPENDED&quot;" name="ORD_STATUS_APP_SUSPENDED"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS PARTIALLY_FILLED, &quot;2&quot; AS FILLED, &quot;4&quot; AS CANCELLED, &quot;5&quot; AS REPLACED, &quot;8&quot; AS REJECTED, &quot;9&quot; AS SUSPENDED)" name="ORD_STATUS_BOV"/>
+        <constant expr="&quot;CANCELLED&quot;" name="ORD_STATUS_BOV_CANCELLED"/>
+        <constant expr="&quot;FILLED&quot;" name="ORD_STATUS_BOV_FILLED"/>
+        <constant expr="&quot;NEW&quot;" name="ORD_STATUS_BOV_NEW"/>
+        <constant expr="&quot;PARTIALLY FILLED&quot;" name="ORD_STATUS_BOV_PARTIALLY_FILLED"/>
+        <constant expr="&quot;REJECTED&quot;" name="ORD_STATUS_BOV_REJECTED"/>
+        <constant expr="&quot;REPLACED&quot;" name="ORD_STATUS_BOV_REPLACED"/>
+        <constant expr="&quot;SUSPENDED&quot;" name="ORD_STATUS_BOV_SUSPENDED"/>
+        <constant expr="tuple(&quot;1&quot; AS MARKET, &quot;2&quot; AS LIMIT, &quot;4&quot; AS STOPLIMIT, &quot;A&quot; AS ONCLOSE, &quot;K&quot; AS MARKETLEFTOVER)" name="ORD_TYPE"/>
+        <constant expr="&quot;LIMIT&quot;" name="ORD_TYPE_LIMIT"/>
+        <constant expr="&quot;MARKET&quot;" name="ORD_TYPE_MARKET"/>
+        <constant expr="&quot;MARKETLEFTOVER&quot;" name="ORD_TYPE_MARKET_LEFTOVER"/>
+        <constant expr="&quot;ONCLOSE&quot;" name="ORD_TYPE_ON_CLOSE"/>
+        <constant expr="&quot;STOPLIMIT&quot;" name="ORD_TYPE_STOP_LIMIT"/>
+        <constant expr="tuple(&quot;Pending&quot; AS Pending, &quot;Suspended&quot; AS Suspended, &quot;New&quot; AS New, &quot;Replaced&quot; AS Replaced, &quot;PartiallyFilled&quot; AS PartiallyFilled, &quot;Filled&quot; AS Filled, &quot;Rejected&quot; AS Rejected, &quot;Cancelled&quot; AS Cancelled, &quot;Expired&quot; AS Expired, &quot;Error&quot; AS Error, &quot;Complete&quot; AS Complete)" name="OrderState"/>
+        <constant expr="tuple(&quot;0&quot; AS New, &quot;1&quot; AS PartiallyFilled, &quot;2&quot; AS Filled, &quot;4&quot; AS Cancelled, &quot;5&quot; AS Replaced, &quot;8&quot; AS Rejected, &quot;9&quot; AS Suspended)" name="OrderStatus"/>
+        <constant expr="tuple(&quot;1&quot; AS BUY, &quot;2&quot; AS SELL)" name="SIDE"/>
+        <constant expr="&quot;BUY&quot;" name="SIDE_BUY"/>
+        <constant expr="&quot;SELL&quot;" name="SIDE_SELL"/>
+        <constant expr="tuple(&quot;0&quot; AS DAY, &quot;1&quot; AS GTC, &quot;3&quot; AS IOC, &quot;6&quot; AS GTD)" name="TIF"/>
+        <constant expr="&quot;DAY&quot;" name="TIF_DAY"/>
+        <constant expr="&quot;GTC&quot;" name="TIF_GTC"/>
+        <constant expr="&quot;GTD&quot;" name="TIF_GTD"/>
+        <constant expr="&quot;IOC&quot;" name="TIF_IOC"/>
+        <parameter-definitions>
+            <parameter default="&quot;BOVESPA&quot;" name="TargetCompID"/>
+            <parameter default="&quot;ALPHA&quot;" name="SenderCompID"/>
+            <parameter default="orders.txt" name="OrdersOutFile"/>
+            <parameter default="reports.txt" name="ReportsInFile"/>
+            <parameter default="FALSE" name="NotifyPending"/>
+        </parameter-definitions>
+        <schema name="schema:FIXCommandIn">
+            <field description="" name="Command" type="string"/>
+            <field description="" name="BeginString" type="string"/>
+            <field description="" name="SenderCompID" type="string"/>
+            <field description="" name="TargetCompID" type="string"/>
+            <field description="" name="BeginSeqNo" type="int"/>
+            <field description="" name="EndSeqNo" type="int"/>
+        </schema>
+        <schema name="schema:GetOrderState">
+            <field description="" name="ReqID" type="string"/>
+        </schema>
+        <schema name="schema:OrderStateTable">
+            <field description="" name="ReqID" type="string"/>
+            <field description="" name="ClOrdID" type="string"/>
+            <field description="" name="OrigClOrdID" type="string"/>
+            <field description="" name="UpdateNumber" type="int"/>
+            <field description="" name="UpdateTime" type="timestamp"/>
+            <field description="defined by BVMF" name="OrderStatusBov" type="string"/>
+            <field description="defined by application" name="OrderStatusApp" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Venue" type="string"/>
+            <field description="" name="Side" type="string"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="OrderID" type="string"/>
+            <field description="" name="ReplacedbyReqID" type="string"/>
+            <field description="" name="CumQty" type="double"/>
+            <field description="" name="LeavesQty" type="double"/>
+            <field description="" name="OrderQty" type="double"/>
+            <field description="" name="InMarketQty" type="double"/>
+            <field description="" name="AvgPx" type="double"/>
+            <field description="" name="ExtraInfo" type="string"/>
+            <field description="" name="ExecTransType" type="string"/>
+            <field description="" name="ExecType" type="string"/>
+            <field description="" name="OrdRejReason" type="int"/>
+            <field description="" name="Request" type="tuple" value="MegaDirectFIX_RequestMsg"/>
+            <field description="" name="LastReport" type="tuple" value="MegaDirectFIX_ReportMsg"/>
+        </schema>
+        <data name="OrderStateTable" type="querytable">
+            <param name="gui:x" value="2296.0"/>
+            <param name="gui:y" value="2845.0"/>
+            <param name="gui:width" value="166.0"/>
+            <param name="gui:height" value="63.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="ReqID"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="ClOrdID,OrigClOrdID"/>
+            <param name="storage-method" value="disk"/>
+            <param name="schema" value="schema:OrderStateTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="ExecReqIn" schema="MegaDirectFIX_RequestMsg">
+            <param name="gui:x" value="2807.0"/>
+            <param name="gui:y" value="2197.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="FIXCommandIn" schema="schema:FIXCommandIn">
+            <param name="gui:x" value="36.0"/>
+            <param name="gui:y" value="2006.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="GetOrderState" schema="schema:GetOrderState">
+            <param name="gui:x" value="36.0"/>
+            <param name="gui:y" value="1729.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="ManulInputBovespa" schema="MegaDirectFIX_CancelRequestMessage">
+            <param name="gui:x" value="4670.0"/>
+            <param name="gui:y" value="2840.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <stream name="ReportsFromBovespaSim" schema="MegaDirectFIX_ReportMsgFull">
+            <param name="gui:x" value="260.0"/>
+            <param name="gui:y" value="1906.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <box name="CheckError" type="filter">
+            <input port="1" stream="ExecReqIn"/>
+            <output port="1" stream="out:CheckError_1"/>
+            <output port="2" stream="out:CheckError_2"/>
+            <output port="3" stream="out:CheckError_3"/>
+            <output port="4" stream="out:CheckError_4"/>
+            <output port="5" stream="out:CheckError_5"/>
+            <output port="6" stream="out:CheckError_6"/>
+            <output port="7" stream="out:CheckError_7"/>
+            <output port="8" stream="out:CheckError_8"/>
+            <output port="9" stream="out:CheckError_9"/>
+            <output port="10" stream="out:CheckError_10"/>
+            <output port="11" stream="out:CheckError_11"/>
+            <output port="12" stream="out:CheckError_12"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="(MsgType==EXEC_CMD.NEW OR MsgType==EXEC_CMD.CANCEL) AND isnull(Account)"/>
+            <param name="expression.1" value="isnull(ClOrdID)"/>
+            <param name="expression.2" value="isnull(OrderQty)"/>
+            <param name="expression.3" value="MsgType==EXEC_CMD.NEW AND isnull(OrdType)"/>
+            <param name="expression.4" value="(MsgType==EXEC_CMD.CANCEL OR MsgType==EXEC_CMD.CANCEL) AND isnull(OrigClOrdID)"/>
+            <param name="expression.5" value="MsgType==EXEC_CMD.NEW AND isnull(Price) AND OrdType!=ORD_TYPE.MARKET"/>
+            <param name="expression.6" value="MsgType==EXEC_CMD.NEW AND isnull(Side)"/>
+            <param name="expression.7" value="isnull(Symbol)"/>
+            <param name="expression.8" value="MsgType==EXEC_CMD.NEW AND OrdType==ORD_TYPE.STOPLIMIT AND isnull(StopPx)"/>
+            <param name="expression.9" value="MsgType==EXEC_CMD.NEW AND TimeInForce==TIF.GTD AND isnull(ExpireDate)"/>
+            <param name="expression.10" value="!(MsgType==EXEC_CMD.NEW OR MsgType==EXEC_CMD.CANCEL OR MsgType==EXEC_CMD.REPLACE)"/>
+            <param name="expression.11" value="true"/>
+            <param name="gui:bends:1" value="2931.0,2228.0;2931.0,2227.0"/>
+            <param name="gui:x" value="2989.0"/>
+            <param name="gui:y" value="2143.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="169.0"/>
+        </box>
+        <box name="FIXInput" type="inputadapter">
+            <input port="1" stream="FIXCommandIn"/>
+            <output port="1" stream="out:FIXInput_1"/>
+            <output port="2" stream="out:FIXInput_2"/>
+            <output port="3" stream="FIXAdminOut"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.fix.input.FIXInput"/>
+            <param name="appMessageSchema0" value="MegaDirectFIX_ReportMsgFull"/>
+            <param name="appMessageSchema1" value="MegaDirectFIX_ReportMsgFull"/>
+            <param name="appMessageSchema2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema3" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema4" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema7" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema8" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="fieldNameMapFile"/>
+            <param name="fixAdminMessageInterceptor"/>
+            <param name="fixConfigFile"/>
+            <param name="fixEngine" value="QuickFIX/J"/>
+            <param name="incomingFilter"/>
+            <param name="incomingFilterType" value="Include"/>
+            <param name="isLinkedToAdapter" value="true"/>
+            <param name="isLoggingIncomingMessages" value="false"/>
+            <param name="isLoggingOutgoingMessages" value="false"/>
+            <param name="isReportingProfilingData" value="false"/>
+            <param name="linkedAdapter" value="FIXOutput"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="logonAtStartup" value="true"/>
+            <param name="messagePortRoutings.0" value="8"/>
+            <param name="messagePortRoutings.1" value="9"/>
+            <param name="outgoingFilter"/>
+            <param name="outgoingFilterType" value="Include"/>
+            <param name="profilingDataReportingInterval" value="10000"/>
+            <param name="useAdminPort" value="true"/>
+            <param name="useCommandInputPort" value="true"/>
+            <param name="useSenderLocationIDToNameSession" value="false"/>
+            <param name="useSenderSubIDToNameSession" value="false"/>
+            <param name="useTargetLocationIDToNameSession" value="false"/>
+            <param name="useTargetSubIDToNameSession" value="false"/>
+            <param name="appMessageSchema0" value="MegaDirectFIX_ReportMsgFull"/>
+            <param name="appMessageSchema1" value="MegaDirectFIX_ReportMsgFull"/>
+            <param name="appMessageSchema2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema3" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema4" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema7" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema8" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="appMessageSchema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:FIXInput&quot;/&gt;&#13;&#10;"/>
+            <param name="fieldNameMapFile"/>
+            <param name="fixAdminMessageInterceptor"/>
+            <param name="fixConfigFile"/>
+            <param name="fixEngine" value="QuickFIX/J"/>
+            <param name="incomingFilter"/>
+            <param name="incomingFilterType" value="Include"/>
+            <param name="isLinkedToAdapter" value="true"/>
+            <param name="isLoggingIncomingMessages" value="false"/>
+            <param name="isLoggingOutgoingMessages" value="false"/>
+            <param name="isReportingProfilingData" value="false"/>
+            <param name="linkedAdapter" value="FIXOutput"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="logonAtStartup" value="true"/>
+            <param name="messagePortRoutings.0" value="8"/>
+            <param name="messagePortRoutings.1" value="9"/>
+            <param name="outgoingFilter"/>
+            <param name="outgoingFilterType" value="Include"/>
+            <param name="profilingDataReportingInterval" value="10000"/>
+            <param name="useAdminPort" value="true"/>
+            <param name="useCommandInputPort" value="true"/>
+            <param name="useSenderLocationIDToNameSession" value="false"/>
+            <param name="useSenderSubIDToNameSession" value="false"/>
+            <param name="useTargetLocationIDToNameSession" value="false"/>
+            <param name="useTargetSubIDToNameSession" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="153.0"/>
+            <param name="gui:y" value="2006.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="OneOrAll" type="filter">
+            <input port="1" stream="GetOrderState"/>
+            <output port="1" stream="out:OneOrAll_1"/>
+            <output port="2" stream="out:OneOrAll_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="isnull(ReqID)"/>
+            <param name="expression.1" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="153.0"/>
+            <param name="gui:y" value="1729.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <output-stream name="FIXAdminOut">
+            <param name="gui:bends" value="225.0,2047.0;243.0,2136.0"/>
+            <param name="gui:x" value="260.0"/>
+            <param name="gui:y" value="2105.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="GetAll" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:OneOrAll_1"/>
+            <output port="1" stream="out:GetAll_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="all-rows"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="227.0,1750.0;237.0,1704.0"/>
+            <param name="gui:x" value="260.0"/>
+            <param name="gui:y" value="1673.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="GetByReqID" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:OneOrAll_2"/>
+            <output port="1" stream="out:GetByReqID_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="ReqID"/>
+            <param name="key-lowerbound-value.0" value="input.ReqID"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="240.0,1771.0;250.0,1816.0"/>
+            <param name="gui:x" value="260.0"/>
+            <param name="gui:y" value="1785.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="InvalidOrMissingMsgType" type="map">
+            <input port="1" stream="out:CheckError_11"/>
+            <output port="1" stream="out:InvalidOrMissingMsgType_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_MSGTYPE</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3061.0,2279.0;3139.0,2617.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2586.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingAccount" type="map">
+            <input port="1" stream="out:CheckError_1"/>
+            <output port="1" stream="out:MissingAccount_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_ACCOUNT</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3112.0,2164.0;3232.0,1657.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="1626.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingClOrdID" type="map">
+            <input port="1" stream="out:CheckError_2"/>
+            <output port="1" stream="out:MissingClOrdID_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_CLORDID</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3061.0,2175.0;3113.0,1753.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="1722.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingExpireDate" type="map">
+            <input port="1" stream="out:CheckError_10"/>
+            <output port="1" stream="out:MissingExpireDate_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_EXPIREDATE</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3131.0,2267.0;3193.0,2521.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2490.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingOrdType" type="map">
+            <input port="1" stream="out:CheckError_4"/>
+            <output port="1" stream="out:MissingOrdType_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_ORDTYPE</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3061.0,2198.0;3105.0,1945.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="1914.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingOrderQty" type="map">
+            <input port="1" stream="out:CheckError_3"/>
+            <output port="1" stream="out:MissingOrderQty_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_ORDQTY</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3068.0,2187.0;3152.0,1849.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="1818.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingOrigClOrdID" type="map">
+            <input port="1" stream="out:CheckError_5"/>
+            <output port="1" stream="out:MissingOrigClOrdID_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_ORIGCLORDID</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3128.0,2210.0;3170.0,2041.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2010.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingPrice" type="map">
+            <input port="1" stream="out:CheckError_6"/>
+            <output port="1" stream="out:MissingPrice_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_PRICE</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3126.0,2221.0;3146.0,2137.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2106.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingSide" type="map">
+            <input port="1" stream="out:CheckError_7"/>
+            <output port="1" stream="out:MissingSide_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_SIDE</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2202.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingStopPx" type="map">
+            <input port="1" stream="out:CheckError_9"/>
+            <output port="1" stream="out:MissingStopPx_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_STOPPX</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3167.0,2256.0;3209.0,2425.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2394.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MissingSymbol" type="map">
+            <input port="1" stream="out:CheckError_8"/>
+            <output port="1" stream="out:MissingSymbol_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Error">CHK_ERROR_SYMBOL</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3061.0,2244.0;3071.0,2329.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2298.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union17" type="union">
+            <input port="1" stream="out:FIXInput_1"/>
+            <input port="2" stream="out:FIXInput_2"/>
+            <output port="1" stream="out:Union17_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="232.0,2027.0;232.0,2030.0"/>
+            <param name="gui:bends:2" value="231.0,2037.0;233.0,2050.0"/>
+            <param name="gui:x" value="260.0"/>
+            <param name="gui:y" value="2009.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WrapReqMsg" type="map">
+            <input port="1" stream="out:CheckError_12"/>
+            <output port="1" stream="out:WrapReqMsg_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="Request">input</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="3071.0,2291.0;3175.0,2713.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="2682.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="FilterMsgType" type="filter">
+            <input port="1" stream="out:WrapReqMsg_1"/>
+            <output port="1" stream="out:FilterMsgType_1"/>
+            <output port="2" stream="out:FilterMsgType_2"/>
+            <output port="3" stream="out:FilterMsgType_3"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Request.MsgType == EXEC_CMD.NEW"/>
+            <param name="expression.1" value="Request.MsgType == EXEC_CMD.CANCEL"/>
+            <param name="expression.2" value="Request.MsgType == EXEC_CMD.REPLACE"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3494.0"/>
+            <param name="gui:y" value="2682.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union" type="union">
+            <input port="1" stream="out:MissingAccount_1"/>
+            <input port="2" stream="out:MissingClOrdID_1"/>
+            <input port="3" stream="out:MissingOrderQty_1"/>
+            <input port="4" stream="out:MissingOrdType_1"/>
+            <input port="5" stream="out:MissingOrigClOrdID_1"/>
+            <input port="6" stream="out:MissingPrice_1"/>
+            <input port="7" stream="out:MissingSide_1"/>
+            <input port="8" stream="out:MissingSymbol_1"/>
+            <input port="9" stream="out:MissingStopPx_1"/>
+            <input port="10" stream="out:MissingExpireDate_1"/>
+            <input port="11" stream="out:InvalidOrMissingMsgType_1"/>
+            <output port="1" stream="CheckErrorOut"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3362.0,1657.0;3466.0,2080.0"/>
+            <param name="gui:bends:2" value="3424.0,1753.0;3484.0,2091.0"/>
+            <param name="gui:bends:3" value="3331.0,1849.0;3393.0,2102.0"/>
+            <param name="gui:bends:4" value="3432.0,1945.0;3474.0,2114.0"/>
+            <param name="gui:bends:5" value="3365.0,2041.0;3385.0,2125.0"/>
+            <param name="gui:bends:6" value=""/>
+            <param name="gui:bends:7" value="3378.0,2233.0;3398.0,2148.0"/>
+            <param name="gui:bends:8" value="3419.0,2329.0;3461.0,2159.0"/>
+            <param name="gui:bends:9" value="3396.0,2425.0;3458.0,2171.0"/>
+            <param name="gui:bends:10" value="3359.0,2521.0;3443.0,2182.0"/>
+            <param name="gui:bends:11" value="3314.0,2617.0;3401.0,2194.0"/>
+            <param name="gui:x" value="3494.0"/>
+            <param name="gui:y" value="2059.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="156.0"/>
+        </box>
+        <box name="Union15" type="union">
+            <input port="1" stream="out:Union17_1"/>
+            <input port="2" stream="ReportsFromBovespaSim"/>
+            <output port="1" stream="out:Union15_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="349.0,2040.0;379.0,1917.0"/>
+            <param name="gui:bends:2" value=""/>
+            <param name="gui:x" value="402.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union2" type="union">
+            <input port="1" stream="out:GetAll_1"/>
+            <input port="2" stream="out:GetByReqID_1"/>
+            <output port="1" stream="OrderStateOut"/>
+            <param name="strict" value="true"/>
+            <param name="strict" value="true"/>
+            <param name="gui:bends:1" value="339.0,1704.0;363.0,1806.0"/>
+            <param name="gui:bends:2" value="363.0,1816.0;365.0,1826.0"/>
+            <param name="gui:x" value="402.0"/>
+            <param name="gui:y" value="1785.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WriteRepIn" type="outputadapter">
+            <input port="1" stream="out:Union17_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/${ReportsInFile}"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/${ReportsInFile}"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="402.0"/>
+            <param name="gui:y" value="2009.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="CheckErrorOut">
+            <param name="gui:bends" value="3572.0,2137.0;3600.0,2024.0"/>
+            <param name="gui:x" value="3655.0"/>
+            <param name="gui:y" value="1993.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="CleanHeaderTrailer" type="map">
+            <input port="1" stream="out:Union15_1"/>
+            <output port="1" stream="out:CleanHeaderTrailer_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="BeginString"/>
+                    <remove field="BodyLength"/>
+                    <remove field="MsgSeqNum"/>
+                    <remove field="PossDupFlag"/>
+                    <remove field="SenderCompID"/>
+                    <remove field="SenderSubID"/>
+                    <remove field="TargetCompID"/>
+                    <remove field="TargetSubID"/>
+                    <remove field="SendingTime"/>
+                    <remove field="CheckSum"/>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="523.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="OrderStateOut">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="523.0"/>
+            <param name="gui:y" value="1785.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="SequenceCancel" type="seqnum">
+            <input port="1" stream="out:FilterMsgType_2"/>
+            <output port="1" stream="out:SequenceCancel_1"/>
+            <param name="output-field" value="idcxl"/>
+            <param name="sequence-id" value="sequenceid02"/>
+            <param name="update-expression" value="sequenceid02 + 1"/>
+            <param name="gui:bends:1" value="3586.0,2713.0;3612.0,2602.0"/>
+            <param name="gui:x" value="3655.0"/>
+            <param name="gui:y" value="2571.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SequenceNew" type="seqnum">
+            <input port="1" stream="out:FilterMsgType_1"/>
+            <output port="1" stream="out:SequenceNew_1"/>
+            <param name="output-field" value="idnew"/>
+            <param name="sequence-id" value="sequenceid01"/>
+            <param name="update-expression" value="sequenceid01 + 1"/>
+            <param name="gui:bends:1" value="3599.0,2703.0;3645.0,2491.0"/>
+            <param name="gui:x" value="3655.0"/>
+            <param name="gui:y" value="2460.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SequenceReplace" type="seqnum">
+            <input port="1" stream="out:FilterMsgType_3"/>
+            <output port="1" stream="out:SequenceReplace_1"/>
+            <param name="output-field" value="idrpl"/>
+            <param name="sequence-id" value="sequenceid03"/>
+            <param name="update-expression" value="sequenceid03 + 1"/>
+            <param name="gui:bends:1" value="3624.0,2723.0;3626.0,2713.0"/>
+            <param name="gui:x" value="3655.0"/>
+            <param name="gui:y" value="2682.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WriteOSMReqInError" type="outputadapter">
+            <input port="1" stream="CheckErrorOut"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/OSMReqInError.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/OSMReqInError.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3655.0"/>
+            <param name="gui:y" value="2106.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="ReqIDCxl" type="map">
+            <input port="1" stream="out:SequenceCancel_1"/>
+            <output port="1" stream="out:ReqIDCxl_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ReqID">"CXL-"+idcxl+"-"+string(now())</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3752.0"/>
+            <param name="gui:y" value="2571.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="ReqIDNew" type="map">
+            <input port="1" stream="out:SequenceNew_1"/>
+            <output port="1" stream="out:ReqIDNew_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ReqID">"NEW-"+idnew+"-"+string(now())</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3752.0"/>
+            <param name="gui:y" value="2460.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="ReqIDRlp" type="map">
+            <input port="1" stream="out:SequenceReplace_1"/>
+            <output port="1" stream="out:ReqIDRlp_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ReqID">"RPL-"+idrpl+"-"+string(now())</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3752.0"/>
+            <param name="gui:y" value="2682.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union4" type="union">
+            <input port="1" stream="out:CleanHeaderTrailer_1"/>
+            <output port="1" stream="out:Union4_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="624.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetPendingCxl" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:ReqIDCxl_1"/>
+            <output port="1" stream="out:SetPendingCxl_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="ReqID"/>
+            <param name="key-value.0" value="ReqID"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none">
+                    <include field="Request"/>
+                </item>
+                <item name="new" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <include field="CurrentStatus">new</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Request">input.Request</set>
+                    <set field="ClOrdID">Request.ClOrdID</set>
+                    <set field="OrigClOrdID">Request.OrigClOrdID</set>
+                    <set field="UpdateNumber">0</set>
+                    <set field="UpdateTime">now()</set>
+                    <set field="OrderStatusBov">null</set>
+                    <set field="OrderStatusApp">ORD_STATUS_APP.PENDING_CANCEL</set>
+                    <set field="Symbol">Request.Symbol</set>
+                    <set field="Venue">EXCH.BOVESPA</set>
+                    <set field="Side">Request.Side</set>
+                    <set field="Price">Request.Price</set>
+                    <set field="OrderID">Request.OrderID</set>
+                    <set field="ReplacedbyReqID">null</set>
+                    <set field="CumQty">null</set>
+                    <set field="LeavesQty">null</set>
+                    <set field="OrderQty">null</set>
+                    <set field="InMarketQty">null</set>
+                    <set field="AvgPx">null</set>
+                    <set field="ExtraInfo">null</set>
+                    <set field="ExecTransType">null</set>
+                    <set field="ExecType">null</set>
+                    <set field="OrdRejReason">null</set>
+                    <set field="LastReport">null</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4017.0"/>
+            <param name="gui:y" value="2571.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetPendingNew" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:ReqIDNew_1"/>
+            <output port="1" stream="out:SetPendingNew_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="ReqID"/>
+            <param name="key-value.0" value="ReqID"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none">
+                    <include field="Request"/>
+                </item>
+                <item name="new" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <include field="CurrentStatus">new</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Request">input.Request</set>
+                    <set field="ClOrdID">Request.ClOrdID</set>
+                    <set field="OrigClOrdID">Request.OrigClOrdID</set>
+                    <set field="UpdateNumber">0</set>
+                    <set field="UpdateTime">now()</set>
+                    <set field="OrderStatusBov">null</set>
+                    <set field="OrderStatusApp">ORD_STATUS_APP.PENDING_NEW</set>
+                    <set field="Symbol">Request.Symbol</set>
+                    <set field="Venue">EXCH.BOVESPA</set>
+                    <set field="Side">Request.Side</set>
+                    <set field="Price">Request.Price</set>
+                    <set field="OrderID">Request.OrderID</set>
+                    <set field="ReplacedbyReqID">null</set>
+                    <set field="CumQty">0</set>
+                    <set field="LeavesQty">Request.OrderQty</set>
+                    <set field="OrderQty">Request.OrderQty</set>
+                    <set field="InMarketQty">null</set>
+                    <set field="AvgPx">null</set>
+                    <set field="ExtraInfo">null</set>
+                    <set field="ExecTransType">null</set>
+                    <set field="ExecType">null</set>
+                    <set field="OrdRejReason">null</set>
+                    <set field="LastReport">null</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4017.0"/>
+            <param name="gui:y" value="2460.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetPendingRpl" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:ReqIDRlp_1"/>
+            <output port="1" stream="out:SetPendingRpl_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="ReqID"/>
+            <param name="key-value.0" value="ReqID"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none">
+                    <include field="Request"/>
+                </item>
+                <item name="new" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <include field="CurrentStatus">new</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Request">input.Request</set>
+                    <set field="ClOrdID">Request.ClOrdID</set>
+                    <set field="OrigClOrdID">Request.OrigClOrdID</set>
+                    <set field="UpdateNumber">0</set>
+                    <set field="UpdateTime">now()</set>
+                    <set field="OrderStatusBov">null</set>
+                    <set field="OrderStatusApp">ORD_STATUS_APP.PENDING_REPLACE</set>
+                    <set field="Symbol">Request.Symbol</set>
+                    <set field="Venue">EXCH.BOVESPA</set>
+                    <set field="Side">Request.Side</set>
+                    <set field="Price">Request.Price</set>
+                    <set field="OrderID">Request.OrderID</set>
+                    <set field="ReplacedbyReqID">null</set>
+                    <set field="CumQty">null</set>
+                    <set field="LeavesQty">null</set>
+                    <set field="OrderQty">Request.OrderQty</set>
+                    <set field="InMarketQty">null</set>
+                    <set field="AvgPx">null</set>
+                    <set field="ExtraInfo">null</set>
+                    <set field="ExecTransType">null</set>
+                    <set field="ExecType">null</set>
+                    <set field="OrdRejReason">null</set>
+                    <set field="LastReport">null</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4017.0"/>
+            <param name="gui:y" value="2682.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WrapReportMsg" type="map">
+            <input port="1" stream="out:Union4_1"/>
+            <output port="1" stream="out:WrapReportMsg_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="Report">input</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="708.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="GetCurrentState" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:WrapReportMsg_1"/>
+            <output port="1" stream="out:GetCurrentState_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="secondary-key"/>
+            <param name="key-field.0" value="ClOrdID"/>
+            <param name="key-lowerbound-value.0" value="Report.ClOrdID"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="key-field.1" value="OrigClOrdID"/>
+            <param name="key-lowerbound-operation.1" value="begin"/>
+            <param name="key-upperbound-operation.1" value="end"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-explicit"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <expressions>
+                    <include field="CurrentState">current</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="ReqID">null</set>
+                    <set field="ClOrdID">Report.ClOrdID</set>
+                    <set field="OrigClOrdID">null</set>
+                    <set field="UpdateNumber">throw("Could not find execution request")</set>
+                    <set field="UpdateTime">null</set>
+                    <set field="OrderStatusBov">null</set>
+                    <set field="OrderStatusApp">null</set>
+                    <set field="Symbol">null</set>
+                    <set field="Venue">null</set>
+                    <set field="Side">null</set>
+                    <set field="Price">null</set>
+                    <set field="OrderID">null</set>
+                    <set field="ReplacedbyReqID">null</set>
+                    <set field="CumQty">null</set>
+                    <set field="LeavesQty">null</set>
+                    <set field="OrderQty">null</set>
+                    <set field="InMarketQty">null</set>
+                    <set field="AvgPx">null</set>
+                    <set field="ExtraInfo">null</set>
+                    <set field="ExecTransType">null</set>
+                    <set field="ExecType">null</set>
+                    <set field="OrdRejReason">null</set>
+                    <set field="Request">null</set>
+                    <set field="LastReport">input.Report</set>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="803.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union3" type="union">
+            <input port="1" stream="out:SetPendingNew_1"/>
+            <input port="2" stream="out:SetPendingCxl_1"/>
+            <input port="3" stream="out:SetPendingRpl_1"/>
+            <output port="1" stream="out:Union3_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="4089.0,2491.0;4109.0,2592.0"/>
+            <param name="gui:bends:2" value=""/>
+            <param name="gui:bends:3" value="4098.0,2713.0;4122.0,2612.0"/>
+            <param name="gui:x" value="4145.0"/>
+            <param name="gui:y" value="2571.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="CommonFields" type="map">
+            <input port="1" stream="out:GetCurrentState_1"/>
+            <output port="1" stream="out:CommonFields_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="UpdateNumber">CurrentState.UpdateNumber+1</include>
+                    <include field="UpdateTime">now()</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="936.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Split4" type="split">
+            <input port="1" stream="out:Union3_1"/>
+            <output port="1" stream="out:Split4_1"/>
+            <output port="2" stream="out:Split4_2"/>
+            <param name="output-count" value="2"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4239.0"/>
+            <param name="gui:y" value="2571.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="FilterReportMsgType" type="filter">
+            <input port="1" stream="out:CommonFields_1"/>
+            <output port="1" stream="out:FilterReportMsgType_1"/>
+            <output port="2" stream="out:FilterReportMsgType_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Report.MsgType==BOV_REPORT_MSG.EXECUTION_REPORT"/>
+            <param name="expression.1" value="Report.MsgType==BOV_REPORT_MSG.ORDER_CANCEL_REJECT"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1041.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="NotifyPending" type="filter">
+            <input port="1" stream="out:Split4_1"/>
+            <output port="1" stream="out:NotifyPending_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="${NotifyPending} == true"/>
+            <param name="gui:bends:1" value="4345.0,2592.0;4485.0,1653.0"/>
+            <param name="gui:x" value="4495.0"/>
+            <param name="gui:y" value="1622.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="UnwrapReqMsg" type="map">
+            <input port="1" stream="out:Split4_2"/>
+            <output port="1" stream="out:UnwrapReqMsg_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="*">Request.*</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="4430.0,2612.0;4468.0,2764.0"/>
+            <param name="gui:x" value="4495.0"/>
+            <param name="gui:y" value="2733.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="AddHeaderTrailer" type="map">
+            <input port="1" stream="out:UnwrapReqMsg_1"/>
+            <output port="1" stream="ExecReqOut"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="BeginString">"FIX.4.2"</include>
+                    <include field="BodyLength">int(null)</include>
+                    <include field="MsgSeqNum">int(null)</include>
+                    <include field="SenderCompID">${SenderCompID}</include>
+                    <include field="SenderSubID">string(null)</include>
+                    <include field="TargetCompID">${TargetCompID}</include>
+                    <include field="TargetSubID">string(null)</include>
+                    <include field="SendingTime">now()-timezoneoffset()</include>
+                    <include field="CheckSum">int(null)</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4670.0"/>
+            <param name="gui:y" value="2733.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="ExecutionReportAction" type="filter">
+            <input port="1" stream="out:FilterReportMsgType_1"/>
+            <output port="1" stream="out:ExecutionReportAction_1"/>
+            <output port="2" stream="out:ExecutionReportAction_2"/>
+            <output port="3" stream="out:ExecutionReportAction_3"/>
+            <output port="4" stream="out:ExecutionReportAction_4"/>
+            <output port="5" stream="out:ExecutionReportAction_5"/>
+            <output port="6" stream="out:ExecutionReportAction_6"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Report.OrdStatus == ORD_STATUS_BOV.NEW OR Report.OrdStatus == ORD_STATUS_BOV.REPLACED"/>
+            <param name="expression.1" value="Report.OrdStatus == ORD_STATUS_BOV.PARTIALLY_FILLED"/>
+            <param name="expression.2" value="Report.OrdStatus == ORD_STATUS_BOV.FILLED"/>
+            <param name="expression.3" value="Report.OrdStatus == ORD_STATUS_BOV.CANCELLED"/>
+            <param name="expression.4" value="Report.OrdStatus == ORD_STATUS_BOV.REJECTED"/>
+            <param name="expression.5" value="Report.OrdStatus == ORD_STATUS_BOV.SUSPENDED"/>
+            <param name="gui:bends:1" value="1201.0,1917.0;1272.0,1556.0"/>
+            <param name="gui:x" value="1282.0"/>
+            <param name="gui:y" value="1504.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="104.0"/>
+        </box>
+        <box name="PendingReport" type="map">
+            <input port="1" stream="out:NotifyPending_1"/>
+            <output port="1" stream="out:PendingReport_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="ReqID">CurrentStatus.ReqID</include>
+                    <include field="ClOrdID">Request.ClOrdID</include>
+                    <include field="OrigClOrdID">Request.OrigClOrdID</include>
+                    <include field="UpdateNumber">CurrentStatus.UpdateNumber</include>
+                    <include field="UpdateTime">CurrentStatus.UpdateTime</include>
+                    <include field="OrderStatusBov">CurrentStatus.OrderStatusBov</include>
+                    <include field="OrderStatusApp">CurrentStatus.OrderStatusApp</include>
+                    <include field="Symbol">Request.Symbol</include>
+                    <include field="Venue">CurrentStatus.Venue</include>
+                    <include field="Side">Request.Side</include>
+                    <include field="Price">Request.Price</include>
+                    <include field="OrderID">CurrentStatus.OrderID</include>
+                    <include field="ReplacedbyReqID">CurrentStatus.ReplacedbyReqID</include>
+                    <include field="CumQty">CurrentStatus.CumQty</include>
+                    <include field="LeavesQty">CurrentStatus.LeavesQty</include>
+                    <include field="OrderQty">Request.OrderQty</include>
+                    <include field="InMarketQty">CurrentStatus.InMarketQty</include>
+                    <include field="AvgPx">CurrentStatus.AvgPx</include>
+                    <include field="ExtraInfo">CurrentStatus.ExtraInfo</include>
+                    <include field="ExecTransType">CurrentStatus.ExecTransType</include>
+                    <include field="ExecType">CurrentStatus.ExecType</include>
+                    <include field="OrdRejReason">CurrentStatus.OrdRejReason</include>
+                    <include field="Request">Request</include>
+                    <include field="LastReport">MegaDirectFIX_ReportMsg()</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4670.0"/>
+            <param name="gui:y" value="1622.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="ExecReqOut">
+            <param name="gui:bends" value="4802.0,2764.0;4802.0,2765.0"/>
+            <param name="gui:x" value="4806.0"/>
+            <param name="gui:y" value="2734.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="FilterBustedTrades" type="filter">
+            <input port="1" stream="out:ExecutionReportAction_3"/>
+            <output port="1" stream="out:FilterBustedTrades_1"/>
+            <output port="2" stream="out:FilterBustedTrades_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Report.ExecType==EXEC_TYPE_BOV.CANCELLED AND Report.ExecTransType==EXEC_TRANS_TYPE_BOV.CANCEL"/>
+            <param name="expression.1" value="true"/>
+            <param name="gui:bends:1" value="1452.0,1549.0;1588.0,930.0"/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="899.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="FilterInstrumentFreeze" type="filter">
+            <input port="1" stream="out:ExecutionReportAction_2"/>
+            <output port="1" stream="out:FilterInstrumentFreeze_1"/>
+            <output port="2" stream="out:FilterInstrumentFreeze_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Report.ExecType==EXEC_TYPE_BOV.SUSPENDED OR Report.ExecType==EXEC_TYPE_BOV.PARTIAL_FILL"/>
+            <param name="expression.1" value="Report.ExecType==EXEC_TYPE_BOV.NEW"/>
+            <param name="gui:bends:1" value="1459.0,1537.0;1547.0,1178.0"/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="1147.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="GetOrderCancelled" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:ExecutionReportAction_4"/>
+            <output port="1" stream="out:GetOrderCancelled_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="secondary-key"/>
+            <param name="key-field.0" value="ClOrdID"/>
+            <param name="key-lowerbound-value.0" value="Report.OrigClOrdID"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="key-field.1" value="OrigClOrdID"/>
+            <param name="key-lowerbound-operation.1" value="begin"/>
+            <param name="key-upperbound-operation.1" value="end"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <expressions>
+                    <include field="OrderCancellingThis">current</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="1531.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="MakeSuspend" type="map">
+            <input port="1" stream="out:ExecutionReportAction_6"/>
+            <output port="1" stream="out:MakeSuspend_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.SUSPENDED</replace>
+                    <replace field="CurrentState.ExtraInfo">"ERROR: suspended order."</replace>
+                    <replace field="CurrentState.InMarketQty">0.0</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="1513.0,1587.0;1588.0,1927.0"/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union14" type="union">
+            <input port="1" stream="out:ExecutionReportAction_5"/>
+            <input port="2" stream="out:FilterReportMsgType_2"/>
+            <output port="1" stream="out:Union14_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1527.0,1574.0;1557.0,1696.0"/>
+            <param name="gui:bends:2" value="1353.0,1937.0;1407.0,1716.0"/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="1675.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union7" type="union">
+            <input port="1" stream="ExecReqOut"/>
+            <input port="2" stream="ManulInputBovespa"/>
+            <output port="1" stream="out:Union7_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="4770.0,2764.0;4790.0,2851.0"/>
+            <param name="gui:bends:2" value=""/>
+            <param name="gui:x" value="4806.0"/>
+            <param name="gui:y" value="2830.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WriteOrdersOut" type="outputadapter">
+            <input port="1" stream="ExecReqOut"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=";"/>
+            <param name="FileName" value="osmlogs/${OrdersOutFile}"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="true"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=";"/>
+            <param name="FileName" value="osmlogs/${OrdersOutFile}"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="true"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="gui:bends:1" value="4741.0,2764.0;4753.0,2668.0"/>
+            <param name="gui:x" value="4806.0"/>
+            <param name="gui:y" value="2637.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="DetectErrorCompleteFill" type="filter">
+            <input port="1" stream="out:FilterBustedTrades_2"/>
+            <output port="1" stream="out:DetectErrorCompleteFill_1"/>
+            <output port="2" stream="out:DetectErrorCompleteFill_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Report.LastShares &gt; CurrentState.LeavesQty /* Too big a fill! */"/>
+            <param name="expression.1" value="true"/>
+            <param name="gui:bends:1" value="1672.0,940.0;1736.0,683.0"/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="652.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="DetectErrorPartialFill" type="filter">
+            <input port="1" stream="out:FilterInstrumentFreeze_1"/>
+            <output port="1" stream="out:DetectErrorPartialFill_1"/>
+            <output port="2" stream="out:DetectErrorPartialFill_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Report.LastShares &gt; CurrentState.LeavesQty /* Too big a fill! */"/>
+            <param name="expression.1" value="true"/>
+            <param name="gui:bends:1" value="1670.0,1168.0;1765.0,779.0"/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="748.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="FIXOutput" type="outputadapter">
+            <input port="1" stream="out:Union7_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.fix.output.FIXOutput"/>
+            <param name="fieldNameMapFile"/>
+            <param name="fixAdminMessageInterceptor"/>
+            <param name="fixConfigFile" value="osmconfig/bovespa.cfg"/>
+            <param name="fixEngine" value="QuickFIX/J"/>
+            <param name="incomingFilter"/>
+            <param name="incomingFilterType" value="Include"/>
+            <param name="isLoggingIncomingMessages" value="false"/>
+            <param name="isLoggingOutgoingMessages" value="false"/>
+            <param name="isReportingProfilingData" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="logonAtStartup" value="false"/>
+            <param name="outgoingFilter"/>
+            <param name="outgoingFilterType" value="Include"/>
+            <param name="profilingDataReportingInterval" value="10000"/>
+            <param name="useSenderLocationIDToNameSession" value="false"/>
+            <param name="useSenderSubIDToNameSession" value="false"/>
+            <param name="useTargetLocationIDToNameSession" value="false"/>
+            <param name="useTargetSubIDToNameSession" value="false"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4913.0"/>
+            <param name="gui:y" value="2830.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeBusted" type="map">
+            <input port="1" stream="out:FilterBustedTrades_1"/>
+            <output port="1" stream="out:MakeBusted_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.BUSTED</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="1722.0,920.0;1738.0,985.0"/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="954.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeReject" type="map">
+            <input port="1" stream="out:Union14_1"/>
+            <output port="1" stream="out:MakeReject_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.REJECTED</replace>
+                    <replace field="CurrentState.ExtraInfo">"ERROR: rejected order."</replace>
+                    <replace field="CurrentState.InMarketQty">0.0</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="1675.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetNextState6" type="map">
+            <input port="1" stream="out:MakeSuspend_1"/>
+            <output port="1" stream="out:SetNextState6_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="1896.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SwapTuples" type="map">
+            <input port="1" stream="out:GetOrderCancelled_1"/>
+            <output port="1" stream="out:SwapTuples_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                    <remove field="OrderCancellingThis"/>
+                </item>
+                <expressions>
+                    <include field="SwappedCurrentState">input1.OrderCancellingThis</include>
+                    <include field="SwappedOrderCancellingThis">input1.CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="1531.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union16" type="union">
+            <input port="1" stream="out:ExecutionReportAction_1"/>
+            <input port="2" stream="out:FilterInstrumentFreeze_2"/>
+            <output port="1" stream="out:Union16_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1435.0,1525.0;1597.0,877.0"/>
+            <param name="gui:bends:2" value="1707.0,1189.0;1779.0,897.0"/>
+            <param name="gui:x" value="1853.0"/>
+            <param name="gui:y" value="856.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="AdjustInMarketQty" type="map">
+            <input port="1" stream="out:MakeBusted_1"/>
+            <output port="1" stream="out:AdjustInMarketQty_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.CumQty">Report.CumQty</replace>
+                    <replace field="CurrentState.LeavesQty">Report.LeavesQty</replace>
+                    <replace field="CurrentState.AvgPx">if (isnull(CurrentState.AvgPx) OR CurrentState.AvgPx==0.0) then Report.LastPx else (Report.LastShares*Report.LastPx+CurrentState.CumQty*CurrentState.AvgPx)/(Report.LastShares+CurrentState.CumQty)</replace>
+                    <replace field="CurrentState.InMarketQty">IF isnull(CurrentState.InMarketQty) THEN Report.LastShares ELSE (CurrentState.InMarketQty+Report.LastShares)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="953.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="Cleanser" type="map">
+            <input port="1" stream="out:SwapTuples_1"/>
+            <output port="1" stream="out:Cleanser_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="SwappedCurrentState"/>
+                    <remove field="SwappedOrderCancellingThis"/>
+                </item>
+                <expressions>
+                    <include field="CurrentState">SwappedCurrentState</include>
+                    <include field="OrderCancellingThis">SwappedOrderCancellingThis</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="1531.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeCompleteFill" type="map">
+            <input port="1" stream="out:DetectErrorCompleteFill_2"/>
+            <output port="1" stream="out:MakeCompleteFill_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.FILLED</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="662.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakePartial" type="map">
+            <input port="1" stream="out:DetectErrorPartialFill_2"/>
+            <output port="1" stream="out:MakePartial_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.PARTIALLY_FILLED</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="758.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="NewOrReplacedOrError" type="filter">
+            <input port="1" stream="out:Union16_1"/>
+            <output port="1" stream="out:NewOrReplacedOrError_1"/>
+            <output port="2" stream="out:NewOrReplacedOrError_2"/>
+            <output port="3" stream="out:NewOrReplacedOrError_3"/>
+            <output port="4" stream="out:NewOrReplacedOrError_4"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Report.ExecType == EXEC_TYPE_BOV.REPLACE"/>
+            <param name="expression.1" value="Report.ExecType == EXEC_TYPE_BOV.NEW"/>
+            <param name="expression.2" value="Report.ExecType == EXEC_TYPE_BOV.TRIGGERED"/>
+            <param name="expression.3" value="true"/>
+            <param name="gui:bends:1" value="1967.0,887.0;1967.0,886.0"/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="854.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="65.0"/>
+        </box>
+        <box name="SetNextState5" type="map">
+            <input port="1" stream="out:MakeReject_1"/>
+            <output port="1" stream="out:SetNextState5_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="1675.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union10" type="union">
+            <input port="1" stream="out:DetectErrorCompleteFill_1"/>
+            <input port="2" stream="out:DetectErrorPartialFill_1"/>
+            <output port="1" stream="out:Union10_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="1944.0,673.0;1964.0,587.0"/>
+            <param name="gui:bends:2" value="1947.0,769.0;1987.0,607.0"/>
+            <param name="gui:x" value="2029.0"/>
+            <param name="gui:y" value="566.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="GetOrderReplacedbyThis" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:NewOrReplacedOrError_1"/>
+            <output port="1" stream="out:GetOrderReplacedbyThis_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="secondary-key"/>
+            <param name="key-field.0" value="ClOrdID"/>
+            <param name="key-lowerbound-value.0" value="CurrentState.OrigClOrdID"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="key-field.1" value="OrigClOrdID"/>
+            <param name="key-lowerbound-operation.1" value="begin"/>
+            <param name="key-upperbound-operation.1" value="end"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <expressions>
+                    <include field="OrderReplacedbyThis">current</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="2181.0,875.0;2321.0,1441.0"/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="1410.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeAcceptNew" type="map">
+            <input port="1" stream="out:NewOrReplacedOrError_2"/>
+            <output port="1" stream="out:MakeAcceptNew_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">IF Report.OrdStatus==ORD_STATUS_BOV.NEW THEN ORD_STATUS_APP.NEW ELSE IF Report.OrdStatus==ORD_STATUS_BOV.PARTIALLY_FILLED THEN ORD_STATUS_APP.PARTIALLY_FILLED ELSE IF Report.OrdStatus==ORD_STATUS_BOV.FILLED THEN ORD_STATUS_APP.FILLED ELSE ORD_STATUS_APP.ERROR</replace>
+                    <replace field="CurrentState.CumQty">0.0</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2308.0,882.0;2330.0,793.0"/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="762.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeAcceptNewTriggered" type="map">
+            <input port="1" stream="out:NewOrReplacedOrError_3"/>
+            <output port="1" stream="out:MakeAcceptNewTriggered_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">IF Report.OrdStatus==ORD_STATUS_BOV.NEW THEN ORD_STATUS_APP.NEW ELSE IF Report.OrdStatus==ORD_STATUS_BOV.PARTIALLY_FILLED THEN ORD_STATUS_APP.PARTIALLY_FILLED ELSE IF Report.OrdStatus==ORD_STATUS_BOV.FILLED THEN ORD_STATUS_APP.FILLED ELSE ORD_STATUS_APP.ERROR</replace>
+                    <replace field="CurrentState.CumQty">0.0</replace>
+                    <replace field="CurrentState.ExtraInfo">"OrderType switched to Limit due Triggered action"</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2221.0,890.0;2333.0,1344.0"/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="1312.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="MakeError" type="map">
+            <input port="1" stream="out:NewOrReplacedOrError_4"/>
+            <output port="1" stream="out:MakeError_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.ERROR</replace>
+                    <replace field="CurrentState.ExtraInfo">"ERROR: accepted/new order not currently PENDING. "</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2318.0,898.0;2320.0,889.0"/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="858.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeError2" type="map">
+            <input port="1" stream="out:Union10_1"/>
+            <output port="1" stream="out:MakeError2_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP_ERROR</replace>
+                    <replace field="CurrentState.ExtraInfo">"ERROR: overfilled order"</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="566.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetNextState7" type="map">
+            <input port="1" stream="out:AdjustInMarketQty_1"/>
+            <output port="1" stream="out:SetNextState7_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="954.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Split" type="split">
+            <input port="1" stream="out:Cleanser_1"/>
+            <output port="1" stream="out:Split_1"/>
+            <output port="2" stream="out:Split_2"/>
+            <param name="output-count" value="2"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="1531.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union11" type="union">
+            <input port="1" stream="out:MakeCompleteFill_1"/>
+            <input port="2" stream="out:MakePartial_1"/>
+            <output port="1" stream="out:Union11_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="2264.0,693.0;2264.0,687.0"/>
+            <param name="gui:bends:2" value="2280.0,789.0;2300.0,707.0"/>
+            <param name="gui:x" value="2348.0"/>
+            <param name="gui:y" value="666.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="AdjustQtyAndPrice" type="map">
+            <input port="1" stream="out:Union11_1"/>
+            <output port="1" stream="out:AdjustQtyAndPrice_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.CumQty">Report.CumQty</replace>
+                    <replace field="CurrentState.LeavesQty">Report.LeavesQty</replace>
+                    <replace field="CurrentState.AvgPx">if (isnull(CurrentState.AvgPx) OR CurrentState.AvgPx==0.0) then Report.LastPx else (Report.LastShares*Report.LastPx+CurrentState.CumQty*CurrentState.AvgPx)/(Report.LastShares+CurrentState.CumQty)</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2647.0"/>
+            <param name="gui:y" value="665.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="GetReplaceRequestLastestUpdateNumber" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:GetOrderReplacedbyThis_1"/>
+            <output port="1" stream="out:GetReplaceRequestLastestUpdateNumber_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="secondary-key"/>
+            <param name="key-field.0" value="ClOrdID"/>
+            <param name="key-lowerbound-value.0" value="CurrentState.OrigClOrdID"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="key-field.1" value="OrigClOrdID"/>
+            <param name="key-lowerbound-operation.1" value="begin"/>
+            <param name="key-upperbound-operation.1" value="end"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.UpdateNumber">current.UpdateNumber</replace>
+                </item>
+                <item name="current" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2647.0"/>
+            <param name="gui:y" value="1410.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeCancel" type="map">
+            <input port="1" stream="out:Split_1"/>
+            <output port="1" stream="out:MakeCancel_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">Report.OrdStatus</replace>
+                    <replace field="CurrentState.ExecType">Report.ExecType</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.CANCELLED</replace>
+                    <replace field="CurrentState.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2647.0"/>
+            <param name="gui:y" value="1521.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="RequestedCancel" type="filter">
+            <input port="1" stream="out:Split_2"/>
+            <output port="1" stream="out:RequestedCancel_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="notnull(OrderCancellingThis.OrderStatusApp)"/>
+            <param name="gui:bends:1" value="2566.0,1572.0;2584.0,1648.0"/>
+            <param name="gui:x" value="2647.0"/>
+            <param name="gui:y" value="1617.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union8" type="union">
+            <input port="1" stream="out:MakeAcceptNew_1"/>
+            <input port="2" stream="out:MakeError_1"/>
+            <input port="3" stream="out:MakeAcceptNewTriggered_1"/>
+            <output port="1" stream="out:Union8_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="2539.0,793.0;2559.0,879.0"/>
+            <param name="gui:bends:2" value=""/>
+            <param name="gui:bends:3" value="2507.0,1344.0;2617.0,899.0"/>
+            <param name="gui:x" value="2647.0"/>
+            <param name="gui:y" value="858.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="GetCurrOrdState" type="map">
+            <input port="1" stream="out:RequestedCancel_1"/>
+            <output port="1" stream="out:GetCurrOrdState_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderCancellingThis.OrderStatusApp">ORD_STATUS_APP.COMPLETED</replace>
+                    <replace field="OrderCancellingThis.UpdateTime">now()</replace>
+                    <replace field="OrderCancellingThis.CumQty">double()</replace>
+                    <replace field="OrderCancellingThis.LeavesQty">double()</replace>
+                    <replace field="OrderCancellingThis.AvgPx">double()</replace>
+                    <replace field="OrderCancellingThis.ExecType">EXEC_TYPE_BOV.FILL</replace>
+                    <replace field="OrderCancellingThis.ExecTransType">EXEC_TRANS_TYPE_BOV.CANCEL</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2807.0"/>
+            <param name="gui:y" value="1617.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetNextState" type="map">
+            <input port="1" stream="out:Union8_1"/>
+            <output port="1" stream="out:SetNextState_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2807.0"/>
+            <param name="gui:y" value="858.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Split3" type="split">
+            <input port="1" stream="out:GetReplaceRequestLastestUpdateNumber_1"/>
+            <output port="1" stream="out:Split3_1"/>
+            <output port="2" stream="out:Split3_2"/>
+            <param name="output-count" value="2"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2807.0"/>
+            <param name="gui:y" value="1410.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Union9" type="union">
+            <input port="1" stream="out:MakeError2_1"/>
+            <input port="2" stream="out:AdjustQtyAndPrice_1"/>
+            <output port="1" stream="out:Union9_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="2726.0,597.0;2744.0,676.0"/>
+            <param name="gui:bends:2" value=""/>
+            <param name="gui:x" value="2807.0"/>
+            <param name="gui:y" value="655.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="MakeReplaceNew" type="map">
+            <input port="1" stream="out:Split3_1"/>
+            <output port="1" stream="out:MakeReplaceNew_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="CurrentState.OrderStatusBov">ORD_STATUS_BOV.NEW</replace>
+                    <replace field="CurrentState.OrderStatusApp">ORD_STATUS_APP.NEW</replace>
+                    <replace field="CurrentState.UpdateTime">now()</replace>
+                    <replace field="CurrentState.CumQty">Report.CumQty</replace>
+                    <replace field="CurrentState.LeavesQty">Report.LeavesQty</replace>
+                    <replace field="CurrentState.AvgPx">OrderReplacedbyThis.AvgPx</replace>
+                    <replace field="CurrentState.ExecType">EXEC_TYPE_BOV.NEW</replace>
+                    <replace field="CurrentState.ExecTransType">EXEC_TRANS_TYPE_BOV.NEW</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value="2924.0,1431.0;2938.0,1493.0"/>
+            <param name="gui:x" value="2989.0"/>
+            <param name="gui:y" value="1461.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="RequestedReplace" type="filter">
+            <input port="1" stream="out:Split3_2"/>
+            <output port="1" stream="out:RequestedReplace_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="notnull(OrderReplacedbyThis.ReqID)"/>
+            <param name="gui:bends:1" value="2892.0,1451.0;2944.0,1242.0"/>
+            <param name="gui:x" value="2989.0"/>
+            <param name="gui:y" value="1210.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="SetNextState2" type="map">
+            <input port="1" stream="out:Union9_1"/>
+            <output port="1" stream="out:SetNextState2_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="2944.0,686.0;2944.0,687.0"/>
+            <param name="gui:x" value="2989.0"/>
+            <param name="gui:y" value="656.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SwapStates" type="map">
+            <input port="1" stream="out:GetCurrOrdState_1"/>
+            <output port="1" stream="out:SwapStates_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                    <replace field="UpdateNumber">OrderCancellingThis.UpdateNumber + 1</replace>
+                </item>
+                <expressions>
+                    <include field="CurrentState">OrderCancellingThis</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="2989.0"/>
+            <param name="gui:y" value="1617.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MakeReplacedCancelled" type="map">
+            <input port="1" stream="out:RequestedReplace_1"/>
+            <output port="1" stream="out:MakeReplacedCancelled_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="OrderReplacedbyThis.OrderStatusBov">ORD_STATUS_APP.CANCELLED</replace>
+                    <replace field="OrderReplacedbyThis.ExecType">Report.ExecType</replace>
+                    <replace field="OrderReplacedbyThis.OrderStatusApp">ORD_STATUS_APP.CANCELLED</replace>
+                    <replace field="OrderReplacedbyThis.InMarketQty">0.0</replace>
+                    <replace field="OrderReplacedbyThis.ReplacedbyReqID">CurrentState.ReqID</replace>
+                    <replace field="OrderReplacedbyThis.ExecTransType">Report.ExecTransType</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="1211.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="Union12" type="union">
+            <input port="1" stream="out:MakeCancel_1"/>
+            <input port="2" stream="out:SwapStates_1"/>
+            <output port="1" stream="out:Union12_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3072.0,1552.0;3076.0,1536.0"/>
+            <param name="gui:bends:2" value="3138.0,1648.0;3160.0,1556.0"/>
+            <param name="gui:x" value="3242.0"/>
+            <param name="gui:y" value="1515.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetNextState3" type="map">
+            <input port="1" stream="out:Union12_1"/>
+            <output port="1" stream="out:SetNextState3_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                    <remove field="OrderCancellingThis"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3494.0"/>
+            <param name="gui:y" value="1515.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SwapStates2" type="map">
+            <input port="1" stream="out:MakeReplacedCancelled_1"/>
+            <output port="1" stream="out:SwapStates2_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                    <replace field="UpdateNumber">OrderReplacedbyThis.UpdateNumber + 1</replace>
+                </item>
+                <expressions>
+                    <include field="CurrentState">OrderReplacedbyThis</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3494.0"/>
+            <param name="gui:y" value="1210.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="Union13" type="union">
+            <input port="1" stream="out:SwapStates2_1"/>
+            <input port="2" stream="out:MakeReplaceNew_1"/>
+            <output port="1" stream="out:Union13_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="3584.0,1242.0;3640.0,1473.0"/>
+            <param name="gui:bends:2" value=""/>
+            <param name="gui:x" value="3655.0"/>
+            <param name="gui:y" value="1452.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetNextState4" type="map">
+            <input port="1" stream="out:Union13_1"/>
+            <output port="1" stream="out:SetNextState4_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="CurrentState"/>
+                    <remove field="OrderReplacedbyThis"/>
+                </item>
+                <expressions>
+                    <include field="NextState">CurrentState</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="3752.0"/>
+            <param name="gui:y" value="1451.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="Union1" type="union">
+            <input port="1" stream="out:SetNextState_1"/>
+            <input port="2" stream="out:SetNextState2_1"/>
+            <input port="3" stream="out:SetNextState3_1"/>
+            <input port="4" stream="out:SetNextState4_1"/>
+            <input port="5" stream="out:SetNextState5_1"/>
+            <input port="6" stream="out:SetNextState6_1"/>
+            <input port="7" stream="out:SetNextState7_1"/>
+            <output port="1" stream="out:Union1_1"/>
+            <param name="strict" value="true"/>
+            <param name="strict" value="true"/>
+            <param name="gui:bends:1" value="3773.0,889.0;3931.0,1526.0"/>
+            <param name="gui:bends:2" value="3720.0,687.0;3932.0,1536.0"/>
+            <param name="gui:bends:3" value=""/>
+            <param name="gui:bends:4" value="3869.0,1483.0;3887.0,1557.0"/>
+            <param name="gui:bends:5" value="3099.0,1706.0;3173.0,1405.0;3819.0,1405.0;3859.0,1567.0"/>
+            <param name="gui:bends:6" value="2438.0,1927.0;2634.0,1141.0;3811.0,1141.0;3919.0,1577.0"/>
+            <param name="gui:bends:7" value="3816.0,985.0;3966.0,1588.0"/>
+            <param name="gui:x" value="4017.0"/>
+            <param name="gui:y" value="1505.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="104.0"/>
+        </box>
+        <box name="UpdateNumber" type="map">
+            <input port="1" stream="out:Union1_1"/>
+            <output port="1" stream="out:UpdateNumber_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="NextState.UpdateNumber">UpdateNumber</replace>
+                    <replace field="NextState.UpdateTime">UpdateTime</replace>
+                    <replace field="NextState.LastReport">Report</replace>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4145.0"/>
+            <param name="gui:y" value="1525.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="ExtractNextState" type="map">
+            <input port="1" stream="out:UpdateNumber_1"/>
+            <output port="1" stream="out:ExtractNextState_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="*">NextState.*</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4239.0"/>
+            <param name="gui:y" value="1525.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="CheckUpdateNumber" type="filter">
+            <input port="1" stream="out:ExtractNextState_1"/>
+            <output port="1" stream="out:CheckUpdateNumber_1"/>
+            <output port="2" stream="out:CheckUpdateNumber_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="notnull(UpdateNumber)"/>
+            <param name="expression.1" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4495.0"/>
+            <param name="gui:y" value="1526.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="UpdateOrderStatus" type="query">
+            <dataref id="querytable" name="OrderStateTable"/>
+            <input port="1" stream="out:CheckUpdateNumber_1"/>
+            <output port="1" stream="out:UpdateOrderStatus_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="ReqID"/>
+            <param name="key-value.0" value="input.ReqID"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="new" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <include field="TradeDate">input.LastReport.TradeDate</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="ClOrdID">input.ClOrdID</set>
+                    <set field="OrigClOrdID">input.OrigClOrdID</set>
+                    <set field="UpdateNumber">input.UpdateNumber</set>
+                    <set field="UpdateTime">input.UpdateTime</set>
+                    <set field="OrderStatusBov">input.OrderStatusBov</set>
+                    <set field="OrderStatusApp">input.OrderStatusApp</set>
+                    <set field="Symbol">input.Symbol</set>
+                    <set field="Price">input.Price</set>
+                    <set field="OrderID">input.OrderID</set>
+                    <set field="ReplacedbyReqID">input.ReplacedbyReqID</set>
+                    <set field="CumQty">input.CumQty</set>
+                    <set field="LeavesQty">input.LeavesQty</set>
+                    <set field="OrderQty">input.OrderQty</set>
+                    <set field="InMarketQty">input.InMarketQty</set>
+                    <set field="AvgPx">input.AvgPx</set>
+                    <set field="ExtraInfo">input.ExtraInfo</set>
+                    <set field="ExecTransType">input.ExecTransType</set>
+                    <set field="ExecType">input.ExecType</set>
+                    <set field="OrdRejReason">input.OrdRejReason</set>
+                    <set field="LastReport">input.LastReport</set>
+                </expressions>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="4567.0,1547.0;4615.0,1750.0"/>
+            <param name="gui:x" value="4670.0"/>
+            <param name="gui:y" value="1718.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="Union6" type="union">
+            <input port="1" stream="out:PendingReport_1"/>
+            <input port="2" stream="out:UpdateOrderStatus_1"/>
+            <output port="1" stream="out:Union6_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+            <param name="gui:bends:1" value="4764.0,1653.0;4770.0,1627.0"/>
+            <param name="gui:bends:2" value="4768.0,1750.0;4792.0,1647.0"/>
+            <param name="gui:x" value="4806.0"/>
+            <param name="gui:y" value="1606.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WriteUpdateOrderStatus" type="outputadapter">
+            <input port="1" stream="out:UpdateOrderStatus_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/UpdateOrderStatus.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="osmlogs/UpdateOrderStatus.txt"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4806.0"/>
+            <param name="gui:y" value="1719.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="SetExecIAvgPxDASTP" type="map">
+            <input port="1" stream="out:Union6_1"/>
+            <output port="1" stream="ExecReportOut"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <replace field="AvgPx">if isnull(input.AvgPx) then 0.0 else input.AvgPx</replace>
+                </item>
+                <expressions>
+                    <include field="ExecID">input.ReqID</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="4913.0"/>
+            <param name="gui:y" value="1606.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="ExecReportOut">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="5018.0"/>
+            <param name="gui:y" value="1606.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <gui.note name="Note">
+            <property name="description" value="Bovespa will report replacement on the replace order - same Base = ClOrdID"/>
+            <param name="gui:x" value="2312.0"/>
+            <param name="gui:y" value="1050.0"/>
+            <param name="gui:width" value="133.0"/>
+            <param name="gui:height" value="97.0"/>
+            <note-target name="GetOrderReplacedbyThis"/>
+            <note-target name="GetReplaceRequestLastestUpdateNumber"/>
+        </gui.note>
+        <gui.note name="Note2">
+            <property name="description" value="Bovespa will report the original order as cancelled. Need to get the cancelling order to set completed - Base = ClOrdID"/>
+            <param name="gui:x" value="-3.0"/>
+            <param name="gui:y" value="1871.0"/>
+            <param name="gui:width" value="140.0"/>
+            <param name="gui:height" value="105.0"/>
+            <note-target name="Note2"/>
+        </gui.note>
+        <gui.note name="Note3">
+            <property name="description" value="NOTE: make sure venue is informing CumQty and LeavesQty"/>
+            <param name="gui:x" value="2950.0"/>
+            <param name="gui:y" value="1308.0"/>
+            <param name="gui:width" value="140.0"/>
+            <param name="gui:height" value="103.0"/>
+            <note-target name="MakeReplaceNew"/>
+        </gui.note>
+        <gui.note name="Note4">
+            <property name="description" value="Used when instrument is frozen"/>
+            <param name="gui:x" value="1577.0"/>
+            <param name="gui:y" value="1771.0"/>
+            <param name="gui:width" value="104.0"/>
+            <param name="gui:height" value="75.0"/>
+            <note-target name="MakeSuspend"/>
+        </gui.note>
+        <gui.note name="Note5">
+            <property name="description" value="Deals subsequent defreezing of instruments"/>
+            <param name="gui:x" value="1561.0"/>
+            <param name="gui:y" value="995.0"/>
+            <param name="gui:width" value="136.0"/>
+            <param name="gui:height" value="102.0"/>
+            <note-target name="FilterInstrumentFreeze"/>
+        </gui.note>
+        <gui.note name="Note6">
+            <property name="description" value="When ExecType equals Triggered the OrdType switches from StopLimit to Limit"/>
+            <param name="gui:x" value="2311.0"/>
+            <param name="gui:y" value="1162.0"/>
+            <param name="gui:width" value="135.0"/>
+            <param name="gui:height" value="100.0"/>
+            <note-target name="MakeAcceptNewTriggered"/>
+        </gui.note>
+    </add>
+</modify>

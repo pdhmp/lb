@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MarketDataFIXBMF/QAMDFIX.sbapp&apos; to &apos;QAMDFIXbov.sbapp&apos;" description="Rename resource &apos;QAMDFIX.sbapp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="QAMDFIX.sbapp" name="QAMDFIXbov.sbapp" stamp="1343405629492" updateReferences="true"/>
+</session>

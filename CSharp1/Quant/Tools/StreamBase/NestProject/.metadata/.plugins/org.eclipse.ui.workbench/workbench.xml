@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="30" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="386" y="251">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="159"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="239" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.streambase.sb.ide.core.editors.SBConfEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.streambase.sb.ide.editors.interfaces.InterfaceEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.streambase.sb.studio.gef.editor.EventFlow" itemType="typeToolBarContribution" x="296" y="22"/>
+<coolItem id="com.streambase.sb.studio.gef.editor.EventFlowLayout" itemType="typePlaceholder" x="224" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="193" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1341254356725" focus="true" label="Workspace - SB Authoring">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.streambase.sb.studio.gef.editor.EventFlow" name="NestProject.sbapp" partName="NestProject.sbapp" path="C:/Documents and Settings/ramon.vallente/My Documents/NestProject/NestProject/NestProject.sbapp" title="NestProject.sbapp" tooltip="NestProject/NestProject.sbapp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NestProject/NestProject.sbapp"/>
+</editor>
+<editor id="com.streambase.sb.ide.core.editors.SBConfEditor" name="sbd.sbconf" partName="sbd.sbconf" path="C:/Documents and Settings/ramon.vallente/My Documents/NestProject/NestProject/sbd.sbconf" title="sbd.sbconf" tooltip="NestProject/sbd.sbconf" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NestProject/sbd.sbconf"/>
+</editor>
+<editor activePart="true" focus="true" id="com.streambase.sb.ide.core.editors.SBConfEditor" name="sbd.sbconf" partName="sbd.sbconf" path="C:/Documents and Settings/ramon.vallente/My Documents/NestProject/MarketDataFIXBMF/sbd.sbconf" title="sbd.sbconf" tooltip="MarketDataFIXBMF/sbd.sbconf" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MarketDataFIXBMF/sbd.sbconf"/>
+</editor>
+</editors>
+<views>
+<view id="com.streambase.sb.sbmanager.StreamsView" partName="Streams"/>
+<view id="com.streambase.sb.sbmanager.ThreadsView" partName="Threads"/>
+<view id="com.streambase.sb.studio.fix.designer.views.FIXDesignerView" partName="FIX Schema Designer">
+<viewState/>
+</view>
+<view id="com.streambase.sb.sbmanager.MemoryChartView" partName="Memory">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
+<view id="com.streambase.sb.sbmanager.CPUChartView" partName="CPU">
+<viewState/>
+</view>
+<view id="com.streambase.sb.sbmanager.QueuesView" partName="Queues"/>
+<view id="com.streambase.sb.studio.views.ExtensionPointsView" partName="StreamBase Extension Points">
+<viewState/>
+</view>
+<view id="org.eclipse.gef.ui.palette_view" partName="Palette">
+<viewState>
+<entry expansion="true" extent="287" maximum="290" minimum="0" pinned="false" value="0">
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+</entry>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+</entry>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+<entry active="false"/>
+</entry>
+</viewState>
+</view>
+<view id="com.streambase.sb.sbmanager.OperatorsViewPage" partName="Operators">
+<viewState/>
+</view>
+<view id="com.streambase.sb.sbmanager.ClientsView" partName="Clients">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
+<view id="com.streambase.sb.studio.views.ReutersSchemaDesignerView" partName="Thomson Reuters Schema Designer">
+<viewState com.streambase.sb.studio.reuters.core.schemadesigner.lastUsedServices=""/>
+</view>
+<view id="com.streambase.sb.sbmanager.ServersView" partName="Servers">
+<viewState/>
+</view>
+<view id="com.streambase.sb.ide.views.PropertiesView" partName="StreamBase Properties">
+<viewState PropertiesView.STORE_SHOW_EXPRESSION_PANE_STATE="true" PropertiesView.STORE_SHOW_EXPRESSION_PANE_TAB="1" PropertiesView.STORE_SHOW_EXPRESSION_PANE_WEIGHTS="774,225"/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="144" org.eclipse.ui.ide.severityAndDescriptionField="1377"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="com.streambase.sb.studio.core.SBLayoutFilesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="com.streambase.sb.studio.core.SBAROutputFolderFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="com.streambase.sb.ide.views.SBDemoControlView" partName="Demo Control">
+<viewState/>
+</view>
+<view id="com.streambase.sb.ide.views.TypecheckView" partName="Typecheck Errors">
+<viewState/>
+</view>
+<view id="com.streambase.sb.studio.views.ModuleExplorer" partName="Module Explorer">
+<viewState show-hidden-folders="false" sort-by-search-path="false"/>
+</view>
+</views>
+<perspectives activePart="com.streambase.sb.ide.core.editors.SBConfEditor" activePerspective="com.streambase.sb.ide.perspectives.SBAppPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.streambase.sb.ide.perspectives.SBDemoPerspective" id="com.streambase.sb.ide.perspectives.DemoPerspective" label="SB Demos"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.StreamBaseActionSet"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.projects.streambase"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.SBAppPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.streambase.sb.ide.views.SBDemoControlView"/>
+<fastViewBars/>
+<viewLayoutRec id="com.streambase.sb.ide.views.SBDemoControlView" showTitle="false" standalone="true"/>
+<viewLayoutRec closeable="false" id="com.streambase.sb.ide.views.SBDemoDocOverviewView" moveable="false"/>
+<viewLayoutRec closeable="false" id="com.streambase.sb.ide.views.SBDemoOutputView" moveable="false"/>
+<viewLayoutRec closeable="false" id="com.streambase.sb.ide.views.SBDemoDefaultInputOutputView" moveable="false"/>
+<viewLayoutRec closeable="false" id="com.streambase.sb.ide.views.SBDemoDocFaqView" moveable="false"/>
+<viewLayoutRec closeable="false" id="com.streambase.sb.ide.views.SBDemoDocDetailsView" moveable="false"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@ab110f">&#x0A;<folder activePageID="com.streambase.sb.ide.views.SBDemoControlView" appearance="4" expanded="2">&#x0A;<page content="com.streambase.sb.ide.views.SBDemoControlView" label="Demo Control"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.ui.internal.ViewStack@ab110f">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3995657" ratioLeft="368" ratioRight="553" relationship="4" relative="org.eclipse.ui.internal.ViewStack@ab110f"/>
+<info folder="true" part="outputFolder" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.ide.views.SBDemoOutputView" label="LabelNotFound"/>
+<page content="com.streambase.sb.ide.views.SBDemoDefaultInputOutputView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="com.streambase.sb.ide.views.PropertiesView" ratio="0.44846293" ratioLeft="248" ratioRight="305" relationship="4" relative="org.eclipse.ui.editorss"/>
+<info folder="true" part="topRightFolder" ratio="0.6997608" ratioLeft="1170" ratioRight="502" relationship="2" relative="org.eclipse.ui.internal.ViewStack@ab110f">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.ide.views.SBDemoDocFaqView" label="LabelNotFound"/>
+<page content="com.streambase.sb.ide.views.SBDemoDocDetailsView" label="LabelNotFound"/>
+<page content="com.streambase.sb.ide.views.SBDemoDocOverviewView" label="LabelNotFound"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.streambase.sb.ide.perspectives.SBAppPerspective" id="com.streambase.sb.ide.perspectives.SBAppPerspective" label="SB Authoring"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.StreamBaseNewActionSet"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.StreamBaseNewActionSetDebugExtension"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.StreamBaseActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.actionSets.trace"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+<show_view_action id="org.eclipse.gef.ui.palette_view"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.streambase.sb.studio.views.ExtensionPointsView"/>
+<show_view_action id="com.streambase.sb.ide.views.PropertiesView"/>
+<show_view_action id="com.streambase.sb.ide.views.TypecheckView"/>
+<show_view_action id="com.streambase.sb.ide.views.SavedSchemasView"/>
+<show_view_action id="com.streambase.sb.studio.fix.designer.views.FIXDesignerView"/>
+<show_view_action id="com.streambase.sb.studio.views.ReutersSchemaDesignerView"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.projects.streambase"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbapp"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbint"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.ssql"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbdeploy"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbconf"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbfs"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbunittest"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.SBClientCreateWizard"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.EmbeddedAdapterCreateWizard"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.JavaOperatorCreateWizard"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.JavaFunctionCreateWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.DebugPerspective"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.ManagerPerspective"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.DemoPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.streambase.sb.ide.views.TypecheckView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="com.streambase.sb.studio.views.ExtensionPointsView"/>
+<view id="com.streambase.sb.studio.fix.designer.views.FIXDesignerView"/>
+<view id="com.streambase.sb.studio.views.ReutersSchemaDesignerView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.streambase.sb.ide.views.PropertiesView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.gef.ui.palette_view"/>
+<view id="com.streambase.sb.studio.views.ModuleExplorer"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="projects">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.5602157" ratioLeft="935" ratioRight="734" relationship="2" relative="projects">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.17735171" ratioLeft="296" ratioRight="1373" relationship="2" relative="projects"/>
+<info folder="true" part="typecheck" ratio="0.6113537" ratioLeft="560" ratioRight="356" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.streambase.sb.ide.views.PropertiesView" appearance="2" expanded="2">
+<page content="com.streambase.sb.ide.views.TypecheckView" label="Typecheck Errors"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="com.streambase.sb.studio.views.ExtensionPointsView" label="StreamBase Extension Points"/>
+<page content="com.streambase.sb.studio.fix.designer.views.FIXDesignerView" label="FIX Schema Designer"/>
+<page content="com.streambase.sb.studio.views.ReutersSchemaDesignerView" label="Thomson Reuters Schema Designer"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.streambase.sb.ide.views.PropertiesView" label="StreamBase Properties"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="palette" ratio="0.5829694" ratioLeft="534" ratioRight="382" relationship="4" relative="projects">
+<folder activePageID="org.eclipse.gef.ui.palette_view" appearance="2" expanded="2">
+<page content="org.eclipse.gef.ui.palette_view" label="Palette"/>
+<page content="com.streambase.sb.studio.views.ModuleExplorer" label="Module Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.streambase.sb.ide.perspectives.DebugPerspective" id="com.streambase.sb.ide.perspectives.DebugPerspective" label="SB Test/Debug"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.StreamBaseActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="com.streambase.sb.studio.actionSets.trace"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.streambase.sb.ide.views.ManualEnqueueView"/>
+<show_view_action id="com.streambase.sb.ide.views.FeedSimulationsView"/>
+<show_view_action id="com.streambase.sb.ide.views.ApplicationInputView"/>
+<show_view_action id="com.streambase.sb.ide.views.ApplicationOutputView"/>
+<show_view_action id="com.streambase.sb.ide.views.RecordingsView"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.projects.streambase"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbapp"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbint"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.ssql"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbdeploy"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbfs"/>
+<new_wizard_action id="com.streambase.sb.studio.newWizards.sbunittest"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.SBClientCreateWizard"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.EmbeddedAdapterCreateWizard"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.JavaOperatorCreateWizard"/>
+<new_wizard_action id="com.streambase.sb.eclipse.clientTemplate.JavaFunctionCreateWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.SBAppPerspective"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.ManagerPerspective"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.DemoPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="com.streambase.sb.ide.views.ApplicationOutputView" style="1">&#x0A;<fastViews>&#x0A;<view id="com.streambase.sb.ide.views.ApplicationOutputView" ratio="0.3"/>
+<view id="com.streambase.sb.ide.views.ApplicationInputView" ratio="0.3"/>
+<view id="com.streambase.sb.studio.views.ProfilerView" ratio="0.3"/>
+<view id="org.eclipse.debug.ui.VariableView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="topRight" orientation="256" selectedTabId="org.eclipse.debug.ui.DebugView" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.debug.ui.DebugView" ratio="0.3"/>
+<view id="org.eclipse.debug.ui.BreakpointView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="256" selectedTabId="com.streambase.sb.ide.views.ManualEnqueueView" style="1">&#x0A;<fastViews>&#x0A;<view id="com.streambase.sb.ide.views.ManualEnqueueView" ratio="0.3"/>
+<view id="com.streambase.sb.ide.views.FeedSimulationsView" ratio="0.3"/>
+<view id="com.streambase.sb.ide.views.RecordingsView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">&#x0A;<fastViews>&#x0A;<view id="com.streambase.sb.ide.views.PropertiesView" ratio="0.2992383"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2992383"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="com.streambase.sb.ide.views.ManualEnqueueView" label="LabelNotFound"/>
+<page content="com.streambase.sb.ide.views.FeedSimulationsView" label="LabelNotFound"/>
+<page content="com.streambase.sb.ide.views.RecordingsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.27082086" ratioLeft="452" ratioRight="1217" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="bottomRight" ratio="0.66594124" ratioLeft="612" ratioRight="307" relationship="4" relative="topRight">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="com.streambase.sb.ide.views.PropertiesView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25082508" ratioLeft="152" ratioRight="454" relationship="4" relative="topRight"/>
+<info folder="true" part="bottomLeft" ratio="0.23362446" ratioLeft="214" ratioRight="702" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="com.streambase.sb.ide.views.ApplicationOutputView" label="LabelNotFound"/>
+<page content="com.streambase.sb.ide.views.ApplicationInputView" label="LabelNotFound"/>
+<page content="com.streambase.sb.studio.views.ProfilerView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.VariableView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.streambase.sb.sbmanager.SBManagerPerspective" id="com.streambase.sb.ide.perspectives.ManagerPerspective" label="SB Manager"/>
+<alwaysOnActionSet id="org.eclipse.egit.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="com.streambase.sb.sbmanager.ServersView"/>
+<show_view_action id="com.streambase.sb.sbmanager.OperatorsViewPage"/>
+<show_view_action id="com.streambase.sb.sbmanager.ThreadsView"/>
+<show_view_action id="com.streambase.sb.sbmanager.CPUChartView"/>
+<show_view_action id="com.streambase.sb.sbmanager.MemoryChartView"/>
+<show_view_action id="com.streambase.sb.sbmanager.ClientsView"/>
+<show_view_action id="com.streambase.sb.sbmanager.QueuesView"/>
+<show_view_action id="com.streambase.sb.sbmanager.StreamsView"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.SBAppPerspective"/>
+<perspective_action id="com.streambase.sb.ide.perspectives.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.streambase.sb.sbmanager.ServersView"/>
+<view id="com.streambase.sb.sbmanager.ClientsView"/>
+<view id="com.streambase.sb.sbmanager.CPUChartView"/>
+<view id="com.streambase.sb.sbmanager.MemoryChartView"/>
+<view id="com.streambase.sb.sbmanager.QueuesView"/>
+<view id="com.streambase.sb.sbmanager.StreamsView"/>
+<view id="com.streambase.sb.sbmanager.OperatorsViewPage"/>
+<view id="com.streambase.sb.sbmanager.ThreadsView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="servers">&#x0A;<folder activePageID="com.streambase.sb.sbmanager.ServersView" appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.sbmanager.ServersView" label="Servers"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="servers">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="cpu" ratio="0.29964116" ratioLeft="501" ratioRight="1171" relationship="2" relative="servers">&#x0A;<folder activePageID="com.streambase.sb.sbmanager.CPUChartView" appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.sbmanager.CPUChartView" label="CPU"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.94994557" ratioLeft="873" ratioRight="46" relationship="4" relative="cpu"/>
+<info folder="true" part="clients" ratio="0.49942726" ratioLeft="436" ratioRight="437" relationship="4" relative="cpu">&#x0A;<folder activePageID="com.streambase.sb.sbmanager.ClientsView" appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.sbmanager.ClientsView" label="Clients"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="ops" ratio="0.49957302" ratioLeft="585" ratioRight="586" relationship="2" relative="clients">&#x0A;<folder activePageID="com.streambase.sb.sbmanager.OperatorsViewPage" appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.sbmanager.OperatorsViewPage" label="Operators"/>
+<page content="com.streambase.sb.sbmanager.ThreadsView" label="Threads"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="mem" ratio="0.49957302" ratioLeft="585" ratioRight="586" relationship="2" relative="cpu">&#x0A;<folder activePageID="com.streambase.sb.sbmanager.MemoryChartView" appearance="2" expanded="2">&#x0A;<page content="com.streambase.sb.sbmanager.MemoryChartView" label="Memory"/>
+<page content="com.streambase.sb.sbmanager.QueuesView" label="Queues"/>
+<page content="com.streambase.sb.sbmanager.StreamsView" label="Streams"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.console.ConsoleView" ratio="0.69967353" ratioLeft="643" ratioRight="276" relationship="4" relative="servers"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/NestProject/NestProject.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/NestProject/Strategies/CBO.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/NestProject/Strategies/Momentum.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/NestProject/Strategies/CBOStrategy.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/NestProject/Strategies/MomentumHedgedStrategy.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/NestProject/Strategies/MomentumLSStrategy.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/MarketDataFIXBMF/QAMDFIXBMF.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/MarketDataFIXBMF/MDFIX.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" path="/MarketDataFIXBOV/modules/MDRequest.sbapp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.ide.core.editors.SBConfEditor" path="/NestProject/sbd.sbconf"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.ide.core.editors.SBConfEditor" path="/MarketDataFIXBMF/sbd.sbconf"/>
+</editors>
+<item historyLabel="MomentumLSStrategy.sbapp" index="5">
+<position ITEM_NAME="MapOrderId"/>
+</item>
+<item historyLabel="CBO.sbapp" index="1">
+<position ITEM_NAME="CBO5"/>
+</item>
+<item historyLabel="CBOStrategy.sbapp" index="3">
+<position/>
+</item>
+<item historyLabel="CBO.sbapp" index="1">
+<position ITEM_NAME="CBO5"/>
+</item>
+<item historyLabel="MomentumLSStrategy.sbapp" index="5">
+<position/>
+</item>
+<item historyLabel="MomentumHedgedStrategy.sbapp" index="4">
+<position ITEM_NAME="MapOrderId"/>
+</item>
+<item historyLabel="CBO.sbapp" index="1">
+<position ITEM_NAME="CBO5"/>
+</item>
+<item historyLabel="Momentum.sbapp" index="2">
+<position ITEM_NAME="MomentumLS"/>
+</item>
+<item historyLabel="Momentum.sbapp" index="2">
+<position ITEM_NAME="Momentum24"/>
+</item>
+<item historyLabel="Momentum.sbapp" index="2">
+<position/>
+</item>
+<item historyLabel="Momentum.sbapp" index="2">
+<position/>
+</item>
+<item historyLabel="Momentum.sbapp" index="2">
+<position/>
+</item>
+<item historyLabel="Momentum.sbapp" index="2">
+<position/>
+</item>
+<item historyLabel="CBO.sbapp" index="1">
+<position ITEM_NAME="CBO5"/>
+</item>
+<item historyLabel="CBO.sbapp" index="1">
+<position/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="TrendFollow"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="UpdateOrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="TFDividedOrders"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="UpdateOrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="TFDividedOrders"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="UpdateOrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="OrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="InsertOrder"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="GetAll"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="WriteCopy"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="GetCopy"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="WriteCopy"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="GetAll"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="GetSumBroker"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="TFDividedOrders"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="UpdateOrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="CalculateQtyVirtual"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="UpdateOrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="WriteCopy"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="UpdateOrdersTable"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="MDReqInput"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="Boleta"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="InputStream"/>
+</item>
+<item historyLabel="QAMDFIXBMF.sbapp" index="6">
+<position ITEM_NAME="MDFIXRef1"/>
+</item>
+<item historyLabel="MDFIX.sbapp" index="7">
+<position ITEM_NAME="MDRequestRef1"/>
+</item>
+<item historyLabel="MDRequest.sbapp" index="8">
+<position/>
+</item>
+<item historyLabel="MDFIX.sbapp" index="7">
+<position ITEM_NAME="MDRequestRef1"/>
+</item>
+<item historyLabel="NestProject.sbapp" index="0">
+<position ITEM_NAME="MapCommand"/>
+</item>
+<item historyLabel="sbd.sbconf" index="9">
+<position info="not_deleted" x="2252" y="0"/>
+</item>
+<item active="true" historyLabel="sbd.sbconf" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="com.streambase.sb.ide.perspectives.debug.trimGroup"/>
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.ide.core.editors.SBConfEditor" name="sbd.sbconf" tooltip="MarketDataFIXBMF/sbd.sbconf">
+<persistable path="/MarketDataFIXBMF/sbd.sbconf"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.ide.core.editors.SBConfEditor" name="sbd.sbconf" tooltip="NestProject/sbd.sbconf">
+<persistable path="/NestProject/sbd.sbconf"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="MDRequest.sbapp" tooltip="MarketDataFIXBOV/modules/MDRequest.sbapp">
+<persistable path="/MarketDataFIXBOV/modules/MDRequest.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="MDFIX.sbapp" tooltip="MarketDataFIXBMF/MDFIX.sbapp">
+<persistable path="/MarketDataFIXBMF/MDFIX.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="QAMDFIXBMF.sbapp" tooltip="MarketDataFIXBMF/QAMDFIXBMF.sbapp">
+<persistable path="/MarketDataFIXBMF/QAMDFIXBMF.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="CBOStrategy.sbapp" tooltip="NestProject/Strategies/CBOStrategy.sbapp">
+<persistable path="/NestProject/Strategies/CBOStrategy.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="CBO.sbapp" tooltip="NestProject/Strategies/CBO.sbapp">
+<persistable path="/NestProject/Strategies/CBO.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="MomentumLSStrategy.sbapp" tooltip="NestProject/Strategies/MomentumLSStrategy.sbapp">
+<persistable path="/NestProject/Strategies/MomentumLSStrategy.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="MomentumHedgedStrategy.sbapp" tooltip="NestProject/Strategies/MomentumHedgedStrategy.sbapp">
+<persistable path="/NestProject/Strategies/MomentumHedgedStrategy.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="Momentum.sbapp" tooltip="NestProject/Strategies/Momentum.sbapp">
+<persistable path="/NestProject/Strategies/Momentum.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="TrendFollow.sbapp" tooltip="NestProject/Strategies/TrendFollow.sbapp">
+<persistable path="/NestProject/Strategies/TrendFollow.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Util.java" tooltip="NestProject/java-src/com/Nest/NestProject/Util.java">
+<persistable path="/NestProject/java-src/com/Nest/NestProject/Util.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="Tester.sbapp" tooltip="NestProject/Strategies/Tester.sbapp">
+<persistable path="/NestProject/Strategies/Tester.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="NestProject.sbapp" tooltip="NestProject/NestProject.sbapp">
+<persistable path="/NestProject/NestProject.sbapp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.streambase.sb.studio.gef.editor.EventFlow" name="MDRequest.sbapp" tooltip="MarketDataFIXBMF/modules/MDRequest.sbapp">
+<persistable path="/MarketDataFIXBMF/modules/MDRequest.sbapp"/>
+</file>
+</mruList>
+</workbench>

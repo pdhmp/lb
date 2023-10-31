@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="NESTRTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="NESTRTConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SGN.Properties.Settings.GlobalReference.Default.NESTRTConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Tb000_Posicao_AtualTableAdapter" GeneratorDataComponentClassName="Tb000_Posicao_AtualTableAdapter" Name="Tb000_Posicao_Atual" UserDataComponentName="Tb000_Posicao_AtualTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="NESTRTConnectionString (Settings)" DbObjectName="NESTRT.dbo.Tb000_Posicao_Atual" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="False">
+                    <CommandText>INSERT INTO [Tb000_Posicao_Atual] ([Id Portfolio], [Portfolio], [Id Ticker], [Ticker], [Description], [Id Ticker Type], [Ticker Type], [Id Strategy], [Strategy], [Id Sub Strategy], [Sub Strategy], [Last Position], [Close_Date], [Date Now], [Position], [Lot Size], [Cost Close], [Cost Close pC], [Last], [Last pC], [Close], [Close pC], [NAV], [NAV pC], [Cash], [Cash/NAV], [Brokerage], [Delta Cash], [Delta/NAV], [Security Currency], [Id Currency Ticker], [Delta], [Instrument], [Asset Class], [Sub Industry], [Industry], [Industry Group], [Sector], [Underlying Country], [Nest Sector], [Portfolio Currency], [Asset uC], [Asset pC], [Asset P/L pC], [Currency Chg], [Currency P/L], [Total P/L], [Spot USD], [Spot], [Expiration], [P/L %], [Gross], [Long], [Short], [Contribution pC], [Id Underlying], [Underlying], [Underlying Acount], [Notional], [Notional Close], [Closed_PL], [Display Last ], [Display Last pC], [Display Cost Close], [Display Cost Close pC], [BRL], [BRL/NAV], [Long Delta], [Short Delta], [Gross Delta], [Last Calc], [Last Cost Close Calc], [Realized], [Asset P/L uC], [Contribution uC], [Delta Quantity], [Volatility], [Vol Flag], [Vol Date], [Strike], [Rate Year], [Rate Period], [Days to Expiration], [Time to Expiration], [Underlying Last], [Gamma], [Vega], [Theta], [Rho], [Cash Premium], [Calc Error Flag], [Model Price], [Gamma Quantity], [Gamma Cash], [Gamma/NAV], [Display Close], [Display Close pC], [Dif Contrib], [Price Date], [Id Instrument], [Id Asset Class], [Option Type], [Initial Position], [Quantity Bought], [Quantity Sold], [Spot USD Close], [Spot Close], [Cash uC], [Last pC Admin], [Close pC Admin], [Cost Close pC Admin], [Total P/L Admin], [Realized Admin], [Asset P/L pC Admin], [Currency P/L Admin], [Contribution pC Admin], [Last Admin], [Close Admin], [Cost Close Admin], [Id Administrator], [Id Base Underlying], [Base Underlying], [Id Base Underlying Currency], [Base Underlying Currency], [Bid], [Ask], [% to Bid/Ask], [Id Source Last], [Source Last], [Flag Last], [Id Source Last Admin], [Source Last Admin], [Flag Last Admin], [Id Source Close], [Source Close], [Flag Close Admin], [UpdTime Last], [UpdTime last Admin], [Asset uC Admin], [Theta/NAV], [Id Source Close Admin], [Source Close Admin], [Prev Cash uC], [Prev Cash uC Admin], [Current NAV pC], [Option Intrinsic], [Option TV], [Option Intrinsic Cash pC], [Option TV Cash pC], [Cash uC Admin]) VALUES (@Id_Portfolio, @Portfolio, @Id_Ticker, @Ticker, @Description, @Id_Ticker_Type, @Ticker_Type, @Id_Strategy, @Strategy, @Id_Sub_Strategy, @Sub_Strategy, @Last_Position, @Close_Date, @Date_Now, @Position, @Lot_Size, @Cost_Close, @Cost_Close_pC, @Last, @Last_pC, @Close, @Close_pC, @NAV, @NAV_pC, @Cash, @p1, @Brokerage, @Delta_Cash, @p3, @Security_Currency, @Id_Currency_Ticker, @Delta, @Instrument, @Asset_Class, @Sub_Industry, @Industry, @Industry_Group, @Sector, @Underlying_Country, @Nest_Sector, @Portfolio_Currency, @Asset_uC, @Asset_pC, @p5, @Currency_Chg, @p7, @p9, @Spot_USD, @Spot, @Expiration, @p11, @Gross, @Long, @Short, @Contribution_pC, @Id_Underlying, @Underlying, @Underlying_Acount, @Notional, @Notional_Close, @Closed_PL, @Display_Last_, @Display_Last_pC, @Display_Cost_Close, @Display_Cost_Close_pC, @BRL, @p13, @Long_Delta, @Short_Delta, @Gross_Delta, @Last_Calc, @Last_Cost_Close_Calc, @Realized, @p15, @Contribution_uC, @Delta_Quantity, @Volatility, @Vol_Flag, @Vol_Date, @Strike, @Rate_Year, @Rate_Period, @Days_to_Expiration, @Time_to_Expiration, @Underlying_Last, @Gamma, @Vega, @Theta, @Rho, @Cash_Premium, @Calc_Error_Flag, @Model_Price, @Gamma_Quantity, @Gamma_Cash, @p17, @Display_Close, @Display_Close_pC, @Dif_Contrib, @Price_Date, @Id_Instrument, @Id_Asset_Class, @Option_Type, @Initial_Position, @Quantity_Bought, @Quantity_Sold, @Spot_USD_Close, @Spot_Close, @Cash_uC, @Last_pC_Admin, @Close_pC_Admin, @Cost_Close_pC_Admin, @p19, @Realized_Admin, @p22, @p25, @Contribution_pC_Admin, @Last_Admin, @Close_Admin, @Cost_Close_Admin, @Id_Administrator, @Id_Base_Underlying, @Base_Underlying, @Id_Base_Underlying_Currency, @Base_Underlying_Currency, @Bid, @Ask, @p28, @Id_Source_Last, @Source_Last, @Flag_Last, @Id_Source_Last_Admin, @Source_Last_Admin, @Flag_Last_Admin, @Id_Source_Close, @Source_Close, @Flag_Close_Admin, @UpdTime_Last, @UpdTime_last_Admin, @Asset_uC_Admin, @p31, @Id_Source_Close_Admin, @Source_Close_Admin, @Prev_Cash_uC, @Prev_Cash_uC_Admin, @Current_NAV_pC, @Option_Intrinsic, @Option_TV, @Option_Intrinsic_Cash_pC, @Option_TV_Cash_pC, @Cash_uC_Admin)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Portfolio" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Portfolio" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Portfolio" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Portfolio" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Ticker" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Ticker" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Ticker" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Ticker" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Description" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Description" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Ticker_Type" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Ticker Type" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Ticker_Type" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Ticker Type" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Strategy" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Strategy" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Strategy" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Strategy" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Sub_Strategy" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Sub Strategy" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Sub_Strategy" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Sub Strategy" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Last_Position" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Last Position" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Close_Date" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Close_Date" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Date_Now" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Date Now" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Position" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Position" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Lot_Size" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Lot Size" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cost_Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cost Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cost_Close_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cost Close pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Last" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Last" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Last_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Last pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Close_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Close pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@NAV" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="NAV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@NAV_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="NAV pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cash" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cash" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p1" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cash/NAV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Brokerage" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Brokerage" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Delta_Cash" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Delta Cash" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p3" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Delta/NAV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Security_Currency" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Security Currency" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Currency_Ticker" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Currency Ticker" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Delta" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Delta" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Instrument" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Instrument" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Asset_Class" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Asset Class" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Sub_Industry" Precision="0" ProviderType="NText" Scale="0" Size="0" SourceColumn="Sub Industry" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Industry" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Industry" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Industry_Group" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Industry Group" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Sector" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Sector" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Underlying_Country" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Underlying Country" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Nest_Sector" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Nest Sector" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Portfolio_Currency" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Portfolio Currency" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Asset_uC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Asset uC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Asset_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Asset pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p5" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Asset P/L pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Currency_Chg" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Currency Chg" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p7" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Currency P/L" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p9" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Total P/L" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Spot_USD" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Spot USD" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Spot" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Spot" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Expiration" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Expiration" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p11" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="P/L %" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Gross" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Gross" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Long" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Long" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Short" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Short" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Contribution_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Contribution pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Underlying" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Underlying" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Underlying" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Underlying" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Underlying_Acount" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Underlying Acount" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Notional" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Notional" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Notional_Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Notional Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Closed_PL" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Closed_PL" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Display_Last_" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Display Last " SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Display_Last_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Display Last pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Display_Cost_Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Display Cost Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Display_Cost_Close_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Display Cost Close pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@BRL" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BRL" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p13" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="BRL/NAV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Long_Delta" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Long Delta" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Short_Delta" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Short Delta" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Gross_Delta" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Gross Delta" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Last_Calc" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Last Calc" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Last_Cost_Close_Calc" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Last Cost Close Calc" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Realized" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Realized" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p15" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Asset P/L uC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Contribution_uC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Contribution uC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Delta_Quantity" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Delta Quantity" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Volatility" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Volatility" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="StringFixedLength" Direction="Input" ParameterName="@Vol_Flag" Precision="0" ProviderType="NChar" Scale="0" Size="0" SourceColumn="Vol Flag" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Vol_Date" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Vol Date" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Strike" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Strike" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Rate_Year" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Rate Year" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Rate_Period" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Rate Period" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Days_to_Expiration" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Days to Expiration" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Time_to_Expiration" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Time to Expiration" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Underlying_Last" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Underlying Last" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Gamma" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Gamma" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Vega" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Vega" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Theta" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Theta" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Rho" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Rho" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cash_Premium" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cash Premium" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Calc_Error_Flag" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Calc Error Flag" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Model_Price" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Model Price" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Gamma_Quantity" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Gamma Quantity" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Gamma_Cash" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Gamma Cash" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p17" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Gamma/NAV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Display_Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Display Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Display_Close_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Display Close pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Dif_Contrib" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Dif Contrib" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Price_Date" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Price Date" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Instrument" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Instrument" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Asset_Class" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Asset Class" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Option_Type" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="Option Type" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Initial_Position" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Initial Position" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Quantity_Bought" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Quantity Bought" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Quantity_Sold" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Quantity Sold" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Spot_USD_Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Spot USD Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Spot_Close" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Spot Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="False" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cash_uC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cash uC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Last_pC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Last pC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Close_pC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Close pC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cost_Close_pC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cost Close pC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p19" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Total P/L Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Realized_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Realized Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p22" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Asset P/L pC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p25" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Currency P/L Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Contribution_pC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Contribution pC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Last_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Last Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Close_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Close Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cost_Close_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cost Close Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Administrator" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Administrator" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Base_Underlying" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Base Underlying" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Base_Underlying" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Base Underlying" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Base_Underlying_Currency" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Base Underlying Currency" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Base_Underlying_Currency" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Base Underlying Currency" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Bid" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Bid" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Ask" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Ask" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p28" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="% to Bid/Ask" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Source_Last" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Source Last" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Source_Last" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Source Last" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Flag_Last" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Flag Last" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Source_Last_Admin" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Source Last Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Source_Last_Admin" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Source Last Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Flag_Last_Admin" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Flag Last Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Source_Close" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Source Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Source_Close" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Source Close" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Flag_Close_Admin" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Flag Close Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@UpdTime_Last" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="UpdTime Last" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@UpdTime_last_Admin" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="UpdTime last Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Asset_uC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Asset uC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@p31" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Theta/NAV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Id_Source_Close_Admin" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Id Source Close Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Source_Close_Admin" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="Source Close Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Prev_Cash_uC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Prev Cash uC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Prev_Cash_uC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Prev Cash uC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Current_NAV_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Current NAV pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Option_Intrinsic" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Option Intrinsic" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Option_TV" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Option TV" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Option_Intrinsic_Cash_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Option Intrinsic Cash pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Option_TV_Cash_pC" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Option TV Cash pC" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Cash_uC_Admin" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="Cash uC Admin" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>Select * from Tb000_Posicao_Atual</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id Position" DataSetColumn="Id Position" />
+              <Mapping SourceColumn="Id Portfolio" DataSetColumn="Id Portfolio" />
+              <Mapping SourceColumn="Portfolio" DataSetColumn="Portfolio" />
+              <Mapping SourceColumn="Id Ticker" DataSetColumn="Id Ticker" />
+              <Mapping SourceColumn="Ticker" DataSetColumn="Ticker" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Id Ticker Type" DataSetColumn="Id Ticker Type" />
+              <Mapping SourceColumn="Ticker Type" DataSetColumn="Ticker Type" />
+              <Mapping SourceColumn="Id Strategy" DataSetColumn="Id Strategy" />
+              <Mapping SourceColumn="Strategy" DataSetColumn="Strategy" />
+              <Mapping SourceColumn="Id Sub Strategy" DataSetColumn="Id Sub Strategy" />
+              <Mapping SourceColumn="Sub Strategy" DataSetColumn="Sub Strategy" />
+              <Mapping SourceColumn="Last Position" DataSetColumn="Last Position" />
+              <Mapping SourceColumn="Close_Date" DataSetColumn="Close_Date" />
+              <Mapping SourceColumn="Date Now" DataSetColumn="Date Now" />
+              <Mapping SourceColumn="Position" DataSetColumn="Position" />
+              <Mapping SourceColumn="Lot Size" DataSetColumn="Lot Size" />
+              <Mapping SourceColumn="Cost Close" DataSetColumn="Cost Close" />
+              <Mapping SourceColumn="Cost Close pC" DataSetColumn="Cost Close pC" />
+              <Mapping SourceColumn="Last" DataSetColumn="Last" />
+              <Mapping SourceColumn="Last pC" DataSetColumn="Last pC" />
+              <Mapping SourceColumn="Close" DataSetColumn="Close" />
+              <Mapping SourceColumn="Close pC" DataSetColumn="Close pC" />
+              <Mapping SourceColumn="NAV" DataSetColumn="NAV" />
+              <Mapping SourceColumn="NAV pC" DataSetColumn="NAV pC" />
+              <Mapping SourceColumn="Cash" DataSetColumn="Cash" />
+              <Mapping SourceColumn="Cash/NAV" DataSetColumn="Cash/NAV" />
+              <Mapping SourceColumn="Brokerage" DataSetColumn="Brokerage" />
+              <Mapping SourceColumn="Delta Cash" DataSetColumn="Delta Cash" />
+              <Mapping SourceColumn="Delta/NAV" DataSetColumn="Delta/NAV" />
+              <Mapping SourceColumn="Security Currency" DataSetColumn="Security Currency" />
+              <Mapping SourceColumn="Id Currency Ticker" DataSetColumn="Id Currency Ticker" />
+              <Mapping SourceColumn="Delta" DataSetColumn="Delta" />
+              <Mapping SourceColumn="Instrument" DataSetColumn="Instrument" />
+              <Mapping SourceColumn="Asset Class" DataSetColumn="Asset Class" />
+              <Mapping SourceColumn="Sub Industry" DataSetColumn="Sub Industry" />
+              <Mapping SourceColumn="Industry" DataSetColumn="Industry" />
+              <Mapping SourceColumn="Industry Group" DataSetColumn="Industry Group" />
+              <Mapping SourceColumn="Sector" DataSetColumn="Sector" />
+              <Mapping SourceColumn="Underlying Country" DataSetColumn="Underlying Country" />
+              <Mapping SourceColumn="Nest Sector" DataSetColumn="Nest Sector" />
+              <Mapping SourceColumn="Portfolio Currency" DataSetColumn="Portfolio Currency" />
+              <Mapping SourceColumn="Asset uC" DataSetColumn="Asset uC" />
+              <Mapping SourceColumn="Asset pC" DataSetColumn="Asset pC" />
+              <Mapping SourceColumn="Asset P/L pC" DataSetColumn="Asset P/L pC" />
+              <Mapping SourceColumn="Currency Chg" DataSetColumn="Currency Chg" />
+              <Mapping SourceColumn="Currency P/L" DataSetColumn="Currency P/L" />
+              <Mapping SourceColumn="Total P/L" DataSetColumn="Total P/L" />
+              <Mapping SourceColumn="Spot USD" DataSetColumn="Spot USD" />
+              <Mapping SourceColumn="Spot" DataSetColumn="Spot" />
+              <Mapping SourceColumn="Expiration" DataSetColumn="Expiration" />
+              <Mapping SourceColumn="P/L %" DataSetColumn="P/L %" />
+              <Mapping SourceColumn="Gross" DataSetColumn="Gross" />
+              <Mapping SourceColumn="Long" DataSetColumn="Long" />
+              <Mapping SourceColumn="Short" DataSetColumn="Short" />
+              <Mapping SourceColumn="Contribution pC" DataSetColumn="Contribution pC" />
+              <Mapping SourceColumn="Id Underlying" DataSetColumn="Id Underlying" />
+              <Mapping SourceColumn="Underlying" DataSetColumn="Underlying" />
+              <Mapping SourceColumn="Underlying Acount" DataSetColumn="Underlying Acount" />
+              <Mapping SourceColumn="Notional" DataSetColumn="Notional" />
+              <Mapping SourceColumn="Notional Close" DataSetColumn="Notional Close" />
+              <Mapping SourceColumn="Closed_PL" DataSetColumn="Closed_PL" />
+              <Mapping SourceColumn="Display Last " DataSetColumn="Display Last " />
+              <Mapping SourceColumn="Display Last pC" DataSetColumn="Display Last pC" />
+              <Mapping SourceColumn="Display Cost Close" DataSetColumn="Display Cost Close" />
+              <Mapping SourceColumn="Display Cost Close pC" DataSetColumn="Display Cost Close pC" />
+              <Mapping SourceColumn="BRL" DataSetColumn="BRL" />
+              <Mapping SourceColumn="BRL/NAV" DataSetColumn="BRL/NAV" />
+              <Mapping SourceColumn="Long Delta" DataSetColumn="Long Delta" />
+              <Mapping SourceColumn="Short Delta" DataSetColumn="Short Delta" />
+              <Mapping SourceColumn="Gross Delta" DataSetColumn="Gross Delta" />
+              <Mapping SourceColumn="Last Calc" DataSetColumn="Last Calc" />
+              <Mapping SourceColumn="Last Cost Close Calc" DataSetColumn="Last Cost Close Calc" />
+              <Mapping SourceColumn="Realized" DataSetColumn="Realized" />
+              <Mapping SourceColumn="Asset P/L uC" DataSetColumn="Asset P/L uC" />
+              <Mapping SourceColumn="Contribution uC" DataSetColumn="Contribution uC" />
+              <Mapping SourceColumn="Delta Quantity" DataSetColumn="Delta Quantity" />
+              <Mapping SourceColumn="Volatility" DataSetColumn="Volatility" />
+              <Mapping SourceColumn="Vol Flag" DataSetColumn="Vol Flag" />
+              <Mapping SourceColumn="Vol Date" DataSetColumn="Vol Date" />
+              <Mapping SourceColumn="Strike" DataSetColumn="Strike" />
+              <Mapping SourceColumn="Rate Year" DataSetColumn="Rate Year" />
+              <Mapping SourceColumn="Rate Period" DataSetColumn="Rate Period" />
+              <Mapping SourceColumn="Days to Expiration" DataSetColumn="Days to Expiration" />
+              <Mapping SourceColumn="Time to Expiration" DataSetColumn="Time to Expiration" />
+              <Mapping SourceColumn="Underlying Last" DataSetColumn="Underlying Last" />
+              <Mapping SourceColumn="Gamma" DataSetColumn="Gamma" />
+              <Mapping SourceColumn="Vega" DataSetColumn="Vega" />
+              <Mapping SourceColumn="Theta" DataSetColumn="Theta" />
+              <Mapping SourceColumn="Rho" DataSetColumn="Rho" />
+              <Mapping SourceColumn="Cash Premium" DataSetColumn="Cash Premium" />
+              <Mapping SourceColumn="Calc Error Flag" DataSetColumn="Calc Error Flag" />
+              <Mapping SourceColumn="Model Price" DataSetColumn="Model Price" />
+              <Mapping SourceColumn="Gamma Quantity" DataSetColumn="Gamma Quantity" />
+              <Mapping SourceColumn="Gamma Cash" DataSetColumn="Gamma Cash" />
+              <Mapping SourceColumn="Gamma/NAV" DataSetColumn="Gamma/NAV" />
+              <Mapping SourceColumn="Display Close" DataSetColumn="Display Close" />
+              <Mapping SourceColumn="Display Close pC" DataSetColumn="Display Close pC" />
+              <Mapping SourceColumn="Dif Contrib" DataSetColumn="Dif Contrib" />
+              <Mapping SourceColumn="Price Date" DataSetColumn="Price Date" />
+              <Mapping SourceColumn="Id Instrument" DataSetColumn="Id Instrument" />
+              <Mapping SourceColumn="Id Asset Class" DataSetColumn="Id Asset Class" />
+              <Mapping SourceColumn="Option Type" DataSetColumn="Option Type" />
+              <Mapping SourceColumn="Initial Position" DataSetColumn="Initial Position" />
+              <Mapping SourceColumn="Quantity Bought" DataSetColumn="Quantity Bought" />
+              <Mapping SourceColumn="Quantity Sold" DataSetColumn="Quantity Sold" />
+              <Mapping SourceColumn="Spot USD Close" DataSetColumn="Spot USD Close" />
+              <Mapping SourceColumn="Spot Close" DataSetColumn="Spot Close" />
+              <Mapping SourceColumn="Cash uC" DataSetColumn="Cash uC" />
+              <Mapping SourceColumn="Last pC Admin" DataSetColumn="Last pC Admin" />
+              <Mapping SourceColumn="Close pC Admin" DataSetColumn="Close pC Admin" />
+              <Mapping SourceColumn="Cost Close pC Admin" DataSetColumn="Cost Close pC Admin" />
+              <Mapping SourceColumn="Total P/L Admin" DataSetColumn="Total P/L Admin" />
+              <Mapping SourceColumn="Realized Admin" DataSetColumn="Realized Admin" />
+              <Mapping SourceColumn="Asset P/L pC Admin" DataSetColumn="Asset P/L pC Admin" />
+              <Mapping SourceColumn="Currency P/L Admin" DataSetColumn="Currency P/L Admin" />
+              <Mapping SourceColumn="Contribution pC Admin" DataSetColumn="Contribution pC Admin" />
+              <Mapping SourceColumn="Last Admin" DataSetColumn="Last Admin" />
+              <Mapping SourceColumn="Close Admin" DataSetColumn="Close Admin" />
+              <Mapping SourceColumn="Cost Close Admin" DataSetColumn="Cost Close Admin" />
+              <Mapping SourceColumn="Id Administrator" DataSetColumn="Id Administrator" />
+              <Mapping SourceColumn="Id Base Underlying" DataSetColumn="Id Base Underlying" />
+              <Mapping SourceColumn="Base Underlying" DataSetColumn="Base Underlying" />
+              <Mapping SourceColumn="Id Base Underlying Currency" DataSetColumn="Id Base Underlying Currency" />
+              <Mapping SourceColumn="Base Underlying Currency" DataSetColumn="Base Underlying Currency" />
+              <Mapping SourceColumn="Bid" DataSetColumn="Bid" />
+              <Mapping SourceColumn="Ask" DataSetColumn="Ask" />
+              <Mapping SourceColumn="% to Bid/Ask" DataSetColumn="% to Bid/Ask" />
+              <Mapping SourceColumn="Id Source Last" DataSetColumn="Id Source Last" />
+              <Mapping SourceColumn="Source Last" DataSetColumn="Source Last" />
+              <Mapping SourceColumn="Flag Last" DataSetColumn="Flag Last" />
+              <Mapping SourceColumn="Id Source Last Admin" DataSetColumn="Id Source Last Admin" />
+              <Mapping SourceColumn="Source Last Admin" DataSetColumn="Source Last Admin" />
+              <Mapping SourceColumn="Flag Last Admin" DataSetColumn="Flag Last Admin" />
+              <Mapping SourceColumn="Id Source Close" DataSetColumn="Id Source Close" />
+              <Mapping SourceColumn="Source Close" DataSetColumn="Source Close" />
+              <Mapping SourceColumn="Flag Close Admin" DataSetColumn="Flag Close Admin" />
+              <Mapping SourceColumn="UpdTime Last" DataSetColumn="UpdTime Last" />
+              <Mapping SourceColumn="UpdTime last Admin" DataSetColumn="UpdTime last Admin" />
+              <Mapping SourceColumn="Asset uC Admin" DataSetColumn="Asset uC Admin" />
+              <Mapping SourceColumn="Theta/NAV" DataSetColumn="Theta/NAV" />
+              <Mapping SourceColumn="Id Source Close Admin" DataSetColumn="Id Source Close Admin" />
+              <Mapping SourceColumn="Source Close Admin" DataSetColumn="Source Close Admin" />
+              <Mapping SourceColumn="Prev Cash uC" DataSetColumn="Prev Cash uC" />
+              <Mapping SourceColumn="Prev Cash uC Admin" DataSetColumn="Prev Cash uC Admin" />
+              <Mapping SourceColumn="Current NAV pC" DataSetColumn="Current NAV pC" />
+              <Mapping SourceColumn="Option Intrinsic" DataSetColumn="Option Intrinsic" />
+              <Mapping SourceColumn="Option TV" DataSetColumn="Option TV" />
+              <Mapping SourceColumn="Option Intrinsic Cash pC" DataSetColumn="Option Intrinsic Cash pC" />
+              <Mapping SourceColumn="Option TV Cash pC" DataSetColumn="Option TV Cash pC" />
+              <Mapping SourceColumn="Cash uC Admin" DataSetColumn="Cash uC Admin" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tb000_Posicao_Atual" msprop:Generator_UserTableName="Tb000_Posicao_Atual" msprop:Generator_RowDeletedName="Tb000_Posicao_AtualRowDeleted" msprop:Generator_TableClassName="Tb000_Posicao_AtualDataTable" msprop:Generator_RowChangedName="Tb000_Posicao_AtualRowChanged" msprop:Generator_RowClassName="Tb000_Posicao_AtualRow" msprop:Generator_RowChangingName="Tb000_Posicao_AtualRowChanging" msprop:Generator_RowEvArgName="Tb000_Posicao_AtualRowChangeEvent" msprop:Generator_RowEvHandlerName="Tb000_Posicao_AtualRowChangeEventHandler" msprop:Generator_TablePropName="Tb000_Posicao_Atual" msprop:Generator_TableVarName="tableTb000_Posicao_Atual" msprop:Generator_RowDeletingName="Tb000_Posicao_AtualRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_x0020_Position" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id Position" msprop:Generator_ColumnPropNameInRow="Id_Position" msprop:Generator_ColumnVarNameInTable="columnId_Position" msprop:Generator_ColumnPropNameInTable="Id_PositionColumn" type="xs:decimal" />
+              <xs:element name="Id_x0020_Portfolio" msprop:Generator_UserColumnName="Id Portfolio" msprop:Generator_ColumnPropNameInRow="Id_Portfolio" msprop:Generator_ColumnVarNameInTable="columnId_Portfolio" msprop:Generator_ColumnPropNameInTable="Id_PortfolioColumn" type="xs:int" />
+              <xs:element name="Portfolio" msprop:Generator_UserColumnName="Portfolio" msprop:Generator_ColumnPropNameInRow="Portfolio" msprop:Generator_ColumnVarNameInTable="columnPortfolio" msprop:Generator_ColumnPropNameInTable="PortfolioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Ticker" msprop:Generator_UserColumnName="Id Ticker" msprop:Generator_ColumnPropNameInRow="Id_Ticker" msprop:Generator_ColumnVarNameInTable="columnId_Ticker" msprop:Generator_ColumnPropNameInTable="Id_TickerColumn" type="xs:int" />
+              <xs:element name="Ticker" msprop:Generator_UserColumnName="Ticker" msprop:Generator_ColumnPropNameInRow="Ticker" msprop:Generator_ColumnVarNameInTable="columnTicker" msprop:Generator_ColumnPropNameInTable="TickerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Ticker_x0020_Type" msprop:Generator_UserColumnName="Id Ticker Type" msprop:Generator_ColumnPropNameInRow="Id_Ticker_Type" msprop:Generator_ColumnVarNameInTable="columnId_Ticker_Type" msprop:Generator_ColumnPropNameInTable="Id_Ticker_TypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Ticker_x0020_Type" msprop:Generator_UserColumnName="Ticker Type" msprop:Generator_ColumnPropNameInRow="Ticker_Type" msprop:Generator_ColumnVarNameInTable="columnTicker_Type" msprop:Generator_ColumnPropNameInTable="Ticker_TypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Strategy" msprop:Generator_UserColumnName="Id Strategy" msprop:Generator_ColumnPropNameInRow="Id_Strategy" msprop:Generator_ColumnVarNameInTable="columnId_Strategy" msprop:Generator_ColumnPropNameInTable="Id_StrategyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Strategy" msprop:Generator_UserColumnName="Strategy" msprop:Generator_ColumnPropNameInRow="Strategy" msprop:Generator_ColumnVarNameInTable="columnStrategy" msprop:Generator_ColumnPropNameInTable="StrategyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Sub_x0020_Strategy" msprop:Generator_UserColumnName="Id Sub Strategy" msprop:Generator_ColumnPropNameInRow="Id_Sub_Strategy" msprop:Generator_ColumnVarNameInTable="columnId_Sub_Strategy" msprop:Generator_ColumnPropNameInTable="Id_Sub_StrategyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sub_x0020_Strategy" msprop:Generator_UserColumnName="Sub Strategy" msprop:Generator_ColumnPropNameInRow="Sub_Strategy" msprop:Generator_ColumnVarNameInTable="columnSub_Strategy" msprop:Generator_ColumnPropNameInTable="Sub_StrategyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Last_x0020_Position" msprop:Generator_UserColumnName="Last Position" msprop:Generator_ColumnPropNameInRow="Last_Position" msprop:Generator_ColumnVarNameInTable="columnLast_Position" msprop:Generator_ColumnPropNameInTable="Last_PositionColumn" type="xs:dateTime" />
+              <xs:element name="Close_Date" msprop:Generator_UserColumnName="Close_Date" msprop:Generator_ColumnPropNameInRow="Close_Date" msprop:Generator_ColumnVarNameInTable="columnClose_Date" msprop:Generator_ColumnPropNameInTable="Close_DateColumn" type="xs:dateTime" />
+              <xs:element name="Date_x0020_Now" msprop:Generator_UserColumnName="Date Now" msprop:Generator_ColumnPropNameInRow="Date_Now" msprop:Generator_ColumnVarNameInTable="columnDate_Now" msprop:Generator_ColumnPropNameInTable="Date_NowColumn" type="xs:dateTime" />
+              <xs:element name="Position" msprop:Generator_UserColumnName="Position" msprop:Generator_ColumnPropNameInRow="Position" msprop:Generator_ColumnVarNameInTable="columnPosition" msprop:Generator_ColumnPropNameInTable="PositionColumn" type="xs:double" />
+              <xs:element name="Lot_x0020_Size" msprop:Generator_UserColumnName="Lot Size" msprop:Generator_ColumnPropNameInRow="Lot_Size" msprop:Generator_ColumnVarNameInTable="columnLot_Size" msprop:Generator_ColumnPropNameInTable="Lot_SizeColumn" type="xs:double" />
+              <xs:element name="Cost_x0020_Close" msprop:Generator_UserColumnName="Cost Close" msprop:Generator_ColumnPropNameInRow="Cost_Close" msprop:Generator_ColumnVarNameInTable="columnCost_Close" msprop:Generator_ColumnPropNameInTable="Cost_CloseColumn" type="xs:double" />
+              <xs:element name="Cost_x0020_Close_x0020_pC" msprop:Generator_UserColumnName="Cost Close pC" msprop:Generator_ColumnPropNameInRow="Cost_Close_pC" msprop:Generator_ColumnVarNameInTable="columnCost_Close_pC" msprop:Generator_ColumnPropNameInTable="Cost_Close_pCColumn" type="xs:double" />
+              <xs:element name="Last" msprop:Generator_UserColumnName="Last" msprop:Generator_ColumnPropNameInRow="Last" msprop:Generator_ColumnVarNameInTable="columnLast" msprop:Generator_ColumnPropNameInTable="LastColumn" type="xs:double" />
+              <xs:element name="Last_x0020_pC" msprop:Generator_UserColumnName="Last pC" msprop:Generator_ColumnPropNameInRow="Last_pC" msprop:Generator_ColumnVarNameInTable="columnLast_pC" msprop:Generator_ColumnPropNameInTable="Last_pCColumn" type="xs:double" />
+              <xs:element name="Close" msprop:Generator_UserColumnName="Close" msprop:Generator_ColumnPropNameInRow="Close" msprop:Generator_ColumnVarNameInTable="columnClose" msprop:Generator_ColumnPropNameInTable="CloseColumn" type="xs:double" />
+              <xs:element name="Close_x0020_pC" msprop:Generator_UserColumnName="Close pC" msprop:Generator_ColumnPropNameInRow="Close_pC" msprop:Generator_ColumnVarNameInTable="columnClose_pC" msprop:Generator_ColumnPropNameInTable="Close_pCColumn" type="xs:double" />
+              <xs:element name="NAV" msprop:Generator_UserColumnName="NAV" msprop:Generator_ColumnPropNameInRow="NAV" msprop:Generator_ColumnVarNameInTable="columnNAV" msprop:Generator_ColumnPropNameInTable="NAVColumn" type="xs:double" />
+              <xs:element name="NAV_x0020_pC" msprop:Generator_UserColumnName="NAV pC" msprop:Generator_ColumnPropNameInRow="NAV_pC" msprop:Generator_ColumnVarNameInTable="columnNAV_pC" msprop:Generator_ColumnPropNameInTable="NAV_pCColumn" type="xs:double" />
+              <xs:element name="Cash" msprop:Generator_UserColumnName="Cash" msprop:Generator_ColumnPropNameInRow="Cash" msprop:Generator_ColumnVarNameInTable="columnCash" msprop:Generator_ColumnPropNameInTable="CashColumn" type="xs:double" />
+              <xs:element name="Cash_x002F_NAV" msprop:Generator_UserColumnName="Cash/NAV" msprop:Generator_ColumnPropNameInRow="_Cash_NAV" msprop:Generator_ColumnVarNameInTable="_columnCash_NAV" msprop:Generator_ColumnPropNameInTable="_Cash_NAVColumn" type="xs:double" />
+              <xs:element name="Brokerage" msprop:Generator_UserColumnName="Brokerage" msprop:Generator_ColumnPropNameInRow="Brokerage" msprop:Generator_ColumnVarNameInTable="columnBrokerage" msprop:Generator_ColumnPropNameInTable="BrokerageColumn" type="xs:double" />
+              <xs:element name="Delta_x0020_Cash" msprop:Generator_UserColumnName="Delta Cash" msprop:Generator_ColumnPropNameInRow="Delta_Cash" msprop:Generator_ColumnVarNameInTable="columnDelta_Cash" msprop:Generator_ColumnPropNameInTable="Delta_CashColumn" type="xs:double" />
+              <xs:element name="Delta_x002F_NAV" msprop:Generator_UserColumnName="Delta/NAV" msprop:Generator_ColumnPropNameInRow="_Delta_NAV" msprop:Generator_ColumnVarNameInTable="_columnDelta_NAV" msprop:Generator_ColumnPropNameInTable="_Delta_NAVColumn" type="xs:double" />
+              <xs:element name="Security_x0020_Currency" msprop:Generator_UserColumnName="Security Currency" msprop:Generator_ColumnPropNameInRow="Security_Currency" msprop:Generator_ColumnVarNameInTable="columnSecurity_Currency" msprop:Generator_ColumnPropNameInTable="Security_CurrencyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Currency_x0020_Ticker" msprop:Generator_UserColumnName="Id Currency Ticker" msprop:Generator_ColumnPropNameInRow="Id_Currency_Ticker" msprop:Generator_ColumnVarNameInTable="columnId_Currency_Ticker" msprop:Generator_ColumnPropNameInTable="Id_Currency_TickerColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Delta" msprop:Generator_UserColumnName="Delta" msprop:Generator_ColumnPropNameInRow="Delta" msprop:Generator_ColumnVarNameInTable="columnDelta" msprop:Generator_ColumnPropNameInTable="DeltaColumn" type="xs:double" />
+              <xs:element name="Instrument" msprop:Generator_UserColumnName="Instrument" msprop:Generator_ColumnPropNameInRow="Instrument" msprop:Generator_ColumnVarNameInTable="columnInstrument" msprop:Generator_ColumnPropNameInTable="InstrumentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Asset_x0020_Class" msprop:Generator_UserColumnName="Asset Class" msprop:Generator_ColumnPropNameInRow="Asset_Class" msprop:Generator_ColumnVarNameInTable="columnAsset_Class" msprop:Generator_ColumnPropNameInTable="Asset_ClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sub_x0020_Industry" msprop:Generator_UserColumnName="Sub Industry" msprop:Generator_ColumnPropNameInRow="Sub_Industry" msprop:Generator_ColumnVarNameInTable="columnSub_Industry" msprop:Generator_ColumnPropNameInTable="Sub_IndustryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Industry" msprop:Generator_UserColumnName="Industry" msprop:Generator_ColumnPropNameInRow="Industry" msprop:Generator_ColumnVarNameInTable="columnIndustry" msprop:Generator_ColumnPropNameInTable="IndustryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Industry_x0020_Group" msprop:Generator_UserColumnName="Industry Group" msprop:Generator_ColumnPropNameInRow="Industry_Group" msprop:Generator_ColumnVarNameInTable="columnIndustry_Group" msprop:Generator_ColumnPropNameInTable="Industry_GroupColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sector" msprop:Generator_UserColumnName="Sector" msprop:Generator_ColumnPropNameInRow="Sector" msprop:Generator_ColumnVarNameInTable="columnSector" msprop:Generator_ColumnPropNameInTable="SectorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Underlying_x0020_Country" msprop:Generator_UserColumnName="Underlying Country" msprop:Generator_ColumnPropNameInRow="Underlying_Country" msprop:Generator_ColumnVarNameInTable="columnUnderlying_Country" msprop:Generator_ColumnPropNameInTable="Underlying_CountryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nest_x0020_Sector" msprop:Generator_UserColumnName="Nest Sector" msprop:Generator_ColumnPropNameInRow="Nest_Sector" msprop:Generator_ColumnVarNameInTable="columnNest_Sector" msprop:Generator_ColumnPropNameInTable="Nest_SectorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Portfolio_x0020_Currency" msprop:Generator_UserColumnName="Portfolio Currency" msprop:Generator_ColumnPropNameInRow="Portfolio_Currency" msprop:Generator_ColumnVarNameInTable="columnPortfolio_Currency" msprop:Generator_ColumnPropNameInTable="Portfolio_CurrencyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Asset_x0020_uC" msprop:Generator_UserColumnName="Asset uC" msprop:Generator_ColumnPropNameInRow="Asset_uC" msprop:Generator_ColumnVarNameInTable="columnAsset_uC" msprop:Generator_ColumnPropNameInTable="Asset_uCColumn" type="xs:double" />
+              <xs:element name="Asset_x0020_pC" msprop:Generator_UserColumnName="Asset pC" msprop:Generator_ColumnPropNameInRow="Asset_pC" msprop:Generator_ColumnVarNameInTable="columnAsset_pC" msprop:Generator_ColumnPropNameInTable="Asset_pCColumn" type="xs:double" />
+              <xs:element name="Asset_x0020_P_x002F_L_x0020_pC" msprop:Generator_UserColumnName="Asset P/L pC" msprop:Generator_ColumnPropNameInRow="_Asset_P_L_pC" msprop:Generator_ColumnVarNameInTable="_columnAsset_P_L_pC" msprop:Generator_ColumnPropNameInTable="_Asset_P_L_pCColumn" type="xs:double" />
+              <xs:element name="Currency_x0020_Chg" msprop:Generator_UserColumnName="Currency Chg" msprop:Generator_ColumnPropNameInRow="Currency_Chg" msprop:Generator_ColumnVarNameInTable="columnCurrency_Chg" msprop:Generator_ColumnPropNameInTable="Currency_ChgColumn" type="xs:double" />
+              <xs:element name="Currency_x0020_P_x002F_L" msprop:Generator_UserColumnName="Currency P/L" msprop:Generator_ColumnPropNameInRow="_Currency_P_L" msprop:Generator_ColumnVarNameInTable="_columnCurrency_P_L" msprop:Generator_ColumnPropNameInTable="_Currency_P_LColumn" type="xs:double" />
+              <xs:element name="Total_x0020_P_x002F_L" msprop:Generator_UserColumnName="Total P/L" msprop:Generator_ColumnPropNameInRow="_Total_P_L" msprop:Generator_ColumnVarNameInTable="_columnTotal_P_L" msprop:Generator_ColumnPropNameInTable="_Total_P_LColumn" type="xs:double" />
+              <xs:element name="Spot_x0020_USD" msprop:Generator_UserColumnName="Spot USD" msprop:Generator_ColumnPropNameInRow="Spot_USD" msprop:Generator_ColumnVarNameInTable="columnSpot_USD" msprop:Generator_ColumnPropNameInTable="Spot_USDColumn" type="xs:double" />
+              <xs:element name="Spot" msprop:Generator_UserColumnName="Spot" msprop:Generator_ColumnPropNameInRow="Spot" msprop:Generator_ColumnVarNameInTable="columnSpot" msprop:Generator_ColumnPropNameInTable="SpotColumn" type="xs:double" />
+              <xs:element name="Expiration" msprop:Generator_UserColumnName="Expiration" msprop:Generator_ColumnPropNameInRow="Expiration" msprop:Generator_ColumnVarNameInTable="columnExpiration" msprop:Generator_ColumnPropNameInTable="ExpirationColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="P_x002F_L_x0020__x0025_" msprop:Generator_UserColumnName="P/L %" msprop:Generator_ColumnPropNameInRow="_P_L__" msprop:Generator_ColumnVarNameInTable="_columnP_L__" msprop:Generator_ColumnPropNameInTable="_P_L__Column" type="xs:double" />
+              <xs:element name="Gross" msprop:Generator_UserColumnName="Gross" msprop:Generator_ColumnPropNameInRow="Gross" msprop:Generator_ColumnVarNameInTable="columnGross" msprop:Generator_ColumnPropNameInTable="GrossColumn" type="xs:double" />
+              <xs:element name="Long" msprop:Generator_UserColumnName="Long" msprop:Generator_ColumnPropNameInRow="Long" msprop:Generator_ColumnVarNameInTable="columnLong" msprop:Generator_ColumnPropNameInTable="LongColumn" type="xs:double" />
+              <xs:element name="Short" msprop:Generator_UserColumnName="Short" msprop:Generator_ColumnPropNameInRow="Short" msprop:Generator_ColumnVarNameInTable="columnShort" msprop:Generator_ColumnPropNameInTable="ShortColumn" type="xs:double" />
+              <xs:element name="Contribution_x0020_pC" msprop:Generator_UserColumnName="Contribution pC" msprop:Generator_ColumnPropNameInRow="Contribution_pC" msprop:Generator_ColumnVarNameInTable="columnContribution_pC" msprop:Generator_ColumnPropNameInTable="Contribution_pCColumn" type="xs:double" />
+              <xs:element name="Id_x0020_Underlying" msprop:Generator_UserColumnName="Id Underlying" msprop:Generator_ColumnPropNameInRow="Id_Underlying" msprop:Generator_ColumnVarNameInTable="columnId_Underlying" msprop:Generator_ColumnPropNameInTable="Id_UnderlyingColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Underlying" msprop:Generator_UserColumnName="Underlying" msprop:Generator_ColumnPropNameInRow="Underlying" msprop:Generator_ColumnVarNameInTable="columnUnderlying" msprop:Generator_ColumnPropNameInTable="UnderlyingColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Underlying_x0020_Acount" msprop:Generator_UserColumnName="Underlying Acount" msprop:Generator_ColumnPropNameInRow="Underlying_Acount" msprop:Generator_ColumnVarNameInTable="columnUnderlying_Acount" msprop:Generator_ColumnPropNameInTable="Underlying_AcountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Notional" msprop:Generator_UserColumnName="Notional" msprop:Generator_ColumnPropNameInRow="Notional" msprop:Generator_ColumnVarNameInTable="columnNotional" msprop:Generator_ColumnPropNameInTable="NotionalColumn" type="xs:double" />
+              <xs:element name="Notional_x0020_Close" msprop:Generator_UserColumnName="Notional Close" msprop:Generator_ColumnPropNameInRow="Notional_Close" msprop:Generator_ColumnVarNameInTable="columnNotional_Close" msprop:Generator_ColumnPropNameInTable="Notional_CloseColumn" type="xs:double" />
+              <xs:element name="Closed_PL" msprop:Generator_UserColumnName="Closed_PL" msprop:Generator_ColumnPropNameInRow="Closed_PL" msprop:Generator_ColumnVarNameInTable="columnClosed_PL" msprop:Generator_ColumnPropNameInTable="Closed_PLColumn" type="xs:double" />
+              <xs:element name="Display_x0020_Last_x0020_" msprop:Generator_UserColumnName="Display Last " msprop:Generator_ColumnPropNameInRow="Display_Last_" msprop:Generator_ColumnVarNameInTable="columnDisplay_Last_" msprop:Generator_ColumnPropNameInTable="Display_Last_Column" type="xs:double" />
+              <xs:element name="Display_x0020_Last_x0020_pC" msprop:Generator_UserColumnName="Display Last pC" msprop:Generator_ColumnPropNameInRow="Display_Last_pC" msprop:Generator_ColumnVarNameInTable="columnDisplay_Last_pC" msprop:Generator_ColumnPropNameInTable="Display_Last_pCColumn" type="xs:double" />
+              <xs:element name="Display_x0020_Cost_x0020_Close" msprop:Generator_UserColumnName="Display Cost Close" msprop:Generator_ColumnPropNameInRow="Display_Cost_Close" msprop:Generator_ColumnVarNameInTable="columnDisplay_Cost_Close" msprop:Generator_ColumnPropNameInTable="Display_Cost_CloseColumn" type="xs:double" />
+              <xs:element name="Display_x0020_Cost_x0020_Close_x0020_pC" msprop:Generator_UserColumnName="Display Cost Close pC" msprop:Generator_ColumnPropNameInRow="Display_Cost_Close_pC" msprop:Generator_ColumnVarNameInTable="columnDisplay_Cost_Close_pC" msprop:Generator_ColumnPropNameInTable="Display_Cost_Close_pCColumn" type="xs:double" />
+              <xs:element name="BRL" msprop:Generator_UserColumnName="BRL" msprop:Generator_ColumnPropNameInRow="BRL" msprop:Generator_ColumnVarNameInTable="columnBRL" msprop:Generator_ColumnPropNameInTable="BRLColumn" type="xs:double" />
+              <xs:element name="BRL_x002F_NAV" msprop:Generator_UserColumnName="BRL/NAV" msprop:Generator_ColumnPropNameInRow="_BRL_NAV" msprop:Generator_ColumnVarNameInTable="_columnBRL_NAV" msprop:Generator_ColumnPropNameInTable="_BRL_NAVColumn" type="xs:double" />
+              <xs:element name="Long_x0020_Delta" msprop:Generator_UserColumnName="Long Delta" msprop:Generator_ColumnPropNameInRow="Long_Delta" msprop:Generator_ColumnVarNameInTable="columnLong_Delta" msprop:Generator_ColumnPropNameInTable="Long_DeltaColumn" type="xs:double" />
+              <xs:element name="Short_x0020_Delta" msprop:Generator_UserColumnName="Short Delta" msprop:Generator_ColumnPropNameInRow="Short_Delta" msprop:Generator_ColumnVarNameInTable="columnShort_Delta" msprop:Generator_ColumnPropNameInTable="Short_DeltaColumn" type="xs:double" />
+              <xs:element name="Gross_x0020_Delta" msprop:Generator_UserColumnName="Gross Delta" msprop:Generator_ColumnPropNameInRow="Gross_Delta" msprop:Generator_ColumnVarNameInTable="columnGross_Delta" msprop:Generator_ColumnPropNameInTable="Gross_DeltaColumn" type="xs:double" />
+              <xs:element name="Last_x0020_Calc" msprop:Generator_UserColumnName="Last Calc" msprop:Generator_ColumnPropNameInRow="Last_Calc" msprop:Generator_ColumnVarNameInTable="columnLast_Calc" msprop:Generator_ColumnPropNameInTable="Last_CalcColumn" type="xs:dateTime" />
+              <xs:element name="Last_x0020_Cost_x0020_Close_x0020_Calc" msprop:Generator_UserColumnName="Last Cost Close Calc" msprop:Generator_ColumnPropNameInRow="Last_Cost_Close_Calc" msprop:Generator_ColumnVarNameInTable="columnLast_Cost_Close_Calc" msprop:Generator_ColumnPropNameInTable="Last_Cost_Close_CalcColumn" type="xs:dateTime" />
+              <xs:element name="Realized" msprop:Generator_UserColumnName="Realized" msprop:Generator_ColumnPropNameInRow="Realized" msprop:Generator_ColumnVarNameInTable="columnRealized" msprop:Generator_ColumnPropNameInTable="RealizedColumn" type="xs:double" />
+              <xs:element name="Asset_x0020_P_x002F_L_x0020_uC" msprop:Generator_UserColumnName="Asset P/L uC" msprop:Generator_ColumnPropNameInRow="_Asset_P_L_uC" msprop:Generator_ColumnVarNameInTable="_columnAsset_P_L_uC" msprop:Generator_ColumnPropNameInTable="_Asset_P_L_uCColumn" type="xs:double" />
+              <xs:element name="Contribution_x0020_uC" msprop:Generator_UserColumnName="Contribution uC" msprop:Generator_ColumnPropNameInRow="Contribution_uC" msprop:Generator_ColumnVarNameInTable="columnContribution_uC" msprop:Generator_ColumnPropNameInTable="Contribution_uCColumn" type="xs:double" />
+              <xs:element name="Delta_x0020_Quantity" msprop:Generator_UserColumnName="Delta Quantity" msprop:Generator_ColumnPropNameInRow="Delta_Quantity" msprop:Generator_ColumnVarNameInTable="columnDelta_Quantity" msprop:Generator_ColumnPropNameInTable="Delta_QuantityColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Volatility" msprop:Generator_UserColumnName="Volatility" msprop:Generator_ColumnPropNameInRow="Volatility" msprop:Generator_ColumnVarNameInTable="columnVolatility" msprop:Generator_ColumnPropNameInTable="VolatilityColumn" type="xs:double" />
+              <xs:element name="Vol_x0020_Flag" msprop:Generator_UserColumnName="Vol Flag" msprop:Generator_ColumnPropNameInRow="Vol_Flag" msprop:Generator_ColumnVarNameInTable="columnVol_Flag" msprop:Generator_ColumnPropNameInTable="Vol_FlagColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vol_x0020_Date" msprop:Generator_UserColumnName="Vol Date" msprop:Generator_ColumnPropNameInRow="Vol_Date" msprop:Generator_ColumnVarNameInTable="columnVol_Date" msprop:Generator_ColumnPropNameInTable="Vol_DateColumn" type="xs:dateTime" />
+              <xs:element name="Strike" msprop:Generator_UserColumnName="Strike" msprop:Generator_ColumnPropNameInRow="Strike" msprop:Generator_ColumnVarNameInTable="columnStrike" msprop:Generator_ColumnPropNameInTable="StrikeColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Rate_x0020_Year" msprop:Generator_UserColumnName="Rate Year" msprop:Generator_ColumnPropNameInRow="Rate_Year" msprop:Generator_ColumnVarNameInTable="columnRate_Year" msprop:Generator_ColumnPropNameInTable="Rate_YearColumn" type="xs:double" />
+              <xs:element name="Rate_x0020_Period" msprop:Generator_UserColumnName="Rate Period" msprop:Generator_ColumnPropNameInRow="Rate_Period" msprop:Generator_ColumnVarNameInTable="columnRate_Period" msprop:Generator_ColumnPropNameInTable="Rate_PeriodColumn" type="xs:double" />
+              <xs:element name="Days_x0020_to_x0020_Expiration" msprop:Generator_UserColumnName="Days to Expiration" msprop:Generator_ColumnPropNameInRow="Days_to_Expiration" msprop:Generator_ColumnVarNameInTable="columnDays_to_Expiration" msprop:Generator_ColumnPropNameInTable="Days_to_ExpirationColumn" type="xs:int" />
+              <xs:element name="Time_x0020_to_x0020_Expiration" msprop:Generator_UserColumnName="Time to Expiration" msprop:Generator_ColumnPropNameInRow="Time_to_Expiration" msprop:Generator_ColumnVarNameInTable="columnTime_to_Expiration" msprop:Generator_ColumnPropNameInTable="Time_to_ExpirationColumn" type="xs:double" />
+              <xs:element name="Underlying_x0020_Last" msprop:Generator_UserColumnName="Underlying Last" msprop:Generator_ColumnPropNameInRow="Underlying_Last" msprop:Generator_ColumnVarNameInTable="columnUnderlying_Last" msprop:Generator_ColumnPropNameInTable="Underlying_LastColumn" type="xs:double" />
+              <xs:element name="Gamma" msprop:Generator_UserColumnName="Gamma" msprop:Generator_ColumnPropNameInRow="Gamma" msprop:Generator_ColumnVarNameInTable="columnGamma" msprop:Generator_ColumnPropNameInTable="GammaColumn" type="xs:double" />
+              <xs:element name="Vega" msprop:Generator_UserColumnName="Vega" msprop:Generator_ColumnPropNameInRow="Vega" msprop:Generator_ColumnVarNameInTable="columnVega" msprop:Generator_ColumnPropNameInTable="VegaColumn" type="xs:double" />
+              <xs:element name="Theta" msprop:Generator_UserColumnName="Theta" msprop:Generator_ColumnPropNameInRow="Theta" msprop:Generator_ColumnVarNameInTable="columnTheta" msprop:Generator_ColumnPropNameInTable="ThetaColumn" type="xs:double" />
+              <xs:element name="Rho" msprop:Generator_UserColumnName="Rho" msprop:Generator_ColumnPropNameInRow="Rho" msprop:Generator_ColumnVarNameInTable="columnRho" msprop:Generator_ColumnPropNameInTable="RhoColumn" type="xs:double" />
+              <xs:element name="Cash_x0020_Premium" msprop:Generator_UserColumnName="Cash Premium" msprop:Generator_ColumnPropNameInRow="Cash_Premium" msprop:Generator_ColumnVarNameInTable="columnCash_Premium" msprop:Generator_ColumnPropNameInTable="Cash_PremiumColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Calc_x0020_Error_x0020_Flag" msprop:Generator_UserColumnName="Calc Error Flag" msprop:Generator_ColumnPropNameInRow="Calc_Error_Flag" msprop:Generator_ColumnVarNameInTable="columnCalc_Error_Flag" msprop:Generator_ColumnPropNameInTable="Calc_Error_FlagColumn" type="xs:int" />
+              <xs:element name="Model_x0020_Price" msprop:Generator_UserColumnName="Model Price" msprop:Generator_ColumnPropNameInRow="Model_Price" msprop:Generator_ColumnVarNameInTable="columnModel_Price" msprop:Generator_ColumnPropNameInTable="Model_PriceColumn" type="xs:double" />
+              <xs:element name="Gamma_x0020_Quantity" msprop:Generator_UserColumnName="Gamma Quantity" msprop:Generator_ColumnPropNameInRow="Gamma_Quantity" msprop:Generator_ColumnVarNameInTable="columnGamma_Quantity" msprop:Generator_ColumnPropNameInTable="Gamma_QuantityColumn" type="xs:double" />
+              <xs:element name="Gamma_x0020_Cash" msprop:Generator_UserColumnName="Gamma Cash" msprop:Generator_ColumnPropNameInRow="Gamma_Cash" msprop:Generator_ColumnVarNameInTable="columnGamma_Cash" msprop:Generator_ColumnPropNameInTable="Gamma_CashColumn" type="xs:double" />
+              <xs:element name="Gamma_x002F_NAV" msprop:Generator_UserColumnName="Gamma/NAV" msprop:Generator_ColumnPropNameInRow="_Gamma_NAV" msprop:Generator_ColumnVarNameInTable="_columnGamma_NAV" msprop:Generator_ColumnPropNameInTable="_Gamma_NAVColumn" type="xs:double" />
+              <xs:element name="Display_x0020_Close" msprop:Generator_UserColumnName="Display Close" msprop:Generator_ColumnPropNameInRow="Display_Close" msprop:Generator_ColumnVarNameInTable="columnDisplay_Close" msprop:Generator_ColumnPropNameInTable="Display_CloseColumn" type="xs:double" />
+              <xs:element name="Display_x0020_Close_x0020_pC" msprop:Generator_UserColumnName="Display Close pC" msprop:Generator_ColumnPropNameInRow="Display_Close_pC" msprop:Generator_ColumnVarNameInTable="columnDisplay_Close_pC" msprop:Generator_ColumnPropNameInTable="Display_Close_pCColumn" type="xs:double" />
+              <xs:element name="Dif_x0020_Contrib" msprop:Generator_UserColumnName="Dif Contrib" msprop:Generator_ColumnPropNameInRow="Dif_Contrib" msprop:Generator_ColumnVarNameInTable="columnDif_Contrib" msprop:Generator_ColumnPropNameInTable="Dif_ContribColumn" type="xs:double" />
+              <xs:element name="Price_x0020_Date" msprop:Generator_UserColumnName="Price Date" msprop:Generator_ColumnPropNameInRow="Price_Date" msprop:Generator_ColumnVarNameInTable="columnPrice_Date" msprop:Generator_ColumnPropNameInTable="Price_DateColumn" type="xs:dateTime" />
+              <xs:element name="Id_x0020_Instrument" msprop:Generator_UserColumnName="Id Instrument" msprop:Generator_ColumnPropNameInRow="Id_Instrument" msprop:Generator_ColumnVarNameInTable="columnId_Instrument" msprop:Generator_ColumnPropNameInTable="Id_InstrumentColumn" type="xs:int" />
+              <xs:element name="Id_x0020_Asset_x0020_Class" msprop:Generator_UserColumnName="Id Asset Class" msprop:Generator_ColumnPropNameInRow="Id_Asset_Class" msprop:Generator_ColumnVarNameInTable="columnId_Asset_Class" msprop:Generator_ColumnPropNameInTable="Id_Asset_ClassColumn" type="xs:int" />
+              <xs:element name="Option_x0020_Type" msprop:Generator_UserColumnName="Option Type" msprop:Generator_ColumnPropNameInRow="Option_Type" msprop:Generator_ColumnVarNameInTable="columnOption_Type" msprop:Generator_ColumnPropNameInTable="Option_TypeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Initial_x0020_Position" msprop:Generator_UserColumnName="Initial Position" msprop:Generator_ColumnPropNameInRow="Initial_Position" msprop:Generator_ColumnVarNameInTable="columnInitial_Position" msprop:Generator_ColumnPropNameInTable="Initial_PositionColumn" type="xs:double" />
+              <xs:element name="Quantity_x0020_Bought" msprop:Generator_UserColumnName="Quantity Bought" msprop:Generator_ColumnPropNameInRow="Quantity_Bought" msprop:Generator_ColumnVarNameInTable="columnQuantity_Bought" msprop:Generator_ColumnPropNameInTable="Quantity_BoughtColumn" type="xs:double" />
+              <xs:element name="Quantity_x0020_Sold" msprop:Generator_UserColumnName="Quantity Sold" msprop:Generator_ColumnPropNameInRow="Quantity_Sold" msprop:Generator_ColumnVarNameInTable="columnQuantity_Sold" msprop:Generator_ColumnPropNameInTable="Quantity_SoldColumn" type="xs:double" />
+              <xs:element name="Spot_x0020_USD_x0020_Close" msprop:Generator_UserColumnName="Spot USD Close" msprop:Generator_ColumnPropNameInRow="Spot_USD_Close" msprop:Generator_ColumnVarNameInTable="columnSpot_USD_Close" msprop:Generator_ColumnPropNameInTable="Spot_USD_CloseColumn" type="xs:double" />
+              <xs:element name="Spot_x0020_Close" msprop:Generator_UserColumnName="Spot Close" msprop:Generator_ColumnPropNameInRow="Spot_Close" msprop:Generator_ColumnVarNameInTable="columnSpot_Close" msprop:Generator_ColumnPropNameInTable="Spot_CloseColumn" type="xs:double" />
+              <xs:element name="Cash_x0020_uC" msprop:Generator_UserColumnName="Cash uC" msprop:Generator_ColumnPropNameInRow="Cash_uC" msprop:Generator_ColumnVarNameInTable="columnCash_uC" msprop:Generator_ColumnPropNameInTable="Cash_uCColumn" type="xs:double" />
+              <xs:element name="Last_x0020_pC_x0020_Admin" msprop:Generator_UserColumnName="Last pC Admin" msprop:Generator_ColumnPropNameInRow="Last_pC_Admin" msprop:Generator_ColumnVarNameInTable="columnLast_pC_Admin" msprop:Generator_ColumnPropNameInTable="Last_pC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Close_x0020_pC_x0020_Admin" msprop:Generator_UserColumnName="Close pC Admin" msprop:Generator_ColumnPropNameInRow="Close_pC_Admin" msprop:Generator_ColumnVarNameInTable="columnClose_pC_Admin" msprop:Generator_ColumnPropNameInTable="Close_pC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Cost_x0020_Close_x0020_pC_x0020_Admin" msprop:Generator_UserColumnName="Cost Close pC Admin" msprop:Generator_ColumnPropNameInRow="Cost_Close_pC_Admin" msprop:Generator_ColumnVarNameInTable="columnCost_Close_pC_Admin" msprop:Generator_ColumnPropNameInTable="Cost_Close_pC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_x0020_P_x002F_L_x0020_Admin" msprop:Generator_UserColumnName="Total P/L Admin" msprop:Generator_ColumnPropNameInRow="_Total_P_L_Admin" msprop:Generator_ColumnVarNameInTable="_columnTotal_P_L_Admin" msprop:Generator_ColumnPropNameInTable="_Total_P_L_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Realized_x0020_Admin" msprop:Generator_UserColumnName="Realized Admin" msprop:Generator_ColumnPropNameInRow="Realized_Admin" msprop:Generator_ColumnVarNameInTable="columnRealized_Admin" msprop:Generator_ColumnPropNameInTable="Realized_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Asset_x0020_P_x002F_L_x0020_pC_x0020_Admin" msprop:Generator_UserColumnName="Asset P/L pC Admin" msprop:Generator_ColumnPropNameInRow="_Asset_P_L_pC_Admin" msprop:Generator_ColumnVarNameInTable="_columnAsset_P_L_pC_Admin" msprop:Generator_ColumnPropNameInTable="_Asset_P_L_pC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Currency_x0020_P_x002F_L_x0020_Admin" msprop:Generator_UserColumnName="Currency P/L Admin" msprop:Generator_ColumnPropNameInRow="_Currency_P_L_Admin" msprop:Generator_ColumnVarNameInTable="_columnCurrency_P_L_Admin" msprop:Generator_ColumnPropNameInTable="_Currency_P_L_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Contribution_x0020_pC_x0020_Admin" msprop:Generator_UserColumnName="Contribution pC Admin" msprop:Generator_ColumnPropNameInRow="Contribution_pC_Admin" msprop:Generator_ColumnVarNameInTable="columnContribution_pC_Admin" msprop:Generator_ColumnPropNameInTable="Contribution_pC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Last_x0020_Admin" msprop:Generator_UserColumnName="Last Admin" msprop:Generator_ColumnPropNameInRow="Last_Admin" msprop:Generator_ColumnVarNameInTable="columnLast_Admin" msprop:Generator_ColumnPropNameInTable="Last_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Close_x0020_Admin" msprop:Generator_UserColumnName="Close Admin" msprop:Generator_ColumnPropNameInRow="Close_Admin" msprop:Generator_ColumnVarNameInTable="columnClose_Admin" msprop:Generator_ColumnPropNameInTable="Close_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Cost_x0020_Close_x0020_Admin" msprop:Generator_UserColumnName="Cost Close Admin" msprop:Generator_ColumnPropNameInRow="Cost_Close_Admin" msprop:Generator_ColumnVarNameInTable="columnCost_Close_Admin" msprop:Generator_ColumnPropNameInTable="Cost_Close_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Id_x0020_Administrator" msprop:Generator_UserColumnName="Id Administrator" msprop:Generator_ColumnPropNameInRow="Id_Administrator" msprop:Generator_ColumnVarNameInTable="columnId_Administrator" msprop:Generator_ColumnPropNameInTable="Id_AdministratorColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Id_x0020_Base_x0020_Underlying" msprop:Generator_UserColumnName="Id Base Underlying" msprop:Generator_ColumnPropNameInRow="Id_Base_Underlying" msprop:Generator_ColumnVarNameInTable="columnId_Base_Underlying" msprop:Generator_ColumnPropNameInTable="Id_Base_UnderlyingColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Base_x0020_Underlying" msprop:Generator_UserColumnName="Base Underlying" msprop:Generator_ColumnPropNameInRow="Base_Underlying" msprop:Generator_ColumnVarNameInTable="columnBase_Underlying" msprop:Generator_ColumnPropNameInTable="Base_UnderlyingColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Base_x0020_Underlying_x0020_Currency" msprop:Generator_UserColumnName="Id Base Underlying Currency" msprop:Generator_ColumnPropNameInRow="Id_Base_Underlying_Currency" msprop:Generator_ColumnVarNameInTable="columnId_Base_Underlying_Currency" msprop:Generator_ColumnPropNameInTable="Id_Base_Underlying_CurrencyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Base_x0020_Underlying_x0020_Currency" msprop:Generator_UserColumnName="Base Underlying Currency" msprop:Generator_ColumnPropNameInRow="Base_Underlying_Currency" msprop:Generator_ColumnVarNameInTable="columnBase_Underlying_Currency" msprop:Generator_ColumnPropNameInTable="Base_Underlying_CurrencyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Bid" msprop:Generator_UserColumnName="Bid" msprop:Generator_ColumnPropNameInRow="Bid" msprop:Generator_ColumnVarNameInTable="columnBid" msprop:Generator_ColumnPropNameInTable="BidColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Ask" msprop:Generator_UserColumnName="Ask" msprop:Generator_ColumnPropNameInRow="Ask" msprop:Generator_ColumnVarNameInTable="columnAsk" msprop:Generator_ColumnPropNameInTable="AskColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="_x0025__x0020_to_x0020_Bid_x002F_Ask" msprop:Generator_UserColumnName="% to Bid/Ask" msprop:Generator_ColumnPropNameInRow="___to_Bid_Ask" msprop:Generator_ColumnVarNameInTable="_column__to_Bid_Ask" msprop:Generator_ColumnPropNameInTable="___to_Bid_AskColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Id_x0020_Source_x0020_Last" msprop:Generator_UserColumnName="Id Source Last" msprop:Generator_ColumnPropNameInRow="Id_Source_Last" msprop:Generator_ColumnVarNameInTable="columnId_Source_Last" msprop:Generator_ColumnPropNameInTable="Id_Source_LastColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Source_x0020_Last" msprop:Generator_UserColumnName="Source Last" msprop:Generator_ColumnPropNameInRow="Source_Last" msprop:Generator_ColumnVarNameInTable="columnSource_Last" msprop:Generator_ColumnPropNameInTable="Source_LastColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Flag_x0020_Last" msprop:Generator_UserColumnName="Flag Last" msprop:Generator_ColumnPropNameInRow="Flag_Last" msprop:Generator_ColumnVarNameInTable="columnFlag_Last" msprop:Generator_ColumnPropNameInTable="Flag_LastColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Source_x0020_Last_x0020_Admin" msprop:Generator_UserColumnName="Id Source Last Admin" msprop:Generator_ColumnPropNameInRow="Id_Source_Last_Admin" msprop:Generator_ColumnVarNameInTable="columnId_Source_Last_Admin" msprop:Generator_ColumnPropNameInTable="Id_Source_Last_AdminColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Source_x0020_Last_x0020_Admin" msprop:Generator_UserColumnName="Source Last Admin" msprop:Generator_ColumnPropNameInRow="Source_Last_Admin" msprop:Generator_ColumnVarNameInTable="columnSource_Last_Admin" msprop:Generator_ColumnPropNameInTable="Source_Last_AdminColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Flag_x0020_Last_x0020_Admin" msprop:Generator_UserColumnName="Flag Last Admin" msprop:Generator_ColumnPropNameInRow="Flag_Last_Admin" msprop:Generator_ColumnVarNameInTable="columnFlag_Last_Admin" msprop:Generator_ColumnPropNameInTable="Flag_Last_AdminColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_x0020_Source_x0020_Close" msprop:Generator_UserColumnName="Id Source Close" msprop:Generator_ColumnPropNameInRow="Id_Source_Close" msprop:Generator_ColumnVarNameInTable="columnId_Source_Close" msprop:Generator_ColumnPropNameInTable="Id_Source_CloseColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Source_x0020_Close" msprop:Generator_UserColumnName="Source Close" msprop:Generator_ColumnPropNameInRow="Source_Close" msprop:Generator_ColumnVarNameInTable="columnSource_Close" msprop:Generator_ColumnPropNameInTable="Source_CloseColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Flag_x0020_Close_x0020_Admin" msprop:Generator_UserColumnName="Flag Close Admin" msprop:Generator_ColumnPropNameInRow="Flag_Close_Admin" msprop:Generator_ColumnVarNameInTable="columnFlag_Close_Admin" msprop:Generator_ColumnPropNameInTable="Flag_Close_AdminColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UpdTime_x0020_Last" msprop:Generator_UserColumnName="UpdTime Last" msprop:Generator_ColumnPropNameInRow="UpdTime_Last" msprop:Generator_ColumnVarNameInTable="columnUpdTime_Last" msprop:Generator_ColumnPropNameInTable="UpdTime_LastColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UpdTime_x0020_last_x0020_Admin" msprop:Generator_UserColumnName="UpdTime last Admin" msprop:Generator_ColumnPropNameInRow="UpdTime_last_Admin" msprop:Generator_ColumnVarNameInTable="columnUpdTime_last_Admin" msprop:Generator_ColumnPropNameInTable="UpdTime_last_AdminColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Asset_x0020_uC_x0020_Admin" msprop:Generator_UserColumnName="Asset uC Admin" msprop:Generator_ColumnPropNameInRow="Asset_uC_Admin" msprop:Generator_ColumnVarNameInTable="columnAsset_uC_Admin" msprop:Generator_ColumnPropNameInTable="Asset_uC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Theta_x002F_NAV" msprop:Generator_UserColumnName="Theta/NAV" msprop:Generator_ColumnPropNameInRow="_Theta_NAV" msprop:Generator_ColumnVarNameInTable="_columnTheta_NAV" msprop:Generator_ColumnPropNameInTable="_Theta_NAVColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Id_x0020_Source_x0020_Close_x0020_Admin" msprop:Generator_UserColumnName="Id Source Close Admin" msprop:Generator_ColumnPropNameInRow="Id_Source_Close_Admin" msprop:Generator_ColumnVarNameInTable="columnId_Source_Close_Admin" msprop:Generator_ColumnPropNameInTable="Id_Source_Close_AdminColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Source_x0020_Close_x0020_Admin" msprop:Generator_UserColumnName="Source Close Admin" msprop:Generator_ColumnPropNameInRow="Source_Close_Admin" msprop:Generator_ColumnVarNameInTable="columnSource_Close_Admin" msprop:Generator_ColumnPropNameInTable="Source_Close_AdminColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Prev_x0020_Cash_x0020_uC" msprop:Generator_UserColumnName="Prev Cash uC" msprop:Generator_ColumnPropNameInRow="Prev_Cash_uC" msprop:Generator_ColumnVarNameInTable="columnPrev_Cash_uC" msprop:Generator_ColumnPropNameInTable="Prev_Cash_uCColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Prev_x0020_Cash_x0020_uC_x0020_Admin" msprop:Generator_UserColumnName="Prev Cash uC Admin" msprop:Generator_ColumnPropNameInRow="Prev_Cash_uC_Admin" msprop:Generator_ColumnVarNameInTable="columnPrev_Cash_uC_Admin" msprop:Generator_ColumnPropNameInTable="Prev_Cash_uC_AdminColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Current_x0020_NAV_x0020_pC" msprop:Generator_UserColumnName="Current NAV pC" msprop:Generator_ColumnPropNameInRow="Current_NAV_pC" msprop:Generator_ColumnVarNameInTable="columnCurrent_NAV_pC" msprop:Generator_ColumnPropNameInTable="Current_NAV_pCColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Option_x0020_Intrinsic" msprop:Generator_UserColumnName="Option Intrinsic" msprop:Generator_ColumnPropNameInRow="Option_Intrinsic" msprop:Generator_ColumnVarNameInTable="columnOption_Intrinsic" msprop:Generator_ColumnPropNameInTable="Option_IntrinsicColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Option_x0020_TV" msprop:Generator_UserColumnName="Option TV" msprop:Generator_ColumnPropNameInRow="Option_TV" msprop:Generator_ColumnVarNameInTable="columnOption_TV" msprop:Generator_ColumnPropNameInTable="Option_TVColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Option_x0020_Intrinsic_x0020_Cash_x0020_pC" msprop:Generator_UserColumnName="Option Intrinsic Cash pC" msprop:Generator_ColumnPropNameInRow="Option_Intrinsic_Cash_pC" msprop:Generator_ColumnVarNameInTable="columnOption_Intrinsic_Cash_pC" msprop:Generator_ColumnPropNameInTable="Option_Intrinsic_Cash_pCColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Option_x0020_TV_x0020_Cash_x0020_pC" msprop:Generator_UserColumnName="Option TV Cash pC" msprop:Generator_ColumnPropNameInRow="Option_TV_Cash_pC" msprop:Generator_ColumnVarNameInTable="columnOption_TV_Cash_pC" msprop:Generator_ColumnPropNameInTable="Option_TV_Cash_pCColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Cash_x0020_uC_x0020_Admin" msprop:Generator_UserColumnName="Cash uC Admin" msprop:Generator_ColumnPropNameInRow="Cash_uC_Admin" msprop:Generator_ColumnVarNameInTable="columnCash_uC_Admin" msprop:Generator_ColumnPropNameInTable="Cash_uC_AdminColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Tb000_Posicao_Atual" />
+      <xs:field xpath="mstns:Id_x0020_Position" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+route add -net 189.39.62.0 netmask 255.255.255.0 gw 192.168.0.140 dev eth0
+
+
+
+route add -net 172.17.1.0 netmask 255.255.255.0 gw 192.168.0.150 dev eth0
+
+
+
+
+
+route add -net 10.12.29.160 netmask 255.255.255.255 gw 192.168.0.5 dev eth0

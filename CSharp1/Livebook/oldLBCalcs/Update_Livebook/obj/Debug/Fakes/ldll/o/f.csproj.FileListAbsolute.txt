@@ -1,0 +1,9 @@
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.xml
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.pdb
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.pdb
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\f.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\LiveDLL.1.0.0.1.Fakes.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\LiveDLL.1.0.0.1.Fakes.pdb

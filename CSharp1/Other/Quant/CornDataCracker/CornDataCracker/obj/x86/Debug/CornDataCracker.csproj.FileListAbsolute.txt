@@ -1,0 +1,11 @@
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\CornDataCracker.Form1.resources
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\CornDataCracker.Properties.Resources.resources
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\bin\Debug\CornDataCracker.exe
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\bin\Debug\CornDataCracker.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\CornDataCracker.exe
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\obj\x86\Debug\CornDataCracker.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\bin\Debug\NestDLL.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\CornDataCracker\CornDataCracker\bin\Debug\NestDLL.pdb

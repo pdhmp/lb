@@ -1,0 +1,15 @@
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\CVMFilesDownload.exe
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\CVMFilesDownload.pdb
+C:\Projects\CVMFilesDownload\CVMFilesDownload\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CVMFilesDownload\CVMFilesDownload\obj\Debug\CVMFilesDownload.exe
+C:\Projects\CVMFilesDownload\CVMFilesDownload\obj\Debug\CVMFilesDownload.pdb
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\NestSimDLL.dll
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\quickfix_net.dll
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\quickfix_net_messages.dll
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\NestSimDLL.pdb
+C:\Projects\CVMFilesDownload\CVMFilesDownload\bin\Debug\NestSimDLL.xml
+N:\TI\Projects\CSharp\Other\CVMFilesDownload\CVMFilesDownload\obj\Debug\CVMFilesDownload.exe
+N:\TI\Projects\CSharp\Other\CVMFilesDownload\CVMFilesDownload\obj\Debug\CVMFilesDownload.pdb
+N:\TI\Projects\CSharp\Other\CVMFilesDownload\CVMFilesDownload\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\CVMFilesDownload\CVMFilesDownload\bin\Debug\CVMFilesDownload.exe
+N:\TI\Projects\CSharp\Other\CVMFilesDownload\CVMFilesDownload\bin\Debug\CVMFilesDownload.pdb

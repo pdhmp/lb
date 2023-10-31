@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NestDesk">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk.suo">
+</Property><Property Name="Date" Value="sexta-feira, 6 de agosto de 2010">
+</Property><Property Name="Time" Value="15:51">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NestDesk.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NestDesk.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk.suo">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\NestDesk.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\NestDesk.csproj">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\NestDesk.csproj.user" Description="Project user file successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\NestDesk.csproj.user">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Form1.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Form1.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Form1.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Program.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\Resources.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\RefreshHelperClass.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\RefreshHelperClass.cs">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\NestDesk_TemporaryKey.pfx" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\NestDesk_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Form1.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Form1.resx">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\licenses.licx" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\licenses.licx">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\Resources.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\Properties\app.manifest" Description="File successfully backed up as N:\TI\Projects\CSharp\HelpDesk\NestDesk\Backup\NestDesk\Properties\app.manifest">
+</Event><Event ErrorLevel="1" Project="NestDesk" Source="NestDesk\NestDesk.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\NestDesk.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NestDesk" Source="NestDesk\NestDesk.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NestDesk.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NestDesk.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NestDesk" Source="NestDesk\NestDesk.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

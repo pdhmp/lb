@@ -1,0 +1,15 @@
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\bin\Release\RTICKReaderDI.exe.manifest
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\bin\Release\RTICKReaderDI.application
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\bin\Release\RTICKReaderDI.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\bin\Release\RTICKReaderDI.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\bin\Release\NestDLL.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\bin\Release\NestDLL.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\RTICKReaderDI.RTICKFileCrack.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\RTICKReaderDI.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\RTICKReaderDI.exe.manifest
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\RTICKReaderDI.application
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\RTICKReaderDI.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\RTICKReaderDIV2\RTICKReaderDI\obj\x86\Release\RTICKReaderDI.pdb

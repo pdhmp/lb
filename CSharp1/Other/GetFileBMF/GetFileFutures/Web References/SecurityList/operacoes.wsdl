@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.agorainvest.com.br/WebServices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.agorainvest.com.br/WebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.agorainvest.com.br/WebServices">
+      <s:element name="RetornaOperacoes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HashCode" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornaOperacoesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornaOperacoesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelecionaOrdens">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrTipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HashCode" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="intCliCD" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Seqord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SelecionaOrdensResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SelecionaOrdensResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarSecurityID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="symbol" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetornarSecurityIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetornarSecurityIDResult" type="tns:SecurityInfoTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SecurityInfoTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Symbol" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SecurityGroup" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SecurityType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Asset" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RoundLot" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PriceType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MaturityDate" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="StrikePrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="ContractMultiplier" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="MinPriceIncrement" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TickSizeDenominator" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="IssueDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="TradingSessionSubID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TradingSessionOpenTime" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="TradingStatus" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastTrade" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PreviousClose" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeStamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SecurityDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SecurityId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RetornaOperacoesSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornaOperacoes" />
+  </wsdl:message>
+  <wsdl:message name="RetornaOperacoesSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornaOperacoesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SelecionaOrdensSoapIn">
+    <wsdl:part name="parameters" element="tns:SelecionaOrdens" />
+  </wsdl:message>
+  <wsdl:message name="SelecionaOrdensSoapOut">
+    <wsdl:part name="parameters" element="tns:SelecionaOrdensResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetornarSecurityIDSoapIn">
+    <wsdl:part name="parameters" element="tns:RetornarSecurityID" />
+  </wsdl:message>
+  <wsdl:message name="RetornarSecurityIDSoapOut">
+    <wsdl:part name="parameters" element="tns:RetornarSecurityIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="OperacoesSoap">
+    <wsdl:operation name="RetornaOperacoes">
+      <wsdl:input message="tns:RetornaOperacoesSoapIn" />
+      <wsdl:output message="tns:RetornaOperacoesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SelecionaOrdens">
+      <wsdl:input message="tns:SelecionaOrdensSoapIn" />
+      <wsdl:output message="tns:SelecionaOrdensSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetornarSecurityID">
+      <wsdl:input message="tns:RetornarSecurityIDSoapIn" />
+      <wsdl:output message="tns:RetornarSecurityIDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OperacoesSoap" type="tns:OperacoesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RetornaOperacoes">
+      <soap:operation soapAction="http://www.agorainvest.com.br/WebServices/RetornaOperacoes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelecionaOrdens">
+      <soap:operation soapAction="http://www.agorainvest.com.br/WebServices/SelecionaOrdens" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarSecurityID">
+      <soap:operation soapAction="http://www.agorainvest.com.br/WebServices/RetornarSecurityID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OperacoesSoap12" type="tns:OperacoesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RetornaOperacoes">
+      <soap12:operation soapAction="http://www.agorainvest.com.br/WebServices/RetornaOperacoes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelecionaOrdens">
+      <soap12:operation soapAction="http://www.agorainvest.com.br/WebServices/SelecionaOrdens" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetornarSecurityID">
+      <soap12:operation soapAction="http://www.agorainvest.com.br/WebServices/RetornarSecurityID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Operacoes">
+    <wsdl:port name="OperacoesSoap" binding="tns:OperacoesSoap">
+      <soap:address location="http://www.agorainvest.com.br/webservices/nest/operacoes.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OperacoesSoap12" binding="tns:OperacoesSoap12">
+      <soap12:address location="http://www.agorainvest.com.br/webservices/nest/operacoes.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

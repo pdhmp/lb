@@ -1,0 +1,98 @@
+C:\temp\LB2\Livebook 2.0.exe.config
+obj\Debug\Livebook 2.0.exe
+obj\Debug\Livebook 2.0.pdb
+C:\temp\LB2\Livebook 2.0.exe.manifest
+C:\temp\LB2\Livebook 2.0.application
+C:\temp\LB2\Livebook 2.0.exe
+C:\temp\LB2\Livebook 2.0.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SGN.frmDividends.resources
+obj\Debug\SGN.frmConfirmPL.resources
+obj\Debug\SGN.frmResearchNews.resources
+obj\Debug\SGN.frmTop10Long.resources
+obj\Debug\SGN.frmRiskOptions.resources
+obj\Debug\SGN.frmRiskSectors.resources
+obj\Debug\SGN.frmSpam.resources
+obj\Debug\SGN.frmStatusFlags.resources
+obj\Debug\SGN.frmBookSummary.resources
+obj\Debug\SGN.frmPerfChart.resources
+obj\Debug\SGN.frmRiskLimits.resources
+obj\Debug\SGN.frmCopySecurity.resources
+obj\Debug\SGN.frmTrades_group.resources
+obj\Debug\SGN.frmPriceView.resources
+obj\Debug\SGN.frmInsertSecurity.resources
+obj\Debug\SGN.frmEdit.resources
+obj\Debug\SGN.frmInsertOrdem.resources
+obj\Debug\SGN.frmCommodities.resources
+obj\Debug\SGN.frmIssuer.resources
+obj\Debug\SGN.frmOpcoes.resources
+obj\Debug\SGN.frmSwap.resources
+obj\Debug\SGN.frmTrade_Aloc_Override.resources
+obj\Debug\SGN.frmUpdate_Trades.resources
+obj\Debug\SGN.ExListView.resources
+obj\Debug\SGN.frmFuturos.resources
+obj\Debug\SGN.frmCurrency.resources
+obj\Debug\SGN.frmAcoes.resources
+obj\Debug\SGN.frmAdr.resources
+obj\Debug\SGN.frmAtivos.resources
+obj\Debug\SGN.frmIndices.resources
+obj\Debug\SGN.frmAdmPos.resources
+obj\Debug\SGN.frmApagaPL.resources
+obj\Debug\SGN.frmCalculateDelta.resources
+obj\Debug\SGN.frmConsistency.resources
+obj\Debug\SGN.frmEditMargin.resources
+obj\Debug\SGN.old_frmOrders.resources
+obj\Debug\SGN.frmMargin.resources
+obj\Debug\SGN.frmStock_Loan_Close.resources
+obj\Debug\SGN.frmMonSectorIndex.resources
+obj\Debug\SGN.frmRiskMarginalVARs.resources
+obj\Debug\SGN.frmEditStrategy.resources
+obj\Debug\SGN.zfrmTradeSet.resources
+obj\Debug\SGN.frmTradeSplit.resources
+obj\Debug\SGN.frmOptionStrikes.resources
+obj\Debug\SGN.frmFundPerfSummary.resources
+obj\Debug\SGN.frmAlocate_Trade.resources
+obj\Debug\SGN.frmQuote.resources
+obj\Debug\SGN.frmTradeSummary.resources
+obj\Debug\SGN.frmStock_Loan.resources
+obj\Debug\SGN.frmInsertLoan.resources
+obj\Debug\SGN.frmPositions.resources
+obj\Debug\SGN.frmStatus.resources
+obj\Debug\SGN.frmIBOV_Components.resources
+obj\Debug\SGN.frmCompIndex.resources
+obj\Debug\SGN.frmBottom10Changes.resources
+obj\Debug\SGN.frmTop10Changes.resources
+obj\Debug\SGN.frmTop10Short.resources
+obj\Debug\SGN.frmPortSummary.resources
+obj\Debug\SGN.frmBottom10Contributions.resources
+obj\Debug\SGN.zfrmDivisaoBoletas.resources
+obj\Debug\SGN.frmEditPriceTrade.resources
+obj\Debug\SGN.frmCancel_Trades.resources
+obj\Debug\SGN.frmInsertPrice.resources
+obj\Debug\SGN.frmExposure_PL.resources
+obj\Debug\SGN.frmInsertMargin.resources
+obj\Debug\SGN.frmInsertOrder.resources
+obj\Debug\SGN.frmOrders.resources
+obj\Debug\SGN.frmStrategy.resources
+obj\Debug\SGN.frmTop10Contributions.resources
+obj\Debug\SGN.Tela_Divididas.frmTrades.resources
+obj\Debug\SGN.frmTradesPosition.resources
+obj\Debug\SGN.frmUpdateStrategy.resources
+obj\Debug\SGN.frmVARChart.resources
+obj\Debug\SGN.frmTeste.resources
+obj\Debug\SGN.frmTrades.resources
+obj\Debug\SGN.frmCaixa.resources
+obj\Debug\SGN.frmVol.resources
+obj\Debug\SGN.frmcoluns.resources
+obj\Debug\SGN.frmPass.resources
+obj\Debug\SGN.frmLogin.resources
+obj\Debug\SGN.frmpl.resources
+obj\Debug\SGN.frmPosicoes.resources
+obj\Debug\SGN.frmInsertTrade.resources
+obj\Debug\SGN.frmMenu.resources
+obj\Debug\SGN.Properties.Resources.resources
+obj\Debug\Livebook.csproj.GenerateResource.Cache
+obj\Debug\Livebook 2.0.exe.licenses
+obj\Debug\Livebook 2.0.TrustInfo.xml
+obj\Debug\Livebook 2.0.exe.manifest
+obj\Debug\Livebook 2.0.application

@@ -1,0 +1,10 @@
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate stub for LiveDLL.ConnManager: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate stub for LiveDLL.NestSrv02Conn: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate stub for LiveDLL.Properties.Resources: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate stub for LiveDLL.Properties.Settings: type is sealed.
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>{900ADBF5-2947-4AD3-9467-7A484F05776A}: type is not supported because of internal limitations.
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate shim for LiveDLL.ConnManager: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate shim for LiveDLL.NestSrv02Conn: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate shim for LiveDLL.Properties.Resources: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate shim for LiveDLL.Properties.Settings: type is not visible to exported or assembly(LiveDLL.1.0.0.1.Fakes).
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\Fakes\LiveDLL.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>{900ADBF5-2947-4AD3-9467-7A484F05776A}: type is not supported because of internal limitations.

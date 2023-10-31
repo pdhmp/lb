@@ -1,0 +1,52 @@
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.Form1.resources
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.Properties.Resources.resources
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.exe
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.pdb
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.pdb
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.exe.manifest
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.application
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe.manifest
+C:\Users\gabriel.antunes.NESTINVEST\Documents\Visual Studio 2010\Projects\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.application
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.exe.manifest
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.application
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.exe
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.pdb
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.Properties.Resources.resources
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe.manifest
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.application
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.exe.manifest
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.application
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.exe
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\bin\Debug\Get_File_FTP_Reuters.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\ResolveAssemblyReference.cache
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.Properties.Resources.resources
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.read.1.tlog
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.write.1.tlog
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe.manifest
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.application
+N:\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.frmMain.resources
+C:\temp\Debug\Get_File_FTP_Reuters\Get_File_FTP_Reuters.exe.manifest
+C:\temp\Debug\Get_File_FTP_Reuters\Get_File_FTP_Reuters.application
+C:\temp\Debug\Get_File_FTP_Reuters\Get_File_FTP_Reuters.exe
+C:\temp\Debug\Get_File_FTP_Reuters\Get_File_FTP_Reuters.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Utils\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.frmMain.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.frmMain.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.Properties.Resources.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.exe.manifest
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\TODAY\Get_File_FTP_Reuters\Get_File_FTP_Reuters\obj\x86\Debug\Get_File_FTP_Reuters.application

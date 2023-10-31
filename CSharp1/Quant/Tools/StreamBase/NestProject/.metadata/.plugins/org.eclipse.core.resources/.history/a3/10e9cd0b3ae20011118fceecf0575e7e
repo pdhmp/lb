@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <implements module-reference="Strategy.sbint"/>
+        <import from="Strategy.sbint" postfix="" prefix=""/>
+        <parameter-definitions>
+            <parameter default="1" name="Portfolio"/>
+            <parameter default="1" name="Book"/>
+            <parameter default="1" name="Section"/>
+            <parameter default="1" name="SizeMinMax"/>
+            <parameter default="0.75" name="TriggerUp"/>
+            <parameter default="0.25" name="TriggerDown"/>
+            <parameter default="0.005" name="PercMultipl"/>
+            <parameter default="0.14" name="MultiplPatrimonio"/>
+            <parameter default="0.25" name="Days"/>
+            <parameter default="Error.log" name="ErrorFileName"/>
+            <parameter default="File.log" name="LogFileName"/>
+        </parameter-definitions>
+        <dynamic-variables>
+            <dynamic-variable initial-expression="1.0" name="_Patrimonio" setter-expression="Patr" setter-stream="Patrimonio"/>
+        </dynamic-variables>
+        <schema name="schema:Patrimonio">
+            <field description="" name="Patr" type="double"/>
+        </schema>
+        <schema name="schema:QSEGSTable">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="Last" type="double"/>
+            <field description="" name="Min" type="double"/>
+            <field description="" name="Max" type="double"/>
+            <field description="" name="Stochastic" type="double"/>
+            <field description="" name="Signal" type="int"/>
+            <field description="" name="Multiplicador" type="double"/>
+            <field description="" name="Size" type="double"/>
+            <field description="" name="Var" type="double"/>
+        </schema>
+        <schema name="schema:QSEGS_HISTORICOS">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="Date" type="timestamp"/>
+            <field description="" name="srvalue" type="double"/>
+        </schema>
+        <schema name="schema:Securities">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="QSEGComponent" type="string"/>
+            <field description="" name="Last" type="double"/>
+            <field description="" name="Weight" type="double"/>
+            <field description="" name="PositionDm1" type="double"/>
+            <field description="" name="PositionD0" type="double"/>
+            <field description="" name="Action" type="double"/>
+        </schema>
+        <schema name="schema:VarLastQSEGS">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="VarLast" type="double"/>
+        </schema>
+        <data name="NESTSRV06" type="jdbctable">
+            <param name="connection" value="NESTDB"/>
+        </data>
+        <data name="QSEGSTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="QSEGName"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:QSEGSTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="QSEGS_HISTORICOS" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="QSEGName"/>
+            <param name="key.1" value="Date"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:QSEGS_HISTORICOS"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="Securities" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="Symbol"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:Securities"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="Command" schema="CommandInputSchema">
+        </stream>
+        <stream name="MD" schema="MarketDataInputSchema">
+        </stream>
+        <stream name="Patrimonio" schema="schema:Patrimonio">
+        </stream>
+        <stream name="QSEGS" schema="QSEGUpdate">
+        </stream>
+        <stream name="VarLastQSEGS" schema="schema:VarLastQSEGS">
+        </stream>
+        <box name="Filter" type="filter">
+            <input port="1" stream="MD"/>
+            <output port="1" stream="out:Filter_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="MDEntryPx != 0"/>
+        </box>
+        <box name="Filter2" type="filter">
+            <input port="1" stream="Command"/>
+            <output port="1" stream="out:Filter2_1"/>
+            <output port="2" stream="out:Filter2_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Command = 'START'"/>
+            <param name="expression.1" value="Command = 'SEND ORDERS'"/>
+        </box>
+        <box name="GetQSEGId" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="VarLastQSEGS"/>
+            <output port="1" stream="out:GetQSEGId_1"/>
+            <param name="sql" value="SELECT IdSecurity as QSEGid&#13;&#10;  FROM [NESTDB].[dbo].[Tb001_Securities]&#13;&#10;  WHERE NESTTICKER = {QSEGName}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="QSEGNull" type="filter">
+            <input port="1" stream="QSEGS"/>
+            <output port="1" stream="out:QSEGNull_1"/>
+            <output port="2" stream="out:QSEGNull_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Value != 0"/>
+            <param name="expression.1" value="true"/>
+        </box>
+        <box name="ErrorMapQSEGNull" type="map">
+            <input port="1" stream="out:QSEGNull_2"/>
+            <output port="1" stream="out:ErrorMapQSEGNull_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ErrorMSG">'Null Qseg Value received on input port'</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="GetMinMaxQSEGS" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetQSEGId_1"/>
+            <output port="1" stream="out:GetMinMaxQSEGS_1"/>
+            <param name="sql" value="SELECT top (${SizeMinMax}+1) srvalue, srdate&#13;&#10;FROM NESTDB.dbo.Tb053_Precos_Indices&#13;&#10;WHERE SrType = 101 AND IdSecurity = {QSEGid} AND SRDATE &gt;= DATEADD(month, -2,GETDATE())&#13;&#10;ORDER BY SRDATE DESC"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="GetSecurities" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:Filter2_1"/>
+            <output port="1" stream="out:GetSecurities_1"/>
+            <param name="sql" value="SELECT      X.ID_TICKER_COMPOSITE AS SECTOR,              X.ID_TICKER_COMPONENT AS SECURITY,              X.WEIGHT  FROM  (SELECT *  FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION A  WHERE ID_TICKER_COMPOSITE IN (      SELECT DISTINCT(ID_TICKER_COMPONENT)                                                   FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION                                                   WHERE ID_TICKER_COMPOSITE = 281020)  AND DATE_REF &gt;= '2012-07-01') X  ORDER BY SECTOR,SECURITY"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="OrderQuery" type="query">
+            <dataref id="querytable" name="Securities"/>
+            <input port="1" stream="out:Filter2_2"/>
+            <output port="1" stream="out:OrderQuery_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="all-rows"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:Securities" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="UpdateLastPrice" type="query">
+            <dataref id="querytable" name="Securities"/>
+            <input port="1" stream="out:Filter_1"/>
+            <output port="1" stream="out:UpdateLastPrice_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Symbol"/>
+            <param name="key-value.0" value="input.Symbol"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:Securities" name="update">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Last">MDEntryPx</set>
+                </expressions>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="UpdateQSEGTable" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:QSEGNull_1"/>
+            <output port="1" stream="out:UpdateQSEGTable_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="QSEGName"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable" name="update">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Last">Value</set>
+                </expressions>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="Filter4" type="filter">
+            <input port="1" stream="out:GetSecurities_1"/>
+            <output port="1" stream="out:Filter4_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="WEIGHT &gt; 0"/>
+        </box>
+        <box name="InsertQSEGSHistoricos" type="query">
+            <dataref id="querytable" name="QSEGS_HISTORICOS"/>
+            <input port="1" stream="out:GetMinMaxQSEGS_1"/>
+            <output port="1" stream="out:InsertQSEGSHistoricos_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="QSEGName"/>
+            <param name="key-field.1" value="Date"/>
+            <param name="key-value.1" value="srdate"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <remove field="srvalue"/>
+                </expressions>
+            </target-list>
+            <target-list goal-schema="schema:QSEGS_HISTORICOS" name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="srvalue">srvalue</set>
+                    <set field="Date">srdate</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="MapOrderId" type="map">
+            <input port="1" stream="out:OrderQuery_1"/>
+            <output port="1" stream="Order"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="PrefixOrderId">string(${Portfolio})+'_'+string(${Book})+'_'+string(${Section})</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="MaxMinError" type="filter">
+            <input port="1" stream="out:UpdateQSEGTable_1"/>
+            <output port="1" stream="out:MaxMinError_1"/>
+            <output port="2" stream="out:MaxMinError_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="(Max-Min) != 0"/>
+            <param name="expression.1" value="true"/>
+        </box>
+        <box name="ReadAll" type="query">
+            <dataref id="querytable" name="Securities"/>
+            <input port="1" stream="out:UpdateLastPrice_1"/>
+            <output port="1" stream="out:ReadAll_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Symbol"/>
+            <param name="key-lowerbound-value.0" value="input.Symbol"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="current" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:Securities" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="ErrorMapMaxMin" type="map">
+            <input port="1" stream="out:MaxMinError_2"/>
+            <output port="1" stream="out:ErrorMapMaxMin_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ErrorMSG">'Max Min equals to zero: '+string(Max)+' '+string(Min)</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="GetMinMax" type="query">
+            <dataref id="querytable" name="QSEGS_HISTORICOS"/>
+            <input port="1" stream="out:InsertQSEGSHistoricos_1"/>
+            <output port="1" stream="out:GetMinMax_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="current.QSEGName = input.QSEGName"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <expressions>
+                    <include field="QSEGMin">min(srvalue)</include>
+                    <include field="QSEGMax">max(srvalue)</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGS_HISTORICOS" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="GetQSEGName" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:Filter4_1"/>
+            <output port="1" stream="out:GetQSEGName_1"/>
+            <param name="sql" value="SELECT NestTicker as QSEGName&#13;&#10;  FROM [NESTDB].[dbo].[Tb001_Securities]&#13;&#10;where idsecurity = {SECTOR}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <remove field="SECTOR"/>
+                </expressions>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="GetQSEGSize" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:ReadAll_1"/>
+            <output port="1" stream="out:GetQSEGSize_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-lowerbound-value.0" value="QSEGComponent"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="all">
+                    <remove field="Last"/>
+                </item>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <output-stream name="Order">
+        </output-stream>
+        <box name="Stochastic" type="map">
+            <input port="1" stream="out:MaxMinError_1"/>
+            <output port="1" stream="out:Stochastic_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="funcStochastic">if (Max-Min) &lt;= 0 then 1 else (Last - Min)/(Max-Min)</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="Filter3" type="filter">
+            <input port="1" stream="out:GetQSEGSize_1"/>
+            <output port="1" stream="out:Filter3_1"/>
+            <output port="2" stream="out:Filter3_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="Last&gt; 0"/>
+            <param name="expression.1" value="true"/>
+        </box>
+        <box name="GetTickerName" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetQSEGName_1"/>
+            <output port="1" stream="out:GetTickerName_1"/>
+            <param name="sql" value="SELECT NestTicker as Symbol&#13;&#10;FROM [NESTDB].[dbo].[Tb001_Securities]&#13;&#10;where idsecurity = {SECURITY}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="Signal" type="map">
+            <input port="1" stream="out:Stochastic_1"/>
+            <output port="1" stream="out:Signal_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="funcSignal">if(funcStochastic &gt; ${TriggerUp}) then 1 else (if(funcStochastic &lt; ${TriggerDown}) then -1 else 0)</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="UpdateMinMaxQSEGS" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:GetMinMax_1"/>
+            <output port="1" stream="out:UpdateMinMaxQSEGS_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="QSEGName"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable_logical_value" name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Min">QSEGMin</set>
+                    <set field="Max">QSEGMax</set>
+                    <set field="Var">VarLast</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="CalculatePosition" type="map">
+            <input port="1" stream="out:Filter3_1"/>
+            <output port="1" stream="out:CalculatePosition_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="funcPosition">round(Size*Weight/Last/100,0)*100</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="DivZeroMultipl" type="filter">
+            <input port="1" stream="out:Signal_1"/>
+            <output port="1" stream="out:DivZeroMultipl_1"/>
+            <output port="2" stream="out:DivZeroMultipl_2"/>
+            <param name="autogen-nomatch-port" value="true"/>
+            <param name="expression.0" value="(pow((round(Var/${PercMultipl},0)*${PercMultipl}),3)) !=0"/>
+            <param name="expression.1" value="true"/>
+        </box>
+        <box name="ErrorLast" type="map">
+            <input port="1" stream="out:Filter3_2"/>
+            <output port="1" stream="out:ErrorLast_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ErrorMSG">'Last equals to zero. Stopped to avoind division-by-zero error. '+string(Last)</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="GetPosition" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetTickerName_1"/>
+            <output port="1" stream="out:GetPosition_1"/>
+            <param name="sql" value="SELECT Position AS PositionDm1 FROM NESTRT.dbo.Tb000_Posicao_Atual&#13;&#10;WHERE [Id Portfolio] = ${Portfolio} AND [Id Book] = ${Book} and [Id Section] = ${Section} and [Id Ticker] = {SECURITY}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="true"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <remove field="SECURITY"/>
+                </expressions>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="CalculateAction" type="map">
+            <input port="1" stream="out:CalculatePosition_1"/>
+            <output port="1" stream="out:CalculateAction_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="funcAction">if isnull(PositionDm1) then funcPosition else funcPosition-PositionDm1</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="ErrorDivZeroMultipl" type="map">
+            <input port="1" stream="out:DivZeroMultipl_2"/>
+            <output port="1" stream="out:ErrorDivZeroMultipl_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="ErrorMSG">'Result of expression equals to zero: '+string((pow((round(Var/${PercMultipl},0)*${PercMultipl}),3)))</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="InsertSecurities" type="query">
+            <dataref id="querytable" name="Securities"/>
+            <input port="1" stream="out:GetPosition_1"/>
+            <output port="1" stream="out:InsertSecurities_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Symbol"/>
+            <param name="key-value.0" value="Symbol"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="input" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:Securities_logical_value" name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="QSEGComponent">QSEGName</set>
+                    <set field="Weight">WEIGHT</set>
+                    <set field="PositionDm1">PositionDm1</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="Multiplicador" type="map">
+            <input port="1" stream="out:DivZeroMultipl_1"/>
+            <output port="1" stream="out:Multiplicador_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="funcMult">min(1,(pow(0.005,3))/(pow((round(Var/${PercMultipl},0)*${PercMultipl}),3)))</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="ErrorLogUnion" type="union">
+            <input port="1" stream="out:ErrorMapQSEGNull_1"/>
+            <input port="2" stream="out:ErrorMapMaxMin_1"/>
+            <input port="3" stream="out:ErrorDivZeroMultipl_1"/>
+            <input port="4" stream="out:ErrorLast_1"/>
+            <output port="1" stream="out:ErrorLogUnion_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <box name="Size" type="map">
+            <input port="1" stream="out:Multiplicador_1"/>
+            <output port="1" stream="out:Size_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="funcSize">(_Patrimonio*${MultiplPatrimonio})*${Days}*funcMult*funcSignal</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="UpdateAllSecurities" type="query">
+            <dataref id="querytable" name="Securities"/>
+            <input port="1" stream="out:CalculateAction_1"/>
+            <output port="1" stream="out:UpdateAllSecurities_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Symbol"/>
+            <param name="key-value.0" value="Symbol"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:Securities" name="update">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="PositionD0">funcPosition</set>
+                    <set field="Action">funcAction</set>
+                </expressions>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="ErrorLogWriter" type="outputadapter">
+            <input port="1" stream="out:ErrorLogUnion_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="Logs/${ErrorFileName}"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="Logs/${ErrorFileName}"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+        </box>
+        <box name="UpdateAll" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:Size_1"/>
+            <output port="1" stream="out:UpdateAll_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="QSEGName"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable" name="update">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Stochastic">funcStochastic</set>
+                    <set field="Signal">funcSignal</set>
+                    <set field="Multiplicador">funcMult</set>
+                    <set field="Size">funcSize</set>
+                </expressions>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="LogUnion" type="union">
+            <input port="1" stream="out:UpdateAll_1"/>
+            <input port="2" stream="out:InsertSecurities_1"/>
+            <input port="3" stream="out:UpdateAllSecurities_1"/>
+            <input port="4" stream="Patrimonio"/>
+            <input port="5" stream="out:UpdateMinMaxQSEGS_1"/>
+            <input port="6" stream="out:OrderQuery_1"/>
+            <output port="1" stream="LogOut"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <output-stream name="LogOut">
+        </output-stream>
+        <gui.note name="Note">
+            <property name="description" value="A cada QSEG que chega, atualizo a tabela de QSEGS&#13;&#10;"/>
+        </gui.note>
+    </add>
+</modify>

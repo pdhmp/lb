@@ -1,0 +1,1 @@
+ReqID,ClOrdID,OrigClOrdID,UpdateNumber,UpdateTime,OrderStatusBov,OrderStatusApp,Symbol,Venue,Side,Price,OrderID,ReplacedbyReqID,CumQty,LeavesQty,OrderQty,InMarketQty,AvgPx,ExtraInfo,ExecTransType,ExecType,OrdRejReason,Request,LastReport,TradeDate

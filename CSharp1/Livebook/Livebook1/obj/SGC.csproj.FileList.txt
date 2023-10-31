@@ -1,0 +1,45 @@
+bin\Debug\Nest LiveBook.exe.config
+bin\Debug\Nest LiveBook.exe.manifest
+bin\Debug\Nest LiveBook.application
+bin\Debug\Nest LiveBook.exe
+bin\Debug\Nest LiveBook.pdb
+bin\Debug\Basic_Functions.dll
+bin\Debug\NestDLL.dll
+bin\Debug\NestDLL.pdb
+bin\Debug\Basic_Functions.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SGC.csproj.ResolveComReference.cache
+obj\Debug\SGN.Form2.resources
+obj\Debug\SGN.frmEdit.resources
+obj\Debug\SGN.frmCommodities.resources
+obj\Debug\SGN.frmIssuer.resources
+obj\Debug\SGN.frmOpcoes.resources
+obj\Debug\SGN.frmSwap.resources
+obj\Debug\SGN.ExListView.resources
+obj\Debug\SGN.frmFuturos.resources
+obj\Debug\SGN.frmCurrency.resources
+obj\Debug\SGN.frmAcoes.resources
+obj\Debug\SGN.frmAdr.resources
+obj\Debug\SGN.frmAtivos.resources
+obj\Debug\SGN.frmIndices.resources
+obj\Debug\SGN.frmConsistency.resources
+obj\Debug\SGN.frmTrades.resources
+obj\Debug\SGN.frmCaixa.resources
+obj\Debug\SGN.frmVol.resources
+obj\Debug\SGN.frmcoluns.resources
+obj\Debug\SGN.frmPass.resources
+obj\Debug\SGN.frmLogin.resources
+obj\Debug\SGN.frmpl.resources
+obj\Debug\SGN.frmPosicoes.resources
+obj\Debug\SGN.frmInsertOrdem.resources
+obj\Debug\SGN.frmInsertTrade.resources
+obj\Debug\SGN.frmMenu.resources
+obj\Debug\SGN.Properties.Resources.resources
+obj\Debug\SGN.Resource.Form1.resources
+obj\Debug\SGC.csproj.GenerateResource.Cache
+obj\Debug\Nest LiveBook.TrustInfo.xml
+obj\Debug\Nest LiveBook.exe.manifest
+obj\Debug\Nest LiveBook.application
+obj\Debug\Nest LiveBook.exe
+obj\Debug\Nest LiveBook.pdb
+obj\Debug\SGN.frmTeste.resources

@@ -1,0 +1,24 @@
+BOVESPA
+Endereço Internet 189.125.142.200:9200 
+ 
+BeginString=FIX.4.4
+NEST CompID=nestumdfteste
+XP CompID=XPBSP
+ 
+StartTime=00:00:00
+EndTime=23:59:59
+ResetOnLogon=Y
+ResetOnDisconnect=Y
+ 
+ 
+BMF
+Endereço Internet 189.125.142.200:9201 
+ 
+BeginString=FIX.4.4
+NEST CompID=nestumdfteste
+XP CompID=XPBMF
+ 
+StartTime=00:00:00
+EndTime=23:59:59
+ResetOnLogon=Y
+ResetOnDisconnect=Y

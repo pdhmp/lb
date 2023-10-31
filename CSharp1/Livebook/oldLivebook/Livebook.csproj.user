@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>\\nestsrv03\nest\TI\NESTSoft\Installation\LiveBook 2.0\|\\nestsrv01\nest\TI\NESTSoft\Installation\LiveBook 2.0\|\\Nestsrv01\n\|\\Nestsrv01\Public\LiveBook 2.0\|\\Nestsrv01\Public\Teste_LiveBook\</PublishUrlHistory>
+    <InstallUrlHistory>\\nestsrv03\nest\TI\NESTSoft\Installation\LiveBook 2.0\|\\nestsrv01\nest\TI\NESTSoft\Installation\LiveBook 2.0\|\\Nestsrv01\Public\LiveBook\|\\nestsrv01\public\LiveBook\|\\nestsrv01\public\\LiveBook\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+    <ErrorReportUrlHistory />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+</Project>

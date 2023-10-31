@@ -1,0 +1,11 @@
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\obj\Debug\ImportCVM.Form1.resources
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\obj\Debug\ImportCVM.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\obj\Debug\ImportCVM.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\bin\Debug\ImportCVM.exe
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\bin\Debug\ImportCVM.pdb
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\obj\Debug\ImportCVM.exe
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\obj\Debug\ImportCVM.pdb
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\bin\Debug\ICSharpCode.SharpZipLib.dll
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\ImportCVM\ImportCVM\bin\Debug\NestDLL.pdb

@@ -1,0 +1,11 @@
+20100408-22:58:16 : Created session
+20100408-22:58:16 : Connecting to 10.21.13.136 on port 7033
+20100408-22:58:16 : Initiated logon request
+20100408-22:58:16 : Message 1 Rejected: CompID problem
+20100408-22:58:16 : Tried to send a reject while not logged on
+20100408-22:58:16 : Disconnecting
+20100408-22:58:17 : Connecting to 10.21.13.136 on port 7033
+20100408-22:58:17 : Initiated logon request
+20100408-22:58:17 : Message 1 Rejected: CompID problem
+20100408-22:58:17 : Tried to send a reject while not logged on
+20100408-22:58:17 : Disconnecting

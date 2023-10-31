@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Positions>
+  <Strategy>
+    <Name>MomentumBZ</Name>
+    <Tickers>
+      <Ticker IDTicker="1511" Quantity="-1600" />
+      <Ticker IDTicker="1765" Quantity="500" />
+      <Ticker IDTicker="1786" Quantity="-400" />
+      <Ticker IDTicker="5139" Quantity="-800" />
+      <Ticker IDTicker="5181" Quantity="-300" />
+      <Ticker IDTicker="5280" Quantity="-800" />
+      <Ticker IDTicker="5281" Quantity="600" />
+      <Ticker IDTicker="5282" Quantity="-1800" />
+      <Ticker IDTicker="5283" Quantity="-200" />
+    </Tickers>
+  </Strategy>
+</Positions>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ImportMellonSubRed">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Other\ImportMellonSubRed\ImportMellonSubRed.suo">
+</Property><Property Name="Date" Value="segunda-feira, 2 de maio de 2011">
+</Property><Property Name="Time" Value="19:09">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ImportMellonSubRed.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ImportMellonSubRed.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed.suo">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\ImportMellonSubRed.csproj">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed.csproj.user" Description="Project user file successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\ImportMellonSubRed.csproj.user">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\frmFindClient.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\frmFindClient.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\frmFindClient.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\frmFindClient.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMClient.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\ImportMClient.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMClient.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\ImportMClient.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\Program.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\Properties\Resources.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed_TemporaryKey.pfx" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\ImportMellonSubRed_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\NestGeneric.pfx" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\NestGeneric.pfx">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\frmFindClient.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\frmFindClient.resx">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMClient.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\ImportMClient.resx">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\Properties\Resources.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Other\ImportMellonSubRed\Backup\ImportMellonSubRed\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ImportMellonSubRed.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ImportMellonSubRed.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ImportMellonSubRed" Source="ImportMellonSubRed\ImportMellonSubRed.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

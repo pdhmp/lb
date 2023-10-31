@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExpressionEditDialog">
+		<item value="547" key="DIALOG_WIDTH"/>
+		<item value="202" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="StreamBaseSampleImportDialog">
+		<item value="false" key="SkipOpeningREADMEs"/>
+		<item value="false" key="AllCollapsed"/>
+		<item value="false" key="AllExpanded"/>
+		<list key="ExpandedCategories">
+			<item value="/Applications"/>
+		</list>
+	</section>
+	<section name="com.streambase.sb.studio.core.util.EditSchemaDialog_dialogBounds">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="165" key="DIALOG_Y_ORIGIN"/>
+		<item value="278" key="DIALOG_X_ORIGIN"/>
+		<item value="686" key="DIALOG_HEIGHT"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="NewStreamBaseProjectWizard">
+		<section name="NewStreamBaseProjectPage">
+			<item value="true" key="AddSBClient.AddTestSupport"/>
+			<item value="false" key="CreateEventFlowFile.Open"/>
+			<item value="true" key="CreateProjectConfigFile"/>
+			<item value="true" key="CreateProjectConfigFile.Populate"/>
+			<item value="true" key="AddSBClient"/>
+			<item value="true" key="CreateEventFlowFile"/>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+#Fri Aug 10 14:19:33 BRT 2012
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=once input

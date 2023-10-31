@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6344086D-17B7-4310-A658-F538675E832B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LiveTrade2</RootNamespace>
+    <AssemblyName>LiveTrade2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>T:\Installation\LiveTrade2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\NESTSRV03\NESTSOFT\Installation\LiveTrade2\</InstallUrl>
+    <ProductName>LiveTrade 2.0</ProductName>
+    <PublisherName>Nest Investimentos</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>217</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\temp\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2598CFA2C17BFEC054B2F900644EBB4BCBB48107</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LiveTradeIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.Data.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.Utils.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.XtraEditors.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.XtraGrid.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NCommonTypes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\NCommonTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="NCustomControls">
+      <HintPath>T:\Resources\NCustomControls.dll</HintPath>
+    </Reference>
+    <Reference Include="NestDLL">
+      <HintPath>T:\Resources\NestDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="NFIXConn">
+      <HintPath>T:\Resources\NFIXConn.dll</HintPath>
+    </Reference>
+    <Reference Include="NSYMConn">
+      <HintPath>T:\Resources\NSYMConn.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="quickfix_net">
+      <HintPath>T:\Resources\quickfix_net.dll</HintPath>
+    </Reference>
+    <Reference Include="quickfix_net_messages">
+      <HintPath>T:\Resources\quickfix_net_messages.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZedGraph">
+      <HintPath>T:\Resources\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OrderForms\frmDefault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForms\frmDefault.Designer.cs">
+      <DependentUpon>frmDefault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderForms\frmPnL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForms\frmPnL.designer.cs">
+      <DependentUpon>frmPnL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\frmIbovArb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmIbovArb.Designer.cs">
+      <DependentUpon>frmIbovArb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\frmWatchList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmWatchList.designer.cs">
+      <DependentUpon>frmWatchList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderForms\frmLimits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForms\frmLimits.Designer.cs">
+      <DependentUpon>frmLimits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\ConnectedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\ConnectedForm.Designer.cs">
+      <DependentUpon>ConnectedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemForms\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForms\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\TransparentText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\TSLineItem.cs" />
+    <Compile Include="Utils\BrokerList.cs" />
+    <Compile Include="Utils\BSEPlayer.cs" />
+    <Compile Include="Utils\BlackSholes.cs" />
+    <Compile Include="QuoteForms\frmOptionChain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmOptionChain.designer.cs">
+      <DependentUpon>frmOptionChain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\FIXConnections.cs" />
+    <Compile Include="SystemForms\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemForms\frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderForms\frmOrderReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderForms\frmOrderReview.Designer.cs">
+      <DependentUpon>frmOrderReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\frmQuickChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmQuickChart.designer.cs">
+      <DependentUpon>frmQuickChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\frmAuction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmAuction.designer.cs">
+      <DependentUpon>frmAuction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\LTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\LTForm.designer.cs">
+      <DependentUpon>LTForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\OrderTypeDefs.cs" />
+    <Compile Include="QuoteForms\frmLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmLevel2.designer.cs">
+      <DependentUpon>frmLevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteForms\frmMain3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuoteForms\frmMain3.designer.cs">
+      <DependentUpon>frmMain3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\GlobalVars.cs" />
+    <Compile Include="Utils\LTMarketDataItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PhytonRunner.cs" />
+    <Compile Include="StgItem.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <EmbeddedResource Include="OrderForms\frmDefault.resx">
+      <DependentUpon>frmDefault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderForms\frmPnL.resx">
+      <DependentUpon>frmPnL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmIbovArb.resx">
+      <DependentUpon>frmIbovArb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmWatchList.resx">
+      <DependentUpon>frmWatchList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderForms\frmLimits.resx">
+      <DependentUpon>frmLimits.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\ConnectedForm.resx">
+      <DependentUpon>ConnectedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmOptionChain.resx">
+      <DependentUpon>frmOptionChain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForms\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderForms\frmOrderReview.resx">
+      <DependentUpon>frmOrderReview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmLevel2.resx">
+      <DependentUpon>frmLevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmMain3.resx">
+      <DependentUpon>frmMain3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmQuickChart.resx">
+      <DependentUpon>frmQuickChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuoteForms\frmAuction.resx">
+      <DependentUpon>frmAuction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemForms\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\LTForm.resx">
+      <DependentUpon>LTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LiveTradeIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

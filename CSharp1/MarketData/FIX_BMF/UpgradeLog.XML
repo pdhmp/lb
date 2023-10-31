@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TwgSendPTF">
+</Property><Property Name="Solution File" Value="C:\_FIX\TwgSendPTF\TwgSendPTF.sln">
+</Property><Property Name="Date" Value="quinta-feira, 5 de fevereiro de 2009">
+</Property><Property Name="Time" Value="10:16">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TwgSendPTF.sln" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF.sln">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\TwgSendPTF.csproj" Description="Project file successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\TwgSendPTF.csproj">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\TwgSendPTF.csproj.user" Description="Project user file successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\TwgSendPTF.csproj.user">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\Application.cs" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\Application.cs">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\AssemblyInfo.cs" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\clsArquivo.cs" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\clsArquivo.cs">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\clsProcessamento.cs" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\clsProcessamento.cs">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\ConexaoDB.cs" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\ConexaoDB.cs">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\Executor.cs" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\Executor.cs">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\config\QuickFix.cfg" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\config\QuickFix.cfg">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\App.ico" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\App.ico">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\dicionario\FIX41.xml" Description="File successfully backed up as C:\_FIX\TwgSendPTF\Backup\TwgSendPTF\dicionario\FIX41.xml">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\TwgSendPTF.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TwgSendPTF" Source="TwgSendPTF\TwgSendPTF.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TwgSendPTF.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TwgSendPTF.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TwgSendPTF" Source="TwgSendPTF\TwgSendPTF.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

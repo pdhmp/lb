@@ -1,0 +1,1491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9DD35DE-DC1E-485A-AD36-9B78EDB1B4C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LiveBook</RootNamespace>
+    <AssemblyName>Livebook 2.0</AssemblyName>
+    <StartupObject>LiveBook.Program</StartupObject>
+    <ManifestCertificateThumbprint>F11EA8FFC63581F675B3DFAA3CD0E38CB2D459FB</ManifestCertificateThumbprint>
+    <ManifestKeyFile>NestGeneric.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>Nestico.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\nestsrv03\nest\TI\NESTSoft\Installation\LiveBook 2.0\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\nestsrv03\nest\TI\NESTSoft\Installation\LiveBook 2.0\</InstallUrl>
+    <ProductName>LiveBook 2.0</ProductName>
+    <PublisherName>Nest Investimentos</PublisherName>
+    <MinimumRequiredVersion>0.0.1.9</MinimumRequiredVersion>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>312</ApplicationRevision>
+    <ApplicationVersion>2.8.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\temp\LB2\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.Data.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.Utils.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.XtraEditors.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>T:\Resources\DevExpress.XtraGrid.v9.1.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NestDLL">
+      <HintPath>..\..\..\..\NESTSoft\Resources\NestDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.0.6.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>P:\DLL\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.0.9.41461, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SGC\zedgraph\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LB_BackOffice\frmAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmAccounts.Designer.cs">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCheckBrokersTradesFut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCheckBrokersTradesFut.Designer.cs">
+      <DependentUpon>frmCheckBrokersTradesFut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmInsertSubscr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmInsertSubscr.Designer.cs">
+      <DependentUpon>frmInsertSubscr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmOptionExerciseBroker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmOptionExerciseBroker.Designer.cs">
+      <DependentUpon>frmOptionExerciseBroker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmOptionExerciseConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmOptionExerciseConfirm.Designer.cs">
+      <DependentUpon>frmOptionExerciseConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmOptionExercise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmOptionExercise.Designer.cs">
+      <DependentUpon>frmOptionExercise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmSubscrReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmSubscrReceipt.Designer.cs">
+      <DependentUpon>frmSubscrReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\TimeCounter.cs" />
+    <Compile Include="LB_Commercial\frmInsertTxMellon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmInsertTxMellon.Designer.cs">
+      <DependentUpon>frmInsertTxMellon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmRebatesClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmRebatesClients.Designer.cs">
+      <DependentUpon>frmRebatesClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmClientTransactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmClientTransactions.Designer.cs">
+      <DependentUpon>frmClientTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\ZfrmInvestorImportFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\ZfrmInvestorImportFile.Designer.cs">
+      <DependentUpon>ZfrmInvestorImportFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmContPayouts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmContPayouts.Designer.cs">
+      <DependentUpon>frmContPayouts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmEditDistribRebate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmEditDistribRebate.Designer.cs">
+      <DependentUpon>frmEditDistribRebate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmContacts_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmContacts_Report.Designer.cs">
+      <DependentUpon>frmContacts_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmEditContDistrib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmEditContDistrib.Designer.cs">
+      <DependentUpon>frmEditContDistrib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Commercial\frmContacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Commercial\frmContacts.Designer.cs">
+      <DependentUpon>frmContacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmBrokerage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmBrokerage.Designer.cs">
+      <DependentUpon>frmBrokerage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmImportDvd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmImportDvd.Designer.cs">
+      <DependentUpon>frmImportDvd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmDeleteFileBrokerage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmDeleteFileBrokerage.Designer.cs">
+      <DependentUpon>frmDeleteFileBrokerage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmPrepareXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmPrepareXML.designer.cs">
+      <DependentUpon>frmPrepareXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmOptionsGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmOptionsGraph.designer.cs">
+      <DependentUpon>frmOptionsGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmSectorContrib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmSectorContrib.designer.cs">
+      <DependentUpon>frmSectorContrib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmExposureGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmExposureGraph.designer.cs">
+      <DependentUpon>frmExposureGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskReportArb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskReportArb.Designer.cs">
+      <DependentUpon>frmRiskReportArb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmStatisctsPortfolio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmStatisctsPortfolio.Designer.cs">
+      <DependentUpon>frmStatisctsPortfolio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRisk_Edit_LimitsArb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRisk_Edit_LimitsArb.Designer.cs">
+      <DependentUpon>frmRisk_Edit_LimitsArb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmEditFoward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmEditFoward.Designer.cs">
+      <DependentUpon>frmEditFoward.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmBrokers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmBrokers.Designer.cs">
+      <DependentUpon>frmBrokers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCheckPortfolioAdministrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCheckPortfolioAdministrator.Designer.cs">
+      <DependentUpon>frmCheckPortfolioAdministrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmMellonFwdNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmMellonFwdNames.Designer.cs">
+      <DependentUpon>frmMellonFwdNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\ImpPortfolioFile.cs" />
+    <Compile Include="LB_Position\frmExposureBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmExposureBook.Designer.cs">
+      <DependentUpon>frmExposureBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskArb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskArb.Designer.cs">
+      <DependentUpon>frmRiskArb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Securities\frmAddSecurityDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Securities\frmAddSecurityDate.Designer.cs">
+      <DependentUpon>frmAddSecurityDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStock_Change_Maturity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStock_Change_Maturity.Designer.cs">
+      <DependentUpon>frmStock_Change_Maturity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmDiferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmDiferences.Designer.cs">
+      <DependentUpon>frmDiferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmEarlyFowards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmEarlyFowards.Designer.cs">
+      <DependentUpon>frmEarlyFowards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmFowards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmFowards.Designer.cs">
+      <DependentUpon>frmFowards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCashTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCashTransfer.Designer.cs">
+      <DependentUpon>frmCashTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmExpenses.Designer.cs">
+      <DependentUpon>frmExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmSubscripRedemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmSubscripRedemp.Designer.cs">
+      <DependentUpon>frmSubscripRedemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmSplitPercent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmSplitPercent.Designer.cs">
+      <DependentUpon>frmSplitPercent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmDividends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmDividends.Designer.cs">
+      <DependentUpon>frmDividends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmConfirmPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmConfirmPL.Designer.cs">
+      <DependentUpon>frmConfirmPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Custom_Controls\LBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Custom_Controls\LBForm.Designer.cs">
+      <DependentUpon>LBForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Custom_Controls\NestBookCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LB_HTML.cs" />
+    <Compile Include="LB_Market_Quote\frmBookPerfSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmBookPerfSummary.Designer.cs">
+      <DependentUpon>frmBookPerfSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmResearchNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmResearchNews.Designer.cs">
+      <DependentUpon>frmResearchNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmRiskCharts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmRiskCharts.Designer.cs">
+      <DependentUpon>frmRiskCharts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmQuickChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmQuickChart.Designer.cs">
+      <DependentUpon>frmQuickChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmContribution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmContribution.Designer.cs">
+      <DependentUpon>frmContribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmAttribution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmAttribution.Designer.cs">
+      <DependentUpon>frmAttribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmExposureSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmExposureSummary.designer.cs">
+      <DependentUpon>frmExposureSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmPositionSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmPositionSummary.Designer.cs">
+      <DependentUpon>frmPositionSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmMonteCarlo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmMonteCarlo.Designer.cs">
+      <DependentUpon>frmMonteCarlo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmScenarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmScenarios.Designer.cs">
+      <DependentUpon>frmScenarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmDDChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmDDChart.Designer.cs">
+      <DependentUpon>frmDDChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskWeeklyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskWeeklyReport.Designer.cs">
+      <DependentUpon>frmRiskWeeklyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskFators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskFators.Designer.cs">
+      <DependentUpon>frmRiskFators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmLiquidity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmLiquidity.Designer.cs">
+      <DependentUpon>frmLiquidity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskOptions.Designer.cs">
+      <DependentUpon>frmRiskOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskSectors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskSectors.Designer.cs">
+      <DependentUpon>frmRiskSectors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Securities\frmEditSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Securities\frmEditSecurity.Designer.cs">
+      <DependentUpon>frmEditSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmImportFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmImportFiles.Designer.cs">
+      <DependentUpon>frmImportFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmDataTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmDataTable.Designer.cs">
+      <DependentUpon>frmDataTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmStatusOps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmStatusOps.Designer.cs">
+      <DependentUpon>frmStatusOps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmStatusTi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmStatusTi.Designer.cs">
+      <DependentUpon>frmStatusTi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmViewCalcHist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmViewCalcHist.Designer.cs">
+      <DependentUpon>frmViewCalcHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmSpam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmSpam.Designer.cs">
+      <DependentUpon>frmSpam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmStatusFlags.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmStatusFlags.Designer.cs">
+      <DependentUpon>frmStatusFlags.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmSubPortfolio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmSubPortfolio.Designer.cs">
+      <DependentUpon>frmSubPortfolio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmPerfChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmPerfChart.Designer.cs">
+      <DependentUpon>frmPerfChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskLimits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskLimits.Designer.cs">
+      <DependentUpon>frmRiskLimits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Securities\frmCopySecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Securities\frmCopySecurity.Designer.cs">
+      <DependentUpon>frmCopySecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\GlobalVars.cs" />
+    <Compile Include="LB_Trades\frmOrderReview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmOrderReview.Designer.cs">
+      <DependentUpon>frmOrderReview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\Temp_frmStockLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\Temp_frmStockLoan.Designer.cs">
+      <DependentUpon>Temp_frmStockLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmfrmStrategyTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmfrmStrategyTransfer.Designer.cs">
+      <DependentUpon>frmfrmStrategyTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCheckBrokersTrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmCheckBrokersTrades.Designer.cs">
+      <DependentUpon>frmCheckBrokersTrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmTrades_group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTrades_group.Designer.cs">
+      <DependentUpon>frmTrades_group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Custom_Controls\LBZoomBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LB_Custom_Controls\LBZoomBrowser.designer.cs">
+      <DependentUpon>LBZoomBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Securities\frmInsertSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Securities\frmInsertSecurity.Designer.cs">
+      <DependentUpon>frmInsertSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Securities\frmIssuer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Securities\frmIssuer.Designer.cs">
+      <DependentUpon>frmIssuer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business.cs" />
+    <Compile Include="LB_Trades\frmTrade_Aloc_Override.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTrade_Aloc_Override.Designer.cs">
+      <DependentUpon>frmTrade_Aloc_Override.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmUpdate_Trades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmUpdate_Trades.Designer.cs">
+      <DependentUpon>frmUpdate_Trades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmApagaPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmApagaPL.Designer.cs">
+      <DependentUpon>frmApagaPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RefreshHelperClass.cs" />
+    <Compile Include="LB_BackOffice\frmMargin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmMargin.Designer.cs">
+      <DependentUpon>frmMargin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStock_Loan_Close.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStock_Loan_Close.Designer.cs">
+      <DependentUpon>frmStock_Loan_Close.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmMonSectorIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmMonSectorIndex.Designer.cs">
+      <DependentUpon>frmMonSectorIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskMarginalVARs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmRiskMarginalVARs.Designer.cs">
+      <DependentUpon>frmRiskMarginalVARs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmEditBookSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmEditBookSection.Designer.cs">
+      <DependentUpon>frmEditBookSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradeSet.Designer.cs">
+      <DependentUpon>frmTradeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradeSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradeSplit.Designer.cs">
+      <DependentUpon>frmTradeSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmOptionStrikes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmOptionStrikes.Designer.cs">
+      <DependentUpon>frmOptionStrikes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmFundPerfSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmFundPerfSummary.Designer.cs">
+      <DependentUpon>frmFundPerfSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Market_Quote\frmQuote.Designer.cs">
+      <DependentUpon>frmQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradeSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradeSummary.Designer.cs">
+      <DependentUpon>frmTradeSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStock_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStock_Loan.Designer.cs">
+      <DependentUpon>frmStock_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmStatus.Designer.cs">
+      <DependentUpon>frmStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmInsertLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmInsertLoan.Designer.cs">
+      <DependentUpon>frmInsertLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmPositions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmPositions.Designer.cs">
+      <DependentUpon>frmPositions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmCompIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmCompIndex.Designer.cs">
+      <DependentUpon>frmCompIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmBottom10Changes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmBottom10Changes.Designer.cs">
+      <DependentUpon>frmBottom10Changes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10Changes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10Changes.Designer.cs">
+      <DependentUpon>frmTop10Changes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10Short.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10Short.Designer.cs">
+      <DependentUpon>frmTop10Short.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10A.Designer.cs">
+      <DependentUpon>frmTop10A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmEditPriceTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmEditPriceTrade.Designer.cs">
+      <DependentUpon>frmEditPriceTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmCancel_Trades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmCancel_Trades.Designer.cs">
+      <DependentUpon>frmCancel_Trades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Securities\frmInsertPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Securities\frmInsertPrice.Designer.cs">
+      <DependentUpon>frmInsertPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom_GridControl\MyGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom_GridControl\MyGridRegistration.cs" />
+    <Compile Include="Custom_GridControl\MyGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom_GridControl\MyGridViewInfo.cs" />
+    <Compile Include="LB_Position\frmExposure_PL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmExposure_PL.Designer.cs">
+      <DependentUpon>frmExposure_PL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmInsertMargin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmInsertMargin.Designer.cs">
+      <DependentUpon>frmInsertMargin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmInsertOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmInsertOrder.Designer.cs">
+      <DependentUpon>frmInsertOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStrategy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmStrategy.Designer.cs">
+      <DependentUpon>frmStrategy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Position\frmTop10D.Designer.cs">
+      <DependentUpon>frmTop10D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradesPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTradesPosition.Designer.cs">
+      <DependentUpon>frmTradesPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmUpdateStrategy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmUpdateStrategy.Designer.cs">
+      <DependentUpon>frmUpdateStrategy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Risk\frmVARChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Risk\frmVARChart.Designer.cs">
+      <DependentUpon>frmVARChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_Trades\frmTrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmTrades.Designer.cs">
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmVol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_BackOffice\frmVol.Designer.cs">
+      <DependentUpon>frmVol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmPass.Designer.cs">
+      <DependentUpon>frmPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISplashForm.cs" />
+    <Compile Include="LB_Custom_Controls\NestPortCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmInsertTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_Trades\frmInsertTrade.Designer.cs">
+      <DependentUpon>frmInsertTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LB_System\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LB_System\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="LB_BackOffice\frmAccounts.resx">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmCheckBrokersTradesFut.resx">
+      <DependentUpon>frmCheckBrokersTradesFut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmInsertSubscr.resx">
+      <DependentUpon>frmInsertSubscr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmOptionExerciseBroker.resx">
+      <DependentUpon>frmOptionExerciseBroker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmOptionExerciseConfirm.resx">
+      <DependentUpon>frmOptionExerciseConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmOptionExercise.resx">
+      <DependentUpon>frmOptionExercise.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmSubscrReceipt.resx">
+      <DependentUpon>frmSubscrReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmInsertTxMellon.resx">
+      <DependentUpon>frmInsertTxMellon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmRebatesClients.resx">
+      <DependentUpon>frmRebatesClients.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmContPayouts.resx">
+      <DependentUpon>frmContPayouts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmEditDistribRebate.resx">
+      <DependentUpon>frmEditDistribRebate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmContacts_Report.resx">
+      <DependentUpon>frmContacts_Report.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmEditContDistrib.resx">
+      <DependentUpon>frmEditContDistrib.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom_GridControl\MyGridControl.resx">
+      <DependentUpon>MyGridControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmContacts.resx">
+      <DependentUpon>frmContacts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\frmClientTransactions.resx">
+      <DependentUpon>frmClientTransactions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Commercial\ZfrmInvestorImportFile.resx">
+      <DependentUpon>ZfrmInvestorImportFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmBrokerage.resx">
+      <DependentUpon>frmBrokerage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmImportDvd.resx">
+      <DependentUpon>frmImportDvd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmDeleteFileBrokerage.resx">
+      <DependentUpon>frmDeleteFileBrokerage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmPrepareXML.resx">
+      <DependentUpon>frmPrepareXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmOptionsGraph.resx">
+      <DependentUpon>frmOptionsGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmSectorContrib.resx">
+      <DependentUpon>frmSectorContrib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmExposureGraph.resx">
+      <DependentUpon>frmExposureGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskReportArb.resx">
+      <DependentUpon>frmRiskReportArb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmStatisctsPortfolio.resx">
+      <DependentUpon>frmStatisctsPortfolio.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRisk_Edit_LimitsArb.resx">
+      <DependentUpon>frmRisk_Edit_LimitsArb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmEditFoward.resx">
+      <DependentUpon>frmEditFoward.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmBrokers.resx">
+      <DependentUpon>frmBrokers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmCheckPortfolioAdministrator.resx">
+      <DependentUpon>frmCheckPortfolioAdministrator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmStock_Change_Maturity.resx">
+      <DependentUpon>frmStock_Change_Maturity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmDiferences.resx">
+      <DependentUpon>frmDiferences.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmEarlyFowards.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEarlyFowards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmFowards.resx">
+      <DependentUpon>frmFowards.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmMellonFwdNames.resx">
+      <DependentUpon>frmMellonFwdNames.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmCashTransfer.resx">
+      <DependentUpon>frmCashTransfer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmExpenses.resx">
+      <DependentUpon>frmExpenses.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmSubscripRedemp.resx">
+      <DependentUpon>frmSubscripRedemp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmSplitPercent.resx">
+      <DependentUpon>frmSplitPercent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmDividends.resx">
+      <DependentUpon>frmDividends.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmConfirmPL.resx">
+      <DependentUpon>frmConfirmPL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Custom_Controls\LBForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Market_Quote\frmBookPerfSummary.resx">
+      <DependentUpon>frmBookPerfSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Market_Quote\frmResearchNews.resx">
+      <DependentUpon>frmResearchNews.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmExposureBook.resx">
+      <DependentUpon>frmExposureBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmRiskCharts.resx">
+      <DependentUpon>frmRiskCharts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmQuickChart.resx">
+      <DependentUpon>frmQuickChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmContribution.resx">
+      <DependentUpon>frmContribution.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmAttribution.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAttribution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmExposureSummary.resx">
+      <DependentUpon>frmExposureSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmPositionSummary.resx">
+      <DependentUpon>frmPositionSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskArb.resx">
+      <DependentUpon>frmRiskArb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmMonteCarlo.resx">
+      <DependentUpon>frmMonteCarlo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmScenarios.resx">
+      <DependentUpon>frmScenarios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmDDChart.resx">
+      <DependentUpon>frmDDChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskWeeklyReport.resx">
+      <DependentUpon>frmRiskWeeklyReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskFators.resx">
+      <DependentUpon>frmRiskFators.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmLiquidity.resx">
+      <DependentUpon>frmLiquidity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskOptions.resx">
+      <DependentUpon>frmRiskOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskSectors.resx">
+      <DependentUpon>frmRiskSectors.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Securities\frmAddSecurityDate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddSecurityDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Securities\frmEditSecurity.resx">
+      <DependentUpon>frmEditSecurity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmImportFiles.resx">
+      <DependentUpon>frmImportFiles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmDataTable.resx">
+      <DependentUpon>frmDataTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmStatusOps.resx">
+      <DependentUpon>frmStatusOps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmStatusTi.resx">
+      <DependentUpon>frmStatusTi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmViewCalcHist.resx">
+      <DependentUpon>frmViewCalcHist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmSpam.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSpam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmStatusFlags.resx">
+      <DependentUpon>frmStatusFlags.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmSubPortfolio.resx">
+      <DependentUpon>frmSubPortfolio.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmPerfChart.resx">
+      <DependentUpon>frmPerfChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskLimits.resx">
+      <DependentUpon>frmRiskLimits.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Securities\frmCopySecurity.resx">
+      <DependentUpon>frmCopySecurity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmOrderReview.resx">
+      <DependentUpon>frmOrderReview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\Temp_frmStockLoan.resx">
+      <DependentUpon>Temp_frmStockLoan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmfrmStrategyTransfer.resx">
+      <DependentUpon>frmfrmStrategyTransfer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmCheckBrokersTrades.resx">
+      <DependentUpon>frmCheckBrokersTrades.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTrades_group.resx">
+      <DependentUpon>frmTrades_group.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Securities\frmInsertSecurity.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Securities\frmIssuer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIssuer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTrade_Aloc_Override.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrade_Aloc_Override.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmUpdate_Trades.resx">
+      <DependentUpon>frmUpdate_Trades.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExListView.resx">
+      <DependentUpon>ExListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmApagaPL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmApagaPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmMargin.resx">
+      <DependentUpon>frmMargin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmStock_Loan_Close.resx">
+      <DependentUpon>frmStock_Loan_Close.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Market_Quote\frmMonSectorIndex.resx">
+      <DependentUpon>frmMonSectorIndex.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmRiskMarginalVARs.resx">
+      <DependentUpon>frmRiskMarginalVARs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmEditBookSection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditBookSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTradeSet.resx">
+      <DependentUpon>frmTradeSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTradeSplit.resx">
+      <DependentUpon>frmTradeSplit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmOptionStrikes.resx">
+      <DependentUpon>frmOptionStrikes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Market_Quote\frmFundPerfSummary.resx">
+      <DependentUpon>frmFundPerfSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Market_Quote\frmQuote.resx">
+      <DependentUpon>frmQuote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTradeSummary.resx">
+      <DependentUpon>frmTradeSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmStock_Loan.resx">
+      <DependentUpon>frmStock_Loan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmInsertLoan.resx">
+      <DependentUpon>frmInsertLoan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmPositions.resx">
+      <DependentUpon>frmPositions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmCompIndex.resx">
+      <DependentUpon>frmCompIndex.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmBottom10Changes.resx">
+      <DependentUpon>frmBottom10Changes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmTop10Changes.resx">
+      <DependentUpon>frmTop10Changes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmTop10Short.resx">
+      <DependentUpon>frmTop10Short.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmTop10A.resx">
+      <DependentUpon>frmTop10A.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmEditPriceTrade.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditPriceTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmCancel_Trades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCancel_Trades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Securities\frmInsertPrice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmExposure_PL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExposure_PL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmInsertMargin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertMargin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmInsertOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmOrders.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmStrategy.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStrategy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Position\frmTop10D.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTop10D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTradesPosition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTradesPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmUpdateStrategy.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdateStrategy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Risk\frmVARChart.resx">
+      <DependentUpon>frmVARChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmTrades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_BackOffice\frmVol.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmPass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_Trades\frmInsertTrade.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LB_System\frmMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="LB_Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Resources\pwd.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\config_tables.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\Crystal_Clear_app_blender.png" />
+    <None Include="Resources\exit2.png" />
+    <None Include="Resources\Crystal_Clear_app_shutdown.png" />
+    <None Include="Resources\Crystal_Clear_app_utilities.png" />
+    <None Include="Resources\Crystal_Clear_app_access.png" />
+    <None Include="Resources\Crystal_Clear_app_business.png" />
+    <None Include="Resources\Crystal_Clear_app_clicknrun.png" />
+    <None Include="Resources\Crystal_Clear_app_database.png" />
+    <None Include="Resources\Crystal_Clear_app_kwrite.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_vcard.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_applix.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_deb.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_vcalendar.png" />
+    <None Include="Resources\Crystal_Clear_filesystem_file_broken.png" />
+    <None Include="Resources\Crystal_Clear_app_help_index.png" />
+    <None Include="Resources\tools-min2.gif" />
+    <None Include="Resources\help.gif" />
+    <None Include="Resources\database.gif" />
+    <None Include="Resources\business.gif" />
+    <None Include="Resources\file_broken.gif" />
+    <None Include="Resources\utilities.gif" />
+    <None Include="Resources\pwd.gif" />
+    <None Include="Resources\config_tables.gif" />
+    <None Include="Resources\shutdown.gif" />
+    <None Include="Resources\admin.gif" />
+    <None Include="Resources\kwrite.gif" />
+    <None Include="Resources\vcalendar.gif" />
+    <None Include="Resources\utilities1.gif" />
+    <Content Include="icon.ico" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\Nest Logo.jpg" />
+    <Content Include="Nestico.ico" />
+    <None Include="Resources\%24this.Icon.ico" />
+    <Content Include="Simbolo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.XtraLayout.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OLD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

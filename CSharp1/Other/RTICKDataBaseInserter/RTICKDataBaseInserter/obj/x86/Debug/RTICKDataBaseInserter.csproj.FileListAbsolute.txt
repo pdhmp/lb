@@ -1,0 +1,13 @@
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\bin\Debug\RTICKDataBaseInserter.exe
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\bin\Debug\RTICKDataBaseInserter.pdb
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\RTICKDataBaseInserter.Form1.resources
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\RTICKDataBaseInserter.Properties.Resources.resources
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\RTICKDataBaseInserter.exe
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\RTICKDataBaseInserter.pdb
+N:\TI\Projects\CSharp\Utils\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\RTICKDataBaseInserter.exe
+N:\TI\Projects\CSharp\Utils\RTICKDataBaseInserter\RTICKDataBaseInserter\obj\x86\Debug\RTICKDataBaseInserter.pdb

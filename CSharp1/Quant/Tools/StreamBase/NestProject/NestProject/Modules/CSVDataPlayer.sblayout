@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="InputStream">
+        <param name="gui:x" value="14.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="ReadFile">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="117.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="ValidFilter">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="228.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Parse">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="310.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="TradeFilter">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="392.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MapDateTime">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="473.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="TimeFilter">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="556.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="174,867"/>
+    </component>
+    <component name="MapSchema">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="638.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MD">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="720.0"/>
+        <param name="gui:y" value="507.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="QuickNestFIX">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\QuickNestFIX.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\QuickNestFIX.suo">
+</Property><Property Name="Date" Value="sexta-feira, 20 de agosto de 2010">
+</Property><Property Name="Time" Value="14:24">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="QuickNestFIX.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX.sln">
+</Event><Event ErrorLevel="0" Project="" Source="QuickNestFIX.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX.suo">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\QuickNestFIX.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\QuickNestFIX.csproj">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Form1.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Form1.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Form1.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\frmValueBZViewer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\frmValueBZViewer.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\frmValueBZViewer.designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\frmValueBZViewer.designer.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Program.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Properties\Resources.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\frmValueBZViewer.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\frmValueBZViewer.resx">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\Properties\Resources.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\QuickNestFIX\Backup\QuickNestFIX\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="QuickNestFIX" Source="QuickNestFIX\QuickNestFIX.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="QuickNestFIX" Source="QuickNestFIX\QuickNestFIX.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QuickNestFIX" Source="QuickNestFIX\QuickNestFIX.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="QuickNestFIX" Source="QuickNestFIX\QuickNestFIX.csproj" Description="">
+</Event><Event ErrorLevel="0" Project="" Source="QuickNestFIX.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="QuickNestFIX.sln" Description="Converted">
+</Event></UpgradeLog>

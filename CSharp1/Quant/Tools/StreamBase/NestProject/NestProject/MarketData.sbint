@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application version="7.2.4.6">
+    <gui.metadata>
+        <property name="description" value="Essa interface descreve a implementação de um serviço de MarketData via FIX. "/>
+    </gui.metadata>
+    <named-schemas>
+        <schema name="BookOutSchema">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Position" type="int"/>
+            <field description="" name="Size" type="double"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="Side" type="string"/>
+        </schema>
+        <schema name="ErrorOutSchema">
+            <field description="" name="Message" type="string"/>
+        </schema>
+        <schema name="GetBookSchema">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="BookType" type="string"/>
+            <field description="" name="BookDepth" type="int"/>
+        </schema>
+        <schema name="InputFileNameMDSchema">
+            <field description="" name="FileName" type="string"/>
+        </schema>
+        <schema name="MDRequestSchema">
+            <field description="" name="Command" type="string"/>
+            <field description="" name="EntryType" type="list">
+                <element-type type="string"/>
+            </field>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Exchange" type="string"/>
+            <field description="" name="SecurityID" type="string"/>
+        </schema>
+        <schema name="SecSubscriptionOutSchema">
+            <field description="" name="SecurityReqID" type="string"/>
+            <field description="" name="SecurityResponseID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="SecurityID" type="string"/>
+            <field description="" name="SecurityIDSource" type="string"/>
+            <field description="" name="RoundLot" type="double"/>
+            <field description="" name="MinTradeVol" type="double"/>
+            <field description="" name="MinPriceIncrement" type="double"/>
+            <field description="" name="TickSizeDenominator" type="int"/>
+            <field description="" name="MinOrderQty" type="double"/>
+            <field description="" name="MaxOrderQty" type="double"/>
+            <field description="" name="Currency" type="string"/>
+            <field description="" name="SecurityType" type="string"/>
+            <field description="" name="SecuritySubType" type="string"/>
+            <field description="" name="Product" type="int"/>
+            <field description="" name="Asset" type="string"/>
+            <field description="" name="SecurityDesc" type="string"/>
+            <field description="" name="MaturityDate" type="timestamp"/>
+            <field description="" name="MaturityMonthYear" type="string"/>
+            <field description="" name="StrikePrice" type="double"/>
+            <field description="" name="StrikeCurrency" type="string"/>
+            <field description="" name="ContractMultiplier" type="double"/>
+            <field description="" name="ContractSettlMonth" type="string"/>
+            <field description="" name="CFICode" type="string"/>
+            <field description="" name="CountryOfIssue" type="string"/>
+            <field description="" name="IssueDate" type="timestamp"/>
+            <field description="" name="DatedDate" type="timestamp"/>
+            <field description="" name="StartDate" type="timestamp"/>
+            <field description="" name="EndDate" type="timestamp"/>
+            <field description="" name="SettlDate" type="timestamp"/>
+            <field description="" name="SettlType" type="string"/>
+            <field description="" name="PriceType" type="int"/>
+            <field description="" name="SecurityValidityTimestamp" type="timestamp"/>
+            <field description="" name="SecurityGroup" type="string"/>
+        </schema>
+        <schema name="SecSubscriptionStatusOutSchema">
+            <field description="" name="StatusMsg" type="string"/>
+        </schema>
+        <schema name="SecurityRequestSchema">
+            <field description="" name="Command" type="string"/>
+            <field description="" name="RequestType" type="string"/>
+            <field description="" name="Type" type="string"/>
+            <field description="" name="Exchange" type="string"/>
+        </schema>
+        <schema name="TopOfBookSchema">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+        </schema>
+        <schema name="TradeSchema">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDUpdateAction" type="string"/>
+        </schema>
+    </named-schemas>
+    <stream description="" name="InputFileNameMD" schema="InputFileNameMDSchema"/>
+    <stream description="" name="GetBook" schema="GetBookSchema"/>
+    <stream description="" name="MDRequest" schema="MDRequestSchema"/>
+    <stream description="" name="SecurityRequest" schema="SecurityRequestSchema"/>
+    <output-stream description="" name="Trade" schema="TradeSchema"/>
+    <output-stream description="" name="ErrorOut" schema="ErrorOutSchema"/>
+    <output-stream description="" name="TopOfBook" schema="TopOfBookSchema"/>
+    <output-stream description="" name="SecSubscriptionStatus" schema="SecSubscriptionStatusOutSchema"/>
+    <output-stream description="" name="BookOut" schema="BookOutSchema"/>
+    <output-stream description="" name="SecSubscriptionOut" schema="SecSubscriptionOutSchema"/>
+</application>

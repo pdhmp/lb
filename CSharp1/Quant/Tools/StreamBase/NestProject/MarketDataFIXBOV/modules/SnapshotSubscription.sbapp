@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <named-schemas>
+            <schema name="Message_3">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="RefSeqNum" type="int"/>
+                <field description="" name="RefTagID" type="int"/>
+                <field description="" name="RefMsgType" type="string"/>
+                <field description="" name="SessionRejectReason" type="int"/>
+                <field description="" name="Text" type="string"/>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_Y">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="MDReqRejReason" type="string"/>
+                <field description="" name="Text" type="string"/>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_x">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="SecurityReqID" type="string"/>
+                <field description="" name="SubscriptionRequestType" type="string"/>
+                <field description="" name="SecurityUpdatesSince" type="timestamp"/>
+                <field description="" name="SecurityListRequestType" type="int"/>
+                <field description="" name="SecurityType" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="Asset" type="string"/>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="_MDRequest">
+                <field description="" name="Command" type="string"/>
+                <field description="" name="EntryType" type="list">
+                    <element-type type="string"/>
+                </field>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Exchange" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+            </schema>
+            <schema name="_NoAllocs_D">
+                <field description="" name="AllocAccount" type="string"/>
+                <field description="" name="AllocAcctIDSource" type="int"/>
+            </schema>
+            <schema name="_NoLegs_y">
+                <field description="" name="LegSymbol" type="string"/>
+                <field description="" name="LegSecurityID" type="string"/>
+                <field description="" name="LegSecurityIDSource" type="string"/>
+                <field description="" name="LegSecurityExchange" type="string"/>
+            </schema>
+            <schema name="_NoLinesOfText_B">
+                <field description="" name="Text" type="string"/>
+            </schema>
+            <schema name="_NoMDEntryTypes_V">
+                <field description="" name="MDEntryType" type="string"/>
+            </schema>
+            <schema name="_NoPartyID_F">
+                <field description="" name="PartyID" type="string"/>
+                <field description="" name="PartyIDSource" type="string"/>
+                <field description="" name="PartyRole" type="int"/>
+            </schema>
+            <schema name="_NoReferentialPrices_W">
+                <field description="" name="ReferentialPx" type="double"/>
+                <field description="" name="ReferentialPriceType" type="int"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+            </schema>
+            <schema name="_NoReferentialPrices_X">
+                <field description="" name="ReferentialPx" type="double"/>
+                <field description="" name="ReferentialPriceType" type="int"/>
+                <field description="" name="TransactTime" type="timestamp"/>
+            </schema>
+            <schema name="_NoRelatedSym_B">
+                <field description="" name="Symbol" type="int"/>
+                <field description="" name="SecurityID" type="int"/>
+                <field description="" name="SecurityIDSource" type="int"/>
+                <field description="" name="SecurityExchange" type="int"/>
+            </schema>
+            <schema name="_NoRelatedSym_V">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="SecurityType" type="string"/>
+            </schema>
+            <schema name="_NoRelatedSym_V_Cedro">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="SecurityType" type="string"/>
+            </schema>
+            <schema name="_NoRoutingIDs_B">
+                <field description="" name="RoutingType" type="int"/>
+                <field description="" name="RoutingID" type="string"/>
+            </schema>
+            <schema name="_NoSecurityAltID_y">
+                <field description="" name="SecurityAltID" type="string"/>
+                <field description="" name="SecurityAltIDSource" type="string"/>
+            </schema>
+            <schema name="_NoUnderlyings_y">
+                <field description="" name="UnderlyingSymbol" type="string"/>
+                <field description="" name="UnderlyingSecurityID" type="string"/>
+                <field description="" name="UnderlyingSecurityIDSource" type="string"/>
+                <field description="" name="UnderlyingSecurityExchange" type="string"/>
+            </schema>
+            <schema name="_SecRequest">
+                <field description="" name="Command" type="string"/>
+                <field description="" name="RequestType" type="string"/>
+                <field description="" name="Type" type="string"/>
+                <field description="" name="Exchange" type="string"/>
+            </schema>
+            <schema name="Message_B">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="OrigTime" type="timestamp"/>
+                <field description="" name="NewsSource" type="string"/>
+                <field description="" name="Language" type="string"/>
+                <field description="" name="Headline" type="string"/>
+                <field description="" name="NoRelatedSym" type="list">
+                    <element-type type="tuple" value="_NoRelatedSym_B"/>
+                </field>
+                <field description="" name="NoLinesOfText" type="list">
+                    <element-type type="tuple" value="_NoLinesOfText_B"/>
+                </field>
+                <field description="" name="URLLink" type="string"/>
+                <field description="" name="NoRoutingIDs" type="list">
+                    <element-type type="tuple" value="_NoRoutingIDs_B"/>
+                </field>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_D">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="PossResend" type="bool"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="OrderQty" type="double"/>
+                <field description="" name="MinQty" type="double"/>
+                <field description="" name="MaxFloor" type="double"/>
+                <field description="" name="OrdType" type="string"/>
+                <field description="" name="Price" type="double"/>
+                <field description="" name="StopPx" type="double"/>
+                <field description="" name="TimeInForce" type="string"/>
+                <field description="" name="NoAllocs" type="list">
+                    <element-type type="tuple" value="_NoAllocs_D"/>
+                </field>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="OrderRestrictions" type="string"/>
+                <field description="" name="PositionEffect" type="string"/>
+                <field description="" name="TradeAllocIndicator" type="int"/>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_F">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="OrigClOrdID" type="string"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="ClOrdID" type="string"/>
+                <field description="" name="SecondaryOrderID" type="string"/>
+                <field description="" name="Side" type="string"/>
+                <field description="" name="NoPartyID" type="list">
+                    <element-type type="tuple" value="_NoPartyID_F"/>
+                </field>
+                <field description="" name="TransactTime" type="timestamp"/>
+                <field description="" name="OrderRestrictions" type="string"/>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_V">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="SubscriptionRequestType" type="string"/>
+                <field description="" name="MarketDepth" type="int"/>
+                <field description="" name="MDUpdateType" type="int"/>
+                <field description="" name="NoMDEntryTypes" type="list">
+                    <element-type type="tuple" value="_NoMDEntryTypes_V"/>
+                </field>
+                <field description="" name="NoRelatedSym" type="list">
+                    <element-type type="tuple" value="_NoRelatedSym_V"/>
+                </field>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="_NoMDEntries_W">
+                <field description="" name="MDEntryType" type="string"/>
+                <field description="" name="MDEntryPx" type="double"/>
+                <field description="" name="MDEntrySize" type="double"/>
+                <field description="" name="NumberOfOrders" type="int"/>
+                <field description="" name="MDEntryDate" type="timestamp"/>
+                <field description="" name="MDEntryTime" type="timestamp"/>
+                <field description="" name="OpenCloseSettlFlag" type="string"/>
+                <field description="" name="TradingSessionID" type="string"/>
+                <field description="" name="TradingSessionSubID" type="string"/>
+                <field description="" name="TradSesOpenTime" type="timestamp"/>
+                <field description="" name="SecurityTradingStatus" type="int"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="TickDirection" type="string"/>
+                <field description="" name="MDEntrySeller" type="string"/>
+                <field description="" name="MDEntryBuyer" type="string"/>
+                <field description="" name="MDEntryPositionNo" type="int"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+                <field description="" name="NoReferentialPrices" type="list">
+                    <element-type type="tuple" value="_NoReferentialPrices_W"/>
+                </field>
+            </schema>
+            <schema name="_NoMDEntries_X">
+                <field description="" name="MDUpdateAction" type="string"/>
+                <field description="" name="MDEntryType" type="string"/>
+                <field description="" name="MDEntryID" type="string"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="MDEntryPx" type="double"/>
+                <field description="" name="MDEntrySize" type="double"/>
+                <field description="" name="NumberOfOrders" type="int"/>
+                <field description="" name="MDEntryDate" type="timestamp"/>
+                <field description="" name="MDEntryTime" type="timestamp"/>
+                <field description="" name="OpenCloseSettlFlag" type="string"/>
+                <field description="" name="TradingSessionID" type="string"/>
+                <field description="" name="TradingSessionSubID" type="string"/>
+                <field description="" name="TradSesOpenTime" type="timestamp"/>
+                <field description="" name="SecurityTradingStatus" type="int"/>
+                <field description="" name="OrderID" type="string"/>
+                <field description="" name="TickDirection" type="string"/>
+                <field description="" name="NetChgPrevDay" type="double"/>
+                <field description="" name="MDEntrySeller" type="string"/>
+                <field description="" name="MDEntryBuyer" type="string"/>
+                <field description="" name="MDEntryPositionNo" type="int"/>
+                <field description="" name="UniqueTradeID" type="string"/>
+                <field description="" name="DeleteReason" type="string"/>
+                <field description="" name="NoReferentialPrices" type="list">
+                    <element-type type="tuple" value="_NoReferentialPrices_X"/>
+                </field>
+            </schema>
+            <schema name="_NoRelatedSym_y">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="NoSecurityAltID" type="list">
+                    <element-type type="tuple" value="_NoSecurityAltID_y"/>
+                </field>
+                <field description="" name="NoUnderlyings" type="list">
+                    <element-type type="tuple" value="_NoUnderlyings_y"/>
+                </field>
+                <field description="" name="NoLegs" type="list">
+                    <element-type type="tuple" value="_NoLegs_y"/>
+                </field>
+                <field description="" name="RoundLot" type="double"/>
+                <field description="" name="MinTradeVol" type="double"/>
+                <field description="" name="MinPriceIncrement" type="double"/>
+                <field description="" name="TickSizeDenominator" type="int"/>
+                <field description="" name="MinOrderQty" type="double"/>
+                <field description="" name="MaxOrderQty" type="double"/>
+                <field description="" name="InstrumentID" type="int"/>
+                <field description="" name="Currency" type="string"/>
+                <field description="" name="SecurityType" type="string"/>
+                <field description="" name="SecuritySubType" type="string"/>
+                <field description="" name="Product" type="int"/>
+                <field description="" name="Asset" type="string"/>
+                <field description="" name="SecurityDesc" type="string"/>
+                <field description="" name="MaturityDate" type="timestamp"/>
+                <field description="" name="MaturityMonthYear" type="string"/>
+                <field description="" name="StrikePrice" type="double"/>
+                <field description="" name="StrikeCurrency" type="string"/>
+                <field description="" name="ContractMultiplier" type="double"/>
+                <field description="" name="ContractSettlMonth" type="string"/>
+                <field description="" name="CFICode" type="string"/>
+                <field description="" name="CountryOfIssue" type="string"/>
+                <field description="" name="IssueDate" type="timestamp"/>
+                <field description="" name="DatedDate" type="timestamp"/>
+                <field description="" name="StartDate" type="timestamp"/>
+                <field description="" name="EndDate" type="timestamp"/>
+                <field description="" name="SettlDate" type="timestamp"/>
+                <field description="" name="SettlType" type="string"/>
+                <field description="" name="PriceType" type="int"/>
+                <field description="" name="SecurityValidityTimestamp" type="timestamp"/>
+                <field description="" name="SecurityGroup" type="string"/>
+            </schema>
+            <schema name="Message_W">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="MDReqID" type="string"/>
+                <field description="" name="TradeDate" type="timestamp"/>
+                <field description="" name="NetChgPrevDay" type="double"/>
+                <field description="" name="MarketDepth" type="int"/>
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="SecurityID" type="string"/>
+                <field description="" name="SecurityIDSource" type="string"/>
+                <field description="" name="SecurityExchange" type="string"/>
+                <field description="" name="NoMDEntries" type="list">
+                    <element-type type="tuple" value="_NoMDEntries_W"/>
+                </field>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_X">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="TradeDate" type="timestamp"/>
+                <field description="" name="NoMDEntries" type="list">
+                    <element-type type="tuple" value="_NoMDEntries_X"/>
+                </field>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+            <schema name="Message_y">
+                <field description="Identifica o início de nova mensagem&#13;&#10;e a versão do protocolo: FIX.4.4" name="BeginString" type="string"/>
+                <field description="Tamanho da mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;segundo campo da mensagem" name="BodyLength" type="int"/>
+                <field description="Tipo de mensagem. Nãocriptografado,&#13;&#10;deve ser sempre o&#13;&#10;terceiro campo da mensagem" name="MsgType" type="string"/>
+                <field description="Número de seqüência da mensagem" name="MsgSeqNum" type="int"/>
+                <field description="Indica possível retransmissão da&#13;&#10;mensagem com o mesmo número de&#13;&#10;seqüência" name="PossDupFlag" type="bool"/>
+                <field description="CompID da origem: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="SenderCompID" type="string"/>
+                <field description="CompID do destino: entre em contato&#13;&#10;com a BM&amp;FBOVESPA para&#13;&#10;atribuição apropriada de compID&#13;&#10;(seção 3.2)" name="TargetCompID" type="string"/>
+                <field description="Por conta e ordem do CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver); para&#13;&#10;mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver)" name="OnBehalfOfCompID" type="string"/>
+                <field description="Enviar para CompID: para&#13;&#10;mensagens enviadas pela&#13;&#10;BM&amp;FBOVESPA = identificador do&#13;&#10;parceiro de negociação do cliente (se&#13;&#10;houver);&#13;&#10;para mensagens recebidas pela&#13;&#10;BM&amp;FBOVESPA = identificador da&#13;&#10;corretora do cliente (se houver)" name="DeliverToCompID" type="string"/>
+                <field description="Expresso em UTC (Tempo Universal&#13;&#10;Coordenado), também conhecido&#13;&#10;como GMT (Tempo Médio de&#13;&#10;Greenwich)" name="SendingTime" type="timestamp"/>
+                <field description="" name="SecurityReqID" type="string"/>
+                <field description="" name="SecurityResponseID" type="string"/>
+                <field description="" name="SecurityRequestResult" type="int"/>
+                <field description="" name="TotNoRelatedSym" type="int"/>
+                <field description="" name="LastFragment" type="bool"/>
+                <field description="" name="NoRelatedSym" type="list">
+                    <element-type type="tuple" value="_NoRelatedSym_y"/>
+                </field>
+                <field description="Soma de verificação. Nãocriptografada,&#13;&#10;é o último campo da&#13;&#10;mensagem" name="CheckSum" type="int"/>
+            </schema>
+        </named-schemas>
+        <constant expr="tuple(&quot;ORDER BOOK&quot; AS ORDER_BOOK, &quot;AGGREGATE BOOK&quot; AS AGGREGATE_BOOK, &quot;TOP OF BOOK&quot; AS TOP_OF_BOOK)" name="BOOK_TYPE"/>
+        <constant expr="&quot;AGGREGATE BOOK&quot;" name="BOOK_TYPE_AGGREGATE"/>
+        <constant expr="&quot;ORDER BOOK&quot;" name="BOOK_TYPE_ORDER"/>
+        <constant expr="&quot;TOP OF BOOK&quot;" name="BOOK_TYPE_TOP"/>
+        <constant expr="tuple(&quot;BVMF&quot; AS BSP, &quot;BVMF&quot; AS BMF)" name="EXCH"/>
+        <constant expr="&quot;BMF&quot;" name="EXCH_BMF"/>
+        <constant expr="&quot;BOVESPA&quot;" name="EXCH_BSP"/>
+        <constant expr="tuple(&quot;1&quot; AS SUBSCRIBE, &quot;2&quot; AS UNSUBSCRIBE, &quot;3&quot; AS UNSUBSCRIBE_ALL)" name="MD_CMD_SUBS"/>
+        <constant expr="&quot;SUBSCRIBE&quot;" name="MD_CMD_SUBS_SUBSCRIBE"/>
+        <constant expr="&quot;UNSUBSCRIBE&quot;" name="MD_CMD_SUBS_UNSUBSCRIBE"/>
+        <constant expr="&quot;UNSUBSCRIBE ALL&quot;" name="MD_CMD_SUBS_UNSUBSCRIBE_ALL"/>
+        <constant expr="tuple(&quot;0&quot; AS BID, &quot;1&quot; AS OFFER, &quot;e&quot; AS AGGREGATE_BID, &quot;f&quot; AS AGGREGATE_OFFER, &quot;2&quot; AS TRADE, &quot;4&quot; AS OPENING_PRICE, &quot;5&quot; AS CLOSING_PRICE, &quot;7&quot; AS TRADING_SESSION_HIGH_PRICE, &quot;8&quot; AS TRADING_SESSION_LOW_PRICE, &quot;9&quot; AS TRADING_SESSION_VWAP_PRICE, &quot;B&quot; AS TRADE_VOLUME, &quot;X&quot; AS TOP_OF_BOOK_OFFER, &quot;Z&quot; AS TOP_OF_BOOK_BID, &quot;a&quot; AS REFERENTIAL_PRICES, &quot;b&quot; AS INSTRUMENT_TRADING_PHASE, &quot;c&quot; AS INSTRUMENT_STATE)" name="MD_ENTRY_TYPE"/>
+        <constant expr="&quot;AGGREGATE BID&quot;" name="MD_ENTRY_TYPE_AGGREGATE_BID"/>
+        <constant expr="&quot;AGGREGATE OFFER&quot;" name="MD_ENTRY_TYPE_AGGREGATE_OFFER"/>
+        <constant expr="&quot;BID&quot;" name="MD_ENTRY_TYPE_BID"/>
+        <constant expr="&quot;OFFER&quot;" name="MD_ENTRY_TYPE_OFFER"/>
+        <constant expr="&quot;TOP OF BOOK BID&quot;" name="MD_ENTRY_TYPE_TOP_OF_BOOK_BID"/>
+        <constant expr="&quot;TOP OF BOOK OFFER&quot;" name="MD_ENTRY_TYPE_TOP_OF_BOOK_OFFER"/>
+        <constant expr="&quot;TRADE&quot;" name="MD_ENTRY_TYPE_TRADE"/>
+        <constant expr="tuple(&quot;0&quot; AS NEW, &quot;1&quot; AS CHANGE, &quot;2&quot; AS DELETE)" name="MD_UPDATE_ACTION"/>
+        <constant expr="tuple(&quot;V&quot; AS MARKET_DATA_REQUEST, &quot;x&quot; AS SECURITY_LIST_REQUEST)" name="MSG_TYPE"/>
+        <constant expr="&quot;MARKET DATA REQUEST&quot;" name="MSG_TYPE_MARKET_DATA_REQUEST"/>
+        <constant expr="&quot;SECURITY LIST REQUEST&quot;" name="MSG_TYPE_SECURITY_LIST_REQUEST"/>
+        <constant expr="tuple(int(2) AS COMMODITY, int(4) AS CURRENCY, int(7) AS INDEX, int(12) AS OTHER, int(13) AS FINANCING)" name="PROD"/>
+        <constant expr="&quot;COMMODITY&quot;" name="PROD_COMMODITY"/>
+        <constant expr="&quot;CURRENCY&quot;" name="PROD_CURRENCY"/>
+        <constant expr="&quot;FINANCING&quot;" name="PROD_FINANCING"/>
+        <constant expr="&quot;INDEX&quot;" name="PROD_INDEX"/>
+        <constant expr="&quot;OTHER&quot;" name="PROD_OTHER"/>
+        <constant expr="tuple(int(4) AS ALL, int(1) AS SECTYPE, int(2) AS PRODUCT, int(5) AS ASSET)" name="SEC_REQ_TYPE"/>
+        <constant expr="&quot;ALL&quot;" name="SEC_REQ_TYPE_ALL"/>
+        <constant expr="&quot;ASSET&quot;" name="SEC_REQ_TYPE_ASSET"/>
+        <constant expr="&quot;PRODUCT&quot;" name="SEC_REQ_TYPE_PRODUCT"/>
+        <constant expr="&quot;SECTYPE&quot;" name="SEC_REQ_TYPE_SECTYPE"/>
+        <constant expr="tuple(&quot;FUT&quot; AS FUTURES, &quot;SPOT&quot; AS SPOT_MARKET, &quot;SOPT&quot; AS SPOT_OPTIONS, &quot;FOPT&quot; AS FUTURES_OPTIONS, &quot;DTERM&quot; AS FORWARD)" name="SEC_TYPE"/>
+        <constant expr="&quot;FORWARD&quot;" name="SEC_TYPE_FORWARD"/>
+        <constant expr="&quot;FUTURES&quot;" name="SEC_TYPE_FUTURES"/>
+        <constant expr="&quot;FUTURES OPTIONS&quot;" name="SEC_TYPE_FUTURES_OPTIONS"/>
+        <constant expr="&quot;SPOT MARKET&quot;" name="SEC_TYPE_SPOT_MARKET"/>
+        <constant expr="&quot;SPOT OPTIONS&quot;" name="SEC_TYPE_SPOT_OPTIONS"/>
+        <constant expr="tuple(TRUE AS ACTIVE, FALSE AS INACTIVE)" name="SUB_STATUS"/>
+        <constant expr="&quot;ACTIVE&quot;" name="SUB_STATUS_ACTIVE"/>
+        <constant expr="&quot;INACTIVE&quot;" name="SUB_STATUS_INACTIVE"/>
+        <parameter-definitions>
+            <parameter default="'Placeholder'" name="Sender"/>
+            <parameter default="'Placeholder'" name="Target"/>
+            <parameter default="&quot;8&quot;" name="SecurityIDSource"/>
+            <parameter default="'Placeholder'" name="FIXVersion"/>
+        </parameter-definitions>
+        <schema name="schema:AggregatedBookTable">
+            <field description="" name="ID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <schema name="schema:OrderBookTable">
+            <field description="" name="ID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <schema name="schema:TopOfBookTable">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="NumberOfOrders" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <data name="AggregatedBookTable" type="querytable">
+            <param name="gui:x" value="721.0"/>
+            <param name="gui:y" value="768.0"/>
+            <param name="gui:width" value="226.0"/>
+            <param name="gui:height" value="83.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDEntryType"/>
+            <param name="key.1" value="ID"/>
+            <param name="key.2" value="Symbol"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="Symbol,MDEntryType,MDEntryPositionNo"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:AggregatedBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="OrderBookTable" type="querytable">
+            <param name="gui:x" value="741.0"/>
+            <param name="gui:y" value="190.0"/>
+            <param name="gui:width" value="186.0"/>
+            <param name="gui:height" value="82.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDEntryType"/>
+            <param name="key.1" value="ID"/>
+            <param name="key.2" value="Symbol"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="Symbol,MDEntryType,MDEntryPositionNo"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:OrderBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="TopOfBookTable" type="querytable">
+            <param name="gui:x" value="1183.0"/>
+            <param name="gui:y" value="655.0"/>
+            <param name="gui:width" value="186.0"/>
+            <param name="gui:height" value="83.0"/>
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="Symbol"/>
+            <param name="key.1" value="MDEntryType"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:TopOfBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="input"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="SnapshotSubscriptionIn" schema="Message_W">
+            <param name="gui:x" value="38.0"/>
+            <param name="gui:y" value="180.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </stream>
+        <box name="FilterNoMDNull" type="filter">
+            <input port="1" stream="SnapshotSubscriptionIn"/>
+            <output port="1" stream="out:FilterNoMDNull_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="!isnull(NoMDEntries) AND length(NoMDEntries) &gt; 0"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="196.0"/>
+            <param name="gui:y" value="180.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="Cleanser_W" type="map">
+            <input port="1" stream="out:FilterNoMDNull_1"/>
+            <output port="1" stream="out:Cleanser_W_1"/>
+            <target-list>
+                <item name="input" selection="none">
+                    <include field="NoMDEntries"/>
+                    <include field="Symbol"/>
+                </item>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="323.0"/>
+            <param name="gui:y" value="180.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="Split" type="split">
+            <input port="1" stream="out:Cleanser_W_1"/>
+            <output port="1" stream="out:Split_1"/>
+            <output port="2" stream="out:Split_2"/>
+            <param name="output-count" value="2"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="439.0"/>
+            <param name="gui:y" value="180.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="IterateNoMDEntries_W" type="iterate">
+            <input port="1" stream="out:Split_2"/>
+            <output port="1" stream="out:IterateNoMDEntries_W_1"/>
+            <param name="iterate-expr" value="NoMDEntries"/>
+            <param name="iterate-name" value="element"/>
+            <param name="gui:bends:1" value="527.0,221.0;527.0,334.0"/>
+            <param name="gui:x" value="583.0"/>
+            <param name="gui:y" value="302.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="64.0"/>
+        </box>
+        <box name="MDEntriesNotNull" type="filter">
+            <input port="1" stream="out:Split_1"/>
+            <output port="1" stream="out:MDEntriesNotNull_1"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="!isnull(NoMDEntries) AND length(NoMDEntries) &gt; 0"/>
+            <param name="gui:bends:1" value="543.0,201.0;543.0,93.0"/>
+            <param name="gui:x" value="583.0"/>
+            <param name="gui:y" value="62.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="FilterMDEntryTypeCopy" type="filter">
+            <input port="1" stream="out:MDEntriesNotNull_1"/>
+            <output port="1" stream="out:FilterMDEntryTypeCopy_1"/>
+            <output port="2" stream="out:FilterMDEntryTypeCopy_2"/>
+            <output port="3" stream="out:FilterMDEntryTypeCopy_3"/>
+            <output port="4" stream="out:FilterMDEntryTypeCopy_4"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.BID OR input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.OFFER"/>
+            <param name="expression.1" value="input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.AGGREGATE_BID OR input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.AGGREGATE_OFFER"/>
+            <param name="expression.2" value="input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.TOP_OF_BOOK_BID OR input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.TOP_OF_BOOK_OFFER"/>
+            <param name="expression.3" value="input1.NoMDEntries[0].MDEntryType == MD_ENTRY_TYPE.TRADE"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="803.0"/>
+            <param name="gui:y" value="60.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="66.0"/>
+        </box>
+        <box name="UnwrapNoMDEntries_W" type="map">
+            <input port="1" stream="out:IterateNoMDEntries_W_1"/>
+            <output port="1" stream="out:UnwrapNoMDEntries_W_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="element"/>
+                    <remove field="NoMDEntries"/>
+                </item>
+                <expressions>
+                    <include field="*">element.*</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="802.0"/>
+            <param name="gui:y" value="303.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="CleanserFields_W" type="map">
+            <input port="1" stream="out:UnwrapNoMDEntries_W_1"/>
+            <output port="1" stream="out:CleanserFields_W_1"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <expressions>
+                    <include field="Symbol">Symbol</include>
+                    <include field="MDEntryType">input.MDEntryType</include>
+                    <include field="MDEntryPx">MDEntryPx</include>
+                    <include field="MDEntrySize">MDEntrySize</include>
+                    <include field="MDEntryDate">MDEntryDate</include>
+                    <include field="MDEntryTime">MDEntryTime</include>
+                    <include field="MDEntryPositionNo">MDEntryPositionNo</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value="976.0,334.0;976.0,391.0"/>
+            <param name="gui:x" value="1043.0"/>
+            <param name="gui:y" value="360.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="DeleteAggregatedBook" type="query">
+            <dataref id="querytable" name="AggregatedBookTable"/>
+            <input port="1" stream="out:FilterMDEntryTypeCopy_2"/>
+            <param name="operation" value="delete"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="MDEntryType"/>
+            <param name="key-lowerbound-value.0" value="input1.NoMDEntries[0].MDEntryType"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="key-field.1" value="ID"/>
+            <param name="key-lowerbound-operation.1" value="begin"/>
+            <param name="key-upperbound-operation.1" value="end"/>
+            <param name="key-field.2" value="Symbol"/>
+            <param name="key-lowerbound-value.2" value="input1.Symbol"/>
+            <param name="key-lowerbound-operation.2" value="eq"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="996.0,89.0;996.0,235.0"/>
+            <param name="gui:x" value="1044.0"/>
+            <param name="gui:y" value="204.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="DeleteOrderBook" type="query">
+            <dataref id="querytable" name="OrderBookTable"/>
+            <input port="1" stream="out:FilterMDEntryTypeCopy_1"/>
+            <param name="operation" value="delete"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="MDEntryType"/>
+            <param name="key-lowerbound-value.0" value="input1.NoMDEntries[0].MDEntryType"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="key-field.1" value="ID"/>
+            <param name="key-lowerbound-operation.1" value="begin"/>
+            <param name="key-upperbound-operation.1" value="end"/>
+            <param name="key-field.2" value="Symbol"/>
+            <param name="key-lowerbound-value.2" value="input1.Symbol"/>
+            <param name="key-lowerbound-operation.2" value="eq"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="956.0,81.0;956.0,38.0"/>
+            <param name="gui:x" value="1044.0"/>
+            <param name="gui:y" value="7.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="FilterMDEntryType" type="filter">
+            <input port="1" stream="out:CleanserFields_W_1"/>
+            <output port="1" stream="out:FilterMDEntryType_1"/>
+            <output port="2" stream="out:FilterMDEntryType_2"/>
+            <output port="3" stream="out:FilterMDEntryType_3"/>
+            <output port="4" stream="Trade"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="input1.MDEntryType == MD_ENTRY_TYPE.BID OR input1.MDEntryType == MD_ENTRY_TYPE.OFFER"/>
+            <param name="expression.1" value="input1.MDEntryType == MD_ENTRY_TYPE.AGGREGATE_BID OR input1.MDEntryType == MD_ENTRY_TYPE.AGGREGATE_OFFER"/>
+            <param name="expression.2" value="input1.MDEntryType == MD_ENTRY_TYPE.TOP_OF_BOOK_BID OR input1.MDEntryType == MD_ENTRY_TYPE.TOP_OF_BOOK_OFFER"/>
+            <param name="expression.3" value="input1.MDEntryType == MD_ENTRY_TYPE.TRADE"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1245.0"/>
+            <param name="gui:y" value="359.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="65.0"/>
+        </box>
+        <box name="MDIDSeed" type="seqnum">
+            <input port="1" stream="out:FilterMDEntryType_1"/>
+            <output port="1" stream="out:MDIDSeed_1"/>
+            <param name="output-field" value="seqid"/>
+            <param name="sequence-id" value="sequenceid"/>
+            <param name="update-expression" value="sequenceid + 1"/>
+            <param name="gui:bends:1" value="1331.0,380.0;1331.0,219.0"/>
+            <param name="gui:x" value="1454.0"/>
+            <param name="gui:y" value="188.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MDIDSeed2" type="seqnum">
+            <input port="1" stream="out:FilterMDEntryType_2"/>
+            <output port="1" stream="out:MDIDSeed2_1"/>
+            <param name="output-field" value="seqid2"/>
+            <param name="sequence-id" value="sequenceid2"/>
+            <param name="update-expression" value="sequenceid2 + 1"/>
+            <param name="gui:bends:1" value="1343.0,387.0;1343.0,339.0"/>
+            <param name="gui:x" value="1454.0"/>
+            <param name="gui:y" value="308.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="Trade">
+            <param name="gui:bends" value="1410.0,403.0;1410.0,450.0"/>
+            <param name="gui:x" value="1454.0"/>
+            <param name="gui:y" value="419.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="WriteTopOfBookTable" type="query">
+            <dataref id="querytable" name="TopOfBookTable"/>
+            <input port="1" stream="out:FilterMDEntryType_3"/>
+            <output port="1" stream="TopOfBook"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Symbol"/>
+            <param name="key-value.0" value="input1.Symbol"/>
+            <param name="key-field.1" value="MDEntryType"/>
+            <param name="key-value.1" value="input1.MDEntryType"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <include field="Symbol">input1.Symbol</include>
+                    <include field="MDEntryType">input1.MDEntryType</include>
+                    <include field="MDEntryPx">input1.MDEntryPx</include>
+                    <include field="MDEntrySize">input1.MDEntrySize</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="MDEntryPx">input1.MDEntryPx</set>
+                    <set field="MDEntrySize">input1.MDEntrySize</set>
+                    <set field="MDEntryDate">input1.MDEntryDate</set>
+                    <set field="MDEntryTime">input1.MDEntryTime</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="1382.0,395.0;1382.0,561.0"/>
+            <param name="gui:x" value="1454.0"/>
+            <param name="gui:y" value="530.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MDID" type="map">
+            <input port="1" stream="out:MDIDSeed_1"/>
+            <output port="1" stream="out:MDID_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="seqid"/>
+                </item>
+                <expressions>
+                    <include field="ID">string(seqid)+"-"+string(now())</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="188.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="MDID2" type="map">
+            <input port="1" stream="out:MDIDSeed2_1"/>
+            <output port="1" stream="out:MDID2_1"/>
+            <target-list>
+                <item name="input" selection="all">
+                    <remove field="seqid2"/>
+                </item>
+                <expressions>
+                    <include field="ID">string(seqid2)+"-"+string(now())</include>
+                </expressions>
+            </target-list>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="308.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <output-stream name="TopOfBook">
+            <param name="gui:bends" value=""/>
+            <param name="gui:x" value="1598.0"/>
+            <param name="gui:y" value="530.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </output-stream>
+        <box name="Union3" type="union">
+            <input port="1" stream="out:MDID2_1"/>
+            <output port="1" stream="out:Union3_1"/>
+            <param name="strict" value="true"/>
+            <param name="strict" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1714.0"/>
+            <param name="gui:y" value="308.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="Union6" type="union">
+            <input port="1" stream="out:MDID_1"/>
+            <output port="1" stream="out:Union6_1"/>
+            <param name="strict" value="true"/>
+            <param name="strict" value="true"/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1714.0"/>
+            <param name="gui:y" value="188.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+        <box name="WriteAggregatedBook" type="query">
+            <dataref id="querytable" name="AggregatedBookTable"/>
+            <input port="1" stream="out:Union3_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="MDEntryType"/>
+            <param name="key-value.0" value="input1.MDEntryType"/>
+            <param name="key-field.1" value="ID"/>
+            <param name="key-value.1" value="input1.ID"/>
+            <param name="key-field.2" value="Symbol"/>
+            <param name="key-value.2" value="input1.Symbol"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="all"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value=""/>
+            <param name="gui:x" value="1867.0"/>
+            <param name="gui:y" value="308.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="63.0"/>
+        </box>
+        <box name="WriteOrderBook" type="query">
+            <dataref id="querytable" name="OrderBookTable"/>
+            <input port="1" stream="out:Union6_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="MDEntryType"/>
+            <param name="key-value.0" value="input1.MDEntryType"/>
+            <param name="key-field.1" value="ID"/>
+            <param name="key-value.1" value="input1.ID"/>
+            <param name="key-field.2" value="Symbol"/>
+            <param name="key-value.2" value="input1.Symbol"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="all"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="gui:bends:dataref:querytable" value=""/>
+            <param name="gui:bends:1" value="1806.0,219.0;1806.0,158.0"/>
+            <param name="gui:x" value="1867.0"/>
+            <param name="gui:y" value="127.0"/>
+            <param name="gui:width" value="62.0"/>
+            <param name="gui:height" value="62.0"/>
+        </box>
+    </add>
+</modify>

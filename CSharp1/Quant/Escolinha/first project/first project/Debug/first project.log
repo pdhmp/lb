@@ -1,0 +1,21 @@
+﻿Build started 13/12/2011 09:02:40.
+     1>Project "N:\TI\Projects\CSharp\Quant\Escolinha\first project\first project\first project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\first project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\first project.unsuccessfulbuild".
+         Touching "Debug\first project.lastbuildstate".
+     1>Done Building Project "N:\TI\Projects\CSharp\Quant\Escolinha\first project\first project\first project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29

@@ -1,0 +1,6 @@
+T:\Resources\NFIXConn.dll.config
+T:\Resources\NFIXConn.dll
+T:\Resources\NFIXConn.pdb
+N:\TI\Projects\CSharp\Utils\NFIXConn\NFIXConn\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NFIXConn\NFIXConn\obj\Debug\NFIXConn.dll
+N:\TI\Projects\CSharp\Utils\NFIXConn\NFIXConn\obj\Debug\NFIXConn.pdb

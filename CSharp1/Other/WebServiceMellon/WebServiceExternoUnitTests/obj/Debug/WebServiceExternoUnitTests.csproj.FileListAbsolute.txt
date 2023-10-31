@@ -1,0 +1,11 @@
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\WebServiceExternoUnitTests.pdb
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\nunit.framework.dll
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\nunit.mocks.dll
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\ServiceInterfaces.dll
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\ServiceInterfaces.pdb
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\nunit.framework.xml
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\obj\Debug\WebServiceExternoUnitTests.pdb
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\WebServiceExternoUnitTests.exe.config
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\bin\Debug\WebServiceExternoUnitTests.exe
+C:\Users\luis\Desktop\ClienteModelo\WebServiceExternoClient\WebServiceExternoUnitTests\obj\Debug\WebServiceExternoUnitTests.exe

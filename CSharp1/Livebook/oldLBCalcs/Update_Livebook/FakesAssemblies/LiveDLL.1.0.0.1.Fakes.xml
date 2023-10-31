@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LiveDLL.1.0.0.1.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:LiveDLL.Fakes.ShimFormUtils">
+            <summary>Shim type of LiveDLL.FormUtils</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimFormUtils.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimFormUtils.#ctor(LiveDLL.FormUtils)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimFormUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimFormUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimFormUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimFormUtils.Constructor">
+            <summary>Sets the shim of FormUtils.FormUtils()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimFormUtils.LoadComboComboBoxStringStringString">
+            <summary>Sets the shim of FormUtils.LoadCombo(ComboBox ComboName, String StringSQl, String Value, String Display)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimFormUtils.LoadComboComboBoxStringStringStringInt32">
+            <summary>Sets the shim of FormUtils.LoadCombo(ComboBox ComboName, String StringSQl, String Value, String Display, Int32 selected)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimFormUtils.LoadListListBoxStringStringString">
+            <summary>Sets the shim of FormUtils.LoadList(ListBox ListName, String StringSQl, String Value, String Display)</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimFormUtils.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimLog">
+            <summary>Shim type of LiveDLL.Log</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimLog.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimLog.#ctor(LiveDLL.Log)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimLog.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimLog.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.AddLogEntryStringString">
+            <summary>Sets the shim of Log.AddLogEntry(String StatusMessage, String LogPath)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.Constructor">
+            <summary>Sets the shim of Log.Log()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.Error_Dump_DLLStringString">
+            <summary>Sets the shim of Log.Error_Dump_DLL(String MsgError, String Source)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.GetLastRunDateInt32">
+            <summary>Sets the shim of Log.GetLastRunDate(Int32 Process_Id)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.Log_CheckInInt32">
+            <summary>Sets the shim of Log.Log_CheckIn(Int32 ProgramID)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.Log_EventInt32Int32Int32String">
+            <summary>Sets the shim of Log.Log_Event(Int32 Program_ID, Int32 Process_ID, Int32 Event_Code, String Description)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.Log_EventInt32Int32Int32StringString">
+            <summary>Sets the shim of Log.Log_Event(Int32 ProgramID, Int32 ProcessID, Int32 EventCode, String Description, String Relevant_Id)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimLog.StaticConstructor">
+            <summary>Sets the shim of Log.Log()</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimLog.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimNUserControl">
+            <summary>Shim type of LiveDLL.NUserControl</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimNUserControl.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimNUserControl.#ctor(LiveDLL.NUserControl)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimNUserControl.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimNUserControl.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimNUserControl.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimNUserControl.Constructor">
+            <summary>Sets the shim of NUserControl.NUserControl()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimNUserControl.InstanceGet">
+            <summary>Sets the shim of NUserControl.get_Instance()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimNUserControl.StaticConstructor">
+            <summary>Sets the shim of NUserControl.NUserControl()</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimNUserControl.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimUtils">
+            <summary>Shim type of LiveDLL.Utils</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimUtils.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimUtils.#ctor(LiveDLL.Utils)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimUtils.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimUtils.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.Constructor">
+            <summary>Sets the shim of Utils.Utils()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.DateTimeToUnixTimestamp2DateTime">
+            <summary>Sets the shim of Utils.DateTimeToUnixTimestamp2(DateTime DateToConvert)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.DateTimeToUnixTimestampDateTime">
+            <summary>Sets the shim of Utils.DateTimeToUnixTimestamp(DateTime DateToConvert)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.GetTableNameDouble">
+            <summary>Sets the shim of Utils.GetTableName(Double Id_Ticker)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.GetTimeZoneDateTime">
+            <summary>Sets the shim of Utils.GetTimeZone(DateTime DateRef)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.GetUSDBRL">
+            <summary>Sets the shim of Utils.GetUSDBRL()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.NullDateGet">
+            <summary>Sets the shim of Utils.get_NullDate()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.ParseToDateTimeObject">
+            <summary>Sets the shim of Utils.ParseToDateTime(Object strValue)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.ParseToDoubleObject">
+            <summary>Sets the shim of Utils.ParseToDouble(Object strValue)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.ParseToDoubleObjectInt32">
+            <summary>Sets the shim of Utils.ParseToDouble(Object strValue, Int32 retValue)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.Return_TimeZone">
+            <summary>Sets the shim of Utils.Return_TimeZone()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimUtils.UnixTimestampToDateTimeInt32">
+            <summary>Sets the shim of Utils.UnixTimestampToDateTime(Int32 UnixTimestamp)</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimUtils.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimnewNestConn">
+            <summary>Shim type of LiveDLL.newNestConn</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimnewNestConn.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimnewNestConn.#ctor(LiveDLL.newNestConn)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimnewNestConn.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimnewNestConn.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.ShimnewNestConn.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Audit_LogString">
+            <summary>Sets the shim of newNestConn.Audit_Log(String String_SQL_LOG)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Constructor">
+            <summary>Sets the shim of newNestConn.newNestConn()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.ConstructorBoolean">
+            <summary>Sets the shim of newNestConn.newNestConn(Boolean UseOldConn)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Dispose">
+            <summary>Sets the shim of newNestConn.Dispose()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.ExecuteNonQueryString">
+            <summary>Sets the shim of newNestConn.ExecuteNonQuery(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.ExecuteNonQueryStringInt32">
+            <summary>Sets the shim of newNestConn.ExecuteNonQuery(String String_SQL, Int32 Save_Log)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.ExecuteNonQueryStringSqlParameterCommandType">
+            <summary>Sets the shim of newNestConn.ExecuteNonQuery(String String_SQL, SqlParameter Parameters, CommandType CommandType)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Execute_Query_StringString">
+            <summary>Sets the shim of newNestConn.Execute_Query_String(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.InitConnBoolean">
+            <summary>Sets the shim of newNestConn.InitConn(Boolean UseOldConn)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_DataAdapterString">
+            <summary>Sets the shim of newNestConn.Return_DataAdapter(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_DataReaderString">
+            <summary>Sets the shim of newNestConn.Return_DataReader(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_DataSetString">
+            <summary>Sets the shim of newNestConn.Return_DataSet(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_DataTableString">
+            <summary>Sets the shim of newNestConn.Return_DataTable(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_DateTimeString">
+            <summary>Sets the shim of newNestConn.Return_DateTime(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_DoubleString">
+            <summary>Sets the shim of newNestConn.Return_Double(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_FloatString">
+            <summary>Sets the shim of newNestConn.Return_Float(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_IntString">
+            <summary>Sets the shim of newNestConn.Return_Int(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.Return_StringString">
+            <summary>Sets the shim of newNestConn.Return_String(String String_SQL)</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.ShimnewNestConn.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Audit_LogString">
+            <summary>Sets the shim of newNestConn.Audit_Log(String String_SQL_LOG)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Dispose">
+            <summary>Sets the shim of newNestConn.Dispose()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.ExecuteNonQueryString">
+            <summary>Sets the shim of newNestConn.ExecuteNonQuery(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.ExecuteNonQueryStringInt32">
+            <summary>Sets the shim of newNestConn.ExecuteNonQuery(String String_SQL, Int32 Save_Log)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.ExecuteNonQueryStringSqlParameterCommandType">
+            <summary>Sets the shim of newNestConn.ExecuteNonQuery(String String_SQL, SqlParameter Parameters, CommandType CommandType)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Execute_Query_StringString">
+            <summary>Sets the shim of newNestConn.Execute_Query_String(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.InitConnBoolean">
+            <summary>Sets the shim of newNestConn.InitConn(Boolean UseOldConn)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_DataAdapterString">
+            <summary>Sets the shim of newNestConn.Return_DataAdapter(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_DataReaderString">
+            <summary>Sets the shim of newNestConn.Return_DataReader(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_DataSetString">
+            <summary>Sets the shim of newNestConn.Return_DataSet(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_DataTableString">
+            <summary>Sets the shim of newNestConn.Return_DataTable(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_DateTimeString">
+            <summary>Sets the shim of newNestConn.Return_DateTime(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_DoubleString">
+            <summary>Sets the shim of newNestConn.Return_Double(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_FloatString">
+            <summary>Sets the shim of newNestConn.Return_Float(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_IntString">
+            <summary>Sets the shim of newNestConn.Return_Int(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.ShimnewNestConn.AllInstances.Return_StringString">
+            <summary>Sets the shim of newNestConn.Return_String(String String_SQL)</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.Shimold_Conn">
+            <summary>Shim type of LiveDLL.old_Conn</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Shimold_Conn.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Shimold_Conn.#ctor(LiveDLL.old_Conn)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Shimold_Conn.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Shimold_Conn.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Shimold_Conn.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Audit_LogString">
+            <summary>Sets the shim of old_Conn.Audit_Log(String String_SQL_LOG)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Constructor">
+            <summary>Sets the shim of old_Conn.old_Conn()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Dispose">
+            <summary>Sets the shim of old_Conn.Dispose()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.ExecuteNonQueryString">
+            <summary>Sets the shim of old_Conn.ExecuteNonQuery(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.ExecuteNonQueryStringInt32">
+            <summary>Sets the shim of old_Conn.ExecuteNonQuery(String String_SQL, Int32 Save_Log)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Execute_Query_StringString">
+            <summary>Sets the shim of old_Conn.Execute_Query_String(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Return_DataAdapterString">
+            <summary>Sets the shim of old_Conn.Return_DataAdapter(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Return_DataReaderString">
+            <summary>Sets the shim of old_Conn.Return_DataReader(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Return_DataSetString">
+            <summary>Sets the shim of old_Conn.Return_DataSet(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.Return_DataTableString">
+            <summary>Sets the shim of old_Conn.Return_DataTable(String String_SQL)</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.Shimold_Conn.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Audit_LogString">
+            <summary>Sets the shim of old_Conn.Audit_Log(String String_SQL_LOG)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Dispose">
+            <summary>Sets the shim of old_Conn.Dispose()</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.ExecuteNonQueryString">
+            <summary>Sets the shim of old_Conn.ExecuteNonQuery(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.ExecuteNonQueryStringInt32">
+            <summary>Sets the shim of old_Conn.ExecuteNonQuery(String String_SQL, Int32 Save_Log)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Execute_Query_StringString">
+            <summary>Sets the shim of old_Conn.Execute_Query_String(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Return_DataAdapterString">
+            <summary>Sets the shim of old_Conn.Return_DataAdapter(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Return_DataReaderString">
+            <summary>Sets the shim of old_Conn.Return_DataReader(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Return_DataSetString">
+            <summary>Sets the shim of old_Conn.Return_DataSet(String String_SQL)</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Shimold_Conn.AllInstances.Return_DataTableString">
+            <summary>Sets the shim of old_Conn.Return_DataTable(String String_SQL)</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.StubFormUtils">
+            <summary>Stub type of LiveDLL.FormUtils</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubFormUtils.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubFormUtils.InitializeStub">
+            <summary>Initializes a new instance of type StubFormUtils</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubFormUtils.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubFormUtils.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubFormUtils.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.StubLog">
+            <summary>Stub type of LiveDLL.Log</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubLog.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubLog.InitializeStub">
+            <summary>Initializes a new instance of type StubLog</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubLog.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubLog.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubLog.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.StubNUserControl">
+            <summary>Stub type of LiveDLL.NUserControl</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubNUserControl.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubNUserControl.InitializeStub">
+            <summary>Initializes a new instance of type StubNUserControl</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubNUserControl.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubNUserControl.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubNUserControl.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.StubUtils">
+            <summary>Stub type of LiveDLL.Utils</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubUtils.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubUtils.InitializeStub">
+            <summary>Initializes a new instance of type StubUtils</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubUtils.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubUtils.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubUtils.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.StubnewNestConn">
+            <summary>Stub type of LiveDLL.newNestConn</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubnewNestConn.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubnewNestConn.#ctor(System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.StubnewNestConn.InitializeStub">
+            <summary>Initializes a new instance of type StubnewNestConn</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubnewNestConn.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubnewNestConn.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.StubnewNestConn.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:LiveDLL.Fakes.Stubold_Conn">
+            <summary>Stub type of LiveDLL.old_Conn</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Stubold_Conn.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:LiveDLL.Fakes.Stubold_Conn.InitializeStub">
+            <summary>Initializes a new instance of type Stubold_Conn</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Stubold_Conn.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Stubold_Conn.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:LiveDLL.Fakes.Stubold_Conn.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

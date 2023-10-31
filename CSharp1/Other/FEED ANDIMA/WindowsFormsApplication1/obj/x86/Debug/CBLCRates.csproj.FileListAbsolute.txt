@@ -1,0 +1,36 @@
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CBLCRates.exe
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CBLCRates.pdb
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.Properties.Resources.resources
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.exe
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.pdb
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.Form1.resources
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CBLCRates.exe.manifest
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\CBLCRates.application
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.TrustInfo.xml
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.exe.manifest
+N:\TI\Projects\CSharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.application
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\bin\Debug\CBLCRates.exe
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\bin\Debug\CBLCRates.pdb
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.frmImport.resources
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.exe
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.pdb
+C:\temp\CBLC\CBLCRates.exe
+C:\temp\CBLC\CBLCRates.pdb
+C:\temp\CBLC\CBLCRates.exe.manifest
+C:\temp\CBLC\CBLCRates.application
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.TrustInfo.xml
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.exe.manifest
+N:\TI\Projects\CSharp\Other\CBLCRates\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.application
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.exe
+N:\TI\Projects\CSharp\Other\FEED ANDIMA\WindowsFormsApplication1\obj\x86\Debug\CBLCRates.pdb

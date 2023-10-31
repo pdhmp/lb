@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://186.215.154.166:8080/WSintegrador.asmx?wsdl" docRef="http://186.215.154.166:8080/WSintegrador.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://186.215.154.166:8080/WSintegrador.asmx" xmlns:q1="http://futuraonline.com.br/webservices/" binding="q1:WSIntegradorSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://186.215.154.166:8080/WSintegrador.asmx" xmlns:q2="http://futuraonline.com.br/webservices/" binding="q2:WSIntegradorSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

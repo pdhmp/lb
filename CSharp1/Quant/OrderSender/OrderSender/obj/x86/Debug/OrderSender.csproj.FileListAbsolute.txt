@@ -1,0 +1,25 @@
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\OrderSender.exe
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\OrderSender.pdb
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\NFIXConn.dll
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\NFIXConn.pdb
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.OrderSender.resources
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.exe
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.pdb
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\OrderSender.exe.config
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\OrderSender.exe.manifest
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\bin\Debug\OrderSender.application
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.exe.manifest
+N:\TI\Projects\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.application
+C:\BKP PPAY\CSharp\Quant\OrderSender\OrderSender\bin\Debug\OrderSender.exe.config
+C:\BKP PPAY\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.exe
+C:\BKP PPAY\CSharp\Quant\OrderSender\OrderSender\obj\x86\Debug\OrderSender.pdb

@@ -1,0 +1,14 @@
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.exe
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.pdb
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\quickfix_net.dll
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\quickfix_net_messages.dll
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.exe
+C:\Projetos_Testes\FIX\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.pdb
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.exe
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\obj\Debug\FIXAcceptor.pdb
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.exe
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\FIXAcceptor.pdb
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\Quant\FIX\FIXAcceptor\FIXAcceptor\bin\Debug\quickfix_net_messages.dll

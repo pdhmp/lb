@@ -1,0 +1,55 @@
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.exe.config
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.exe
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.pdb
+N:\TI\Projects\CSharp\SGC\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmEdit.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCommodities.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmIssuer.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmOpcoes.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmSwap.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.ExListView.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmFuturos.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCurrency.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAcoes.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAdr.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAtivos.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmIndices.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmAdmPos.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmConsistency.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmEditPriceTrade.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmEdit_Trades.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmInsertPrice.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Tela_Divididas.frmExposure_PL.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Tela_Divididas.frmInsertOrder.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmOrders.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmPositions.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmStrategy.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Tela_Divididas.frmTrades.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCalculateDelta.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmTeste.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmTrades.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmCaixa.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmVol.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmcoluns.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmPass.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmLogin.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmpl.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmPosicoes.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmInsertOrdem.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmInsertTrade.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.frmMenu.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Properties.Resources.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGN.Resource.Form1.resources
+N:\TI\Projects\CSharp\SGC\obj\Debug\SGC_Old.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.exe.licenses
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.exe.manifest
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.application
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.exe
+N:\TI\Projects\CSharp\SGC\bin\Debug\Nest LiveBook.pdb
+N:\TI\Projects\CSharp\SGC\bin\Debug\Basic_Functions.dll
+N:\TI\Projects\CSharp\SGC\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\SGC\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\SGC\bin\Debug\Basic_Functions.pdb
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.TrustInfo.xml
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.exe.manifest
+N:\TI\Projects\CSharp\SGC\obj\Debug\Nest LiveBook.application

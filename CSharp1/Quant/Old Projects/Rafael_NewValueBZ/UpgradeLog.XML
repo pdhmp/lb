@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NewValueBZ">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Quant\NewValueBZ\NewValueBZ.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Quant\NewValueBZ\NewValueBZ.suo">
+</Property><Property Name="Date" Value="segunda-feira, 26 de julho de 2010">
+</Property><Property Name="Time" Value="12:03">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NewValueBZ.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewValueBZ.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NewValueBZ.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewValueBZ.suo">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\NewValueBZ.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\NewValueBZ.csproj">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\NewValueBZ.csproj.user" Description="Project user file successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\NewValueBZ.csproj.user">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\FastDataObject.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\FastDataObject.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\frmMain.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\frmMain.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\frmMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\Program.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\Properties\Resources.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\QuickValue.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\QuickValue.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\ValueBZ_Runner.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\ValueBZ_Runner.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\ValueBZ_Sim.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\ValueBZ_Sim.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\ValueCalc.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\ValueCalc.cs">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\frmMain.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\Properties\Resources.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\NewValueBZ\backup\Backup\NewvalueBZ\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="NewValueBZ" Source="NewvalueBZ\NewValueBZ.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\NewValueBZ.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NewValueBZ" Source="NewvalueBZ\NewValueBZ.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NewValueBZ.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NewValueBZ.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NewValueBZ" Source="NewvalueBZ\NewValueBZ.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

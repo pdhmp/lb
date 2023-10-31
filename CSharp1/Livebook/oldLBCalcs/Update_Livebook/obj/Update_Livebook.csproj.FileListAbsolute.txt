@@ -1,0 +1,74 @@
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.Form1.resources
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.Properties.Resources.resources
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\bin\Debug\Update_Livebook.exe
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\bin\Debug\Update_Livebook.pdb
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\bin\Debug\NestDLL.dll
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\bin\Debug\NestDLL.pdb
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.exe
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.pdb
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\bin\Debug\Update_Livebook.exe.manifest
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\bin\Debug\Update_Livebook.application
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.exe.manifest
+C:\Documents and Settings\raphael.NESTINVEST\My Documents\Visual Studio 2005\Projects\Update_Livebook\obj\Debug\Update_Livebook.application
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.exe
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.pdb
+P:\Projetos .NET\Update_Livebook\bin\Debug\Update_Livebook.exe
+P:\Projetos .NET\Update_Livebook\bin\Debug\Update_Livebook.pdb
+P:\Projetos .NET\Update_Livebook\bin\Debug\NestDLL.dll
+P:\Projetos .NET\Update_Livebook\bin\Debug\NestDLL.pdb
+P:\Projetos .NET\Update_Livebook\obj\Debug\ResolveAssemblyReference.cache
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.Form1.resources
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.Properties.Resources.resources
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+P:\Projetos .NET\Update_Livebook\bin\Debug\Update_Livebook.exe.manifest
+P:\Projetos .NET\Update_Livebook\bin\Debug\Update_Livebook.application
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.TrustInfo.xml
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.exe.manifest
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.application
+P:\Projetos .NET\Update_Livebook\obj\Debug\Update_Livebook.CostClose.resources
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.exe
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.pdb
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update_Livebook.exe.manifest
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update_Livebook.application
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update_Livebook.exe
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update_Livebook.pdb
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\bin\Debug\NestDLL.dll
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\bin\Debug\NestDLL.pdb
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\ResolveAssemblyReference.cache
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.CostClose.resources
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.Form1.resources
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.Properties.Resources.resources
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.TrustInfo.xml
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.exe.manifest
+\\nestsrv01\nest\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.application
+N:\TI\Projects\CSharp\Update_Livebook\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Update_Livebook\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.Form1.resources
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.Properties.Resources.resources
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update Livebook.exe.manifest
+N:\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update Livebook.application
+N:\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update Livebook.exe
+N:\TI\Projects\CSharp\Update_Livebook\bin\Debug\Update Livebook.pdb
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update Livebook.TrustInfo.xml
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update Livebook.exe.manifest
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update Livebook.application
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update Livebook.exe
+N:\TI\Projects\CSharp\Update_Livebook\obj\Debug\Update Livebook.pdb
+C:\temp\UpdateLB\Update Livebook.exe
+C:\temp\UpdateLB\Update Livebook.pdb
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.exe
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.pdb
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update_Livebook.Form1.resources
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update_Livebook.Properties.Resources.resources
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+C:\temp\UpdateLB\Update Livebook.exe.manifest
+C:\temp\UpdateLB\Update Livebook.application
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.TrustInfo.xml
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.exe.manifest
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.application

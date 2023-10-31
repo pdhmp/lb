@@ -1,0 +1,5 @@
+T:\Resources\NFastData.dll
+T:\Resources\NFastData.pdb
+N:\TI\Projects\CSharp\Utils\NFastData\NFastData\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NFastData\NFastData\obj\Debug\NFastData.dll
+N:\TI\Projects\CSharp\Utils\NFastData\NFastData\obj\Debug\NFastData.pdb

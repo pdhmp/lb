@@ -1,0 +1,13 @@
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\bin\Debug\PrepareXMLArb.exe
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\bin\Debug\PrepareXMLArb.pdb
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\PrepareXMLArb.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\PrepareXMLArb.exe
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\PrepareXMLArb.pdb
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\PrepareXMLArb\PrepareXMLArb\obj\x86\Debug\PrepareXMLArb.frmPrepareXML.resources
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\PrepaareXMLArb\PrepareXMLArb\obj\x86\Debug\PrepareXMLArb.exe
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\PrepaareXMLArb\PrepareXMLArb\obj\x86\Debug\PrepareXMLArb.pdb

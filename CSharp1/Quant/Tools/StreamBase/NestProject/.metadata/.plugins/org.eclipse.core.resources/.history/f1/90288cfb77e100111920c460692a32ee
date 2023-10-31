@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <implements module-reference="MarketData.sbint"/>
+        <import from="MarketData.sbint" postfix="" prefix=""/>
+        <named-schemas>
+            <schema name="_NoAllocs_D">
+                <field description="" name="AllocAccount" type="string"/>
+                <field description="" name="AllocAcctIDSource" type="int"/>
+            </schema>
+            <schema name="_NoPartyID_F">
+                <field description="" name="PartyID" type="string"/>
+                <field description="" name="PartyIDSource" type="string"/>
+                <field description="" name="PartyRole" type="int"/>
+            </schema>
+        </named-schemas>
+        <schema name="schema:AggregatedBookTable">
+            <field description="" name="ID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <schema name="schema:OrderBookTable">
+            <field description="" name="ID" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <schema name="schema:TopOfBookTable">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="NumberOfOrders" type="int"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+        </schema>
+        <data name="AggregatedBookTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDEntryType"/>
+            <param name="key.1" value="ID"/>
+            <param name="key.2" value="Symbol"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="Symbol,MDEntryType,MDEntryPositionNo"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:AggregatedBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="OrderBookTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="MDEntryType"/>
+            <param name="key.1" value="ID"/>
+            <param name="key.2" value="Symbol"/>
+            <param name="index-type.0" value="btree"/>
+            <param name="index.0" value="Symbol,MDEntryType,MDEntryPositionNo"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:OrderBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="TopOfBookTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="Symbol"/>
+            <param name="key.1" value="MDEntryType"/>
+            <param name="storage-method" value="memory"/>
+            <param name="schema" value="schema:TopOfBookTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="GetBook" schema="GetBookSchema">
+        </stream>
+        <stream name="InputFileNameMD" schema="InputFileNameMDSchema">
+        </stream>
+        <stream name="MDRequest" schema="MDRequestSchema">
+        </stream>
+        <stream name="SecurityRequest" schema="SecurityRequestSchema">
+        </stream>
+        <box name="CSVFileReader" type="inputadapter">
+            <input port="1" stream="InputFileNameMD"/>
+            <output port="1" stream="out:CSVFileReader_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvreader.CSVReader"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Ignore header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar" value="&quot;"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:CSVFileReader&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Command&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;EntryType&quot; type=&quot;list&quot;&gt;&#13;&#10;        &lt;element-type type=&quot;string&quot;/&gt;&#13;&#10;    &lt;/field&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Symbol&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Exchange&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;SecurityID&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyy-MM-dd hh:mm:ss.SSSZ"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+            <param name="Delimiter" value=","/>
+            <param name="EmitTiming" value="Periodic"/>
+            <param name="FileName"/>
+            <param name="HeaderTypeOption" value="Ignore header"/>
+            <param name="MapControlPort" value="false"/>
+            <param name="NullString" value="null"/>
+            <param name="Period" value="0"/>
+            <param name="QuoteChar" value="&quot;"/>
+            <param name="Repeat" value="1"/>
+            <param name="Schema" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:CSVFileReader&quot;&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Command&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;EntryType&quot; type=&quot;list&quot;&gt;&#13;&#10;        &lt;element-type type=&quot;string&quot;/&gt;&#13;&#10;    &lt;/field&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Symbol&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;Exchange&quot; type=&quot;string&quot;/&gt;&#13;&#10;    &lt;field description=&quot;&quot; name=&quot;SecurityID&quot; type=&quot;string&quot;/&gt;&#13;&#10;&lt;/schema&gt;&#13;&#10;"/>
+            <param name="StartControlPort" value="true"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="TimeBasedEmitField"/>
+            <param name="TimeBasedEmitMode" value="Emission times relative to the first record"/>
+            <param name="TimestampFormat" value="yyyy-MM-dd hh:mm:ss.SSSZ"/>
+            <param name="ignoreExistingRecords" value="true"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="tailMode" value="false"/>
+            <param name="tailUpdateInterval" value="1000"/>
+        </box>
+        <box name="Union" type="union">
+            <input port="1" stream="out:CSVFileReader_1"/>
+            <input port="2" stream="MDRequest"/>
+            <output port="1" stream="out:Union_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <module-reference name="MDFIXRef1">
+            <param name="file" value="MDFIX.sbapp"/>
+            <input name="MDRequestIn" port="1" stream="out:Union_1"/>
+            <input name="SecurityRequest" port="2" stream="SecurityRequest"/>
+            <input name="GetBook" port="3" stream="GetBook"/>
+            <output name="SendBook" port="1" stream="BookOut"/>
+            <output name="TopOfBook" port="2" stream="TopOfBook"/>
+            <output name="ErrorOut" port="3" stream="ErrorOut"/>
+            <output name="SecSubscriptionStatus" port="4" stream="SecSubscriptionStatus"/>
+            <output name="Trade" port="5" stream="Trade"/>
+            <output name="SecSubscriptionOut" port="6" stream="SecSubscriptionOut"/>
+            <output name="AdminMessages" port="7" stream="out:MDFIXRef1_7"/>
+            <input-dataref name="AggregatedBookTable" table="AggregatedBookTable"/>
+            <input-dataref name="OrderBookTable" table="OrderBookTable"/>
+            <input-dataref name="TopOfBookTable" table="TopOfBookTable"/>
+        </module-reference>
+        <output-stream name="BookOut" schema="BookOutSchema">
+        </output-stream>
+        <output-stream name="ErrorOut" schema="ErrorOutSchema">
+        </output-stream>
+        <output-stream name="SecSubscriptionOut" schema="SecSubscriptionOutSchema">
+        </output-stream>
+        <output-stream name="SecSubscriptionStatus" schema="SecSubscriptionStatusOutSchema">
+        </output-stream>
+        <output-stream name="TopOfBook" schema="TopOfBookSchema">
+        </output-stream>
+        <output-stream name="Trade" schema="TradeSchema">
+        </output-stream>
+    </add>
+</modify>

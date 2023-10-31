@@ -1,0 +1,9 @@
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\Skud.Form1.resources
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\Skud.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Quant\Skud\Skud\bin\Debug\Skud.exe
+N:\TI\Projects\CSharp\Quant\Skud\Skud\bin\Debug\Skud.pdb
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\Skud.exe
+N:\TI\Projects\CSharp\Quant\Skud\Skud\obj\x86\Debug\Skud.pdb

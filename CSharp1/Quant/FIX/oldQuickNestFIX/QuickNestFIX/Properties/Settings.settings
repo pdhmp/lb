@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="QuickNestFIX.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExtOrdIDDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2010-08-01</Value>
+    </Setting>
+    <Setting Name="ExtOrdID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="FromNestConfigPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IntOrdID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="IntOrdIDDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2010-08-01</Value>
+    </Setting>
+    <Setting Name="ToStreetConfigPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExecRepDate" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2010-08-01</Value>
+    </Setting>
+    <Setting Name="ExecRepID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

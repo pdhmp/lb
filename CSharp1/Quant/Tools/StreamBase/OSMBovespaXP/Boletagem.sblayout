@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="NESTDBTable">
+        <param name="gui:x" value="-268.0"/>
+        <param name="gui:y" value="235.0"/>
+        <param name="gui:width" value="142.0"/>
+        <param name="gui:height" value="58.0"/>
+    </component>
+    <component name="Orders">
+        <param name="gui:x" value="73.0"/>
+        <param name="gui:y" value="417.0"/>
+        <param name="gui:width" value="90.0"/>
+        <param name="gui:height" value="60.0"/>
+    </component>
+    <component name="Order">
+        <param name="gui:x" value="-507.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Trade">
+        <param name="gui:x" value="-507.0"/>
+        <param name="gui:y" value="308.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="LastShares">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-425.0"/>
+        <param name="gui:y" value="308.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SymbolId">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-425.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SideMapper">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-340.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="TradeCashMapper">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-340.0"/>
+        <param name="gui:y" value="308.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetOrderId">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-228.0"/>
+        <param name="gui:y" value="308.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SizeMapper">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-228.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertTrade">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value="-141.0,339.0;-97.0,157.0"/>
+        <param name="gui:x" value="-63.0"/>
+        <param name="gui:y" value="126.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="OrderCashMapper">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-63.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="ParcialTrade">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-63.0"/>
+        <param name="gui:y" value="308.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="FinalTrade">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="87.0"/>
+        <param name="gui:y" value="126.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetParameters">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="87.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertTradeCSV">
+        <param name="gui:bends:1" value="56.0,157.0;77.0,63.0"/>
+        <param name="gui:x" value="87.0"/>
+        <param name="gui:y" value="32.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertTradeLogger">
+        <param name="gui:bends:1" value="29.0,157.0;77.0,-47.0"/>
+        <param name="gui:x" value="87.0"/>
+        <param name="gui:y" value="-78.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="AccountId">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="174.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertOrder2">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="256.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Query">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="338.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertOrderCSV">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="489.0"/>
+        <param name="gui:y" value="-203.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="InsertOrderLogger">
+        <param name="gui:bends:1" value="444.0,-172.0;479.0,-376.0"/>
+        <param name="gui:x" value="489.0"/>
+        <param name="gui:y" value="-407.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SucessInsertOrder">
+        <param name="gui:bends" value="443.0,-172.0;469.0,-282.0"/>
+        <param name="gui:x" value="489.0"/>
+        <param name="gui:y" value="-313.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

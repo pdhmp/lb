@@ -1,0 +1,54 @@
+=============================   COMANDOS UTEIS
+service iptables status
+/etc/init.d/iptables restart
+
+tcpdump -nn port 15000
+
+=============================   COMANDOS FLEXSYS (192.168.0.133 na NEST) (EST홒 NO CRONTAB DA MAQUINA)
+
+#### COMPACTA플O ENTRE SYM (FLEX) RODANDO NA NEST E BSE FLEX RODANDO NA LINK
+ssh -C -L 0.0.0.0:19900:127.0.0.1:31572 root@189.39.62.101 -N &
+
+#### COMPACTA플O ENTRE SYM (FLEX) RODANDO NA NEST E BSE NEST RODANDO NA LINK
+ssh -C -L 0.0.0.0:19910:172.16.40.246:32170 root@189.39.62.101 -N &
+
+#### COMPACTA플O ENTRE NEST E PROXYDIFF (USANDO A ROTA DEPOIS QUE CHEGA NO MARINA)
+ssh -C -L 0.0.0.0:32150:172.16.40.246:32151 root@189.39.62.101 -N &
+
+#### COMPACTA플O ENTRE NEST E MADALENA FTP (USANDO A ROTA DEPOIS QUE CHEGA NO MARINA)
+ssh -C -L 0.0.0.0:19920:172.16.40.246:19922 root@189.39.62.101 -N &
+
+
+#### COMPACTA플O ENTRE NEST E REMOTE DESKTOP DO MADALENA (USANDO A ROTA DEPOIS QUE CHEGA NO MARINA)
+ssh -C -L 0.0.0.0:3389:172.16.40.246:32160 root@189.39.62.100 -N &
+
+#### COMPACTA플O ENTRE NEST E PROXYDIFF (USANDO A ROTA DEPOIS QUE CHEGA NO MARINA) - RODANDO O SYMPROXY AQUI
+ssh -C -L 0.0.0.0:19911:172.16.40.246:32171 root@189.39.62.100 -N &
+
+#####OLD    ssh -C -L 0.0.0.0:32160:172.16.40.246:61051 root@200.143.33.126 -N &
+
+=============================   COMANDOS MARINA (172.16.40.246 na LINK Corretora) (SE REINICIAR VAI TER QUE RODAR NA MAO)
+
+#### PROXYDIFF
+iptables -t nat -I OUTPUT --src  172.16.40.246 -p tcp --dport 32151 -j DNAT --to-destination 10.3.100.124:15000
+#### REMOTE DESKTOP MADALENA
+iptables -t nat -I OUTPUT --src  172.16.40.246 -p tcp --dport 32160 -j DNAT --to-destination 172.16.40.247:3389
+
+
+#### FTP MADALENA
+iptables -t nat -I OUTPUT --src  172.16.40.246 -p tcp --dport 19922 -j DNAT --to-destination 172.16.40.247:19921
+
+
+#### BOVESPA SYMPROXY
+iptables -t nat -I OUTPUT --src  172.16.40.246 -p tcp --dport 32170 -j DNAT --to-destination 172.16.40.247:7601
+
+#### BOVESPA SYMPROXY - RODANDO O SYMPROXY AQUI
+iptables -t nat -I OUTPUT --src  172.16.40.246 -p tcp --dport 32171 -j DNAT --to-destination 172.16.40.247:12334
+
+==============   RESULTADO NO IPTABLES (service iptables status)
+
+Chain OUTPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+1    DNAT       tcp  --  172.16.40.246        0.0.0.0/0           tcp dpt:32170 to:172.16.40.247:7600 
+2    DNAT       tcp  --  172.16.40.246        0.0.0.0/0           tcp dpt:32160 to:172.16.40.247:3389 
+3    DNAT       tcp  --  172.16.40.246        0.0.0.0/0           tcp dpt:32151 to:10.3.100.124:150

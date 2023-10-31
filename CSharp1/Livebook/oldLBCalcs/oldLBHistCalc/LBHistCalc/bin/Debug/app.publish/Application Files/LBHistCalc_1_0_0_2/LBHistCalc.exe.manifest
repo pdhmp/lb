@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="LBHistCalc.exe" version="1.0.0.2" publicKeyToken="bddc40bc9ab65833" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="LBHist.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LBHistCalc" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LBHistCalc.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevExpress.Data.v9.1" version="9.1.11.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevExpress.Utils.v9.1" version="9.1.11.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevExpress.XtraEditors.v9.1" version="9.1.11.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevExpress.XtraGrid.v9.1" version="9.1.11.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevExpress.XtraLayout.v9.1" version="9.1.11.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraLayout.v9.1.dll" size="670720">
+      <assemblyIdentity name="DevExpress.XtraLayout.v9.1" version="9.1.7.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vXI2cyeNRFsrLDs5BmKCtkohEOc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBHistCalc.exe" size="69120">
+      <assemblyIdentity name="LBHistCalc" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nTMBsYwI7ZXGNZtNM8YBRSYtD4Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NCustomControls.dll" size="8704">
+      <assemblyIdentity name="NCustomControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZIpxtfENcMQ8OAYk8e5QZ1yqy1A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NestDLL.dll" size="21504">
+      <assemblyIdentity name="NestDLL" version="1.0.0.1" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8tgJ/IxbgRO0Cwi0ZtsNTyn/EdU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LBHist.ico" size="3262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6igRHq8LB/Db6bgmSh+wIXRdUpY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LBHistCalc.exe.config" size="144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cpzNzlRjZspwKGLNlX6RAlU3880=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NESTINVEST\luis" issuerKeyHash="08e8e28f8397565a3bc8428078dae632e3cb59ce" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HHN9Td8YhbetGzbnYL3RA/1dn7c=</DigestValue></Reference></SignedInfo><SignatureValue>LHq38BlRcKdh1ILXX4cwdTK/9XaOJ2a6vTvgSLC0dRn9gEuKi68YTyQAKMH5yr2te0p1uhX+H47FXOK4Np4J467+0wL5UZCK6CcFiqjYhBjFie4cnMq1KJC43oK7TqqUSUljh+Xq2im5iIByXEGH2trsjhOO3iX6+cTA4FGEaIc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>01FgOUzlj7CXk7yFN98aziA34x25Xlq7QjaFZp0wsb4lTZZJ9NouqlzC4L7kHt2wF6WFGrLDfgd7cwFsVJbGBpKY8SDG++8fcyERwbqcLbQMQK5OUCwd8rPpx+DgaMmYcahtU5CQivFxJgmTepH+IGLSKMx52wbPlYjMFnE2pPs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b79f5dfd03d1bd60e7361badb78518df4d7d731c" Description="" Url=""><as:assemblyIdentity name="LBHistCalc.exe" version="1.0.0.2" publicKeyToken="bddc40bc9ab65833" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NESTINVEST\luis</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>I5F6kCliNAAg0Y1JG0mM2A3aLXE=</DigestValue></Reference></SignedInfo><SignatureValue>Q+RJFN64ftkqRbf4yi2IVZ4oPEostVO6dTlia6l8k9ur2IHxxoQBSyw4GjumA3nPPImRQ4iPfbTKVWIcYvADziG3i+LvFYRpbst5flVN52zzzCPah5h5WNXLTbLdwzYnfEaYlhw8uTIFXcXJtromdWqTk/1GsIA8DhRQiRGYhlg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>01FgOUzlj7CXk7yFN98aziA34x25Xlq7QjaFZp0wsb4lTZZJ9NouqlzC4L7kHt2wF6WFGrLDfgd7cwFsVJbGBpKY8SDG++8fcyERwbqcLbQMQK5OUCwd8rPpx+DgaMmYcahtU5CQivFxJgmTepH+IGLSKMx52wbPlYjMFnE2pPs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQcSvXVLbyuaRKXkJIjXm1CzANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4ATgBFAFMAVABJAE4AVgBFAFMAVABcAGwAdQBpAHMwHhcNMTIxMDE1MTIzMjUxWhcNMTMxMDE1MTgzMjUxWjApMScwJQYDVQQDHh4ATgBFAFMAVABJAE4AVgBFAFMAVABcAGwAdQBpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANNRYDlM5Y+wl5O8hTffGs4gN+MduV5au0I2hWadMLG+JU2WSfTaLqpcwuC+5B7dsBelhRqyw34He3MBbFSWxgaSmPEgxvvvH3MhEcG6nC20DECuTlAsHfKz6cfg4GjJmHGobVOQkIrxcSYJk3qR/iBi0ijMedsGz5WIzBZxNqT7AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEARJBpPU/UXVBtWRbefxj30A7j91UWfO2MfkUqPWHfk7IcjzckOQEiEBkZu2WoyxCPwmI9OkAJWTXIopsgpq39cK4nWGrnj44q3DdEZyMJI59bffVNdCkmLwebxunchuWUjfRKbDnILUikhy+LTAsL6tn/I9PrrbuGE++2bkTpdGo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

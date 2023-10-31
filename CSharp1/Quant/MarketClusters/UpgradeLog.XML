@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MarketClusters">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Quant\MarketClusters\MarketClusters.suo">
+</Property><Property Name="Date" Value="quinta-feira, 9 de setembro de 2010">
+</Property><Property Name="Time" Value="14:41">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MarketClusters.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MarketClusters.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters.suo">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\MarketClusters.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\MarketClusters.csproj">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\ClusterCalc.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\ClusterCalc.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\DataContainer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\DataContainer.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\DataSeries.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\DataSeries.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Form1.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Form1.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Program.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Properties\Resources.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Utils.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Utils.cs">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Form1.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\Properties\Resources.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\MarketClusters\Backup\MarketClusters\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="MarketClusters" Source="MarketClusters\MarketClusters.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\MarketClusters.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MarketClusters" Source="MarketClusters\MarketClusters.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MarketClusters.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MarketClusters.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MarketClusters" Source="MarketClusters\MarketClusters.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

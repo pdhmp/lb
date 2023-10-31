@@ -1,0 +1,11 @@
+T:\Resources\TickerDLL.dll.config
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\TickerDLL.dll
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\TickerDLL.pdb
+C:\Users\13\Dropbox\Live\DLL\TickerDLL.dll.config
+C:\Users\13\Dropbox\Live\DLL\TickerDLL.dll
+C:\Users\13\Dropbox\Live\DLL\TickerDLL.pdb
+C:\BKP PPAY\Livebook\Livebook2\Resources\TickerDLL.dll.config
+C:\BKP PPAY\Livebook\Livebook2\Resources\TickerDLL.dll
+C:\BKP PPAY\Livebook\Livebook2\Resources\TickerDLL.pdb
+C:\BKP PPAY\CSharp\TickerDLL\NestDLL\obj\Debug\TickerDLL.dll
+C:\BKP PPAY\CSharp\TickerDLL\NestDLL\obj\Debug\TickerDLL.pdb

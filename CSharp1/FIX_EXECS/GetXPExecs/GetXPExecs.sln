@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetXPExecs", "GetXPExecs\GetXPExecs.csproj", "{59756FD6-5C24-4BAD-B15F-E9A882E47DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59756FD6-5C24-4BAD-B15F-E9A882E47DDC}.Debug|x86.ActiveCfg = Debug|x86
+		{59756FD6-5C24-4BAD-B15F-E9A882E47DDC}.Debug|x86.Build.0 = Debug|x86
+		{59756FD6-5C24-4BAD-B15F-E9A882E47DDC}.Release|x86.ActiveCfg = Release|x86
+		{59756FD6-5C24-4BAD-B15F-E9A882E47DDC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

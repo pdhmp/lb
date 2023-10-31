@@ -1,0 +1,17 @@
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\NestCommDLL.dll.config
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\NestCommDLL.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\NestCommDLL.pdb
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\obj\Debug\NestCommDLL.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\obj\Debug\NestCommDLL.pdb
+T:\Resources\NestCommDLL.dll.config
+T:\Resources\NestCommDLL.dll
+T:\Resources\NestCommDLL.pdb
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\obj\Release\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\obj\Release\NestCommDLL.dll
+N:\TI\Projects\CSharp\Other\NestCommDLL\NestCommDLL\obj\Release\NestCommDLL.pdb

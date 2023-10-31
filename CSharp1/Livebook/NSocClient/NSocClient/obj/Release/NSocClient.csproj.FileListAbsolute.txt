@@ -1,0 +1,5 @@
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\bin\Release\NSocClient.dll
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\bin\Release\NSocClient.pdb
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\obj\Release\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\obj\Release\NSocClient.dll
+N:\TI\Projects\CSharp\Utils\NSocClient\NSocClient\obj\Release\NSocClient.pdb

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FlexTest">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Quant\FIX\FIXTest\FlexTest.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Quant\FIX\FIXTest\FlexTest.suo">
+</Property><Property Name="Date" Value="quinta-feira, 5 de maio de 2011">
+</Property><Property Name="Time" Value="14:23">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FlexTest.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FlexTest.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest.suo">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\FlexTest.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\FlexTest.csproj">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Form1.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Form1.cs">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Form1.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Program.cs">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Properties\Resources.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Properties\Settings.Designer.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Properties\Settings.settings" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\config\QuickFix.cfg" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\config\QuickFix.cfg">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Form1.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Form1.resx">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\Properties\Resources.resx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\FIX\FIXTest\Backup\FlexTest\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="FlexTest" Source="FlexTest\FlexTest.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\FlexTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FlexTest" Source="FlexTest\FlexTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FlexTest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FlexTest.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FlexTest" Source="FlexTest\FlexTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

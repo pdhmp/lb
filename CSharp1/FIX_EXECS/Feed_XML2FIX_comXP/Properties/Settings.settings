@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FeedXML2FIX.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FeedXML2FIX_GetFuturaExecutions_WSIntegrador" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://186.215.154.166:8080/WSintegrador.asmx</Value>
+    </Setting>
+    <Setting Name="FeedXML2FIX_br_com_xpi_xpconnect_ctServicoExterno" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://xpconnect.xpi.com.br/XP.Webservices.Extranet/ctServicoExterno.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

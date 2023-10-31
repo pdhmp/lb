@@ -1,0 +1,2 @@
+Command,EntryType,Symbol,Exchange,SecurityID
+SUBSCRIBE,"[BID]",PETR4,BOVESPA,null

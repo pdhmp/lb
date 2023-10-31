@@ -1,0 +1,593 @@
+20100218-19:03:33 : Created session
+20100218-19:03:33 : Connecting to 192.168.0.211 on port 13222
+20100218-19:03:37 : Initiated logon request
+20100218-19:03:55 : Received logon response
+20100218-19:07:27 : Created session
+20100218-19:07:27 : Connecting to 192.168.0.211 on port 13222
+20100218-19:07:27 : Initiated logon request
+20100218-19:07:27 : Received logon response
+20100218-19:09:21 : Created session
+20100218-19:09:21 : Connecting to 192.168.0.211 on port 13222
+20100218-19:09:21 : Initiated logon request
+20100218-19:09:22 : Received logon response
+20100218-19:09:39 : Initiated logout request
+20100218-19:09:39 : Received logout response
+20100218-19:09:39 : Disconnecting
+20100218-19:12:43 : Created session
+20100218-19:12:43 : Connecting to 192.168.0.211 on port 13222
+20100218-19:12:43 : Initiated logon request
+20100218-19:12:43 : Received logon response
+20100218-19:14:09 : Initiated logout request
+20100218-19:14:09 : Received logout response
+20100218-19:14:09 : Disconnecting
+20100218-19:50:15 : Created session
+20100218-19:50:15 : Connecting to 192.168.0.211 on port 13222
+20100218-19:50:15 : Initiated logon request
+20100218-19:50:15 : Received logon response
+20100218-19:52:29 : Received logout request
+20100218-19:52:29 : Sending logout response
+20100218-19:52:29 : Disconnecting
+20100218-19:52:46 : Connecting to 192.168.0.211 on port 13222
+20100218-19:52:47 : Disconnecting
+20100218-19:53:16 : Connecting to 192.168.0.211 on port 13222
+20100218-19:53:17 : Disconnecting
+20100219-12:28:20 : Created session
+20100219-12:28:20 : Connecting to 192.168.0.211 on port 13222
+20100219-12:28:20 : Initiated logon request
+20100219-12:28:46 : Created session
+20100219-12:28:46 : Connecting to 192.168.0.211 on port 13222
+20100219-12:28:46 : Initiated logon request
+20100219-12:28:46 : Received logon response
+20100219-12:28:46 : MsgSeqNum too high, expecting 1 but received 2
+20100219-12:28:46 : Sent ResendRequest FROM: 1 TO: 0
+20100219-12:28:46 : ResendRequest for messages FROM: 1 TO: 1 has been satisfied.
+20100219-12:28:46 : Received SequenceReset FROM: 1 TO: 3
+20100219-12:29:41 : Received logout request
+20100219-12:29:41 : Sending logout response
+20100219-12:29:41 : Disconnecting
+20100219-12:29:47 : Connecting to 192.168.0.211 on port 13222
+20100219-12:29:48 : Disconnecting
+20100219-12:29:56 : Created session
+20100219-12:29:56 : Connecting to 192.168.0.211 on port 13222
+20100219-12:29:56 : Initiated logon request
+20100219-12:29:56 : Received logon response
+20100219-12:30:59 : Received logout request
+20100219-12:30:59 : Sending logout response
+20100219-12:30:59 : Disconnecting
+20100219-12:31:23 : Created session
+20100219-12:31:23 : Connecting to 192.168.0.211 on port 13222
+20100219-12:31:23 : Initiated logon request
+20100219-12:31:23 : Received logon response
+20100219-12:32:30 : Received logout request
+20100219-12:32:30 : Sending logout response
+20100219-12:32:30 : Disconnecting
+20100219-12:33:42 : Created session
+20100219-12:33:42 : Connecting to 192.168.0.211 on port 13222
+20100219-12:33:42 : Initiated logon request
+20100219-12:33:42 : Received logon response
+20100219-12:33:48 : Received logout request
+20100219-12:33:48 : Sending logout response
+20100219-12:33:48 : Disconnecting
+20100219-12:34:24 : Created session
+20100219-12:34:25 : Connecting to 192.168.0.211 on port 13222
+20100219-12:34:25 : Initiated logon request
+20100219-12:34:25 : Received logon response
+20100219-12:35:10 : Initiated logout request
+20100219-12:35:12 : Timed out waiting for logout response
+20100219-12:35:12 : Disconnecting
+20100219-12:35:37 : Created session
+20100219-12:35:37 : Connecting to 192.168.0.211 on port 13222
+20100219-12:35:37 : Initiated logon request
+20100219-12:35:37 : Received logon response
+20100219-12:35:37 : Received ResendRequest FROM: 14 TO: 0
+20100219-12:35:37 : Resending Message: 14
+20100219-12:35:37 : Sent SequenceReset TO: 17
+20100219-12:39:42 : Created session
+20100219-12:39:42 : Connecting to 192.168.0.211 on port 13222
+20100219-12:39:42 : Initiated logon request
+20100219-12:39:42 : Received logon response
+20100219-12:39:42 : Received ResendRequest FROM: 14 TO: 0
+20100219-12:39:42 : Resending Message: 14
+20100219-12:39:42 : Sent SequenceReset TO: 18
+20100219-12:40:54 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-12:40:54 : Disconnecting
+20100219-12:41:13 : Connecting to 192.168.0.211 on port 13222
+20100219-12:41:14 : Disconnecting
+20100219-12:41:43 : Connecting to 192.168.0.211 on port 13222
+20100219-12:41:44 : Disconnecting
+20100219-12:42:14 : Created session
+20100219-12:42:14 : Connecting to 192.168.0.211 on port 13222
+20100219-12:42:14 : Initiated logon request
+20100219-12:42:14 : Received logon response
+20100219-12:42:14 : Received ResendRequest FROM: 14 TO: 0
+20100219-12:42:14 : Resending Message: 14
+20100219-12:42:14 : Sent SequenceReset TO: 20
+20100219-12:44:01 : Created session
+20100219-12:44:01 : Connecting to 192.168.0.211 on port 13222
+20100219-12:44:01 : Initiated logon request
+20100219-12:44:01 : Received logon response
+20100219-12:44:01 : Received ResendRequest FROM: 14 TO: 0
+20100219-12:44:01 : Resending Message: 14
+20100219-12:44:01 : Sent SequenceReset TO: 22
+20100219-12:46:03 : Received logout request
+20100219-12:46:03 : Sending logout response
+20100219-12:46:03 : Disconnecting
+20100219-17:40:58 : Created session
+20100219-17:40:58 : Connecting to 192.168.0.211 on port 13222
+20100219-17:40:58 : Initiated logon request
+20100219-17:40:58 : Received logon response
+20100219-17:41:38 : Created session
+20100219-17:41:38 : Connecting to 192.168.0.211 on port 13222
+20100219-17:41:38 : Initiated logon request
+20100219-17:41:38 : Received logon response
+20100219-17:42:27 : Created session
+20100219-17:42:28 : Connecting to 192.168.0.211 on port 13222
+20100219-17:42:39 : Initiated logon request
+20100219-17:43:06 : Received logon response
+20100219-17:43:38 : Created session
+20100219-17:43:38 : Connecting to 192.168.0.211 on port 13222
+20100219-17:43:38 : Initiated logon request
+20100219-17:43:38 : Received logon response
+20100219-17:48:32 : Created session
+20100219-17:48:32 : Connecting to 192.168.0.211 on port 13222
+20100219-17:48:32 : Initiated logon request
+20100219-17:48:32 : Received logon response
+20100219-17:48:41 : Initiated logout request
+20100219-17:48:41 : Received logout response
+20100219-17:48:41 : Disconnecting
+20100219-17:49:11 : Created session
+20100219-17:49:11 : Connecting to 192.168.0.211 on port 13222
+20100219-17:49:11 : Initiated logon request
+20100219-17:49:11 : Received logon response
+20100219-17:49:32 : Created session
+20100219-17:49:32 : Connecting to 192.168.0.211 on port 13222
+20100219-17:50:02 : Initiated logon request
+20100219-17:50:05 : Received logon response
+20100219-17:50:37 : Created session
+20100219-17:50:37 : Connecting to 192.168.0.211 on port 13222
+20100219-17:50:37 : Initiated logon request
+20100219-17:50:37 : Received logon response
+20100219-17:51:32 : Created session
+20100219-17:51:32 : Connecting to 192.168.0.211 on port 13222
+20100219-17:51:32 : Initiated logon request
+20100219-17:51:32 : Received logon response
+20100219-17:51:36 : Initiated logout request
+20100219-17:51:36 : Received logout response
+20100219-17:51:36 : Disconnecting
+20100219-17:53:45 : Created session
+20100219-17:53:45 : Connecting to 192.168.0.211 on port 13222
+20100219-17:53:45 : Initiated logon request
+20100219-17:53:45 : Received logon response
+20100219-17:53:50 : Initiated logout request
+20100219-17:53:50 : Received logout response
+20100219-17:53:50 : Disconnecting
+20100219-17:54:01 : Created session
+20100219-17:54:01 : Connecting to 192.168.0.211 on port 13222
+20100219-17:54:01 : Initiated logon request
+20100219-17:54:01 : Received logon response
+20100219-17:54:33 : Initiated logout request
+20100219-17:54:33 : Received logout response
+20100219-17:54:33 : Disconnecting
+20100219-18:00:03 : Created session
+20100219-18:00:03 : Connecting to 192.168.0.211 on port 13222
+20100219-18:00:03 : Initiated logon request
+20100219-18:00:03 : Received logon response
+20100219-18:00:52 : Initiated logout request
+20100219-18:00:52 : Received logout response
+20100219-18:00:52 : Disconnecting
+20100219-18:01:58 : Created session
+20100219-18:01:58 : Connecting to 192.168.0.211 on port 13222
+20100219-18:01:58 : Initiated logon request
+20100219-18:01:58 : Received logon response
+20100219-18:02:14 : Initiated logout request
+20100219-18:02:14 : Received logout response
+20100219-18:02:14 : Disconnecting
+20100219-18:03:18 : Created session
+20100219-18:03:18 : Connecting to 192.168.0.211 on port 13222
+20100219-18:03:18 : Initiated logon request
+20100219-18:03:18 : Received logon response
+20100219-18:04:09 : Initiated logout request
+20100219-18:04:09 : Received logout response
+20100219-18:04:09 : Disconnecting
+20100223-15:09:59 : Created session
+20100223-15:09:59 : Connecting to 192.168.0.211 on port 13222
+20100223-15:09:59 : Initiated logon request
+20100223-15:09:59 : Received logon response
+20100223-15:10:07 : Received logout request
+20100223-15:10:07 : Sending logout response
+20100223-15:10:07 : Disconnecting
+20100223-15:31:49 : Created session
+20100223-15:31:49 : Connecting to 192.168.0.211 on port 13222
+20100223-15:31:49 : Initiated logon request
+20100223-15:34:07 : Created session
+20100223-15:34:08 : Connecting to 192.168.0.211 on port 13222
+20100223-15:34:15 : Initiated logon request
+20100223-15:35:14 : Received logon response
+20100223-15:35:15 : MsgSeqNum too high, expecting 3 but received 4
+20100223-15:35:15 : Sent ResendRequest FROM: 3 TO: 0
+20100223-15:35:15 : MsgSeqNum too high, expecting 3 but received 5
+20100223-15:35:15 : Already sent ResendRequest FROM: 3 TO: 3.  Not sending another.
+20100223-15:35:17 : ResendRequest for messages FROM: 3 TO: 3 has been satisfied.
+20100223-15:35:17 : Received SequenceReset FROM: 3 TO: 6
+20100223-15:35:31 : Initiated logout request
+20100223-15:35:31 : Received logout response
+20100223-15:35:31 : Disconnecting
+20100223-15:39:01 : Created session
+20100223-15:39:03 : Connecting to 192.168.0.211 on port 13222
+20100223-15:39:14 : Initiated logon request
+20100223-15:39:16 : Received logon response
+20100223-15:39:25 : Initiated logout request
+20100223-15:39:25 : Received logout response
+20100223-15:39:25 : Disconnecting
+20100223-15:42:42 : Created session
+20100223-15:42:42 : Connecting to 192.168.0.211 on port 13222
+20100223-15:42:42 : Initiated logon request
+20100223-15:42:42 : Received logon response
+20100223-15:42:46 : Initiated logout request
+20100223-15:42:46 : Received logout response
+20100223-15:42:46 : Disconnecting
+20100223-15:54:13 : Created session
+20100223-15:54:13 : Connecting to 192.168.0.211 on port 13222
+20100223-15:54:13 : Initiated logon request
+20100223-15:54:13 : Received logon response
+20100223-15:54:17 : Initiated logout request
+20100223-15:54:17 : Received logout response
+20100223-15:54:17 : Disconnecting
+20100223-15:58:27 : Created session
+20100223-15:58:27 : Connecting to 192.168.0.211 on port 13222
+20100223-15:58:28 : Disconnecting
+20100223-15:58:28 : Connecting to 192.168.0.211 on port 13222
+20100223-15:58:29 : Disconnecting
+20100223-15:59:15 : Created session
+20100223-15:59:15 : Connecting to 192.168.0.211 on port 13222
+20100223-15:59:15 : Initiated logon request
+20100223-15:59:15 : Received logon response
+20100223-15:59:19 : Initiated logout request
+20100223-15:59:19 : Received logout response
+20100223-15:59:19 : Disconnecting
+20100223-20:09:02 : Created session
+20100223-20:09:02 : Connecting to 192.168.0.211 on port 13222
+20100223-20:09:02 : Initiated logon request
+20100223-20:09:02 : Received logon response
+20100223-20:09:02 : Initiated logout request
+20100223-20:26:45 : Created session
+20100223-20:26:45 : Connecting to 192.168.0.211 on port 13222
+20100223-20:26:45 : Initiated logon request
+20100223-20:26:45 : Received logon response
+20100223-20:26:45 : MsgSeqNum too high, expecting 16 but received 17
+20100223-20:26:45 : Sent ResendRequest FROM: 16 TO: 0
+20100223-20:26:45 : Received ResendRequest FROM: 21 TO: 0
+20100223-20:26:45 : Sent SequenceReset TO: 23
+20100223-20:26:45 : Resending Message: 23
+20100223-20:26:45 : Sent SequenceReset TO: 25
+20100223-20:26:45 : ResendRequest for messages FROM: 16 TO: 16 has been satisfied.
+20100223-20:26:45 : Received SequenceReset FROM: 16 TO: 19
+20100223-20:28:30 : Received logout request
+20100223-20:28:30 : Sending logout response
+20100223-20:28:30 : Disconnecting
+20100223-20:28:48 : Created session
+20100223-20:28:48 : Connecting to 192.168.0.211 on port 13222
+20100223-20:28:49 : Disconnecting
+20100223-20:28:49 : Connecting to 192.168.0.211 on port 13222
+20100223-20:28:50 : Disconnecting
+20100223-20:29:19 : Connecting to 192.168.0.211 on port 13222
+20100223-20:29:19 : Initiated logon request
+20100223-20:29:19 : Received logon response
+20100223-20:29:19 : Received ResendRequest FROM: 27 TO: 0
+20100223-20:29:19 : Resending Message: 27
+20100223-20:29:19 : Sent SequenceReset TO: 29
+20100223-20:43:04 : Created session
+20100223-20:43:04 : Connecting to 192.168.0.211 on port 13222
+20100223-20:43:04 : Initiated logon request
+20100223-20:43:04 : Received logon response
+20100223-20:44:04 : Received ResendRequest FROM: 30 TO: 0
+20100223-20:44:04 : Resending Message: 30
+20100223-20:44:04 : Sent SequenceReset TO: 32
+20100223-20:44:22 : Received logout request
+20100223-20:44:22 : Sending logout response
+20100223-20:44:22 : Disconnecting
+20100223-20:45:04 : Created session
+20100223-20:45:04 : Connecting to 192.168.0.211 on port 13222
+20100223-20:45:04 : Initiated logon request
+20100223-20:45:04 : Received logon response
+20100223-20:46:04 : Received ResendRequest FROM: 34 TO: 0
+20100223-20:46:04 : Resending Message: 34
+20100223-20:46:04 : Sent SequenceReset TO: 36
+20100223-21:04:31 : Received logout request
+20100223-21:04:31 : Sending logout response
+20100223-21:04:31 : Disconnecting
+20100223-21:04:58 : Created session
+20100223-21:04:58 : Connecting to 192.168.0.211 on port 13222
+20100223-21:04:58 : Initiated logon request
+20100223-21:04:58 : Received logon response
+20100223-21:05:58 : Received ResendRequest FROM: 56 TO: 0
+20100223-21:05:58 : Resending Message: 56
+20100223-21:05:58 : Sent SequenceReset TO: 58
+20100223-21:06:44 : Received logout request
+20100223-21:06:44 : Sending logout response
+20100223-21:06:44 : Disconnecting
+20100223-21:09:11 : Created session
+20100223-21:09:11 : Connecting to 192.168.0.211 on port 13222
+20100223-21:09:11 : Initiated logon request
+20100223-21:09:11 : Received logon response
+20100223-21:10:11 : Received ResendRequest FROM: 60 TO: 0
+20100223-21:10:11 : Resending Message: 60
+20100223-21:10:11 : Sent SequenceReset TO: 62
+20100223-21:27:47 : Created session
+20100223-21:27:47 : Connecting to 192.168.0.211 on port 13222
+20100223-21:27:47 : Initiated logon request
+20100223-21:27:47 : Received logon response
+20100223-21:28:47 : Received ResendRequest FROM: 64 TO: 0
+20100223-21:28:47 : Resending Message: 64
+20100223-21:28:47 : Sent SequenceReset TO: 66
+20100223-21:29:12 : Received logout request
+20100223-21:29:12 : Sending logout response
+20100223-21:29:12 : Disconnecting
+20100223-21:29:18 : Connecting to 192.168.0.211 on port 13222
+20100223-21:29:19 : Disconnecting
+20100223-21:29:48 : Connecting to 192.168.0.211 on port 13222
+20100223-21:29:49 : Disconnecting
+20100223-21:30:28 : Created session
+20100223-21:30:28 : Connecting to 192.168.0.211 on port 13222
+20100223-21:30:29 : Disconnecting
+20100223-21:30:30 : Connecting to 192.168.0.211 on port 13222
+20100223-21:30:31 : Disconnecting
+20100223-21:31:00 : Connecting to 192.168.0.211 on port 13222
+20100223-21:31:00 : Initiated logon request
+20100223-21:31:00 : Received logon response
+20100223-21:31:00 : Received ResendRequest FROM: 67 TO: 0
+20100223-21:31:00 : Resending Message: 67
+20100223-21:31:00 : Sent SequenceReset TO: 69
+20100223-21:48:46 : Created session
+20100223-21:48:46 : Connecting to 192.168.0.211 on port 13222
+20100223-21:48:46 : Initiated logon request
+20100223-21:48:46 : Received logon response
+20100223-21:49:43 : Received logout request
+20100223-21:49:43 : Sending logout response
+20100223-21:49:43 : Disconnecting
+20100223-21:50:59 : Created session
+20100223-21:50:59 : Connecting to 192.168.0.211 on port 13222
+20100223-21:50:59 : Initiated logon request
+20100223-21:50:59 : Received logon response
+20100223-21:53:36 : Created session
+20100223-21:53:36 : Connecting to 192.168.0.211 on port 13222
+20100223-21:53:36 : Initiated logon request
+20100223-21:53:36 : Received logon response
+20100224-15:39:16 : Created session
+20100224-15:39:16 : Connecting to 192.168.0.211 on port 13222
+20100224-15:39:16 : Initiated logon request
+20100224-15:39:16 : Received logon response
+20100224-15:56:15 : Created session
+20100224-15:56:15 : Connecting to 192.168.0.211 on port 13222
+20100224-15:56:15 : Initiated logon request
+20100224-15:56:15 : Received logon response
+20100224-18:27:59 : Created session
+20100224-18:27:59 : Connecting to 192.168.0.211 on port 13222
+20100224-18:27:59 : Initiated logon request
+20100224-18:27:59 : Received logon response
+20100225-21:08:56 : Created session
+20100225-21:08:56 : Connecting to 192.168.0.211 on port 13222
+20100225-21:08:56 : Initiated logon request
+20100225-21:08:56 : Received logon response
+20100226-21:34:34 : Created session
+20100226-21:34:34 : Connecting to 192.168.0.211 on port 13222
+20100226-21:34:55 : Disconnecting
+20100226-21:35:05 : Connecting to 192.168.0.211 on port 13222
+20100226-21:35:26 : Disconnecting
+20100226-21:35:35 : Connecting to 192.168.0.211 on port 13222
+20100226-21:36:01 : Created session
+20100226-21:36:01 : Connecting to 192.168.0.211 on port 13222
+20100226-21:37:07 : Created session
+20100226-21:37:07 : Connecting to 192.168.0.211 on port 13222
+20100226-21:38:17 : Created session
+20100226-21:38:17 : Connecting to 192.168.0.211 on port 13222
+20100226-21:38:38 : Disconnecting
+20100226-21:38:48 : Connecting to 192.168.0.211 on port 13222
+20100226-21:39:52 : Created session
+20100226-21:40:10 : Connecting to 192.168.0.211 on port 13222
+20100226-21:41:00 : Created session
+20100226-21:41:10 : Connecting to 192.168.0.211 on port 13222
+20100226-21:41:31 : Disconnecting
+20100226-21:41:41 : Connecting to 192.168.0.211 on port 13222
+20100226-21:42:24 : Created session
+20100226-21:42:24 : Connecting to 192.168.0.211 on port 13222
+20100226-21:44:21 : Created session
+20100226-21:44:21 : Connecting to 127.0.0.1 on port 13222
+20100226-21:44:21 : Initiated logon request
+20100226-21:44:21 : Received logon response
+20100226-21:44:21 : Received ResendRequest FROM: 1 TO: 0
+20100226-21:44:21 : Resending Message: 1
+20100226-21:44:21 : Resending Message: 2
+20100226-21:44:21 : Resending Message: 3
+20100226-21:44:21 : Resending Message: 4
+20100226-21:44:21 : Resending Message: 5
+20100226-21:44:21 : Resending Message: 6
+20100226-21:44:21 : Resending Message: 7
+20100226-21:44:21 : Resending Message: 8
+20100226-21:44:21 : Resending Message: 9
+20100226-21:44:21 : Resending Message: 10
+20100226-21:44:21 : Resending Message: 11
+20100226-21:44:21 : Resending Message: 12
+20100226-21:44:21 : Resending Message: 13
+20100226-21:44:21 : Resending Message: 14
+20100226-21:44:21 : Resending Message: 15
+20100226-21:44:21 : Resending Message: 16
+20100226-21:44:21 : Resending Message: 17
+20100226-21:44:21 : Resending Message: 18
+20100226-21:44:21 : Resending Message: 19
+20100226-21:44:21 : Resending Message: 20
+20100226-21:44:21 : Resending Message: 21
+20100226-21:44:21 : Resending Message: 22
+20100226-21:44:21 : Resending Message: 23
+20100226-21:44:21 : Resending Message: 24
+20100226-21:44:21 : Resending Message: 25
+20100226-21:44:21 : Resending Message: 26
+20100226-21:44:21 : Resending Message: 27
+20100226-21:44:21 : Resending Message: 28
+20100226-21:44:21 : Resending Message: 29
+20100226-21:44:21 : Resending Message: 30
+20100226-21:44:21 : Resending Message: 31
+20100226-21:44:21 : Resending Message: 32
+20100226-21:44:21 : Resending Message: 33
+20100226-21:44:21 : Resending Message: 34
+20100226-21:44:21 : Resending Message: 35
+20100226-21:44:21 : Resending Message: 36
+20100226-21:44:21 : Resending Message: 37
+20100226-21:44:21 : Resending Message: 38
+20100226-21:44:21 : Resending Message: 39
+20100226-21:44:21 : Resending Message: 40
+20100226-21:44:21 : Resending Message: 41
+20100226-21:44:21 : Resending Message: 42
+20100226-21:44:21 : Resending Message: 43
+20100226-21:44:21 : Resending Message: 44
+20100226-21:44:21 : Resending Message: 45
+20100226-21:44:21 : Resending Message: 46
+20100226-21:44:21 : Resending Message: 47
+20100226-21:44:21 : Resending Message: 48
+20100226-21:44:21 : Resending Message: 49
+20100226-21:44:21 : Resending Message: 50
+20100226-21:44:21 : Resending Message: 51
+20100226-21:44:21 : Resending Message: 52
+20100226-21:44:21 : Resending Message: 53
+20100226-21:44:21 : Resending Message: 54
+20100226-21:44:21 : Resending Message: 55
+20100226-21:44:21 : Resending Message: 56
+20100226-21:44:21 : Resending Message: 57
+20100226-21:44:21 : Resending Message: 58
+20100226-21:44:21 : Resending Message: 59
+20100226-21:44:21 : Resending Message: 60
+20100226-21:44:21 : Resending Message: 61
+20100226-21:44:21 : Resending Message: 62
+20100226-21:44:21 : Resending Message: 63
+20100226-21:44:21 : Resending Message: 64
+20100226-21:44:21 : Resending Message: 65
+20100226-21:44:21 : Resending Message: 66
+20100226-21:44:21 : Resending Message: 67
+20100226-21:44:21 : Resending Message: 68
+20100226-21:44:21 : Resending Message: 69
+20100226-21:44:21 : Resending Message: 70
+20100226-21:44:21 : Resending Message: 71
+20100226-21:44:21 : Resending Message: 72
+20100226-21:44:21 : Resending Message: 73
+20100226-21:44:21 : Resending Message: 74
+20100226-21:44:21 : Resending Message: 75
+20100226-21:44:21 : Resending Message: 76
+20100226-21:44:21 : Resending Message: 77
+20100226-21:44:21 : Resending Message: 78
+20100226-21:44:21 : Resending Message: 79
+20100226-21:44:21 : Resending Message: 80
+20100226-21:44:21 : Resending Message: 81
+20100226-21:44:21 : Resending Message: 82
+20100226-21:44:21 : Resending Message: 83
+20100226-21:44:21 : Resending Message: 84
+20100226-21:44:21 : Resending Message: 85
+20100226-21:44:21 : Resending Message: 86
+20100226-21:44:21 : Resending Message: 87
+20100226-21:44:21 : Resending Message: 88
+20100226-21:44:21 : Resending Message: 89
+20100226-21:44:21 : Resending Message: 90
+20100226-21:44:21 : Sent SequenceReset TO: 92
+20100226-21:47:25 : Created session
+20100226-21:47:26 : Connecting to 127.0.0.1 on port 13222
+20100226-21:47:26 : Initiated logon request
+20100226-21:47:26 : Received logon response
+20100226-21:47:26 : MsgSeqNum too high, expecting 124 but received 125
+20100226-21:47:26 : Sent ResendRequest FROM: 124 TO: 0
+20100226-21:47:26 : ResendRequest for messages FROM: 124 TO: 124 has been satisfied.
+20100226-21:47:26 : Received SequenceReset FROM: 124 TO: 126
+20100226-21:48:08 : Created session
+20100226-21:48:08 : Connecting to 127.0.0.1 on port 13222
+20100226-21:48:08 : Initiated logon request
+20100226-21:48:08 : Received logon response
+20100226-21:51:02 : Created session
+20100226-21:51:02 : Connecting to 127.0.0.1 on port 13222
+20100226-21:51:02 : Initiated logon request
+20100226-21:51:02 : Received logon response
+20100226-21:51:02 : MsgSeqNum too high, expecting 158 but received 187
+20100226-21:51:02 : Sent ResendRequest FROM: 158 TO: 0
+20100226-21:52:29 : Created session
+20100226-21:52:29 : Connecting to 127.0.0.1 on port 13222
+20100226-21:52:29 : Initiated logon request
+20100226-21:52:30 : Received logon response
+20100226-21:52:30 : MsgSeqNum too high, expecting 158 but received 188
+20100226-21:52:30 : Sent ResendRequest FROM: 158 TO: 0
+20100226-21:52:39 : ResendRequest for messages FROM: 158 TO: 187 has been satisfied.
+20100226-21:52:39 : Received SequenceReset FROM: 187 TO: 189
+20100226-21:57:34 : Created session
+20100226-21:57:34 : Connecting to 127.0.0.1 on port 13222
+20100226-21:57:34 : Initiated logon request
+20100226-21:57:34 : Received logon response
+20100226-21:58:46 : Created session
+20100226-21:58:46 : Connecting to 127.0.0.1 on port 13222
+20100226-21:58:46 : Initiated logon request
+20100226-21:58:46 : Received logon response
+20100226-22:04:58 : Created session
+20100226-22:04:58 : Connecting to 127.0.0.1 on port 13222
+20100226-22:04:58 : Initiated logon request
+20100226-22:04:58 : Received logon response
+20100226-22:04:58 : MsgSeqNum too high, expecting 248 but received 266
+20100226-22:04:58 : Sent ResendRequest FROM: 248 TO: 0
+20100226-22:11:26 : Created session
+20100226-22:11:26 : Connecting to 127.0.0.1 on port 13222
+20100226-22:11:27 : Initiated logon request
+20100226-22:11:27 : Received logon response
+20100226-22:11:27 : MsgSeqNum too high, expecting 248 but received 269
+20100226-22:11:27 : Sent ResendRequest FROM: 248 TO: 0
+20100226-22:11:27 : Received SequenceReset FROM: 266 TO: 270
+20100226-22:11:32 : ResendRequest for messages FROM: 248 TO: 268 has been satisfied.
+20100226-22:13:21 : Created session
+20100226-22:13:21 : Connecting to 127.0.0.1 on port 13222
+20100226-22:13:21 : Initiated logon request
+20100226-22:13:21 : Received logon response
+20100226-22:13:21 : MsgSeqNum too high, expecting 292 but received 294
+20100226-22:13:21 : Sent ResendRequest FROM: 292 TO: 0
+20100226-22:13:21 : Received SequenceReset FROM: 292 TO: 295
+20100226-22:13:54 : ResendRequest for messages FROM: 292 TO: 293 has been satisfied.
+20100226-22:14:32 : Created session
+20100226-22:14:32 : Connecting to 127.0.0.1 on port 13222
+20100226-22:14:32 : Initiated logon request
+20100226-22:14:32 : Received logon response
+20100226-22:14:32 : MsgSeqNum too high, expecting 296 but received 322
+20100226-22:14:32 : Sent ResendRequest FROM: 296 TO: 0
+20100226-22:14:32 : ResendRequest for messages FROM: 296 TO: 321 has been satisfied.
+20100226-22:14:32 : Processing QUEUED message: 322
+20100226-22:22:43 : Created session
+20100226-22:22:43 : Connecting to 127.0.0.1 on port 13222
+20100226-22:22:43 : Initiated logon request
+20100226-22:22:43 : Received logon response
+20100226-22:22:43 : MsgSeqNum too high, expecting 324 but received 335
+20100226-22:22:43 : Sent ResendRequest FROM: 324 TO: 0
+20100226-22:22:43 : ResendRequest for messages FROM: 324 TO: 334 has been satisfied.
+20100226-22:22:43 : Processing QUEUED message: 335
+20100301-15:21:21 : Created session
+20100301-15:21:21 : Connecting to 127.0.0.1 on port 13222
+20100301-15:21:21 : Initiated logon request
+20100301-15:21:21 : Received logon response
+20100301-15:23:01 : Created session
+20100301-15:23:01 : Connecting to 127.0.0.1 on port 13222
+20100301-15:23:01 : Initiated logon request
+20100301-15:23:01 : Received logon response
+20100301-15:58:05 : Created session
+20100301-15:58:05 : Connecting to 127.0.0.1 on port 13222
+20100301-15:58:05 : Initiated logon request
+20100301-15:58:05 : Received logon response
+20100301-15:58:05 : MsgSeqNum too high, expecting 59 but received 60
+20100301-15:58:05 : Sent ResendRequest FROM: 59 TO: 0
+20100301-15:58:05 : ResendRequest for messages FROM: 59 TO: 59 has been satisfied.
+20100301-15:58:05 : Received SequenceReset FROM: 59 TO: 61
+20100302-14:18:06 : Created session
+20100302-14:18:07 : Connecting to 127.0.0.1 on port 13222
+20100302-14:18:07 : Initiated logon request
+20100302-14:18:07 : Received logon response
+20100302-14:18:33 : Initiated logout request
+20100302-14:18:33 : Received logout response
+20100302-14:18:33 : Disconnecting
+20100302-14:18:54 : Created session
+20100302-14:18:57 : Connecting to 127.0.0.1 on port 13222
+20100302-14:19:02 : Initiated logon request
+20100302-14:19:04 : Received logon response
+20100302-14:20:18 : Sent test request TEST
+20100302-14:20:25 : Initiated logout request
+20100302-14:20:25 : Received logout response
+20100302-14:20:25 : Disconnecting

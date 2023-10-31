@@ -1,0 +1,782 @@
+20100821-22:37:32 : Created session
+20100821-22:37:32 : Connecting to 127.0.0.1 on port 13222
+20100821-22:37:32 : Initiated logon request
+20100821-22:37:32 : Received logon response
+20100821-22:41:14 : Created session
+20100821-22:41:14 : Connecting to 127.0.0.1 on port 13222
+20100821-22:41:14 : Initiated logon request
+20100821-22:41:14 : Received logon response
+20100821-22:42:26 : Sent test request TEST
+20100821-22:44:47 : Sent test request TEST
+20100821-22:46:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-22:46:10 : Disconnecting
+20100821-22:47:31 : Created session
+20100821-22:47:31 : Connecting to 127.0.0.1 on port 13222
+20100821-22:47:31 : Initiated logon request
+20100821-22:47:31 : Received logon response
+20100821-22:53:22 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-22:53:22 : Disconnecting
+20100821-23:09:58 : Created session
+20100821-23:09:58 : Connecting to 127.0.0.1 on port 13222
+20100821-23:09:58 : Initiated logon request
+20100821-23:09:58 : Received logon response
+20100821-23:11:08 : Created session
+20100821-23:11:08 : Connecting to 127.0.0.1 on port 13222
+20100821-23:11:08 : Initiated logon request
+20100821-23:11:08 : Received logon response
+20100821-23:12:20 : Sent test request TEST
+20100821-23:12:21 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-23:12:21 : Disconnecting
+20100821-23:12:39 : Connecting to 127.0.0.1 on port 13222
+20100821-23:12:40 : Disconnecting
+20100821-23:13:09 : Connecting to 127.0.0.1 on port 13222
+20100821-23:13:10 : Disconnecting
+20100821-23:13:39 : Connecting to 127.0.0.1 on port 13222
+20100821-23:13:40 : Disconnecting
+20100821-23:14:08 : Created session
+20100821-23:14:08 : Connecting to 127.0.0.1 on port 13222
+20100821-23:14:08 : Initiated logon request
+20100821-23:14:08 : Received logon response
+20100821-23:14:08 : Received ResendRequest FROM: 22 TO: 0
+20100821-23:14:08 : Sent SequenceReset TO: 25
+20100821-23:14:48 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-23:14:48 : Disconnecting
+20100821-23:15:09 : Connecting to 127.0.0.1 on port 13222
+20100821-23:15:10 : Disconnecting
+20100821-23:15:34 : Created session
+20100821-23:15:34 : Connecting to 127.0.0.1 on port 13222
+20100821-23:15:34 : Initiated logon request
+20100821-23:15:34 : Received logon response
+20100821-23:15:34 : Received ResendRequest FROM: 26 TO: 0
+20100821-23:15:34 : Resending Message: 26
+20100821-23:15:34 : Sent SequenceReset TO: 28
+20100821-23:18:46 : Created session
+20100821-23:18:46 : Connecting to 127.0.0.1 on port 13222
+20100821-23:18:46 : Initiated logon request
+20100821-23:18:46 : Received logon response
+20100821-23:19:58 : Sent test request TEST
+20100821-23:24:32 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-23:24:32 : Disconnecting
+20100822-18:03:29 : Created session
+20100822-18:03:29 : Connecting to 127.0.0.1 on port 13222
+20100822-18:03:29 : Initiated logon request
+20100822-18:03:29 : Received logon response
+20100822-18:07:16 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-18:07:16 : Disconnecting
+20100822-18:07:30 : Connecting to 127.0.0.1 on port 13222
+20100822-18:07:31 : Disconnecting
+20100822-18:08:34 : Created session
+20100822-18:08:34 : Connecting to 127.0.0.1 on port 13222
+20100822-18:08:34 : Initiated logon request
+20100822-18:08:34 : Received logon response
+20100822-18:20:56 : Sent test request TEST
+20100822-18:42:14 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-18:42:14 : Disconnecting
+20100822-18:42:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:42:36 : Disconnecting
+20100822-18:43:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:43:06 : Disconnecting
+20100822-18:43:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:43:36 : Disconnecting
+20100822-18:44:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:44:06 : Disconnecting
+20100822-18:44:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:44:36 : Disconnecting
+20100822-18:45:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:45:06 : Disconnecting
+20100822-18:45:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:45:36 : Disconnecting
+20100822-18:46:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:46:06 : Disconnecting
+20100822-18:46:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:46:36 : Disconnecting
+20100822-18:47:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:47:06 : Disconnecting
+20100822-18:47:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:47:36 : Disconnecting
+20100822-18:48:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:48:06 : Disconnecting
+20100822-18:48:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:48:36 : Disconnecting
+20100822-18:49:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:49:06 : Disconnecting
+20100822-18:49:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:49:36 : Disconnecting
+20100822-18:50:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:50:06 : Disconnecting
+20100822-18:50:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:50:36 : Disconnecting
+20100822-18:51:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:51:06 : Disconnecting
+20100822-18:51:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:51:36 : Disconnecting
+20100822-18:52:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:52:06 : Disconnecting
+20100822-18:52:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:52:36 : Disconnecting
+20100822-18:53:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:53:05 : Disconnecting
+20100822-18:53:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:53:36 : Disconnecting
+20100822-18:54:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:54:06 : Disconnecting
+20100822-18:54:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:54:36 : Disconnecting
+20100822-18:55:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:55:06 : Disconnecting
+20100822-18:55:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:55:36 : Disconnecting
+20100822-18:56:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:56:06 : Disconnecting
+20100822-18:56:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:56:36 : Disconnecting
+20100822-18:57:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:57:06 : Disconnecting
+20100822-18:57:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:57:36 : Disconnecting
+20100822-18:58:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:58:06 : Disconnecting
+20100822-18:58:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:58:36 : Disconnecting
+20100822-18:59:05 : Connecting to 127.0.0.1 on port 13222
+20100822-18:59:06 : Disconnecting
+20100822-18:59:35 : Connecting to 127.0.0.1 on port 13222
+20100822-18:59:36 : Disconnecting
+20100822-19:00:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:00:06 : Disconnecting
+20100822-19:00:35 : Connecting to 127.0.0.1 on port 13222
+20100822-19:00:36 : Disconnecting
+20100822-19:01:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:01:06 : Disconnecting
+20100822-19:01:35 : Connecting to 127.0.0.1 on port 13222
+20100822-19:01:36 : Disconnecting
+20100822-19:02:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:02:06 : Disconnecting
+20100822-19:02:35 : Connecting to 127.0.0.1 on port 13222
+20100822-19:02:36 : Disconnecting
+20100822-19:03:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:03:06 : Disconnecting
+20100822-19:03:35 : Connecting to 127.0.0.1 on port 13222
+20100822-19:03:36 : Disconnecting
+20100822-19:04:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:04:06 : Disconnecting
+20100822-19:04:35 : Connecting to 127.0.0.1 on port 13222
+20100822-19:04:36 : Disconnecting
+20100822-19:05:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:05:05 : Disconnecting
+20100822-19:05:35 : Connecting to 127.0.0.1 on port 13222
+20100822-19:05:36 : Disconnecting
+20100822-19:06:50 : Created session
+20100822-19:06:50 : Connecting to 127.0.0.1 on port 13222
+20100822-19:06:50 : Initiated logon request
+20100822-19:06:50 : Received logon response
+20100822-19:44:05 : Created session
+20100822-19:44:05 : Connecting to 127.0.0.1 on port 13222
+20100822-19:44:05 : Initiated logon request
+20100822-19:44:05 : Received logon response
+20100822-19:46:05 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-19:46:05 : Disconnecting
+20100822-19:46:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:46:33 : Disconnecting
+20100822-19:47:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:47:03 : Disconnecting
+20100822-19:47:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:47:33 : Disconnecting
+20100822-19:48:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:48:03 : Disconnecting
+20100822-19:48:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:48:33 : Disconnecting
+20100822-19:49:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:49:03 : Disconnecting
+20100822-19:49:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:49:33 : Disconnecting
+20100822-19:50:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:50:03 : Disconnecting
+20100822-19:50:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:50:33 : Disconnecting
+20100822-19:51:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:51:03 : Disconnecting
+20100822-19:51:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:51:33 : Disconnecting
+20100822-19:52:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:52:03 : Disconnecting
+20100822-19:52:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:52:33 : Disconnecting
+20100822-19:53:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:53:03 : Disconnecting
+20100822-19:53:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:53:33 : Disconnecting
+20100822-19:54:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:54:03 : Disconnecting
+20100822-19:54:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:54:33 : Disconnecting
+20100822-19:55:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:55:03 : Disconnecting
+20100822-19:55:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:55:33 : Disconnecting
+20100822-19:56:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:56:03 : Disconnecting
+20100822-19:56:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:56:33 : Disconnecting
+20100822-19:57:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:57:03 : Disconnecting
+20100822-19:57:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:57:32 : Disconnecting
+20100822-19:58:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:58:03 : Disconnecting
+20100822-19:58:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:58:33 : Disconnecting
+20100822-19:59:02 : Connecting to 127.0.0.1 on port 13222
+20100822-19:59:03 : Disconnecting
+20100822-19:59:32 : Connecting to 127.0.0.1 on port 13222
+20100822-19:59:33 : Disconnecting
+20100822-20:00:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:00:03 : Disconnecting
+20100822-20:00:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:00:33 : Disconnecting
+20100822-20:01:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:01:03 : Disconnecting
+20100822-20:01:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:01:33 : Disconnecting
+20100822-20:02:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:02:03 : Disconnecting
+20100822-20:02:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:02:33 : Disconnecting
+20100822-20:03:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:03:03 : Disconnecting
+20100822-20:03:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:03:33 : Disconnecting
+20100822-20:04:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:04:03 : Disconnecting
+20100822-20:04:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:04:33 : Disconnecting
+20100822-20:05:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:05:03 : Disconnecting
+20100822-20:05:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:05:33 : Disconnecting
+20100822-20:06:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:06:03 : Disconnecting
+20100822-20:06:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:06:33 : Disconnecting
+20100822-20:07:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:07:03 : Disconnecting
+20100822-20:07:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:07:33 : Disconnecting
+20100822-20:08:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:08:03 : Disconnecting
+20100822-20:08:32 : Connecting to 127.0.0.1 on port 13222
+20100822-20:08:33 : Disconnecting
+20100822-20:09:02 : Connecting to 127.0.0.1 on port 13222
+20100822-20:09:03 : Disconnecting
+20100822-21:15:11 : Created session
+20100822-21:15:11 : Connecting to 127.0.0.1 on port 13222
+20100822-21:15:11 : Initiated logon request
+20100822-21:15:11 : Received logon response
+20100822-21:18:20 : Created session
+20100822-21:18:20 : Connecting to 127.0.0.1 on port 13222
+20100822-21:18:20 : Initiated logon request
+20100822-21:18:20 : Received logon response
+20100822-21:18:20 : MsgSeqNum too high, expecting 80 but received 85
+20100822-21:18:20 : Sent ResendRequest FROM: 80 TO: 0
+20100822-21:18:27 : Received SequenceReset FROM: 83 TO: 86
+20100822-21:18:45 : ResendRequest for messages FROM: 80 TO: 84 has been satisfied.
+20100822-21:19:16 : Created session
+20100822-21:19:16 : Connecting to 127.0.0.1 on port 13222
+20100822-21:19:16 : Initiated logon request
+20100822-21:19:16 : Received logon response
+20100822-21:19:16 : MsgSeqNum too high, expecting 86 but received 87
+20100822-21:19:16 : Sent ResendRequest FROM: 86 TO: 0
+20100822-21:19:16 : ResendRequest for messages FROM: 86 TO: 86 has been satisfied.
+20100822-21:19:16 : Processing QUEUED message: 87
+20100822-21:20:00 : Created session
+20100822-21:20:00 : Connecting to 127.0.0.1 on port 13222
+20100822-21:20:00 : Initiated logon request
+20100822-21:20:00 : Received logon response
+20100822-21:20:00 : MsgSeqNum too high, expecting 88 but received 89
+20100822-21:20:00 : Sent ResendRequest FROM: 88 TO: 0
+20100822-21:20:00 : ResendRequest for messages FROM: 88 TO: 88 has been satisfied.
+20100822-21:20:24 : Processing QUEUED message: 89
+20100822-21:21:55 : Created session
+20100822-21:21:55 : Connecting to 127.0.0.1 on port 13222
+20100822-21:21:55 : Initiated logon request
+20100822-21:21:55 : Received logon response
+20100822-21:21:55 : MsgSeqNum too high, expecting 90 but received 91
+20100822-21:21:55 : Sent ResendRequest FROM: 90 TO: 0
+20100822-21:21:55 : ResendRequest for messages FROM: 90 TO: 90 has been satisfied.
+20100822-21:21:55 : Processing QUEUED message: 91
+20100822-21:22:43 : Created session
+20100822-21:22:43 : Connecting to 127.0.0.1 on port 13222
+20100822-21:22:43 : Initiated logon request
+20100822-21:22:43 : Received logon response
+20100822-21:26:43 : Created session
+20100822-21:26:43 : Connecting to 127.0.0.1 on port 13222
+20100822-21:26:43 : Initiated logon request
+20100822-21:26:43 : Received logon response
+20100822-21:51:49 : Created session
+20100822-21:51:49 : Connecting to 127.0.0.1 on port 13222
+20100822-21:51:49 : Initiated logon request
+20100822-21:51:49 : Received logon response
+20100822-21:52:31 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:52:31 : Disconnecting
+20100822-21:52:50 : Connecting to 127.0.0.1 on port 13222
+20100822-21:52:52 : Disconnecting
+20100822-21:53:20 : Connecting to 127.0.0.1 on port 13222
+20100822-21:53:22 : Disconnecting
+20100822-21:53:50 : Connecting to 127.0.0.1 on port 13222
+20100822-21:53:51 : Disconnecting
+20100822-21:54:20 : Connecting to 127.0.0.1 on port 13222
+20100823-13:53:40 : Created session
+20100823-13:53:40 : Connecting to 127.0.0.1 on port 13222
+20100823-13:53:40 : Initiated logon request
+20100823-13:53:40 : Received logon response
+20100823-13:55:56 : Sent test request TEST
+20100823-13:56:40 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100823-13:56:40 : Disconnecting
+20100823-13:56:41 : Connecting to 127.0.0.1 on port 13222
+20100823-13:56:42 : Disconnecting
+20100823-13:57:43 : Created session
+20100823-13:57:43 : Connecting to 127.0.0.1 on port 13222
+20100823-13:57:43 : Initiated logon request
+20100823-13:57:43 : Received logon response
+20100823-13:57:43 : Received ResendRequest FROM: 3 TO: 0
+20100823-13:57:43 : Sent SequenceReset TO: 6
+20100823-14:33:10 : Sent test request TEST
+20100823-14:34:22 : Timed out waiting for heartbeat
+20100823-14:34:22 : Disconnecting
+20100823-14:34:34 : Connecting to 127.0.0.1 on port 13222
+20100823-14:34:34 : Initiated logon request
+20100823-14:34:49 : Timed out waiting for logon response
+20100823-14:34:49 : Disconnecting
+20100823-14:35:04 : Connecting to 127.0.0.1 on port 13222
+20100823-14:35:04 : Initiated logon request
+20100823-14:35:19 : Timed out waiting for logon response
+20100823-14:35:19 : Disconnecting
+20100823-14:35:34 : Connecting to 127.0.0.1 on port 13222
+20100823-14:35:34 : Initiated logon request
+20100823-14:35:49 : Timed out waiting for logon response
+20100823-14:35:49 : Disconnecting
+20100823-14:36:04 : Connecting to 127.0.0.1 on port 13222
+20100823-14:36:04 : Initiated logon request
+20100823-14:36:19 : Timed out waiting for logon response
+20100823-14:36:19 : Disconnecting
+20100823-14:36:34 : Connecting to 127.0.0.1 on port 13222
+20100823-14:36:34 : Initiated logon request
+20100823-14:36:49 : Timed out waiting for logon response
+20100823-14:36:49 : Disconnecting
+20100823-14:37:04 : Connecting to 127.0.0.1 on port 13222
+20100823-14:37:04 : Initiated logon request
+20100823-14:37:19 : Timed out waiting for logon response
+20100823-14:37:19 : Disconnecting
+20100823-14:37:34 : Connecting to 127.0.0.1 on port 13222
+20100823-14:37:34 : Initiated logon request
+20100823-14:37:49 : Timed out waiting for logon response
+20100823-14:37:49 : Disconnecting
+20100823-14:38:04 : Connecting to 127.0.0.1 on port 13222
+20100823-14:38:04 : Initiated logon request
+20100823-14:38:19 : Timed out waiting for logon response
+20100823-14:38:19 : Disconnecting
+20100823-14:38:34 : Connecting to 127.0.0.1 on port 13222
+20100823-14:38:34 : Initiated logon request
+20100823-14:38:49 : Timed out waiting for logon response
+20100823-14:38:49 : Disconnecting
+20100823-14:39:04 : Connecting to 127.0.0.1 on port 13222
+20100823-14:39:04 : Initiated logon request
+20100823-14:39:19 : Timed out waiting for logon response
+20100823-14:39:19 : Disconnecting
+20100823-14:39:34 : Connecting to 127.0.0.1 on port 13222
+20100823-14:39:34 : Initiated logon request
+20100823-14:39:40 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100823-14:39:40 : Disconnecting
+20100823-14:40:04 : Connecting to 127.0.0.1 on port 13222
+20100823-14:40:04 : Initiated logon request
+20100823-14:40:04 : Received logon response
+20100823-14:40:04 : MsgSeqNum too high, expecting 45 but received 58
+20100823-14:40:04 : Sent ResendRequest FROM: 45 TO: 0
+20100823-14:40:04 : Received ResendRequest FROM: 46 TO: 0
+20100823-14:40:04 : Sent SequenceReset TO: 60
+20100823-14:40:04 : Received SequenceReset FROM: 45 TO: 47
+20100823-14:40:05 : Received SequenceReset FROM: 48 TO: 60
+20100823-14:41:04 : ResendRequest for messages FROM: 45 TO: 57 has been satisfied.
+20100823-17:36:21 : Created session
+20100823-17:36:21 : Connecting to 127.0.0.1 on port 13222
+20100823-17:36:22 : Initiated logon request
+20100823-17:36:22 : Received logon response
+20100823-17:51:36 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100823-17:51:36 : Disconnecting
+20100823-17:51:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:51:53 : Disconnecting
+20100823-17:52:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:52:24 : Disconnecting
+20100823-17:52:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:52:53 : Disconnecting
+20100823-17:53:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:53:23 : Disconnecting
+20100823-17:53:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:53:53 : Disconnecting
+20100823-17:54:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:54:23 : Disconnecting
+20100823-17:54:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:54:53 : Disconnecting
+20100823-17:55:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:55:23 : Disconnecting
+20100823-17:55:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:55:53 : Disconnecting
+20100823-17:56:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:56:23 : Disconnecting
+20100823-17:56:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:56:53 : Disconnecting
+20100823-17:57:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:57:23 : Disconnecting
+20100823-17:57:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:57:53 : Disconnecting
+20100823-17:58:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:58:23 : Disconnecting
+20100823-17:58:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:58:53 : Disconnecting
+20100823-17:59:22 : Connecting to 127.0.0.1 on port 13222
+20100823-17:59:23 : Disconnecting
+20100823-17:59:52 : Connecting to 127.0.0.1 on port 13222
+20100823-17:59:53 : Disconnecting
+20100823-18:00:22 : Connecting to 127.0.0.1 on port 13222
+20100823-18:00:23 : Disconnecting
+20100823-18:00:52 : Connecting to 127.0.0.1 on port 13222
+20100823-18:00:53 : Disconnecting
+20100823-18:01:22 : Connecting to 127.0.0.1 on port 13222
+20100823-18:01:23 : Disconnecting
+20100823-18:01:52 : Connecting to 127.0.0.1 on port 13222
+20100823-18:01:53 : Disconnecting
+20100831-17:28:50 : Created session
+20100831-17:28:50 : Connecting to 127.0.0.1 on port 13222
+20100831-17:28:50 : Initiated logon request
+20100831-17:28:50 : Received logon response
+20100831-17:30:30 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-17:30:30 : Disconnecting
+20100831-17:30:51 : Connecting to 127.0.0.1 on port 13222
+20100831-17:30:52 : Disconnecting
+20100831-17:31:21 : Connecting to 127.0.0.1 on port 13222
+20100831-17:31:21 : Initiated logon request
+20100831-17:31:36 : Timed out waiting for logon response
+20100831-17:31:36 : Disconnecting
+20100831-17:31:51 : Connecting to 127.0.0.1 on port 13222
+20100831-17:31:51 : Initiated logon request
+20100831-17:32:06 : Timed out waiting for logon response
+20100831-17:32:06 : Disconnecting
+20100831-17:32:21 : Connecting to 127.0.0.1 on port 13222
+20100831-17:32:21 : Initiated logon request
+20100831-17:32:36 : Timed out waiting for logon response
+20100831-17:32:36 : Disconnecting
+20100831-17:32:51 : Connecting to 127.0.0.1 on port 13222
+20100831-17:32:51 : Initiated logon request
+20100831-17:32:59 : Received logon response
+20100831-17:32:59 : MsgSeqNum too high, expecting 3 but received 7
+20100831-17:32:59 : Sent ResendRequest FROM: 3 TO: 0
+20100831-17:32:59 : Received ResendRequest FROM: 4 TO: 0
+20100831-17:32:59 : Resending Message: 4
+20100831-17:32:59 : Sent SequenceReset TO: 10
+20100831-17:32:59 : Received SequenceReset FROM: 3 TO: 9
+20100831-17:33:24 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-17:33:24 : Disconnecting
+20100831-17:33:51 : Connecting to 127.0.0.1 on port 13222
+20100831-17:33:52 : Disconnecting
+20100831-17:34:04 : Created session
+20100831-17:34:04 : Connecting to 127.0.0.1 on port 13222
+20100831-17:34:04 : Initiated logon request
+20100831-17:34:04 : Received logon response
+20100831-17:34:50 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-17:34:50 : Disconnecting
+20100831-17:35:05 : Connecting to 127.0.0.1 on port 13222
+20100831-17:35:06 : Disconnecting
+20100831-17:35:58 : Created session
+20100831-17:35:58 : Connecting to 127.0.0.1 on port 13222
+20100831-17:35:58 : Initiated logon request
+20100831-17:35:58 : Received logon response
+20100831-17:36:41 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-17:36:41 : Disconnecting
+20100831-17:36:59 : Connecting to 127.0.0.1 on port 13222
+20100831-17:37:00 : Disconnecting
+20100831-17:37:29 : Connecting to 127.0.0.1 on port 13222
+20100831-17:37:30 : Disconnecting
+20100831-17:37:59 : Connecting to 127.0.0.1 on port 13222
+20100831-17:38:00 : Disconnecting
+20100831-17:38:29 : Connecting to 127.0.0.1 on port 13222
+20100831-17:38:30 : Disconnecting
+20100831-17:38:59 : Connecting to 127.0.0.1 on port 13222
+20100831-17:39:00 : Disconnecting
+20100831-17:39:29 : Connecting to 127.0.0.1 on port 13222
+20100831-17:39:30 : Disconnecting
+20100831-17:39:59 : Connecting to 127.0.0.1 on port 13222
+20100831-17:40:00 : Disconnecting
+20100831-17:40:29 : Connecting to 127.0.0.1 on port 13222
+20100831-17:40:30 : Disconnecting
+20100831-22:11:27 : Created session
+20100831-22:11:27 : Connecting to 127.0.0.1 on port 13222
+20100831-22:11:27 : Initiated logon request
+20100831-22:11:27 : Received logon response
+20100831-22:11:48 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-22:11:48 : Disconnecting
+20100831-22:11:58 : Connecting to 127.0.0.1 on port 13222
+20100831-22:11:59 : Disconnecting
+20100831-22:12:14 : Created session
+20100831-22:12:14 : Connecting to 127.0.0.1 on port 13222
+20100831-22:12:14 : Initiated logon request
+20100831-22:12:14 : Received logon response
+20100831-22:13:33 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-22:13:33 : Disconnecting
+20100831-22:13:45 : Connecting to 127.0.0.1 on port 13222
+20100831-22:13:46 : Disconnecting
+20100831-22:23:39 : Created session
+20100831-22:23:39 : Connecting to 127.0.0.1 on port 13222
+20100831-22:23:39 : Initiated logon request
+20100831-22:23:39 : Received logon response
+20100831-22:24:05 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-22:24:05 : Disconnecting
+20100831-22:31:34 : Created session
+20100831-22:31:34 : Connecting to 127.0.0.1 on port 13222
+20100831-22:31:34 : Initiated logon request
+20100831-22:31:34 : Received logon response
+20100831-22:31:58 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-22:31:59 : Disconnecting
+20100831-22:32:05 : Connecting to 127.0.0.1 on port 13222
+20100831-22:32:06 : Disconnecting
+20100831-22:32:35 : Connecting to 127.0.0.1 on port 13222
+20100831-22:32:35 : Initiated logon request
+20100831-22:32:35 : Received logon response
+20100831-22:32:35 : Received ResendRequest FROM: 23 TO: 0
+20100831-22:32:35 : Resending Message: 23
+20100831-22:32:35 : Sent SequenceReset TO: 25
+20100831-22:33:00 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-22:33:00 : Disconnecting
+20100831-22:33:05 : Connecting to 127.0.0.1 on port 13222
+20100831-22:33:06 : Disconnecting
+20100831-22:33:35 : Connecting to 127.0.0.1 on port 13222
+20100831-22:33:36 : Disconnecting
+20100831-22:34:05 : Connecting to 127.0.0.1 on port 13222
+20100831-22:34:05 : Disconnecting
+20100831-22:34:35 : Connecting to 127.0.0.1 on port 13222
+20100831-22:34:36 : Disconnecting
+20100831-22:35:05 : Connecting to 127.0.0.1 on port 13222
+20100831-22:35:06 : Disconnecting
+20100831-22:35:35 : Connecting to 127.0.0.1 on port 13222
+20100831-22:35:36 : Disconnecting
+20100831-22:36:01 : Created session
+20100831-22:36:01 : Connecting to 127.0.0.1 on port 13222
+20100831-22:36:01 : Initiated logon request
+20100831-22:36:01 : Received logon response
+20100831-23:22:37 : Created session
+20100831-23:22:37 : Connecting to 127.0.0.1 on port 13222
+20100831-23:22:37 : Initiated logon request
+20100831-23:22:37 : Received logon response
+20100831-23:24:35 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-23:24:35 : Disconnecting
+20100831-23:24:38 : Connecting to 127.0.0.1 on port 13222
+20100831-23:24:38 : Initiated logon request
+20100831-23:24:40 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100831-23:24:40 : Disconnecting
+20100831-23:25:15 : Created session
+20100831-23:25:15 : Connecting to 127.0.0.1 on port 13222
+20100831-23:25:15 : Initiated logon request
+20100831-23:25:15 : Received logon response
+20100831-23:25:15 : Received ResendRequest FROM: 32 TO: 0
+20100831-23:25:15 : Sent SequenceReset TO: 34
+20100831-23:36:34 : Created session
+20100831-23:36:34 : Connecting to 127.0.0.1 on port 13222
+20100831-23:36:34 : Initiated logon request
+20100831-23:36:34 : Received logon response
+20100901-13:48:55 : Created session
+20100901-13:48:55 : Connecting to 127.0.0.1 on port 13222
+20100901-13:48:55 : Initiated logon request
+20100901-13:48:55 : Received logon response
+20100901-13:51:07 : Sent test request TEST
+20100901-13:52:19 : Timed out waiting for heartbeat
+20100901-13:52:19 : Disconnecting
+20100901-13:52:26 : Connecting to 127.0.0.1 on port 13222
+20100901-13:52:26 : Initiated logon request
+20100901-13:52:32 : Received logon response
+20100901-13:52:32 : MsgSeqNum too high, expecting 3 but received 4
+20100901-13:52:32 : Sent ResendRequest FROM: 3 TO: 0
+20100901-13:52:35 : Received ResendRequest FROM: 7 TO: 0
+20100901-13:52:35 : Sent SequenceReset TO: 10
+20100901-13:52:35 : ResendRequest for messages FROM: 3 TO: 3 has been satisfied.
+20100901-13:52:35 : Received SequenceReset FROM: 3 TO: 6
+20100901-13:52:59 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100901-13:52:59 : Disconnecting
+20100901-13:53:26 : Connecting to 127.0.0.1 on port 13222
+20100901-13:53:27 : Disconnecting
+20100901-13:53:56 : Connecting to 127.0.0.1 on port 13222
+20100901-13:53:57 : Disconnecting
+20100901-13:54:26 : Connecting to 127.0.0.1 on port 13222
+20100901-13:54:27 : Disconnecting
+20100901-13:54:56 : Connecting to 127.0.0.1 on port 13222
+20100901-13:54:57 : Disconnecting
+20100901-13:55:26 : Connecting to 127.0.0.1 on port 13222
+20100901-13:55:27 : Disconnecting
+20100901-13:55:56 : Connecting to 127.0.0.1 on port 13222
+20100901-13:55:57 : Disconnecting
+20100901-13:56:26 : Connecting to 127.0.0.1 on port 13222
+20100901-13:56:27 : Disconnecting
+20100901-13:56:56 : Connecting to 127.0.0.1 on port 13222
+20100901-13:56:57 : Disconnecting
+20100901-13:57:26 : Connecting to 127.0.0.1 on port 13222
+20100901-13:57:27 : Disconnecting
+20100901-14:16:24 : Created session
+20100901-14:16:24 : Connecting to 127.0.0.1 on port 13222
+20100901-14:16:24 : Initiated logon request
+20100901-14:16:24 : Received logon response
+20100901-14:23:50 : Sent test request TEST
+20110505-17:28:59 : Created session
+20110505-17:29:00 : Connecting to 127.0.0.1 on port 13222
+20110505-17:29:00 : Disconnecting
+20110505-17:29:01 : Connecting to 127.0.0.1 on port 13222
+20110505-17:29:01 : Disconnecting
+20110505-17:30:01 : Created session
+20110505-17:30:01 : Connecting to 127.0.0.1 on port 13222
+20110505-17:30:10 : Disconnecting
+20110505-17:32:35 : Connecting to 127.0.0.1 on port 13222
+20110505-17:32:37 : Disconnecting
+20110505-17:32:40 : Connecting to 127.0.0.1 on port 13222
+20110505-17:32:42 : Disconnecting
+20110505-17:33:08 : Connecting to 127.0.0.1 on port 13222
+20110505-17:33:09 : Disconnecting
+20110505-17:33:58 : Created session
+20110505-17:33:58 : Connecting to 127.0.0.1 on port 13222
+20110505-17:33:59 : Disconnecting
+20110505-17:33:59 : Connecting to 127.0.0.1 on port 13222
+20110505-17:34:00 : Disconnecting
+20110505-17:49:42 : Created session
+20110505-17:49:42 : Connecting to 192.168.0.205 on port 13222
+20110505-17:49:42 : Initiated logon request
+20110505-17:49:42 : Received logon response
+20110505-17:53:57 : Sent test request TEST
+20110505-17:55:13 : Sent test request TEST
+20110505-17:57:04 : Sent test request TEST
+20110505-17:58:16 : Timed out waiting for heartbeat
+20110505-17:58:16 : Disconnecting
+20110505-17:58:26 : Connecting to 192.168.0.205 on port 13222
+20110505-17:58:26 : Initiated logon request
+20110505-17:58:41 : Timed out waiting for logon response
+20110505-17:58:41 : Disconnecting
+20110505-17:58:56 : Connecting to 192.168.0.205 on port 13222
+20110505-17:58:56 : Initiated logon request
+20110505-17:59:11 : Timed out waiting for logon response
+20110505-17:59:11 : Disconnecting
+20110505-17:59:26 : Connecting to 192.168.0.205 on port 13222
+20110505-17:59:26 : Initiated logon request
+20110505-17:59:41 : Timed out waiting for logon response
+20110505-17:59:41 : Disconnecting
+20110505-17:59:56 : Connecting to 192.168.0.205 on port 13222
+20110505-17:59:56 : Initiated logon request
+20110505-18:00:11 : Timed out waiting for logon response
+20110505-18:00:11 : Disconnecting
+20110505-18:00:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:00:26 : Initiated logon request
+20110505-18:00:41 : Timed out waiting for logon response
+20110505-18:00:41 : Disconnecting
+20110505-18:00:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:00:56 : Initiated logon request
+20110505-18:01:11 : Timed out waiting for logon response
+20110505-18:01:11 : Disconnecting
+20110505-18:01:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:01:26 : Initiated logon request
+20110505-18:01:41 : Timed out waiting for logon response
+20110505-18:01:41 : Disconnecting
+20110505-18:01:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:01:56 : Initiated logon request
+20110505-18:02:11 : Timed out waiting for logon response
+20110505-18:02:11 : Disconnecting
+20110505-18:02:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:02:26 : Initiated logon request
+20110505-18:02:41 : Timed out waiting for logon response
+20110505-18:02:41 : Disconnecting
+20110505-18:02:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:02:56 : Initiated logon request
+20110505-18:03:11 : Timed out waiting for logon response
+20110505-18:03:11 : Disconnecting
+20110505-18:03:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:03:26 : Initiated logon request
+20110505-18:03:41 : Timed out waiting for logon response
+20110505-18:03:41 : Disconnecting
+20110505-18:03:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:03:56 : Initiated logon request
+20110505-18:04:11 : Timed out waiting for logon response
+20110505-18:04:11 : Disconnecting
+20110505-18:04:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:04:26 : Initiated logon request
+20110505-18:04:41 : Timed out waiting for logon response
+20110505-18:04:41 : Disconnecting
+20110505-18:04:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:04:56 : Initiated logon request
+20110505-18:05:11 : Timed out waiting for logon response
+20110505-18:05:11 : Disconnecting
+20110505-18:05:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:05:26 : Initiated logon request
+20110505-18:05:41 : Timed out waiting for logon response
+20110505-18:05:41 : Disconnecting
+20110505-18:05:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:05:56 : Initiated logon request
+20110505-18:06:11 : Timed out waiting for logon response
+20110505-18:06:11 : Disconnecting
+20110505-18:06:26 : Connecting to 192.168.0.205 on port 13222
+20110505-18:06:26 : Initiated logon request
+20110505-18:06:41 : Timed out waiting for logon response
+20110505-18:06:41 : Disconnecting
+20110505-18:06:56 : Connecting to 192.168.0.205 on port 13222
+20110505-18:06:56 : Initiated logon request
+20110505-18:06:56 : Received logon response
+20110505-18:06:56 : MsgSeqNum too high, expecting 9 but received 28
+20110505-18:06:56 : Sent ResendRequest FROM: 9 TO: 0
+20110505-18:06:56 : Received ResendRequest FROM: 12 TO: 0
+20110505-18:06:56 : Sent SequenceReset TO: 30
+20110505-18:06:56 : Received SequenceReset FROM: 9 TO: 30
+20110505-18:07:56 : ResendRequest for messages FROM: 9 TO: 27 has been satisfied.
+20111111-16:40:03 : Created session
+20111111-16:40:03 : Connecting to 127.0.0.1 on port 13222
+20111111-16:40:03 : Initiated logon request
+20111111-16:40:03 : Received logon response
+20111111-19:34:42 : Created session
+20111111-19:34:42 : Connecting to 127.0.0.1 on port 13222
+20111111-19:34:42 : Initiated logon request
+20111111-19:34:42 : Received logon response
+20111111-19:34:42 : MsgSeqNum too high, expecting 29 but received 30
+20111111-19:34:42 : Sent ResendRequest FROM: 29 TO: 0
+20111111-19:34:42 : ResendRequest for messages FROM: 29 TO: 29 has been satisfied.
+20111111-19:34:42 : Received SequenceReset FROM: 29 TO: 31
+20111111-19:38:04 : Timed out waiting for heartbeat
+20111111-19:38:05 : Disconnecting
+20111111-19:38:07 : Connecting to 127.0.0.1 on port 13222
+20111111-19:38:08 : Initiated logon request
+20111111-19:38:08 : Received logon response
+20111111-19:38:08 : MsgSeqNum too high, expecting 31 but received 33
+20111111-19:38:08 : Sent ResendRequest FROM: 31 TO: 0
+20111111-19:38:09 : Received SequenceReset FROM: 31 TO: 34
+20111111-19:39:20 : ResendRequest for messages FROM: 31 TO: 32 has been satisfied.
+20111111-19:42:52 : Sent test request TEST
+20111111-19:44:04 : Timed out waiting for heartbeat
+20111111-19:44:04 : Disconnecting
+20111111-19:44:22 : Connecting to 127.0.0.1 on port 13222
+20111111-19:44:22 : Initiated logon request
+20111111-19:44:37 : Timed out waiting for logon response
+20111111-19:44:37 : Disconnecting

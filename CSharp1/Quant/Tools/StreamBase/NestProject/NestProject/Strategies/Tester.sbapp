@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <implements module-reference="Strategy.sbint"/>
+        <import from="MarketData.sbint" postfix="" prefix=""/>
+        <import from="Strategy.sbint" postfix="" prefix=""/>
+        <constant expr="101" name="SR_TYPE_LAST"/>
+        <constant expr="102" name="SR_TYPE_PRE_AUC"/>
+        <schema name="schema:CSVDataPlayer">
+            <field description="" name="FileName" type="string"/>
+        </schema>
+        <schema name="schema:GetPreview">
+            <field description="" name="PrefixOrderId" type="string"/>
+        </schema>
+        <schema name="schema:OrderTable">
+            <field description="Id da estratégia que lançou a posição" name="PrefixOrderId" type="string"/>
+            <field description="Ticker que vai ser operado" name="Symbol" type="string"/>
+            <field description="Último preço do dia anterior" name="Last" type="double"/>
+            <field description="Posição do ativo em D-1" name="PositionDm1" type="double"/>
+            <field description="Posição que o ativo deve ter em D0" name="PositionD0" type="double"/>
+            <field description="Ordem que a estratégia vai lançar nesse ativo" name="Action" type="double"/>
+        </schema>
+        <data name="OrderTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="PrefixOrderId"/>
+            <param name="key.1" value="Symbol"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:OrderTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="BMF" schema="TradeSchema">
+        </stream>
+        <stream name="CSVDataPlayer" schema="schema:CSVDataPlayer">
+        </stream>
+        <stream name="Command" schema="CommandInputSchema">
+        </stream>
+        <stream name="GetPreview" schema="schema:GetPreview">
+        </stream>
+        <stream name="InputStream" schema="TradeSchema">
+        </stream>
+        <module-reference name="CSVDataPlayerRef1">
+            <param name="file" value="CSVDataPlayer.sbapp"/>
+            <input name="InputStream" port="1" stream="CSVDataPlayer"/>
+            <output name="MD" port="1" stream="out:CSVDataPlayerRef1_1"/>
+        </module-reference>
+        <box name="Query2" type="query">
+            <dataref id="querytable" name="OrderTable"/>
+            <input port="1" stream="GetPreview"/>
+            <output port="1" stream="OrderPreview"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="input.PrefixOrderId = current.PrefixOrderId"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="current" selection="all"/>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <output-stream name="OrderPreview">
+        </output-stream>
+        <box name="Union" type="union">
+            <input port="1" stream="out:CSVDataPlayerRef1_1"/>
+            <input port="2" stream="InputStream"/>
+            <output port="1" stream="out:Union_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <module-reference name="TrendFollowRef1">
+            <param name="file" value="TrendFollow.sbapp"/>
+            <input name="Command" port="1" stream="Command"/>
+            <input name="MD" port="2" stream="out:Union_1"/>
+            <input name="MDBMF" port="3" stream="BMF"/>
+            <output name="Log" port="1" stream="Log"/>
+            <output name="MDRequest" port="2" stream="MDRequest"/>
+            <output name="Order" port="3" stream="Orders"/>
+            <output name="QSEGS" port="4" stream="OutputStream2"/>
+        </module-reference>
+        <box name="CSVFileWriter" type="outputadapter">
+            <input port="1" stream="Orders"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="C:\VEAE.csv"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+        </box>
+        <output-stream name="Log">
+            <property name="description" value="to be parsed&#13;&#10;"/>
+        </output-stream>
+        <output-stream name="MDRequest">
+        </output-stream>
+        <output-stream name="Orders">
+        </output-stream>
+        <output-stream name="OutputStream2">
+        </output-stream>
+        <box name="UpdateOrders" type="query">
+            <dataref id="querytable" name="OrderTable"/>
+            <input port="1" stream="Orders"/>
+            <output port="1" stream="out:UpdateOrders_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="PrefixOrderId"/>
+            <param name="key-value.0" value="PrefixOrderId"/>
+            <param name="key-field.1" value="Symbol"/>
+            <param name="key-value.1" value="Symbol"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:OrderTable_logical_value" name="insert">
+                <item name="input" selection="all"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:OrderTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+    </add>
+</modify>

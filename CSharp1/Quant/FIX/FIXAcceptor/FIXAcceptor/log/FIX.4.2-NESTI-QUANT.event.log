@@ -1,0 +1,97 @@
+20100821-22:26:23 : Created session
+20100821-22:26:33 : Received logon request
+20100821-22:26:33 : Responding to logon request
+20100821-22:27:03 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-22:27:03 : Disconnecting
+20100821-22:28:03 : Created session
+20100821-22:28:09 : Received logon request
+20100821-22:28:09 : Responding to logon request
+20100821-22:34:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-22:34:10 : Disconnecting
+20100821-22:36:31 : Received logon request
+20100821-22:36:31 : Responding to logon request
+20100821-22:36:31 : Received ResendRequest FROM: 8 TO: 0
+20100821-22:36:31 : Sent SequenceReset TO: 10
+20100821-22:38:43 : Sent test request TEST
+20100821-22:46:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-22:46:10 : Disconnecting
+20100821-22:47:21 : Received logon request
+20100821-22:47:21 : Responding to logon request
+20100821-22:53:22 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100821-22:53:22 : Disconnecting
+20100822-18:01:54 : Created session
+20100822-18:03:09 : Received logon request
+20100822-18:03:09 : Responding to logon request
+20100822-18:07:16 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-18:07:16 : Disconnecting
+20100822-18:08:26 : Created session
+20100822-18:08:56 : Received logon request
+20100822-18:08:56 : Responding to logon request
+20100822-18:20:55 : Sent test request TEST
+20100822-18:42:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-18:42:10 : Disconnecting
+20100822-19:06:39 : Received logon request
+20100822-19:06:39 : Responding to logon request
+20100822-19:43:56 : Created session
+20100822-19:43:56 : Received logon request
+20100822-19:43:56 : Responding to logon request
+20100822-19:46:05 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-19:46:05 : Disconnecting
+20100822-21:14:40 : Created session
+20100822-21:15:09 : Received logon request
+20100822-21:15:09 : Responding to logon request
+20100822-21:17:28 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:17:28 : Disconnecting
+20100822-21:18:13 : Received logon request
+20100822-21:18:13 : Responding to logon request
+20100822-21:19:09 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:19:09 : Disconnecting
+20100822-21:19:12 : Received logon request
+20100822-21:19:12 : Responding to logon request
+20100822-21:22:30 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:22:30 : Disconnecting
+20100822-21:22:34 : Received logon request
+20100822-21:22:34 : Responding to logon request
+20100822-21:26:15 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:26:15 : Disconnecting
+20100822-21:26:36 : Received logon request
+20100822-21:26:36 : Responding to logon request
+20100822-21:28:10 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:28:10 : Disconnecting
+20100822-21:51:45 : Received logon request
+20100822-21:51:45 : Responding to logon request
+20100822-21:52:31 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100822-21:52:31 : Disconnecting
+20110914-18:46:41 : Created session
+20110914-19:26:03 : Created session
+20111111-16:18:06 : Created session
+20111111-16:39:55 : Received logon request
+20111111-16:39:55 : Responding to logon request
+20111111-16:45:27 : Sent test request TEST
+20111111-16:45:27 : Socket Error: An established connection was aborted by the software in your host machine.
+
+20111111-16:45:27 : Disconnecting
+20111111-16:45:27 : Received logon request
+20111111-16:45:27 : Responding to logon request
+20111111-16:45:27 : MsgSeqNum too high, expecting 6 but received 7
+20111111-16:45:27 : Sent ResendRequest FROM: 6 TO: 0
+20111111-16:45:27 : Received ResendRequest FROM: 5 TO: 0
+20111111-16:45:27 : Sent SequenceReset TO: 8
+20111111-16:45:27 : ResendRequest for messages FROM: 6 TO: 6 has been satisfied.
+20111111-16:45:27 : Received SequenceReset FROM: 6 TO: 9
+20111114-19:15:18 : Created session
+20111116-12:37:12 : Created session
+20111121-16:34:12 : Created session

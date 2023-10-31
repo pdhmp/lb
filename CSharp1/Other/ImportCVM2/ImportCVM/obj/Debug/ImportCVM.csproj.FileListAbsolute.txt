@@ -1,0 +1,2 @@
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\ImportCVM2\ImportCVM\obj\Debug\ImportCVM.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\Other\ImportCVM2\ImportCVM\obj\Debug\ImportCVM.pdb

@@ -1,0 +1,17 @@
+C:\TEMP\bbg2\Feed_Bloomberg.exe.config
+C:\TEMP\bbg2\Feed_Bloomberg.exe.manifest
+C:\TEMP\bbg2\Feed_Bloomberg.application
+C:\TEMP\bbg2\Feed_Bloomberg.exe
+C:\TEMP\bbg2\Feed_Bloomberg.pdb
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.Form1.resources
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.TrustInfo.xml
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.application
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.exe
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.pdb
+N:\TI\Projects\CSharp\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.exe
+C:\BKP PPAY\CSharp1\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.pdb
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\MarketData\Feed_Bloomberg\Feed_Bloomberg\obj\Release\Feed_Bloomberg.pdb

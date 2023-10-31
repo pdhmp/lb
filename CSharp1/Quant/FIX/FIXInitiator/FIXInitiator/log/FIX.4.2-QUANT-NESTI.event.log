@@ -1,0 +1,238 @@
+20100302-13:15:50 : Created session
+20100302-13:15:58 : Connecting to 192.168.0.133 on port 34524
+20100302-13:15:58 : Initiated logon request
+20100302-13:15:58 : Received logon response
+20100302-13:16:07 : Initiated logout request
+20100302-13:16:07 : Received logout response
+20100302-13:16:07 : Disconnecting
+20100302-13:37:45 : Created session
+20100302-13:37:47 : Connecting to 192.168.0.133 on port 34524
+20100302-13:38:06 : Initiated logon request
+20100302-13:38:06 : Received logon response
+20100302-13:39:23 : Sent test request TEST
+20100302-13:48:56 : Initiated logout request
+20100302-13:48:56 : Received logout response
+20100302-13:48:56 : Disconnecting
+20100302-14:50:39 : Created session
+20100302-14:50:39 : Connecting to 192.168.0.133 on port 34524
+20100302-14:50:39 : Initiated logon request
+20100302-14:50:39 : Received logon response
+20100302-14:53:55 : Initiated logout request
+20100302-14:53:55 : Received logout response
+20100302-14:53:55 : Disconnecting
+20100302-18:40:47 : Created session
+20100302-18:40:47 : Connecting to 192.168.0.133 on port 34524
+20100302-18:40:47 : Initiated logon request
+20100302-18:40:47 : Received logon response
+20100302-18:40:47 : MsgSeqNum too high, expecting 24 but received 26
+20100302-18:40:47 : Sent ResendRequest FROM: 24 TO: 0
+20100302-18:40:47 : MsgSeqNum too high, expecting 24 but received 27
+20100302-18:40:47 : Already sent ResendRequest FROM: 24 TO: 25.  Not sending another.
+20100302-18:40:47 : ResendRequest for messages FROM: 24 TO: 25 has been satisfied.
+20100302-18:40:47 : Processing QUEUED message: 26
+20100302-18:40:47 : Processing QUEUED message: 27
+20100302-18:40:58 : Initiated logout request
+20100302-18:40:58 : Received logout response
+20100302-18:40:58 : Disconnecting
+20100302-18:53:08 : Created session
+20100302-18:53:08 : Connecting to 192.168.0.133 on port 34524
+20100302-18:53:08 : Initiated logon request
+20100302-18:53:08 : Received logon response
+20100302-18:54:20 : Initiated logout request
+20100302-18:54:20 : Received logout response
+20100302-18:54:20 : Disconnecting
+20100302-18:54:54 : Created session
+20100302-18:54:54 : Connecting to 192.168.0.133 on port 34524
+20100302-18:54:55 : Disconnecting
+20100302-18:54:55 : Connecting to 192.168.0.133 on port 34524
+20100302-18:54:56 : Disconnecting
+20100302-18:55:25 : Connecting to 192.168.0.133 on port 34524
+20100302-18:55:25 : Initiated logon request
+20100302-18:55:25 : Received logon response
+20100302-18:55:25 : Received ResendRequest FROM: 35 TO: 0
+20100302-18:55:25 : Resending Message: 35
+20100302-18:55:25 : Sent SequenceReset TO: 37
+20100302-18:57:33 : Initiated logout request
+20100302-18:57:33 : Received logout response
+20100302-18:57:33 : Disconnecting
+20100302-20:02:38 : Created session
+20100302-20:02:38 : Connecting to 192.168.0.133 on port 34524
+20100302-20:02:38 : Initiated logon request
+20100302-20:02:38 : Received logon response
+20100302-20:02:42 : Initiated logout request
+20100302-20:02:42 : Received logout response
+20100302-20:02:42 : Disconnecting
+20100302-20:03:22 : Created session
+20100302-20:03:22 : Connecting to 192.168.0.133 on port 34524
+20100302-20:03:22 : Initiated logon request
+20100302-20:03:22 : Received logon response
+20100302-20:03:26 : Initiated logout request
+20100302-20:03:26 : Received logout response
+20100302-20:03:26 : Disconnecting
+20100302-20:04:37 : Created session
+20100302-20:04:37 : Connecting to 192.168.0.133 on port 34524
+20100302-20:04:37 : Initiated logon request
+20100302-20:04:37 : Received logon response
+20100302-20:04:40 : Initiated logout request
+20100302-20:04:40 : Received logout response
+20100302-20:04:40 : Disconnecting
+20100302-20:06:35 : Created session
+20100302-20:06:38 : Connecting to 192.168.0.133 on port 34524
+20100302-20:06:42 : Initiated logon request
+20100302-20:06:43 : Received logon response
+20100302-20:06:57 : Initiated logout request
+20100302-20:06:57 : Received logout response
+20100302-20:06:57 : Disconnecting
+20100302-20:14:57 : Created session
+20100302-20:14:57 : Connecting to 192.168.0.133 on port 34524
+20100302-20:14:57 : Initiated logon request
+20100302-20:14:57 : Received logon response
+20100302-20:23:41 : Initiated logout request
+20100302-20:23:41 : Received logout response
+20100302-20:23:41 : Disconnecting
+20100302-21:21:37 : Created session
+20100302-21:21:37 : Connecting to 192.168.0.133 on port 34524
+20100302-21:21:37 : Initiated logon request
+20100302-21:21:37 : Received logon response
+20100302-23:04:19 : Initiated logout request
+20100302-23:04:19 : Received logout response
+20100302-23:04:19 : Disconnecting
+20100303-15:10:11 : Created session
+20100303-15:10:11 : Connecting to 192.168.0.133 on port 34524
+20100303-15:10:11 : Initiated logon request
+20100303-15:10:11 : Received logon response
+20100303-15:28:32 : Initiated logout request
+20100303-15:28:32 : Received logout response
+20100303-15:28:32 : Disconnecting
+20100303-16:02:13 : Created session
+20100303-16:02:13 : Connecting to 192.168.0.133 on port 34524
+20100303-16:02:13 : Initiated logon request
+20100303-16:02:13 : Received logon response
+20100303-18:50:18 : Initiated logout request
+20100303-18:50:18 : Received logout response
+20100303-18:50:18 : Disconnecting
+20100303-20:19:55 : Created session
+20100303-20:19:55 : Connecting to 192.168.0.133 on port 34524
+20100303-20:19:55 : Initiated logon request
+20100303-20:19:55 : Received logon response
+20100303-20:35:50 : Initiated logout request
+20100303-20:35:50 : Received logout response
+20100303-20:35:50 : Disconnecting
+20100303-20:36:14 : Created session
+20100303-20:36:14 : Connecting to 192.168.0.133 on port 34524
+20100303-20:36:15 : Disconnecting
+20100303-20:36:16 : Connecting to 192.168.0.133 on port 34524
+20100303-20:36:17 : Disconnecting
+20100303-20:37:31 : Created session
+20100303-20:37:31 : Connecting to 192.168.0.133 on port 34524
+20100303-20:37:31 : Initiated logon request
+20100303-20:37:31 : Received logon response
+20100303-20:38:49 : Initiated logout request
+20100303-20:38:49 : Received logout response
+20100303-20:38:49 : Disconnecting
+20100304-15:15:08 : Created session
+20100304-15:15:08 : Connecting to 192.168.0.133 on port 34524
+20100304-15:15:08 : Initiated logon request
+20100304-15:15:08 : Received logon response
+20100304-15:42:33 : Created session
+20100304-15:42:33 : Connecting to 192.168.0.133 on port 34524
+20100304-15:42:33 : Initiated logon request
+20100304-15:42:33 : Received logon response
+20100304-15:42:33 : MsgSeqNum too high, expecting 7 but received 8
+20100304-15:42:33 : Sent ResendRequest FROM: 7 TO: 0
+20100304-15:42:33 : MsgSeqNum too high, expecting 7 but received 9
+20100304-15:42:33 : Already sent ResendRequest FROM: 7 TO: 7.  Not sending another.
+20100304-15:42:33 : ResendRequest for messages FROM: 7 TO: 7 has been satisfied.
+20100304-15:42:33 : Processing QUEUED message: 8
+20100304-15:42:33 : Processing QUEUED message: 9
+20100304-15:47:10 : Created session
+20100304-15:47:10 : Connecting to 192.168.0.133 on port 34524
+20100304-15:47:10 : Initiated logon request
+20100304-15:47:10 : Received logon response
+20100304-15:47:10 : MsgSeqNum too high, expecting 12 but received 14
+20100304-15:47:10 : Sent ResendRequest FROM: 12 TO: 0
+20100304-15:47:10 : MsgSeqNum too high, expecting 12 but received 15
+20100304-15:47:10 : Already sent ResendRequest FROM: 12 TO: 13.  Not sending another.
+20100304-15:48:12 : ResendRequest for messages FROM: 12 TO: 13 has been satisfied.
+20100304-15:48:13 : Received SequenceReset FROM: 13 TO: 16
+20100304-15:53:01 : Created session
+20100304-15:53:01 : Connecting to 192.168.0.133 on port 34524
+20100304-15:53:01 : Initiated logon request
+20100304-15:53:01 : Received logon response
+20100304-15:55:35 : Created session
+20100304-15:55:35 : Connecting to 192.168.0.133 on port 34524
+20100304-15:55:35 : Initiated logon request
+20100304-15:55:35 : Received logon response
+20100304-16:09:55 : Created session
+20100304-16:09:55 : Connecting to 192.168.0.133 on port 34524
+20100304-16:09:55 : Initiated logon request
+20100304-16:09:55 : Received logon response
+20100304-18:45:33 : Created session
+20100304-18:45:33 : Connecting to 192.168.0.133 on port 34524
+20100304-18:45:33 : Initiated logon request
+20100304-18:45:33 : Received logon response
+20100304-18:49:57 : Created session
+20100304-18:49:57 : Connecting to 192.168.0.133 on port 34524
+20100304-18:49:57 : Initiated logon request
+20100304-18:49:57 : Received logon response
+20100304-18:49:57 : MsgSeqNum too high, expecting 40 but received 45
+20100304-18:49:57 : Sent ResendRequest FROM: 40 TO: 0
+20100304-18:49:57 : MsgSeqNum too high, expecting 40 but received 46
+20100304-18:49:57 : Already sent ResendRequest FROM: 40 TO: 44.  Not sending another.
+20100304-18:49:57 : Received SequenceReset FROM: 41 TO: 42
+20100304-18:49:57 : ResendRequest for messages FROM: 40 TO: 44 has been satisfied.
+20100304-18:49:57 : Processing QUEUED message: 45
+20100304-18:49:57 : Processing QUEUED message: 46
+20100304-19:03:50 : Created session
+20100304-19:03:50 : Connecting to 192.168.0.133 on port 34524
+20100304-19:03:50 : Initiated logon request
+20100304-19:03:50 : Received logon response
+20100304-19:27:43 : Created session
+20100304-19:27:43 : Connecting to 192.168.0.133 on port 34524
+20100304-19:27:43 : Initiated logon request
+20100304-19:27:43 : Received logon response
+20100304-19:27:43 : MsgSeqNum too high, expecting 63 but received 83
+20100304-19:27:43 : Sent ResendRequest FROM: 63 TO: 0
+20100304-19:27:43 : MsgSeqNum too high, expecting 63 but received 84
+20100304-19:27:43 : Already sent ResendRequest FROM: 63 TO: 82.  Not sending another.
+20100304-19:29:21 : Created session
+20100304-19:29:21 : Connecting to 192.168.0.133 on port 34524
+20100304-19:29:21 : Initiated logon request
+20100304-19:29:21 : Received logon response
+20100304-19:29:21 : MsgSeqNum too high, expecting 63 but received 85
+20100304-19:29:21 : Sent ResendRequest FROM: 63 TO: 0
+20100304-19:29:21 : MsgSeqNum too high, expecting 63 but received 86
+20100304-19:29:21 : Already sent ResendRequest FROM: 63 TO: 84.  Not sending another.
+20100304-19:29:22 : Received SequenceReset FROM: 64 TO: 87
+20100304-19:29:58 : ResendRequest for messages FROM: 63 TO: 84 has been satisfied.
+20100304-19:31:23 : Created session
+20100304-19:31:23 : Connecting to 192.168.0.133 on port 34524
+20100304-19:31:23 : Initiated logon request
+20100304-19:31:23 : Received logon response
+20100304-19:34:16 : Initiated logout request
+20100304-19:34:16 : Received logout response
+20100304-19:34:16 : Disconnecting
+20100304-19:36:03 : Created session
+20100304-19:36:03 : Connecting to 192.168.0.133 on port 34524
+20100304-19:36:03 : Initiated logon request
+20100304-19:36:03 : Received logon response
+20100309-15:05:38 : Created session
+20100309-15:05:38 : Connecting to 192.168.0.133 on port 34524
+20100309-15:05:38 : Initiated logon request
+20100309-15:05:38 : Received logon response
+20100310-17:21:11 : Created session
+20100310-17:21:11 : Connecting to 192.168.0.133 on port 34524
+20100310-17:21:11 : Initiated logon request
+20100310-17:21:11 : Received logon response
+20100310-17:22:45 : Created session
+20100310-17:22:45 : Connecting to 192.168.0.133 on port 34524
+20100310-17:22:45 : Initiated logon request
+20100310-17:22:45 : Received logon response
+20100310-17:25:41 : Created session
+20100310-17:25:41 : Connecting to 192.168.0.133 on port 34524
+20100310-17:25:42 : Disconnecting
+20100310-17:25:42 : Connecting to 192.168.0.133 on port 34524
+20100310-17:25:43 : Disconnecting
+20100310-17:26:12 : Connecting to 192.168.0.133 on port 34524
+20100310-17:26:12 : Initiated logon request
+20100310-17:26:12 : Received logon response

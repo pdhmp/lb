@@ -1,0 +1,202 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using NestDLL;
+using SGN.Business;
+using SGN.Validacao;
+using DevExpress.XtraGrid.Columns;
+using DevExpress.XtraGrid;
+using DevExpress.XtraEditors.Repository;
+using DevExpress.XtraEditors;
+using DevExpress.Data;
+using DevExpress.Utils;
+using DevExpress.XtraExport;
+using DevExpress.XtraGrid.Export;
+using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.XtraGrid.Drawing;
+using DevExpress.XtraGrid.Views.Grid.ViewInfo;
+using System.Drawing.Drawing2D;
+
+namespace SGN
+{
+    public partial class frmTop10Long : LBForm
+    {
+        CarregaDados CargaDados = new CarregaDados();
+        Business_Class Negocios = new Business_Class();
+        Valida Valida = new Valida();
+
+        public frmTop10Long()
+        {
+            InitializeComponent();
+        }
+
+        private void frmTop10_Load(object sender, EventArgs e)
+        {
+            
+
+            cmbView.SelectedValueChanged -= new System.EventHandler(this.cmbView_SelectedValueChanged);
+            carrega_Combo();
+            cmbView.SelectedValueChanged += new System.EventHandler(this.cmbView_SelectedValueChanged);
+            Carrega_Grid();
+            timer1.Start();
+        }
+
+        public void SetUpdateFreq(int UpdTime)
+        {
+            timer1.Interval = UpdTime;
+        }
+
+
+        void carrega_Combo()
+        {
+          int Id_Portfolio = Convert.ToInt32(cmbView.SelectedValue.ToString());
+          CargaDados.carregacombo(this.cmbStrategy, "Select Id_Book, Book from dbo.Tb400_Books WHERE Id_Book IN(SELECT [Id Book] FROM NESTRT.dbo.FCN_Posicao_Atual() WHERE [Id Portfolio]=" + Id_Portfolio + ") UNION ALL SELECT '0', 'All Books'", "Id_Book", "Book", 0);
+
+          cmbGroup.Items.Insert(0, "Base Underlying");
+          cmbGroup.Items.Insert(1, "Ticker");
+          cmbGroup.Items.Insert(2, "Nest Sector");
+          cmbGroup.Items.Insert(3, "Security Currency");
+          cmbGroup.Items.Insert(4, "Asset Class");
+          cmbGroup.Items.Insert(5, "Side");
+          cmbGroup.Items.Insert(6, "Commodities");
+          cmbGroup.SelectedIndex = 0;
+      }
+
+        public void Set_Portfolio_Values(int Id_Portfolio)
+        {
+            cmbView.SelectedValue = Id_Portfolio;
+        }
+
+      public void Carrega_Grid()
+        {
+            string SQLString;
+            
+            DataTable tablep = new DataTable();
+
+            int Id_Portfolio = 0;
+            int Id_Book = 0;
+            string Item;
+            string strACList="";
+            try
+            {
+                Id_Portfolio = Convert.ToInt32(cmbView.SelectedValue.ToString());
+
+                Id_Book = Convert.ToInt32(cmbStrategy.SelectedValue.ToString());
+
+                Item = cmbGroup.SelectedItem.ToString();
+
+                string PerfFieldName = "[Contribution pC]";
+
+                if (chkEquities.Checked == true) { strACList = strACList + ", 'Equity'"; };
+                if (chkMacro.Checked == true) { strACList = strACList + ", 'Debt', 'Commodity', 'Currency'"; };
+                if (chkExCurrency.Checked == true) { PerfFieldName = "[Contribution uC]"; };
+                
+                if (Item == "Side")
+                {
+                    Item = "CASE WHEN [Delta/NAV]>0 THEN 'Long' ELSE 'Short' END ";
+                }
+                else
+                {
+                    Item = "[" + Item + "]";
+                }
+
+                if (Item == "[Commodities]")
+                {
+                    Item = "NESTDB.[dbo].[FCN_IsCommSector]([Nest Sector]) ";
+                }
+
+                if (Item == "Ticker")
+                {
+                    SQLString = "Select " + Item + " as Item,sum(" + PerfFieldName + ") AS Contrib, avg([P/L %])[Change], " +
+                                " SUM([Delta/NAV]) AS Size " +
+                                " FROM NESTRT.dbo.FCN_Posicao_Atual() " +
+                                " WHERE [Asset Class] IN ('NOTHING'" + strACList + ") AND [Id Book]<>5 AND [Id Portfolio]= " + Id_Portfolio + " group by " + Item + " order by Contrib asc";
+                }                                                                    
+                else
+                {
+                    SQLString = " Select " + Item + " as Item,sum(" + PerfFieldName + ") AS Contrib, " +
+                                " CASE WHEN sum([Delta/NAV])=0 THEN 0 ELSE (sum(" + PerfFieldName + ")/sum([Delta/NAV])) END [Change], " +
+                                " SUM([Delta/NAV]) AS Size " +
+                                " FROM NESTRT.dbo.FCN_Posicao_Atual() " +
+                                " WHERE [Asset Class] IN ('NOTHING'" + strACList + ") AND [Id Book]<>5 AND [Id Portfolio]= " + Id_Portfolio + " group by " + Item + " order by Contrib asc";
+                }
+
+                if (Id_Book > 0)
+                {
+                    SQLString = SQLString.Replace("[Id Book]<>5", "[Id Book]=" + Id_Book);
+                    SQLString = SQLString.Replace(PerfFieldName, PerfFieldName.Substring(0, PerfFieldName.Length-1) + " Book]");
+                    SQLString = SQLString.Replace("[Delta/NAV]", "[Delta/Book]");
+                }
+
+                tablep = CargaDados.curConn.Return_DataTable(SQLString);
+
+                dtg.DataSource = tablep;
+                
+
+                dgTop10Desc.Columns["Contrib"].DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+                dgTop10Desc.Columns["Contrib"].DisplayFormat.FormatString = "P2";
+
+                dgTop10Desc.Columns["Change"].DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+                dgTop10Desc.Columns["Change"].DisplayFormat.FormatString = "+0.00%;-0.00%;-";
+
+                dgTop10Desc.Columns["Size"].DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+                dgTop10Desc.Columns["Size"].DisplayFormat.FormatString = "P2";
+            }
+            catch
+            {
+            
+            
+            }
+        }
+
+        private void cmbView_SelectedValueChanged(object sender, EventArgs e)
+        {
+            if (cmbView.SelectedIndex > 0)
+            {
+                int Id_Portfolio = Convert.ToInt32(cmbView.SelectedValue.ToString());
+                CargaDados.carregacombo(this.cmbStrategy, "Select Id_Book, Book from dbo.Tb400_Books WHERE Id_Book IN(SELECT [Id Book] FROM NESTRT.dbo.FCN_Posicao_Atual() WHERE [Id Portfolio]=" + Id_Portfolio + ") UNION ALL SELECT '0', 'All Books'", "Id_Book", "Book", 0);
+            }
+            Carrega_Grid();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Carrega_Grid();
+
+        }
+
+        private void dgTop10Desc_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        {
+            if (e.Column.Name == "colContributionpC")
+            {
+                if (Convert.ToSingle(e.CellValue) > 0.0010)
+                {
+                    e.Appearance.ForeColor = Color.Green;
+                    e.Appearance.Font = new Font(e.Appearance.Font, FontStyle.Bold);
+                }
+                else if (Convert.ToSingle(e.CellValue) < -0.0010)
+                {
+                    e.Appearance.ForeColor = Color.Red;
+                    e.Appearance.Font = new Font(e.Appearance.Font, FontStyle.Bold);
+                }
+                else 
+                {
+                    e.Appearance.ForeColor = Color.Black;
+                    e.Appearance.Font = new Font(e.Appearance.Font, FontStyle.Regular);
+                }
+            }
+        }
+
+        private void lblCopy_Click(object sender, EventArgs e)
+        {
+            dgTop10Desc.SelectAll();
+            dgTop10Desc.CopyToClipboard();
+
+        }
+    }
+}

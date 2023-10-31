@@ -1,0 +1,10 @@
+N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US\obj\Debug\Sim_MomentumUS.exe
+N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US\obj\Debug\Sim_MomentumUS.pdb
+c:\temp\MomentumUS\bin\Debug\Sim_MomentumUS.exe.manifest
+c:\temp\MomentumUS\bin\Debug\Sim_MomentumUS.application
+c:\temp\MomentumUS\bin\Debug\Sim_MomentumUS.exe
+c:\temp\MomentumUS\bin\Debug\Sim_MomentumUS.pdb
+N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US\obj\Debug\Sim_MomentumUS.TrustInfo.xml
+N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US\obj\Debug\Sim_MomentumUS.exe.manifest
+N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US\obj\Debug\Sim_MomentumUS.application

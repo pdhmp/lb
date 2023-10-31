@@ -1,0 +1,21 @@
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\bin\Debug\SimpleDequeuerForm.exe.config
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\bin\Debug\SimpleDequeuerForm.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\bin\Debug\SimpleDequeuerForm.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\Dashboards.CBO.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\Dashboards.Controller.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\Dashboards.Dashboards.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\Dashboards.Momentum.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\Dashboards.QSEGMonitor.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\SimpleDequeuerForm.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\SimpleDequeuerForm.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\bin\Debug\SimpleDequeuerForm.exe.manifest
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\bin\Debug\SimpleDequeuerForm.application
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\SimpleDequeuerForm.exe.manifest
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\SimpleDequeuerForm.application
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\Dashboards\obj\Debug\Dashboards.OrderReview.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\Dashboards\bin\Debug\SimpleDequeuerForm.exe.config
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\Dashboards\obj\Debug\SimpleDequeuerForm.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\Dashboards\obj\Debug\SimpleDequeuerForm.pdb

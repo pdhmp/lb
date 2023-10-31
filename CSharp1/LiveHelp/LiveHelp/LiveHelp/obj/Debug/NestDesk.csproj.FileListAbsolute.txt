@@ -1,0 +1,13 @@
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\NestDesk.exe
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\NestDesk.pdb
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\NestDesk.Properties.Resources.resources
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\NestDesk.exe.licenses
+C:\temp\Hdesk\NestDesk.exe
+C:\temp\Hdesk\NestDesk.pdb
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\NestDesk.frmHelpDesk.resources
+C:\temp\Hdesk\NestDesk.exe.config
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\HelpDesk\NestDesk\NestDesk\obj\Debug\GenerateResource.write.1.tlog

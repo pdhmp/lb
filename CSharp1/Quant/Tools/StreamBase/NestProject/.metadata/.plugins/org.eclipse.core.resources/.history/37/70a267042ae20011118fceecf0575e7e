@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <implements module-reference="Strategy.sbint"/>
+        <import from="Strategy.sbint" postfix="" prefix=""/>
+        <parameter-definitions>
+            <parameter default="0.01991" name="PatrimonioMomentumLS"/>
+            <parameter default="0.050470" name="PatrimonioMomentum70"/>
+            <parameter default="0.008627" name="PatrimonioMomentumHedged"/>
+            <parameter default="0.2" name="PatrimonioMomentum1"/>
+            <parameter default="0.2" name="PatrimonioMomentum2"/>
+            <parameter default="0.3" name="PatrimonioMomentum7"/>
+            <parameter default="0.3" name="PatrimonioMomentum8"/>
+        </parameter-definitions>
+        <schema name="schema:Patrimonio">
+            <field description="" name="Patr" type="double"/>
+        </schema>
+        <stream name="Command" schema="CommandInputSchema">
+        </stream>
+        <stream name="MD" schema="MarketDataInputSchema">
+        </stream>
+        <stream name="MDBMF" schema="MarketDataInputSchema">
+        </stream>
+        <stream name="Patrimonio" schema="schema:Patrimonio">
+        </stream>
+        <stream name="QSEGS" schema="QSEGUpdate">
+        </stream>
+        <stream name="VarLastQSEGS" schema="VarLastQSEGSInputSchema">
+        </stream>
+        <box name="Split" type="split">
+            <input port="1" stream="Patrimonio"/>
+            <output port="1" stream="out:Split_1"/>
+            <output port="2" stream="out:Split_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="SplitCommand" type="split">
+            <input port="1" stream="Command"/>
+            <output port="1" stream="out:SplitCommand_1"/>
+            <output port="2" stream="out:SplitCommand_2"/>
+            <output port="3" stream="out:SplitCommand_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="SplitMD" type="split">
+            <input port="1" stream="MD"/>
+            <output port="1" stream="out:SplitMD_1"/>
+            <output port="2" stream="out:SplitMD_2"/>
+            <output port="3" stream="out:SplitMD_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="SplitMDBMF" type="split">
+            <input port="1" stream="MDBMF"/>
+            <output port="1" stream="out:SplitMDBMF_1"/>
+            <output port="2" stream="out:SplitMDBMF_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="SplitQSEGS" type="split">
+            <input port="1" stream="QSEGS"/>
+            <output port="1" stream="out:SplitQSEGS_1"/>
+            <output port="2" stream="out:SplitQSEGS_2"/>
+            <output port="3" stream="out:SplitQSEGS_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="SplitVarLastQSEGS" type="split">
+            <input port="1" stream="VarLastQSEGS"/>
+            <output port="1" stream="out:SplitVarLastQSEGS_1"/>
+            <output port="2" stream="out:SplitVarLastQSEGS_2"/>
+            <output port="3" stream="out:SplitVarLastQSEGS_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="PatrMomHedged" type="map">
+            <input port="1" stream="out:Split_1"/>
+            <output port="1" stream="out:PatrMomHedged_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="PatrMomHedged">${PatrimonioMomentumHedged}*Patr</include>
+                    <remove field="Patr"/>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="PatrMomLS" type="map">
+            <input port="1" stream="out:Split_2"/>
+            <output port="1" stream="out:PatrMomLS_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <replace field="Patr">${PatrimonioMomentumLS}*Patr</replace>
+                </expressions>
+            </target-list>
+        </box>
+        <module-reference name="MomentumLS">
+            <parameter-bindings>
+                <binding name="Portfolio" value="18"/>
+                <binding name="Book" value="19"/>
+                <binding name="Section" value="225"/>
+                <binding name="ErrorFileName" value="ErrorLogMomls.log"/>
+                <binding name="ParamMultiplicador" value="0.005"/>
+                <binding name="ParamDivMult" value="0.03"/>
+                <binding name="PercentileUp" value="0.75"/>
+                <binding name="PercentileDn" value="0.25"/>
+            </parameter-bindings>
+            <param name="file" value="MomentumLSStrategy.sbapp"/>
+            <input name="Command" port="1" stream="out:SplitCommand_3"/>
+            <input name="MD" port="2" stream="out:SplitMD_3"/>
+            <input name="Patrimonio" port="3" stream="out:PatrMomLS_1"/>
+            <input name="QSEGS" port="4" stream="out:SplitQSEGS_3"/>
+            <input name="VarLastQSEGS" port="5" stream="out:SplitVarLastQSEGS_3"/>
+            <output name="LogOutput" port="1" stream="out:MomentumLS_1"/>
+            <output name="Order" port="2" stream="out:MomentumLS_2"/>
+        </module-reference>
+        <box name="Split2" type="split">
+            <input port="1" stream="out:PatrMomHedged_1"/>
+            <output port="1" stream="out:Split2_1"/>
+            <output port="2" stream="out:Split2_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="PatrMom1" type="map">
+            <input port="1" stream="out:Split2_1"/>
+            <output port="1" stream="out:PatrMom1_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Patr">${PatrimonioMomentum1}*PatrMomHedged</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="PatrMom2" type="map">
+            <input port="1" stream="out:Split2_2"/>
+            <output port="1" stream="out:PatrMom2_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Patr">${PatrimonioMomentum2}*PatrMomHedged</include>
+                </expressions>
+            </target-list>
+        </box>
+        <module-reference name="Momentum1">
+            <parameter-bindings>
+                <binding name="Portfolio" value="18"/>
+                <binding name="Book" value="19"/>
+                <binding name="Section" value="228"/>
+                <binding name="SizeMinMax" value="1"/>
+                <binding name="ErrorFileName" value="ErrorLogMom1.log"/>
+                <binding name="ParamMultiplicador" value="0.005"/>
+                <binding name="ParamDivMult" value="0.03"/>
+            </parameter-bindings>
+            <param name="file" value="MomentumHedgedStrategy.sbapp"/>
+            <input name="Command" port="1" stream="out:SplitCommand_1"/>
+            <input name="MD" port="2" stream="out:SplitMD_1"/>
+            <input name="MDBMF" port="3" stream="out:SplitMDBMF_1"/>
+            <input name="Patrimonio" port="4" stream="out:PatrMom1_1"/>
+            <input name="QSEGS" port="5" stream="out:SplitQSEGS_1"/>
+            <input name="VarLastQSEGS" port="6" stream="out:SplitVarLastQSEGS_1"/>
+            <output name="LogOutput" port="1" stream="out:Momentum1_1"/>
+            <output name="Order" port="2" stream="out:Momentum1_2"/>
+        </module-reference>
+        <module-reference name="Momentum2">
+            <parameter-bindings>
+                <binding name="Portfolio" value="18"/>
+                <binding name="Book" value="19"/>
+                <binding name="Section" value="265"/>
+                <binding name="SizeMinMax" value="2"/>
+                <binding name="ErrorFileName" value="ErrorLogMom2.log"/>
+                <binding name="ParamMultiplicador" value="0.005"/>
+                <binding name="ParamDivMult" value="0.03"/>
+            </parameter-bindings>
+            <param name="file" value="MomentumHedgedStrategy.sbapp"/>
+            <input name="Command" port="1" stream="out:SplitCommand_2"/>
+            <input name="MD" port="2" stream="out:SplitMD_2"/>
+            <input name="MDBMF" port="3" stream="out:SplitMDBMF_2"/>
+            <input name="Patrimonio" port="4" stream="out:PatrMom2_1"/>
+            <input name="QSEGS" port="5" stream="out:SplitQSEGS_2"/>
+            <input name="VarLastQSEGS" port="6" stream="out:SplitVarLastQSEGS_2"/>
+            <output name="LogOutput" port="1" stream="out:Momentum2_1"/>
+            <output name="Order" port="2" stream="out:Momentum2_2"/>
+        </module-reference>
+        <box name="Union" type="union">
+            <input port="1" stream="out:Momentum1_1"/>
+            <input port="2" stream="out:Momentum2_1"/>
+            <input port="3" stream="out:MomentumLS_1"/>
+            <output port="1" stream="Log"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <box name="UnionOrders" type="union">
+            <input port="1" stream="out:Momentum1_2"/>
+            <input port="2" stream="out:Momentum2_2"/>
+            <input port="3" stream="out:MomentumLS_2"/>
+            <output port="1" stream="Orders"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <output-stream name="Log">
+        </output-stream>
+        <output-stream name="Orders">
+        </output-stream>
+    </add>
+</modify>

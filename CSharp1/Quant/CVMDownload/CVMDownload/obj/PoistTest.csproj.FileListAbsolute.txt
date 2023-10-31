@@ -1,0 +1,7 @@
+C:\GIT\PoistTest\PoistTest\obj\Debug\ResolveAssemblyReference.cache
+C:\GIT\PoistTest\PoistTest\bin\Debug\PoistTest.exe
+C:\GIT\PoistTest\PoistTest\bin\Debug\PoistTest.pdb
+C:\GIT\PoistTest\PoistTest\obj\Debug\PoistTest.Form1.resources
+C:\GIT\PoistTest\PoistTest\obj\Debug\PoistTest.csproj.GenerateResource.Cache
+C:\GIT\PoistTest\PoistTest\obj\Debug\PoistTest.exe
+C:\GIT\PoistTest\PoistTest\obj\Debug\PoistTest.pdb

@@ -1,0 +1,5 @@
+T:\Resources\NSocServer.dll
+T:\Resources\NSocServer.pdb
+N:\TI\Projects\CSharp\Utils\NSocServer\NSocServer\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NSocServer\NSocServer\obj\Debug\NSocServer.dll
+N:\TI\Projects\CSharp\Utils\NSocServer\NSocServer\obj\Debug\NSocServer.pdb

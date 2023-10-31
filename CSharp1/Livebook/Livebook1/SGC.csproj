@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9DD35DE-DC1E-485A-AD36-9B78EDB1B4C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SGN</RootNamespace>
+    <AssemblyName>Nest LiveBook</AssemblyName>
+    <StartupObject>SGN.Program</StartupObject>
+    <ManifestCertificateThumbprint>86AB758AF8F649B137205112C864F8B942DCDD68</ManifestCertificateThumbprint>
+    <ManifestKeyFile>SGC_1_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <PublishUrl>\\nestsrv01\nest\TI\NESTSoft\Installation\LiveBook\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\nestsrv01\nest\TI\NESTSoft\Installation\LiveBook\</InstallUrl>
+    <MinimumRequiredVersion>0.0.1.9</MinimumRequiredVersion>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationRevision>270</ApplicationRevision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>C:\temp\livebook\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Basic_Functions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\nestsrv01\Public\DLL\Basic_Functions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v8.1, Version=8.1.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>P:\Developer Express .NET v8.1\Sources\DevExpress.DLL\DevExpress.Data.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v8.1, Version=8.1.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>P:\Developer Express .NET v8.1\Sources\DevExpress.DLL\DevExpress.Utils.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v8.1, Version=8.1.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>P:\Developer Express .NET v8.1\Sources\DevExpress.DLL\DevExpress.XtraEditors.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v8.1, Version=8.1.3.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>P:\Developer Express .NET v8.1\Sources\DevExpress.DLL\DevExpress.XtraGrid.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="NestDLL, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\nestsrv01\Public\DLL\NestDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ativos\frmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmEdit.Designer.cs">
+      <DependentUpon>frmEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmIssuer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmIssuer.Designer.cs">
+      <DependentUpon>frmIssuer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmCommodities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmCommodities.Designer.cs">
+      <DependentUpon>frmCommodities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmOpcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmOpcoes.Designer.cs">
+      <DependentUpon>frmOpcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmSwap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmSwap.Designer.cs">
+      <DependentUpon>frmSwap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CargaDados.cs" />
+    <Compile Include="Business.cs" />
+    <Compile Include="Ativos\frmFuturos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmFuturos.Designer.cs">
+      <DependentUpon>frmFuturos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmIndices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmIndices.Designer.cs">
+      <DependentUpon>frmIndices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmCurrency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmCurrency.Designer.cs">
+      <DependentUpon>frmCurrency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmAdr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmAdr.Designer.cs">
+      <DependentUpon>frmAdr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmAcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmAcoes.Designer.cs">
+      <DependentUpon>frmAcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ativos\frmAtivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ativos\frmAtivos.Designer.cs">
+      <DependentUpon>frmAtivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmPos.Designer.cs">
+      <DependentUpon>frmAdmPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditPriceTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPriceTrade.Designer.cs">
+      <DependentUpon>frmEditPriceTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdit_Trades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdit_Trades.Designer.cs">
+      <DependentUpon>frmEdit_Trades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInsertPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsertPrice.Designer.cs">
+      <DependentUpon>frmInsertPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmExposure_PL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmExposure_PL.Designer.cs">
+      <DependentUpon>frmExposure_PL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmInsertOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmInsertOrder.Designer.cs">
+      <DependentUpon>frmInsertOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmPositions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmPositions.Designer.cs">
+      <DependentUpon>frmPositions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStrategy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStrategy.Designer.cs">
+      <DependentUpon>frmStrategy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmTrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Divididas\frmTrades.Designer.cs">
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teste\frmCalculateDelta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste\frmCalculateDelta.Designer.cs">
+      <DependentUpon>frmCalculateDelta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teste\frmTeste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste\frmTeste.Designer.cs">
+      <DependentUpon>frmTeste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsistency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsistency.Designer.cs">
+      <DependentUpon>frmConsistency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrades.Designer.cs">
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaixa.Designer.cs">
+      <DependentUpon>frmCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVol.Designer.cs">
+      <DependentUpon>frmVol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmcoluns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcoluns.Designer.cs">
+      <DependentUpon>frmcoluns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPass.Designer.cs">
+      <DependentUpon>frmPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPL.Designer.cs">
+      <DependentUpon>frmPL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISplashForm.cs" />
+    <Compile Include="Program1.cs" />
+    <Compile Include="Resource\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resource\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splasher.cs" />
+    <Compile Include="teste.cs" />
+    <Compile Include="ExListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmPosicoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosicoes.designer.cs">
+      <DependentUpon>frmPosicoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInsertOrdem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsertOrdem.Designer.cs">
+      <DependentUpon>frmInsertOrdem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global_Variable.cs" />
+    <Compile Include="frmInsertTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsertTrade.Designer.cs">
+      <DependentUpon>frmInsertTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Validacao.cs" />
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ativos\frmEdit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmCommodities.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCommodities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmIssuer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIssuer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmOpcoes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmSwap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSwap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExListView.resx">
+      <DependentUpon>ExListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmFuturos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFuturos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmCurrency.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCurrency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmAcoes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmAdr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmAtivos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAtivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ativos\frmIndices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIndices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmPos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdmPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsistency.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConsistency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPriceTrade.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditPriceTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdit_Trades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEdit_Trades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInsertPrice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Divididas\frmExposure_PL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExposure_PL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Divididas\frmInsertOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Divididas\frmOrders.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Divididas\frmPositions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPositions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStrategy.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStrategy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Divididas\frmTrades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teste\frmCalculateDelta.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCalculateDelta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teste\frmTeste.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTeste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrades.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCaixa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVol.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcoluns.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmcoluns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPL.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosicoes.resx">
+      <DependentUpon>frmPosicoes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInsertOrdem.resx">
+      <DependentUpon>frmInsertOrdem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInsertTrade.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsertTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="SGC_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\pwd.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\config_tables.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\Crystal_Clear_app_blender.png" />
+    <None Include="Resources\exit2.png" />
+    <None Include="Resources\Crystal_Clear_app_shutdown.png" />
+    <None Include="Resources\Crystal_Clear_app_utilities.png" />
+    <None Include="Resources\Crystal_Clear_app_access.png" />
+    <None Include="Resources\Crystal_Clear_app_business.png" />
+    <None Include="Resources\Crystal_Clear_app_clicknrun.png" />
+    <None Include="Resources\Crystal_Clear_app_database.png" />
+    <None Include="Resources\Crystal_Clear_app_kwrite.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_vcard.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_applix.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_deb.png" />
+    <None Include="Resources\Crystal_Clear_mimetype_vcalendar.png" />
+    <None Include="Resources\Crystal_Clear_filesystem_file_broken.png" />
+    <None Include="Resources\Crystal_Clear_app_help_index.png" />
+    <None Include="Resources\tools-min2.gif" />
+    <None Include="Resources\help.gif" />
+    <None Include="Resources\database.gif" />
+    <None Include="Resources\business.gif" />
+    <None Include="Resources\file_broken.gif" />
+    <None Include="Resources\utilities.gif" />
+    <None Include="Resources\pwd.gif" />
+    <None Include="Resources\config_tables.gif" />
+    <None Include="Resources\shutdown.gif" />
+    <None Include="Resources\admin.gif" />
+    <None Include="Resources\kwrite.gif" />
+    <None Include="Resources\vcalendar.gif" />
+    <None Include="Resources\utilities1.gif" />
+    <Content Include="icon.ico" />
+    <None Include="Resources\search.png" />
+    <None Include="SGC_1_TemporaryKey.pfx" />
+    <Content Include="Resource\application_form_add.png" />
+    <Content Include="Resource\folder_database.png" />
+    <Content Include="Resource\user.png" />
+    <Content Include="Resource\user_female.png" />
+    <Content Include="Simbolo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.Data.v8.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Utils.v8.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraEditors.v8.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGrid.v8.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraLayout.v8.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Vbe.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <schema name="schema:MD"/>
+        <stream name="MD" schema="schema:MD">
+        </stream>
+        <box name="Map" type="map">
+            <input port="1" stream="MD"/>
+            <output port="1" stream="VWAP"/>
+            <target-list>
+                <item name="input" selection="all"/>
+            </target-list>
+        </box>
+        <output-stream name="VWAP">
+        </output-stream>
+    </add>
+</modify>

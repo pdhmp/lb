@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application version="7.2.4.6">
+    <named-schemas>
+        <schema name="CommandInputSchema">
+            <field description="" name="Command" type="string"/>
+        </schema>
+        <schema name="MarketDataInputSchema">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryType" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+            <field description="" name="MDEntrySize" type="double"/>
+            <field description="" name="MDEntryDate" type="timestamp"/>
+            <field description="" name="MDEntryTime" type="timestamp"/>
+            <field description="" name="MDEntryPositionNo" type="int"/>
+            <field description="" name="MDUpdateAction" type="string"/>
+        </schema>
+        <schema name="MarketDataRequestOutputSchema">
+            <field description="" name="Command" type="string"/>
+            <field description="" name="EntryType" type="list">
+                <element-type type="string"/>
+            </field>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Exchange" type="string"/>
+        </schema>
+        <schema name="OrderOutputSchema">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Price" type="double"/>
+            <field description="" name="Quantity" type="double"/>
+            <field description="" name="OrderType" type="string"/>
+            <field description="" name="Exchange" type="string"/>
+            <field description="" name="BrokerId" type="int"/>
+        </schema>
+        <schema name="QSEGUpdate">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="Value" type="double"/>
+            <field description="" name="ValueDm1" type="double"/>
+        </schema>
+        <schema name="VarLastQSEGSInputSchema">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="VarLast" type="double"/>
+        </schema>
+    </named-schemas>
+</application>

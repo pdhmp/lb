@@ -1,0 +1,12 @@
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\NFileSyncTool.Properties.Resources.resources
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\bin\Debug\NFileSyncTool.exe
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\bin\Debug\NFileSyncTool.pdb
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\NFileSyncTool.frmSyncFiles.resources
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\NFileSyncTool.exe
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\NFileSyncTool.pdb
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\bin\Debug\NFileSyncTool.exe.config
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Utils\NFileSyncTool\NFileSyncTool\obj\x86\Debug\ResGen.write.1.tlog

@@ -1,0 +1,17 @@
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.Form1.resources
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.Properties.Resources.resources
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\bin\Debug\ReadPortMellon.exe
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\bin\Debug\ReadPortMellon.pdb
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.exe
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.pdb
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\bin\Debug\ReadPortMellon.exe.manifest
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\bin\Debug\ReadPortMellon.application
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.exe.manifest
+N:\TI\Projects\CSharp\Utils\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.application
+C:\BKP PPAY\CSharp1\Other\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.exe
+C:\BKP PPAY\CSharp1\Other\ReadPortMellon\ReadPortMellon\obj\x86\Debug\ReadPortMellon.pdb

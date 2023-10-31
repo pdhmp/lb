@@ -1,0 +1,10 @@
+T:\Resources\NCustomControls.dll
+T:\Resources\NCustomControls.pdb
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.MyGridControl.resources
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.dll.licenses
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.dll
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.pdb
+N:\TI\Projects\CSharp\Utils\NCustomControls\NCustomControls\obj\Debug\NCustomControls.MyGridView.resources

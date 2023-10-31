@@ -1,0 +1,1 @@
+N:\TI\Projects\CSharp\Livebook\LBRTCalc 2.0\LBRTCalc\bin\Release\LBRTCalc.exe.config

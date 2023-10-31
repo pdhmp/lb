@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <implements module-reference="Strategy.sbint"/>
+        <import from="MarketData.sbint" postfix="" prefix=""/>
+        <import from="Strategy.sbint" postfix="" prefix=""/>
+        <constant expr="101" name="SR_TYPE_LAST"/>
+        <constant expr="102" name="SR_TYPE_PRE_AUC"/>
+        <schema name="schema:LastQSEGVar">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="VarLast" type="double"/>
+        </schema>
+        <schema name="schema:PreAucQSEGVar">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="VarLast" type="double"/>
+        </schema>
+        <schema name="schema:QSEGSWeights">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Id_Security" type="int"/>
+            <field description="" name="Sector" type="string"/>
+            <field description="" name="Id_Sector" type="int"/>
+            <field description="" name="Weight" type="double"/>
+        </schema>
+        <data name="LastQSEGVar" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="QSEGName"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:LastQSEGVar"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="NESTSRV06" type="jdbctable">
+            <param name="connection" value="NESTDB"/>
+        </data>
+        <data name="PreAucQSEGVar" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="QSEGName"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:PreAucQSEGVar"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="QSEGSWeights" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="Symbol"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:QSEGSWeights"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="Command" schema="CommandInputSchema">
+        </stream>
+        <stream name="MD" schema="TradeSchema">
+        </stream>
+        <stream name="MDBMF" schema="TradeSchema">
+        </stream>
+        <box name="FilterCommand" type="filter">
+            <input port="1" stream="Command"/>
+            <output port="1" stream="out:FilterCommand_1"/>
+            <output port="2" stream="out:FilterCommand_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Command = 'START'"/>
+            <param name="expression.1" value="Command = 'SEND ORDERS'"/>
+        </box>
+        <box name="MDSplitter" type="split">
+            <input port="1" stream="MD"/>
+            <output port="1" stream="out:MDSplitter_1"/>
+            <output port="2" stream="out:MDSplitter_2"/>
+            <output port="3" stream="out:MDSplitter_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="Split2" type="split">
+            <input port="1" stream="out:FilterCommand_1"/>
+            <output port="1" stream="out:Split2_1"/>
+            <output port="2" stream="out:Split2_2"/>
+            <output port="3" stream="out:Split2_3"/>
+            <output port="4" stream="out:Split2_4"/>
+            <output port="5" stream="out:Split2_5"/>
+            <output port="6" stream="out:Split2_6"/>
+            <param name="output-count" value="6"/>
+        </box>
+        <box name="GetIndexComposition" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:Split2_1"/>
+            <output port="1" stream="out:GetIndexComposition_1"/>
+            <param name="sql" value="SELECT X.ID_TICKER_COMPOSITE AS Id_Sector, X.ID_TICKER_COMPONENT AS Id_Security, X.WEIGHT as Weight&#13;&#10;FROM (&#13;&#10;&#9;SELECT *  FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION A&#13;&#10;&#9;WHERE ID_TICKER_COMPOSITE IN (&#13;&#10;&#9;&#9;SELECT DISTINCT(ID_TICKER_COMPONENT)&#13;&#10;&#9;&#9;FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION&#13;&#10;&#9;&#9;WHERE ID_TICKER_COMPOSITE = 281020)  AND DATE_REF = (  &#13;&#10;&#9;&#9;&#9;SELECT MAX(DATE_REF)&#13;&#10;&#9;&#9;&#9;FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION B&#13;&#10;&#9;&#9;&#9;WHERE A.ID_TICKER_COMPOSITE = B.ID_TICKER_COMPOSITE &#13;&#10;&#9;&#9;&#9;AND A.ID_TICKER_COMPONENT = B.ID_TICKER_COMPONENT&#13;&#10;&#9;&#9;&#9;AND WEIGHT &lt;&gt; 0&#13;&#10;&#9;&#9;&#9;AND B.DATE_REF &gt;= '2012-07-01')) X&#13;&#10;&#9;&#9;&#9;ORDER BY Id_Sector,  Id_Security"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="GetPatrimonio" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:Split2_2"/>
+            <output port="1" stream="out:GetPatrimonio_1"/>
+            <param name="sql" value="select top 1 valor_pl as Patr&#13;&#10;from nestdb.dbo.Tb025_Valor_PL (nolock)&#13;&#10;where id_portfolio = 18  order by data_pl desc"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="PrepareParamsLast" type="map">
+            <input port="1" stream="out:Split2_4"/>
+            <output port="1" stream="out:PrepareParamsLast_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <remove field="Command"/>
+                    <include field="SrType">SR_TYPE_LAST</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="PrepareParamsPreAuc" type="map">
+            <input port="1" stream="out:Split2_3"/>
+            <output port="1" stream="out:PrepareParamsPreAuc_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <remove field="Command"/>
+                    <include field="SrType">SR_TYPE_PRE_AUC</include>
+                </expressions>
+            </target-list>
+        </box>
+        <module-reference name="QSEGCalculator">
+            <param name="file" value="QSEG Calculator.sbapp"/>
+            <input name="Price" port="1" stream="out:MDSplitter_3"/>
+            <input name="Start" port="2" stream="out:Split2_5"/>
+            <output name="QSEGS" port="1" stream="out:QSEGCalculator_1"/>
+        </module-reference>
+        <box name="Union" type="union">
+            <input port="1" stream="out:Split2_6"/>
+            <input port="2" stream="out:FilterCommand_2"/>
+            <output port="1" stream="out:Union_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <box name="GetSymbol" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetIndexComposition_1"/>
+            <output port="1" stream="out:GetSymbol_1"/>
+            <param name="sql" value="SELECT NestTicker as Symbol&#13;&#10;  FROM [NESTDB].[dbo].[Tb001_Securities]&#13;&#10;  where IdSecurity = {Id_Security}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <module-reference name="LastQSEGVarCalculator">
+            <param name="file" value="VarCalculator.sbapp"/>
+            <input name="Calculate" port="1" stream="out:PrepareParamsLast_1"/>
+            <output name="VarQSEG" port="1" stream="out:LastQSEGVarCalculator_1"/>
+        </module-reference>
+        <box name="PatrimonioSplitter" type="split">
+            <input port="1" stream="out:GetPatrimonio_1"/>
+            <output port="1" stream="out:PatrimonioSplitter_1"/>
+            <output port="2" stream="out:PatrimonioSplitter_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <module-reference name="PreAucQSEGVarCalculator">
+            <param name="file" value="VarCalculator.sbapp"/>
+            <input name="Calculate" port="1" stream="out:PrepareParamsPreAuc_1"/>
+            <output name="VarQSEG" port="1" stream="out:PreAucQSEGVarCalculator_1"/>
+        </module-reference>
+        <box name="QSEGSplitter" type="split">
+            <input port="1" stream="out:QSEGCalculator_1"/>
+            <output port="1" stream="QSEGS"/>
+            <output port="2" stream="out:QSEGSplitter_2"/>
+            <output port="3" stream="out:QSEGSplitter_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="Split3" type="split">
+            <input port="1" stream="out:Union_1"/>
+            <output port="1" stream="out:Split3_1"/>
+            <output port="2" stream="out:Split3_2"/>
+            <param name="output-count" value="2"/>
+        </box>
+        <box name="InsertPreaucQSEGVar" type="query">
+            <dataref id="querytable" name="PreAucQSEGVar"/>
+            <input port="1" stream="out:PreAucQSEGVarCalculator_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="SecurityIdentifier"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="input" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:PreAucQSEGVar" name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <output-stream name="QSEGS" schema="QSEGUpdate">
+        </output-stream>
+        <box name="Query" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetSymbol_1"/>
+            <output port="1" stream="out:Query_1"/>
+            <param name="sql" value="SELECT NestTicker as Sector&#13;&#10;  FROM [NESTDB].[dbo].[Tb001_Securities]&#13;&#10;  where IdSecurity ={Id_Sector}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="Split" type="split">
+            <input port="1" stream="out:LastQSEGVarCalculator_1"/>
+            <output port="1" stream="out:Split_1"/>
+            <output port="2" stream="out:Split_2"/>
+            <output port="3" stream="out:Split_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="AdjSchema" type="map">
+            <input port="1" stream="out:Split_2"/>
+            <output port="1" stream="out:AdjSchema_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="QSEGName">SecurityIdentifier</include>
+                    <remove field="SecurityIdentifier"/>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="AdjSchema2" type="map">
+            <input port="1" stream="out:Split_3"/>
+            <output port="1" stream="out:AdjSchema2_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="QSEGName">SecurityIdentifier</include>
+                    <remove field="SecurityIdentifier"/>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="InsertLastQSEGVar" type="query">
+            <dataref id="querytable" name="LastQSEGVar"/>
+            <input port="1" stream="out:Split_1"/>
+            <output port="1" stream="out:InsertLastQSEGVar_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="SecurityIdentifier"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="input" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:LastQSEGVar" name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="VarLast">VarLast</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="InsertWeights" type="query">
+            <dataref id="querytable" name="QSEGSWeights"/>
+            <input port="1" stream="out:Query_1"/>
+            <output port="1" stream="out:InsertWeights_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Symbol"/>
+            <param name="key-value.0" value="input.Symbol"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <expressions>
+                    <remove field="Sector"/>
+                    <remove field="Weight"/>
+                    <remove field="Id_Sector"/>
+                    <remove field="Id_Security"/>
+                </expressions>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSWeights" name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <module-reference name="CBO">
+            <param name="file" value="CBO.sbapp"/>
+            <input name="Command" port="1" stream="out:Split3_1"/>
+            <input name="MarketData" port="2" stream="out:MDSplitter_1"/>
+            <input name="Patrimonio" port="3" stream="out:PatrimonioSplitter_1"/>
+            <input name="QSEGS" port="4" stream="out:QSEGSplitter_2"/>
+            <input name="VarLastQSEGS" port="5" stream="out:AdjSchema_1"/>
+            <output name="Orders" port="1" stream="out:CBO_1"/>
+        </module-reference>
+        <module-reference name="Momentum">
+            <parameter-bindings>
+                <binding name="PatrimonioMomentumLS" value="0.02"/>
+                <binding name="PatrimonioMomentum70" value="0.0"/>
+                <binding name="PatrimonioMomentumHedged" value="0.0045"/>
+                <binding name="PatrimonioMomentum1" value="0.3"/>
+                <binding name="PatrimonioMomentum2" value="0.2"/>
+                <binding name="PatrimonioMomentum7" value="0.3"/>
+                <binding name="PatrimonioMomentum8" value="0.3"/>
+            </parameter-bindings>
+            <param name="file" value="Momentum.sbapp"/>
+            <input name="Command" port="1" stream="out:Split3_2"/>
+            <input name="MD" port="2" stream="out:MDSplitter_2"/>
+            <input name="MDBMF" port="3" stream="MDBMF"/>
+            <input name="Patrimonio" port="4" stream="out:PatrimonioSplitter_2"/>
+            <input name="QSEGS" port="5" stream="out:QSEGSplitter_3"/>
+            <input name="VarLastQSEGS" port="6" stream="out:AdjSchema2_1"/>
+            <output name="Log" port="1" stream="Log"/>
+            <output name="Orders" port="2" stream="out:Momentum_2"/>
+        </module-reference>
+        <output-stream name="Log">
+        </output-stream>
+        <box name="UnionOrders" type="union">
+            <input port="1" stream="out:CBO_1"/>
+            <input port="2" stream="out:Momentum_2"/>
+            <output port="1" stream="Order"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <output-stream name="Order">
+            <property name="description" value="to be parsed&#13;&#10;"/>
+        </output-stream>
+    </add>
+</modify>

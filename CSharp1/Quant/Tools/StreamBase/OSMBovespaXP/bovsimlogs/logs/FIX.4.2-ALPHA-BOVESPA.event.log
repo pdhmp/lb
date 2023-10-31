@@ -1,0 +1,307 @@
+20120413-16:04:46: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120413-16:04:46: Created session: FIX.4.2:ALPHA->BOVESPA
+20120413-16:04:47: Initiated logon request
+20120413-16:04:47: Received logon request
+20120413-16:05:56: Initiated logout request
+20120413-16:05:56: Received logout response
+20120413-16:05:56: Disconnecting
+20120413-16:06:11: Initiated logon request
+20120413-16:06:11: Received logon request
+20120413-16:06:41: Disconnecting
+20120413-16:06:42: Initiated logon request
+20120413-16:06:42: Disconnecting
+20120413-16:06:42: Received logout request
+20120413-16:06:42: Attempt to send while not connected (message stored until connected).
+20120413-16:06:42: Sent logout response
+20120413-16:07:12: Initiated logon request
+20120413-16:07:12: Disconnecting
+20120413-16:07:12: Received logout response
+20120413-16:07:42: Initiated logon request
+20120413-16:07:42: Disconnecting
+20120413-16:07:42: Received logout request
+20120413-16:07:42: Attempt to send while not connected (message stored until connected).
+20120413-16:07:42: Sent logout response
+20120413-16:08:12: Initiated logon request
+20120413-16:08:12: Disconnecting
+20120413-16:08:12: Received logout response
+20120413-17:56:05: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120413-17:56:05: Created session: FIX.4.2:ALPHA->BOVESPA
+20120413-17:56:06: Initiated logon request
+20120413-17:56:06: Disconnecting
+20120413-17:56:06: quickfix.SessionException Logon state is not valid for message (MsgType=5)
+20120413-17:57:22: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120413-17:57:22: Created session: FIX.4.2:ALPHA->BOVESPA
+20120413-17:57:23: Initiated logon request
+20120413-17:57:23: Received logon request
+20120413-18:00:07: Initiated logout request
+20120413-18:00:07: Received logout response
+20120413-18:00:07: Disconnecting
+20120413-18:03:30: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120413-18:03:30: Created session: FIX.4.2:ALPHA->BOVESPA
+20120413-18:03:31: Initiated logon request
+20120413-18:03:31: Received logon request
+20120413-18:08:14: Initiated logout request
+20120413-18:08:14: Received logout response
+20120413-18:08:14: Disconnecting
+20120413-18:20:16: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120413-18:20:16: Created session: FIX.4.2:ALPHA->BOVESPA
+20120413-18:20:18: Initiated logon request
+20120413-18:20:18: Received logon request
+20120413-18:28:52: Initiated logout request
+20120413-18:28:52: Received logout response
+20120413-18:28:52: Disconnecting
+20120418-16:58:36: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-16:58:36: Session state is not current; resetting FIX.4.2:ALPHA->BOVESPA
+20120418-16:58:36: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-16:58:37: Initiated logon request
+20120418-16:58:37: Received logon request
+20120418-17:01:27: Initiated logout request
+20120418-17:01:27: Received logout response
+20120418-17:01:27: Disconnecting
+20120418-17:02:13: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:02:13: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:02:14: Initiated logon request
+20120418-17:02:14: Received logon request
+20120418-17:03:01: Initiated logout request
+20120418-17:03:01: Received logout response
+20120418-17:03:01: Disconnecting
+20120418-17:05:01: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:05:01: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:05:02: Initiated logon request
+20120418-17:05:03: Received logon request
+20120418-17:12:19: Initiated logout request
+20120418-17:12:19: Received logout response
+20120418-17:12:19: Disconnecting
+20120418-17:20:02: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:20:02: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:20:03: Initiated logon request
+20120418-17:20:03: Received logon request
+20120418-17:25:53: Initiated logout request
+20120418-17:25:53: Received logout response
+20120418-17:25:53: Disconnecting
+20120418-17:27:14: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:27:14: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:27:15: Initiated logon request
+20120418-17:27:15: Received logon request
+20120418-17:32:46: Initiated logout request
+20120418-17:32:46: Received logout response
+20120418-17:32:46: Disconnecting
+20120418-17:33:14: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:33:14: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:33:15: Initiated logon request
+20120418-17:33:15: Received logon request
+20120418-17:34:45: Initiated logout request
+20120418-17:34:45: Received logout response
+20120418-17:34:45: Disconnecting
+20120418-17:35:13: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:35:13: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:35:14: Initiated logon request
+20120418-17:35:14: Received logon request
+20120418-17:38:19: Initiated logout request
+20120418-17:38:19: Received logout response
+20120418-17:38:19: Disconnecting
+20120418-17:38:48: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:38:48: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:38:49: Initiated logon request
+20120418-17:38:49: Received logon request
+20120418-17:45:30: Initiated logout request
+20120418-17:45:30: Received logout response
+20120418-17:45:30: Disconnecting
+20120418-17:53:50: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:53:50: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:53:51: Initiated logon request
+20120418-17:53:51: Received logon request
+20120418-17:55:05: Initiated logout request
+20120418-17:55:05: Received logout response
+20120418-17:55:05: Disconnecting
+20120418-17:55:38: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-17:55:38: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-17:55:39: Initiated logon request
+20120418-17:55:39: Received logon request
+20120418-18:23:09: Initiated logout request
+20120418-18:23:09: Received logout response
+20120418-18:23:09: Disconnecting
+20120418-19:09:18: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:09:18: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:09:19: Initiated logon request
+20120418-19:09:19: Received logon request
+20120418-19:24:47: Initiated logout request
+20120418-19:24:47: Received logout response
+20120418-19:24:47: Disconnecting
+20120418-19:25:14: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:25:14: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:25:15: Initiated logon request
+20120418-19:25:15: Received logon request
+20120418-19:30:18: Received logout request
+20120418-19:30:18: Sent logout response
+20120418-19:30:18: Disconnecting
+20120418-19:30:20: Connection refused: no further information
+20120418-19:30:58: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:30:58: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:30:59: Initiated logon request
+20120418-19:30:59: Received logon request
+20120418-19:36:59: Received logout request
+20120418-19:36:59: Sent logout response
+20120418-19:36:59: Disconnecting
+20120418-19:37:00: Connection refused: no further information
+20120418-19:37:30: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:37:30: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:37:31: Initiated logon request
+20120418-19:37:31: Received logon request
+20120418-19:48:23: Received logout request
+20120418-19:48:23: Sent logout response
+20120418-19:48:23: Disconnecting
+20120418-19:48:25: Connection refused: no further information
+20120418-19:49:30: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:49:30: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:49:31: Initiated logon request
+20120418-19:49:31: Received logon request
+20120418-19:52:13: Initiated logout request
+20120418-19:52:13: Received logout response
+20120418-19:52:13: Disconnecting
+20120418-19:52:44: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:52:44: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:52:45: Initiated logon request
+20120418-19:52:45: Received logon request
+20120418-19:58:49: Received logout request
+20120418-19:58:49: Sent logout response
+20120418-19:58:49: Disconnecting
+20120418-19:58:51: Connection refused: no further information
+20120418-19:59:18: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-19:59:18: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-19:59:19: Initiated logon request
+20120418-19:59:19: Received logon request
+20120418-20:01:17: Initiated logout request
+20120418-20:01:17: Received logout response
+20120418-20:01:17: Disconnecting
+20120418-20:02:00: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-20:02:00: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-20:02:01: Initiated logon request
+20120418-20:02:01: Received logon request
+20120418-20:04:04: Initiated logout request
+20120418-20:04:04: Received logout response
+20120418-20:04:04: Disconnecting
+20120418-20:05:27: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120418-20:05:27: Created session: FIX.4.2:ALPHA->BOVESPA
+20120418-20:05:28: Initiated logon request
+20120418-20:05:28: Received logon request
+20120418-20:08:27: Received logout request
+20120418-20:08:27: Sent logout response
+20120418-20:08:27: Disconnecting
+20120418-20:08:28: Connection refused: no further information
+20120420-18:54:35: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120420-18:54:35: Session state is not current; resetting FIX.4.2:ALPHA->BOVESPA
+20120420-18:54:35: Created session: FIX.4.2:ALPHA->BOVESPA
+20120420-18:54:36: Initiated logon request
+20120420-18:54:36: Received logon request
+20120420-19:00:34: Initiated logout request
+20120420-19:00:34: Received logout response
+20120420-19:00:34: Disconnecting
+20120510-13:30:04: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-13:30:04: Session state is not current; resetting FIX.4.2:ALPHA->BOVESPA
+20120510-13:30:04: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-13:30:05: Initiated logon request
+20120510-13:30:05: Received logon request
+20120510-13:39:51: Initiated logout request
+20120510-13:39:51: Received logout response
+20120510-13:39:51: Disconnecting
+20120510-14:13:41: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-14:13:41: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-14:13:42: Initiated logon request
+20120510-14:13:42: Received logon request
+20120510-14:23:17: Initiated logout request
+20120510-14:23:17: Received logout response
+20120510-14:23:17: Disconnecting
+20120510-14:24:18: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-14:24:18: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-14:24:19: Initiated logon request
+20120510-14:24:19: Received logon request
+20120510-14:26:01: Initiated logout request
+20120510-14:26:01: Received logout response
+20120510-14:26:01: Disconnecting
+20120510-14:33:58: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-14:33:58: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-14:33:59: Initiated logon request
+20120510-14:33:59: Received logon request
+20120510-14:37:33: Initiated logout request
+20120510-14:37:33: Received logout response
+20120510-14:37:33: Disconnecting
+20120510-14:38:57: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-14:38:57: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-14:38:58: Initiated logon request
+20120510-14:38:58: Received logon request
+20120510-14:39:57: Initiated logout request
+20120510-14:39:57: Received logout response
+20120510-14:39:57: Disconnecting
+20120510-14:40:25: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-14:40:25: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-14:40:26: Initiated logon request
+20120510-14:40:26: Received logon request
+20120510-14:43:26: Initiated logout request
+20120510-14:43:26: Received logout response
+20120510-14:43:26: Disconnecting
+20120510-14:44:43: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-14:44:43: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-14:44:44: Initiated logon request
+20120510-14:44:44: Received logon request
+20120510-14:48:49: Initiated logout request
+20120510-14:48:49: Received logout response
+20120510-14:48:49: Disconnecting
+20120510-15:10:06: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120510-15:10:06: Created session: FIX.4.2:ALPHA->BOVESPA
+20120510-15:10:07: Initiated logon request
+20120510-15:10:07: Received logon request
+20120510-15:12:43: Received logout request
+20120510-15:12:43: Sent logout response
+20120510-15:12:43: Disconnecting
+20120510-15:12:44: Connection refused: no further information
+20120511-03:16:08: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120511-03:16:08: Session state is not current; resetting FIX.4.2:ALPHA->BOVESPA
+20120511-03:16:09: Created session: FIX.4.2:ALPHA->BOVESPA
+20120511-03:16:11: Initiated logon request
+20120511-03:16:11: Received logon request
+20120511-03:24:10: Initiated logout request
+20120511-03:24:10: Disconnecting
+20120511-04:04:21: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120511-04:04:22: Created session: FIX.4.2:ALPHA->BOVESPA
+20120511-04:04:23: Connection refused: no further information
+20120511-04:04:53: Connection refused: no further information
+20120511-04:05:24: Initiated logon request
+20120511-04:05:24: Received logon request
+20120511-04:05:24: MsgSeqNum too high, expecting 17 but received 18
+20120511-04:05:24: Sent ResendRequest FROM: 17 TO: 0
+20120511-04:05:24: ResendRequest for messages FROM 17 TO 17 has been satisfied.
+20120511-04:05:24: Received SequenceReset FROM: 17 TO: 19
+20120511-04:06:15: Received logout request
+20120511-04:06:15: Sent logout response
+20120511-04:06:15: Disconnecting
+20120511-04:06:16: Connection refused: no further information
+20120511-19:02:48: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120511-19:02:48: Created session: FIX.4.2:ALPHA->BOVESPA
+20120511-19:02:49: Initiated logon request
+20120511-19:02:49: Received logon request
+20120511-19:04:17: Initiated logout request
+20120511-19:04:17: Received logout response
+20120511-19:04:17: Disconnecting
+20120511-19:07:01: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120511-19:07:01: Created session: FIX.4.2:ALPHA->BOVESPA
+20120511-19:07:02: Initiated logon request
+20120511-19:07:02: Received logon request
+20120511-19:13:32: Initiated logout request
+20120511-19:13:32: Received logout response
+20120511-19:13:32: Disconnecting
+20120514-18:40:38: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120514-18:40:38: Session state is not current; resetting FIX.4.2:ALPHA->BOVESPA
+20120514-18:40:38: Created session: FIX.4.2:ALPHA->BOVESPA
+20120514-18:40:39: Initiated logon request
+20120514-18:40:39: Received logon request
+20120514-18:45:13: Initiated logout request
+20120514-18:45:13: Received logout response
+20120514-18:45:13: Disconnecting
+20120514-18:55:56: Session FIX.4.2:ALPHA->BOVESPA schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120514-18:55:56: Created session: FIX.4.2:ALPHA->BOVESPA
+20120514-18:55:57: Initiated logon request
+20120514-18:55:57: Received logon request
+20120514-19:04:33: Initiated logout request
+20120514-19:04:33: Received logout response
+20120514-19:04:33: Disconnecting

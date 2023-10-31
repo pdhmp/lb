@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <named-schemas>
+            <schema name="QSEGComponent">
+                <field description="" name="Symbol" type="string"/>
+                <field description="" name="Last" type="double"/>
+                <field description="" name="LastD_1" type="double"/>
+                <field description="" name="Var" type="double"/>
+                <field description="" name="Weight" type="double"/>
+            </schema>
+        </named-schemas>
+        <schema name="schema:Price">
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="MDEntryPx" type="double"/>
+        </schema>
+        <schema name="schema:QSEGComponents">
+            <field description="" name="IndexName" type="string"/>
+            <field description="" name="TickerName" type="string"/>
+            <field description="" name="LastPrice" type="double"/>
+            <field description="" name="LastDm1" type="double"/>
+            <field description="" name="Weight" type="double"/>
+            <field description="" name="Var" type="double"/>
+            <field description="" name="IdTicker" type="int"/>
+        </schema>
+        <schema name="schema:QSEGSTable">
+            <field description="" name="QSEGName" type="string"/>
+            <field description="" name="Value" type="double"/>
+            <field description="" name="ValueDm1" type="double"/>
+        </schema>
+        <schema name="schema:Start">
+            <field description="" name="Command" type="string"/>
+        </schema>
+        <data name="NESTDB" type="jdbctable">
+            <param name="connection" value="NESTDB"/>
+        </data>
+        <data name="QSEGComponents" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="IndexName"/>
+            <param name="key.1" value="TickerName"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:QSEGComponents"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="QSEGSTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="QSEGName"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:QSEGSTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="Price" schema="schema:Price">
+        </stream>
+        <stream name="Start" schema="schema:Start">
+            <property name="description" value="Inicia o bloco, carregando os dados necessários.&#13;&#10;"/>
+        </stream>
+        <box name="GetQSEG" type="query">
+            <dataref id="querytable" name="QSEGComponents"/>
+            <input port="1" stream="Price"/>
+            <output port="1" stream="out:GetQSEG_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="input.Symbol=TickerName"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="current" selection="all"/>
+                <item name="input" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="GetQSEGS" type="query">
+            <dataref id="jdbctable" name="NESTDB"/>
+            <input port="1" stream="Start"/>
+            <output port="1" stream="out:GetQSEGS_1"/>
+            <param name="sql" value="SELECT distinct(SC.Id_Ticker_Component) as QSEGid, TickerComponent as QSEGName&#13;&#10;                FROM NESTSRV06.NESTDB.dbo.Tb023_Securities_CompositiON SC (nolock)                      JOIN  &#13;&#10;                     NESTSRV06.NESTDB.dbo.Tb001_Securities S  &#13;&#10;                     ON Id_Ticker_Component = idsecurity  &#13;&#10;                WHERE  Id_Ticker_Composite = 281020"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="CalculateVar" type="map">
+            <input port="1" stream="out:GetQSEG_1"/>
+            <output port="1" stream="out:CalculateVar_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="NewVar">((MDEntryPx/LastDm1)-1)*Weight</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="YesterdayQSEG" type="query">
+            <dataref id="jdbctable" name="NESTDB"/>
+            <input port="1" stream="out:GetQSEGS_1"/>
+            <output port="1" stream="out:YesterdayQSEG_1"/>
+            <param name="sql" value="SELECT TOP 1 SrValue AS ValueDm1&#13;&#10;FROM [NESTDB].[dbo].[Tb053_Precos_Indices]&#13;&#10;WHERE IDSECURITY = {QSEGid} AND SRTYPE = 101&#13;&#10;ORDER BY SRDATE DESC"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="InsertQSEGS" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:YesterdayQSEG_1"/>
+            <output port="1" stream="out:InsertQSEGS_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="QSEGName"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable_logical_value" name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="ValueDm1">ValueDm1</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="UpdateLastPrice" type="query">
+            <dataref id="querytable" name="QSEGComponents"/>
+            <input port="1" stream="out:CalculateVar_1"/>
+            <output port="1" stream="out:UpdateLastPrice_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="IndexName"/>
+            <param name="key-value.0" value="IndexName"/>
+            <param name="key-field.1" value="TickerName"/>
+            <param name="key-value.1" value="TickerName"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="input" selection="none"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <remove field="TickerName"/>
+                    <remove field="LastPrice"/>
+                    <remove field="LastDm1"/>
+                    <remove field="Weight"/>
+                    <remove field="Var"/>
+                    <remove field="IdTicker"/>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents_logical_value" name="update">
+                <item name="input" selection="all"/>
+                <expressions>
+                    <set field="LastPrice">MDEntryPx</set>
+                    <set field="Var">NewVar</set>
+                </expressions>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="GetIndexWeigths" type="query">
+            <dataref id="jdbctable" name="NESTDB"/>
+            <input port="1" stream="out:InsertQSEGS_1"/>
+            <output port="1" stream="out:GetIndexWeigths_1"/>
+            <param name="sql" value="SELECT *&#13;&#10;&#9;FROM(&#13;&#10;&#9;&#9;SELECT distinct(SC.Id_Ticker_Component) as IdTicker,S.NestTicker as TickerName,Id_Ticker_Composite as IdIndex, S2.NestTicker as IndexName,Weight,Date_Ref&#13;&#10;&#9;&#9;FROM NESTSRV06.NESTDB.dbo.Tb023_Securities_CompositiON SC (nolock)&#13;&#10;        JOIN&#13;&#10;        NESTSRV06.NESTDB.dbo.Tb001_Securities S&#13;&#10;        ON Id_Ticker_Component = S.idsecurity&#13;&#10;        JOIN&#13;&#10;        NESTSRV06.NESTDB.dbo.Tb001_Securities S2&#13;&#10;        ON Id_Ticker_Composite = S2.idsecurity&#13;&#10;        WHERE Date_Ref &gt;= '2012-07-01' AND Weight &lt;&gt; 0 AND SC.Id_Ticker_Composite = {QSEGid}&#13;&#10;        )A&#13;&#10;        ORDER BY IdIndex,IdTicker,Date_Ref"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="none"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="GetQSEGUpdateValue" type="query">
+            <dataref id="querytable" name="QSEGComponents"/>
+            <input port="1" stream="out:UpdateLastPrice_1"/>
+            <output port="1" stream="out:GetQSEGUpdateValue_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="input.IndexName==current.IndexName"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <expressions>
+                    <include field="QSEGValue">sum(Var)</include>
+                </expressions>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="InsertComponents" type="query">
+            <dataref id="querytable" name="QSEGComponents"/>
+            <input port="1" stream="out:GetIndexWeigths_1"/>
+            <output port="1" stream="out:InsertComponents_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="IndexName"/>
+            <param name="key-value.0" value="IndexName"/>
+            <param name="key-field.1" value="TickerName"/>
+            <param name="key-value.1" value="TickerName"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="current" selection="none"/>
+                <expressions>
+                    <remove field="LastDm1"/>
+                </expressions>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents_logical_value" name="insert">
+                <item name="input" selection="all"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="UpdateQSEGValue" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:GetQSEGUpdateValue_1"/>
+            <output port="1" stream="out:UpdateQSEGValue_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="QSEGName"/>
+            <param name="key-value.0" value="IndexName"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="all"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable_logical_value" name="update">
+                <item name="input" selection="all"/>
+                <expressions>
+                    <set field="Value">(1+QSEGValue)*ValueDm1</set>
+                </expressions>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="GetLasts" type="query">
+            <dataref id="jdbctable" name="NESTDB"/>
+            <input port="1" stream="out:InsertComponents_1"/>
+            <output port="1" stream="out:GetLasts_1"/>
+            <param name="sql" value="SELECT SrValue as LastDm1&#13;&#10;FROM [NESTDB].[dbo].[Tb050_Preco_Acoes_Onshore]&#13;&#10;where idsecurity = {IdTicker} and srtype = 1 and source = 1 and srdate = (SELECT MAX(SRDATE)&#13;&#10;FROM NESTSRV06.NESTDB.dbo.Tb053_Precos_Indices &#13;&#10;WHERE IdSecurity=1073 AND SrType=1 AND Source=1)"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="GetUpdatedQSEGS" type="query">
+            <dataref id="querytable" name="QSEGSTable"/>
+            <input port="1" stream="out:UpdateQSEGValue_1"/>
+            <output port="1" stream="QSEGS"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="all-rows"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="current" selection="all"/>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGSTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="InsertLasts" type="query">
+            <dataref id="querytable" name="QSEGComponents"/>
+            <input port="1" stream="out:GetLasts_1"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="IndexName"/>
+            <param name="key-value.0" value="IndexName"/>
+            <param name="key-field.1" value="TickerName"/>
+            <param name="key-value.1" value="TickerName"/>
+            <param name="write-type" value="update"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="input" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents_logical_value" name="update">
+                <item name="input" selection="all"/>
+            </target-list>
+            <target-list goal-schema="schema:QSEGComponents" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <output-stream name="QSEGS">
+        </output-stream>
+    </add>
+</modify>

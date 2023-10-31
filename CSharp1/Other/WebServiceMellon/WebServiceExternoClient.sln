@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceExternoUnitTests", "WebServiceExternoUnitTests\WebServiceExternoUnitTests.csproj", "{5E9DB0A8-ADCA-4ED6-88CD-168822903055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteExternoWS", "ClienteExternoWS\ClienteExternoWS.csproj", "{0BA61B7B-816A-42B7-882C-F2084923DE64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterfaces", "ServiceInterfaces\ServiceInterfaces.csproj", "{1F69303B-D0B6-476D-B585-9835BFC82B1B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://s16rj:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebServiceExternoUnitTests\\WebServiceExternoUnitTests.csproj
+		SccProjectName1 = WebServiceExternoUnitTests
+		SccLocalPath1 = WebServiceExternoUnitTests
+		SccProjectUniqueName2 = ClienteExternoWS\\ClienteExternoWS.csproj
+		SccProjectName2 = ClienteExternoWS
+		SccLocalPath2 = ClienteExternoWS
+		SccProjectUniqueName3 = ServiceInterfaces\\ServiceInterfaces.csproj
+		SccProjectName3 = ServiceInterfaces
+		SccLocalPath3 = ServiceInterfaces
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E9DB0A8-ADCA-4ED6-88CD-168822903055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9DB0A8-ADCA-4ED6-88CD-168822903055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9DB0A8-ADCA-4ED6-88CD-168822903055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9DB0A8-ADCA-4ED6-88CD-168822903055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA61B7B-816A-42B7-882C-F2084923DE64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA61B7B-816A-42B7-882C-F2084923DE64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA61B7B-816A-42B7-882C-F2084923DE64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA61B7B-816A-42B7-882C-F2084923DE64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F69303B-D0B6-476D-B585-9835BFC82B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F69303B-D0B6-476D-B585-9835BFC82B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F69303B-D0B6-476D-B585-9835BFC82B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F69303B-D0B6-476D-B585-9835BFC82B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="NESTSRV06">
+        <param name="gui:x" value="-3314.0"/>
+        <param name="gui:y" value="-774.0"/>
+        <param name="gui:width" value="126.0"/>
+        <param name="gui:height" value="59.0"/>
+    </component>
+    <component name="Calculate">
+        <param name="gui:x" value="-3421.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetQSEGS">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3282.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetLastQSEGS">
+        <param name="gui:bends:dataref:jdbctable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3188.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Aggregate">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3102.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="128,85"/>
+    </component>
+    <component name="Map">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-3020.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="CalculateSTDEVRef1">
+        <param name="gui:x" value="-2921.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:bends:1" value=""/>
+    </component>
+    <component name="VarQSEG">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-2795.0"/>
+        <param name="gui:y" value="-918.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Note">
+        <param name="gui:x" value="-3457.0"/>
+        <param name="gui:y" value="-813.0"/>
+        <param name="gui:width" value="133.0"/>
+        <param name="gui:height" value="87.0"/>
+    </component>
+</application-layout>

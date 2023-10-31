@@ -1,0 +1,375 @@
+20100305-14:45:33 : Created session
+20100305-14:45:33 : Connecting to 192.168.0.133 on port 34524
+20100305-14:45:33 : Initiated logon request
+20100305-14:45:33 : Received logon response
+20100305-15:31:22 : Initiated logout request
+20100305-15:31:22 : Received logout response
+20100305-15:31:22 : Disconnecting
+20100305-16:25:48 : Created session
+20100305-16:25:48 : Connecting to 192.168.0.133 on port 34524
+20100305-16:25:48 : Initiated logon request
+20100305-16:25:48 : Received logon response
+20100305-17:14:42 : Created session
+20100305-17:14:42 : Connecting to 192.168.0.133 on port 34524
+20100305-17:14:42 : Initiated logon request
+20100305-17:14:42 : Received logon response
+20100305-17:17:02 : Sent test request TEST
+20100305-18:04:27 : Created session
+20100305-18:04:27 : Connecting to 192.168.0.133 on port 34524
+20100305-18:04:27 : Initiated logon request
+20100305-18:04:27 : Received logon response
+20100305-18:04:27 : MsgSeqNum too high, expecting 82 but received 83
+20100305-18:04:27 : Sent ResendRequest FROM: 82 TO: 0
+20100305-18:04:27 : MsgSeqNum too high, expecting 82 but received 84
+20100305-18:04:27 : Already sent ResendRequest FROM: 82 TO: 82.  Not sending another.
+20100305-18:04:27 : ResendRequest for messages FROM: 82 TO: 82 has been satisfied.
+20100305-18:04:41 : Processing QUEUED message: 83
+20100305-18:04:41 : Processing QUEUED message: 84
+20100305-18:04:57 : Initiated logout request
+20100305-18:05:00 : Timed out waiting for logout response
+20100305-18:05:00 : Disconnecting
+20100305-18:13:10 : Created session
+20100305-18:13:10 : Connecting to 192.168.0.133 on port 34524
+20100305-18:13:10 : Initiated logon request
+20100305-18:13:10 : Received logon response
+20100305-18:13:10 : MsgSeqNum too high, expecting 85 but received 86
+20100305-18:13:10 : Sent ResendRequest FROM: 85 TO: 0
+20100305-18:13:10 : MsgSeqNum too high, expecting 85 but received 87
+20100305-18:13:10 : Already sent ResendRequest FROM: 85 TO: 85.  Not sending another.
+20100305-18:13:10 : ResendRequest for messages FROM: 85 TO: 85 has been satisfied.
+20100305-18:13:10 : Received SequenceReset FROM: 85 TO: 88
+20100305-18:15:13 : Sent test request TEST
+20100305-18:18:04 : Created session
+20100305-18:18:04 : Connecting to 192.168.0.133 on port 34524
+20100305-18:18:04 : Initiated logon request
+20100305-18:18:04 : Received logon response
+20100305-18:19:06 : Initiated logout request
+20100305-18:19:06 : Received logout response
+20100305-18:19:06 : Disconnecting
+20100305-18:19:55 : Created session
+20100305-18:19:55 : Connecting to 192.168.0.133 on port 34524
+20100305-18:19:55 : Initiated logon request
+20100305-18:19:55 : Received logon response
+20100305-18:28:41 : Initiated logout request
+20100305-18:28:41 : Received logout response
+20100305-18:28:41 : Disconnecting
+20100305-19:16:43 : Created session
+20100305-19:16:43 : Connecting to 192.168.0.133 on port 34524
+20100305-19:16:43 : Initiated logon request
+20100305-19:16:43 : Received logon response
+20100305-19:47:46 : Initiated logout request
+20100305-19:47:46 : Received logout response
+20100305-19:47:46 : Disconnecting
+20100305-20:23:17 : Created session
+20100305-20:23:17 : Connecting to 192.168.0.133 on port 34524
+20100305-20:23:17 : Initiated logon request
+20100305-20:23:17 : Received logon response
+20100305-20:23:44 : Initiated logout request
+20100305-20:23:44 : Received logout response
+20100305-20:23:44 : Disconnecting
+20100305-20:24:04 : Created session
+20100305-20:24:04 : Connecting to 192.168.0.133 on port 34524
+20100305-20:24:05 : Disconnecting
+20100305-20:24:05 : Connecting to 192.168.0.133 on port 34524
+20100305-20:24:06 : Disconnecting
+20100305-20:24:35 : Connecting to 192.168.0.133 on port 34524
+20100305-20:24:35 : Initiated logon request
+20100305-20:24:35 : Received logon response
+20100305-20:24:36 : Received ResendRequest FROM: 143 TO: 0
+20100305-20:24:36 : Resending Message: 143
+20100305-20:24:36 : Sent SequenceReset TO: 145
+20100308-13:16:22 : Created session
+20100308-13:16:22 : Connecting to 192.168.0.133 on port 34524
+20100308-13:16:22 : Initiated logon request
+20100308-13:16:22 : Received logon response
+20100309-18:10:51 : Created session
+20100309-18:10:51 : Connecting to 192.168.0.133 on port 34524
+20100309-18:10:51 : Initiated logon request
+20100309-18:10:51 : Socket Error: Connection reset by peer.
+20100309-18:10:51 : Disconnecting
+20100309-18:10:52 : Connecting to 192.168.0.133 on port 34524
+20100309-18:10:52 : Initiated logon request
+20100309-18:11:47 : Created session
+20100309-18:11:47 : Connecting to 192.168.0.133 on port 34524
+20100309-18:11:47 : Initiated logon request
+20100309-18:12:02 : Timed out waiting for logon response
+20100309-18:12:02 : Disconnecting
+20100309-18:12:18 : Connecting to 192.168.0.133 on port 34524
+20100309-18:12:18 : Initiated logon request
+20100309-18:12:33 : Timed out waiting for logon response
+20100309-18:12:33 : Disconnecting
+20100309-18:12:48 : Connecting to 192.168.0.133 on port 34524
+20100309-18:12:48 : Initiated logon request
+20100309-18:13:03 : Timed out waiting for logon response
+20100309-18:13:03 : Disconnecting
+20100309-18:13:18 : Connecting to 192.168.0.133 on port 34524
+20100309-18:13:18 : Initiated logon request
+20100309-18:13:33 : Timed out waiting for logon response
+20100309-18:13:33 : Disconnecting
+20100309-18:13:48 : Connecting to 192.168.0.133 on port 34524
+20100309-18:13:48 : Initiated logon request
+20100309-18:14:03 : Timed out waiting for logon response
+20100309-18:14:03 : Disconnecting
+20100309-18:14:18 : Connecting to 192.168.0.133 on port 34524
+20100309-18:14:18 : Initiated logon request
+20100309-18:14:33 : Timed out waiting for logon response
+20100309-18:14:33 : Disconnecting
+20100309-18:14:48 : Connecting to 192.168.0.133 on port 34524
+20100309-18:14:48 : Initiated logon request
+20100309-18:15:02 : Created session
+20100309-18:15:02 : Connecting to 192.168.0.133 on port 34524
+20100309-18:15:02 : Initiated logon request
+20100309-18:15:17 : Timed out waiting for logon response
+20100309-18:15:17 : Disconnecting
+20100309-18:15:33 : Connecting to 192.168.0.133 on port 34524
+20100309-18:15:33 : Initiated logon request
+20100309-18:15:48 : Timed out waiting for logon response
+20100309-18:15:48 : Disconnecting
+20100309-18:16:03 : Connecting to 192.168.0.133 on port 34524
+20100309-18:16:03 : Initiated logon request
+20100309-18:16:18 : Timed out waiting for logon response
+20100309-18:16:18 : Disconnecting
+20100309-18:16:33 : Connecting to 192.168.0.133 on port 34524
+20100309-18:16:33 : Initiated logon request
+20100309-18:16:48 : Timed out waiting for logon response
+20100309-18:16:48 : Disconnecting
+20100309-18:17:03 : Connecting to 192.168.0.133 on port 34524
+20100309-18:17:03 : Initiated logon request
+20100309-18:17:18 : Timed out waiting for logon response
+20100309-18:17:18 : Disconnecting
+20100309-18:17:33 : Connecting to 192.168.0.133 on port 34524
+20100309-18:17:33 : Initiated logon request
+20100309-18:17:48 : Timed out waiting for logon response
+20100309-18:17:48 : Disconnecting
+20100309-18:18:03 : Connecting to 192.168.0.133 on port 34524
+20100309-18:18:03 : Initiated logon request
+20100309-18:18:18 : Timed out waiting for logon response
+20100309-18:18:18 : Disconnecting
+20100309-18:18:33 : Connecting to 192.168.0.133 on port 34524
+20100309-18:18:33 : Initiated logon request
+20100309-18:18:48 : Timed out waiting for logon response
+20100309-18:18:48 : Disconnecting
+20100309-18:19:16 : Created session
+20100309-18:19:16 : Connecting to 192.168.0.133 on port 14143
+20100309-18:19:16 : Initiated logon request
+20100309-18:19:31 : Timed out waiting for logon response
+20100309-18:19:31 : Disconnecting
+20100309-18:19:47 : Connecting to 192.168.0.133 on port 14143
+20100309-18:19:47 : Initiated logon request
+20100309-18:20:02 : Timed out waiting for logon response
+20100309-18:20:02 : Disconnecting
+20100309-18:20:17 : Connecting to 192.168.0.133 on port 14143
+20100309-18:20:17 : Initiated logon request
+20100309-18:20:32 : Timed out waiting for logon response
+20100309-18:20:32 : Disconnecting
+20100309-18:20:47 : Connecting to 192.168.0.133 on port 14143
+20100309-18:20:47 : Initiated logon request
+20100309-18:21:02 : Timed out waiting for logon response
+20100309-18:21:02 : Disconnecting
+20100309-18:21:17 : Connecting to 192.168.0.133 on port 14143
+20100309-18:21:17 : Initiated logon request
+20100309-18:21:32 : Timed out waiting for logon response
+20100309-18:21:32 : Disconnecting
+20100309-18:21:47 : Connecting to 192.168.0.133 on port 14143
+20100309-18:21:47 : Initiated logon request
+20100309-18:22:02 : Timed out waiting for logon response
+20100309-18:22:02 : Disconnecting
+20100309-18:22:17 : Connecting to 192.168.0.133 on port 14143
+20100309-18:22:17 : Initiated logon request
+20100309-18:24:04 : Created session
+20100309-18:24:04 : Connecting to 192.168.0.133 on port 34524
+20100309-18:24:04 : Initiated logon request
+20100309-18:24:19 : Timed out waiting for logon response
+20100309-18:24:19 : Disconnecting
+20100309-18:24:35 : Connecting to 192.168.0.133 on port 34524
+20100309-18:24:35 : Initiated logon request
+20100309-18:24:50 : Timed out waiting for logon response
+20100309-18:24:50 : Disconnecting
+20100309-18:25:05 : Connecting to 192.168.0.133 on port 34524
+20100309-18:25:05 : Initiated logon request
+20100309-18:25:20 : Timed out waiting for logon response
+20100309-18:25:20 : Disconnecting
+20100309-18:25:35 : Connecting to 192.168.0.133 on port 34524
+20100309-18:25:35 : Initiated logon request
+20100309-18:25:50 : Timed out waiting for logon response
+20100309-18:25:50 : Disconnecting
+20100309-18:26:05 : Connecting to 192.168.0.133 on port 34524
+20100309-18:26:05 : Initiated logon request
+20100309-18:26:20 : Timed out waiting for logon response
+20100309-18:26:20 : Disconnecting
+20100309-18:26:35 : Connecting to 192.168.0.133 on port 34524
+20100309-18:26:35 : Initiated logon request
+20100309-18:26:50 : Timed out waiting for logon response
+20100309-18:26:50 : Disconnecting
+20100309-18:27:05 : Connecting to 192.168.0.133 on port 34524
+20100309-18:27:05 : Initiated logon request
+20100309-18:27:20 : Timed out waiting for logon response
+20100309-18:27:20 : Disconnecting
+20100309-18:29:08 : Created session
+20100309-18:29:08 : Connecting to 192.168.0.133 on port 34524
+20100309-18:29:08 : Initiated logon request
+20100309-18:29:23 : Timed out waiting for logon response
+20100309-18:29:23 : Disconnecting
+20100309-18:29:39 : Connecting to 192.168.0.133 on port 34524
+20100309-18:29:39 : Initiated logon request
+20100309-18:29:54 : Timed out waiting for logon response
+20100309-18:29:54 : Disconnecting
+20100309-18:30:09 : Connecting to 192.168.0.133 on port 34524
+20100309-18:30:09 : Initiated logon request
+20100309-18:30:24 : Timed out waiting for logon response
+20100309-18:30:24 : Disconnecting
+20100309-18:30:39 : Connecting to 192.168.0.133 on port 34524
+20100309-18:30:39 : Initiated logon request
+20100309-18:30:54 : Timed out waiting for logon response
+20100309-18:30:54 : Disconnecting
+20100309-18:31:09 : Connecting to 192.168.0.133 on port 34524
+20100309-18:31:09 : Initiated logon request
+20100309-18:31:24 : Timed out waiting for logon response
+20100309-18:31:24 : Disconnecting
+20100309-18:31:39 : Connecting to 192.168.0.133 on port 34524
+20100309-18:31:39 : Initiated logon request
+20100309-18:31:54 : Timed out waiting for logon response
+20100309-18:31:54 : Disconnecting
+20100309-18:32:09 : Connecting to 192.168.0.133 on port 34524
+20100309-18:32:09 : Initiated logon request
+20100309-18:32:24 : Timed out waiting for logon response
+20100309-18:32:24 : Disconnecting
+20100309-18:32:39 : Connecting to 192.168.0.133 on port 34524
+20100309-18:32:39 : Initiated logon request
+20100309-18:32:54 : Timed out waiting for logon response
+20100309-18:32:54 : Disconnecting
+20100309-18:34:13 : Created session
+20100309-18:34:13 : Connecting to 192.168.0.133 on port 34524
+20100309-18:34:13 : Initiated logon request
+20100309-18:34:28 : Timed out waiting for logon response
+20100309-18:34:28 : Disconnecting
+20100309-18:34:44 : Connecting to 192.168.0.133 on port 34524
+20100309-18:34:44 : Initiated logon request
+20100309-18:34:59 : Timed out waiting for logon response
+20100309-18:34:59 : Disconnecting
+20100309-18:35:14 : Connecting to 192.168.0.133 on port 34524
+20100309-18:35:14 : Initiated logon request
+20100309-18:35:29 : Timed out waiting for logon response
+20100309-18:35:29 : Disconnecting
+20100309-18:35:44 : Connecting to 192.168.0.133 on port 34524
+20100309-18:35:44 : Initiated logon request
+20100309-18:35:59 : Timed out waiting for logon response
+20100309-18:35:59 : Disconnecting
+20100309-18:36:14 : Connecting to 192.168.0.133 on port 34524
+20100309-18:36:14 : Initiated logon request
+20100309-18:36:14 : Received logon response
+20100309-18:36:14 : MsgSeqNum too high, expecting 4 but received 29
+20100309-18:36:14 : Sent ResendRequest FROM: 4 TO: 0
+20100309-18:36:14 : Received ResendRequest FROM: 20 TO: 0
+20100309-18:36:14 : Sent SequenceReset TO: 25
+20100309-18:36:14 : Received SequenceReset FROM: 4 TO: 31
+20100309-18:37:15 : ResendRequest for messages FROM: 4 TO: 28 has been satisfied.
+20100309-18:48:34 : Created session
+20100309-18:48:34 : Connecting to 192.168.0.133 on port 34524
+20100309-18:48:34 : Initiated logon request
+20100309-18:48:34 : Received logon response
+20100309-18:48:34 : MsgSeqNum too high, expecting 40 but received 42
+20100309-18:48:34 : Sent ResendRequest FROM: 40 TO: 0
+20100309-18:48:34 : MsgSeqNum too high, expecting 40 but received 43
+20100309-18:48:34 : Already sent ResendRequest FROM: 40 TO: 41.  Not sending another.
+20100309-18:48:35 : Received SequenceReset FROM: 40 TO: 44
+20100309-18:49:09 : ResendRequest for messages FROM: 40 TO: 41 has been satisfied.
+20100310-19:28:45 : Created session
+20100310-19:28:45 : Connecting to 192.168.0.133 on port 34524
+20100310-19:28:45 : Initiated logon request
+20100310-19:28:45 : Socket Error: Connection reset by peer.
+20100310-19:28:45 : Disconnecting
+20100310-19:28:46 : Connecting to 192.168.0.133 on port 34524
+20100310-19:28:46 : Initiated logon request
+20100310-19:29:01 : Timed out waiting for logon response
+20100310-19:29:01 : Disconnecting
+20100310-19:29:16 : Connecting to 192.168.0.133 on port 34524
+20100310-19:29:16 : Initiated logon request
+20100310-19:29:31 : Timed out waiting for logon response
+20100310-19:29:31 : Disconnecting
+20100310-19:29:46 : Connecting to 192.168.0.133 on port 34524
+20100310-19:29:46 : Initiated logon request
+20100310-19:30:01 : Timed out waiting for logon response
+20100310-19:30:01 : Disconnecting
+20100310-19:30:16 : Connecting to 192.168.0.133 on port 34524
+20100310-19:30:16 : Initiated logon request
+20100310-19:30:31 : Timed out waiting for logon response
+20100310-19:30:31 : Disconnecting
+20100310-19:30:46 : Connecting to 192.168.0.133 on port 34524
+20100310-19:30:46 : Initiated logon request
+20100310-19:31:01 : Timed out waiting for logon response
+20100310-19:31:01 : Disconnecting
+20100310-19:32:00 : Connecting to 192.168.0.133 on port 34524
+20100310-19:32:00 : Initiated logon request
+20100310-19:34:11 : Created session
+20100310-19:34:11 : Connecting to 192.168.0.133 on port 34524
+20100310-19:34:11 : Initiated logon request
+20100310-19:34:26 : Timed out waiting for logon response
+20100310-19:34:26 : Disconnecting
+20100310-19:34:42 : Connecting to 192.168.0.133 on port 34524
+20100310-19:34:42 : Initiated logon request
+20100310-19:35:46 : Created session
+20100310-19:35:46 : Connecting to 192.168.0.133 on port 34524
+20100310-19:35:46 : Initiated logon request
+20100310-19:36:01 : Timed out waiting for logon response
+20100310-19:36:01 : Disconnecting
+20100310-19:37:28 : Created session
+20100310-19:37:28 : Connecting to 192.168.0.133 on port 34524
+20100310-19:37:28 : Initiated logon request
+20100310-19:37:43 : Timed out waiting for logon response
+20100310-19:37:43 : Disconnecting
+20100310-19:37:59 : Connecting to 192.168.0.133 on port 34524
+20100310-19:37:59 : Initiated logon request
+20100310-19:38:14 : Timed out waiting for logon response
+20100310-19:38:14 : Disconnecting
+20100310-19:38:29 : Connecting to 192.168.0.133 on port 34524
+20100310-19:38:29 : Initiated logon request
+20100310-19:38:44 : Timed out waiting for logon response
+20100310-19:38:44 : Disconnecting
+20100310-19:38:59 : Connecting to 192.168.0.133 on port 34524
+20100310-19:39:00 : Disconnecting
+20100310-19:39:28 : Created session
+20100310-19:39:28 : Connecting to 192.168.0.133 on port 34524
+20100310-19:39:29 : Disconnecting
+20100310-19:39:29 : Connecting to 192.168.0.133 on port 34524
+20100310-19:39:30 : Disconnecting
+20100310-19:39:59 : Connecting to 192.168.0.133 on port 34524
+20100310-19:39:59 : Initiated logon request
+20100310-19:39:59 : MsgSeqNum too low, expecting 100 but received 13
+20100310-19:39:59 : Disconnecting
+20100310-19:40:29 : Connecting to 192.168.0.133 on port 34524
+20100310-19:40:29 : Initiated logon request
+20100310-19:40:29 : MsgSeqNum too low, expecting 100 but received 16
+20100310-19:40:29 : Disconnecting
+20100310-19:41:28 : Created session
+20100310-19:41:28 : Connecting to 192.168.0.133 on port 34524
+20100310-19:41:28 : Initiated logon request
+20100310-19:41:28 : Received logon response
+20100310-19:41:28 : MsgSeqNum too high, expecting 10 but received 19
+20100310-19:41:29 : Sent ResendRequest FROM: 10 TO: 0
+20100310-19:41:29 : MsgSeqNum too high, expecting 10 but received 20
+20100310-19:41:29 : Already sent ResendRequest FROM: 10 TO: 18.  Not sending another.
+20100310-19:41:29 : Received SequenceReset FROM: 10 TO: 21
+20100310-19:42:29 : ResendRequest for messages FROM: 10 TO: 18 has been satisfied.
+20100310-21:01:12 : Created session
+20100310-21:01:12 : Connecting to 192.168.0.133 on port 34524
+20100310-21:01:12 : Initiated logon request
+20100310-21:01:12 : Received logon response
+20100311-16:02:27 : Created session
+20100311-16:02:27 : Connecting to 192.168.0.133 on port 34524
+20100311-16:02:27 : Initiated logon request
+20100311-16:02:27 : Received logon response
+20100311-16:09:14 : Initiated logout request
+20100311-16:09:14 : Received logout response
+20100311-16:09:14 : Disconnecting
+20100311-18:27:52 : Created session
+20100311-18:27:52 : Connecting to 192.168.0.133 on port 34524
+20100311-18:27:52 : Initiated logon request
+20100311-18:27:52 : Received logon response
+20100311-20:17:29 : Initiated logout request
+20100311-20:17:29 : Received logout response
+20100311-20:17:29 : Disconnecting
+20100311-20:30:59 : Created session
+20100311-20:30:59 : Connecting to 192.168.0.133 on port 34524
+20100311-20:30:59 : Initiated logon request
+20100311-20:30:59 : Received logon response

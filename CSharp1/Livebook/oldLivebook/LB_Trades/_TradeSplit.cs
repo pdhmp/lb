@@ -1,0 +1,325 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+using NestDLL;
+using System.Data.SqlClient;
+using DevExpress.XtraEditors.Repository;
+using System.Threading;
+
+
+namespace LiveBook
+{
+    public partial class _TradeSplit : LBForm
+    {
+        bool HoldUpdates;
+        bool lockRefresh;
+        bool lockSplit;
+        bool ReloadSplit;
+        Thread updThread;
+
+        DataTable tablep = new DataTable();
+        DataTable newTable = new DataTable();
+
+        DataTable tempTable = new DataTable();
+        BindingSource bndGridSource = new BindingSource();
+        static readonly object padlock = new object();
+
+        bool buttonsAdded = false;
+
+        DateTime LastUpdateTime = new DateTime(1900, 01, 01);
+
+        public bool hasLoaded = false;
+
+        int RefreshPhase = 0;
+        int ReloadPhase = 0;
+        int ResplitPhase = 0;
+
+        public _TradeSplit()
+        {
+            InitializeComponent();
+        }
+
+        public void SetUpdateFreq(int UpdTime)
+        {
+            //timer1.Interval = UpdTime;
+        }
+
+        private void _frmTradeSplit_Load(object sender, EventArgs e)
+        {
+            using (newNestConn curConn = new newNestConn())
+            {
+
+                string SQLStringDate = "Select top 1 convert(varchar,CheckInTime,8) from NESTLOG.dbo.Tb900_CheckIn_Log (nolock) Where Program_Id = 70 AND CheckInTime >=convert(varchar,CheckInTime,112)";
+                lblLastUpdate.Text = curConn.Execute_Query_String(SQLStringDate);
+
+                DataColumn[] KeyColumns = new DataColumn[4];
+                KeyColumns[0] = tempTable.Columns["Id Book"];
+                KeyColumns[1] = tempTable.Columns["Id Section"];
+                KeyColumns[2] = tempTable.Columns["Id Broker"];
+                KeyColumns[3] = tempTable.Columns["Id Ticker"];
+
+                newTable = tempTable.Copy();
+
+                DataColumn[] newKeyColumns = new DataColumn[4];
+                newKeyColumns[0] = newTable.Columns["Id Book"];
+                newKeyColumns[1] = newTable.Columns["Id Section"];
+                newKeyColumns[2] = newTable.Columns["Id Broker"];
+                newKeyColumns[3] = newTable.Columns["Id Ticker"];
+
+                tempTable.PrimaryKey = KeyColumns;
+                newTable.PrimaryKey = newKeyColumns;
+
+                bndGridSource.DataSource = tempTable;
+                dtg.DataSource = bndGridSource;
+
+                curUtils.SetColumnStyle(dgTradeSplit, 1);
+
+                dgTradeSplit.ExpandAllGroups();
+            }
+            tmrUpdate.Start();
+
+        }
+
+        private void InitializeGrid()
+        {
+            curUtils.SetColumnStyle(dgTradeSplit, 1);
+
+            dgTradeSplit.ColumnPanelRowHeight = 32;
+
+            dgTradeSplit.Appearance.HeaderPanel.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+
+            // Add Edit Button
+            dgTradeSplit.Columns.AddField("Edit");
+            dgTradeSplit.Columns["Edit"].VisibleIndex = 0;
+            dgTradeSplit.Columns["Edit"].Width = 55;
+            RepositoryItemButtonEdit item4 = new RepositoryItemButtonEdit();
+            item4.Buttons[0].Tag = 1;
+            item4.Buttons[0].Kind = DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph;
+            item4.Buttons[0].Caption = "Edit";
+            dtg.RepositoryItems.Add(item4);
+            dgTradeSplit.Columns["Edit"].ColumnEdit = item4;
+            dgTradeSplit.Columns["Edit"].ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowAlways;
+
+            // Add Update
+            dgTradeSplit.Columns.AddField("Update");
+            dgTradeSplit.Columns["Update"].VisibleIndex = 0;
+            dgTradeSplit.Columns["Update"].Width = 55;
+            RepositoryItemButtonEdit item5 = new RepositoryItemButtonEdit();
+            item5.Buttons[0].Tag = 2;
+            item5.Buttons[0].Kind = DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph;
+            item5.Buttons[0].Caption = "Update";
+            dtg.RepositoryItems.Add(item5);
+            dgTradeSplit.Columns["Update"].ColumnEdit = item5;
+            dgTradeSplit.Columns["Update"].ShowButtonMode = DevExpress.XtraGrid.Views.Base.ShowButtonModeEnum.ShowAlways;
+
+            for (int c = 0; c < dgTradeSplit.Columns.Count; c++)
+            {
+                dgTradeSplit.Columns[c].DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+                dgTradeSplit.Columns[c].DisplayFormat.FormatString = "#,##0;(#,##0);-"; ;
+            }
+
+            foreach (DevExpress.XtraGrid.Columns.GridColumn curColumn in dgTradeSplit.Columns)
+            {
+                curColumn.Caption = curColumn.FieldName.Replace("_", " ");
+            }
+
+            buttonsAdded = true;
+        }
+
+        private void dgTradeSplit_DoubleClick(object sender, EventArgs e)
+        {
+            int Id_Broker;
+            int Id_Ticker;
+            int Id_Book;
+            int Id_Section;
+            string Ticker_Name;
+            string Broker_Name;
+
+            string Column_Name = dgTradeSplit.FocusedColumn.ToString();
+
+            if (Column_Name == "Edit")
+            {
+                Id_Ticker = Convert.ToInt32(dgTradeSplit.GetRowCellValue(dgTradeSplit.FocusedRowHandle, "Id Ticker"));
+                Id_Broker = Convert.ToInt32(dgTradeSplit.GetRowCellValue(dgTradeSplit.FocusedRowHandle, "Id Broker"));
+
+                Id_Book = Convert.ToInt32(dgTradeSplit.GetRowCellValue(dgTradeSplit.FocusedRowHandle, "Id Book"));
+                Id_Section = Convert.ToInt32(dgTradeSplit.GetRowCellValue(dgTradeSplit.FocusedRowHandle, "Id Section"));
+
+                Ticker_Name = Convert.ToString(dgTradeSplit.GetRowCellValue(dgTradeSplit.FocusedRowHandle, "NestTicker"));
+                Broker_Name = Convert.ToString(dgTradeSplit.GetRowCellValue(dgTradeSplit.FocusedRowHandle, "Broker"));
+
+                frmTrade_Aloc_Override Aloca = new frmTrade_Aloc_Override();
+
+                Aloca.Top = this.Top + 100;
+                Aloca.Left = this.Left + 100;
+
+                Aloca.Id_Ticker = Id_Ticker;
+                Aloca.Id_Broker = Id_Broker;
+                Aloca.Id_Book = Id_Book;
+                Aloca.Id_Section = Id_Section;
+                Aloca.lblTicker.Text = Ticker_Name;
+                Aloca.lblBroker.Text = Broker_Name;
+                Aloca.ShowDialog();
+
+                 ReloadSplit = true;
+
+            }
+        }
+
+        private void dgTradeSplit_MouseDown(object sender, MouseEventArgs e)
+        {
+            HoldUpdates = true;
+        }
+
+        private void dgTradeSplit_MouseUp(object sender, MouseEventArgs e)
+        {
+            HoldUpdates = false;
+        }
+
+        private void dgTradeSplit_RowStyle(object sender, DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs e)
+        {
+            if (Convert.ToDouble(dgTradeSplit.GetRowCellValue(e.RowHandle, "Override_Type")) > 0)
+            {
+                e.Appearance.BackColor = Color.LightBlue; ;
+            }
+        }
+
+        private void dgTradeSplit_ColumnWidthChanged(object sender, DevExpress.XtraGrid.Views.Base.ColumnEventArgs e)
+        {
+            curUtils.Save_Columns(dgTradeSplit);
+        }
+
+        private void dgTradeSplit_DragObjectDrop(object sender, DevExpress.XtraGrid.Views.Base.DragObjectDropEventArgs e)
+        {                                                                              
+            curUtils.Save_Columns(dgTradeSplit);
+        }
+
+        private void lblCopy_Click(object sender, EventArgs e)
+        {
+            dgTradeSplit.SelectAll();
+            dgTradeSplit.CopyToClipboard();
+        }
+
+        void RefreshGrid()
+        {
+            using (newNestConn curConn = new newNestConn())
+            {
+                dgTradeSplit.BeginDataUpdate();
+                tempTable = newTable.Copy();
+                dtg.DataSource = tempTable;
+                dgTradeSplit.EndDataUpdate();
+                dgTradeSplit.ExpandAllGroups();
+                
+                cmdRefresh.Enabled = true;
+            }
+        }
+
+        private void ReloadData()
+        {
+            if (ReloadPhase == 0)
+            {
+                using (newNestConn curConn = new newNestConn())
+                {
+                    ReloadPhase = 1;
+                    newTable.Clear();
+                    //while (true) { }
+                    newTable = curConn.Return_DataTable("SELECT * FROM [FCN_GET_Trade_Split_Status]()");
+                    ReloadPhase = 2;
+                    RefreshPhase = 0;
+                    ResplitPhase = 3;
+                }
+            }
+        }
+
+        private void cmdRefresh_Click(object sender, EventArgs e)
+        {
+            CheckForUpdate();
+        }
+
+        private void CheckForUpdate()
+        {
+            string SQLString = "Select top 1 convert(varchar,CheckInTime,8) from NESTLOG.dbo.Tb900_CheckIn_Log(Nolock) Where Program_Id = 70 AND CheckInTime >=convert(varchar,CheckInTime,112)";
+            DateTime New_Time;
+
+            using (newNestConn curConn = new newNestConn())
+            {
+                New_Time = curConn.Return_DateTime(SQLString);
+            }
+
+            if (New_Time != LastUpdateTime)
+            {
+
+                    LastUpdateTime = New_Time;
+                
+            }
+
+            RefreshPhase = 1;
+
+            if (New_Time == Convert.ToDateTime("2222-02-02"))
+            {
+                lblLastUpdate.Text = "Running. Wait the finish!";
+            }
+            else
+            {
+                lblLastUpdate.Text = LastUpdateTime.ToString("HH:mm:ss");
+            }
+
+        }
+
+        private void cmdSplitAll_Click(object sender, EventArgs e)
+        {
+            using (newNestConn curConn = new newNestConn())
+            {
+                string SQLString = "INSERT INTO Tb207_Pending(Id_Ticker,Ini_Date,Source,Status,IsTR)VALUES(0,'" + DateTime.Now.ToString("yyyyMMdd") + "',5,0,0)";
+                curConn.ExecuteNonQuery(SQLString, 1);
+            }
+            ResplitPhase = 1;
+            cmdSplitAll.Enabled = false;
+        }
+
+        private void tmrUpdate_Tick(object sender, EventArgs e)
+        {
+            if (ResplitPhase == 1)
+            {
+                CheckForUpdate();
+            }
+
+            if (ResplitPhase == 3)
+            {
+                cmdSplitAll.Enabled = true;
+                ResplitPhase = 0;
+            }
+
+            if (ReloadPhase == 2)
+            {
+                RefreshGrid();
+                ReloadPhase = 0;
+            }
+
+            if (RefreshPhase == 1)
+            {
+                RefreshPhase = 2;
+                cmdRefresh.Enabled = false;
+                updThread = new Thread(new ThreadStart(ReloadData));
+                updThread.Start();
+            }
+
+            if (!buttonsAdded)
+            {
+                if (newTable.Rows.Count > 0)
+                    InitializeGrid();
+            }
+
+            if(!hasLoaded)
+            {
+                CheckForUpdate();
+                hasLoaded = true;
+            }
+        }
+    }
+}

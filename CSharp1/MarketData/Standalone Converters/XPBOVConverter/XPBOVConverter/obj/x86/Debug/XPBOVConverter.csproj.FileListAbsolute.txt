@@ -1,0 +1,54 @@
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\ResGen.write.1.tlog
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\XPBOVConverter.exe.config
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\XPBOVConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\XPBOVConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\XPBOVConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\XPBOVConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\bin\Debug\Bloomberglp.Blpapi.dll
+c:\Temp\bin\Debug\XPBOVConverter.exe.config
+c:\Temp\bin\Debug\XPBOVConverter.exe.manifest
+c:\Temp\bin\Debug\XPBOVConverter.application
+c:\Temp\bin\Debug\XPBOVConverter.exe
+c:\Temp\bin\Debug\XPBOVConverter.pdb
+c:\Temp\XPBov\bin\Debug\XPBOVConverter.exe.config
+c:\Temp\XPBov\bin\Debug\XPBOVConverter.exe.manifest
+c:\Temp\XPBov\bin\Debug\XPBOVConverter.application
+c:\Temp\XPBov\bin\Debug\XPBOVConverter.exe
+c:\Temp\XPBov\bin\Debug\XPBOVConverter.pdb
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.exe
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.pdb
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.frmMain.resources
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.Properties.Resources.resources
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\GenerateResource.read.1.tlog
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\ResGen.read.1.tlog
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\GenerateResource.write.1.tlog
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\ResGen.write.1.tlog
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.exe.manifest
+\\nestsrv03\NEST\TI\Projects\CSharp\MarketData\Standalone Converters\XPBOVConverter\XPBOVConverter\obj\x86\Debug\XPBOVConverter.application

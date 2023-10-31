@@ -1,0 +1,65 @@
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Properties.Resources.resources
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.exe
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.pdb
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.pdb
+N:\TI\Projects\CSharp\Utils\DelayInformer\BMFDelayInformer\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Form1.resources
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.exe.manifest
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.application
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.exe
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NestDLL.dll
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NestDLL.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Form1.resources
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Properties.Resources.resources
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe.manifest
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.application
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.pdb
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NFastData.dll
+\\NESTSRV03\Nest\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NFastData.pdb
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.exe.manifest
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.application
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.exe
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\ReutersTickOneMinBarsGenerator.pdb
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NFastData.dll
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\bin\Debug\NFastData.pdb
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Form1.resources
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe.manifest
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.application
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe
+N:\TI\Projects\CSharp\Other\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.pdb
+C:\temp\Debug\OneMinBarsGenerator\ReutersTickOneMinBarsGenerator.exe.manifest
+C:\temp\Debug\OneMinBarsGenerator\ReutersTickOneMinBarsGenerator.application
+C:\temp\Debug\OneMinBarsGenerator\ReutersTickOneMinBarsGenerator.exe
+C:\temp\Debug\OneMinBarsGenerator\ReutersTickOneMinBarsGenerator.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.pdb
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Form1.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Properties.Resources.resources
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe.manifest
+C:\Documents and Settings\ramon.vallente\My Documents\Visual Studio 2010\Projects\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.application
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Form1.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.exe.manifest
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\ReutersTickOneMinBarsGenerator\ReutersTickOneMinBarsGenerator\obj\x86\Debug\ReutersTickOneMinBarsGenerator.application

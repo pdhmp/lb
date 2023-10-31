@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SGN.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LastAutoClose" Type="System.String" Scope="User">
+      <Value Profile="(Default)">06/01/2010 17:36:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

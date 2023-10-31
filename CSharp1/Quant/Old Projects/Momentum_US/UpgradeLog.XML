@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Momentum_US">
+</Property><Property Name="Solution File" Value="N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US.sln">
+</Property><Property Name="User Options File" Value="N:\TI\Projects\CSharp\Quant\Momentum_US\Momentum_US.suo">
+</Property><Property Name="Date" Value="segunda-feira, 13 de setembro de 2010">
+</Property><Property Name="Time" Value="12:17">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Momentum_US.sln" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Momentum_US.suo" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US.suo">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Momentum_US.csproj" Description="Project file successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Momentum_US.csproj">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Momentum_US.csproj.user" Description="Project user file successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Momentum_US.csproj.user">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Program.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Program.cs">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Properties\AssemblyInfo.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Sector_Momentum_BZ.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Sector_Momentum_BZ.cs">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Sector_Performance.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Sector_Performance.cs">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Sector_Momentum_BZ_Container.cs" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Sector_Momentum_BZ_Container.cs">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Momentum_US_TemporaryKey.pfx" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Momentum_US_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Properties\app.manifest" Description="File successfully backed up as N:\TI\Projects\CSharp\Quant\Momentum_US\Backup\Momentum_US\Properties\app.manifest">
+</Event><Event ErrorLevel="1" Project="Momentum_US" Source="Momentum_US\Momentum_US.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Momentum_US.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Momentum_US" Source="Momentum_US\Momentum_US.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Momentum_US.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Momentum_US.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Momentum_US" Source="Momentum_US\Momentum_US.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,33 @@
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.exe
+N:\TI\Projects\CSharp\Livebook\Update_Livebook\obj\Debug\Update Livebook.pdb
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update_Livebook.Form1.resources
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update_Livebook.Properties.Resources.resources
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update_Livebook.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update Livebook.TrustInfo.xml
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update Livebook.exe
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update Livebook.pdb
+C:\temp\UpdateLB\Update Livebook.exe.manifest
+C:\temp\UpdateLB\Update Livebook.application
+C:\temp\UpdateLB\Update Livebook.exe
+C:\temp\UpdateLB\Update Livebook.pdb
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update Livebook.exe.manifest
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update Livebook.application
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Update_Livebook.csprojFakesResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\fakes.args
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.fakesconfig
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.pdb
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.1.0.0.1.Fakes.xml
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\LiveDLL.pdb
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\f.ah
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\f.ch
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\f.cs
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\f.csproj
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\f.fakes
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\f.fakesconfig
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\f.csproj.FileListAbsolute.txt
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\f.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\LiveDLL.1.0.0.1.Fakes.dll
+C:\BKP PPAY\CSharp1\Livebook\oldLBCalcs\Update_Livebook\obj\Debug\Fakes\ldll\o\LiveDLL.1.0.0.1.Fakes.pdb

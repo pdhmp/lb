@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>MarketDataFIXBMF</name>
+	<comment></comment>
+	<projects>
+		<project>MarketDataFIXBOV</project>
+		<project>NestProject</project>
+		<project>OSMBovespaAtiva</project>
+		<project>sample_interfaces</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.streambase.sb.ide.core.sbappProjectBuilder2</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.streambase.sb.ide.core.StreamBaseNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

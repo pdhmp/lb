@@ -1,0 +1,2 @@
+N:\TI\Projects\CSharp\Other\FTPUpload\FTPUpload\obj\Release\FTPUpload.exe
+N:\TI\Projects\CSharp\Other\FTPUpload\FTPUpload\obj\Release\FTPUpload.pdb

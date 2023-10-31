@@ -1,0 +1,14 @@
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Hist_Update.frmUpdate.resources
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Calc.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\bin\Debug\LB_Calc.exe.manifest
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\bin\Debug\LB_Calc.application
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\bin\Debug\LB_Calc.exe
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\bin\Debug\LB_Calc.pdb
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Calc.Properties.Resources.resources
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Calc.exe.manifest
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Calc.application
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Calc.exe
+N:\TI\Projects\CSharp\Livebook\LB_Calc\LB_Calc\obj\Debug\LB_Calc.pdb

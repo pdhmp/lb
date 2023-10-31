@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <constant description="Id of XP broker." expr="22" name="Id_Corretora"/>
+        <constant description="Id of StreamBase trader" expr="46" name="Trader"/>
+        <schema name="schema:Order">
+            <field description="Portfolio_Book_Section_SeqNum" name="AppOrderID" type="string"/>
+            <field description="@Id_Ativo" name="Symbol" type="string"/>
+            <field description="@Id_Side" name="BuySell" type="string"/>
+            <field description="@Preco" name="Price" type="double"/>
+            <field description="@Quantidade" name="Size" type="double"/>
+        </schema>
+        <schema name="schema:Orders">
+            <field description="" name="IdOrder" type="string"/>
+            <field description="" name="BrokerId" type="int"/>
+            <field description="" name="TraderId" type="int"/>
+            <field description="" name="DB_OrderId" type="int"/>
+        </schema>
+        <schema name="schema:Trade">
+            <field description="" name="AppOrdID" type="string"/>
+            <field description="" name="LastShares" type="double"/>
+            <field description="" name="AvgPx" type="double"/>
+            <field description="" name="BuySell" type="string"/>
+        </schema>
+        <data name="NESTDBTable" type="jdbctable">
+            <param name="connection" value="NESTDB"/>
+        </data>
+        <data name="Orders" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="IdOrder"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:Orders"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="Order" schema="schema:Order">
+            <property name="description" value="Esse bloco recebe as informações sobre uma ordem sendo enviada ao mercado."/>
+        </stream>
+        <stream name="Trade" schema="schema:Trade">
+        </stream>
+        <box name="LastShares" type="map">
+            <input port="1" stream="Trade"/>
+            <output port="1" stream="out:LastShares_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <replace field="LastShares">if BuySell == "BUY" then LastShares else -LastShares</replace>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="SymbolId" type="query">
+            <property name="description" value="Request for symbolId."/>
+            <dataref id="jdbctable" name="NESTDBTable"/>
+            <input port="1" stream="Order"/>
+            <output port="1" stream="out:SymbolId_1"/>
+            <param name="sql" value="SELECT IdSecurity, IdPrimaryExchange as IdExchange FROM NESTDB.dbo.Tb001_Securities WHERE ExchangeTicker = {Symbol}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="explicit-schema"/>
+            <schema>
+                <field description="" name="IdSecurity" type="int"/>
+                <field description="" name="IdExchange" type="int"/>
+            </schema>
+        </box>
+        <box name="SideMapper" type="map">
+            <property name="description" value="BUY = 1; SELL = 0."/>
+            <input port="1" stream="out:SymbolId_1"/>
+            <output port="1" stream="out:SideMapper_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="SideId">if BuySell == "BUY" then 1 else 2</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="TradeCashMapper" type="map">
+            <input port="1" stream="out:LastShares_1"/>
+            <output port="1" stream="out:TradeCashMapper_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Cash">AvgPx*LastShares</include>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="GetOrderId" type="query">
+            <dataref id="querytable" name="Orders"/>
+            <input port="1" stream="out:TradeCashMapper_1"/>
+            <output port="1" stream="ParcialTrade"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="primary-key"/>
+            <param name="limit" value="1"/>
+            <param name="key-field.0" value="IdOrder"/>
+            <param name="key-lowerbound-value.0" value="input.AppOrdID"/>
+            <param name="key-lowerbound-operation.0" value="eq"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-null"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <item name="current" selection="all"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+            </target-list>
+            <target-list name="insert">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="SizeMapper" type="map">
+            <input port="1" stream="out:SideMapper_1"/>
+            <output port="1" stream="out:SizeMapper_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <replace field="Size">if BuySell="BUY" then Size else -Size</replace>
+                </expressions>
+            </target-list>
+        </box>
+        <box name="InsertTrade" type="query">
+            <dataref id="jdbctable" name="NESTDBTable"/>
+            <input port="1" stream="ParcialTrade"/>
+            <output port="1" stream="FinalTrade"/>
+            <param name="sql" value="EXEC NESTDB.dbo.sp_insert_Tb013_Trades {DB_OrderId}, {LastShares}, {AvgPx}, {Cash}, {BrokerId}, {TraderId}, {strftime('%Y-%m-%d', now())}, 1"/>
+            <param name="use-callable-statements" value="true"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="none"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="OrderCashMapper" type="map">
+            <input port="1" stream="out:SizeMapper_1"/>
+            <output port="1" stream="out:OrderCashMapper_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="Cash">Price*Size</include>
+                    <include field="time">today()</include>
+                    <include field="Id_Portfolio">0</include>
+                    <include field="Id_Book">0</include>
+                    <include field="Id_Section">0</include>
+                </expressions>
+            </target-list>
+        </box>
+        <output-stream name="ParcialTrade">
+        </output-stream>
+        <output-stream name="FinalTrade">
+        </output-stream>
+        <box name="GetParameters" type="java">
+            <input port="1" stream="out:OrderCashMapper_1"/>
+            <output port="1" stream="out:GetParameters_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="GetParameters"/>
+        </box>
+        <box name="InsertTradeCSV" type="outputadapter">
+            <input port="1" stream="FinalTrade"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="C:\Users\NestQuant\Documents\Logs\InsertTrade.csv"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="C:\Users\NestQuant\Documents\Logs\InsertTrade.csv"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+        </box>
+        <box name="InsertTradeLogger" type="outputadapter">
+            <input port="1" stream="FinalTrade"/>
+            <output port="1" stream="out:InsertTradeLogger_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.logger.Log"/>
+            <param name="asyncEnabled" value="true"/>
+            <param name="customFormat"/>
+            <param name="logLevel" value="Trace"/>
+            <param name="messageIdentifier" value="C:\Users\NestQuant\Documents\Logs\InsertTradesLogger.log"/>
+            <param name="messagePrefix"/>
+            <param name="verbose" value="true"/>
+            <param name="asyncEnabled" value="true"/>
+            <param name="customFormat"/>
+            <param name="logLevel" value="Trace"/>
+            <param name="messageIdentifier" value="C:\Users\NestQuant\Documents\Logs\InsertTradesLogger.log"/>
+            <param name="messagePrefix"/>
+            <param name="verbose" value="true"/>
+        </box>
+        <box name="AccountId" type="query">
+            <dataref id="jdbctable" name="NESTDBTable"/>
+            <input port="1" stream="out:GetParameters_1"/>
+            <output port="1" stream="out:AccountId_1"/>
+            <param name="sql" value="SELECT Id_Account FROM NESTDB.dbo.VW_Account_Broker WHERE Id_Portfolio= {Id_Portfolio} AND Id_Broker= {Id_Corretora}"/>
+            <param name="use-callable-statements" value="true"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <include field="IdOrderDB">0</include>
+                    <include field="Trader">Trader</include>
+                    <include field="Id_Corretora">Id_Corretora</include>
+                </expressions>
+            </target-list>
+            <param name="result-set" value="explicit-schema"/>
+            <schema>
+                <field description="" name="Id_Account" type="int"/>
+            </schema>
+        </box>
+        <box name="InsertOrder2" type="java">
+            <input port="1" stream="out:AccountId_1"/>
+            <output port="1" stream="out:InsertOrder2_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="InsertOrder"/>
+        </box>
+        <box name="Query" type="query">
+            <dataref id="querytable" name="Orders"/>
+            <input port="1" stream="out:InsertOrder2_1"/>
+            <output port="1" stream="SucessInsertOrder"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="IdOrder"/>
+            <param name="key-value.0" value="input.AppOrderID"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="input" selection="all"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:Orders_logical_value" name="insert">
+                <item name="input" selection="all"/>
+                <expressions>
+                    <set field="BrokerId">Id_Corretora</set>
+                    <set field="TraderId">Trader</set>
+                    <set field="DB_OrderId">input.IdOrderDB</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="InsertOrderCSV" type="outputadapter">
+            <input port="1" stream="SucessInsertOrder"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.csvwriter.CSVWriter"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="C:\Users\NestQuant\Documents\Logs\InsertOrder.csv"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="CheckForRollAtStartup" value="false"/>
+            <param name="CompressData" value="false"/>
+            <param name="FieldDelimiter" value=","/>
+            <param name="FileName" value="C:\Users\NestQuant\Documents\Logs\InsertOrder.csv"/>
+            <param name="FlushInterval" value="1"/>
+            <param name="IfFileDoesntExist" value="Create new file"/>
+            <param name="IfFileExists" value="Append to existing file"/>
+            <param name="IncludeHeaderInFile" value="true"/>
+            <param name="MaxFileSize" value="0"/>
+            <param name="MaxRollSecs" value="0"/>
+            <param name="NullValueRepresentation" value="null"/>
+            <param name="OpenOutputFileDuringInit" value="false"/>
+            <param name="RollPeriod" value="None"/>
+            <param name="StartControlPort" value="false"/>
+            <param name="StartEventPort" value="false"/>
+            <param name="StringQuoteCharacter" value="&quot;"/>
+            <param name="StringQuoteOption" value="Quote if necessary"/>
+            <param name="SyncOnFlush" value="false"/>
+            <param name="ThrottleErrorMessages" value="false"/>
+            <param name="TsFormat" value="false"/>
+            <param name="logLevel" value="INFO"/>
+        </box>
+        <box name="InsertOrderLogger" type="outputadapter">
+            <input port="1" stream="SucessInsertOrder"/>
+            <output port="1" stream="out:InsertOrderLogger_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.logger.Log"/>
+            <param name="asyncEnabled" value="true"/>
+            <param name="customFormat"/>
+            <param name="logLevel" value="Trace"/>
+            <param name="messageIdentifier" value="C:\Users\NestQuant\Documents\Logs\InsertOrderLogger.log"/>
+            <param name="messagePrefix"/>
+            <param name="verbose" value="true"/>
+            <param name="asyncEnabled" value="true"/>
+            <param name="customFormat"/>
+            <param name="logLevel" value="Trace"/>
+            <param name="messageIdentifier" value="C:\Users\NestQuant\Documents\Logs\InsertOrderLogger.log"/>
+            <param name="messagePrefix"/>
+            <param name="verbose" value="true"/>
+        </box>
+        <output-stream name="SucessInsertOrder">
+        </output-stream>
+    </add>
+</modify>

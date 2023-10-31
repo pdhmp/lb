@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIX_BMF", "FIX_BMF\FIX_BMF.csproj", "{B794199B-463E-45C3-9815-109AFBCCD6D8}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B794199B-463E-45C3-9815-109AFBCCD6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B794199B-463E-45C3-9815-109AFBCCD6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B794199B-463E-45C3-9815-109AFBCCD6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B794199B-463E-45C3-9815-109AFBCCD6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

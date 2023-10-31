@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="Command">
+        <param name="gui:x" value="-773.0"/>
+        <param name="gui:y" value="-927.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MD">
+        <param name="gui:x" value="-773.0"/>
+        <param name="gui:y" value="-817.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MDBMF">
+        <param name="gui:x" value="-773.0"/>
+        <param name="gui:y" value="-707.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Patrimonio">
+        <param name="gui:x" value="-1187.0"/>
+        <param name="gui:y" value="1.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="QSEGS">
+        <param name="gui:x" value="-773.0"/>
+        <param name="gui:y" value="-221.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="VarLastQSEGS">
+        <param name="gui:x" value="-773.0"/>
+        <param name="gui:y" value="-111.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Split">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-1105.0"/>
+        <param name="gui:y" value="1.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SplitCommand">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-935.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="SplitMD">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-825.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="SplitMDBMF">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-715.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="SplitQSEGS">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-229.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="SplitVarLastQSEGS">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-119.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="PatrMomHedged">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-888.0"/>
+        <param name="gui:y" value="-420.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="PatrMomLS">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-9.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="MomentumLS">
+        <param name="gui:x" value="-360.0"/>
+        <param name="gui:y" value="-29.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+        <param name="gui:bends:3" value="-465.0,22.0;-463.0,10.0"/>
+    </component>
+    <component name="Split2">
+        <param name="gui:bends:1" value="-810.0,-389.0;-810.0,-390.0"/>
+        <param name="gui:x" value="-773.0"/>
+        <param name="gui:y" value="-422.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="65.0"/>
+    </component>
+    <component name="PatrMom1">
+        <param name="gui:bends:1" value="-701.0,-401.0;-660.0,-574.0"/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-605.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="PatrMom2">
+        <param name="gui:bends:1" value="-678.0,-394.0;-658.0,-480.0"/>
+        <param name="gui:x" value="-634.0"/>
+        <param name="gui:y" value="-511.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Momentum1">
+        <param name="gui:x" value="-360.0"/>
+        <param name="gui:y" value="-636.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="91.0"/>
+        <param name="gui:bends:1" value="-540.0,-914.0;-466.0,-615.0"/>
+        <param name="gui:bends:2" value="-436.0,-804.0;-388.0,-606.0"/>
+        <param name="gui:bends:3" value="-528.0,-694.0;-504.0,-596.0"/>
+        <param name="gui:bends:4" value="-465.0,-574.0;-463.0,-586.0"/>
+        <param name="gui:bends:5" value="-458.0,-208.0;-370.0,-576.0"/>
+        <param name="gui:bends:6" value="-562.0,-98.0;-471.0,-566.0"/>
+    </component>
+    <component name="Momentum2">
+        <param name="gui:x" value="-360.0"/>
+        <param name="gui:y" value="-497.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="91.0"/>
+        <param name="gui:bends:1" value="-490.0,-896.0;-386.0,-476.0"/>
+        <param name="gui:bends:2" value="-464.0,-786.0;-386.0,-467.0"/>
+        <param name="gui:bends:3" value="-476.0,-658.0;-426.0,-457.0"/>
+        <param name="gui:bends:4" value="-468.0,-480.0;-460.0,-447.0"/>
+        <param name="gui:bends:5" value="-507.0,-190.0;-447.0,-437.0"/>
+        <param name="gui:bends:6" value="-533.0,-80.0;-447.0,-427.0"/>
+    </component>
+    <component name="Union">
+        <param name="gui:bends:1" value="-218.0,-615.0;-194.0,-512.0"/>
+        <param name="gui:bends:2" value="-247.0,-476.0;-243.0,-494.0"/>
+        <param name="gui:bends:3" value="-251.0,-8.0;-135.0,-476.0"/>
+        <param name="gui:x" value="-84.0"/>
+        <param name="gui:y" value="-533.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="UnionOrders">
+        <param name="gui:bends:1" value="-239.0,-566.0;-199.0,-402.0"/>
+        <param name="gui:bends:2" value="-237.0,-427.0;-227.0,-384.0"/>
+        <param name="gui:bends:3" value="-229.0,28.0;-131.0,-366.0"/>
+        <param name="gui:x" value="-84.0"/>
+        <param name="gui:y" value="-423.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+    </component>
+    <component name="Log">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-2.0"/>
+        <param name="gui:y" value="-525.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Orders">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="-2.0"/>
+        <param name="gui:y" value="-415.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

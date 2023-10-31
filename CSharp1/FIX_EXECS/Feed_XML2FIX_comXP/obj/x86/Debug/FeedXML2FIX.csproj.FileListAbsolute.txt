@@ -1,0 +1,65 @@
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\FeedXML2FIX.exe.config
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\FeedXML2FIX.exe
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\FeedXML2FIX.pdb
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\quickfix_net.dll
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\quickfix_net_messages.dll
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\ResolveAssemblyReference.cache
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.Properties.Resources.resources
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\ResGen.read.1.tlog
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\ResGen.write.1.tlog
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.exe
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.pdb
+\\nestsrv03\Nest\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.frmMain.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\FeedXML2FIX.exe.config
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\FeedXML2FIX.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\FeedXML2FIX.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.frmMain.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.Properties.Resources.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\bin\Debug\FeedXML2FIX.exe.config
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.exe
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\bin\Debug\FeedXML2FIX.exe
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\bin\Debug\FeedXML2FIX.pdb
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\bin\Debug\quickfix_net.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\bin\Debug\quickfix_net_messages.dll
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.frmMain.resources
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\FeedXML2FIX.Properties.Resources.resources
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\gabriel.oliveira\Desktop\Feed_XML2FIX\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\bin\Debug\FeedXML2FIX.exe.config
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\FeedXML2FIX.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\FeedXML2FIX.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\bin\Debug\FeedXML2FIX.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\bin\Debug\FeedXML2FIX.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\FeedXML2FIX.frmMain.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\FeedXML2FIX.Properties.Resources.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_NEW\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\bin\Debug\FeedXML2FIX.exe.config
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\FeedXML2FIX.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\FeedXML2FIX.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\bin\Debug\FeedXML2FIX.exe
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\bin\Debug\FeedXML2FIX.pdb
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\FeedXML2FIX.frmMain.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\FeedXML2FIX.Properties.Resources.resources
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\ResGen.read.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+N:\TI\Projects\CSharp\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\FIX_EXECS\Feed_XML2FIX_comXP\bin\Debug\FeedXML2FIX.exe.config
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\FeedXML2FIX.exe
+C:\Users\raphael.souza\Google Drive\Ninho\CSharp1\FIX_EXECS\Feed_XML2FIX_comXP\obj\x86\Debug\FeedXML2FIX.pdb

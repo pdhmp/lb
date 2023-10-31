@@ -1,0 +1,5 @@
+T:\Quant\Strategy\Debug\SectorValueBZ.pdb
+N:\TI\Projects\CSharp\Quant\RatesBZ\RatesBZ\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\RatesBZ\RatesBZ\obj\Debug\SectorValueBZ.pdb
+T:\Quant\Strategy\Debug\SectorValueBZ.exe
+N:\TI\Projects\CSharp\Quant\RatesBZ\RatesBZ\obj\Debug\SectorValueBZ.exe

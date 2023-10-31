@@ -1,0 +1,14 @@
+iptables -t nat -I OUTPUT --src  172.29.0.243 -p tcp --dport 32750 -j DNAT --to-destination 189.39.62.100:15000
+
+
+
+-A OUTPUT -s 172.29.0.243/32 -p tcp -m tcp --dport 32171 -j DNAT --to-destination 172.16.40.247:12334
+
+
+ssh -C -L 0.0.0.0:32999:172.29.0.243:32750 root@189.39.62.101 -N &
+
+
+
+
+
+

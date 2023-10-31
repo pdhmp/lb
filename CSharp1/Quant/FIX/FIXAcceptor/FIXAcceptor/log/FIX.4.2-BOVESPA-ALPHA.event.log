@@ -1,0 +1,51 @@
+20111110-23:16:46 : Created session
+20111110-23:24:47 : Created session
+20111110-23:27:10 : Created session
+20111111-13:13:04 : Created session
+20111111-13:16:08 : Created session
+20111111-13:18:48 : Created session
+20111111-13:19:23 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:19:23 : Received logon request
+20111111-13:19:23 : Responding to logon request
+20111111-13:36:55 : Created session
+20111111-13:37:52 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:37:53 : Received logon request
+20111111-13:37:53 : Responding to logon request
+20111111-13:42:09 : Sent test request TEST
+20111111-13:42:09 : Socket Error: An established connection was aborted by the software in your host machine.
+
+20111111-13:42:09 : Disconnecting
+20111111-13:42:38 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:42:38 : Received logon request
+20111111-13:42:38 : Responding to logon request
+20111111-13:43:30 : Received logout request
+20111111-13:43:30 : Sending logout response
+20111111-13:43:30 : Disconnecting
+20111111-13:43:52 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:43:52 : Received logon request
+20111111-13:43:52 : Responding to logon request
+20111111-13:47:09 : Received logout request
+20111111-13:47:09 : Sending logout response
+20111111-13:47:09 : Disconnecting
+20111111-13:48:33 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:48:33 : Received logon request
+20111111-13:48:33 : Responding to logon request
+20111111-13:50:07 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20111111-13:50:07 : Disconnecting
+20111111-13:55:43 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:55:43 : Received logon request
+20111111-13:55:43 : Responding to logon request
+20111111-13:57:25 : Received logout request
+20111111-13:57:25 : Sending logout response
+20111111-13:57:25 : Disconnecting
+20111111-13:57:48 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20111111-13:57:48 : Received logon request
+20111111-13:57:48 : Responding to logon request
+20111111-14:01:33 : Received logout request
+20111111-14:01:33 : Sending logout response
+20111111-14:01:33 : Disconnecting
+20111111-16:18:06 : Created session
+20111114-19:15:18 : Created session
+20111116-12:37:12 : Created session
+20111121-16:34:12 : Created session

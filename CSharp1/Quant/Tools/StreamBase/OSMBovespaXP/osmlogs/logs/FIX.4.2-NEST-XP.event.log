@@ -1,0 +1,18 @@
+20120619-19:58:01: Session FIX.4.2:NEST->XP schedule is daily, 00:00:00 UTC - 00:00:00 UTC (daily, 00:00:00 UTC - 00:00:00 UTC)
+20120619-19:58:01: Created session: FIX.4.2:NEST->XP
+20120619-19:58:02: Initiated logon request
+20120619-19:58:07: Disconnecting
+20120619-19:58:32: Initiated logon request
+20120619-19:58:37: Disconnecting
+20120619-19:59:03: Initiated logon request
+20120619-19:59:08: Disconnecting
+20120619-19:59:33: Initiated logon request
+20120619-19:59:38: Disconnecting
+20120619-20:00:04: Initiated logon request
+20120619-20:00:09: Disconnecting
+20120619-20:00:34: Initiated logon request
+20120619-20:00:34: Logon contains ResetSeqNumFlag=Y, resetting sequence numbers to 1
+20120619-20:00:34: Received logon request
+20120619-21:39:14: Initiated logout request
+20120619-21:39:14: Received logout response
+20120619-21:39:14: Disconnecting

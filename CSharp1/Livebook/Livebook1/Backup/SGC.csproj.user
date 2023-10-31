@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <PublishUrlHistory>\\nestsrv01\nest\TI\NESTSoft\Installation\LiveBook\|\\Nestsrv01\Public\LiveBook\|\\nestsrv01\public\LiveBook2\|\\nestsrv01\public\LiveBook\|\\nestsrv01\public\sgc\</PublishUrlHistory>
+    <InstallUrlHistory>\\nestsrv01\nest\TI\NESTSoft\Installation\LiveBook\|\\Nestsrv01\Public\LiveBook\|\\nestsrv01\public\LiveBook\|\\nestsrv01\public\\LiveBook\|\\nestsrv01\public\sgc\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ApplicationRevision>270</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

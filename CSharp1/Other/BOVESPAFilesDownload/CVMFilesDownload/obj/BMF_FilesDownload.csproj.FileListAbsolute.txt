@@ -1,0 +1,12 @@
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\bin\Debug\BMF_FilesDownload.exe
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\bin\Debug\BMF_FilesDownload.pdb
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.exe
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.pdb
+C:\temp\bmffile\BMF_FilesDownload.exe.manifest
+C:\temp\bmffile\BMF_FilesDownload.application
+C:\temp\bmffile\BMF_FilesDownload.exe
+C:\temp\bmffile\BMF_FilesDownload.pdb
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.TrustInfo.xml
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.exe.manifest
+N:\TI\Projects\CSharp\Other\BOVESPAFilesDownload\CVMFilesDownload\obj\Debug\BMF_FilesDownload.application

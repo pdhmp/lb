@@ -1,0 +1,16 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>T:\Installation\Quant\SimMomentumUS\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>\\nestsrv03\nest\TI\nestsoft\Installation\Quant\SimMomentumUS\|\\nestsrv03\nest\ti\nestsoft\Installation\Quant\SimMomentumUS\|\\nestsrv03\nest\ti\nestsoff\Installation\Quant\SimMomentumUS\</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <ApplicationRevision>9</ApplicationRevision>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

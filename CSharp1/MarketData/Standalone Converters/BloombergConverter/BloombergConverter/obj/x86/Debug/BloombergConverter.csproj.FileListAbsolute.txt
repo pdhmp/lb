@@ -1,0 +1,45 @@
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\BloombergConverter.exe.config
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\BloombergConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\BloombergConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\BloombergConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\BloombergConverter.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\Bloomberglp.Blpapi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.frmMain.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.Properties.Resources.resources
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.exe.manifest
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.exe
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\bin\Debug\BloombergConverter.exe.config
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.exe
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.pdb
+c:\temp\Debug\BloombergConverter.exe.config
+c:\temp\Debug\BloombergConverter.exe.manifest
+c:\temp\Debug\BloombergConverter.application
+c:\temp\Debug\BloombergConverter.exe
+c:\temp\Debug\BloombergConverter.pdb
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.frmMain.resources
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.Properties.Resources.resources
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\ResGen.read.1.tlog
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\ResGen.write.1.tlog
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.exe.manifest
+\\Nestsrv03\nest\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.application
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.csprojResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\MarketData\Standalone Converters\BloombergConverter\BloombergConverter\obj\x86\Debug\BloombergConverter.csproj.GenerateResource.Cache

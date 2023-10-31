@@ -1,0 +1,594 @@
+20100218-17:49:56 : Created session
+20100218-18:54:15 : Created session
+20100218-19:00:51 : Created session
+20100218-19:03:20 : Created session
+20100218-19:03:37 : Received logon request
+20100218-19:03:37 : Responding to logon request
+20100218-19:06:13 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100218-19:06:13 : Disconnecting
+20100218-19:07:16 : Created session
+20100218-19:07:27 : Received logon request
+20100218-19:07:27 : Responding to logon request
+20100218-19:08:38 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100218-19:08:38 : Disconnecting
+20100218-19:09:18 : Created session
+20100218-19:09:22 : Received logon request
+20100218-19:09:22 : Responding to logon request
+20100218-19:09:39 : Received logout request
+20100218-19:09:39 : Sending logout response
+20100218-19:09:39 : Disconnecting
+20100218-19:12:39 : Created session
+20100218-19:12:43 : Received logon request
+20100218-19:12:43 : Responding to logon request
+20100218-19:14:09 : Received logout request
+20100218-19:14:09 : Sending logout response
+20100218-19:14:09 : Disconnecting
+20100218-19:50:13 : Created session
+20100218-19:50:15 : Received logon request
+20100218-19:50:15 : Responding to logon request
+20100218-19:52:29 : Initiated logout request
+20100218-19:52:29 : Received logout response
+20100218-19:52:29 : Disconnecting
+20100219-12:28:05 : Created session
+20100219-12:28:20 : Received logon request
+20100219-12:28:20 : Responding to logon request
+20100219-12:28:22 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-12:28:22 : Disconnecting
+20100219-12:28:46 : Received logon request
+20100219-12:28:46 : Responding to logon request
+20100219-12:28:46 : Received ResendRequest FROM: 1 TO: 0
+20100219-12:28:46 : Sent SequenceReset TO: 3
+20100219-12:29:41 : Initiated logout request
+20100219-12:29:41 : Received logout response
+20100219-12:29:41 : Disconnecting
+20100219-12:29:51 : Created session
+20100219-12:29:56 : Received logon request
+20100219-12:29:56 : Responding to logon request
+20100219-12:30:59 : Initiated logout request
+20100219-12:30:59 : Received logout response
+20100219-12:30:59 : Disconnecting
+20100219-12:31:20 : Created session
+20100219-12:31:23 : Received logon request
+20100219-12:31:23 : Responding to logon request
+20100219-12:32:30 : Initiated logout request
+20100219-12:32:30 : Received logout response
+20100219-12:32:30 : Disconnecting
+20100219-12:33:37 : Created session
+20100219-12:33:42 : Received logon request
+20100219-12:33:42 : Responding to logon request
+20100219-12:33:48 : Initiated logout request
+20100219-12:33:48 : Received logout response
+20100219-12:33:48 : Disconnecting
+20100219-12:34:17 : Created session
+20100219-12:34:25 : Received logon request
+20100219-12:34:25 : Responding to logon request
+20100219-12:35:31 : Created session
+20100219-12:35:37 : Received logon request
+20100219-12:35:37 : Responding to logon request
+20100219-12:35:37 : MsgSeqNum too high, expecting 14 but received 16
+20100219-12:35:37 : Sent ResendRequest FROM: 14 TO: 0
+20100219-12:39:14 : Created session
+20100219-12:39:36 : Created session
+20100219-12:39:42 : Received logon request
+20100219-12:39:42 : Responding to logon request
+20100219-12:39:42 : MsgSeqNum too high, expecting 14 but received 17
+20100219-12:39:42 : Sent ResendRequest FROM: 14 TO: 0
+20100219-12:42:09 : Created session
+20100219-12:42:14 : Received logon request
+20100219-12:42:14 : Responding to logon request
+20100219-12:42:14 : MsgSeqNum too high, expecting 14 but received 19
+20100219-12:42:14 : Sent ResendRequest FROM: 14 TO: 0
+20100219-12:43:52 : Created session
+20100219-12:44:01 : Received logon request
+20100219-12:44:01 : Responding to logon request
+20100219-12:44:01 : MsgSeqNum too high, expecting 14 but received 21
+20100219-12:44:01 : Sent ResendRequest FROM: 14 TO: 0
+20100219-12:44:01 : Received SequenceReset FROM: 15 TO: 22
+20100219-12:45:01 : ResendRequest for messages FROM: 14 TO: 20 has been satisfied.
+20100219-12:46:03 : Initiated logout request
+20100219-12:46:03 : Received logout response
+20100219-12:46:03 : Disconnecting
+20100219-17:40:53 : Created session
+20100219-17:40:58 : Received logon request
+20100219-17:40:58 : Responding to logon request
+20100219-17:41:17 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-17:41:17 : Disconnecting
+20100219-17:41:30 : Created session
+20100219-17:41:38 : Received logon request
+20100219-17:41:38 : Responding to logon request
+20100219-17:41:49 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-17:41:49 : Disconnecting
+20100219-17:42:20 : Created session
+20100219-17:42:39 : Received logon request
+20100219-17:42:39 : Responding to logon request
+20100219-17:43:33 : Created session
+20100219-17:43:38 : Received logon request
+20100219-17:43:38 : Responding to logon request
+20100219-17:43:45 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-17:43:45 : Disconnecting
+20100219-17:48:25 : Created session
+20100219-17:48:32 : Received logon request
+20100219-17:48:32 : Responding to logon request
+20100219-17:48:41 : Received logout request
+20100219-17:48:41 : Sending logout response
+20100219-17:48:41 : Disconnecting
+20100219-17:49:05 : Created session
+20100219-17:49:11 : Received logon request
+20100219-17:49:11 : Responding to logon request
+20100219-17:49:24 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-17:49:24 : Disconnecting
+20100219-17:49:54 : Received logon request
+20100219-17:49:54 : Responding to logon request
+20100219-17:50:20 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-17:50:20 : Disconnecting
+20100219-17:50:37 : Received logon request
+20100219-17:50:37 : Responding to logon request
+20100219-17:50:53 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100219-17:50:53 : Disconnecting
+20100219-17:51:32 : Received logon request
+20100219-17:51:32 : Responding to logon request
+20100219-17:51:36 : Received logout request
+20100219-17:51:36 : Sending logout response
+20100219-17:51:36 : Disconnecting
+20100219-17:53:45 : Received logon request
+20100219-17:53:45 : Responding to logon request
+20100219-17:53:50 : Received logout request
+20100219-17:53:50 : Sending logout response
+20100219-17:53:50 : Disconnecting
+20100219-17:54:01 : Received logon request
+20100219-17:54:01 : Responding to logon request
+20100219-17:54:33 : Received logout request
+20100219-17:54:33 : Sending logout response
+20100219-17:54:33 : Disconnecting
+20100219-17:59:50 : Created session
+20100219-18:00:03 : Received logon request
+20100219-18:00:03 : Responding to logon request
+20100219-18:00:52 : Received logout request
+20100219-18:00:52 : Sending logout response
+20100219-18:00:52 : Disconnecting
+20100219-18:01:54 : Created session
+20100219-18:01:58 : Received logon request
+20100219-18:01:58 : Responding to logon request
+20100219-18:02:14 : Received logout request
+20100219-18:02:14 : Sending logout response
+20100219-18:02:14 : Disconnecting
+20100219-18:03:18 : Received logon request
+20100219-18:03:18 : Responding to logon request
+20100219-18:04:09 : Received logout request
+20100219-18:04:09 : Sending logout response
+20100219-18:04:09 : Disconnecting
+20100223-15:09:39 : Created session
+20100223-15:09:59 : Received logon request
+20100223-15:09:59 : Responding to logon request
+20100223-15:10:07 : Initiated logout request
+20100223-15:10:07 : Received logout response
+20100223-15:10:07 : Disconnecting
+20100223-15:10:27 : Created session
+20100223-15:30:55 : Created session
+20100223-15:31:49 : Received logon request
+20100223-15:31:49 : Responding to logon request
+20100223-15:32:38 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100223-15:32:38 : Disconnecting
+20100223-15:34:15 : Received logon request
+20100223-15:34:15 : Responding to logon request
+20100223-15:35:15 : Received ResendRequest FROM: 3 TO: 0
+20100223-15:35:15 : Sent SequenceReset TO: 6
+20100223-15:35:31 : Received logout request
+20100223-15:35:31 : Sending logout response
+20100223-15:35:31 : Disconnecting
+20100223-15:39:14 : Received logon request
+20100223-15:39:14 : Responding to logon request
+20100223-15:39:25 : Received logout request
+20100223-15:39:25 : Sending logout response
+20100223-15:39:25 : Disconnecting
+20100223-15:42:42 : Received logon request
+20100223-15:42:42 : Responding to logon request
+20100223-15:42:46 : Received logout request
+20100223-15:42:46 : Sending logout response
+20100223-15:42:46 : Disconnecting
+20100223-15:54:13 : Received logon request
+20100223-15:54:13 : Responding to logon request
+20100223-15:54:17 : Received logout request
+20100223-15:54:17 : Sending logout response
+20100223-15:54:17 : Disconnecting
+20100223-15:59:00 : Created session
+20100223-15:59:15 : Received logon request
+20100223-15:59:15 : Responding to logon request
+20100223-15:59:19 : Received logout request
+20100223-15:59:19 : Sending logout response
+20100223-15:59:19 : Disconnecting
+20100223-20:08:38 : Created session
+20100223-20:09:02 : Received logon request
+20100223-20:09:02 : Responding to logon request
+20100223-20:09:02 : Received logout request
+20100223-20:09:02 : Sending logout response
+20100223-20:09:02 : Disconnecting
+20100223-20:26:45 : Received logon request
+20100223-20:26:45 : Responding to logon request
+20100223-20:26:45 : MsgSeqNum too high, expecting 21 but received 22
+20100223-20:26:45 : Sent ResendRequest FROM: 21 TO: 0
+20100223-20:26:45 : Received ResendRequest FROM: 16 TO: 0
+20100223-20:26:45 : Sent SequenceReset TO: 19
+20100223-20:26:45 : ResendRequest for messages FROM: 21 TO: 21 has been satisfied.
+20100223-20:26:45 : Received SequenceReset FROM: 21 TO: 23
+20100223-20:26:45 : Received SequenceReset FROM: 24 TO: 25
+20100223-20:28:30 : Initiated logout request
+20100223-20:28:30 : Received logout response
+20100223-20:28:30 : Disconnecting
+20100223-20:28:58 : Created session
+20100223-20:29:19 : Received logon request
+20100223-20:29:19 : Responding to logon request
+20100223-20:29:19 : MsgSeqNum too high, expecting 27 but received 28
+20100223-20:29:19 : Sent ResendRequest FROM: 27 TO: 0
+20100223-20:29:19 : ResendRequest for messages FROM: 27 TO: 27 has been satisfied.
+20100223-20:29:19 : Processing QUEUED message: 28
+20100223-20:29:51 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100223-20:29:51 : Disconnecting
+20100223-20:42:49 : Created session
+20100223-20:43:04 : Received logon request
+20100223-20:43:04 : Responding to logon request
+20100223-20:44:04 : MsgSeqNum too high, expecting 30 but received 31
+20100223-20:44:04 : Sent ResendRequest FROM: 30 TO: 0
+20100223-20:44:04 : ResendRequest for messages FROM: 30 TO: 30 has been satisfied.
+20100223-20:44:04 : Processing QUEUED message: 31
+20100223-20:44:22 : Initiated logout request
+20100223-20:44:22 : Received logout response
+20100223-20:44:22 : Disconnecting
+20100223-20:45:02 : Created session
+20100223-20:45:04 : Received logon request
+20100223-20:45:04 : Responding to logon request
+20100223-20:46:04 : MsgSeqNum too high, expecting 34 but received 35
+20100223-20:46:04 : Sent ResendRequest FROM: 34 TO: 0
+20100223-20:46:04 : ResendRequest for messages FROM: 34 TO: 34 has been satisfied.
+20100223-20:46:04 : Processing QUEUED message: 35
+20100223-21:04:31 : Initiated logout request
+20100223-21:04:31 : Received logout response
+20100223-21:04:31 : Disconnecting
+20100223-21:04:38 : Created session
+20100223-21:04:58 : Received logon request
+20100223-21:04:58 : Responding to logon request
+20100223-21:05:58 : MsgSeqNum too high, expecting 56 but received 57
+20100223-21:05:58 : Sent ResendRequest FROM: 56 TO: 0
+20100223-21:05:58 : ResendRequest for messages FROM: 56 TO: 56 has been satisfied.
+20100223-21:05:58 : Processing QUEUED message: 57
+20100223-21:06:44 : Initiated logout request
+20100223-21:06:44 : Received logout response
+20100223-21:06:44 : Disconnecting
+20100223-21:07:03 : Created session
+20100223-21:09:11 : Received logon request
+20100223-21:09:11 : Responding to logon request
+20100223-21:10:11 : MsgSeqNum too high, expecting 60 but received 61
+20100223-21:10:11 : Sent ResendRequest FROM: 60 TO: 0
+20100223-21:10:11 : ResendRequest for messages FROM: 60 TO: 60 has been satisfied.
+20100223-21:10:11 : Processing QUEUED message: 61
+20100223-21:11:26 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100223-21:11:26 : Disconnecting
+20100223-21:27:47 : Received logon request
+20100223-21:27:47 : Responding to logon request
+20100223-21:28:47 : MsgSeqNum too high, expecting 64 but received 65
+20100223-21:28:47 : Sent ResendRequest FROM: 64 TO: 0
+20100223-21:28:47 : ResendRequest for messages FROM: 64 TO: 64 has been satisfied.
+20100223-21:28:47 : Processing QUEUED message: 65
+20100223-21:29:12 : Initiated logout request
+20100223-21:29:12 : Received logout response
+20100223-21:29:12 : Disconnecting
+20100223-21:30:39 : Created session
+20100223-21:31:00 : Received logon request
+20100223-21:31:00 : Responding to logon request
+20100223-21:31:00 : MsgSeqNum too high, expecting 67 but received 68
+20100223-21:31:00 : Sent ResendRequest FROM: 67 TO: 0
+20100223-21:31:00 : ResendRequest for messages FROM: 67 TO: 67 has been satisfied.
+20100223-21:31:00 : Processing QUEUED message: 68
+20100223-21:31:47 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100223-21:31:47 : Disconnecting
+20100223-21:48:28 : Created session
+20100223-21:48:46 : Received logon request
+20100223-21:48:46 : Responding to logon request
+20100223-21:49:43 : Initiated logout request
+20100223-21:49:43 : Received logout response
+20100223-21:49:43 : Disconnecting
+20100223-21:50:41 : Created session
+20100223-21:50:59 : Received logon request
+20100223-21:50:59 : Responding to logon request
+20100223-21:51:32 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100223-21:51:32 : Disconnecting
+20100223-21:53:36 : Received logon request
+20100223-21:53:36 : Responding to logon request
+20100223-21:59:06 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100223-21:59:06 : Disconnecting
+20100224-15:39:15 : Created session
+20100224-15:39:16 : Received logon request
+20100224-15:39:16 : Responding to logon request
+20100224-15:47:12 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100224-15:47:12 : Disconnecting
+20100224-15:56:02 : Created session
+20100224-15:56:15 : Received logon request
+20100224-15:56:15 : Responding to logon request
+20100224-15:59:29 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100224-15:59:29 : Disconnecting
+20100224-18:27:59 : Created session
+20100224-18:27:59 : Received logon request
+20100224-18:27:59 : Responding to logon request
+20100224-18:35:23 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100224-18:35:23 : Disconnecting
+20100225-21:07:31 : Created session
+20100225-21:08:56 : Received logon request
+20100225-21:08:56 : Responding to logon request
+20100225-21:10:17 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100225-21:10:17 : Disconnecting
+20100225-21:10:50 : Created session
+20100226-21:34:16 : Created session
+20100226-21:41:32 : Created session
+20100226-21:42:06 : Created session
+20100226-21:44:07 : Created session
+20100226-21:44:21 : Received logon request
+20100226-21:44:21 : Responding to logon request
+20100226-21:44:21 : MsgSeqNum too high, expecting 1 but received 91
+20100226-21:44:21 : Sent ResendRequest FROM: 1 TO: 0
+20100226-21:44:22 : ResendRequest for messages FROM: 1 TO: 90 has been satisfied.
+20100226-21:44:22 : Processing QUEUED message: 91
+20100226-21:46:41 : Initiated logout request
+20100226-21:46:42 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:46:42 : Disconnecting
+20100226-21:47:15 : Created session
+20100226-21:47:26 : Received logon request
+20100226-21:47:26 : Responding to logon request
+20100226-21:47:26 : Received ResendRequest FROM: 124 TO: 0
+20100226-21:47:26 : Sent SequenceReset TO: 126
+20100226-21:47:53 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:47:53 : Disconnecting
+20100226-21:48:08 : Received logon request
+20100226-21:48:08 : Responding to logon request
+20100226-21:48:37 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:48:37 : Disconnecting
+20100226-21:50:47 : Created session
+20100226-21:51:02 : Received logon request
+20100226-21:51:02 : Responding to logon request
+20100226-21:51:02 : Received ResendRequest FROM: 158 TO: 0
+20100226-21:51:02 : Resending Message: 158
+20100226-21:51:02 : Resending Message: 159
+20100226-21:51:02 : Resending Message: 160
+20100226-21:51:02 : Resending Message: 161
+20100226-21:51:02 : Resending Message: 162
+20100226-21:51:02 : Resending Message: 163
+20100226-21:51:02 : Resending Message: 164
+20100226-21:51:02 : Resending Message: 165
+20100226-21:51:02 : Resending Message: 166
+20100226-21:51:02 : Resending Message: 167
+20100226-21:51:02 : Resending Message: 168
+20100226-21:51:02 : Resending Message: 169
+20100226-21:51:02 : Resending Message: 170
+20100226-21:51:02 : Resending Message: 171
+20100226-21:51:02 : Resending Message: 172
+20100226-21:51:02 : Resending Message: 173
+20100226-21:51:02 : Resending Message: 174
+20100226-21:51:02 : Resending Message: 175
+20100226-21:51:02 : Resending Message: 176
+20100226-21:51:02 : Resending Message: 177
+20100226-21:51:02 : Resending Message: 178
+20100226-21:51:02 : Resending Message: 179
+20100226-21:51:02 : Resending Message: 180
+20100226-21:51:02 : Resending Message: 181
+20100226-21:51:02 : Resending Message: 182
+20100226-21:51:02 : Resending Message: 183
+20100226-21:51:02 : Resending Message: 184
+20100226-21:51:02 : Resending Message: 185
+20100226-21:51:02 : Resending Message: 186
+20100226-21:51:02 : Sent SequenceReset TO: 188
+20100226-21:51:23 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:51:23 : Disconnecting
+20100226-21:52:17 : Created session
+20100226-21:52:30 : Received logon request
+20100226-21:52:30 : Responding to logon request
+20100226-21:52:30 : Received ResendRequest FROM: 158 TO: 0
+20100226-21:52:30 : Resending Message: 158
+20100226-21:52:30 : Resending Message: 159
+20100226-21:52:30 : Resending Message: 160
+20100226-21:52:30 : Resending Message: 161
+20100226-21:52:30 : Resending Message: 162
+20100226-21:52:30 : Resending Message: 163
+20100226-21:52:30 : Resending Message: 164
+20100226-21:52:30 : Resending Message: 165
+20100226-21:52:30 : Resending Message: 166
+20100226-21:52:30 : Resending Message: 167
+20100226-21:52:30 : Resending Message: 168
+20100226-21:52:30 : Resending Message: 169
+20100226-21:52:30 : Resending Message: 170
+20100226-21:52:30 : Resending Message: 171
+20100226-21:52:30 : Resending Message: 172
+20100226-21:52:30 : Resending Message: 173
+20100226-21:52:30 : Resending Message: 174
+20100226-21:52:30 : Resending Message: 175
+20100226-21:52:30 : Resending Message: 176
+20100226-21:52:30 : Resending Message: 177
+20100226-21:52:30 : Resending Message: 178
+20100226-21:52:30 : Resending Message: 179
+20100226-21:52:30 : Resending Message: 180
+20100226-21:52:30 : Resending Message: 181
+20100226-21:52:30 : Resending Message: 182
+20100226-21:52:30 : Resending Message: 183
+20100226-21:52:30 : Resending Message: 184
+20100226-21:52:30 : Resending Message: 185
+20100226-21:52:30 : Resending Message: 186
+20100226-21:52:30 : Sent SequenceReset TO: 189
+20100226-21:57:12 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:57:12 : Disconnecting
+20100226-21:57:34 : Received logon request
+20100226-21:57:34 : Responding to logon request
+20100226-21:58:28 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:58:28 : Disconnecting
+20100226-21:58:46 : Received logon request
+20100226-21:58:46 : Responding to logon request
+20100226-21:59:05 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-21:59:05 : Disconnecting
+20100226-22:04:58 : Received logon request
+20100226-22:04:58 : Responding to logon request
+20100226-22:04:58 : Received ResendRequest FROM: 248 TO: 0
+20100226-22:04:58 : Resending Message: 248
+20100226-22:04:58 : Resending Message: 249
+20100226-22:04:58 : Resending Message: 250
+20100226-22:04:58 : Resending Message: 251
+20100226-22:04:58 : Resending Message: 252
+20100226-22:04:58 : Resending Message: 253
+20100226-22:04:58 : Resending Message: 254
+20100226-22:04:58 : Resending Message: 255
+20100226-22:04:58 : Resending Message: 256
+20100226-22:04:58 : Resending Message: 257
+20100226-22:04:58 : Resending Message: 258
+20100226-22:04:58 : Resending Message: 259
+20100226-22:04:58 : Resending Message: 260
+20100226-22:04:58 : Resending Message: 261
+20100226-22:04:58 : Resending Message: 262
+20100226-22:04:58 : Resending Message: 263
+20100226-22:04:58 : Resending Message: 264
+20100226-22:04:58 : Resending Message: 265
+20100226-22:04:58 : Sent SequenceReset TO: 267
+20100226-22:06:10 : Sent test request TEST
+20100226-22:07:22 : Timed out waiting for heartbeat
+20100226-22:07:22 : Disconnecting
+20100226-22:11:13 : Created session
+20100226-22:11:27 : Received logon request
+20100226-22:11:27 : Responding to logon request
+20100226-22:11:27 : Received ResendRequest FROM: 248 TO: 0
+20100226-22:11:27 : Resending Message: 248
+20100226-22:11:27 : Resending Message: 249
+20100226-22:11:27 : Resending Message: 250
+20100226-22:11:27 : Resending Message: 251
+20100226-22:11:27 : Resending Message: 252
+20100226-22:11:27 : Resending Message: 253
+20100226-22:11:27 : Resending Message: 254
+20100226-22:11:27 : Resending Message: 255
+20100226-22:11:27 : Resending Message: 256
+20100226-22:11:27 : Resending Message: 257
+20100226-22:11:27 : Resending Message: 258
+20100226-22:11:27 : Resending Message: 259
+20100226-22:11:27 : Resending Message: 260
+20100226-22:11:27 : Resending Message: 261
+20100226-22:11:27 : Resending Message: 262
+20100226-22:11:27 : Resending Message: 263
+20100226-22:11:27 : Resending Message: 264
+20100226-22:11:27 : Resending Message: 265
+20100226-22:11:27 : Sent SequenceReset TO: 270
+20100226-22:12:54 : Sent test request TEST
+20100226-22:13:06 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-22:13:06 : Disconnecting
+20100226-22:13:21 : Received logon request
+20100226-22:13:21 : Responding to logon request
+20100226-22:13:21 : Received ResendRequest FROM: 292 TO: 0
+20100226-22:13:21 : Sent SequenceReset TO: 295
+20100226-22:14:22 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-22:14:22 : Disconnecting
+20100226-22:14:32 : Received logon request
+20100226-22:14:32 : Responding to logon request
+20100226-22:14:32 : Received ResendRequest FROM: 296 TO: 0
+20100226-22:14:32 : Resending Message: 296
+20100226-22:14:32 : Resending Message: 297
+20100226-22:14:32 : Resending Message: 298
+20100226-22:14:32 : Resending Message: 299
+20100226-22:14:32 : Resending Message: 300
+20100226-22:14:32 : Resending Message: 301
+20100226-22:14:32 : Resending Message: 302
+20100226-22:14:32 : Resending Message: 303
+20100226-22:14:32 : Resending Message: 304
+20100226-22:14:32 : Resending Message: 305
+20100226-22:14:32 : Resending Message: 306
+20100226-22:14:32 : Resending Message: 307
+20100226-22:14:32 : Resending Message: 308
+20100226-22:14:32 : Resending Message: 309
+20100226-22:14:32 : Resending Message: 310
+20100226-22:14:32 : Resending Message: 311
+20100226-22:14:32 : Resending Message: 312
+20100226-22:14:32 : Resending Message: 313
+20100226-22:14:32 : Resending Message: 314
+20100226-22:14:32 : Resending Message: 315
+20100226-22:14:32 : Resending Message: 316
+20100226-22:14:32 : Resending Message: 317
+20100226-22:14:32 : Resending Message: 318
+20100226-22:14:32 : Resending Message: 319
+20100226-22:14:32 : Resending Message: 320
+20100226-22:14:32 : Resending Message: 321
+20100226-22:14:32 : Sent SequenceReset TO: 323
+20100226-22:14:55 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100226-22:14:55 : Disconnecting
+20100226-22:22:43 : Received logon request
+20100226-22:22:43 : Responding to logon request
+20100226-22:22:43 : Received ResendRequest FROM: 324 TO: 0
+20100226-22:22:43 : Resending Message: 324
+20100226-22:22:43 : Resending Message: 325
+20100226-22:22:43 : Resending Message: 326
+20100226-22:22:43 : Resending Message: 327
+20100226-22:22:43 : Resending Message: 328
+20100226-22:22:43 : Resending Message: 329
+20100226-22:22:43 : Resending Message: 330
+20100226-22:22:43 : Resending Message: 331
+20100226-22:22:43 : Resending Message: 332
+20100226-22:22:43 : Resending Message: 333
+20100226-22:22:43 : Resending Message: 334
+20100226-22:22:43 : Sent SequenceReset TO: 336
+20100226-22:24:12 : Sent test request TEST
+20100226-22:25:24 : Timed out waiting for heartbeat
+20100226-22:25:24 : Disconnecting
+20100301-15:20:49 : Created session
+20100301-15:21:21 : Received logon request
+20100301-15:21:21 : Responding to logon request
+20100301-15:22:43 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100301-15:22:43 : Disconnecting
+20100301-15:23:01 : Received logon request
+20100301-15:23:01 : Responding to logon request
+20100301-15:23:59 : Initiated logout request
+20100301-15:23:59 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100301-15:23:59 : Disconnecting
+20100301-15:58:04 : Created session
+20100301-15:58:05 : Received logon request
+20100301-15:58:05 : Responding to logon request
+20100301-15:58:05 : Received ResendRequest FROM: 59 TO: 0
+20100301-15:58:05 : Sent SequenceReset TO: 61
+20100301-15:58:28 : Initiated logout request
+20100301-15:58:29 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20100301-15:58:29 : Disconnecting
+20100302-14:17:44 : Created session
+20100302-14:18:07 : Received logon request
+20100302-14:18:07 : Responding to logon request
+20100302-14:18:07 : Message 2 Rejected: Tag specified out of required order:50
+20100302-14:18:33 : Received logout request
+20100302-14:18:33 : Sending logout response
+20100302-14:18:33 : Disconnecting
+20100302-14:19:02 : Received logon request
+20100302-14:19:02 : Responding to logon request
+20100302-14:20:14 : Sent test request TEST
+20100302-14:20:18 : Message 5 Rejected: Tag specified out of required order:50
+20100302-14:20:25 : Received logout request
+20100302-14:20:25 : Sending logout response
+20100302-14:20:25 : Disconnecting

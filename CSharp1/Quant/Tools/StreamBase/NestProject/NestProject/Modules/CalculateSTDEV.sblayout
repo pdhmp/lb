@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="List">
+        <param name="gui:x" value="-176.0"/>
+        <param name="gui:y" value="-216.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Iterate">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-94.0"/>
+        <param name="gui:y" value="-216.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Aggregate">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="-12.0"/>
+        <param name="gui:y" value="-216.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="626,415"/>
+    </component>
+    <component name="Map">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="70.0"/>
+        <param name="gui:y" value="-216.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Aggregate2">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="152.0"/>
+        <param name="gui:y" value="-216.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="626,415"/>
+    </component>
+    <component name="OutputStream">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="231.0"/>
+        <param name="gui:y" value="-216.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

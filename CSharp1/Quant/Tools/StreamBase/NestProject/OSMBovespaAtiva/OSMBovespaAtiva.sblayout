@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application-layout>
+    <component name="OrderStateTable">
+        <param name="gui:x" value="235.0"/>
+        <param name="gui:y" value="491.0"/>
+        <param name="gui:width" value="166.0"/>
+        <param name="gui:height" value="63.0"/>
+    </component>
+    <component name="AppIn">
+        <param name="gui:x" value="287.0"/>
+        <param name="gui:y" value="140.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="CancelAll">
+        <param name="gui:x" value="-10.0"/>
+        <param name="gui:y" value="236.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="FIXCommandIn">
+        <param name="gui:x" value="498.0"/>
+        <param name="gui:y" value="284.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetFilled">
+        <param name="gui:x" value="-10.0"/>
+        <param name="gui:y" value="569.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetNewOrPartFilled">
+        <param name="gui:x" value="-10.0"/>
+        <param name="gui:y" value="347.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetOrderState">
+        <param name="gui:x" value="498.0"/>
+        <param name="gui:y" value="380.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetFilledOrders">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="107.0"/>
+        <param name="gui:y" value="569.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="135,90,541;98,52,114,195,114,193;128,86"/>
+    </component>
+    <component name="GetOpenOrders">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="107.0"/>
+        <param name="gui:y" value="236.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="GetOpenOrdersCopy">
+        <param name="gui:bends:dataref:querytable" value=""/>
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="107.0"/>
+        <param name="gui:y" value="347.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:columnwidths" value="135,90,541;98,52,114,195,114,193;128,86"/>
+    </component>
+    <component name="VenueMapOSMUniversalRef1">
+        <param name="gui:x" value="673.0"/>
+        <param name="gui:y" value="263.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="78.0"/>
+        <param name="gui:bends:1" value="606.0,158.0;636.0,284.0"/>
+        <param name="gui:bends:2" value="620.0,315.0;622.0,302.0"/>
+        <param name="gui:bends:3" value="599.0,411.0;617.0,335.0;637.0,335.0;639.0,320.0"/>
+    </component>
+    <component name="FIXAdminOut">
+        <param name="gui:bends" value="776.0,320.0;800.0,417.0"/>
+        <param name="gui:x" value="877.0"/>
+        <param name="gui:y" value="386.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="FilledOut">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="287.0"/>
+        <param name="gui:y" value="569.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="NewOrPartFilledOut">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="287.0"/>
+        <param name="gui:y" value="347.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="OrderStateOut">
+        <param name="gui:bends" value="800.0,308.0;802.0,321.0"/>
+        <param name="gui:x" value="877.0"/>
+        <param name="gui:y" value="290.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="SetCancel">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:x" value="287.0"/>
+        <param name="gui:y" value="236.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Union2">
+        <param name="gui:bends:1" value=""/>
+        <param name="gui:bends:2" value="369.0,267.0;387.0,191.0"/>
+        <param name="gui:x" value="401.0"/>
+        <param name="gui:y" value="150.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="AppMapOSMRef1">
+        <param name="gui:x" value="498.0"/>
+        <param name="gui:y" value="127.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+        <param name="gui:bends:1" value="814.0,296.0;814.0,48.0;457.0,48.0;457.0,148.0"/>
+        <param name="gui:bends:2" value="487.0,181.0;488.0,168.0"/>
+    </component>
+    <component name="AppOut">
+        <param name="gui:bends" value="633.0,168.0;635.0,181.0"/>
+        <param name="gui:x" value="673.0"/>
+        <param name="gui:y" value="150.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="Union">
+        <param name="gui:bends:1" value="792.0,148.0;810.0,75.0"/>
+        <param name="gui:bends:2" value="804.0,284.0;850.0,95.0"/>
+        <param name="gui:x" value="877.0"/>
+        <param name="gui:y" value="54.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+    <component name="ErrorOut">
+        <param name="gui:bends" value=""/>
+        <param name="gui:x" value="959.0"/>
+        <param name="gui:y" value="54.0"/>
+        <param name="gui:width" value="62.0"/>
+        <param name="gui:height" value="62.0"/>
+    </component>
+</application-layout>

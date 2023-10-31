@@ -1,0 +1,5 @@
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Release\SectorValueBZ.exe
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Release\SectorValueBZ.pdb
+T:\Quant\Strategy\SectorValueBZ.exe
+T:\Quant\Strategy\SectorValueBZ.pdb
+N:\TI\Projects\CSharp\Quant\SectorValueBZ\SectorValueBZ\obj\Release\ResolveAssemblyReference.cache

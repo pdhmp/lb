@@ -1,0 +1,14 @@
+20100420-19:52:29 : Created session
+20100420-19:52:29 : Connecting to 127.0.0.1 on port 13222
+20100420-19:52:30 : Disconnecting
+20100420-19:52:30 : Connecting to 127.0.0.1 on port 13222
+20100420-19:52:31 : Disconnecting
+20100821-22:28:20 : Created session
+20100821-22:28:20 : Connecting to 127.0.0.1 on port 13222
+20100821-22:28:20 : Initiated logon request
+20100821-22:28:20 : Socket Error: Connection reset by peer.
+20100821-22:28:20 : Disconnecting
+20100821-22:28:21 : Connecting to 127.0.0.1 on port 13222
+20100821-22:28:21 : Initiated logon request
+20100821-22:28:21 : Socket Error: Connection reset by peer.
+20100821-22:28:21 : Disconnecting

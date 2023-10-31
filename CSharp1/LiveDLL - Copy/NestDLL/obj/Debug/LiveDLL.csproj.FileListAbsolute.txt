@@ -1,0 +1,21 @@
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\LiveDLL.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\LiveDLL.csproj.GenerateResource.Cache
+T:\Resources\LiveDLL.dll.config
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\LiveDLL.Properties.Resources.resources
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\LiveDLL.dll
+C:\BKP PPAY\CSharp\NestDLL\NestDLL\obj\Debug\LiveDLL.pdb
+C:\BKP PPAY\Livebook\Livebook2\Resources\LiveDLL.dll.config
+C:\BKP PPAY\Livebook\Livebook2\Resources\LiveDLL.dll
+C:\BKP PPAY\Livebook\Livebook2\Resources\LiveDLL.pdb
+T:\Resources\LiveDLL.dll
+T:\Resources\LiveDLL.pdb
+C:\BKP PPAY\CSharp\LiveDLL\NestDLL\obj\Debug\LiveDLL.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp\LiveDLL\NestDLL\obj\Debug\LiveDLL.Properties.Resources.resources
+C:\BKP PPAY\CSharp\LiveDLL\NestDLL\obj\Debug\LiveDLL.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp\LiveDLL\NestDLL\obj\Debug\LiveDLL.dll
+C:\BKP PPAY\CSharp\LiveDLL\NestDLL\obj\Debug\LiveDLL.pdb
+C:\BKP PPAY\CSharp1\LiveDLL\NestDLL\obj\Debug\LiveDLL.csprojResolveAssemblyReference.cache
+C:\BKP PPAY\CSharp1\LiveDLL\NestDLL\obj\Debug\LiveDLL.Properties.Resources.resources
+C:\BKP PPAY\CSharp1\LiveDLL\NestDLL\obj\Debug\LiveDLL.csproj.GenerateResource.Cache
+C:\BKP PPAY\CSharp1\LiveDLL\NestDLL\obj\Debug\LiveDLL.dll
+C:\BKP PPAY\CSharp1\LiveDLL\NestDLL\obj\Debug\LiveDLL.pdb

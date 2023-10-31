@@ -1,0 +1,75 @@
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\VWAPS.exe
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\VWAPS.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestCalc.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestDLL.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NFastData.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NCommonTypes.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NSocServer.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NOrderStager.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NFIXConn.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NSYMConn.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestSimDLL.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\quickfix_net_messages.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\quickfix_net.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\FlexApi.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NSocClient.dll
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestCalc.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestDLL.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NFastData.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NCommonTypes.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NSocServer.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NOrderStager.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NFIXConn.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NSYMConn.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestSimDLL.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NestSimDLL.xml
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\bin\Debug\NSocClient.pdb
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\VWAPS.Form1.resources
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\VWAPS.Properties.Resources.resources
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\VWAPS.exe
+c:\documents and settings\ramon.vallente\my documents\visual studio 2010\Projects\VWAPS\VWAPS\obj\x86\Debug\VWAPS.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\VWAPS.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\VWAPS.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\VWAPS.exe
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\VWAPS.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestCalc.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestDLL.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NFastData.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NCommonTypes.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NSocServer.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NOrderStager.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NFIXConn.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestSimDLL.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\quickfix_net_messages.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\quickfix_net.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\Interop.SINALCom.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NSocClient.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestCalc.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NFastData.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NCommonTypes.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NSocServer.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NOrderStager.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NFIXConn.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestSimDLL.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NestSimDLL.xml
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\NSocClient.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\VWAPS.Form1.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\VWAPS.Properties.Resources.resources
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\GenerateResource.read.1.tlog
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\GenerateResource.write.1.tlog
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\VWAPS.exe.manifest
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\VWAPS.application
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\Tamir.SharpSSH.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\Org.Mentalis.Security.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\DiffieHellman.dll
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\bin\Debug\Tamir.SharpSSH.pdb
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\VWAPS.exe.manifest
+N:\TI\Projects\CSharp\Quant\Tools\CSharp\VWAPS\VWAPS\obj\x86\Debug\VWAPS.application

@@ -1,0 +1,11 @@
+C:\GIT\ImportCVM\ImportCVM\obj\Debug\ResolveAssemblyReference.cache
+C:\GIT\ImportCVM\ImportCVM\bin\Debug\ImportCVM.exe
+C:\GIT\ImportCVM\ImportCVM\bin\Debug\ImportCVM.pdb
+C:\GIT\ImportCVM\ImportCVM\obj\Debug\ImportCVM.exe
+C:\GIT\ImportCVM\ImportCVM\obj\Debug\ImportCVM.pdb
+C:\GIT\ImportCVM\ImportCVM\obj\Debug\ImportCVM.frmViewXML.resources
+C:\GIT\ImportCVM\ImportCVM\obj\Debug\ImportCVM.csproj.GenerateResource.Cache
+C:\GIT\ImportCVM\ImportCVM\bin\Debug\NestDLL.dll
+C:\GIT\ImportCVM\ImportCVM\bin\Debug\NestDLL.pdb
+N:\TI\Projects\CSharp\ImportCVM\ImportCVM\obj\Debug\ImportCVM.exe
+N:\TI\Projects\CSharp\ImportCVM\ImportCVM\obj\Debug\ImportCVM.pdb

@@ -1,0 +1,120 @@
+20110914-19:29:44 : Created session
+20110914-19:30:13 : Received logon request
+20110914-19:30:13 : Responding to logon request
+20110914-19:30:13 : MsgSeqNum too high, expecting 1 but received 9
+20110914-19:30:13 : Sent ResendRequest FROM: 1 TO: 0
+20110914-19:30:13 : Received SequenceReset FROM: 1 TO: 10
+20110914-19:31:13 : ResendRequest for messages FROM: 1 TO: 8 has been satisfied.
+20110914-19:43:53 : Socket Error: Connection reset by peer.
+20110914-19:43:53 : Disconnecting
+20110914-19:49:56 : Received logon request
+20110914-19:49:56 : Responding to logon request
+20110914-19:58:42 : Socket Error: Connection reset by peer.
+20110914-19:58:42 : Disconnecting
+20110914-19:58:48 : Received logon request
+20110914-19:58:48 : Responding to logon request
+20110914-19:59:13 : Socket Error: Connection reset by peer.
+20110914-19:59:13 : Disconnecting
+20110914-19:59:18 : Received logon request
+20110914-19:59:18 : Responding to logon request
+20110914-20:46:46 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20110914-20:46:46 : Disconnecting
+20110915-15:31:34 : Created session
+20110915-15:31:35 : Received logon request
+20110915-15:31:35 : Responding to logon request
+20110915-15:34:01 : Socket Error: Connection reset by peer.
+20110915-15:34:01 : Disconnecting
+20110915-15:35:21 : Received logon request
+20110915-15:35:21 : Responding to logon request
+20110915-15:44:53 : Socket Error: Connection reset by peer.
+20110915-15:44:53 : Disconnecting
+20110915-15:47:13 : Received logon request
+20110915-15:47:13 : Responding to logon request
+20110915-15:49:26 : Socket Error: Connection reset by peer.
+20110915-15:49:26 : Disconnecting
+20110915-15:49:36 : Received logon request
+20110915-15:49:36 : Responding to logon request
+20110915-15:50:32 : Socket Error: Connection reset by peer.
+20110915-15:50:32 : Disconnecting
+20110915-15:50:45 : Received logon request
+20110915-15:50:45 : Responding to logon request
+20110915-15:52:57 : Sent test request TEST
+20110915-15:54:05 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20110915-15:54:05 : Disconnecting
+20110915-15:54:51 : Received logon request
+20110915-15:54:51 : Responding to logon request
+20110915-15:54:51 : Received ResendRequest FROM: 24 TO: 0
+20110915-15:54:51 : Sent SequenceReset TO: 27
+20110915-16:51:59 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20110915-16:51:59 : Disconnecting
+20110916-20:04:55 : Created session
+20110916-20:05:20 : Received logon request
+20110916-20:05:20 : Responding to logon request
+20111017-18:57:09 : Created session
+20111017-18:57:10 : Received logon request
+20111017-18:57:10 : Responding to logon request
+20111017-18:59:25 : Socket Error: An existing connection was forcibly closed by the remote host.
+
+20111017-18:59:25 : Disconnecting
+20111017-19:43:56 : Created session
+20111017-19:45:24 : Created session
+20111017-19:45:28 : Received logon request
+20111017-19:45:28 : Responding to logon request
+20111017-19:45:28 : MsgSeqNum too high, expecting 4 but received 8
+20111017-19:45:28 : Sent ResendRequest FROM: 4 TO: 0
+20111017-19:45:28 : Received SequenceReset FROM: 4 TO: 9
+20111017-19:46:28 : ResendRequest for messages FROM: 4 TO: 7 has been satisfied.
+20111017-19:55:50 : Created session
+20111017-19:56:09 : Received logon request
+20111017-19:56:09 : Responding to logon request
+20111017-19:56:47 : Socket Error: Connection reset by peer.
+20111017-19:56:47 : Disconnecting
+20111017-19:57:16 : Received logon request
+20111017-19:57:16 : Responding to logon request
+20111017-19:59:43 : Created session
+20111017-19:59:47 : Received logon request
+20111017-19:59:47 : Responding to logon request
+20111017-20:19:55 : Socket Error: Connection reset by peer.
+20111017-20:19:55 : Disconnecting
+20111017-20:20:07 : Received logon request
+20111017-20:20:07 : Responding to logon request
+20111019-20:28:18 : Created session
+20111019-20:28:22 : Received logon request
+20111019-20:28:22 : Responding to logon request
+20111019-20:31:44 : Socket Error: Connection reset by peer.
+20111019-20:31:44 : Disconnecting
+20111019-20:31:52 : Received logon request
+20111019-20:31:52 : Responding to logon request
+20111019-20:32:18 : Socket Error: Connection reset by peer.
+20111019-20:32:18 : Disconnecting
+20111020-17:59:15 : Created session
+20111020-17:59:16 : Received logon request
+20111020-17:59:16 : Responding to logon request
+20111020-18:30:37 : Socket Error: Connection reset by peer.
+20111020-18:30:37 : Disconnecting
+20111020-18:31:44 : Received logon request
+20111020-18:31:44 : Responding to logon request
+20111020-18:32:46 : Socket Error: Connection reset by peer.
+20111020-18:32:46 : Disconnecting
+20111020-18:33:20 : Received logon request
+20111020-18:33:20 : Responding to logon request
+20111020-18:40:18 : Socket Error: Connection reset by peer.
+20111020-18:40:18 : Disconnecting
+20111020-18:45:23 : Received logon request
+20111020-18:45:23 : Responding to logon request
+20111020-18:48:51 : Socket Error: Connection reset by peer.
+20111020-18:48:51 : Disconnecting
+20111020-18:49:17 : Received logon request
+20111020-18:49:17 : Responding to logon request
+20111020-18:49:34 : Socket Error: Connection reset by peer.
+20111020-18:49:34 : Disconnecting
+20111020-18:49:41 : Received logon request
+20111020-18:49:41 : Responding to logon request
+20111020-19:49:28 : Created session
+20111020-19:49:45 : Received logon request
+20111020-19:49:45 : Responding to logon request
+20111020-19:50:33 : Socket Error: Connection reset by peer.
+20111020-19:50:33 : Disconnecting

@@ -1,0 +1,13 @@
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\obj\Debug\ResolveAssemblyReference.cache
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\obj\Debug\MarketWatch2.Properties.Resources.resources
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\obj\Debug\MarketWatch2.csproj.GenerateResource.Cache
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\MarketWatch2.exe
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\MarketWatch2.pdb
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\NSYMConn.dll
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\FlexApi.dll
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\NSYMConn.pdb
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\obj\Debug\MarketWatch2.exe
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\obj\Debug\MarketWatch2.pdb
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\NCustomControls.dll
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\bin\Debug\NCustomControls.pdb
+N:\TI\Projects\CSharp\Other\MarketWatch2\MarketWatch2\obj\Debug\MarketWatch2.frmWatch.resources

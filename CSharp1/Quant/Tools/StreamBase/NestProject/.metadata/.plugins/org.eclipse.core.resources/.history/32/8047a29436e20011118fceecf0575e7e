@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="7.2.4.6">
+    <add generator="gui">
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <import from="MarketData.sbint" postfix="" prefix=""/>
+        <schema name="schema:Command">
+            <field description="" name="Command" type="string"/>
+        </schema>
+        <schema name="schema:Corretora"/>
+        <schema name="schema:OrdersTable">
+            <field description="Portfolio_Book_Section" name="Owner" type="string"/>
+            <field description="" name="Symbol" type="string"/>
+            <field description="" name="Quantity" type="double"/>
+        </schema>
+        <schema name="schema:TesteBoletagem"/>
+        <data name="Corretora" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:Corretora"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="NESTSRV06" type="jdbctable">
+            <param name="connection" value="NESTDB"/>
+        </data>
+        <data name="OrdersTable" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="key.0" value="Owner"/>
+            <param name="key.1" value="Symbol"/>
+            <param name="storage-method" value="MEMORY"/>
+            <param name="schema" value="schema:OrdersTable"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <data name="Virtual" type="querytable">
+            <param name="primary-index-type" value="btree"/>
+            <param name="storage-method" value="memory"/>
+            <param name="replicated" value="false"/>
+            <param name="shared-table" value="none"/>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+        <stream name="Command" schema="schema:Command">
+        </stream>
+        <stream name="MDREQBMF" schema="MDRequestSchema">
+        </stream>
+        <box name="MDReqInput" type="inputadapter">
+            <output port="1" stream="out:MDReqInput_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.sbd2sbdinput.SBD2SBDInput"/>
+            <param name="AuthnType" value="No authentication"/>
+            <param name="ConnectOnInit" value="true"/>
+            <param name="EnableControlPort" value="false"/>
+            <param name="EnableEventPort" value="false"/>
+            <param name="ExplicitURI"/>
+            <param name="FilterExpression"/>
+            <param name="FilterExpression1"/>
+            <param name="FilterExpression2"/>
+            <param name="FilterExpression3"/>
+            <param name="FilterExpression4"/>
+            <param name="FilterExpression5"/>
+            <param name="FilterExpression6"/>
+            <param name="FilterExpression7"/>
+            <param name="FilterExpression8"/>
+            <param name="FilterExpression9"/>
+            <param name="Keystore"/>
+            <param name="LowLatency" value="false"/>
+            <param name="Password"/>
+            <param name="ReconnectInterval" value="5"/>
+            <param name="Schema" value="MDRequestSchema"/>
+            <param name="Schema1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema3" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema4" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema7" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema8" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="SchemaMatching" value="Match field names"/>
+            <param name="UpStreamContainer" value="default"/>
+            <param name="UpStreamHost" value="localhost"/>
+            <param name="UpStreamPort" value="10000"/>
+            <param name="UpStreamStream" value="MDReqMonitor"/>
+            <param name="UpStreamStream1"/>
+            <param name="UpStreamStream2"/>
+            <param name="UpStreamStream3"/>
+            <param name="UpStreamStream4"/>
+            <param name="UpStreamStream5"/>
+            <param name="UpStreamStream6"/>
+            <param name="UpStreamStream7"/>
+            <param name="UpStreamStream8"/>
+            <param name="UpStreamStream9"/>
+            <param name="UserName"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="useSSL" value="false"/>
+            <param name="AuthnType" value="No authentication"/>
+            <param name="ConnectOnInit" value="true"/>
+            <param name="EnableControlPort" value="false"/>
+            <param name="EnableEventPort" value="false"/>
+            <param name="ExplicitURI"/>
+            <param name="FilterExpression"/>
+            <param name="FilterExpression1"/>
+            <param name="FilterExpression2"/>
+            <param name="FilterExpression3"/>
+            <param name="FilterExpression4"/>
+            <param name="FilterExpression5"/>
+            <param name="FilterExpression6"/>
+            <param name="FilterExpression7"/>
+            <param name="FilterExpression8"/>
+            <param name="FilterExpression9"/>
+            <param name="Keystore"/>
+            <param name="LowLatency" value="false"/>
+            <param name="Password"/>
+            <param name="ReconnectInterval" value="5"/>
+            <param name="Schema" value="MDRequestSchema"/>
+            <param name="Schema1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema3" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema4" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema7" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema8" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:MDReqInput&quot;/&gt;&#13;&#10;"/>
+            <param name="SchemaMatching" value="Match field names"/>
+            <param name="UpStreamContainer" value="default"/>
+            <param name="UpStreamHost" value="localhost"/>
+            <param name="UpStreamPort" value="10000"/>
+            <param name="UpStreamStream" value="MDReqMonitor"/>
+            <param name="UpStreamStream1"/>
+            <param name="UpStreamStream2"/>
+            <param name="UpStreamStream3"/>
+            <param name="UpStreamStream4"/>
+            <param name="UpStreamStream5"/>
+            <param name="UpStreamStream6"/>
+            <param name="UpStreamStream7"/>
+            <param name="UpStreamStream8"/>
+            <param name="UpStreamStream9"/>
+            <param name="UserName"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="useSSL" value="false"/>
+        </box>
+        <box name="Metronome" type="metronome">
+            <output port="1" stream="out:Metronome_1"/>
+            <param name="interval" value="300"/>
+            <param name="timestamp-field" value="time"/>
+        </box>
+        <box name="StreamBasetoStreamBaseInput" type="inputadapter">
+            <output port="1" stream="TradeBMF"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.sbd2sbdinput.SBD2SBDInput"/>
+            <param name="AuthnType" value="No authentication"/>
+            <param name="ConnectOnInit" value="true"/>
+            <param name="EnableControlPort" value="false"/>
+            <param name="EnableEventPort" value="false"/>
+            <param name="ExplicitURI"/>
+            <param name="FilterExpression"/>
+            <param name="FilterExpression1"/>
+            <param name="FilterExpression2"/>
+            <param name="FilterExpression3"/>
+            <param name="FilterExpression4"/>
+            <param name="FilterExpression5"/>
+            <param name="FilterExpression6"/>
+            <param name="FilterExpression7"/>
+            <param name="FilterExpression8"/>
+            <param name="FilterExpression9"/>
+            <param name="Keystore"/>
+            <param name="LowLatency" value="false"/>
+            <param name="Password"/>
+            <param name="ReconnectInterval" value="5"/>
+            <param name="Schema" value="TradeSchema"/>
+            <param name="Schema1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema3" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema4" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema7" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema8" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="SchemaMatching" value="Match field names"/>
+            <param name="UpStreamContainer" value="default"/>
+            <param name="UpStreamHost" value="localhost"/>
+            <param name="UpStreamPort" value="15000"/>
+            <param name="UpStreamStream" value="Trade"/>
+            <param name="UpStreamStream1"/>
+            <param name="UpStreamStream2"/>
+            <param name="UpStreamStream3"/>
+            <param name="UpStreamStream4"/>
+            <param name="UpStreamStream5"/>
+            <param name="UpStreamStream6"/>
+            <param name="UpStreamStream7"/>
+            <param name="UpStreamStream8"/>
+            <param name="UpStreamStream9"/>
+            <param name="UserName"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="useSSL" value="false"/>
+            <param name="AuthnType" value="No authentication"/>
+            <param name="ConnectOnInit" value="true"/>
+            <param name="EnableControlPort" value="false"/>
+            <param name="EnableEventPort" value="false"/>
+            <param name="ExplicitURI"/>
+            <param name="FilterExpression"/>
+            <param name="FilterExpression1"/>
+            <param name="FilterExpression2"/>
+            <param name="FilterExpression3"/>
+            <param name="FilterExpression4"/>
+            <param name="FilterExpression5"/>
+            <param name="FilterExpression6"/>
+            <param name="FilterExpression7"/>
+            <param name="FilterExpression8"/>
+            <param name="FilterExpression9"/>
+            <param name="Keystore"/>
+            <param name="LowLatency" value="false"/>
+            <param name="Password"/>
+            <param name="ReconnectInterval" value="5"/>
+            <param name="Schema" value="TradeSchema"/>
+            <param name="Schema1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema3" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema4" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema6" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema7" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema8" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="Schema9" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;schema name=&quot;schema:StreamBasetoStreamBaseInput&quot;/&gt;&#13;&#10;"/>
+            <param name="SchemaMatching" value="Match field names"/>
+            <param name="UpStreamContainer" value="default"/>
+            <param name="UpStreamHost" value="localhost"/>
+            <param name="UpStreamPort" value="15000"/>
+            <param name="UpStreamStream" value="Trade"/>
+            <param name="UpStreamStream1"/>
+            <param name="UpStreamStream2"/>
+            <param name="UpStreamStream3"/>
+            <param name="UpStreamStream4"/>
+            <param name="UpStreamStream5"/>
+            <param name="UpStreamStream6"/>
+            <param name="UpStreamStream7"/>
+            <param name="UpStreamStream8"/>
+            <param name="UpStreamStream9"/>
+            <param name="UserName"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="useSSL" value="false"/>
+        </box>
+        <stream name="TesteBoletagem" schema="schema:TesteBoletagem">
+        </stream>
+        <box name="Filter" type="filter">
+            <input port="1" stream="Command"/>
+            <output port="1" stream="out:Filter_1"/>
+            <output port="2" stream="out:Filter_2"/>
+            <param name="autogen-nomatch-port" value="false"/>
+            <param name="expression.0" value="Command='START' or Command = 'SEND ORDERS'"/>
+            <param name="expression.1" value="Command='MDREQUEST'"/>
+        </box>
+        <box name="Map" type="map">
+            <input port="1" stream="MDREQBMF"/>
+            <output port="1" stream="out:Map_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+            </target-list>
+        </box>
+        <box name="Map2" type="map">
+            <input port="1" stream="out:MDReqInput_1"/>
+            <output port="1" stream="OutputStream"/>
+            <target-list>
+                <item name="input" selection="all"/>
+            </target-list>
+        </box>
+        <module-reference name="QAMDFIXBOVESPA">
+            <param name="file" value="QAMDFIX.sbapp"/>
+            <input name="MDRequest" port="1" stream="out:MDReqInput_1"/>
+            <output name="Trade" port="1" stream="out:QAMDFIXBOVESPA_1"/>
+        </module-reference>
+        <box name="SendOrderPreview" type="map">
+            <input port="1" stream="out:Metronome_1"/>
+            <output port="1" stream="out:SendOrderPreview_1"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <remove field="time"/>
+                    <include field="Command">'SEND ORDERS'</include>
+                </expressions>
+            </target-list>
+        </box>
+        <output-stream name="TradeBMF">
+        </output-stream>
+        <box name="papeis" type="query">
+            <dataref id="querytable" name="OrdersTable"/>
+            <input port="1" stream="TesteBoletagem"/>
+            <output port="1" stream="out:papeis_1"/>
+            <param name="operation" value="read"/>
+            <param name="where" value="expression"/>
+            <param name="where-expression" value="distinct(Symbol)"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="ignore"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="current" selection="none"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <target-list goal-schema="schema:OrdersTable" name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <box name="GetIndexComposition" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:Filter_2"/>
+            <output port="1" stream="out:GetIndexComposition_1"/>
+            <param name="sql" value="SELECT X.ID_TICKER_COMPOSITE AS Id_Sector, X.ID_TICKER_COMPONENT AS Id_Security, X.WEIGHT as Weight&#13;&#10;FROM (&#13;&#10;&#9;SELECT *  FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION A&#13;&#10;&#9;WHERE ID_TICKER_COMPOSITE IN (&#13;&#10;&#9;&#9;SELECT DISTINCT(ID_TICKER_COMPONENT)&#13;&#10;&#9;&#9;FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION&#13;&#10;&#9;&#9;WHERE ID_TICKER_COMPOSITE = 281020)  AND DATE_REF = (  &#13;&#10;&#9;&#9;&#9;SELECT MAX(DATE_REF)&#13;&#10;&#9;&#9;&#9;FROM NESTDB.DBO.TB023_SECURITIES_COMPOSITION B&#13;&#10;&#9;&#9;&#9;WHERE A.ID_TICKER_COMPOSITE = B.ID_TICKER_COMPOSITE &#13;&#10;&#9;&#9;&#9;AND A.ID_TICKER_COMPONENT = B.ID_TICKER_COMPONENT&#13;&#10;&#9;&#9;&#9;AND WEIGHT &lt;&gt; 0&#13;&#10;&#9;&#9;&#9;AND B.DATE_REF &gt;= '2012-07-01')) X&#13;&#10;&#9;&#9;&#9;ORDER BY Id_Sector,  Id_Security"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <output-stream name="OutputStream">
+        </output-stream>
+        <box name="Split" type="split">
+            <input port="1" stream="out:QAMDFIXBOVESPA_1"/>
+            <output port="1" stream="out:Split_1"/>
+            <output port="2" stream="MKTDT"/>
+            <output port="3" stream="out:Split_3"/>
+            <param name="output-count" value="3"/>
+        </box>
+        <box name="StreamBasetoStreamBaseOutput" type="outputadapter">
+            <input port="1" stream="out:Map_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.sbd2sbdoutput.SBD2SBDOutput"/>
+            <param name="AuthnType" value="No authentication"/>
+            <param name="ConnectOnInit" value="true"/>
+            <param name="DownStreamContainer" value="default"/>
+            <param name="DownStreamHost" value="localhost"/>
+            <param name="DownStreamPort" value="15000"/>
+            <param name="DownStreamStream" value="MDRequest"/>
+            <param name="EnableControlPort" value="false"/>
+            <param name="EnableEventPort" value="false"/>
+            <param name="EnqueueBufferSize" value="100"/>
+            <param name="EnqueueFlushInterval" value="100"/>
+            <param name="ExplicitURI"/>
+            <param name="Keystore"/>
+            <param name="LowLatency" value="false"/>
+            <param name="Password"/>
+            <param name="ReconnectInterval" value="5"/>
+            <param name="SchemaMatching" value="Match field names"/>
+            <param name="UserName"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="useSSL" value="false"/>
+            <param name="AuthnType" value="No authentication"/>
+            <param name="ConnectOnInit" value="true"/>
+            <param name="DownStreamContainer" value="default"/>
+            <param name="DownStreamHost" value="localhost"/>
+            <param name="DownStreamPort" value="15000"/>
+            <param name="DownStreamStream" value="MDRequest"/>
+            <param name="EnableControlPort" value="false"/>
+            <param name="EnableEventPort" value="false"/>
+            <param name="EnqueueBufferSize" value="100"/>
+            <param name="EnqueueFlushInterval" value="100"/>
+            <param name="ExplicitURI"/>
+            <param name="Keystore"/>
+            <param name="LowLatency" value="false"/>
+            <param name="Password"/>
+            <param name="ReconnectInterval" value="5"/>
+            <param name="SchemaMatching" value="Match field names"/>
+            <param name="UserName"/>
+            <param name="logLevel" value="INFO"/>
+            <param name="useSSL" value="false"/>
+        </box>
+        <box name="Union" type="union">
+            <input port="1" stream="out:Filter_1"/>
+            <input port="2" stream="out:SendOrderPreview_1"/>
+            <output port="1" stream="out:Union_1"/>
+            <param name="strict" value="false"/>
+            <param name="strict" value="false"/>
+        </box>
+        <box name="GetSymbol" type="query">
+            <dataref id="jdbctable" name="NESTSRV06"/>
+            <input port="1" stream="out:GetIndexComposition_1"/>
+            <output port="1" stream="out:GetSymbol_1"/>
+            <param name="sql" value="SELECT NestTicker as Symbol&#13;&#10;  FROM [NESTDB].[dbo].[Tb001_Securities]&#13;&#10;  where IdSecurity = {Id_Security}"/>
+            <param name="use-callable-statements" value="false"/>
+            <param name="send-null-tuple" value="false"/>
+            <param name="jdbc-output-column" value="0"/>
+            <target-list>
+                <item name="table" selection="all"/>
+                <item name="input" selection="all"/>
+            </target-list>
+            <param name="result-set" value="query"/>
+        </box>
+        <box name="Log" type="outputadapter">
+            <input port="1" stream="out:Split_3"/>
+            <output port="1" stream="out:Log_1"/>
+            <param name="start:state" value="true"/>
+            <param name="javaclass" value="com.streambase.sb.adapter.logger.Log"/>
+            <param name="asyncEnabled" value="true"/>
+            <param name="customFormat"/>
+            <param name="logLevel" value="Debug"/>
+            <param name="messageIdentifier" value="mdreports/MKTDT.log"/>
+            <param name="messagePrefix"/>
+            <param name="verbose" value="true"/>
+            <param name="asyncEnabled" value="true"/>
+            <param name="customFormat"/>
+            <param name="logLevel" value="Debug"/>
+            <param name="messageIdentifier" value="mdreports/MKTDT.log"/>
+            <param name="messagePrefix"/>
+            <param name="verbose" value="true"/>
+        </box>
+        <output-stream name="MKTDT">
+        </output-stream>
+        <module-reference name="TrendFollow">
+            <param name="file" value="TrendFollow.sbapp"/>
+            <input name="Command" port="1" stream="out:Union_1"/>
+            <input name="MD" port="2" stream="out:Split_1"/>
+            <input name="MDBMF" port="3" stream="TradeBMF"/>
+            <output name="Order" port="1" stream="Order"/>
+            <output name="QSEGS" port="2" stream="QSEGS"/>
+        </module-reference>
+        <box name="InsertOrders" type="query">
+            <dataref id="querytable" name="OrdersTable"/>
+            <input port="1" stream="Order"/>
+            <param name="operation" value="write"/>
+            <param name="where" value="primary-key"/>
+            <param name="key-field.0" value="Owner"/>
+            <param name="key-value.0" value="input.PrefixOrderId"/>
+            <param name="key-field.1" value="Symbol"/>
+            <param name="key-value.1" value="input.Symbol"/>
+            <param name="write-type" value="insert"/>
+            <param name="if-write-fails" value="force"/>
+            <param name="no-match-mode" value="output-no-match-nothing"/>
+            <param name="order-by-direction" value="none"/>
+            <target-list>
+                <item name="input" selection="none"/>
+                <item name="old" selection="none"/>
+                <item name="new" selection="none"/>
+                <item name="current" selection="none"/>
+            </target-list>
+            <target-list goal-schema="schema:OrdersTable" name="insert">
+                <item name="input" selection="none"/>
+                <expressions>
+                    <set field="Quantity">input.Action</set>
+                </expressions>
+            </target-list>
+            <target-list name="update">
+                <item name="input" selection="none"/>
+            </target-list>
+            <target-list name="no-match">
+                <item name="input" selection="none"/>
+            </target-list>
+        </box>
+        <output-stream name="Order">
+        </output-stream>
+        <output-stream name="QSEGS">
+        </output-stream>
+        <box name="SetOutputRequest" type="map">
+            <input port="1" stream="out:GetSymbol_1"/>
+            <output port="1" stream="MDReqMonitor"/>
+            <target-list>
+                <item name="input" selection="all"/>
+                <expressions>
+                    <replace field="Command">'SUBSCRIBE'</replace>
+                    <include field="EntryType">list('TRADE')</include>
+                    <include field="Exchange">'BOVESPA'</include>
+                    <remove field="Id_Sector"/>
+                    <remove field="Id_Security"/>
+                    <remove field="Weight"/>
+                    <include field="SecurityID">''</include>
+                </expressions>
+            </target-list>
+        </box>
+        <output-stream name="MDReqMonitor" schema="MDRequestSchema">
+        </output-stream>
+    </add>
+</modify>

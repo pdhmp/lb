@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Update Livebook.exe" version="1.0.0.71" publicKeyToken="358cd5fc188a8430" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Nest_2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Update Livebook" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Update Livebook.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NestDLL.dll" size="20480">
+      <assemblyIdentity name="NestDLL" version="1.0.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>MYn2Cy45jufmHYvU3VGMxvmZsfE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Update Livebook.exe" size="49152">
+      <assemblyIdentity name="Update Livebook" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CHd3Vg1A1yMFtfexLnSwV0GHZ8I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Nest_2.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JBNv8PS0rKa1+nDoY4dl6FSK/oA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NESTINVEST\raphael" issuerKeyHash="4da2ed17f7a2d84b5a558b9a8dedf124033f805f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rWVQfubfvJYKs0+YyDnciWBEa6A=</DigestValue></Reference></SignedInfo><SignatureValue>kUsQTuWGHuMTxlINnre0Lt5/xvH3aMV8urrGvpXsY425zmkHud2KUrcmmsgpjGmvfG+AOoWrqXZIvk+wHhtiJ3Wria95Sn5ST3zEFFTEYZI5d/vhWU0eX4CVrb32S0SHeiH9Kf/wsptUyeq4U1hU4vqbBG1zvKxspjS2HQXft1U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mhl3bIbpyj/Gy+2FEorULfHAP6Fs7tjTqd4rdQn2vLXcp4KJC8Nz5kS++17cuDjAOvhuh5rRaNbDb9Gl9lyB6PE8WX2gFrbTyoJsqUdEHw/3883dFFioQPWmXKz9MnkpfJIe8CLydA65i0kZfUYbC6gFQazlwDw0lFbuUZeLic8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a06b446089dc39c8984fb30a96bcdfe67e5065ad" Description="" Url=""><as:assemblyIdentity name="Update Livebook.exe" version="1.0.0.71" publicKeyToken="358cd5fc188a8430" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NESTINVEST\raphael</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cWBKCPOAWRMUpS5b4ZFW4pkqEBk=</DigestValue></Reference></SignedInfo><SignatureValue>MovrWuqkwR9mY/qMyOoivvcA659q1GZAgR6TLsLHobv2yt5Qg9pBxz0Fz/XbA1BuCgunp/Itk4fW9ObpJV8HfHxbD0v7b2bfIXvEM0UOyAL58wEhL9MBWBee46UlommJJJbWfuZBziFNgyFYNmWWVaBEwYSGUsuWDu15oFwq+/k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mhl3bIbpyj/Gy+2FEorULfHAP6Fs7tjTqd4rdQn2vLXcp4KJC8Nz5kS++17cuDjAOvhuh5rRaNbDb9Gl9lyB6PE8WX2gFrbTyoJsqUdEHw/3883dFFioQPWmXKz9MnkpfJIe8CLydA65i0kZfUYbC6gFQazlwDw0lFbuUZeLic8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUagAwIBAgIQW7H1A6zRirlHB5SaIwropDAJBgUrDgMCHQUAMC8xLTArBgNVBAMeJABOAEUAUwBUAEkATgBWAEUAUwBUAFwAcgBhAHAAaABhAGUAbDAeFw0wOTAxMDIxMjI3MTFaFw0xMDAxMDIxODI3MTFaMC8xLTArBgNVBAMeJABOAEUAUwBUAEkATgBWAEUAUwBUAFwAcgBhAHAAaABhAGUAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmhl3bIbpyj/Gy+2FEorULfHAP6Fs7tjTqd4rdQn2vLXcp4KJC8Nz5kS++17cuDjAOvhuh5rRaNbDb9Gl9lyB6PE8WX2gFrbTyoJsqUdEHw/3883dFFioQPWmXKz9MnkpfJIe8CLydA65i0kZfUYbC6gFQazlwDw0lFbuUZeLic8CAwEAATAJBgUrDgMCHQUAA4GBAE+4vK+FfcHuwPNvYuAYAqz8MOGzku7BcyDXdZfKZHpU6tTEdJhCi7XQQ2K6yvXFle8uCx3i6io0qMw8tviPNUDK4bBmxFvIkjBn/Q4F/A+nPpAsD5VBARk/hEHw3bHm6X9bUbjT7Hdx7WHKz/RPs/rA68c3NSAEFmWqAkyLTIBo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
